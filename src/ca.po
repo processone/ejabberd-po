@@ -46,7 +46,7 @@ msgstr "Una descripció del node"
 msgid "A friendly name for the node"
 msgstr "Un nom per al node"
 
-#: src/mod_muc_room.erl:2157
+#: src/mod_muc_room.erl:2158
 msgid "A password is required to enter this room"
 msgstr "Es necessita contrasenya per a entrar en aquesta sala"
 
@@ -122,7 +122,7 @@ msgstr "Administració"
 msgid "Administration of "
 msgstr "Administració de "
 
-#: src/mod_muc_room.erl:2801
+#: src/mod_muc_room.erl:2802
 msgid "Administrator privileges required"
 msgstr "Es necessita tenir privilegis d'administrador"
 
@@ -355,7 +355,7 @@ msgstr "Canviar Contrasenya d'Usuari"
 msgid "Changing password is not allowed"
 msgstr "No està permès canviar la contrasenya"
 
-#: src/mod_muc_room.erl:3060
+#: src/mod_muc_room.erl:3061
 msgid "Changing role/affiliation is not allowed"
 msgstr "No està permès canviar el rol/afiliació"
 
@@ -395,7 +395,7 @@ msgstr "La sala s'ha iniciat"
 msgid "Chatroom is stopped"
 msgstr "La sala s'ha aturat"
 
-#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1243
+#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1247
 msgid "Chatrooms"
 msgstr "Sales de xat"
 
@@ -436,7 +436,7 @@ msgstr "La sala de conferències no existeix"
 msgid "Configuration"
 msgstr "Configuració"
 
-#: src/mod_muc_room.erl:3499
+#: src/mod_muc_room.erl:3509
 msgid "Configuration of room ~s"
 msgstr "Configuració de la sala ~s"
 
@@ -572,7 +572,8 @@ msgid "Dump to Text File"
 msgstr "Exportar a fitxer de text"
 
 #: src/mod_roster.erl:175
-msgid "Duplicated groups are not allowed by RFC6121"
+#, fuzzy
+msgid "Duplicated groups are not allowed by RFC 6121"
 msgstr "No estan permesos els grups duplicats al RFC6121"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -584,7 +585,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Editar propietats"
 
-#: src/mod_muc_room.erl:4412
+#: src/mod_muc_room.erl:4422
 msgid "Either approve or decline the voice request."
 msgstr "Aprova o denega la petició de veu."
 
@@ -684,7 +685,7 @@ msgstr "Entrada a la FAQ"
 msgid "Failed to activate bytestream"
 msgstr "Errada al activar bytestream"
 
-#: src/mod_muc_room.erl:1137
+#: src/mod_muc_room.erl:1138
 msgid "Failed to extract JID from your voice request approval"
 msgstr "No s'ha pogut extraure el JID de la teva aprovació de petició de veu"
 
@@ -696,7 +697,7 @@ msgstr "Ha fallat mapejar la delegació de l'espai de noms al component extern"
 msgid "Failed to parse HTTP response"
 msgstr "Ha fallat el processat de la resposta HTTP"
 
-#: src/mod_muc_room.erl:3642
+#: src/mod_muc_room.erl:3652
 msgid "Failed to process option '~s'"
 msgstr "Ha fallat el processat de la opció '~s'"
 
@@ -861,18 +862,18 @@ msgstr "Tipus de missatge incorrecte"
 msgid "Incoming s2s Connections:"
 msgstr "Connexions s2s d'entrada:"
 
-#: src/mod_register.erl:197 src/mod_muc_room.erl:4178
+#: src/mod_register.erl:197 src/mod_muc_room.erl:4188
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
 msgstr "El CAPTCHA proporcionat és incorrecte"
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
-#: src/mod_muc_room.erl:3383 src/mod_vcard.erl:267
+#: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
 msgid "Incorrect data form"
 msgstr "El formulari de dades és incorrecte"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
-#: src/mod_muc_room.erl:2207
+#: src/mod_muc_room.erl:2208
 msgid "Incorrect password"
 msgstr "Contrasenya incorrecta"
 
@@ -906,15 +907,15 @@ msgstr "Atribut 'from' invàlid al missatge reenviat"
 msgid "Invalid 'previd' value"
 msgstr "Valor no vàlid de 'previd'"
 
-#: src/mod_muc_room.erl:4095
+#: src/mod_muc_room.erl:4105
 msgid "Invalid node name"
 msgstr "Nom de node no vàlid"
 
-#: src/mod_muc_room.erl:4457
+#: src/mod_muc_room.erl:4467
 msgid "Invitations are not allowed in this conference"
 msgstr "Les invitacions no estan permeses en aquesta sala de conferència"
 
-#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1302
+#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -922,11 +923,11 @@ msgstr ""
 "No està permés enviar missatges d'error a la sala. El participant (~s) ha "
 "enviat un missatge d'error (~s) i ha sigut expulsat de la sala"
 
-#: src/mod_muc_room.erl:568 src/mod_muc_room.erl:579
+#: src/mod_muc_room.erl:569 src/mod_muc_room.erl:580
 msgid "It is not allowed to send private messages"
 msgstr "No està permés enviar missatges privats"
 
-#: src/mod_muc_room.erl:536
+#: src/mod_muc_room.erl:537
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "No està permés enviar missatges del tipus \"groupchat\""
 
@@ -1090,7 +1091,7 @@ msgstr "Membres no afegits (perquè el vhost no existeix): "
 msgid "Members:"
 msgstr "Membre:"
 
-#: src/mod_muc_room.erl:2094
+#: src/mod_muc_room.erl:2095
 msgid "Membership is required to enter this room"
 msgstr "Necessites ser membre d'aquesta sala per a poder entrar"
 
@@ -1146,8 +1147,8 @@ msgstr "Interval mínim entre peticions de veu (en segons)"
 msgid "Moderator"
 msgstr "Moderador"
 
-#: src/mod_muc_room.erl:2809 src/mod_muc_room.erl:4232
-#: src/mod_muc_room.erl:4283 src/mod_muc_room.erl:4329
+#: src/mod_muc_room.erl:2810 src/mod_muc_room.erl:4242
+#: src/mod_muc_room.erl:4293 src/mod_muc_room.erl:4339
 msgid "Moderator privileges required"
 msgstr "Es necessita tenir privilegis de moderador"
 
@@ -1178,7 +1179,8 @@ msgid "Multicast"
 msgstr "Multicast"
 
 #: src/mod_roster.erl:190
-msgid "Multiple <item/> elements are not allowed by RFC6121"
+#, fuzzy
+msgid "Multiple <item/> elements are not allowed by RFC 6121"
 msgstr "No estan permesos múltiples elements <item/> per RFC6121"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1203,11 +1205,11 @@ msgstr "Llengua natural per a les discussions a les sales"
 msgid "Natural-Language Room Name"
 msgstr "Nom de la sala a la seua llengua natural"
 
-#: src/mod_muc_room.erl:2987
+#: src/mod_muc_room.erl:2988
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "No s'han trobat els atributs 'jid' ni 'nick'"
 
-#: src/mod_muc_room.erl:2791 src/mod_muc_room.erl:2992
+#: src/mod_muc_room.erl:2792 src/mod_muc_room.erl:2993
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "No s'han trobat els atributs 'role' ni 'affiliation'"
 
@@ -1231,20 +1233,20 @@ msgstr "Sobrenom"
 msgid "Nickname Registration at "
 msgstr "Registre del sobrenom en "
 
-#: src/mod_muc_room.erl:1251 src/mod_muc_room.erl:2115
-#: src/mod_muc_room.erl:4253
+#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
+#: src/mod_muc_room.erl:4263
 msgid "Nickname can't be empty"
 msgstr "El sobrenom no pot estar buit"
 
-#: src/mod_muc_room.erl:3004
+#: src/mod_muc_room.erl:3005
 msgid "Nickname ~s does not exist in the room"
 msgstr "El sobrenom ~s no existeix a la sala"
 
-#: src/mod_muc_room.erl:3406
+#: src/mod_muc_room.erl:3407
 msgid "No 'affiliation' attribute found"
 msgstr "No s'ha trobat l'atribut 'affiliation'"
 
-#: src/mod_muc_room.erl:2773
+#: src/mod_muc_room.erl:2774
 msgid "No 'item' element found"
 msgstr "No s'ha trobat cap element 'item'"
 
@@ -1262,7 +1264,7 @@ msgstr "No s'ha trobat 'password' en esta petició"
 msgid "No 'path' found in data form"
 msgstr "No s'ha trobat 'path' en el formulari de dades"
 
-#: src/mod_muc_room.erl:4453
+#: src/mod_muc_room.erl:4463
 msgid "No 'to' attribute found in the invitation"
 msgstr "No s'ha trobat l'atribut 'to' en la invitació"
 
@@ -1290,7 +1292,7 @@ msgstr "No s'ha trobat un recurs disponible"
 msgid "No body provided for announce message"
 msgstr "No hi ha proveedor per al missatge anunci"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1160
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1161
 msgid "No child elements found"
 msgstr "No s'han trobat subelements"
 
@@ -1314,7 +1316,7 @@ msgstr "No s'ha trobat informació de l'ultima activitat"
 msgid "No items found in this query"
 msgstr "En aquesta petició no s'ha trobat cap element"
 
-#: src/mod_muc_room.erl:3517 deps/xmpp/src/muc_roomconfig.erl:1736
+#: src/mod_muc_room.erl:3527 deps/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
 msgstr "Sense Llímit"
 
@@ -1379,7 +1381,7 @@ msgstr "Index de node no trobat"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
 #: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
-#: src/mod_muc_room.erl:4165 src/nodetree_tree_sql.erl:126
+#: src/mod_muc_room.erl:4175 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
 msgstr "Node no trobat"
@@ -1531,26 +1533,26 @@ msgstr "Sols enviar notificacions als usuaris disponibles"
 msgid "Only members may query archives of this room"
 msgstr "Només membres poden consultar l'arxiu de missatges d'aquesta sala"
 
-#: src/mod_muc_room.erl:1000
+#: src/mod_muc_room.erl:1001
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr ""
 "Només els moderadors i participants poden canviar el tema d'aquesta sala"
 
-#: src/mod_muc_room.erl:1005
+#: src/mod_muc_room.erl:1006
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Només els moderadors poden canviar el tema d'aquesta sala"
 
-#: src/mod_muc_room.erl:1144
+#: src/mod_muc_room.erl:1145
 msgid "Only moderators can approve voice requests"
 msgstr "Només els moderadors poden aprovar les peticions de veu"
 
-#: src/mod_muc_room.erl:574 src/mod_muc_room.erl:1019 src/mod_muc_room.erl:4522
+#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1020 src/mod_muc_room.erl:4532
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Sols els ocupants poden enviar missatges a la sala"
 
-#: src/mod_muc_room.erl:620
+#: src/mod_muc_room.erl:621
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Sols els ocupants poden enviar sol·licituds a la sala"
 
@@ -1600,8 +1602,8 @@ msgstr "Connexions d'eixida s2s:"
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
 #: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3353 src/mod_muc_room.erl:3398
-#: src/mod_muc_room.erl:4208
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
+#: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
 msgstr "Es requerixen privilegis de propietari de la sala"
 
@@ -1686,7 +1688,7 @@ msgstr ""
 "dades Mnesia. Si estàs utilitzant el mòdul d'ODBC també deus de fer una "
 "còpia de seguretat de la base de dades de SQL a part."
 
-#: src/mod_muc_room.erl:1105
+#: src/mod_muc_room.erl:1106
 msgid "Please, wait for a while before sending new voice request"
 msgstr "Si us plau, espera una mica abans d'enviar una nova petició de veu"
 
@@ -1695,7 +1697,8 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-msgid "Possessing 'ask' attribute is not allowed by RFC6121"
+#, fuzzy
+msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
 msgstr "Processar l'atribut 'ask' no està permès per RFC6121"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -1746,7 +1749,7 @@ msgstr "Eliminar tots els elements quan el publicant relevant es desconnecti"
 msgid "Push record not found"
 msgstr "No s'ha trobat l'element Push"
 
-#: src/mod_muc_room.erl:615
+#: src/mod_muc_room.erl:616
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "En aquesta sala no es permeten sol·licituds als membres"
 
@@ -1788,7 +1791,7 @@ msgstr "Rebre notificació només de nous elements"
 msgid "Receive notification of new nodes only"
 msgstr "Rebre notificació només de nous nodes"
 
-#: src/mod_muc_room.erl:543 src/mod_muc_room.erl:592
+#: src/mod_muc_room.erl:544 src/mod_muc_room.erl:593
 msgid "Recipient is not in the conference room"
 msgstr "El receptor no està en la sala de conferència"
 
@@ -1830,11 +1833,11 @@ msgid "Replaced by new connection"
 msgstr "Reemplaçat per una nova connexió"
 
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
-#: src/mod_muc_room.erl:855
+#: src/mod_muc_room.erl:856
 msgid "Request has timed out"
 msgstr "La petició ha caducat"
 
-#: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
+#: src/mod_muc_room.erl:745 src/mod_muc_room.erl:760
 msgid "Request is ignored"
 msgstr "La petició ha sigut ignorada"
 
@@ -1907,7 +1910,7 @@ msgstr "Se t'ha denegat el crear la sala per política del servei"
 msgid "Room description"
 msgstr "Descripció de la sala"
 
-#: src/mod_muc_room.erl:882
+#: src/mod_muc_room.erl:883
 msgid "Room terminates"
 msgstr "La sala està terminant"
 
@@ -2140,7 +2143,7 @@ msgstr ""
 "Les peticiones de subscripció han de ser aprovades i només els subscriptors "
 "poden recuperar elements"
 
-#: src/mod_muc_room.erl:4219
+#: src/mod_muc_room.erl:4229
 msgid "Subscriptions are not allowed"
 msgstr "Les subscripcions no estan permeses"
 
@@ -2164,13 +2167,13 @@ msgstr "Text associat amb un vídeo"
 msgid "Text associated with speech"
 msgstr "Text associat amb una veu"
 
-#: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
-#: src/mod_muc_room.erl:4248
+#: src/mod_muc_room.erl:1243 src/mod_muc_room.erl:2105
+#: src/mod_muc_room.erl:4258
 msgid "That nickname is already in use by another occupant"
 msgstr "El sobrenom ja l'està utilitzant una altra persona"
 
-#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1254 src/mod_muc_room.erl:2118
-#: src/mod_muc_room.erl:4256
+#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1255 src/mod_muc_room.erl:2119
+#: src/mod_muc_room.erl:4266
 msgid "That nickname is registered by another person"
 msgstr "El sobrenom ja està registrat per una altra persona"
 
@@ -2179,7 +2182,7 @@ msgid "The CAPTCHA is valid."
 msgstr "El CAPTCHA es vàlid."
 
 #: src/mod_block_strangers.erl:150 src/mod_register.erl:200
-#: src/mod_muc_room.erl:836 src/mod_muc_room.erl:4181
+#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4191
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
 msgstr "La verificació CAPTCHA ha fallat"
@@ -2442,7 +2445,7 @@ msgstr ""
 "Massa autenticacions (~p) han fallat des d'aquesta adreça IP (~s). L'adreça "
 "serà desbloquejada en ~s UTC"
 
-#: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
+#: src/mod_muc_room.erl:2779 src/mod_muc_room.erl:3413
 msgid "Too many <item/> elements"
 msgstr "N'hi ha massa elements <item/>"
 
@@ -2451,7 +2454,7 @@ msgid "Too many <list/> elements"
 msgstr "N'hi ha massa elements <list/>"
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
-#: src/mod_muc_room.erl:2188
+#: src/mod_muc_room.erl:2189
 msgid "Too many CAPTCHA requests"
 msgstr "Massa peticions de CAPTCHA"
 
@@ -2459,7 +2462,7 @@ msgstr "Massa peticions de CAPTCHA"
 msgid "Too many active bytestreams"
 msgstr "N'hi ha massa Bytestreams actius"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1162
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1163
 msgid "Too many child elements"
 msgstr "N'hi ha massa subelements"
 
@@ -2471,7 +2474,7 @@ msgstr "S'han especificat massa camps de receptors"
 msgid "Too many unacked stanzas"
 msgstr "Massa missatges sense haver reconegut la seva recepció"
 
-#: src/mod_muc_room.erl:2063
+#: src/mod_muc_room.erl:2064
 msgid "Too many users in this conference"
 msgstr "N'hi ha massa usuaris en esta sala de conferència"
 
@@ -2508,7 +2511,7 @@ msgid "URL for Archived Discussion Logs"
 msgstr "URL dels Arxius de Discussions"
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:253
-#: src/mod_muc_room.erl:2197
+#: src/mod_muc_room.erl:2198
 msgid "Unable to generate a CAPTCHA"
 msgstr "No s'ha pogut generar un CAPTCHA"
 
@@ -2588,8 +2591,9 @@ msgid "User"
 msgstr "Usuari"
 
 #: src/ejabberd_oauth.erl:499
-msgid "User (jid)"
-msgstr "Usuari (jid)"
+#, fuzzy
+msgid "User (JID)"
+msgstr "JID del usuari"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2642,7 +2646,7 @@ msgid "Validate"
 msgstr "Validar"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4171 src/mod_muc_room.erl:4333
+#: src/mod_muc_room.erl:4181 src/mod_muc_room.erl:4343
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "El valor 'get' a l'atribut 'type' no és permès"
@@ -2655,8 +2659,8 @@ msgstr "El valor 'get' a l'atribut 'type' no és permès"
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
 #: src/mod_stun_disco.erl:478 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4075
-#: src/mod_muc_room.erl:4146 src/mod_version.erl:53 src/mod_vcard.erl:205
+#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4085
+#: src/mod_muc_room.erl:4156 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "El valor 'set' a l'atribut 'type' no és permès"
@@ -2690,19 +2694,19 @@ msgstr "Hosts virtuals"
 msgid "Visitor"
 msgstr "Visitant"
 
-#: src/mod_muc_room.erl:1235
+#: src/mod_muc_room.erl:1236
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Els visitants no tenen permés canviar el seus Nicknames en esta sala"
 
-#: src/mod_muc_room.erl:1012
+#: src/mod_muc_room.erl:1013
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Els visitants no poden enviar missatges a tots els ocupants"
 
-#: src/mod_muc_room.erl:4410
+#: src/mod_muc_room.erl:4420
 msgid "Voice request"
 msgstr "Petició de veu"
 
-#: src/mod_muc_room.erl:1112
+#: src/mod_muc_room.erl:1113
 msgid "Voice requests are disabled in this conference"
 msgstr "Les peticions de veu es troben desactivades en aquesta conferència"
 
@@ -2826,7 +2830,7 @@ msgstr "Registre de compte XMPP"
 msgid "XMPP account unregistered."
 msgstr "Registre de compte XMPP"
 
-#: src/mod_muc_room.erl:880
+#: src/mod_muc_room.erl:881
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "Has sigut expulsat de la sala perquè el sistema va a apagar-se"
 
@@ -2840,11 +2844,11 @@ msgid "You can change your password using an XMPP client later."
 msgstr ""
 "Podràs canviar la teva contrasenya més endavant utilitzant un client XMPP."
 
-#: src/mod_muc_room.erl:2091
+#: src/mod_muc_room.erl:2092
 msgid "You have been banned from this room"
 msgstr "Has sigut bloquejat en aquesta sala"
 
-#: src/mod_muc_room.erl:2072
+#: src/mod_muc_room.erl:2073
 msgid "You have joined too many conferences"
 msgstr "Has entrat en massa sales de conferència"
 
@@ -2954,11 +2958,11 @@ msgstr "entra a la sala"
 msgid "leaves the room"
 msgstr "surt de la sala"
 
-#: src/mod_muc_room.erl:4389
+#: src/mod_muc_room.erl:4399
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:4486
+#: src/mod_muc_room.erl:4496
 msgid "the password is"
 msgstr "la contrasenya és"
 
@@ -2966,13 +2970,16 @@ msgstr "la contrasenya és"
 msgid "vCard User Search"
 msgstr "vCard recerca d'usuari"
 
-#: src/mod_muc_room.erl:4479
+#: src/mod_muc_room.erl:4489
 msgid "~s invites you to the room ~s"
 msgstr "~s et convida a la sala ~s"
 
 #: src/mod_offline.erl:991
 msgid "~ts's Offline Messages Queue"
 msgstr "~ts's cua de missatges offline"
+
+#~ msgid "User (jid)"
+#~ msgstr "Usuari (jid)"
 
 #~ msgid "The captcha you entered is wrong"
 #~ msgstr "El CAPTCHA que has proporcionat és incorrecte"

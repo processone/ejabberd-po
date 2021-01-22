@@ -48,7 +48,7 @@ msgstr "该节点的友好名称"
 msgid "A friendly name for the node"
 msgstr "该节点的友好名称"
 
-#: src/mod_muc_room.erl:2157
+#: src/mod_muc_room.erl:2158
 msgid "A password is required to enter this room"
 msgstr "进入此房间需要密码"
 
@@ -127,7 +127,7 @@ msgstr "管理"
 msgid "Administration of "
 msgstr "管理"
 
-#: src/mod_muc_room.erl:2801
+#: src/mod_muc_room.erl:2802
 msgid "Administrator privileges required"
 msgstr "需要管理员权限"
 
@@ -352,7 +352,7 @@ msgstr "更改用户密码"
 msgid "Changing password is not allowed"
 msgstr "不允许修改密码"
 
-#: src/mod_muc_room.erl:3060
+#: src/mod_muc_room.erl:3061
 msgid "Changing role/affiliation is not allowed"
 msgstr "不允许修改角色/单位"
 
@@ -394,7 +394,7 @@ msgstr "聊天室已被启动"
 msgid "Chatroom is stopped"
 msgstr "聊天室已被停用"
 
-#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1243
+#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1247
 msgid "Chatrooms"
 msgstr "聊天室"
 
@@ -435,7 +435,7 @@ msgstr "会议室不存在"
 msgid "Configuration"
 msgstr "配置"
 
-#: src/mod_muc_room.erl:3499
+#: src/mod_muc_room.erl:3509
 #, fuzzy
 msgid "Configuration of room ~s"
 msgstr "房间~s的配置 "
@@ -574,7 +574,8 @@ msgid "Dump to Text File"
 msgstr "转储到文本文件"
 
 #: src/mod_roster.erl:175
-msgid "Duplicated groups are not allowed by RFC6121"
+#, fuzzy
+msgid "Duplicated groups are not allowed by RFC 6121"
 msgstr "按照RFC6121，不允许有重复组"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -585,7 +586,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "编辑属性"
 
-#: src/mod_muc_room.erl:4412
+#: src/mod_muc_room.erl:4422
 msgid "Either approve or decline the voice request."
 msgstr "接受或拒绝声音请求"
 
@@ -685,7 +686,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr "激活字节流失败"
 
-#: src/mod_muc_room.erl:1137
+#: src/mod_muc_room.erl:1138
 msgid "Failed to extract JID from your voice request approval"
 msgstr "无法从你的声音请求确认信息中提取JID"
 
@@ -697,7 +698,7 @@ msgstr "未能将代理命名空间映射到外部组件"
 msgid "Failed to parse HTTP response"
 msgstr "HTTP响应解析失败"
 
-#: src/mod_muc_room.erl:3642
+#: src/mod_muc_room.erl:3652
 msgid "Failed to process option '~s'"
 msgstr "选项'~s'处理失败"
 
@@ -868,18 +869,18 @@ msgstr "不恰当的消息类型"
 msgid "Incoming s2s Connections:"
 msgstr "入站 s2s 连接:"
 
-#: src/mod_register.erl:197 src/mod_muc_room.erl:4178
+#: src/mod_register.erl:197 src/mod_muc_room.erl:4188
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
 msgstr "提交的验证码不正确"
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
-#: src/mod_muc_room.erl:3383 src/mod_vcard.erl:267
+#: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
 msgid "Incorrect data form"
 msgstr "数据形式不正确"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
-#: src/mod_muc_room.erl:2207
+#: src/mod_muc_room.erl:2208
 msgid "Incorrect password"
 msgstr "密码不正确"
 
@@ -914,27 +915,27 @@ msgstr "转发的信息中 'from' 属性的值无效"
 msgid "Invalid 'previd' value"
 msgstr "无效角色: ~s"
 
-#: src/mod_muc_room.erl:4095
+#: src/mod_muc_room.erl:4105
 #, fuzzy
 msgid "Invalid node name"
 msgstr "无效角色: ~s"
 
-#: src/mod_muc_room.erl:4457
+#: src/mod_muc_room.erl:4467
 msgid "Invitations are not allowed in this conference"
 msgstr "此会议不允许邀请"
 
-#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1302
+#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 "不允许将错误消息发送到该房间. 参与者(~s)已发送过一条消息(~s)并已被踢出房间"
 
-#: src/mod_muc_room.erl:568 src/mod_muc_room.erl:579
+#: src/mod_muc_room.erl:569 src/mod_muc_room.erl:580
 msgid "It is not allowed to send private messages"
 msgstr "不可以发送私聊消息"
 
-#: src/mod_muc_room.erl:536
+#: src/mod_muc_room.erl:537
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "\"群组聊天\"类型不允许发送私聊消息"
 
@@ -1099,7 +1100,7 @@ msgstr ""
 msgid "Members:"
 msgstr "会员:"
 
-#: src/mod_muc_room.erl:2094
+#: src/mod_muc_room.erl:2095
 msgid "Membership is required to enter this room"
 msgstr "进入此房间需要会员身份"
 
@@ -1154,8 +1155,8 @@ msgstr "声音请求的最小间隔(以秒为单位)"
 msgid "Moderator"
 msgstr "主持人"
 
-#: src/mod_muc_room.erl:2809 src/mod_muc_room.erl:4232
-#: src/mod_muc_room.erl:4283 src/mod_muc_room.erl:4329
+#: src/mod_muc_room.erl:2810 src/mod_muc_room.erl:4242
+#: src/mod_muc_room.erl:4293 src/mod_muc_room.erl:4339
 msgid "Moderator privileges required"
 msgstr "需要主持人权限"
 
@@ -1187,7 +1188,8 @@ msgid "Multicast"
 msgstr "多重映射"
 
 #: src/mod_roster.erl:190
-msgid "Multiple <item/> elements are not allowed by RFC6121"
+#, fuzzy
+msgid "Multiple <item/> elements are not allowed by RFC 6121"
 msgstr "按照 RFC6121，多个 <item/> 元素是不允许的"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1212,11 +1214,11 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:2987
+#: src/mod_muc_room.erl:2988
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "属性 'jid' 或 'nick' 均未发现"
 
-#: src/mod_muc_room.erl:2791 src/mod_muc_room.erl:2992
+#: src/mod_muc_room.erl:2792 src/mod_muc_room.erl:2993
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "属性 'role' 或 'affiliation' 均未发现"
 
@@ -1240,20 +1242,20 @@ msgstr "昵称"
 msgid "Nickname Registration at "
 msgstr "昵称注册于"
 
-#: src/mod_muc_room.erl:1251 src/mod_muc_room.erl:2115
-#: src/mod_muc_room.erl:4253
+#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
+#: src/mod_muc_room.erl:4263
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3004
+#: src/mod_muc_room.erl:3005
 msgid "Nickname ~s does not exist in the room"
 msgstr "昵称~s不在该房间"
 
-#: src/mod_muc_room.erl:3406
+#: src/mod_muc_room.erl:3407
 msgid "No 'affiliation' attribute found"
 msgstr "未发现 'affiliation' 属性"
 
-#: src/mod_muc_room.erl:2773
+#: src/mod_muc_room.erl:2774
 msgid "No 'item' element found"
 msgstr "没有找到 'item' 元素"
 
@@ -1271,7 +1273,7 @@ msgstr "此查询中未发现 'password'"
 msgid "No 'path' found in data form"
 msgstr "数据表单中未发现 'path'"
 
-#: src/mod_muc_room.erl:4453
+#: src/mod_muc_room.erl:4463
 msgid "No 'to' attribute found in the invitation"
 msgstr "邀请中未发现 'to' 标签"
 
@@ -1302,7 +1304,7 @@ msgstr "没发现可用资源"
 msgid "No body provided for announce message"
 msgstr "通知消息无正文内容"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1160
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1161
 #, fuzzy
 msgid "No child elements found"
 msgstr "没有找到 'item' 元素"
@@ -1327,7 +1329,7 @@ msgstr "未找到上次活动的信息"
 msgid "No items found in this query"
 msgstr "此查询中没发现任何项"
 
-#: src/mod_muc_room.erl:3517 deps/xmpp/src/muc_roomconfig.erl:1736
+#: src/mod_muc_room.erl:3527 deps/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
 msgstr "不限"
 
@@ -1393,7 +1395,7 @@ msgstr "没有找到节点索引"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
 #: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
-#: src/mod_muc_room.erl:4165 src/nodetree_tree_sql.erl:126
+#: src/mod_muc_room.erl:4175 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
 msgstr "没有找到节点"
@@ -1547,25 +1549,25 @@ msgstr "仅将通知发送给可发送的用户"
 msgid "Only members may query archives of this room"
 msgstr "只有会员可以查询本房间的存档"
 
-#: src/mod_muc_room.erl:1000
+#: src/mod_muc_room.erl:1001
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "只有主持人和参与人可以在此房间里更改主题"
 
-#: src/mod_muc_room.erl:1005
+#: src/mod_muc_room.erl:1006
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "只有主持人可以在此房间里更改主题"
 
-#: src/mod_muc_room.erl:1144
+#: src/mod_muc_room.erl:1145
 msgid "Only moderators can approve voice requests"
 msgstr "仅主持人能确认声音请求"
 
-#: src/mod_muc_room.erl:574 src/mod_muc_room.erl:1019 src/mod_muc_room.erl:4522
+#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1020 src/mod_muc_room.erl:4532
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "只有与会人可以向大会发送消息"
 
-#: src/mod_muc_room.erl:620
+#: src/mod_muc_room.erl:621
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "只有与会人可以向大会发出查询请求"
 
@@ -1610,8 +1612,8 @@ msgstr "出站 s2s 连接:"
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
 #: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3353 src/mod_muc_room.erl:3398
-#: src/mod_muc_room.erl:4208
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
+#: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
 msgstr "需要持有人权限"
 
@@ -1697,7 +1699,7 @@ msgstr ""
 "注意：这些选项仅将备份内置的 Mnesia 数据库. 如果您正在使用 ODBC 模块, 您还需"
 "要分别备份您的数据库."
 
-#: src/mod_muc_room.erl:1105
+#: src/mod_muc_room.erl:1106
 msgid "Please, wait for a while before sending new voice request"
 msgstr "请稍后再发送新的声音请求"
 
@@ -1706,7 +1708,8 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-msgid "Possessing 'ask' attribute is not allowed by RFC6121"
+#, fuzzy
+msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
 msgstr "按照 RFC6121， 不允许有 'ask' 属性"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -1760,7 +1763,7 @@ msgstr "相关发布人离线后清除所有选项"
 msgid "Push record not found"
 msgstr "没有找到节点"
 
-#: src/mod_muc_room.erl:615
+#: src/mod_muc_room.erl:616
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "本房间不可以查询会议成员信息"
 
@@ -1802,7 +1805,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:543 src/mod_muc_room.erl:592
+#: src/mod_muc_room.erl:544 src/mod_muc_room.erl:593
 msgid "Recipient is not in the conference room"
 msgstr "接收人不在会议室"
 
@@ -1845,11 +1848,11 @@ msgid "Replaced by new connection"
 msgstr "被新的连接替换"
 
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
-#: src/mod_muc_room.erl:855
+#: src/mod_muc_room.erl:856
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
+#: src/mod_muc_room.erl:745 src/mod_muc_room.erl:760
 msgid "Request is ignored"
 msgstr ""
 
@@ -1921,7 +1924,7 @@ msgstr "创建房间被服务策略拒绝"
 msgid "Room description"
 msgstr "房间描述"
 
-#: src/mod_muc_room.erl:882
+#: src/mod_muc_room.erl:883
 #, fuzzy
 msgid "Room terminates"
 msgstr "房间标题"
@@ -2154,7 +2157,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4219
+#: src/mod_muc_room.erl:4229
 msgid "Subscriptions are not allowed"
 msgstr "不允许订阅"
 
@@ -2178,13 +2181,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
-#: src/mod_muc_room.erl:4248
+#: src/mod_muc_room.erl:1243 src/mod_muc_room.erl:2105
+#: src/mod_muc_room.erl:4258
 msgid "That nickname is already in use by another occupant"
 msgstr "该昵称已被另一用户使用"
 
-#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1254 src/mod_muc_room.erl:2118
-#: src/mod_muc_room.erl:4256
+#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1255 src/mod_muc_room.erl:2119
+#: src/mod_muc_room.erl:4266
 msgid "That nickname is registered by another person"
 msgstr "该昵称已被另一个人注册了"
 
@@ -2193,7 +2196,7 @@ msgid "The CAPTCHA is valid."
 msgstr "验证码有效."
 
 #: src/mod_block_strangers.erl:150 src/mod_register.erl:200
-#: src/mod_muc_room.erl:836 src/mod_muc_room.erl:4181
+#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4191
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
 msgstr "验证码检查失败"
@@ -2440,7 +2443,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr "来自IP地址(~p)的(~s)失败认证太多. 该地址将在UTC时间~s被禁用."
 
-#: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
+#: src/mod_muc_room.erl:2779 src/mod_muc_room.erl:3413
 msgid "Too many <item/> elements"
 msgstr "太多 <item/> 元素"
 
@@ -2449,7 +2452,7 @@ msgid "Too many <list/> elements"
 msgstr "太多 <list/> 元素"
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
-#: src/mod_muc_room.erl:2188
+#: src/mod_muc_room.erl:2189
 msgid "Too many CAPTCHA requests"
 msgstr "验证码请求太多"
 
@@ -2457,7 +2460,7 @@ msgstr "验证码请求太多"
 msgid "Too many active bytestreams"
 msgstr "活跃的字节流太多"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1162
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1163
 #, fuzzy
 msgid "Too many child elements"
 msgstr "太多 <item/> 元素"
@@ -2470,7 +2473,7 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr "未被确认的节太多"
 
-#: src/mod_muc_room.erl:2063
+#: src/mod_muc_room.erl:2064
 msgid "Too many users in this conference"
 msgstr "该会议的用户太多"
 
@@ -2507,7 +2510,7 @@ msgid "URL for Archived Discussion Logs"
 msgstr ""
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:253
-#: src/mod_muc_room.erl:2197
+#: src/mod_muc_room.erl:2198
 msgid "Unable to generate a CAPTCHA"
 msgstr "无法生成验证码"
 
@@ -2590,8 +2593,9 @@ msgid "User"
 msgstr "用户"
 
 #: src/ejabberd_oauth.erl:499
-msgid "User (jid)"
-msgstr "用户 (jid)"
+#, fuzzy
+msgid "User (JID)"
+msgstr "用户JID"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2645,7 +2649,7 @@ msgid "Validate"
 msgstr "确认"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4171 src/mod_muc_room.erl:4333
+#: src/mod_muc_room.erl:4181 src/mod_muc_room.erl:4343
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "不允许 'type' 属性的 'get' 值"
@@ -2658,8 +2662,8 @@ msgstr "不允许 'type' 属性的 'get' 值"
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
 #: src/mod_stun_disco.erl:478 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4075
-#: src/mod_muc_room.erl:4146 src/mod_version.erl:53 src/mod_vcard.erl:205
+#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4085
+#: src/mod_muc_room.erl:4156 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "不允许 'type' 属性的 'set' 值"
@@ -2694,19 +2698,19 @@ msgstr "虚拟主机"
 msgid "Visitor"
 msgstr "访客"
 
-#: src/mod_muc_room.erl:1235
+#: src/mod_muc_room.erl:1236
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "此房间不允许用户更改昵称"
 
-#: src/mod_muc_room.erl:1012
+#: src/mod_muc_room.erl:1013
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "不允许访客给所有占有者发送消息"
 
-#: src/mod_muc_room.erl:4410
+#: src/mod_muc_room.erl:4420
 msgid "Voice request"
 msgstr "声音请求"
 
-#: src/mod_muc_room.erl:1112
+#: src/mod_muc_room.erl:1113
 msgid "Voice requests are disabled in this conference"
 msgstr "该会议的声音请求已被禁用"
 
@@ -2827,7 +2831,7 @@ msgstr "XMPP帐户注册"
 msgid "XMPP account unregistered."
 msgstr "XMPP帐户注册"
 
-#: src/mod_muc_room.erl:880
+#: src/mod_muc_room.erl:881
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "因系统关机而被踢出"
@@ -2842,11 +2846,11 @@ msgstr "您不可以创建节点"
 msgid "You can change your password using an XMPP client later."
 msgstr "你可以稍后用XMPP客户端修改你的密码."
 
-#: src/mod_muc_room.erl:2091
+#: src/mod_muc_room.erl:2092
 msgid "You have been banned from this room"
 msgstr "您已被禁止进入该房间"
 
-#: src/mod_muc_room.erl:2072
+#: src/mod_muc_room.erl:2073
 msgid "You have joined too many conferences"
 msgstr "您加入的会议太多"
 
@@ -2951,11 +2955,11 @@ msgstr "加入房间"
 msgid "leaves the room"
 msgstr "离开房间"
 
-#: src/mod_muc_room.erl:4389
+#: src/mod_muc_room.erl:4399
 msgid "private, "
 msgstr "保密, "
 
-#: src/mod_muc_room.erl:4486
+#: src/mod_muc_room.erl:4496
 msgid "the password is"
 msgstr "密码是"
 
@@ -2963,7 +2967,7 @@ msgstr "密码是"
 msgid "vCard User Search"
 msgstr "vCard用户搜索"
 
-#: src/mod_muc_room.erl:4479
+#: src/mod_muc_room.erl:4489
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s邀请你到房间~s"
@@ -2972,6 +2976,9 @@ msgstr "~s邀请你到房间~s"
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "~s的离线消息队列"
+
+#~ msgid "User (jid)"
+#~ msgstr "用户 (jid)"
 
 #, fuzzy
 #~ msgid "The password of your XMPP account was successfully changed."

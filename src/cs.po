@@ -50,7 +50,7 @@ msgstr "Přívětivé jméno pro uzel"
 msgid "A friendly name for the node"
 msgstr "Přívětivé jméno pro uzel"
 
-#: src/mod_muc_room.erl:2157
+#: src/mod_muc_room.erl:2158
 msgid "A password is required to enter this room"
 msgstr "Pro vstup do místnosti musíte zadat heslo"
 
@@ -129,7 +129,7 @@ msgstr "Administrace"
 msgid "Administration of "
 msgstr "Administrace "
 
-#: src/mod_muc_room.erl:2801
+#: src/mod_muc_room.erl:2802
 msgid "Administrator privileges required"
 msgstr "Potřebujete práva administrátora"
 
@@ -354,7 +354,7 @@ msgstr "Změnit heslo uživatele"
 msgid "Changing password is not allowed"
 msgstr "Změna hesla není povolena"
 
-#: src/mod_muc_room.erl:3060
+#: src/mod_muc_room.erl:3061
 msgid "Changing role/affiliation is not allowed"
 msgstr "Změna role/příslušnosti není povolena"
 
@@ -396,7 +396,7 @@ msgstr "Místnost spuštěna"
 msgid "Chatroom is stopped"
 msgstr "Místnost zastavena"
 
-#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1243
+#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1247
 msgid "Chatrooms"
 msgstr "Místnosti"
 
@@ -437,7 +437,7 @@ msgstr "Místnost neexistuje"
 msgid "Configuration"
 msgstr "Konfigurace"
 
-#: src/mod_muc_room.erl:3499
+#: src/mod_muc_room.erl:3509
 msgid "Configuration of room ~s"
 msgstr "Konfigurace místnosti ~s"
 
@@ -575,7 +575,8 @@ msgid "Dump to Text File"
 msgstr "Uložit do textového souboru"
 
 #: src/mod_roster.erl:175
-msgid "Duplicated groups are not allowed by RFC6121"
+#, fuzzy
+msgid "Duplicated groups are not allowed by RFC 6121"
 msgstr "Duplicitní skupiny nejsou povoleny dle RFC6121"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -586,7 +587,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Upravit vlastnosti"
 
-#: src/mod_muc_room.erl:4412
+#: src/mod_muc_room.erl:4422
 msgid "Either approve or decline the voice request."
 msgstr "Povolit nebo odmítnout voice žádost."
 
@@ -687,7 +688,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr "Chyba při aktivaci bytestreamu"
 
-#: src/mod_muc_room.erl:1137
+#: src/mod_muc_room.erl:1138
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Došlo k chybě při získávání Jabber ID z vaší žádosti o voice práva"
 
@@ -699,7 +700,7 @@ msgstr "Chyba při mapování namespace pro externí komponentu"
 msgid "Failed to parse HTTP response"
 msgstr "Chyba parsování HTTP odpovědi"
 
-#: src/mod_muc_room.erl:3642
+#: src/mod_muc_room.erl:3652
 msgid "Failed to process option '~s'"
 msgstr "Chyba při zpracování možnosti '~s'"
 
@@ -870,18 +871,18 @@ msgstr "Nesprávný typ zprávy"
 msgid "Incoming s2s Connections:"
 msgstr "Příchozí s2s spojení:"
 
-#: src/mod_register.erl:197 src/mod_muc_room.erl:4178
+#: src/mod_register.erl:197 src/mod_muc_room.erl:4188
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
 msgstr "Nesprávné odeslání CAPTCHA"
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
-#: src/mod_muc_room.erl:3383 src/mod_vcard.erl:267
+#: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
 msgid "Incorrect data form"
 msgstr "Nesprávný datový formulář"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
-#: src/mod_muc_room.erl:2207
+#: src/mod_muc_room.erl:2208
 msgid "Incorrect password"
 msgstr "Nesprávné heslo"
 
@@ -916,16 +917,16 @@ msgstr "Nesprávný atribut 'from' v přeposlané zprávě"
 msgid "Invalid 'previd' value"
 msgstr "Neplatná role: ~s"
 
-#: src/mod_muc_room.erl:4095
+#: src/mod_muc_room.erl:4105
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Neplatná role: ~s"
 
-#: src/mod_muc_room.erl:4457
+#: src/mod_muc_room.erl:4467
 msgid "Invitations are not allowed in this conference"
 msgstr "Pozvánky nejsou povoleny v této místnosti"
 
-#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1302
+#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -933,11 +934,11 @@ msgstr ""
 "Není povoleno posílat chybové zprávy do místnosti. Účastník (~s) odeslal "
 "chybovou zprávu (~s) a byl vyhozen z místnosti"
 
-#: src/mod_muc_room.erl:568 src/mod_muc_room.erl:579
+#: src/mod_muc_room.erl:569 src/mod_muc_room.erl:580
 msgid "It is not allowed to send private messages"
 msgstr "Je zakázáno posílat soukromé zprávy"
 
-#: src/mod_muc_room.erl:536
+#: src/mod_muc_room.erl:537
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "Není dovoleno odeslání soukromé zprávy typu \"skupinová zpráva\" "
 
@@ -1101,7 +1102,7 @@ msgstr ""
 msgid "Members:"
 msgstr "Členové:"
 
-#: src/mod_muc_room.erl:2094
+#: src/mod_muc_room.erl:2095
 msgid "Membership is required to enter this room"
 msgstr "Pro vstup do místnosti musíte být členem"
 
@@ -1156,8 +1157,8 @@ msgstr "Minimální interval mezi žádostmi o voice práva (v sekundách)"
 msgid "Moderator"
 msgstr "Moderátor"
 
-#: src/mod_muc_room.erl:2809 src/mod_muc_room.erl:4232
-#: src/mod_muc_room.erl:4283 src/mod_muc_room.erl:4329
+#: src/mod_muc_room.erl:2810 src/mod_muc_room.erl:4242
+#: src/mod_muc_room.erl:4293 src/mod_muc_room.erl:4339
 msgid "Moderator privileges required"
 msgstr "Potřebujete práva moderátora"
 
@@ -1189,7 +1190,8 @@ msgid "Multicast"
 msgstr "Multicast"
 
 #: src/mod_roster.erl:190
-msgid "Multiple <item/> elements are not allowed by RFC6121"
+#, fuzzy
+msgid "Multiple <item/> elements are not allowed by RFC 6121"
 msgstr "Vícenásobný element <item/> není povolen dle RFC6121"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1214,11 +1216,11 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:2987
+#: src/mod_muc_room.erl:2988
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "Nebyl nalezen atribut 'jid' ani 'nick'"
 
-#: src/mod_muc_room.erl:2791 src/mod_muc_room.erl:2992
+#: src/mod_muc_room.erl:2792 src/mod_muc_room.erl:2993
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Nebyl nalezen atribut 'role'  ani 'affiliation'"
 
@@ -1242,20 +1244,20 @@ msgstr "Přezdívka"
 msgid "Nickname Registration at "
 msgstr "Registrace přezdívky na "
 
-#: src/mod_muc_room.erl:1251 src/mod_muc_room.erl:2115
-#: src/mod_muc_room.erl:4253
+#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
+#: src/mod_muc_room.erl:4263
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3004
+#: src/mod_muc_room.erl:3005
 msgid "Nickname ~s does not exist in the room"
 msgstr "Přezdívka ~s v místnosti neexistuje"
 
-#: src/mod_muc_room.erl:3406
+#: src/mod_muc_room.erl:3407
 msgid "No 'affiliation' attribute found"
 msgstr "Chybějící atribut 'affiliation'"
 
-#: src/mod_muc_room.erl:2773
+#: src/mod_muc_room.erl:2774
 msgid "No 'item' element found"
 msgstr "Element 'item' nebyl nalezen"
 
@@ -1273,7 +1275,7 @@ msgstr "Chybějící atribut 'password' v tomto dotazu"
 msgid "No 'path' found in data form"
 msgstr "Chybějící atribut 'path' v datovém formuláři"
 
-#: src/mod_muc_room.erl:4453
+#: src/mod_muc_room.erl:4463
 msgid "No 'to' attribute found in the invitation"
 msgstr "Chybějící atribut 'to' v pozvánce"
 
@@ -1304,7 +1306,7 @@ msgstr "Nebyl nalezen žádný dostupný zdroj"
 msgid "No body provided for announce message"
 msgstr "Zpráva neobsahuje text"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1160
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1161
 #, fuzzy
 msgid "No child elements found"
 msgstr "Element 'item' nebyl nalezen"
@@ -1329,7 +1331,7 @@ msgstr "Nebyla žádná informace o poslední aktivitě"
 msgid "No items found in this query"
 msgstr "Žádné položky nebyly nalezeny v tomto dotazu"
 
-#: src/mod_muc_room.erl:3517 deps/xmpp/src/muc_roomconfig.erl:1736
+#: src/mod_muc_room.erl:3527 deps/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
 msgstr "Bez limitu"
 
@@ -1395,7 +1397,7 @@ msgstr "Index uzlu nebyl nalezen"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
 #: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
-#: src/mod_muc_room.erl:4165 src/nodetree_tree_sql.erl:126
+#: src/mod_muc_room.erl:4175 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
 msgstr "Uzel nenalezen"
@@ -1549,25 +1551,25 @@ msgstr "Doručovat upozornění jen právě přihlášeným uživatelům"
 msgid "Only members may query archives of this room"
 msgstr "Pouze moderátoři mají povoleno měnit téma místnosti"
 
-#: src/mod_muc_room.erl:1000
+#: src/mod_muc_room.erl:1001
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "Jen moderátoři a účastníci mají povoleno měnit téma této místnosti"
 
-#: src/mod_muc_room.erl:1005
+#: src/mod_muc_room.erl:1006
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Jen moderátoři mají povoleno měnit téma místnosti"
 
-#: src/mod_muc_room.erl:1144
+#: src/mod_muc_room.erl:1145
 msgid "Only moderators can approve voice requests"
 msgstr "Pouze moderátoři mohou schválit žádosti o voice práva"
 
-#: src/mod_muc_room.erl:574 src/mod_muc_room.erl:1019 src/mod_muc_room.erl:4522
+#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1020 src/mod_muc_room.erl:4532
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Jen členové mají povolené zasílat zprávy do místnosti"
 
-#: src/mod_muc_room.erl:620
+#: src/mod_muc_room.erl:621
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Jen členové mohou odesílat požadavky (query) do místnosti"
 
@@ -1612,8 +1614,8 @@ msgstr "Odchozí s2s spojení:"
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
 #: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3353 src/mod_muc_room.erl:3398
-#: src/mod_muc_room.erl:4208
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
+#: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
 msgstr "Jsou vyžadována práva vlastníka"
 
@@ -1700,7 +1702,7 @@ msgstr ""
 "Mnesia. Pokud používáte ODBC modul, musíte zálohovat svoji SQL databázi "
 "samostatně."
 
-#: src/mod_muc_room.erl:1105
+#: src/mod_muc_room.erl:1106
 msgid "Please, wait for a while before sending new voice request"
 msgstr "Prosím, počkejte chvíli před posláním nové žádosti o voice práva"
 
@@ -1709,7 +1711,8 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-msgid "Possessing 'ask' attribute is not allowed by RFC6121"
+#, fuzzy
+msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
 msgstr "Atribut 'ask' není povolen dle RFC6121"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -1763,7 +1766,7 @@ msgstr "Smazat všechny položky, pokud se příslušný poskytovatel odpojí"
 msgid "Push record not found"
 msgstr "Uzel nenalezen"
 
-#: src/mod_muc_room.erl:615
+#: src/mod_muc_room.erl:616
 msgid "Queries to the conference members are not allowed in this room"
 msgstr ""
 "Požadavky (queries) na členy místnosti nejsou v této místnosti povolené"
@@ -1806,7 +1809,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:543 src/mod_muc_room.erl:592
+#: src/mod_muc_room.erl:544 src/mod_muc_room.erl:593
 msgid "Recipient is not in the conference room"
 msgstr "Příjemce se nenachází v místnosti"
 
@@ -1849,11 +1852,11 @@ msgid "Replaced by new connection"
 msgstr "Nahrazeno novým spojením"
 
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
-#: src/mod_muc_room.erl:855
+#: src/mod_muc_room.erl:856
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
+#: src/mod_muc_room.erl:745 src/mod_muc_room.erl:760
 msgid "Request is ignored"
 msgstr ""
 
@@ -1927,7 +1930,7 @@ msgstr "Pravidla služby nepovolují vytvořit místnost"
 msgid "Room description"
 msgstr "Popis místnosti"
 
-#: src/mod_muc_room.erl:882
+#: src/mod_muc_room.erl:883
 #, fuzzy
 msgid "Room terminates"
 msgstr "Název místnosti"
@@ -2160,7 +2163,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4219
+#: src/mod_muc_room.erl:4229
 msgid "Subscriptions are not allowed"
 msgstr "Předplatné není povoleno"
 
@@ -2184,13 +2187,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
-#: src/mod_muc_room.erl:4248
+#: src/mod_muc_room.erl:1243 src/mod_muc_room.erl:2105
+#: src/mod_muc_room.erl:4258
 msgid "That nickname is already in use by another occupant"
 msgstr "Přezdívka je již používána jiným členem"
 
-#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1254 src/mod_muc_room.erl:2118
-#: src/mod_muc_room.erl:4256
+#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1255 src/mod_muc_room.erl:2119
+#: src/mod_muc_room.erl:4266
 msgid "That nickname is registered by another person"
 msgstr "Přezdívka je zaregistrována jinou osobou"
 
@@ -2199,7 +2202,7 @@ msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA souhlasí."
 
 #: src/mod_block_strangers.erl:150 src/mod_register.erl:200
-#: src/mod_muc_room.erl:836 src/mod_muc_room.erl:4181
+#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4191
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
 msgstr "Ověření CAPTCHA se nezdařilo"
@@ -2452,7 +2455,7 @@ msgstr ""
 "Příliš mnoho (~p) chybných pokusů o přihlášení z této IP adresy (~s). Adresa "
 "bude zablokována do ~s UTC"
 
-#: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
+#: src/mod_muc_room.erl:2779 src/mod_muc_room.erl:3413
 msgid "Too many <item/> elements"
 msgstr "Příliš mnoho elementů <item/>"
 
@@ -2461,7 +2464,7 @@ msgid "Too many <list/> elements"
 msgstr "Přilíš mnoho elementů <list/>"
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
-#: src/mod_muc_room.erl:2188
+#: src/mod_muc_room.erl:2189
 msgid "Too many CAPTCHA requests"
 msgstr "Přiliš mnoho CAPTCHA žádostí"
 
@@ -2469,7 +2472,7 @@ msgstr "Přiliš mnoho CAPTCHA žádostí"
 msgid "Too many active bytestreams"
 msgstr "Příliš mnoho aktivních bytestreamů"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1162
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1163
 #, fuzzy
 msgid "Too many child elements"
 msgstr "Příliš mnoho elementů <item/>"
@@ -2482,7 +2485,7 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr "Příliš mnoho nepotvrzených stanz"
 
-#: src/mod_muc_room.erl:2063
+#: src/mod_muc_room.erl:2064
 msgid "Too many users in this conference"
 msgstr "Přiliš mnoho uživatelů v této místnosti"
 
@@ -2519,7 +2522,7 @@ msgid "URL for Archived Discussion Logs"
 msgstr ""
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:253
-#: src/mod_muc_room.erl:2197
+#: src/mod_muc_room.erl:2198
 msgid "Unable to generate a CAPTCHA"
 msgstr "Nebylo možné vygenerovat CAPTCHA"
 
@@ -2602,8 +2605,9 @@ msgid "User"
 msgstr "Uživatel"
 
 #: src/ejabberd_oauth.erl:499
-msgid "User (jid)"
-msgstr "Uživatel (JID)"
+#, fuzzy
+msgid "User (JID)"
+msgstr "Jabber ID uživatele"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2657,7 +2661,7 @@ msgid "Validate"
 msgstr "Ověřit"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4171 src/mod_muc_room.erl:4333
+#: src/mod_muc_room.erl:4181 src/mod_muc_room.erl:4343
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "Hodnota 'get' atrubutu 'type' není povolena"
@@ -2670,8 +2674,8 @@ msgstr "Hodnota 'get' atrubutu 'type' není povolena"
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
 #: src/mod_stun_disco.erl:478 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4075
-#: src/mod_muc_room.erl:4146 src/mod_version.erl:53 src/mod_vcard.erl:205
+#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4085
+#: src/mod_muc_room.erl:4156 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "Hodnota 'set' atrubutu 'type' není povolena"
@@ -2706,20 +2710,20 @@ msgstr "Virtuální hostitelé"
 msgid "Visitor"
 msgstr "Návštěvník"
 
-#: src/mod_muc_room.erl:1235
+#: src/mod_muc_room.erl:1236
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Návštěvníkům této místnosti je zakázáno měnit přezdívku"
 
-#: src/mod_muc_room.erl:1012
+#: src/mod_muc_room.erl:1013
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "Návštevníci nemají povoleno zasílat zprávy všem účastníkům v této místnosti"
 
-#: src/mod_muc_room.erl:4410
+#: src/mod_muc_room.erl:4420
 msgid "Voice request"
 msgstr "Žádost o voice práva"
 
-#: src/mod_muc_room.erl:1112
+#: src/mod_muc_room.erl:1113
 msgid "Voice requests are disabled in this conference"
 msgstr "Voice žádosti jsou v této místnosti zakázány"
 
@@ -2840,7 +2844,7 @@ msgstr "Registrace účtu XMPP"
 msgid "XMPP account unregistered."
 msgstr "Registrace účtu XMPP"
 
-#: src/mod_muc_room.erl:880
+#: src/mod_muc_room.erl:881
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "byl(a) vyhozen(a), protože dojde k vypnutí systému"
@@ -2855,11 +2859,11 @@ msgstr "Nemáte povoleno vytvářet uzly"
 msgid "You can change your password using an XMPP client later."
 msgstr "Později můžete své heslo změnit pomocí klienta XMPP."
 
-#: src/mod_muc_room.erl:2091
+#: src/mod_muc_room.erl:2092
 msgid "You have been banned from this room"
 msgstr "Byl jste vyloučen z této místnosti"
 
-#: src/mod_muc_room.erl:2072
+#: src/mod_muc_room.erl:2073
 msgid "You have joined too many conferences"
 msgstr "Vstoupil jste do příliš velkého množství místností"
 
@@ -2964,11 +2968,11 @@ msgstr "vstoupil(a) do místnosti"
 msgid "leaves the room"
 msgstr "opustil(a) místnost"
 
-#: src/mod_muc_room.erl:4389
+#: src/mod_muc_room.erl:4399
 msgid "private, "
 msgstr "soukromá, "
 
-#: src/mod_muc_room.erl:4486
+#: src/mod_muc_room.erl:4496
 msgid "the password is"
 msgstr "heslo je"
 
@@ -2976,7 +2980,7 @@ msgstr "heslo je"
 msgid "vCard User Search"
 msgstr "Hledání uživatelů ve vizitkách"
 
-#: src/mod_muc_room.erl:4479
+#: src/mod_muc_room.erl:4489
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s vás zve do místnosti ~s"
@@ -2985,6 +2989,9 @@ msgstr "~s vás zve do místnosti ~s"
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "Fronta offline zpráv uživatele ~s"
+
+#~ msgid "User (jid)"
+#~ msgstr "Uživatel (JID)"
 
 #, fuzzy
 #~ msgid "The password of your XMPP account was successfully changed."

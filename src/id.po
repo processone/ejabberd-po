@@ -47,7 +47,7 @@ msgstr "Deskripsi node"
 msgid "A friendly name for the node"
 msgstr "Nama yang dikenal untuk node"
 
-#: src/mod_muc_room.erl:2157
+#: src/mod_muc_room.erl:2158
 msgid "A password is required to enter this room"
 msgstr "Diperlukan kata sandi untuk masuk ruangan ini"
 
@@ -125,7 +125,7 @@ msgstr "Administrasi"
 msgid "Administration of "
 msgstr "Administrasi "
 
-#: src/mod_muc_room.erl:2801
+#: src/mod_muc_room.erl:2802
 msgid "Administrator privileges required"
 msgstr "Hak istimewa Administrator dibutuhkan"
 
@@ -351,7 +351,7 @@ msgstr "Ubah User Password"
 msgid "Changing password is not allowed"
 msgstr "Tidak diijinkan mengubah kata sandi"
 
-#: src/mod_muc_room.erl:3060
+#: src/mod_muc_room.erl:3061
 msgid "Changing role/affiliation is not allowed"
 msgstr "Tidak diijinkan mengubah peran/afiliasi"
 
@@ -391,7 +391,7 @@ msgstr "Ruang chat dimulai"
 msgid "Chatroom is stopped"
 msgstr "Ruang chat dihentikan"
 
-#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1243
+#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1247
 msgid "Chatrooms"
 msgstr "Ruangan Chat"
 
@@ -432,7 +432,7 @@ msgstr "Ruang Konferensi tidak ada"
 msgid "Configuration"
 msgstr "Pengaturan"
 
-#: src/mod_muc_room.erl:3499
+#: src/mod_muc_room.erl:3509
 msgid "Configuration of room ~s"
 msgstr "Pengaturan ruangan ~s"
 
@@ -568,7 +568,8 @@ msgid "Dump to Text File"
 msgstr "Dump menjadi File Teks"
 
 #: src/mod_roster.erl:175
-msgid "Duplicated groups are not allowed by RFC6121"
+#, fuzzy
+msgid "Duplicated groups are not allowed by RFC 6121"
 msgstr "Grup duplikat tidak diperbolehkan oleh RFC6121"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -579,7 +580,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Ganti Properti"
 
-#: src/mod_muc_room.erl:4412
+#: src/mod_muc_room.erl:4422
 msgid "Either approve or decline the voice request."
 msgstr "Antara terima atau tolak permintaan suara"
 
@@ -680,7 +681,7 @@ msgstr "Entri FAQ"
 msgid "Failed to activate bytestream"
 msgstr "Gagal mengaktifkan bytestream"
 
-#: src/mod_muc_room.erl:1137
+#: src/mod_muc_room.erl:1138
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Gagal mendapatkan JID dari permintaan akses suara"
 
@@ -692,7 +693,7 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr "Gagal mengurai respon HTTP"
 
-#: src/mod_muc_room.erl:3642
+#: src/mod_muc_room.erl:3652
 msgid "Failed to process option '~s'"
 msgstr "Gagal memproses dengan opsi '~s'"
 
@@ -863,19 +864,19 @@ msgstr "Jenis pesan yang tidak benar"
 msgid "Incoming s2s Connections:"
 msgstr "Koneksi s2s yang keluar:"
 
-#: src/mod_register.erl:197 src/mod_muc_room.erl:4178
+#: src/mod_register.erl:197 src/mod_muc_room.erl:4188
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
-#: src/mod_muc_room.erl:3383 src/mod_vcard.erl:267
+#: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Kata sandi salah"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
-#: src/mod_muc_room.erl:2207
+#: src/mod_muc_room.erl:2208
 msgid "Incorrect password"
 msgstr "Kata sandi salah"
 
@@ -910,27 +911,27 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "Peran tidak valid: ~s"
 
-#: src/mod_muc_room.erl:4095
+#: src/mod_muc_room.erl:4105
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Peran tidak valid: ~s"
 
-#: src/mod_muc_room.erl:4457
+#: src/mod_muc_room.erl:4467
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "Hal ini tidak diperbolehkan untuk mengirim pesan pribadi ke konferensi"
 
-#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1302
+#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 
-#: src/mod_muc_room.erl:568 src/mod_muc_room.erl:579
+#: src/mod_muc_room.erl:569 src/mod_muc_room.erl:580
 msgid "It is not allowed to send private messages"
 msgstr "Hal ini tidak diperbolehkan untuk mengirim pesan pribadi"
 
-#: src/mod_muc_room.erl:536
+#: src/mod_muc_room.erl:537
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr ""
 "Hal ini tidak diperbolehkan untuk mengirim pesan pribadi jenis \"groupchat \""
@@ -1096,7 +1097,7 @@ msgstr ""
 msgid "Members:"
 msgstr "Anggota:"
 
-#: src/mod_muc_room.erl:2094
+#: src/mod_muc_room.erl:2095
 msgid "Membership is required to enter this room"
 msgstr "Hanya Member yang dapat masuk ruangan ini"
 
@@ -1153,8 +1154,8 @@ msgstr ""
 msgid "Moderator"
 msgstr "Hanya moderator"
 
-#: src/mod_muc_room.erl:2809 src/mod_muc_room.erl:4232
-#: src/mod_muc_room.erl:4283 src/mod_muc_room.erl:4329
+#: src/mod_muc_room.erl:2810 src/mod_muc_room.erl:4242
+#: src/mod_muc_room.erl:4293 src/mod_muc_room.erl:4339
 msgid "Moderator privileges required"
 msgstr "Hak istimewa moderator dibutuhkan"
 
@@ -1186,8 +1187,9 @@ msgid "Multicast"
 msgstr ""
 
 #: src/mod_roster.erl:190
-msgid "Multiple <item/> elements are not allowed by RFC6121"
-msgstr ""
+#, fuzzy
+msgid "Multiple <item/> elements are not allowed by RFC 6121"
+msgstr "Grup duplikat tidak diperbolehkan oleh RFC6121"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
@@ -1211,11 +1213,11 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:2987
+#: src/mod_muc_room.erl:2988
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2791 src/mod_muc_room.erl:2992
+#: src/mod_muc_room.erl:2792 src/mod_muc_room.erl:2993
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
@@ -1239,20 +1241,20 @@ msgstr "Nama Julukan"
 msgid "Nickname Registration at "
 msgstr "Pendaftaran Julukan pada"
 
-#: src/mod_muc_room.erl:1251 src/mod_muc_room.erl:2115
-#: src/mod_muc_room.erl:4253
+#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
+#: src/mod_muc_room.erl:4263
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3004
+#: src/mod_muc_room.erl:3005
 msgid "Nickname ~s does not exist in the room"
 msgstr "Nama Julukan ~s tidak berada di dalam ruangan"
 
-#: src/mod_muc_room.erl:3406
+#: src/mod_muc_room.erl:3407
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2773
+#: src/mod_muc_room.erl:2774
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "Node tidak ditemukan"
@@ -1271,7 +1273,7 @@ msgstr ""
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:4453
+#: src/mod_muc_room.erl:4463
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1302,7 +1304,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "Tidak ada isi pesan yang disediakan untuk mengirimkan pesan"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1160
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1161
 #, fuzzy
 msgid "No child elements found"
 msgstr "Node tidak ditemukan"
@@ -1328,7 +1330,7 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3517 deps/xmpp/src/muc_roomconfig.erl:1736
+#: src/mod_muc_room.erl:3527 deps/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
 msgstr "Tidak terbatas"
 
@@ -1395,7 +1397,7 @@ msgstr "Node tidak ditemukan"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
 #: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
-#: src/mod_muc_room.erl:4165 src/nodetree_tree_sql.erl:126
+#: src/mod_muc_room.erl:4175 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
 msgstr "Node tidak ditemukan"
@@ -1552,7 +1554,7 @@ msgid "Only members may query archives of this room"
 msgstr ""
 "Hanya moderator yang diperbolehkan untuk mengubah topik dalam ruangan ini"
 
-#: src/mod_muc_room.erl:1000
+#: src/mod_muc_room.erl:1001
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
@@ -1560,21 +1562,21 @@ msgstr ""
 "Hanya moderator dan peserta yang diizinkan untuk mengganti topik pembicaraan "
 "di ruangan ini"
 
-#: src/mod_muc_room.erl:1005
+#: src/mod_muc_room.erl:1006
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr ""
 "Hanya moderator yang diperbolehkan untuk mengubah topik dalam ruangan ini"
 
-#: src/mod_muc_room.erl:1144
+#: src/mod_muc_room.erl:1145
 #, fuzzy
 msgid "Only moderators can approve voice requests"
 msgstr "Perbolehkan pengguna mengirimkan undangan"
 
-#: src/mod_muc_room.erl:574 src/mod_muc_room.erl:1019 src/mod_muc_room.erl:4522
+#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1020 src/mod_muc_room.erl:4532
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Hanya penghuni yang diizinkan untuk mengirim pesan ke konferensi"
 
-#: src/mod_muc_room.erl:620
+#: src/mod_muc_room.erl:621
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Hanya penghuni diizinkan untuk mengirim permintaan ke konferensi"
 
@@ -1621,8 +1623,8 @@ msgstr "Koneksi s2s yang keluar:"
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
 #: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3353 src/mod_muc_room.erl:3398
-#: src/mod_muc_room.erl:4208
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
+#: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
 msgstr "Hak istimewa owner dibutuhkan"
 
@@ -1709,7 +1711,7 @@ msgstr ""
 "database. Jika Anda menggunakan modul ODBC, anda juga perlu untuk membuat "
 "cadangan database SQL Anda secara terpisah."
 
-#: src/mod_muc_room.erl:1105
+#: src/mod_muc_room.erl:1106
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 
@@ -1718,8 +1720,9 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-msgid "Possessing 'ask' attribute is not allowed by RFC6121"
-msgstr ""
+#, fuzzy
+msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
+msgstr "Grup duplikat tidak diperbolehkan oleh RFC6121"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
 msgid "Present real Jabber IDs to"
@@ -1772,7 +1775,7 @@ msgstr "Bersihkan semua item ketika penerbit yang relevan telah offline"
 msgid "Push record not found"
 msgstr "Node tidak ditemukan"
 
-#: src/mod_muc_room.erl:615
+#: src/mod_muc_room.erl:616
 msgid "Queries to the conference members are not allowed in this room"
 msgstr ""
 "Permintaan untuk para anggota konferensi tidak diperbolehkan di ruangan ini"
@@ -1815,7 +1818,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:543 src/mod_muc_room.erl:592
+#: src/mod_muc_room.erl:544 src/mod_muc_room.erl:593
 msgid "Recipient is not in the conference room"
 msgstr "Penerima tidak berada di ruangan konferensi"
 
@@ -1858,11 +1861,11 @@ msgid "Replaced by new connection"
 msgstr "Diganti dengan koneksi baru"
 
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
-#: src/mod_muc_room.erl:855
+#: src/mod_muc_room.erl:856
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
+#: src/mod_muc_room.erl:745 src/mod_muc_room.erl:760
 msgid "Request is ignored"
 msgstr ""
 
@@ -1936,7 +1939,7 @@ msgstr "Pembuatan Ruangan ditolak oleh kebijakan layanan"
 msgid "Room description"
 msgstr "Keterangan ruangan"
 
-#: src/mod_muc_room.erl:882
+#: src/mod_muc_room.erl:883
 #, fuzzy
 msgid "Room terminates"
 msgstr "Nama Ruangan"
@@ -2169,7 +2172,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4219
+#: src/mod_muc_room.erl:4229
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2193,13 +2196,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
-#: src/mod_muc_room.erl:4248
+#: src/mod_muc_room.erl:1243 src/mod_muc_room.erl:2105
+#: src/mod_muc_room.erl:4258
 msgid "That nickname is already in use by another occupant"
 msgstr "Julukan itu sudah digunakan oleh penghuni lain"
 
-#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1254 src/mod_muc_room.erl:2118
-#: src/mod_muc_room.erl:4256
+#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1255 src/mod_muc_room.erl:2119
+#: src/mod_muc_room.erl:4266
 msgid "That nickname is registered by another person"
 msgstr "Julukan tersebut telah didaftarkan oleh orang lain"
 
@@ -2208,7 +2211,7 @@ msgid "The CAPTCHA is valid."
 msgstr "Captcha ini benar."
 
 #: src/mod_block_strangers.erl:150 src/mod_register.erl:200
-#: src/mod_muc_room.erl:836 src/mod_muc_room.erl:4181
+#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4191
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
 msgstr "Verifikasi CAPTCHA telah gagal"
@@ -2459,7 +2462,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr ""
 
-#: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
+#: src/mod_muc_room.erl:2779 src/mod_muc_room.erl:3413
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2468,7 +2471,7 @@ msgid "Too many <list/> elements"
 msgstr ""
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
-#: src/mod_muc_room.erl:2188
+#: src/mod_muc_room.erl:2189
 msgid "Too many CAPTCHA requests"
 msgstr ""
 
@@ -2476,7 +2479,7 @@ msgstr ""
 msgid "Too many active bytestreams"
 msgstr ""
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1162
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1163
 msgid "Too many child elements"
 msgstr ""
 
@@ -2488,7 +2491,7 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr ""
 
-#: src/mod_muc_room.erl:2063
+#: src/mod_muc_room.erl:2064
 msgid "Too many users in this conference"
 msgstr ""
 
@@ -2526,7 +2529,7 @@ msgid "URL for Archived Discussion Logs"
 msgstr ""
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:253
-#: src/mod_muc_room.erl:2197
+#: src/mod_muc_room.erl:2198
 msgid "Unable to generate a CAPTCHA"
 msgstr "Tidak dapat menghasilkan CAPTCHA"
 
@@ -2608,8 +2611,9 @@ msgid "User"
 msgstr "Pengguna"
 
 #: src/ejabberd_oauth.erl:499
-msgid "User (jid)"
-msgstr ""
+#, fuzzy
+msgid "User (JID)"
+msgstr "Pengguna"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 #, fuzzy
@@ -2665,7 +2669,7 @@ msgid "Validate"
 msgstr "Mengesahkan"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4171 src/mod_muc_room.erl:4333
+#: src/mod_muc_room.erl:4181 src/mod_muc_room.erl:4343
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
@@ -2678,8 +2682,8 @@ msgstr ""
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
 #: src/mod_stun_disco.erl:478 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4075
-#: src/mod_muc_room.erl:4146 src/mod_version.erl:53 src/mod_vcard.erl:205
+#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4085
+#: src/mod_muc_room.erl:4156 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr ""
@@ -2714,19 +2718,19 @@ msgstr "Virtual Hosts"
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1235
+#: src/mod_muc_room.erl:1236
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Visitor tidak diperbolehkan untuk mengubah nama julukan di ruangan ini"
 
-#: src/mod_muc_room.erl:1012
+#: src/mod_muc_room.erl:1013
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Visitor tidak diperbolehkan untuk mengirim pesan ke semua penghuni"
 
-#: src/mod_muc_room.erl:4410
+#: src/mod_muc_room.erl:4420
 msgid "Voice request"
 msgstr ""
 
-#: src/mod_muc_room.erl:1112
+#: src/mod_muc_room.erl:1113
 msgid "Voice requests are disabled in this conference"
 msgstr ""
 
@@ -2847,7 +2851,7 @@ msgstr "Pendaftaran Akun XMPP"
 msgid "XMPP account unregistered."
 msgstr "Pendaftaran Akun XMPP"
 
-#: src/mod_muc_room.erl:880
+#: src/mod_muc_room.erl:881
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "telah dikick karena sistem shutdown"
@@ -2864,11 +2868,11 @@ msgstr ""
 "Anda dapat mengubah kata sandi anda dilain waktu dengan menggunakan klien "
 "XMPP."
 
-#: src/mod_muc_room.erl:2091
+#: src/mod_muc_room.erl:2092
 msgid "You have been banned from this room"
 msgstr "Anda telah diblokir dari ruangan ini"
 
-#: src/mod_muc_room.erl:2072
+#: src/mod_muc_room.erl:2073
 msgid "You have joined too many conferences"
 msgstr ""
 
@@ -2977,11 +2981,11 @@ msgstr "bergabung ke ruangan"
 msgid "leaves the room"
 msgstr "meninggalkan ruangan"
 
-#: src/mod_muc_room.erl:4389
+#: src/mod_muc_room.erl:4399
 msgid "private, "
 msgstr "pribadi, "
 
-#: src/mod_muc_room.erl:4486
+#: src/mod_muc_room.erl:4496
 msgid "the password is"
 msgstr "kata sandi yaitu:"
 
@@ -2989,7 +2993,7 @@ msgstr "kata sandi yaitu:"
 msgid "vCard User Search"
 msgstr "vCard Pencarian Pengguna"
 
-#: src/mod_muc_room.erl:4479
+#: src/mod_muc_room.erl:4489
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s mengundang anda ke ruangan ~s"
