@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-13 14:54+0000\n"
+"PO-Revision-Date: 2021-01-17 09:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd/nb_NO/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 "X-Language: Norwegian (bokmål)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -20,7 +20,7 @@ msgstr ""
 #, fuzzy
 msgid " (Add * to the end of field to match substring)"
 msgstr ""
-"Fyll inn skjemaet for å søke etter Jabber bruker (Legg til * på slutten av "
+" Fyll inn skjemaet for å søke etter Jabber bruker (Legg til * på slutten av "
 "feltet for å treffe alle som starter slik)"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
@@ -34,7 +34,7 @@ msgstr "Standard brukere som deltakere"
 
 #: src/mod_shared_roster.erl:1047
 msgid "'Displayed groups' not added (they do not exist!): "
-msgstr ""
+msgstr "«Viste grupper» ikke lagt til (de finnes ikke!): "
 
 #: deps/xmpp/src/muc_register.erl:502
 #, fuzzy
@@ -236,17 +236,20 @@ msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1850
 #: deps/xmpp/src/pubsub_meta_data.erl:855
+#, fuzzy
 msgid "Anyone may publish"
-msgstr ""
+msgstr "Alle kan publisere"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1317
 #: deps/xmpp/src/pubsub_meta_data.erl:807
+#, fuzzy
 msgid "Anyone may subscribe and retrieve items"
-msgstr ""
+msgstr "Alle kan abonnere på og motta elementer"
 
 #: deps/xmpp/src/muc_roominfo.erl:731 deps/xmpp/src/muc_roomconfig.erl:1421
+#, fuzzy
 msgid "Anyone with Voice"
-msgstr ""
+msgstr "Alle med stemme"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1321
 #: deps/xmpp/src/pubsub_meta_data.erl:811
@@ -264,8 +267,9 @@ msgid "Attribute 'channel' is required for this request"
 msgstr ""
 
 #: src/mod_mix.erl:148
+#, fuzzy
 msgid "Attribute 'id' is mandatory for MIX messages"
-msgstr ""
+msgstr "Attributten «id» kreves for MIX-meldinger"
 
 #: src/mod_pubsub.erl:1173
 #, fuzzy
@@ -286,8 +290,9 @@ msgid "August"
 msgstr "august"
 
 #: src/mod_pubsub.erl:1918
+#, fuzzy
 msgid "Automatic node creation is not enabled"
-msgstr ""
+msgstr "Automatisk nodeopprettelse er ikke påskrudd"
 
 #: src/mod_configure.erl:143 src/mod_configure.erl:582
 #: src/ejabberd_web_admin.erl:1100 src/ejabberd_web_admin.erl:1807
@@ -299,9 +304,8 @@ msgid "Backup Management"
 msgstr "Håndtering av sikkerehetskopiering"
 
 #: src/ejabberd_web_admin.erl:1206
-#, fuzzy
 msgid "Backup of ~p"
-msgstr "Sikkerhetskopi av "
+msgstr "Sikkerhetskopi av ~p"
 
 #: src/mod_configure.erl:857
 msgid "Backup to File at "
@@ -321,7 +325,7 @@ msgstr "Geburtsdag"
 
 #: src/mod_legacy_auth.erl:117
 msgid "Both the username and the resource are required"
-msgstr ""
+msgstr "Både brukernavn og ressurs kreves"
 
 #: src/mod_proxy65_service.erl:237
 msgid "Bytestream already activated"
@@ -456,8 +460,9 @@ msgid "Connected Resources:"
 msgstr "Tilkoblede ressurser:"
 
 #: deps/xmpp/src/muc_roominfo.erl:764
+#, fuzzy
 msgid "Contact Addresses (normally, room owner or owners)"
-msgstr ""
+msgstr "Kontaktadresser (normalt romeiere eller eiere)"
 
 #: src/mod_register_web.erl:150
 #, fuzzy
@@ -465,14 +470,12 @@ msgid "Could not change the password: "
 msgstr "En feil inntraff under endring av passordet: "
 
 #: src/mod_register_web.erl:122
-#, fuzzy
 msgid "Could not register the account: "
-msgstr "Avregistrer en XMPP konto"
+msgstr "Kunne ikke registrere kontoen: "
 
 #: src/mod_register_web.erl:135
-#, fuzzy
 msgid "Could not unregister the account: "
-msgstr "Avregistrer en XMPP konto"
+msgstr "Kunne ikke avregistrere kontoen: "
 
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
@@ -482,7 +485,7 @@ msgstr "Land"
 
 #: deps/xmpp/src/muc_roominfo.erl:875
 msgid "Current Discussion Topic"
-msgstr ""
+msgstr "Nåværende diskusjonstema"
 
 #: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1099 src/ejabberd_web_admin.erl:1806
@@ -494,9 +497,8 @@ msgid "Database Tables Configuration at "
 msgstr "Database-tabelloppsett på "
 
 #: src/ejabberd_web_admin.erl:1168
-#, fuzzy
 msgid "Database Tables at ~p"
-msgstr "Database Tabeller på "
+msgstr "Databasetabeller på ~p"
 
 #: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3744
 #: src/mod_pubsub.erl:3788 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3892
@@ -591,7 +593,7 @@ msgstr "Dump til tekstfil"
 
 #: src/mod_roster.erl:175
 msgid "Duplicated groups are not allowed by RFC6121"
-msgstr ""
+msgstr "Dupliserte grupper tillates ikke i RFC 6121"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
 msgid "Dynamically specify a replyto of the item publisher"
@@ -626,11 +628,11 @@ msgstr "Skru på loggføring"
 
 #: deps/xmpp/src/muc_roomconfig.erl:2007
 msgid "Enable message archiving"
-msgstr ""
+msgstr "Skru på meldingsarkivering"
 
 #: src/mod_push.erl:324
 msgid "Enabling push without 'node' attribute is not supported"
-msgstr ""
+msgstr "Å skru på dytting uten «node»-attributt støttes ikke"
 
 #: src/mod_configure.erl:165 src/mod_configure.erl:508
 #: src/mod_configure.erl:1018
@@ -677,7 +679,7 @@ msgstr "Ekskluder Jabber-ID-er fra CAPTCHA-utfordring"
 
 #: src/ejabberd_web_admin.erl:1309
 msgid "Export all tables as SQL queries to a file:"
-msgstr ""
+msgstr "Eksporter alle tabeller som SQL-spørringer til en fil:"
 
 #: src/ejabberd_web_admin.erl:1283
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
@@ -691,15 +693,15 @@ msgstr ""
 
 #: src/mod_delegation.erl:352
 msgid "External component failure"
-msgstr ""
+msgstr "Feil med ekstern komponent"
 
 #: src/mod_delegation.erl:360
 msgid "External component timeout"
-msgstr ""
+msgstr "Tidsavbrudd for ekstern komponent"
 
 #: deps/xmpp/src/muc_register.erl:446
 msgid "FAQ Entry"
-msgstr ""
+msgstr "O-S-S -oppføring"
 
 #: src/mod_proxy65_service.erl:229
 msgid "Failed to activate bytestream"
@@ -715,8 +717,9 @@ msgid "Failed to map delegated namespace to external component"
 msgstr ""
 
 #: src/mod_http_upload.erl:864
+#, fuzzy
 msgid "Failed to parse HTTP response"
-msgstr ""
+msgstr "Kunne ikke tolke HTTP-svar"
 
 #: src/mod_muc_room.erl:3642
 msgid "Failed to process option '~s'"
@@ -757,11 +760,11 @@ msgstr "Fra ~s"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1909
 msgid "Full List of Room Admins"
-msgstr ""
+msgstr "Full liste over romadministratorer"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1952
 msgid "Full List of Room Owners"
-msgstr ""
+msgstr "Full liste over romeiere"
 
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
@@ -978,7 +981,7 @@ msgstr "Oppretting av rom nektes av en tjenste regel"
 
 #: src/mod_jidprep.erl:154
 msgid "JID normalization failed"
-msgstr ""
+msgstr "JID-normalisering mislyktes"
 
 #: src/mod_vcard_mnesia.erl:113 src/mod_configure.erl:995
 #: src/mod_configure.erl:1012 src/mod_configure.erl:1022
@@ -1004,7 +1007,7 @@ msgstr "juni"
 
 #: src/mod_muc_admin.erl:537
 msgid "Just created"
-msgstr ""
+msgstr "Akkurat opprettet"
 
 #: src/mod_shared_roster.erl:1006
 msgid "Label:"
@@ -1036,6 +1039,8 @@ msgstr "Siste år"
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
+"De minst viktige bit-ene av SHA-256-sjekksummen for tekst skal tilsvare "
+"heksadesimal etikett"
 
 #: src/mod_muc_admin.erl:485
 msgid "List of rooms"
@@ -1104,7 +1109,7 @@ msgstr "Største innholdsstørrelse i byte"
 
 #: deps/xmpp/src/muc_roominfo.erl:699 deps/xmpp/src/muc_roomconfig.erl:1405
 msgid "Maximum Number of History Messages Returned by Room"
-msgstr ""
+msgstr "Maksimalt antall historikkmeldinger tilbudt av rommet"
 
 #: src/mod_muc_log.erl:834 deps/xmpp/src/muc_roomconfig.erl:1758
 #, fuzzy
@@ -1113,7 +1118,7 @@ msgstr "Maksimalt antall deltakere"
 
 #: deps/xmpp/src/http_upload.erl:240
 msgid "Maximum file size"
-msgstr ""
+msgstr "Maksimal filstørrelse"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:788
 #, fuzzy
@@ -1125,8 +1130,9 @@ msgid "May"
 msgstr "mai"
 
 #: src/mod_shared_roster.erl:1045
+#, fuzzy
 msgid "Members not added (inexistent vhost!): "
-msgstr ""
+msgstr "Medlemmer ikke lagt til (vhost finnes ikke!): "
 
 #: src/mod_shared_roster.erl:1020
 msgid "Members:"
@@ -1159,19 +1165,19 @@ msgstr "Meldingskropp"
 
 #: src/mod_privilege.erl:414
 msgid "Message not found in forwarded payload"
-msgstr ""
+msgstr "Fant ikke melding i videresendt nyttelast"
 
 #: src/mod_block_strangers.erl:177
 msgid "Messages from strangers are rejected"
-msgstr ""
+msgstr "Meldinger fra ukjente avvises"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1715
 msgid "Messages of type headline"
-msgstr ""
+msgstr "Meldinger av typen overskrift"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1711
 msgid "Messages of type normal"
-msgstr ""
+msgstr "Meldinger av normal type"
 
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
@@ -1205,8 +1211,9 @@ msgid "Modified modules"
 msgstr "Endrede moduler"
 
 #: src/gen_iq_handler.erl:119
+#, fuzzy
 msgid "Module failed to handle the query"
-msgstr ""
+msgstr "Modul kunne ikke håndtere spørringen"
 
 #: src/mod_muc_log.erl:468
 msgid "Monday"
@@ -1215,15 +1222,15 @@ msgstr "mandag"
 #: src/mod_muc_admin.erl:459 src/mod_muc_admin.erl:462
 #: src/mod_muc_admin.erl:478 src/mod_muc_admin.erl:552
 msgid "Multi-User Chat"
-msgstr ""
+msgstr "Multibrukersludring"
 
 #: src/mod_multicast.erl:1162
 msgid "Multicast"
-msgstr ""
+msgstr "Multikasting"
 
 #: src/mod_roster.erl:190
 msgid "Multiple <item/> elements are not allowed by RFC6121"
-msgstr ""
+msgstr "Flere <item/>-elementer tillates ikke i RFC6121"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
@@ -1233,7 +1240,7 @@ msgstr "Navn"
 
 #: src/mod_shared_roster.erl:1009
 msgid "Name in the rosters where this group will be displayed"
-msgstr ""
+msgstr "Navn i kontaktlistene der denne gruppen vises"
 
 #: src/mod_shared_roster.erl:908 src/mod_shared_roster.erl:1002
 msgid "Name:"
@@ -1332,7 +1339,7 @@ msgstr "Noden finnes ikke"
 
 #: src/ejabberd_local.erl:103
 msgid "No available resource found"
-msgstr ""
+msgstr "Fant ingen tilgjengelig ressurs"
 
 #: src/mod_announce.erl:579
 msgid "No body provided for announce message"
@@ -1350,7 +1357,7 @@ msgstr "Noden finnes ikke"
 
 #: src/mod_disco.erl:204 src/mod_vcard.erl:293
 msgid "No features available"
-msgstr ""
+msgstr "Ingen tilgjengelige funksjoner"
 
 #: src/mod_adhoc.erl:226
 msgid "No hook has processed this command"
@@ -1467,8 +1474,9 @@ msgid "Not allowed"
 msgstr "Finnes Ikke"
 
 #: src/mod_last.erl:145 src/mod_disco.erl:276 src/mod_disco.erl:335
+#, fuzzy
 msgid "Not subscribed"
-msgstr ""
+msgstr "Ikke abonnert"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1776
 #, fuzzy
@@ -1564,16 +1572,18 @@ msgid "Online Users:"
 msgstr "Tilkoblede brukere:"
 
 #: src/mod_carboncopy.erl:101
+#, fuzzy
 msgid "Only <enable/> or <disable/> tags are allowed"
-msgstr ""
+msgstr "Kun <enable/> eller <disable/>-oppmerking tillates"
 
 #: src/mod_privacy.erl:142
+#, fuzzy
 msgid "Only <list/> element is allowed in this query"
-msgstr ""
+msgstr "Kun <list/>-elementet er tillatt i denne spørringen"
 
 #: src/mod_shared_roster.erl:1017
 msgid "Only admins can see this"
-msgstr ""
+msgstr "Kun administratorer kan se dette"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1386
 msgid ""
@@ -1617,7 +1627,7 @@ msgstr "Kun deltakere tillates å sende forespørsler til konferansen"
 #: deps/xmpp/src/pubsub_node_config.erl:1843
 #: deps/xmpp/src/pubsub_meta_data.erl:848
 msgid "Only publishers may publish"
-msgstr ""
+msgstr "Kun publiserere kan publisere"
 
 #: src/mod_muc.erl:227
 msgid "Only service administrators are allowed to send service messages"
@@ -1769,11 +1779,11 @@ msgstr ""
 
 #: src/mod_stream_mgmt.erl:786
 msgid "Previous session PID has exited"
-msgstr ""
+msgstr "Forrige økt-ID har avsluttet"
 
 #: src/mod_stream_mgmt.erl:784
 msgid "Previous session PID is dead"
-msgstr ""
+msgstr "Forrige økt-PID er død"
 
 #: src/mod_stream_mgmt.erl:780
 #, fuzzy
@@ -1819,7 +1829,7 @@ msgstr "Forespørsler til konferansemedlemmerer tillates ikke i dette rommet"
 #: src/mod_private.erl:199 src/mod_disco.erl:305 src/mod_disco.erl:362
 #: src/mod_offline.erl:331 src/mod_privacy.erl:134 src/mod_sic.erl:77
 msgid "Query to another users is forbidden"
-msgstr ""
+msgstr "Spørringer til andre brukere er forbudt"
 
 #: src/mod_configure.erl:804 src/ejabberd_web_admin.erl:1506
 msgid "RAM and disc copy"
@@ -1900,11 +1910,11 @@ msgstr "Erstattet av en ny tilkobling"
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
 #: src/mod_muc_room.erl:855
 msgid "Request has timed out"
-msgstr ""
+msgstr "Tidsavbrudd for forespørsel"
 
 #: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
 msgid "Request is ignored"
-msgstr ""
+msgstr "Forespørsel ignorert"
 
 #: deps/xmpp/src/muc_request.erl:340
 msgid "Requested role"
@@ -2200,7 +2210,7 @@ msgstr "Abonnementsadresse"
 #: deps/xmpp/src/pubsub_node_config.erl:1847
 #: deps/xmpp/src/pubsub_meta_data.erl:852
 msgid "Subscribers may publish"
-msgstr ""
+msgstr "Abonnenter kan publisere"
 
 #: src/mod_roster.erl:1003
 msgid "Subscription"
@@ -2215,7 +2225,7 @@ msgstr ""
 
 #: src/mod_muc_room.erl:4219
 msgid "Subscriptions are not allowed"
-msgstr ""
+msgstr "Abonnementer tillates ikke"
 
 #: src/mod_muc_log.erl:474
 msgid "Sunday"
@@ -2223,19 +2233,19 @@ msgstr "søndag"
 
 #: deps/xmpp/src/captcha_form.erl:777
 msgid "Text associated with a picture"
-msgstr ""
+msgstr "Tekst tilknyttet et bilde"
 
 #: deps/xmpp/src/captcha_form.erl:701
 msgid "Text associated with a sound"
-msgstr ""
+msgstr "Tekst tilknyttet en lyd"
 
 #: deps/xmpp/src/captcha_form.erl:881
 msgid "Text associated with a video"
-msgstr ""
+msgstr "Tekst tilknyttet en video"
 
 #: deps/xmpp/src/captcha_form.erl:851
 msgid "Text associated with speech"
-msgstr ""
+msgstr "Tekst tilknyttet tale"
 
 #: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
 #: src/mod_muc_room.erl:4248
@@ -2300,13 +2310,12 @@ msgid "The account already exists"
 msgstr "Kontoen finnes allerede"
 
 #: src/mod_register_web.erl:611
-#, fuzzy
 msgid "The account was not unregistered"
-msgstr "Dni XMPP konto er blitt sltettet."
+msgstr "Kontoen ble ikke avregistrert"
 
 #: deps/xmpp/src/push_summary.erl:397
 msgid "The body text of the last received message"
-msgstr ""
+msgstr "Brødteksten i sist mottatte melding"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
@@ -2370,11 +2379,11 @@ msgstr "Tillat denne Jabber ID å abonnere på denne pubsub "
 
 #: deps/xmpp/src/push_summary.erl:343
 msgid "The number of unread or undelivered messages"
-msgstr ""
+msgstr "Antallet uleste eller uleverte meldinger"
 
 #: src/mod_register.erl:392
 msgid "The password contains unacceptable characters"
-msgstr ""
+msgstr "Passordet inneholder ulovlige tegn"
 
 #: src/mod_register.erl:390
 msgid "The password is too weak"
@@ -2392,23 +2401,23 @@ msgstr "Passordet er for svakt"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:591
 msgid "The presence states for which an entity wants to receive notifications"
-msgstr ""
+msgstr "Tilstedeværelsestilstandene en eksistens ønsker å motta merknader for"
 
 #: src/mod_register.erl:170 src/mod_vcard.erl:231
 msgid "The query is only allowed from local users"
-msgstr ""
+msgstr "Spørringen tillates kun fra lokale brukere"
 
 #: src/mod_roster.erl:198
 msgid "The query must not contain <item/> elements"
-msgstr ""
+msgstr "Spørringen kan ikke inneholde <item/>-elementer"
 
 #: deps/xmpp/src/muc_roominfo.erl:891
 msgid "The room subject can be modified by participants"
-msgstr ""
+msgstr "Romemnet kan endres av dets deltagere"
 
 #: deps/xmpp/src/push_summary.erl:381
 msgid "The sender of the last received message"
-msgstr ""
+msgstr "Avsender for sist mottatte melding"
 
 #: src/mod_privacy.erl:268
 msgid ""
@@ -2428,7 +2437,7 @@ msgstr ""
 
 #: src/mod_register_web.erl:605
 msgid "The username is not valid"
-msgstr ""
+msgstr "Brukernavnet er ikke gyldig"
 
 #: src/mod_register_web.erl:268
 #, fuzzy
@@ -2485,7 +2494,7 @@ msgstr "Til"
 
 #: src/mod_register.erl:225
 msgid "To register, visit ~s"
-msgstr ""
+msgstr "Besøk ~s for registrering"
 
 #: src/mod_configure.erl:666
 #, fuzzy
@@ -2504,11 +2513,11 @@ msgstr ""
 
 #: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
 msgid "Too many <item/> elements"
-msgstr ""
+msgstr "For mange <item/>-elementer"
 
 #: src/mod_privacy.erl:152
 msgid "Too many <list/> elements"
-msgstr ""
+msgstr "For mange <list/>-elementer"
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
 #: src/mod_muc_room.erl:2188
@@ -2609,11 +2618,11 @@ msgstr ""
 
 #: src/mod_mam.erl:688
 msgid "Unsupported <index/> element"
-msgstr ""
+msgstr "Ustøttet <index/>-element"
 
 #: src/mod_stream_mgmt.erl:369
 msgid "Unsupported version"
-msgstr ""
+msgstr "Ustøttet versjon"
 
 #: src/ejabberd_web_admin.erl:1102 src/ejabberd_web_admin.erl:1446
 #: src/ejabberd_web_admin.erl:1809
@@ -2637,9 +2646,8 @@ msgid "Update script"
 msgstr "Oppdateringsskript"
 
 #: src/ejabberd_web_admin.erl:1428
-#, fuzzy
 msgid "Update ~p"
-msgstr "Oppdater "
+msgstr "Oppdater ~p"
 
 #: src/ejabberd_web_admin.erl:1364
 msgid "Uptime:"
@@ -2652,8 +2660,9 @@ msgid "User"
 msgstr "Bruker"
 
 #: src/ejabberd_oauth.erl:499
+#, fuzzy
 msgid "User (jid)"
-msgstr ""
+msgstr "Bruker (JID)"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 #, fuzzy
@@ -2666,11 +2675,11 @@ msgstr "Brukerhåndtering"
 
 #: src/mod_register.erl:396
 msgid "User already exists"
-msgstr ""
+msgstr "Brukeren finnes allerede"
 
 #: src/ejabberd_sm.erl:214
 msgid "User removed"
-msgstr ""
+msgstr "Fjernet bruker"
 
 #: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
 #, fuzzy
@@ -2682,9 +2691,8 @@ msgid "User session terminated"
 msgstr ""
 
 #: src/ejabberd_web_admin.erl:933
-#, fuzzy
 msgid "User ~ts"
-msgstr "Bruker "
+msgstr "Bruker ~ts"
 
 #: src/mod_register_web.erl:262 src/mod_register_web.erl:402
 #: src/mod_register_web.erl:513
@@ -2743,7 +2751,7 @@ msgstr ""
 
 #: src/mod_offline.erl:1075
 msgid "View Queue"
-msgstr ""
+msgstr "Vis kø"
 
 #: src/mod_roster.erl:1172
 #, fuzzy
@@ -2756,7 +2764,7 @@ msgstr "Virtuelle maskiner"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1851
 msgid "Visitor"
-msgstr ""
+msgstr "Besøker"
 
 #: src/mod_muc_room.erl:1235
 msgid "Visitors are not allowed to change their nicknames in this room"
@@ -2784,9 +2792,10 @@ msgid "When a new subscription is processed"
 msgstr "Om man skal tillate abonnenter"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1924
+#, fuzzy
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
-msgstr ""
+msgstr "Når et nytt abonnement behandles, og når en abonnent logger på"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1938
 msgid "When to send the last published item"
@@ -2797,20 +2806,25 @@ msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
+"Hvorvidt en eksistens ønsker å motta en XMPP-meldingsbrødtekst i tillegg til "
+"nyttedata-formatet"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:494
+#, fuzzy
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
+"Hvorvidt en eksistens ønsker å motta føljetonger (oppsamlinger) av "
+"merknader, eller alle merknader hver for seg"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:477
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
+msgstr "Hvorvidt en eksistens ønsker å motta eller skru av merknader"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1611
 msgid "Whether owners or publisher should receive replies to items"
-msgstr ""
+msgstr "Hvorvidt elere eller publisererer skal motta svar på elementer"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1694
 msgid "Whether the node is a leaf (default) or a collection"
@@ -2853,7 +2867,7 @@ msgstr "XMPP Konto Registrering"
 
 #: src/ejabberd_web_admin.erl:440
 msgid "XMPP Domains"
-msgstr ""
+msgstr "XMPP-domener"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:563
 msgid "XMPP Show Value of Away"
@@ -2912,7 +2926,7 @@ msgstr "Du har blitt bannlyst fra dette rommet."
 
 #: src/mod_muc_room.erl:2072
 msgid "You have joined too many conferences"
-msgstr ""
+msgstr "Du har tilknyttet deg for mange konferanser"
 
 #: src/mod_muc.erl:1062
 msgid "You must fill in field \"Nickname\" in the form"
@@ -2920,7 +2934,7 @@ msgstr "Du må fylle inn feltet «Kallenavn» i skjemaet"
 
 #: src/mod_register.erl:231
 msgid "You need a client that supports x:data and CAPTCHA to register"
-msgstr "Du trenger en klient som støtter x:data og CAPTCHA for registrering "
+msgstr "Du trenger en klient som støtter x:data og CAPTCHA for registrering"
 
 #: src/mod_muc.erl:1017
 msgid "You need a client that supports x:data to register the nickname"
@@ -2960,7 +2974,7 @@ msgstr "ejabberd Web Admin"
 
 #: src/mod_http_upload.erl:751
 msgid "ejabberd HTTP Upload service"
-msgstr ""
+msgstr "ejabberd-HTTP-opplastingstjeneste"
 
 #: src/mod_muc.erl:597
 msgid "ejabberd MUC module"
@@ -2968,7 +2982,7 @@ msgstr "ejabberd-MUC-modul"
 
 #: src/mod_multicast.erl:301
 msgid "ejabberd Multicast service"
-msgstr ""
+msgstr "ejabberd-multikastingstjeneste"
 
 #: src/mod_pubsub.erl:1107
 msgid "ejabberd Publish-Subscribe module"
