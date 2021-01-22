@@ -454,19 +454,6 @@ msgstr "Anslutna resurser:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
-#: src/mod_register_web.erl:150
-#, fuzzy
-msgid "Could not change the password: "
-msgstr "Andra användarlösenord"
-
-#: src/mod_register_web.erl:122
-msgid "Could not register the account: "
-msgstr ""
-
-#: src/mod_register_web.erl:135
-msgid "Could not unregister the account: "
-msgstr ""
-
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
@@ -579,7 +566,7 @@ msgid "Dump to Text File"
 msgstr "Dumpa till textfil"
 
 #: src/mod_roster.erl:175
-msgid "Duplicated groups are not allowed by RFC 6121"
+msgid "Duplicated groups are not allowed by RFC6121"
 msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -1116,7 +1103,7 @@ msgstr "Du måste vara medlem för att komma in i det här rummet"
 
 #: src/mod_register_web.erl:294
 msgid ""
-"Memorize your password, or write it on a paper placed in a safe place. In "
+"Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 
@@ -1196,7 +1183,7 @@ msgid "Multicast"
 msgstr ""
 
 #: src/mod_roster.erl:190
-msgid "Multiple <item/> elements are not allowed by RFC 6121"
+msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1728,7 +1715,7 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
+msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr ""
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -2077,8 +2064,8 @@ msgstr "Stäng ner servicen"
 
 #: src/mod_register_web.erl:290
 msgid ""
-"Some XMPP clients can store your password on the computer, but for safety "
-"reasons you should do this on your personal computers ."
+"Some XMPP clients can store your password in the computer, but you should do "
+"this only in your personal computer for safety reasons."
 msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1344
@@ -2274,6 +2261,10 @@ msgstr "Lösenordet är"
 msgid "The body text of the last received message"
 msgstr ""
 
+#: src/mod_register_web.erl:599
+msgid "The captcha you entered is wrong"
+msgstr ""
+
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
@@ -2346,6 +2337,10 @@ msgstr ""
 msgid "The password is too weak"
 msgstr "Lösenordet är"
 
+#: src/mod_register_web.erl:146
+msgid "The password of your XMPP account was successfully changed."
+msgstr ""
+
 #: src/mod_register_web.erl:613
 #, fuzzy
 msgid "The password was not changed"
@@ -2396,21 +2391,32 @@ msgstr ""
 msgid "The username is not valid"
 msgstr ""
 
+#: src/mod_register_web.erl:150
+#, fuzzy
+msgid "There was an error changing the password: "
+msgstr "Andra användarlösenord"
+
+#: src/mod_register_web.erl:122
+msgid "There was an error creating the account: "
+msgstr ""
+
+#: src/mod_register_web.erl:135
+msgid "There was an error deleting the account: "
+msgstr ""
+
 #: src/mod_register_web.erl:268
-msgid ""
-"This is case insensitive: \"macbeth\" is the same as \"MacBeth\" and "
-"\"Macbeth\"."
+msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 
 #: src/mod_register_web.erl:252
 msgid ""
-"This page allows registering an XMPP account on this XMPP server. Your JID "
-"(Jabber ID) will be of the form: username@server. Please read the "
-"instructions carefully before filling in the fields."
+"This page allows to register an XMPP account in this XMPP server. Your JID "
+"(Jabber ID) will be of the form: username@server. Please read carefully the "
+"instructions to fill correctly the fields."
 msgstr ""
 
 #: src/mod_register_web.erl:507
-msgid "This page allows unregistering an XMPP account on this XMPP server."
+msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr ""
 
 #: src/mod_muc_log.erl:805
@@ -2610,7 +2616,7 @@ msgstr "Användarnamn"
 
 #: src/ejabberd_oauth.erl:499
 #, fuzzy
-msgid "User (JID)"
+msgid "User (jid)"
 msgstr "Användare "
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
@@ -2792,11 +2798,6 @@ msgstr ""
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_register_web.erl:599
-#, fuzzy
-msgid "Wrong CAPTCHA entered"
-msgstr "Gör losenorden i rummet publika"
-
 #: src/mod_register_web.erl:617
 msgid "Wrong parameters in the web formulary"
 msgstr ""
@@ -2835,20 +2836,6 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd publikprenumerations modul"
 
-#: src/mod_register_web.erl:146
-msgid "XMPP account password changed."
-msgstr ""
-
-#: src/mod_register_web.erl:118
-#, fuzzy
-msgid "XMPP account registered."
-msgstr "Registrera smeknamn på "
-
-#: src/mod_register_web.erl:131
-#, fuzzy
-msgid "XMPP account unregistered."
-msgstr "Registrera smeknamn på "
-
 #: src/mod_muc_room.erl:881
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
@@ -2860,7 +2847,7 @@ msgid "You are not joined to the channel"
 msgstr "Det ar inte tillåtet att skicka privata meddelanden"
 
 #: src/mod_register_web.erl:287
-msgid "You can change your password using an XMPP client later."
+msgid "You can later change your password using an XMPP client."
 msgstr ""
 
 #: src/mod_muc_room.erl:2092
@@ -2893,6 +2880,16 @@ msgstr "Du behöver en klient som stödjer x:data, för att kunna söka"
 #, fuzzy
 msgid "You're not allowed to create nodes"
 msgstr "Det ar inte tillåtet att skicka privata meddelanden"
+
+#: src/mod_register_web.erl:118
+#, fuzzy
+msgid "Your XMPP account was successfully registered."
+msgstr "Registrera smeknamn på "
+
+#: src/mod_register_web.erl:131
+#, fuzzy
+msgid "Your XMPP account was successfully unregistered."
+msgstr "Registrera smeknamn på "
 
 #: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -2996,6 +2993,14 @@ msgstr "~s bjöd in dig till rummet ~s"
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "~s's offline meddelandekö"
+
+#, fuzzy
+#~ msgid "Wrong CAPTCHA entered"
+#~ msgstr "Gör losenorden i rummet publika"
+
+#, fuzzy
+#~ msgid "XMPP account registered."
+#~ msgstr "Registrera smeknamn på "
 
 #, fuzzy
 #~ msgid "Virtual Hosting"

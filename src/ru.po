@@ -447,21 +447,6 @@ msgstr "Подключённые ресурсы:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
-#: src/mod_register_web.erl:150
-#, fuzzy
-msgid "Could not change the password: "
-msgstr "Ошибка при смене пароля:"
-
-#: src/mod_register_web.erl:122
-#, fuzzy
-msgid "Could not register the account: "
-msgstr "Удалить XMPP-аккаунт"
-
-#: src/mod_register_web.erl:135
-#, fuzzy
-msgid "Could not unregister the account: "
-msgstr "Удалить XMPP-аккаунт"
-
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
@@ -572,7 +557,7 @@ msgstr "Копирование в текстовый файл"
 
 #: src/mod_roster.erl:175
 #, fuzzy
-msgid "Duplicated groups are not allowed by RFC 6121"
+msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Группы с одинаковыми названиями запрещены стандартом RFC6121"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -1101,7 +1086,7 @@ msgstr "В эту конференцию могут входить только 
 #: src/mod_register_web.erl:294
 #, fuzzy
 msgid ""
-"Memorize your password, or write it on a paper placed in a safe place. In "
+"Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 "Запомните пароль или запишите его на бумаге, которую сохраните в безопасном "
@@ -1185,7 +1170,7 @@ msgstr "Мультикаст"
 
 #: src/mod_roster.erl:190
 #, fuzzy
-msgid "Multiple <item/> elements are not allowed by RFC 6121"
+msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Множественные элементы <item/> запрещены стандартом RFC6121"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1702,7 +1687,7 @@ msgstr "Понг"
 
 #: src/mod_roster.erl:168
 #, fuzzy
-msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
+msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "Включение атрибута 'ask' запрещено стандартом RFC6121"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -2053,8 +2038,8 @@ msgstr "Остановить службу"
 #: src/mod_register_web.erl:290
 #, fuzzy
 msgid ""
-"Some XMPP clients can store your password on the computer, but for safety "
-"reasons you should do this on your personal computers ."
+"Some XMPP clients can store your password in the computer, but you should do "
+"this only in your personal computer for safety reasons."
 msgstr ""
 "Некоторые XMPP-клиенты могут сохранять пароль на Вашем компьютере. "
 "Используйте эту функцию только в том случае, если считаете это безопасным."
@@ -2249,6 +2234,10 @@ msgstr "Аккаунт не был удален"
 msgid "The body text of the last received message"
 msgstr ""
 
+#: src/mod_register_web.erl:599
+msgid "The captcha you entered is wrong"
+msgstr "Неправильно введённое значение капчи"
+
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
@@ -2320,6 +2309,11 @@ msgstr "Пароль содержит недопустимые символы"
 msgid "The password is too weak"
 msgstr "Слишком слабый пароль"
 
+#: src/mod_register_web.erl:146
+#, fuzzy
+msgid "The password of your XMPP account was successfully changed."
+msgstr "Пароль Вашего XMPP-аккаунта был успешно изменен."
+
 #: src/mod_register_web.erl:613
 msgid "The password was not changed"
 msgstr "Пароль не был изменён"
@@ -2370,11 +2364,22 @@ msgstr ""
 msgid "The username is not valid"
 msgstr "Недопустимое имя пользователя"
 
+#: src/mod_register_web.erl:150
+#, fuzzy
+msgid "There was an error changing the password: "
+msgstr "Ошибка при создании аккаунта:"
+
+#: src/mod_register_web.erl:122
+msgid "There was an error creating the account: "
+msgstr "Ошибка при создании аккаунта:"
+
+#: src/mod_register_web.erl:135
+msgid "There was an error deleting the account: "
+msgstr "Ошибка при удалении аккаунта:"
+
 #: src/mod_register_web.erl:268
 #, fuzzy
-msgid ""
-"This is case insensitive: \"macbeth\" is the same as \"MacBeth\" and "
-"\"Macbeth\"."
+msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 "Регистр не имеет значения: \"маша\" и \"МАША\" будет считаться одним и тем "
 "же именем."
@@ -2382,9 +2387,9 @@ msgstr ""
 #: src/mod_register_web.erl:252
 #, fuzzy
 msgid ""
-"This page allows registering an XMPP account on this XMPP server. Your JID "
-"(Jabber ID) will be of the form: username@server. Please read the "
-"instructions carefully before filling in the fields."
+"This page allows to register an XMPP account in this XMPP server. Your JID "
+"(Jabber ID) will be of the form: username@server. Please read carefully the "
+"instructions to fill correctly the fields."
 msgstr ""
 "Здесь Вы можете создать XMPP-аккаунт на этом XMPP-сервере. Ваш JID (Jabber-"
 "идентификатор) будет в виде: \"пользователь@сервер\". Пожалуйста, "
@@ -2392,7 +2397,7 @@ msgstr ""
 
 #: src/mod_register_web.erl:507
 #, fuzzy
-msgid "This page allows unregistering an XMPP account on this XMPP server."
+msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr "Здесь Вы можете удалить XMPP-аккаунт с этого сервера."
 
 #: src/mod_muc_log.erl:805
@@ -2591,9 +2596,8 @@ msgid "User"
 msgstr "Пользователь"
 
 #: src/ejabberd_oauth.erl:499
-#, fuzzy
-msgid "User (JID)"
-msgstr "JID пользователя"
+msgid "User (jid)"
+msgstr "Пользователь (XMPP адрес)"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2771,11 +2775,6 @@ msgstr ""
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_register_web.erl:599
-#, fuzzy
-msgid "Wrong CAPTCHA entered"
-msgstr "Сделать комнату защищённой капчей"
-
 #: src/mod_register_web.erl:617
 msgid "Wrong parameters in the web formulary"
 msgstr "Недопустимые параметры веб-формы"
@@ -2814,21 +2813,6 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "Модуль ejabberd Публикации-Подписки"
 
-#: src/mod_register_web.erl:146
-#, fuzzy
-msgid "XMPP account password changed."
-msgstr "Ваш XMPP-аккаунт был успешно создан."
-
-#: src/mod_register_web.erl:118
-#, fuzzy
-msgid "XMPP account registered."
-msgstr "Регистрация XMPP-аккаунта"
-
-#: src/mod_register_web.erl:131
-#, fuzzy
-msgid "XMPP account unregistered."
-msgstr "Регистрация XMPP-аккаунта"
-
 #: src/mod_muc_room.erl:881
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "Вы покинули комнату из-за останова системы"
@@ -2839,7 +2823,7 @@ msgstr "Вы не присоединены к каналу"
 
 #: src/mod_register_web.erl:287
 #, fuzzy
-msgid "You can change your password using an XMPP client later."
+msgid "You can later change your password using an XMPP client."
 msgstr "Позже Вы можете изменить пароль через XMPP-клиент."
 
 #: src/mod_muc_room.erl:2092
@@ -2869,6 +2853,16 @@ msgstr "Чтобы воспользоваться поиском, требует
 #: src/mod_pubsub.erl:1563
 msgid "You're not allowed to create nodes"
 msgstr "Вам не разрешается создавать узлы"
+
+#: src/mod_register_web.erl:118
+#, fuzzy
+msgid "Your XMPP account was successfully registered."
+msgstr "Ваш XMPP-аккаунт был успешно удален."
+
+#: src/mod_register_web.erl:131
+#, fuzzy
+msgid "Your XMPP account was successfully unregistered."
+msgstr "Ваш XMPP-аккаунт был успешно удален."
 
 #: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -2977,25 +2971,37 @@ msgstr "~s приглашает вас в комнату ~s"
 msgid "~ts's Offline Messages Queue"
 msgstr "Oчередь офлайновых сообщений ~s"
 
-#~ msgid "User (jid)"
-#~ msgstr "Пользователь (XMPP адрес)"
-
-#~ msgid "The captcha you entered is wrong"
-#~ msgstr "Неправильно введённое значение капчи"
+#, fuzzy
+#~ msgid "Could not change the password: "
+#~ msgstr "Ошибка при смене пароля:"
 
 #, fuzzy
-#~ msgid "The password of your XMPP account was successfully changed."
-#~ msgstr "Пароль Вашего XMPP-аккаунта был успешно изменен."
-
-#~ msgid "There was an error creating the account: "
-#~ msgstr "Ошибка при создании аккаунта:"
-
-#~ msgid "There was an error deleting the account: "
-#~ msgstr "Ошибка при удалении аккаунта:"
+#~ msgid "Could not register the account: "
+#~ msgstr "Удалить XMPP-аккаунт"
 
 #, fuzzy
-#~ msgid "Your XMPP account was successfully deleted."
-#~ msgstr "Ваш XMPP-аккаунт был успешно удален."
+#~ msgid "Could not unregister the account: "
+#~ msgstr "Удалить XMPP-аккаунт"
+
+#, fuzzy
+#~ msgid "User (JID)"
+#~ msgstr "JID пользователя"
+
+#, fuzzy
+#~ msgid "Wrong CAPTCHA entered"
+#~ msgstr "Сделать комнату защищённой капчей"
+
+#, fuzzy
+#~ msgid "XMPP account password changed."
+#~ msgstr "Ваш XMPP-аккаунт был успешно создан."
+
+#, fuzzy
+#~ msgid "XMPP account registered."
+#~ msgstr "Регистрация XMPP-аккаунта"
+
+#, fuzzy
+#~ msgid "XMPP account unregistered."
+#~ msgstr "Регистрация XMPP-аккаунта"
 
 #~ msgid "Virtual Hosting"
 #~ msgstr "Виртуальный хостинг"

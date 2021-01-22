@@ -448,21 +448,6 @@ msgstr "已连接资源:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
-#: src/mod_register_web.erl:150
-#, fuzzy
-msgid "Could not change the password: "
-msgstr "修改密码出错: "
-
-#: src/mod_register_web.erl:122
-#, fuzzy
-msgid "Could not register the account: "
-msgstr "注销XMPP帐户"
-
-#: src/mod_register_web.erl:135
-#, fuzzy
-msgid "Could not unregister the account: "
-msgstr "注销XMPP帐户"
-
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
@@ -575,7 +560,7 @@ msgstr "转储到文本文件"
 
 #: src/mod_roster.erl:175
 #, fuzzy
-msgid "Duplicated groups are not allowed by RFC 6121"
+msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "按照RFC6121，不允许有重复组"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
@@ -1107,7 +1092,7 @@ msgstr "进入此房间需要会员身份"
 #: src/mod_register_web.erl:294
 #, fuzzy
 msgid ""
-"Memorize your password, or write it on a paper placed in a safe place. In "
+"Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 "记住你的密码, 或将其记到纸上并放于安全位置. 如果你忘记了密码, XMPP也没有自动"
@@ -1189,7 +1174,7 @@ msgstr "多重映射"
 
 #: src/mod_roster.erl:190
 #, fuzzy
-msgid "Multiple <item/> elements are not allowed by RFC 6121"
+msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "按照 RFC6121，多个 <item/> 元素是不允许的"
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1709,7 +1694,7 @@ msgstr "Pong"
 
 #: src/mod_roster.erl:168
 #, fuzzy
-msgid "Possessing 'ask' attribute is not allowed by RFC 6121"
+msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "按照 RFC6121， 不允许有 'ask' 属性"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
@@ -2055,8 +2040,8 @@ msgstr "关闭服务"
 #: src/mod_register_web.erl:290
 #, fuzzy
 msgid ""
-"Some XMPP clients can store your password on the computer, but for safety "
-"reasons you should do this on your personal computers ."
+"Some XMPP clients can store your password in the computer, but you should do "
+"this only in your personal computer for safety reasons."
 msgstr ""
 "某些 XMPP 客户端可以在你的计算机里存储密码. 请仅在你确认你的计算机安全的情况"
 "下使用该功能."
@@ -2253,6 +2238,10 @@ msgstr "你的 XMPP 帐户已成功删除."
 msgid "The body text of the last received message"
 msgstr ""
 
+#: src/mod_register_web.erl:599
+msgid "The captcha you entered is wrong"
+msgstr ""
+
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
@@ -2324,6 +2313,11 @@ msgstr "密码包含不可接受的字符"
 msgid "The password is too weak"
 msgstr "密码强度太弱"
 
+#: src/mod_register_web.erl:146
+#, fuzzy
+msgid "The password of your XMPP account was successfully changed."
+msgstr "你的XMPP帐户密码已成功更新."
+
 #: src/mod_register_web.erl:613
 #, fuzzy
 msgid "The password was not changed"
@@ -2374,26 +2368,37 @@ msgstr ""
 msgid "The username is not valid"
 msgstr ""
 
+#: src/mod_register_web.erl:150
+#, fuzzy
+msgid "There was an error changing the password: "
+msgstr "帐户创建出错: "
+
+#: src/mod_register_web.erl:122
+msgid "There was an error creating the account: "
+msgstr "帐户创建出错: "
+
+#: src/mod_register_web.erl:135
+msgid "There was an error deleting the account: "
+msgstr "帐户删除失败: "
+
 #: src/mod_register_web.erl:268
 #, fuzzy
-msgid ""
-"This is case insensitive: \"macbeth\" is the same as \"MacBeth\" and "
-"\"Macbeth\"."
+msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr "此处不区分大小写: macbeth 与 MacBeth 和 Macbeth 是一样的."
 
 #: src/mod_register_web.erl:252
 #, fuzzy
 msgid ""
-"This page allows registering an XMPP account on this XMPP server. Your JID "
-"(Jabber ID) will be of the form: username@server. Please read the "
-"instructions carefully before filling in the fields."
+"This page allows to register an XMPP account in this XMPP server. Your JID "
+"(Jabber ID) will be of the form: username@server. Please read carefully the "
+"instructions to fill correctly the fields."
 msgstr ""
 "本页面允许在此服务器上创建XMPP帐户. 你的JID (Jabber ID) 的形式如下: 用户名@服"
 "务器. 请仔细阅读说明并正确填写相应字段."
 
 #: src/mod_register_web.erl:507
 #, fuzzy
-msgid "This page allows unregistering an XMPP account on this XMPP server."
+msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr "此页面允许在此XMPP服务器上注销XMPP帐户"
 
 #: src/mod_muc_log.erl:805
@@ -2593,9 +2598,8 @@ msgid "User"
 msgstr "用户"
 
 #: src/ejabberd_oauth.erl:499
-#, fuzzy
-msgid "User (JID)"
-msgstr "用户JID"
+msgid "User (jid)"
+msgstr "用户 (jid)"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2773,11 +2777,6 @@ msgstr ""
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_register_web.erl:599
-#, fuzzy
-msgid "Wrong CAPTCHA entered"
-msgstr "保护房间验证码"
-
 #: src/mod_register_web.erl:617
 msgid "Wrong parameters in the web formulary"
 msgstr ""
@@ -2816,21 +2815,6 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd 发行-订阅模块"
 
-#: src/mod_register_web.erl:146
-#, fuzzy
-msgid "XMPP account password changed."
-msgstr "你的XMPP帐户已成功创建."
-
-#: src/mod_register_web.erl:118
-#, fuzzy
-msgid "XMPP account registered."
-msgstr "XMPP帐户注册"
-
-#: src/mod_register_web.erl:131
-#, fuzzy
-msgid "XMPP account unregistered."
-msgstr "XMPP帐户注册"
-
 #: src/mod_muc_room.erl:881
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
@@ -2843,7 +2827,7 @@ msgstr "您不可以创建节点"
 
 #: src/mod_register_web.erl:287
 #, fuzzy
-msgid "You can change your password using an XMPP client later."
+msgid "You can later change your password using an XMPP client."
 msgstr "你可以稍后用XMPP客户端修改你的密码."
 
 #: src/mod_muc_room.erl:2092
@@ -2873,6 +2857,16 @@ msgstr "您需要一个兼容 x:data 的客户端来搜索"
 #: src/mod_pubsub.erl:1563
 msgid "You're not allowed to create nodes"
 msgstr "您不可以创建节点"
+
+#: src/mod_register_web.erl:118
+#, fuzzy
+msgid "Your XMPP account was successfully registered."
+msgstr "你的 XMPP 帐户已成功删除."
+
+#: src/mod_register_web.erl:131
+#, fuzzy
+msgid "Your XMPP account was successfully unregistered."
+msgstr "你的 XMPP 帐户已成功删除."
 
 #: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -2977,22 +2971,37 @@ msgstr "~s邀请你到房间~s"
 msgid "~ts's Offline Messages Queue"
 msgstr "~s的离线消息队列"
 
-#~ msgid "User (jid)"
-#~ msgstr "用户 (jid)"
+#, fuzzy
+#~ msgid "Could not change the password: "
+#~ msgstr "修改密码出错: "
 
 #, fuzzy
-#~ msgid "The password of your XMPP account was successfully changed."
-#~ msgstr "你的XMPP帐户密码已成功更新."
-
-#~ msgid "There was an error creating the account: "
-#~ msgstr "帐户创建出错: "
-
-#~ msgid "There was an error deleting the account: "
-#~ msgstr "帐户删除失败: "
+#~ msgid "Could not register the account: "
+#~ msgstr "注销XMPP帐户"
 
 #, fuzzy
-#~ msgid "Your XMPP account was successfully deleted."
-#~ msgstr "你的 XMPP 帐户已成功删除."
+#~ msgid "Could not unregister the account: "
+#~ msgstr "注销XMPP帐户"
+
+#, fuzzy
+#~ msgid "User (JID)"
+#~ msgstr "用户JID"
+
+#, fuzzy
+#~ msgid "Wrong CAPTCHA entered"
+#~ msgstr "保护房间验证码"
+
+#, fuzzy
+#~ msgid "XMPP account password changed."
+#~ msgstr "你的XMPP帐户已成功创建."
+
+#, fuzzy
+#~ msgid "XMPP account registered."
+#~ msgstr "XMPP帐户注册"
+
+#, fuzzy
+#~ msgid "XMPP account unregistered."
+#~ msgstr "XMPP帐户注册"
 
 #, fuzzy
 #~ msgid "Virtual Hosting"
