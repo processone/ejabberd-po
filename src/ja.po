@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: src/mod_vcard.erl:462
+#: src/mod_vcard.erl:466
 msgid " (Add * to the end of field to match substring)"
 msgstr " (* を最後に付けると部分文字列にマッチします)"
 
@@ -464,9 +464,9 @@ msgstr "データーベーステーブル設定 "
 msgid "Database Tables at ~p"
 msgstr "データーベーステーブル: ~p"
 
-#: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3744
-#: src/mod_pubsub.erl:3788 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3892
-#: src/mod_pubsub.erl:4113 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
+#: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3764
+#: src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3828 src/mod_pubsub.erl:3912
+#: src/mod_pubsub.erl:4133 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
 #: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
 #: src/mod_register.erl:398 src/mod_last.erl:202 src/mod_muc.erl:720
 #: src/mod_muc.erl:1034 src/mod_push.erl:336 src/mod_push.erl:351
@@ -539,7 +539,9 @@ msgstr "表示グループ:"
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
-msgstr "パスワードは誰にも(たとえ XMPP サーバーの管理者でも)教えないようにしてください。"
+msgstr ""
+"パスワードは誰にも(たとえ XMPP サーバーの管理者でも)教えないようにしてくださ"
+"い。"
 
 #: src/mod_configure.erl:880
 msgid "Dump Backup to Text File at "
@@ -693,7 +695,7 @@ msgstr "2月"
 msgid "File larger than ~w bytes"
 msgstr ""
 
-#: src/mod_vcard.erl:458
+#: src/mod_vcard.erl:462
 msgid "Fill in the form to search for any matching XMPP User"
 msgstr "XMPP ユーザーを検索するには欄に入力してください"
 
@@ -1081,8 +1083,9 @@ msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
-"パスワードは記憶するか、紙に書いて安全な場所に保管してください。もしあなたがパスワードを忘れてしまった場合、XMPP "
-"ではパスワードのリカバリを自動的に行うことはできません。"
+"パスワードは記憶するか、紙に書いて安全な場所に保管してください。もしあなたが"
+"パスワードを忘れてしまった場合、XMPP ではパスワードのリカバリを自動的に行うこ"
+"とはできません。"
 
 #: src/ejabberd_web_admin.erl:1181
 msgid "Memory"
@@ -1582,7 +1585,7 @@ msgstr "外向き s2s コネクション:"
 
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
-#: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
+#: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3308 src/mod_pubsub.erl:3470
 #: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
 #: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
@@ -1720,7 +1723,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "公開モデルを指定する"
 
-#: src/mod_pubsub.erl:4171
+#: src/mod_pubsub.erl:4191
 msgid "Publish-Subscribe"
 msgstr "Publish-Subscribe"
 
@@ -1936,7 +1939,7 @@ msgstr "土曜日"
 msgid "Script check"
 msgstr "スクリプトチェック"
 
-#: src/mod_vcard.erl:475
+#: src/mod_vcard.erl:479
 msgid "Search Results for "
 msgstr "検索結果: "
 
@@ -1952,7 +1955,7 @@ msgstr ""
 msgid "Search until the date"
 msgstr ""
 
-#: src/mod_vcard.erl:440
+#: src/mod_vcard.erl:444
 msgid "Search users in "
 msgstr "ユーザーの検索: "
 
@@ -2024,7 +2027,8 @@ msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
 msgstr ""
-"XMPP クライアントはコンピューターにパスワードを記憶できます。コンピューターが安全であると信頼できる場合にのみ、この機能を使用してください。"
+"XMPP クライアントはコンピューターにパスワードを記憶できます。コンピューターが"
+"安全であると信頼できる場合にのみ、この機能を使用してください。"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1344
 #: deps/xmpp/src/pubsub_publish_options.erl:322
@@ -2355,7 +2359,8 @@ msgstr "アカウントの削除中にエラーが発生しました: "
 
 #: src/mod_register_web.erl:268
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
-msgstr "大文字と小文字は区別しません: macbeth は MacBeth や Macbeth と同じです。"
+msgstr ""
+"大文字と小文字は区別しません: macbeth は MacBeth や Macbeth と同じです。"
 
 #: src/mod_register_web.erl:252
 msgid ""
@@ -2363,8 +2368,9 @@ msgid ""
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
-"ここはこの XMPP サーバーにアカウントを作成するページです。あなたの JID (JabberID) は username@server "
-"のような形式になります。注意事項どおり、正しく項目を記入してください。"
+"ここはこの XMPP サーバーにアカウントを作成するページです。あなたの JID "
+"(JabberID) は username@server のような形式になります。注意事項どおり、正しく"
+"項目を記入してください。"
 
 #: src/mod_register_web.erl:507
 msgid "This page allows to unregister an XMPP account in this XMPP server."
@@ -2815,7 +2821,7 @@ msgstr "登録を行うには x:data と CAPTCHA をサポートするクライ�
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "ニックネームを登録するには x:data をサポートするクライアントが必要です"
 
-#: src/mod_vcard.erl:451
+#: src/mod_vcard.erl:455
 msgid "You need an x:data capable client to search"
 msgstr "検索を行うためには x:data をサポートするクライアントが必要です"
 
@@ -2920,7 +2926,7 @@ msgstr "プライベート、"
 msgid "the password is"
 msgstr "パスワードは"
 
-#: src/mod_vcard.erl:582
+#: src/mod_vcard.erl:586
 msgid "vCard User Search"
 msgstr "vCard検索"
 

@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: src/mod_vcard.erl:462
+#: src/mod_vcard.erl:466
 msgid " (Add * to the end of field to match substring)"
 msgstr " (在字段末添加*来匹配子串)"
 
@@ -183,8 +183,8 @@ msgid ""
 "LDAP Distinguished Name according to an implementation-specific or "
 "deployment-specific definition of a group."
 msgstr ""
-"与定义房间会员资格相关联的LDAP群组; 按群组特定于实现或特定于部署的定义, "
-"应该是一个LDAP专有名称."
+"与定义房间会员资格相关联的LDAP群组; 按群组特定于实现或特定于部署的定义, 应该"
+"是一个LDAP专有名称."
 
 #: src/mod_announce.erl:607
 msgid "Announcements"
@@ -462,9 +462,9 @@ msgstr "数据库表格配置位于"
 msgid "Database Tables at ~p"
 msgstr "位于~p的数据库表"
 
-#: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3744
-#: src/mod_pubsub.erl:3788 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3892
-#: src/mod_pubsub.erl:4113 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
+#: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3764
+#: src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3828 src/mod_pubsub.erl:3912
+#: src/mod_pubsub.erl:4133 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
 #: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
 #: src/mod_register.erl:398 src/mod_last.erl:202 src/mod_muc.erl:720
 #: src/mod_muc.erl:1034 src/mod_push.erl:336 src/mod_push.erl:351
@@ -687,7 +687,7 @@ msgstr "二月"
 msgid "File larger than ~w bytes"
 msgstr "文件大于 ~w 字节"
 
-#: src/mod_vcard.erl:458
+#: src/mod_vcard.erl:462
 msgid "Fill in the form to search for any matching XMPP User"
 msgstr "填充表单来搜索任何匹配的XMPP用户"
 
@@ -1556,7 +1556,7 @@ msgstr "出站 s2s 连接:"
 
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
-#: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3288 src/mod_pubsub.erl:3450
+#: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3308 src/mod_pubsub.erl:3470
 #: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
 #: src/mod_muc_room.erl:4218
 msgid "Owner privileges required"
@@ -1690,7 +1690,7 @@ msgstr "公开"
 msgid "Publish model"
 msgstr "发布模型"
 
-#: src/mod_pubsub.erl:4171
+#: src/mod_pubsub.erl:4191
 msgid "Publish-Subscribe"
 msgstr "发布-订阅"
 
@@ -1902,7 +1902,7 @@ msgstr "星期六"
 msgid "Script check"
 msgstr "脚本检查"
 
-#: src/mod_vcard.erl:475
+#: src/mod_vcard.erl:479
 msgid "Search Results for "
 msgstr "搜索结果属于关键词 "
 
@@ -1918,7 +1918,7 @@ msgstr "搜索文本"
 msgid "Search until the date"
 msgstr "搜索截至日期"
 
-#: src/mod_vcard.erl:440
+#: src/mod_vcard.erl:444
 msgid "Search users in "
 msgstr "搜索用户于"
 
@@ -1990,8 +1990,8 @@ msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
 msgstr ""
-"某些 XMPP 客户端可以在计算机里存储你的密码. 处于安全考虑, 请仅在你的个人计算机里"
-"使用该功能."
+"某些 XMPP 客户端可以在计算机里存储你的密码. 处于安全考虑, 请仅在你的个人计算"
+"机里使用该功能."
 
 #: deps/xmpp/src/pubsub_node_config.erl:1344
 #: deps/xmpp/src/pubsub_publish_options.erl:322
@@ -2169,8 +2169,8 @@ msgid ""
 "in order to generate a valid Data Forms result that the client could display "
 "using a generic Data Forms rendering engine"
 msgstr ""
-"XSL转换的URL, 可以将其应用于有效负载格式, 以生成有效的数据表单结果, "
-"客户端可以使用通用数据表单呈现引擎来显示该结果"
+"XSL转换的URL, 可以将其应用于有效负载格式, 以生成有效的数据表单结果, 客户端可"
+"以使用通用数据表单呈现引擎来显示该结果"
 
 #: src/mod_register_web.erl:601
 msgid "The account already exists"
@@ -2773,7 +2773,7 @@ msgstr "您需要一个支持 x:data 和验证码的客户端进行注册"
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "您需要一个支持 x:data 的客户端来注册昵称"
 
-#: src/mod_vcard.erl:451
+#: src/mod_vcard.erl:455
 msgid "You need an x:data capable client to search"
 msgstr "您需要一个兼容 x:data 的客户端来搜索"
 
@@ -2876,7 +2876,7 @@ msgstr "保密, "
 msgid "the password is"
 msgstr "密码是"
 
-#: src/mod_vcard.erl:582
+#: src/mod_vcard.erl:586
 msgid "vCard User Search"
 msgstr "vCard用户搜索"
 
