@@ -1,23 +1,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ejabberd 2.1.x\n"
-"PO-Revision-Date: 2012-04-16 15:48+0900\n"
-"Last-Translator: Tsukasa Hamano <code@cuspy.org>\n"
+"Report-Msgid-Bugs-To: badlop@process-one.net\n"
+"PO-Revision-Date: 2021-02-12 03:50+0000\n"
+"Last-Translator: Mako N <mako@pasero.net>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/ejabberd/"
+"ejabberd-po/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5-dev\n"
 "X-Language: Japanese (日本語)\n"
-"X-Additional-Translator: Tsukasa Hamano <code@cuspy.org>\n"
 "X-Additional-Translator: Mako N <mako@pasero.net>\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: src/mod_vcard.erl:462
-#, fuzzy
 msgid " (Add * to the end of field to match substring)"
-msgstr ""
-"項目を入力してユーザーを検索を行えます (* を使用すると部分文字列にマッチしま"
-"す)"
+msgstr " (* を最後に付けると部分文字列にマッチします)"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
 msgid " has set the subject to: "
@@ -34,13 +36,12 @@ msgstr ""
 
 #: deps/xmpp/src/muc_register.erl:502
 msgid "A Web Page"
-msgstr ""
+msgstr "ウェブページ"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1561
 #: deps/xmpp/src/pubsub_meta_data.erl:672
-#, fuzzy
 msgid "A description of the node"
-msgstr "ノードのフレンドリネーム"
+msgstr "ノードの説明"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1985
 msgid "A friendly name for the node"
@@ -70,9 +71,8 @@ msgid "Access denied by service policy"
 msgstr "サービスポリシーによってアクセスが禁止されました"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:833
-#, fuzzy
 msgid "Access model"
-msgstr "アクセスルール"
+msgstr "アクセスモデル"
 
 #: deps/xmpp/src/pubsub_publish_options.erl:295
 msgid "Access model of authorize"
@@ -96,9 +96,8 @@ msgid "Access model of whitelist"
 msgstr "アクセスコントロールリスト"
 
 #: src/mod_register_web.erl:609
-#, fuzzy
 msgid "Account doesn't exist"
-msgstr "会議室は存在しません"
+msgstr "アカウントは存在しません"
 
 #: src/mod_configure.erl:1514
 msgid "Action on user"
@@ -138,9 +137,8 @@ msgid "All activity"
 msgstr "すべて"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1556
-#, fuzzy
 msgid "Allow subscription"
-msgstr "認可"
+msgstr "購読を認可"
 
 #: deps/xmpp/src/pubsub_subscribe_authorization.erl:343
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
@@ -211,7 +209,6 @@ msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:728 deps/xmpp/src/muc_roomconfig.erl:1418
 #: deps/xmpp/src/muc_roomconfig.erl:1478 deps/xmpp/src/muc_roomconfig.erl:1981
-#, fuzzy
 msgid "Anyone"
 msgstr "誰にでも"
 
@@ -309,7 +306,7 @@ msgstr "誕生日"
 
 #: src/mod_legacy_auth.erl:117
 msgid "Both the username and the resource are required"
-msgstr ""
+msgstr "ユーザー名とリソースの両方が必要"
 
 #: src/mod_proxy65_service.erl:237
 msgid "Bytestream already activated"
@@ -347,9 +344,8 @@ msgid "Change User Password"
 msgstr "パスワードを変更"
 
 #: src/mod_register.erl:308
-#, fuzzy
 msgid "Changing password is not allowed"
-msgstr "使用できない文字:"
+msgstr "パスワード変更の権限がありません"
 
 #: src/mod_muc_room.erl:3061
 #, fuzzy
@@ -358,16 +354,15 @@ msgstr "使用できない文字:"
 
 #: src/mod_mix.erl:657
 msgid "Channel already exists"
-msgstr ""
+msgstr "チャンネルは既に存在します"
 
 #: src/mod_mix.erl:662
-#, fuzzy
 msgid "Channel does not exist"
-msgstr "会議室は存在しません"
+msgstr "チャンネルは存在しません"
 
 #: src/mod_mix.erl:97
 msgid "Channels"
-msgstr ""
+msgstr "チャンネル"
 
 #: src/mod_register_web.erl:271
 msgid "Characters not allowed:"
@@ -444,7 +439,7 @@ msgstr "接続リソース:"
 
 #: deps/xmpp/src/muc_roominfo.erl:764
 msgid "Contact Addresses (normally, room owner or owners)"
-msgstr ""
+msgstr "連絡先 (通常は会議室の主宰者またはその複数)"
 
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
@@ -454,7 +449,7 @@ msgstr "国"
 
 #: deps/xmpp/src/muc_roominfo.erl:875
 msgid "Current Discussion Topic"
-msgstr ""
+msgstr "現在の話題"
 
 #: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1099 src/ejabberd_web_admin.erl:1806
@@ -504,9 +499,8 @@ msgid "Delete User"
 msgstr "ユーザーを削除"
 
 #: src/ejabberd_web_admin.erl:1509
-#, fuzzy
 msgid "Delete content"
-msgstr "選択した項目を削除"
+msgstr "内容を削除"
 
 #: src/mod_announce.erl:625
 msgid "Delete message of the day"
@@ -517,9 +511,8 @@ msgid "Delete message of the day on all hosts"
 msgstr "全ホストのお知らせメッセージを削除"
 
 #: src/ejabberd_web_admin.erl:1510
-#, fuzzy
 msgid "Delete table"
-msgstr "ユーザーを削除"
+msgstr "テーブルを削除"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1530
 msgid "Deliver event notifications"
@@ -543,13 +536,10 @@ msgid "Displayed:"
 msgstr "表示グループ:"
 
 #: src/mod_register_web.erl:283
-#, fuzzy
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
-msgstr ""
-"パスワードは誰にも教えないようにしてください。XMPP サーバーの管理者があなたに"
-"パスワードを尋ねることはありません。"
+msgstr "パスワードは誰にも(たとえ XMPP サーバーの管理者でも)教えないようにしてください。"
 
 #: src/mod_configure.erl:880
 msgid "Dump Backup to Text File at "
@@ -561,7 +551,7 @@ msgstr "テキストファイルに出力"
 
 #: src/mod_roster.erl:175
 msgid "Duplicated groups are not allowed by RFC6121"
-msgstr ""
+msgstr "RFC6121 によりグループの重複は許されません"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
 msgid "Dynamically specify a replyto of the item publisher"
@@ -583,11 +573,11 @@ msgstr "要素"
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
 #: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Email"
-msgstr "メールアドレス"
+msgstr "メール"
 
 #: deps/xmpp/src/muc_register.erl:432
 msgid "Email Address"
-msgstr ""
+msgstr "メールアドレス"
 
 #: src/mod_muc_log.erl:822 deps/xmpp/src/muc_roomconfig.erl:1668
 msgid "Enable logging"
@@ -631,9 +621,8 @@ msgid "Enter the text you see"
 msgstr "見えているテキストを入力してください"
 
 #: src/mod_vcard.erl:213
-#, fuzzy
 msgid "Erlang XMPP Server"
-msgstr "Erlang XMPP Server"
+msgstr "Erlang XMPP サーバー"
 
 #: src/ejabberd_web_admin.erl:1203
 msgid "Error"
@@ -683,7 +672,7 @@ msgstr ""
 
 #: src/mod_http_upload.erl:864
 msgid "Failed to parse HTTP response"
-msgstr ""
+msgstr "HTTP 応答のパースに失敗しました"
 
 #: src/mod_muc_room.erl:3652
 msgid "Failed to process option '~s'"
@@ -705,9 +694,8 @@ msgid "File larger than ~w bytes"
 msgstr ""
 
 #: src/mod_vcard.erl:458
-#, fuzzy
 msgid "Fill in the form to search for any matching XMPP User"
-msgstr "項目を入力してユーザーを検索してください"
+msgstr "XMPP ユーザーを検索するには欄に入力してください"
 
 #: src/mod_muc_log.erl:472
 msgid "Friday"
@@ -718,19 +706,16 @@ msgid "From"
 msgstr "差出人"
 
 #: src/mod_configure.erl:678
-#, fuzzy
 msgid "From ~ts"
-msgstr "From ~s"
+msgstr "From ~ts"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1909
-#, fuzzy
 msgid "Full List of Room Admins"
-msgstr "チャットルームの一覧"
+msgstr "チャットルーム管理者の一覧"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1952
-#, fuzzy
 msgid "Full List of Room Owners"
-msgstr "チャットルームの一覧"
+msgstr "チャットルーム主宰者の一覧"
 
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
@@ -768,21 +753,18 @@ msgstr "ユーザー統計を取得"
 
 #: src/mod_vcard_ldap.erl:328 src/mod_vcard_ldap.erl:341
 #: deps/xmpp/src/muc_register.erl:460
-#, fuzzy
 msgid "Given Name"
-msgstr "ミドルネーム"
+msgstr "名"
 
 #: deps/xmpp/src/muc_request.erl:383
 msgid "Grant voice to this person?"
 msgstr "この人に発言権を与えますか ?"
 
 #: src/mod_shared_roster.erl:1040
-#, fuzzy
 msgid "Group"
 msgstr "グループ"
 
 #: src/mod_roster.erl:1005
-#, fuzzy
 msgid "Groups"
 msgstr "グループ"
 
@@ -792,7 +774,7 @@ msgstr ""
 
 #: src/mod_http_upload.erl:210
 msgid "HTTP File Upload"
-msgstr ""
+msgstr "HTTP ファイルアップロード"
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
@@ -800,7 +782,7 @@ msgstr "ホスト"
 
 #: src/mod_s2s_dialback.erl:363
 msgid "Host unknown"
-msgstr ""
+msgstr "不明なホスト"
 
 #: src/mod_configure.erl:1405
 msgid "IP addresses"
@@ -867,9 +849,8 @@ msgstr ""
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
 #: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
-#, fuzzy
 msgid "Incorrect data form"
-msgstr "パスワードが違います"
+msgstr "データ形式が違います"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
 #: src/mod_muc_room.erl:2208
@@ -896,7 +877,7 @@ msgstr ""
 
 #: src/mod_multicast.erl:352
 msgid "Internal server error"
-msgstr ""
+msgstr "内部サーバーエラー"
 
 #: src/mod_privilege.erl:409
 msgid "Invalid 'from' attribute in forwarded message"
@@ -908,14 +889,12 @@ msgid "Invalid 'previd' value"
 msgstr "無効な役です: ~s"
 
 #: src/mod_muc_room.erl:4105
-#, fuzzy
 msgid "Invalid node name"
-msgstr "無効な役です: ~s"
+msgstr "無効なノード名です"
 
 #: src/mod_muc_room.erl:4467
-#, fuzzy
 msgid "Invitations are not allowed in this conference"
-msgstr "この会議では、発言権の要求はできません"
+msgstr "この会議では、招待はできません"
 
 #: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
 msgid ""
@@ -971,11 +950,11 @@ msgstr "6月"
 
 #: src/mod_muc_admin.erl:537
 msgid "Just created"
-msgstr ""
+msgstr "作成しました"
 
 #: src/mod_shared_roster.erl:1006
 msgid "Label:"
-msgstr ""
+msgstr "ラベル:"
 
 #: src/ejabberd_web_admin.erl:710 src/ejabberd_web_admin.erl:774
 #: src/ejabberd_web_admin.erl:948
@@ -987,9 +966,8 @@ msgid "Last login"
 msgstr "最終ログイン"
 
 #: src/mod_muc_admin.erl:533
-#, fuzzy
 msgid "Last message"
-msgstr "去年"
+msgstr "最終メッセージ"
 
 #: src/ejabberd_web_admin.erl:492
 msgid "Last month"
@@ -1050,9 +1028,8 @@ msgid "Make room public searchable"
 msgstr "チャットルームを検索可"
 
 #: src/mod_register.erl:384
-#, fuzzy
 msgid "Malformed username"
-msgstr "IRC ユーザー名"
+msgstr "不正な形式のユーザー名"
 
 #: src/mod_muc_log.erl:480
 msgid "March"
@@ -1076,7 +1053,7 @@ msgstr "最大在室者数"
 
 #: deps/xmpp/src/http_upload.erl:240
 msgid "Maximum file size"
-msgstr ""
+msgstr "最大ファイルサイズ"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:788
 #, fuzzy
@@ -1100,14 +1077,12 @@ msgid "Membership is required to enter this room"
 msgstr "このチャットルームに入るにはメンバーでなければなりません"
 
 #: src/mod_register_web.erl:294
-#, fuzzy
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
-"パスワードは記憶するか、紙に書いて安全な場所に保管してください。もしあなたが"
-"パスワードを忘れてしまった場合、XMPP ではパスワードのリカバリを自動的に行うこ"
-"とはできません。"
+"パスワードは記憶するか、紙に書いて安全な場所に保管してください。もしあなたがパスワードを忘れてしまった場合、XMPP "
+"ではパスワードのリカバリを自動的に行うことはできません。"
 
 #: src/ejabberd_web_admin.erl:1181
 msgid "Memory"
@@ -1207,7 +1182,7 @@ msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:846
 msgid "Natural-Language Room Name"
-msgstr ""
+msgstr "自然言語での会議室名"
 
 #: src/mod_muc_room.erl:2988
 msgid "Neither 'jid' nor 'nick' attribute found"
@@ -1240,7 +1215,7 @@ msgstr "ニックネーム登録: "
 #: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
 #: src/mod_muc_room.erl:4263
 msgid "Nickname can't be empty"
-msgstr ""
+msgstr "ニックネームは空にできません"
 
 #: src/mod_muc_room.erl:3005
 msgid "Nickname ~s does not exist in the room"
@@ -1385,7 +1360,7 @@ msgstr "ノードID"
 
 #: src/nodetree_tree.erl:219 src/nodetree_tree_sql.erl:278
 msgid "Node already exists"
-msgstr ""
+msgstr "ノードは既に存在しています"
 
 #: src/nodetree_tree_sql.erl:96
 #, fuzzy
@@ -1448,9 +1423,8 @@ msgid "November"
 msgstr "11月"
 
 #: deps/xmpp/src/flex_offline.erl:239
-#, fuzzy
 msgid "Number of Offline Messages"
-msgstr "オフラインメッセージ"
+msgstr "オフラインメッセージ数"
 
 #: deps/xmpp/src/captcha_form.erl:686
 #, fuzzy
@@ -1483,14 +1457,12 @@ msgid "OK"
 msgstr "OK"
 
 #: deps/xmpp/src/muc_roominfo.erl:925
-#, fuzzy
 msgid "Occupants May Change the Subject"
 msgstr "ユーザーによる件名の変更を許可"
 
 #: deps/xmpp/src/muc_roominfo.erl:716
-#, fuzzy
 msgid "Occupants are allowed to invite others"
-msgstr "在室者のみが会議にクエリーを送信することができます"
+msgstr "在室者は誰かを招待することができます"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
@@ -1677,7 +1649,6 @@ msgid "Persist items to storage"
 msgstr "アイテムをストレージに保存する"
 
 #: src/mod_muc_admin.erl:535
-#, fuzzy
 msgid "Persistent"
 msgstr "チャットルームを永続化"
 
@@ -1814,7 +1785,6 @@ msgstr "登録"
 
 #: src/mod_register_web.erl:214 src/mod_register_web.erl:242
 #: src/mod_register_web.erl:250
-#, fuzzy
 msgid "Register an XMPP account"
 msgstr "XMPP アカウントを登録"
 
@@ -1938,18 +1908,16 @@ msgid "Roster groups allowed to subscribe"
 msgstr "名簿グループは購読を許可しました"
 
 #: src/mod_roster.erl:1056
-#, fuzzy
 msgid "Roster of ~ts"
-msgstr "名簿: "
+msgstr "~ts の名簿"
 
 #: src/mod_configure.erl:1403
 msgid "Roster size"
 msgstr "名簿サイズ"
 
 #: src/mod_roster.erl:1174
-#, fuzzy
 msgid "Roster:"
-msgstr "名簿"
+msgstr "名簿:"
 
 #: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1071
 msgid "Running Nodes"
@@ -1958,7 +1926,7 @@ msgstr "起動ノード"
 #: src/mod_proxy65.erl:135
 #, fuzzy
 msgid "SOCKS5 Bytestreams"
-msgstr "ejabberd SOCKS5 Bytestreams モジュール"
+msgstr "SOCKS5 Bytestreams"
 
 #: src/mod_muc_log.erl:473
 msgid "Saturday"
@@ -1990,7 +1958,7 @@ msgstr "ユーザーの検索: "
 
 #: src/ejabberd_web_admin.erl:1412
 msgid "Select All"
-msgstr ""
+msgstr "すべて選択"
 
 #: src/mod_announce.erl:613
 msgid "Send announcement to all online users"
@@ -2052,13 +2020,11 @@ msgid "Shut Down Service"
 msgstr "サービスを停止"
 
 #: src/mod_register_web.erl:290
-#, fuzzy
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
 msgstr ""
-"XMPP クライアントはコンピューターにパスワードを記憶できます。コンピューターが"
-"安全であると信頼できる場合にのみ、この機能を使用してください。"
+"XMPP クライアントはコンピューターにパスワードを記憶できます。コンピューターが安全であると信頼できる場合にのみ、この機能を使用してください。"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1344
 #: deps/xmpp/src/pubsub_publish_options.erl:322
@@ -2075,7 +2041,7 @@ msgstr "公開モデルを指定する"
 
 #: deps/xmpp/src/captcha_form.erl:821
 msgid "Stanza ID"
-msgstr ""
+msgstr "スタンザ ID"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1592
 msgid "Statically specify a replyto of the node owner(s)"
@@ -2205,7 +2171,7 @@ msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:657
 msgid "The JID of the node creator"
-msgstr ""
+msgstr "ノード作成者の JID"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1493
 #: deps/xmpp/src/pubsub_meta_data.erl:625
@@ -2239,12 +2205,11 @@ msgstr ""
 
 #: src/mod_register_web.erl:601
 msgid "The account already exists"
-msgstr ""
+msgstr "アカウントは既に存在しています"
 
 #: src/mod_register_web.erl:611
-#, fuzzy
 msgid "The account was not unregistered"
-msgstr "Jabber アカウントの削除に成功しました。"
+msgstr "アカウントは削除されませんでした"
 
 #: deps/xmpp/src/push_summary.erl:397
 msgid "The body text of the last received message"
@@ -2252,7 +2217,7 @@ msgstr ""
 
 #: src/mod_register_web.erl:599
 msgid "The captcha you entered is wrong"
-msgstr ""
+msgstr "入力した CAPTCHA は間違っています"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
@@ -2268,9 +2233,8 @@ msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1633
 #: deps/xmpp/src/pubsub_meta_data.erl:693
-#, fuzzy
 msgid "The default language of the node"
-msgstr "ノードのフレンドリネーム"
+msgstr "ノードのデフォルトの言語"
 
 #: src/mod_muc_room.erl:450
 msgid "The feature requested is not supported by the conference"
@@ -2292,9 +2256,8 @@ msgid ""
 msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:758
-#, fuzzy
 msgid "The name of the node"
-msgstr "ノードのフレンドリネーム"
+msgstr "ノード名"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1682
 msgid "The node is a collection node"
@@ -2319,26 +2282,23 @@ msgstr ""
 
 #: src/mod_register.erl:392
 msgid "The password contains unacceptable characters"
-msgstr ""
+msgstr "パスワードに使用できない文字が含まれています"
 
 #: src/mod_register.erl:390
 msgid "The password is too weak"
 msgstr "このパスワードは単純過ぎます"
 
 #: src/mod_register_web.erl:146
-#, fuzzy
 msgid "The password of your XMPP account was successfully changed."
 msgstr "XMPP アカウントのパスワード変更に成功しました。"
 
 #: src/mod_register_web.erl:613
-#, fuzzy
 msgid "The password was not changed"
-msgstr "このパスワードは単純過ぎます"
+msgstr "このパスワードは変更されませんでした"
 
 #: src/mod_register_web.erl:615
-#, fuzzy
 msgid "The passwords are different"
-msgstr "このパスワードは単純過ぎます"
+msgstr "このパスワードが違います"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:591
 msgid "The presence states for which an entity wants to receive notifications"
@@ -2378,7 +2338,7 @@ msgstr ""
 
 #: src/mod_register_web.erl:605
 msgid "The username is not valid"
-msgstr ""
+msgstr "ユーザー名が正しくありません"
 
 #: src/mod_register_web.erl:150
 #, fuzzy
@@ -2394,24 +2354,19 @@ msgid "There was an error deleting the account: "
 msgstr "アカウントの削除中にエラーが発生しました: "
 
 #: src/mod_register_web.erl:268
-#, fuzzy
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
-msgstr ""
-"大文字と小文字は区別しません: macbeth は MacBeth や Macbeth と同じです。"
+msgstr "大文字と小文字は区別しません: macbeth は MacBeth や Macbeth と同じです。"
 
 #: src/mod_register_web.erl:252
-#, fuzzy
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
-"ここはこの XMPP サーバーにアカウントを作成するページです。あなたの JID "
-"(JabberID) は username@server のような形式になります。注意事項どおり、正しく"
-"項目を記入してください。"
+"ここはこの XMPP サーバーにアカウントを作成するページです。あなたの JID (JabberID) は username@server "
+"のような形式になります。注意事項どおり、正しく項目を記入してください。"
 
 #: src/mod_register_web.erl:507
-#, fuzzy
 msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr "このページはサーバー上のXMPPアカウントを削除するページです。"
 
@@ -2561,7 +2516,6 @@ msgstr "削除"
 
 #: src/mod_register_web.erl:219 src/mod_register_web.erl:497
 #: src/mod_register_web.erl:505
-#, fuzzy
 msgid "Unregister an XMPP account"
 msgstr "XMPP アカウントを削除"
 
@@ -2575,7 +2529,7 @@ msgstr ""
 
 #: src/mod_stream_mgmt.erl:369
 msgid "Unsupported version"
-msgstr ""
+msgstr "対応していないバージョン"
 
 #: src/ejabberd_web_admin.erl:1102 src/ejabberd_web_admin.erl:1446
 #: src/ejabberd_web_admin.erl:1809
@@ -2613,9 +2567,8 @@ msgid "User"
 msgstr "ユーザー"
 
 #: src/ejabberd_oauth.erl:499
-#, fuzzy
 msgid "User (jid)"
-msgstr "ユーザー JID"
+msgstr "ユーザー (JID)"
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
@@ -2627,11 +2580,11 @@ msgstr "ユーザー管理"
 
 #: src/mod_register.erl:396
 msgid "User already exists"
-msgstr ""
+msgstr "ユーザーは既に存在しています"
 
 #: src/ejabberd_sm.erl:214
 msgid "User removed"
-msgstr ""
+msgstr "ユーザーを削除しました"
 
 #: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
 #, fuzzy
@@ -2643,9 +2596,8 @@ msgid "User session terminated"
 msgstr ""
 
 #: src/ejabberd_web_admin.erl:933
-#, fuzzy
 msgid "User ~ts"
-msgstr "ユーザー ~s"
+msgstr "ユーザー ~ts"
 
 #: src/mod_register_web.erl:262 src/mod_register_web.erl:402
 #: src/mod_register_web.erl:513
@@ -2704,12 +2656,11 @@ msgstr ""
 
 #: src/mod_offline.erl:1075
 msgid "View Queue"
-msgstr ""
+msgstr "キューを表示"
 
 #: src/mod_roster.erl:1172
-#, fuzzy
 msgid "View Roster"
-msgstr "名簿"
+msgstr "名簿を表示"
 
 #: src/ejabberd_web_admin.erl:439 src/ejabberd_web_admin.erl:1818
 msgid "Virtual Hosts"
@@ -2803,13 +2754,12 @@ msgid "Wrong xmlns"
 msgstr ""
 
 #: src/mod_register_web.erl:203 src/mod_register_web.erl:211
-#, fuzzy
 msgid "XMPP Account Registration"
 msgstr "XMPP アカウント登録"
 
 #: src/ejabberd_web_admin.erl:440
 msgid "XMPP Domains"
-msgstr ""
+msgstr "XMPP ドメイン"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:563
 msgid "XMPP Show Value of Away"
@@ -2833,9 +2783,8 @@ msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd Publish-Subscribe モジュール"
 
 #: src/mod_muc_room.erl:881
-#, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
-msgstr "はシステムシャットダウンのためキックされました"
+msgstr "システムシャットダウンのためチャットルームから削除されました"
 
 #: src/mod_mix.erl:667
 #, fuzzy
@@ -2843,13 +2792,12 @@ msgid "You are not joined to the channel"
 msgstr "プライベートメッセージを送信することはできません"
 
 #: src/mod_register_web.erl:287
-#, fuzzy
 msgid "You can later change your password using an XMPP client."
 msgstr "あなたは後で XMPP クライアントを使用してパスワードを変更できます。"
 
 #: src/mod_muc_room.erl:2092
 msgid "You have been banned from this room"
-msgstr "あなたはこのチャットルームからバンされています"
+msgstr "あなたはこのチャットルームから締め出されています"
 
 #: src/mod_muc_room.erl:2073
 msgid "You have joined too many conferences"
@@ -2872,17 +2820,14 @@ msgid "You need an x:data capable client to search"
 msgstr "検索を行うためには x:data をサポートするクライアントが必要です"
 
 #: src/mod_pubsub.erl:1563
-#, fuzzy
 msgid "You're not allowed to create nodes"
-msgstr "プライベートメッセージを送信することはできません"
+msgstr "ノードを作成する権限がありません"
 
 #: src/mod_register_web.erl:118
-#, fuzzy
 msgid "Your XMPP account was successfully registered."
-msgstr "XMPP アカウントの削除に成功しました。"
+msgstr "XMPP アカウントの登録に成功しました。"
 
 #: src/mod_register_web.erl:131
-#, fuzzy
 msgid "Your XMPP account was successfully unregistered."
 msgstr "XMPP アカウントの削除に成功しました。"
 
@@ -2904,14 +2849,12 @@ msgstr ""
 "~s 宛のメッセージはブロックされています。解除するにはこちらを見てください ~s"
 
 #: src/mod_disco.erl:439
-#, fuzzy
 msgid "ejabberd"
-msgstr "ejabberd ウェブ管理"
+msgstr "ejabberd"
 
 #: src/mod_http_upload.erl:751
-#, fuzzy
 msgid "ejabberd HTTP Upload service"
-msgstr "ejabberdマルチキャストサービス"
+msgstr "ejabberd HTTP ファイルアップロード"
 
 #: src/mod_muc.erl:597
 msgid "ejabberd MUC module"
@@ -2982,14 +2925,12 @@ msgid "vCard User Search"
 msgstr "vCard検索"
 
 #: src/mod_muc_room.erl:4489
-#, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s はあなたをチャットルーム ~s に招待しています"
 
 #: src/mod_offline.erl:991
-#, fuzzy
 msgid "~ts's Offline Messages Queue"
-msgstr "~s' のオフラインメッセージキュー"
+msgstr "~ts のオフラインメッセージキュー"
 
 #, fuzzy
 #~ msgid "Could not change the password: "
