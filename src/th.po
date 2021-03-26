@@ -20,7 +20,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " ตั้งหัวข้อว่า: "
 
-#: src/mod_muc_admin.erl:532
+#: src/mod_muc_admin.erl:558
 #, fuzzy
 msgid "# participants"
 msgstr "ผู้ใช้เริ่มต้นเป็นผู้เข้าร่วม"
@@ -29,20 +29,20 @@ msgstr "ผู้ใช้เริ่มต้นเป็นผู้เข้
 msgid "'Displayed groups' not added (they do not exist!): "
 msgstr ""
 
-#: deps/xmpp/src/muc_register.erl:502
+#: _build/default/lib/xmpp/src/muc_register.erl:502
 msgid "A Web Page"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1561
-#: deps/xmpp/src/pubsub_meta_data.erl:672
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1561
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:672
 msgid "A description of the node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1985
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1985
 msgid "A friendly name for the node"
 msgstr ""
 
-#: src/mod_muc_room.erl:2158
+#: src/mod_muc_room.erl:2167
 #, fuzzy
 msgid "A password is required to enter this room"
 msgstr "ต้องใส่รหัสผ่านเพื่อเข้าห้องนี้"
@@ -56,9 +56,9 @@ msgstr ""
 #: src/mod_configure.erl:715 src/mod_configure.erl:1480
 #: src/ejabberd_c2s.erl:449 src/ejabberd_c2s.erl:692
 #: src/mod_legacy_auth.erl:151 src/mod_roster.erl:182 src/mod_multicast.erl:332
-#: src/ejabberd_s2s.erl:363 src/mod_register.erl:128 src/mod_register.erl:282
-#: src/mod_register.erl:386 src/mod_s2s_dialback.erl:361 src/mod_muc.erl:207
-#: src/mod_muc.erl:630 src/mod_proxy65_service.erl:197
+#: src/ejabberd_s2s.erl:363 src/mod_register.erl:128 src/mod_register.erl:293
+#: src/mod_register.erl:397 src/mod_s2s_dialback.erl:361 src/mod_muc.erl:209
+#: src/mod_muc.erl:669 src/mod_proxy65_service.erl:197
 #: src/mod_proxy65_service.erl:246 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:503
@@ -66,28 +66,28 @@ msgstr ""
 msgid "Access denied by service policy"
 msgstr "การเข้าถึงถูกปฏิเสธโดยนโยบายการบริการ"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:833
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:833
 #, fuzzy
 msgid "Access model"
 msgstr "กฎการเข้าถึง"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:295
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:295
 msgid "Access model of authorize"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:299
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:299
 msgid "Access model of open"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:303
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:303
 msgid "Access model of presence"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:307
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:307
 msgid "Access model of roster"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:311
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:311
 #, fuzzy
 msgid "Access model of whitelist"
 msgstr "รายการควบคุมการเข้าถึง"
@@ -122,7 +122,7 @@ msgstr "การดูแล"
 msgid "Administration of "
 msgstr "การดูแล "
 
-#: src/mod_muc_room.erl:2802
+#: src/mod_muc_room.erl:2811
 msgid "Administrator privileges required"
 msgstr "ต้องมีสิทธิพิเศษของผู้ดูแลระบบ"
 
@@ -134,57 +134,57 @@ msgstr "ผู้ใช้ทั้งหมด"
 msgid "All activity"
 msgstr "กิจกรรมทั้งหมด"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1556
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1556
 #, fuzzy
 msgid "Allow subscription"
 msgstr "การสมัครสมาชิก"
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:343
+#: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:343
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
 msgstr "อนุญาตให้ Jabber ID นี้เข้าร่วมเป็นสมาชิกของโหนด pubsub หรือไม่"
 
-#: deps/xmpp/src/muc_register.erl:417
+#: _build/default/lib/xmpp/src/muc_register.erl:417
 msgid "Allow this person to register with the room?"
 msgstr ""
 
-#: src/mod_muc_log.erl:813 deps/xmpp/src/muc_roomconfig.erl:1654
+#: src/mod_muc_log.erl:813 _build/default/lib/xmpp/src/muc_roomconfig.erl:1654
 #, fuzzy
 msgid "Allow users to change the subject"
 msgstr "อนุญาตให้ผู้ใช้เปลี่ยนหัวข้อได้"
 
-#: src/mod_muc_log.erl:819 deps/xmpp/src/muc_roomconfig.erl:1623
+#: src/mod_muc_log.erl:819 _build/default/lib/xmpp/src/muc_roomconfig.erl:1623
 msgid "Allow users to query other users"
 msgstr "อนุญาตให้ผู้ใช้ถามคำถามกับผู้ใช้คนอื่นๆ ได้"
 
-#: src/mod_muc_log.erl:821 deps/xmpp/src/muc_roomconfig.erl:1638
+#: src/mod_muc_log.erl:821 _build/default/lib/xmpp/src/muc_roomconfig.erl:1638
 msgid "Allow users to send invites"
 msgstr "อนุญาตให้ผู้ใช้ส่งคำเชิญถึงกันได้"
 
-#: src/mod_muc_log.erl:815 deps/xmpp/src/muc_roomconfig.erl:1456
+#: src/mod_muc_log.erl:815 _build/default/lib/xmpp/src/muc_roomconfig.erl:1456
 msgid "Allow users to send private messages"
 msgstr "อนุญาตให้ผู้ใช้ส่งข้อความส่วนตัว"
 
-#: src/mod_muc_log.erl:824 deps/xmpp/src/muc_roomconfig.erl:1526
+#: src/mod_muc_log.erl:824 _build/default/lib/xmpp/src/muc_roomconfig.erl:1526
 #, fuzzy
 msgid "Allow visitors to change nickname"
 msgstr "อนุญาตให้ผู้ใช้เปลี่ยนหัวข้อได้"
 
-#: src/mod_muc_log.erl:817 deps/xmpp/src/muc_roomconfig.erl:1491
+#: src/mod_muc_log.erl:817 _build/default/lib/xmpp/src/muc_roomconfig.erl:1491
 #, fuzzy
 msgid "Allow visitors to send private messages to"
 msgstr "อนุญาตให้ผู้ใช้ส่งข้อความส่วนตัว"
 
-#: src/mod_muc_log.erl:826 deps/xmpp/src/muc_roomconfig.erl:1507
+#: src/mod_muc_log.erl:826 _build/default/lib/xmpp/src/muc_roomconfig.erl:1507
 #, fuzzy
 msgid "Allow visitors to send status text in presence updates"
 msgstr "อนุญาตให้ผู้ใช้ส่งข้อความส่วนตัว"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1542
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1542
 #, fuzzy
 msgid "Allow visitors to send voice requests"
 msgstr "อนุญาตให้ผู้ใช้ส่งคำเชิญถึงกันได้"
 
-#: deps/xmpp/src/muc_roominfo.erl:811
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:811
 msgid ""
 "An associated LDAP group that defines room membership; this should be an "
 "LDAP Distinguished Name according to an implementation-specific or "
@@ -195,54 +195,57 @@ msgstr ""
 msgid "Announcements"
 msgstr "ประกาศ"
 
-#: deps/xmpp/src/captcha_form.erl:762
+#: _build/default/lib/xmpp/src/captcha_form.erl:762
 msgid "Answer associated with a picture"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:866
+#: _build/default/lib/xmpp/src/captcha_form.erl:866
 msgid "Answer associated with a video"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:836
+#: _build/default/lib/xmpp/src/captcha_form.erl:836
 msgid "Answer associated with speech"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:791
+#: _build/default/lib/xmpp/src/captcha_form.erl:791
 msgid "Answer to a question"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:728 deps/xmpp/src/muc_roomconfig.erl:1418
-#: deps/xmpp/src/muc_roomconfig.erl:1478 deps/xmpp/src/muc_roomconfig.erl:1981
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:728
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1418
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1478
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1981
 #, fuzzy
 msgid "Anyone"
 msgstr "ทุกคน"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1327
-#: deps/xmpp/src/pubsub_meta_data.erl:817
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1327
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:817
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1381
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1381
 msgid "Anyone may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1850
-#: deps/xmpp/src/pubsub_meta_data.erl:855
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1850
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:855
 msgid "Anyone may publish"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1317
-#: deps/xmpp/src/pubsub_meta_data.erl:807
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1317
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:807
 msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:731 deps/xmpp/src/muc_roomconfig.erl:1421
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:731
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1421
 msgid "Anyone with Voice"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1321
-#: deps/xmpp/src/pubsub_meta_data.erl:811
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1321
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:811
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
@@ -268,7 +271,7 @@ msgstr ""
 msgid "Attribute 'node' is not allowed here"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:731
+#: _build/default/lib/xmpp/src/captcha_form.erl:731
 msgid "Attribute 'to' of stanza that triggered challenge"
 msgstr ""
 
@@ -306,7 +309,7 @@ msgstr "รูปแบบที่ไม่ถูกต้อง"
 
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
-#: src/mod_vcard_ldap.erl:332 src/mod_vcard_ldap.erl:345
+#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 msgid "Birthday"
 msgstr "วันเกิด"
 
@@ -318,7 +321,7 @@ msgstr ""
 msgid "Bytestream already activated"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:910
+#: _build/default/lib/xmpp/src/captcha_form.erl:910
 msgid "CAPTCHA web page"
 msgstr ""
 
@@ -334,7 +337,7 @@ msgstr ""
 msgid "Cannot remove default list"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:715
+#: _build/default/lib/xmpp/src/captcha_form.erl:715
 msgid "Challenge ID"
 msgstr ""
 
@@ -349,12 +352,12 @@ msgstr "เปลี่ยนรหัสผ่าน"
 msgid "Change User Password"
 msgstr "เปลี่ยนรหัสผ่านของผู้ใช้"
 
-#: src/mod_register.erl:308
+#: src/mod_register.erl:319
 #, fuzzy
 msgid "Changing password is not allowed"
 msgstr "รหัสผ่านคือ"
 
-#: src/mod_muc_room.erl:3061
+#: src/mod_muc_room.erl:3074
 msgid "Changing role/affiliation is not allowed"
 msgstr ""
 
@@ -399,11 +402,11 @@ msgstr "ห้องสนทนา"
 msgid "Chatroom is stopped"
 msgstr "ห้องสนทนา"
 
-#: src/mod_muc_admin.erl:554 src/mod_muc.erl:1247
+#: src/mod_muc_admin.erl:581 src/mod_muc.erl:1276
 msgid "Chatrooms"
 msgstr "ห้องสนทนา"
 
-#: src/mod_register.erl:221
+#: src/mod_register.erl:226
 msgid "Choose a username and password to register with this server"
 msgstr "เลือกชื่อผู้ใช้และรหัสผ่านเพื่อลงทะเบียนกับเซิร์ฟเวอร์นี้"
 
@@ -417,7 +420,7 @@ msgstr "เลือกว่าจะอนุมัติการสมัค
 
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
-#: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
+#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 msgid "City"
 msgstr "เมือง"
 
@@ -430,7 +433,7 @@ msgstr ""
 msgid "Commands"
 msgstr "คำสั่ง"
 
-#: src/mod_muc.erl:552 src/mod_muc.erl:576 src/mod_muc_room.erl:212
+#: src/mod_muc.erl:591 src/mod_muc.erl:615 src/mod_muc_room.erl:212
 #: src/mod_muc_room.erl:223
 msgid "Conference room does not exist"
 msgstr "ไม่มีห้องประชุม"
@@ -440,7 +443,7 @@ msgstr "ไม่มีห้องประชุม"
 msgid "Configuration"
 msgstr "การกำหนดค่า"
 
-#: src/mod_muc_room.erl:3509
+#: src/mod_muc_room.erl:3522
 #, fuzzy
 msgid "Configuration of room ~s"
 msgstr "การกำหนดค่าสำหรับ "
@@ -449,17 +452,17 @@ msgstr "การกำหนดค่าสำหรับ "
 msgid "Connected Resources:"
 msgstr "ทรัพยากรที่เชื่อมต่อ:"
 
-#: deps/xmpp/src/muc_roominfo.erl:764
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:764
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
-#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
+#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 msgid "Country"
 msgstr "ประเทศ"
 
-#: deps/xmpp/src/muc_roominfo.erl:875
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:875
 msgid "Current Discussion Topic"
 msgstr ""
 
@@ -481,13 +484,13 @@ msgstr "ตารางฐานข้อมูลที่"
 #: src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3828 src/mod_pubsub.erl:3912
 #: src/mod_pubsub.erl:4133 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
 #: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
-#: src/mod_register.erl:398 src/mod_last.erl:202 src/mod_muc.erl:720
-#: src/mod_muc.erl:1034 src/mod_push.erl:336 src/mod_push.erl:351
+#: src/mod_register.erl:409 src/mod_last.erl:202 src/mod_muc.erl:759
+#: src/mod_muc.erl:1063 src/mod_push.erl:336 src/mod_push.erl:351
 #: src/mod_proxy65_service.erl:242 src/mod_offline.erl:352
 #: src/mod_offline.erl:730 src/mod_mix.erl:652 src/mod_privacy.erl:174
 #: src/mod_privacy.erl:192 src/mod_privacy.erl:286 src/mod_privacy.erl:302
-#: src/mod_privacy.erl:335 src/mod_privacy.erl:352 src/mod_mam.erl:652
-#: src/mod_mam.erl:670 src/mod_mam.erl:700 src/mod_mam.erl:1036
+#: src/mod_privacy.erl:335 src/mod_privacy.erl:352 src/mod_mam.erl:658
+#: src/mod_mam.erl:676 src/mod_mam.erl:706 src/mod_mam.erl:1042
 #: src/nodetree_tree_sql.erl:124 src/nodetree_tree_sql.erl:138
 #: src/nodetree_tree_sql.erl:280 src/mod_vcard.erl:238
 #, fuzzy
@@ -498,7 +501,7 @@ msgstr "ฐานข้อมูล"
 msgid "December"
 msgstr "ธันวาคม"
 
-#: src/mod_muc_log.erl:811 deps/xmpp/src/muc_roomconfig.erl:1801
+#: src/mod_muc_log.erl:811 _build/default/lib/xmpp/src/muc_roomconfig.erl:1801
 msgid "Default users as participants"
 msgstr "ผู้ใช้เริ่มต้นเป็นผู้เข้าร่วม"
 
@@ -529,11 +532,11 @@ msgstr "ลบข้อความของวันบนโฮสต์ทั
 msgid "Delete table"
 msgstr "ลบผู้ใช้"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1530
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1530
 msgid "Deliver event notifications"
 msgstr "ส่งการแจ้งเตือนเหตุการณ์"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1546
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1546
 msgid "Deliver payloads with event notifications"
 msgstr "ส่งส่วนของข้อมูล (payload) พร้อมกับการแจ้งเตือนเหตุการณ์"
 
@@ -568,7 +571,7 @@ msgstr "ถ่ายโอนข้อมูลไปยังไฟล์ข้
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1597
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1597
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
@@ -576,7 +579,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "แก้ไขคุณสมบัติ"
 
-#: src/mod_muc_room.erl:4422
+#: src/mod_muc_room.erl:4435
 msgid "Either approve or decline the voice request."
 msgstr ""
 
@@ -586,19 +589,19 @@ msgstr ""
 
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
-#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
+#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 msgid "Email"
 msgstr "อีเมล"
 
-#: deps/xmpp/src/muc_register.erl:432
+#: _build/default/lib/xmpp/src/muc_register.erl:432
 msgid "Email Address"
 msgstr ""
 
-#: src/mod_muc_log.erl:822 deps/xmpp/src/muc_roomconfig.erl:1668
+#: src/mod_muc_log.erl:822 _build/default/lib/xmpp/src/muc_roomconfig.erl:1668
 msgid "Enable logging"
 msgstr "เปิดใช้งานการบันทึก"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2007
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2007
 msgid "Enable message archiving"
 msgstr ""
 
@@ -611,7 +614,7 @@ msgstr ""
 msgid "End User Session"
 msgstr "สิ้นสุดเซสชันของผู้ใช้"
 
-#: src/mod_muc.erl:1009
+#: src/mod_muc.erl:1038
 msgid "Enter nickname you want to register"
 msgstr "ป้อนชื่อเล่นที่คุณต้องการลงทะเบียน"
 
@@ -631,7 +634,7 @@ msgstr "ป้อนพาธไปยังไฟล์เก็บพักข
 msgid "Enter path to text file"
 msgstr "ป้อนพาธของไฟล์ข้อความ"
 
-#: src/ejabberd_captcha.erl:72 deps/xmpp/src/captcha_form.erl:746
+#: src/ejabberd_captcha.erl:72 _build/default/lib/xmpp/src/captcha_form.erl:746
 #, fuzzy
 msgid "Enter the text you see"
 msgstr "ป้อนพาธของไฟล์ข้อความ"
@@ -645,7 +648,7 @@ msgstr "Erlang XMPP Server"
 msgid "Error"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1607
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1607
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr ""
 
@@ -669,7 +672,7 @@ msgstr ""
 msgid "External component timeout"
 msgstr ""
 
-#: deps/xmpp/src/muc_register.erl:446
+#: _build/default/lib/xmpp/src/muc_register.erl:446
 msgid "FAQ Entry"
 msgstr ""
 
@@ -677,7 +680,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1138
+#: src/mod_muc_room.erl:1147
 msgid "Failed to extract JID from your voice request approval"
 msgstr ""
 
@@ -689,14 +692,14 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr ""
 
-#: src/mod_muc_room.erl:3652
+#: src/mod_muc_room.erl:3665
 msgid "Failed to process option '~s'"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
-#: src/mod_vcard_ldap.erl:330 src/mod_vcard_ldap.erl:343
-#: deps/xmpp/src/muc_register.erl:474
+#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
+#: _build/default/lib/xmpp/src/muc_register.erl:474
 msgid "Family Name"
 msgstr "นามสกุล"
 
@@ -726,17 +729,17 @@ msgstr "จาก"
 msgid "From ~ts"
 msgstr "จาก ~s"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1909
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1909
 msgid "Full List of Room Admins"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1952
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1952
 msgid "Full List of Room Owners"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
-#: src/mod_vcard_ldap.erl:327 src/mod_vcard_ldap.erl:340
+#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 msgid "Full Name"
 msgstr "ชื่อเต็ม"
 
@@ -768,13 +771,13 @@ msgstr "ขอรับรหัสผ่านของผู้ใช้"
 msgid "Get User Statistics"
 msgstr "แสดงสถิติของผู้ใช้"
 
-#: src/mod_vcard_ldap.erl:328 src/mod_vcard_ldap.erl:341
-#: deps/xmpp/src/muc_register.erl:460
+#: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
+#: _build/default/lib/xmpp/src/muc_register.erl:460
 #, fuzzy
 msgid "Given Name"
 msgstr "ชื่อกลาง"
 
-#: deps/xmpp/src/muc_request.erl:383
+#: _build/default/lib/xmpp/src/muc_request.erl:383
 msgid "Grant voice to this person?"
 msgstr ""
 
@@ -862,19 +865,19 @@ msgstr "ประเภทข้อความไม่เหมาะสม"
 msgid "Incoming s2s Connections:"
 msgstr "การเชื่อมต่อ s2s ขาออก:"
 
-#: src/mod_register.erl:197 src/mod_muc_room.erl:4188
+#: src/mod_register.erl:202 src/mod_muc_room.erl:4201
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
-#: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
-#: src/mod_muc_room.erl:3384 src/mod_vcard.erl:267
+#: src/mod_pubsub.erl:1247 src/mod_register.erl:198 src/mod_muc.erl:1086
+#: src/mod_muc_room.erl:3397 src/mod_vcard.erl:267
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "รหัสผ่านไม่ถูกต้อง"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
-#: src/mod_muc_room.erl:2208
+#: src/mod_muc_room.erl:2217
 msgid "Incorrect password"
 msgstr "รหัสผ่านไม่ถูกต้อง"
 
@@ -909,17 +912,17 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "บทบาทไม่ถูกต้อง: ~s"
 
-#: src/mod_muc_room.erl:4105
+#: src/mod_muc_room.erl:4118
 #, fuzzy
 msgid "Invalid node name"
 msgstr "บทบาทไม่ถูกต้อง: ~s"
 
-#: src/mod_muc_room.erl:4467
+#: src/mod_muc_room.erl:4480
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "ไม่อนุญาตให้ส่งข้อความส่วนตัวไปยังห้องประชุม"
 
-#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1303
+#: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1312
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -953,7 +956,7 @@ msgstr ""
 #: src/mod_configure.erl:1056 src/mod_configure.erl:1065
 #: src/mod_configure.erl:1332 src/mod_configure.erl:1376
 #: src/mod_configure.erl:1401 src/mod_vcard_sql.erl:170 src/mod_roster.erl:1001
-#: src/mod_muc_admin.erl:531
+#: src/mod_muc_admin.erl:557
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -969,7 +972,7 @@ msgstr "กรกฎาคม"
 msgid "June"
 msgstr "มิถุนายน"
 
-#: src/mod_muc_admin.erl:537
+#: src/mod_muc_admin.erl:563
 msgid "Just created"
 msgstr ""
 
@@ -986,7 +989,7 @@ msgstr "กิจกรรมล่าสุด"
 msgid "Last login"
 msgstr "การเข้าสู่ระบบครั้งล่าสุด"
 
-#: src/mod_muc_admin.erl:533
+#: src/mod_muc_admin.erl:559
 #, fuzzy
 msgid "Last message"
 msgstr "ปีที่แล้ว"
@@ -999,16 +1002,16 @@ msgstr "เดือนที่แล้ว"
 msgid "Last year"
 msgstr "ปีที่แล้ว"
 
-#: deps/xmpp/src/captcha_form.erl:807
+#: _build/default/lib/xmpp/src/captcha_form.erl:807
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:485
+#: src/mod_muc_admin.erl:511
 msgid "List of rooms"
 msgstr ""
 
-#: src/mod_muc_admin.erl:536
+#: src/mod_muc_admin.erl:562
 msgid "Logging"
 msgstr ""
 
@@ -1016,42 +1019,42 @@ msgstr ""
 msgid "Low level update script"
 msgstr "อัพเดตสคริปต์ระดับต่ำ"
 
-#: src/mod_mam.erl:656
+#: src/mod_mam.erl:662
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "การสร้างห้องสนทนาถูกปฏิเสธโดยนโยบายการบริการ"
 
-#: src/mod_muc_log.erl:800 deps/xmpp/src/muc_roomconfig.erl:1894
+#: src/mod_muc_log.erl:800 _build/default/lib/xmpp/src/muc_roomconfig.erl:1894
 msgid "Make participants list public"
 msgstr "สร้างรายการผู้เข้าร่วมสำหรับใช้งานโดยบุคคลทั่วไป"
 
-#: src/mod_muc_log.erl:828 deps/xmpp/src/muc_roomconfig.erl:1591
+#: src/mod_muc_log.erl:828 _build/default/lib/xmpp/src/muc_roomconfig.erl:1591
 #, fuzzy
 msgid "Make room CAPTCHA protected"
 msgstr "สร้างห้องที่มีการป้องกันด้วยรหัสผ่าน"
 
-#: src/mod_muc_log.erl:807 deps/xmpp/src/muc_roomconfig.erl:1772
+#: src/mod_muc_log.erl:807 _build/default/lib/xmpp/src/muc_roomconfig.erl:1772
 msgid "Make room members-only"
 msgstr "สร้างห้องสำหรับสมาชิกเท่านั้น"
 
-#: src/mod_muc_log.erl:809 deps/xmpp/src/muc_roomconfig.erl:1786
+#: src/mod_muc_log.erl:809 _build/default/lib/xmpp/src/muc_roomconfig.erl:1786
 #, fuzzy
 msgid "Make room moderated"
 msgstr "สร้างเป็นห้องถาวร"
 
-#: src/mod_muc_log.erl:802 deps/xmpp/src/muc_roomconfig.erl:1818
+#: src/mod_muc_log.erl:802 _build/default/lib/xmpp/src/muc_roomconfig.erl:1818
 msgid "Make room password protected"
 msgstr "สร้างห้องที่มีการป้องกันด้วยรหัสผ่าน"
 
-#: src/mod_muc_log.erl:796 deps/xmpp/src/muc_roomconfig.erl:1832
+#: src/mod_muc_log.erl:796 _build/default/lib/xmpp/src/muc_roomconfig.erl:1832
 msgid "Make room persistent"
 msgstr "สร้างเป็นห้องถาวร"
 
-#: src/mod_muc_log.erl:798 deps/xmpp/src/muc_roomconfig.erl:1879
+#: src/mod_muc_log.erl:798 _build/default/lib/xmpp/src/muc_roomconfig.erl:1879
 msgid "Make room public searchable"
 msgstr "สร้างเป็นห้องที่บุคคลทั่วไปสามารถค้นหาได้"
 
-#: src/mod_register.erl:384
+#: src/mod_register.erl:395
 #, fuzzy
 msgid "Malformed username"
 msgstr "ชื่อผู้ใช้ IRC"
@@ -1060,27 +1063,28 @@ msgstr "ชื่อผู้ใช้ IRC"
 msgid "March"
 msgstr "มีนาคม"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1648
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1648
 msgid "Max # of items to persist"
 msgstr "จำนวนสูงสุดของรายการที่ยืนยัน"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1664
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1664
 msgid "Max payload size in bytes"
 msgstr "ขนาดสูงสุดของส่วนของข้อมูล (payload) มีหน่วยเป็นไบต์"
 
-#: deps/xmpp/src/muc_roominfo.erl:699 deps/xmpp/src/muc_roomconfig.erl:1405
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:699
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1405
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr ""
 
-#: src/mod_muc_log.erl:834 deps/xmpp/src/muc_roomconfig.erl:1758
+#: src/mod_muc_log.erl:834 _build/default/lib/xmpp/src/muc_roomconfig.erl:1758
 msgid "Maximum Number of Occupants"
 msgstr "จำนวนผู้ครอบครองห้องสูงสุด"
 
-#: deps/xmpp/src/http_upload.erl:240
+#: _build/default/lib/xmpp/src/http_upload.erl:240
 msgid "Maximum file size"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:788
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:788
 #, fuzzy
 msgid "Maximum number of items to persist"
 msgstr "จำนวนสูงสุดของรายการที่ยืนยัน"
@@ -1097,7 +1101,7 @@ msgstr ""
 msgid "Members:"
 msgstr "สมาชิก:"
 
-#: src/mod_muc_room.erl:2095
+#: src/mod_muc_room.erl:2104
 #, fuzzy
 msgid "Membership is required to enter this room"
 msgstr "ต้องเป็นสมาชิกจึงจะสามารถเข้าห้องนี้ได้"
@@ -1112,7 +1116,7 @@ msgstr ""
 msgid "Memory"
 msgstr "หน่วยความจำ"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:575
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:575
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
@@ -1128,36 +1132,38 @@ msgstr ""
 msgid "Messages from strangers are rejected"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1715
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1715
 msgid "Messages of type headline"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1711
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1711
 msgid "Messages of type normal"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
-#: src/mod_vcard_ldap.erl:329 src/mod_vcard_ldap.erl:342
+#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Middle Name"
 msgstr "ชื่อกลาง"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1575
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1575
 msgid "Minimum interval between voice requests (in seconds)"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1846
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1846
 #, fuzzy
 msgid "Moderator"
 msgstr "สำหรับผู้ดูแลการสนทนาเท่านั้น"
 
-#: src/mod_muc_room.erl:2810 src/mod_muc_room.erl:4242
-#: src/mod_muc_room.erl:4293 src/mod_muc_room.erl:4339
+#: src/mod_muc_room.erl:2819 src/mod_muc_room.erl:4255
+#: src/mod_muc_room.erl:4306 src/mod_muc_room.erl:4352
 msgid "Moderator privileges required"
 msgstr "ต้องมีสิทธิพิเศษของผู้ดูแลการสนทนา"
 
-#: deps/xmpp/src/muc_roominfo.erl:734 deps/xmpp/src/muc_roomconfig.erl:1424
-#: deps/xmpp/src/muc_roomconfig.erl:1476 deps/xmpp/src/muc_roomconfig.erl:1979
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:734
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1424
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1476
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1979
 #, fuzzy
 msgid "Moderators Only"
 msgstr "สำหรับผู้ดูแลการสนทนาเท่านั้น"
@@ -1175,8 +1181,8 @@ msgstr ""
 msgid "Monday"
 msgstr "วันจันทร์"
 
-#: src/mod_muc_admin.erl:459 src/mod_muc_admin.erl:462
-#: src/mod_muc_admin.erl:478 src/mod_muc_admin.erl:552
+#: src/mod_muc_admin.erl:485 src/mod_muc_admin.erl:488
+#: src/mod_muc_admin.erl:504 src/mod_muc_admin.erl:579
 msgid "Multi-User Chat"
 msgstr ""
 
@@ -1202,24 +1208,26 @@ msgstr ""
 msgid "Name:"
 msgstr "ชื่อ:"
 
-#: deps/xmpp/src/muc_roominfo.erl:795 deps/xmpp/src/muc_roomconfig.erl:1707
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:795
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1707
 msgid "Natural Language for Room Discussions"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:846
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:846
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:2988
+#: src/mod_muc_room.erl:3001
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2792 src/mod_muc_room.erl:2993
+#: src/mod_muc_room.erl:2801 src/mod_muc_room.erl:3006
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
 #: src/mod_configure.erl:1361 src/ejabberd_web_admin.erl:726
-#: src/ejabberd_web_admin.erl:920 deps/xmpp/src/pubsub_node_config.erl:1916
+#: src/ejabberd_web_admin.erl:920
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1916
 msgid "Never"
 msgstr "ไม่เคย"
 
@@ -1230,30 +1238,31 @@ msgstr "รหัสผ่าน:"
 
 #: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
 #: src/mod_vcard_sql.erl:161 src/mod_vcard_sql.erl:175 src/mod_roster.erl:1002
-#: src/mod_vcard_ldap.erl:331 src/mod_vcard_ldap.erl:344
-#: deps/xmpp/src/muc_register.erl:488 deps/xmpp/src/muc_request.erl:368
+#: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
+#: _build/default/lib/xmpp/src/muc_register.erl:488
+#: _build/default/lib/xmpp/src/muc_request.erl:368
 msgid "Nickname"
 msgstr "ชื่อเล่น"
 
-#: src/mod_muc.erl:1008
+#: src/mod_muc.erl:1037
 msgid "Nickname Registration at "
 msgstr "การลงทะเบียนชื่อเล่นที่ "
 
-#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2116
-#: src/mod_muc_room.erl:4263
+#: src/mod_muc_room.erl:1261 src/mod_muc_room.erl:2125
+#: src/mod_muc_room.erl:4276
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3005
+#: src/mod_muc_room.erl:3018
 #, fuzzy
 msgid "Nickname ~s does not exist in the room"
 msgstr "ไม่มีชื่อเล่น ~s อยู่ในห้องนี้"
 
-#: src/mod_muc_room.erl:3407
+#: src/mod_muc_room.erl:3420
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2774
+#: src/mod_muc_room.erl:2783
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "ไม่พบโหนด"
@@ -1272,7 +1281,7 @@ msgstr ""
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:4463
+#: src/mod_muc_room.erl:4476
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1303,7 +1312,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "ไม่ได้ป้อนเนื้อหาสำหรับข้อความที่ประกาศ"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1161
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1170
 #, fuzzy
 msgid "No child elements found"
 msgstr "ไม่พบโหนด"
@@ -1329,14 +1338,15 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3527 deps/xmpp/src/muc_roomconfig.erl:1736
+#: src/mod_muc_room.erl:3540
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
 msgstr "ไม่จำกัด"
 
 #: src/gen_iq_handler.erl:82 src/mod_blocking.erl:83 src/mod_blocking.erl:101
-#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:237
-#: src/mod_muc.erl:606 src/mod_muc.erl:673 src/mod_muc.erl:693
-#: src/mod_muc.erl:724 src/mod_offline.erl:364 src/mod_jidprep.erl:164
+#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:239
+#: src/mod_muc.erl:645 src/mod_muc.erl:712 src/mod_muc.erl:732
+#: src/mod_muc.erl:763 src/mod_offline.erl:364 src/mod_jidprep.erl:164
 #: src/mod_stun_disco.erl:481 src/mod_mix.erl:672 src/mod_privacy.erl:156
 #: src/mod_privacy.erl:273 src/mod_http_upload.erl:769
 #: src/ejabberd_captcha.erl:225
@@ -1376,12 +1386,18 @@ msgstr ""
 msgid "No statistics found for this item"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:736 deps/xmpp/src/muc_roomconfig.erl:1426
-#: deps/xmpp/src/muc_roomconfig.erl:1473
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:736
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1426
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1473
 msgid "Nobody"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:358
+#: src/mod_muc_admin.erl:565
+#, fuzzy
+msgid "Node"
+msgstr "โหนด"
+
+#: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:358
 msgid "Node ID"
 msgstr "ID โหนด"
 
@@ -1395,8 +1411,8 @@ msgid "Node index not found"
 msgstr "ไม่พบโหนด"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
-#: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
-#: src/mod_muc_room.erl:4175 src/nodetree_tree_sql.erl:126
+#: src/nodetree_tree.erl:82 src/mod_muc.erl:710 src/mod_muc.erl:975
+#: src/mod_muc_room.erl:4188 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
 msgstr "ไม่พบโหนด"
@@ -1426,7 +1442,7 @@ msgstr "ไม่มี"
 msgid "Not Found"
 msgstr "ไม่พบโหนด"
 
-#: src/mod_register.erl:394 src/mod_register_web.erl:607
+#: src/mod_register.erl:405 src/mod_register_web.erl:607
 #, fuzzy
 msgid "Not allowed"
 msgstr "ไม่พบโหนด"
@@ -1435,15 +1451,15 @@ msgstr "ไม่พบโหนด"
 msgid "Not subscribed"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1776
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1776
 msgid "Notify subscribers when items are removed from the node"
 msgstr "แจ้งเตือนผู้สมัครสมาชิกเมื่อรายการถูกลบออกจากโหนด"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1742
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1742
 msgid "Notify subscribers when the node configuration changes"
 msgstr "แจ้งเตือนผู้สมัครสมาชิกเมื่อการกำหนดค่าโหนดเปลี่ยนแปลง"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1759
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1759
 msgid "Notify subscribers when the node is deleted"
 msgstr "แจ้งเตือนผู้สมัครสมาชิกเมื่อโหนดถูกลบ"
 
@@ -1451,17 +1467,17 @@ msgstr "แจ้งเตือนผู้สมัครสมาชิกเ
 msgid "November"
 msgstr "พฤศจิกายน"
 
-#: deps/xmpp/src/flex_offline.erl:239
+#: _build/default/lib/xmpp/src/flex_offline.erl:239
 #, fuzzy
 msgid "Number of Offline Messages"
 msgstr "ข้อความออฟไลน์"
 
-#: deps/xmpp/src/captcha_form.erl:686
+#: _build/default/lib/xmpp/src/captcha_form.erl:686
 #, fuzzy
 msgid "Number of answers required"
 msgstr "จำนวนผู้ใช้ออนไลน์"
 
-#: deps/xmpp/src/muc_roominfo.erl:860
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:860
 msgid "Number of occupants"
 msgstr "จำนวนผู้ครอบครองห้อง"
 
@@ -1473,7 +1489,7 @@ msgstr "จำนวนผู้ใช้ออนไลน์"
 msgid "Number of registered users"
 msgstr "จำนวนผู้ใช้ที่ลงทะเบียน"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1577
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1577
 msgid "Number of seconds after which to automatically purge items"
 msgstr ""
 
@@ -1486,12 +1502,12 @@ msgstr ""
 msgid "OK"
 msgstr "ตกลง"
 
-#: deps/xmpp/src/muc_roominfo.erl:925
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:925
 #, fuzzy
 msgid "Occupants May Change the Subject"
 msgstr "อนุญาตให้ผู้ใช้เปลี่ยนหัวข้อได้"
 
-#: deps/xmpp/src/muc_roominfo.erl:716
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:716
 #, fuzzy
 msgid "Occupants are allowed to invite others"
 msgstr "ผู้ครอบครองห้องเท่านั้นที่ได้รับอนุญาตให้ส่งกระทู้ถามไปยังห้องประชุม"
@@ -1540,38 +1556,38 @@ msgstr ""
 msgid "Only admins can see this"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1386
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1386
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1827
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1827
 msgid "Only deliver notifications to available users"
 msgstr "ส่งการแจ้งเตือนถึงผู้ใช้ที่สามารถติดต่อได้เท่านั้น"
 
-#: src/mod_mam.erl:513
+#: src/mod_mam.erl:519
 #, fuzzy
 msgid "Only members may query archives of this room"
 msgstr "ผู้ดูแลการสนทนาเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนหัวข้อในห้องนี้"
 
-#: src/mod_muc_room.erl:1001
+#: src/mod_muc_room.erl:1010
 #, fuzzy
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "ผู้ดูแลการสนทนาและผู้เข้าร่วมเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนหัวข้อในห้องนี้"
 
-#: src/mod_muc_room.erl:1006
+#: src/mod_muc_room.erl:1015
 #, fuzzy
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "ผู้ดูแลการสนทนาเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนหัวข้อในห้องนี้"
 
-#: src/mod_muc_room.erl:1145
+#: src/mod_muc_room.erl:1154
 #, fuzzy
 msgid "Only moderators can approve voice requests"
 msgstr "อนุญาตให้ผู้ใช้ส่งคำเชิญถึงกันได้"
 
-#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1020 src/mod_muc_room.erl:4532
+#: src/mod_muc_room.erl:575 src/mod_muc_room.erl:1029 src/mod_muc_room.erl:4545
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "ผู้ครอบครองห้องเท่านั้นที่ได้รับอนุญาตให้ส่งข้อความไปยังห้องประชุม"
 
@@ -1579,33 +1595,33 @@ msgstr "ผู้ครอบครองห้องเท่านั้นท
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "ผู้ครอบครองห้องเท่านั้นที่ได้รับอนุญาตให้ส่งกระทู้ถามไปยังห้องประชุม"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1843
-#: deps/xmpp/src/pubsub_meta_data.erl:848
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1843
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:848
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:227
+#: src/mod_muc.erl:229
 msgid "Only service administrators are allowed to send service messages"
 msgstr "ผู้ดูแลด้านการบริการเท่านั้นที่ได้รับอนุญาตให้ส่งข้อความการบริการ"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1391
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1391
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1332
-#: deps/xmpp/src/pubsub_meta_data.erl:822
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1332
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:822
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
-#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
+#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 msgid "Organization Name"
 msgstr "ชื่อองค์กร"
 
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
-#: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
+#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 msgid "Organization Unit"
 msgstr "หน่วยขององค์กร"
 
@@ -1620,8 +1636,8 @@ msgstr "การเชื่อมต่อ s2s ขาออก:"
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
 #: src/mod_pubsub.erl:2600 src/mod_pubsub.erl:3308 src/mod_pubsub.erl:3470
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3354 src/mod_muc_room.erl:3399
-#: src/mod_muc_room.erl:4218
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3367 src/mod_muc_room.erl:3412
+#: src/mod_muc_room.erl:4231
 msgid "Owner privileges required"
 msgstr "ต้องมีสิทธิพิเศษของเจ้าของ"
 
@@ -1634,15 +1650,16 @@ msgstr "แพ็กเก็ต"
 msgid "Packet relay is denied by service policy"
 msgstr "การสร้างห้องสนทนาถูกปฏิเสธโดยนโยบายการบริการ"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1849 deps/xmpp/src/muc_request.erl:330
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1849
+#: _build/default/lib/xmpp/src/muc_request.erl:330
 msgid "Participant"
 msgstr ""
 
 #: src/mod_configure.erl:999 src/mod_configure.erl:1046
 #: src/mod_configure.erl:1334 src/mod_configure.erl:1523
-#: src/ejabberd_web_admin.erl:657 src/mod_register.erl:238
+#: src/ejabberd_web_admin.erl:657 src/mod_register.erl:243
 #: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:502
-#: deps/xmpp/src/muc_roomconfig.erl:1966
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1966
 msgid "Password"
 msgstr "รหัสผ่าน"
 
@@ -1669,7 +1686,7 @@ msgstr "พาธไปยัง Dir"
 msgid "Path to File"
 msgstr "พาธของไฟล์ข้อมูล"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:772
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:772
 msgid "Payload type"
 msgstr ""
 
@@ -1681,12 +1698,12 @@ msgstr "ค้างอยู่"
 msgid "Period: "
 msgstr "ระยะเวลา:"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1809
-#: deps/xmpp/src/pubsub_publish_options.erl:281
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1809
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:281
 msgid "Persist items to storage"
 msgstr "ยืนยันรายการที่จะจัดเก็บ"
 
-#: src/mod_muc_admin.erl:535
+#: src/mod_muc_admin.erl:561
 #, fuzzy
 msgid "Persistent"
 msgstr "สร้างเป็นห้องถาวร"
@@ -1709,7 +1726,7 @@ msgstr ""
 "โปรดทราบว่าตัวเลือกเหล่านี้จะสำรองข้อมูลในฐานข้อมูล builtin Mnesia เท่านั้น หากคุณใช้โมดูล "
 "ODBC คุณต้องสำรองข้อมูลของฐานข้อมูล SQL แยกต่างหากด้วย"
 
-#: src/mod_muc_room.erl:1106
+#: src/mod_muc_room.erl:1115
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 
@@ -1721,7 +1738,7 @@ msgstr "Pong"
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1992
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1992
 msgid "Present real Jabber IDs to"
 msgstr "แสดง Jabber IDs ที่ถูกต้องแก่"
 
@@ -1750,11 +1767,11 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "คำร้องขอของผู้สมัครเข้าใช้งาน PubSub"
 
-#: src/mod_muc_admin.erl:534
+#: src/mod_muc_admin.erl:560
 msgid "Public"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:865
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:865
 #, fuzzy
 msgid "Publish model"
 msgstr "ระบุโมเดลผู้เผยแพร่"
@@ -1763,7 +1780,7 @@ msgstr "ระบุโมเดลผู้เผยแพร่"
 msgid "Publish-Subscribe"
 msgstr "เผยแพร่-สมัครเข้าใช้งาน"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1877
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1877
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
 
@@ -1798,19 +1815,19 @@ msgstr "ข้อผิดพลาดจากการเรียกใช้
 msgid "Really delete message of the day?"
 msgstr "แน่ใจว่าต้องการลบข้อความของวันหรือไม่"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:643
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:643
 msgid "Receive notification from all descendent nodes"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:638
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:638
 msgid "Receive notification from direct child nodes only"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:608
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:608
 msgid "Receive notification of new items only"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:612
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:612
 msgid "Receive notification of new nodes only"
 msgstr ""
 
@@ -1866,7 +1883,7 @@ msgstr ""
 msgid "Request is ignored"
 msgstr ""
 
-#: deps/xmpp/src/muc_request.erl:340
+#: _build/default/lib/xmpp/src/muc_request.erl:340
 msgid "Requested role"
 msgstr ""
 
@@ -1905,15 +1922,16 @@ msgstr "คืนค่าข้อมูลสำรองแบบไบนา
 msgid "Restore plain text backup immediately:"
 msgstr "คืนค่าข้อมูลสำรองที่เป็นข้อความธรรมดาโดยทันที:"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1690
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1690
 msgid "Roles and Affiliations that May Retrieve Member List"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1864
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1864
 msgid "Roles for which Presence is Broadcasted"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:748 deps/xmpp/src/muc_roomconfig.erl:1438
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:748
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1438
 #, fuzzy
 msgid "Roles that May Send Private Messages"
 msgstr "อนุญาตให้ผู้ใช้ส่งข้อความส่วนตัว"
@@ -1927,12 +1945,12 @@ msgstr "การกำหนดค่าห้องสนทนา"
 msgid "Room Occupants"
 msgstr "จำนวนผู้ครอบครองห้อง"
 
-#: src/mod_muc.erl:570
+#: src/mod_muc.erl:609
 msgid "Room creation is denied by service policy"
 msgstr "การสร้างห้องสนทนาถูกปฏิเสธโดยนโยบายการบริการ"
 
-#: src/mod_muc_log.erl:830 deps/xmpp/src/muc_roominfo.erl:779
-#: deps/xmpp/src/muc_roomconfig.erl:1923
+#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roominfo.erl:779
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1923
 #, fuzzy
 msgid "Room description"
 msgstr "รายละเอียด:"
@@ -1942,12 +1960,12 @@ msgstr "รายละเอียด:"
 msgid "Room terminates"
 msgstr "ชื่อห้อง"
 
-#: src/mod_muc_admin.erl:538 src/mod_muc_log.erl:794
-#: deps/xmpp/src/muc_roomconfig.erl:1937
+#: src/mod_muc_admin.erl:564 src/mod_muc_log.erl:794
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1937
 msgid "Room title"
 msgstr "ชื่อห้อง"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1900
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1900
 msgid "Roster groups allowed to subscribe"
 msgstr ""
 
@@ -1986,15 +2004,15 @@ msgstr "ตรวจสอบคริปต์"
 msgid "Search Results for "
 msgstr "ผลการค้นหาสำหรับ "
 
-#: deps/xmpp/src/mam_query.erl:330
+#: _build/default/lib/xmpp/src/mam_query.erl:330
 msgid "Search from the date"
 msgstr ""
 
-#: deps/xmpp/src/mam_query.erl:358
+#: _build/default/lib/xmpp/src/mam_query.erl:358
 msgid "Search the text"
 msgstr ""
 
-#: deps/xmpp/src/mam_query.erl:344
+#: _build/default/lib/xmpp/src/mam_query.erl:344
 msgid "Search until the date"
 msgstr ""
 
@@ -2072,31 +2090,31 @@ msgid ""
 "this only in your personal computer for safety reasons."
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1344
-#: deps/xmpp/src/pubsub_publish_options.erl:322
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1344
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:322
 msgid "Specify the access model"
 msgstr "ระบุโมเดลการเข้าถึง"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1726
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1726
 #, fuzzy
 msgid "Specify the event message type"
 msgstr "ระบุโมเดลการเข้าถึง"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1861
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1861
 msgid "Specify the publisher model"
 msgstr "ระบุโมเดลผู้เผยแพร่"
 
-#: deps/xmpp/src/captcha_form.erl:821
+#: _build/default/lib/xmpp/src/captcha_form.erl:821
 msgid "Stanza ID"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1592
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1592
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
 #: src/ejabberd_web_admin.erl:506 src/ejabberd_web_admin.erl:1101
 #: src/ejabberd_web_admin.erl:1795 src/ejabberd_web_admin.erl:1808
-#: src/ejabberd_web_admin.erl:1820 src/mod_muc_admin.erl:480
+#: src/ejabberd_web_admin.erl:1820 src/mod_muc_admin.erl:506
 msgid "Statistics"
 msgstr "สถิติ"
 
@@ -2148,12 +2166,12 @@ msgstr "ส่ง"
 msgid "Submitted"
 msgstr "ส่งแล้ว"
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:372
+#: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:372
 msgid "Subscriber Address"
 msgstr "ที่อยู่ของผู้สมัคร"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1847
-#: deps/xmpp/src/pubsub_meta_data.erl:852
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1847
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:852
 msgid "Subscribers may publish"
 msgstr ""
 
@@ -2161,14 +2179,14 @@ msgstr ""
 msgid "Subscription"
 msgstr "การสมัครสมาชิก"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1312
-#: deps/xmpp/src/pubsub_meta_data.erl:802
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1312
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:802
 msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4229
+#: src/mod_muc_room.erl:4242
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2176,30 +2194,30 @@ msgstr ""
 msgid "Sunday"
 msgstr "วันอาทิตย์"
 
-#: deps/xmpp/src/captcha_form.erl:777
+#: _build/default/lib/xmpp/src/captcha_form.erl:777
 msgid "Text associated with a picture"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:701
+#: _build/default/lib/xmpp/src/captcha_form.erl:701
 msgid "Text associated with a sound"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:881
+#: _build/default/lib/xmpp/src/captcha_form.erl:881
 msgid "Text associated with a video"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:851
+#: _build/default/lib/xmpp/src/captcha_form.erl:851
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1243 src/mod_muc_room.erl:2105
-#: src/mod_muc_room.erl:4258
+#: src/mod_muc_room.erl:1252 src/mod_muc_room.erl:2114
+#: src/mod_muc_room.erl:4271
 #, fuzzy
 msgid "That nickname is already in use by another occupant"
 msgstr "ชื่อเล่นถูกใช้งานอยู่โดยผู้ครอบครองห้อง"
 
-#: src/mod_muc.erl:1031 src/mod_muc_room.erl:1255 src/mod_muc_room.erl:2119
-#: src/mod_muc_room.erl:4266
+#: src/mod_muc.erl:1060 src/mod_muc_room.erl:1264 src/mod_muc_room.erl:2128
+#: src/mod_muc_room.erl:4279
 #, fuzzy
 msgid "That nickname is registered by another person"
 msgstr "ชื่อเล่นถูกลงทะเบียนใช้งานโดยบุคคลอื่น"
@@ -2208,44 +2226,44 @@ msgstr "ชื่อเล่นถูกลงทะเบียนใช้ง
 msgid "The CAPTCHA is valid."
 msgstr ""
 
-#: src/mod_block_strangers.erl:150 src/mod_register.erl:200
-#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4191
+#: src/mod_block_strangers.erl:150 src/mod_register.erl:205
+#: src/mod_muc_room.erl:837 src/mod_muc_room.erl:4204
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:529
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:529
 msgid "The DateTime at which a leased subscription will end or has ended"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:657
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:657
 msgid "The JID of the node creator"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1493
-#: deps/xmpp/src/pubsub_meta_data.erl:625
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1493
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:625
 msgid "The JIDs of those to contact with questions"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:726
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:726
 msgid "The JIDs of those with an affiliation of owner"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:743
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:743
 msgid "The JIDs of those with an affiliation of publisher"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_get_pending.erl:248
+#: _build/default/lib/xmpp/src/pubsub_get_pending.erl:248
 msgid "The NodeID of the relevant node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1360
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1360
 msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1509
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1509
 msgid ""
 "The URL of an XSL transformation which can be applied to the payload format "
 "in order to generate a valid Data Forms result that the client could display "
@@ -2261,7 +2279,7 @@ msgstr ""
 msgid "The account was not unregistered"
 msgstr "รหัสผ่านคือ"
 
-#: deps/xmpp/src/push_summary.erl:397
+#: _build/default/lib/xmpp/src/push_summary.erl:397
 msgid "The body text of the last received message"
 msgstr ""
 
@@ -2269,20 +2287,20 @@ msgstr ""
 msgid "The captcha you entered is wrong"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1442
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1476
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1476
 msgid "The collections with which a node is affiliated"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:642
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:642
 msgid "The datetime when the node was created"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1633
-#: deps/xmpp/src/pubsub_meta_data.erl:693
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1633
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:693
 msgid "The default language of the node"
 msgstr ""
 
@@ -2290,51 +2308,51 @@ msgstr ""
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1425
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1425
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1459
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1459
 msgid ""
 "The maximum number of child nodes that can be associated with a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:512
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:512
 msgid ""
 "The minimum number of milliseconds between sending any two notification "
 "digests"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:758
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:758
 msgid "The name of the node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1682
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1682
 msgid "The node is a collection node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1678
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1678
 msgid "The node is a leaf node (default)"
 msgstr ""
 
-#: deps/xmpp/src/push_summary.erl:363
+#: _build/default/lib/xmpp/src/push_summary.erl:363
 msgid "The number of pending incoming presence subscription requests"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:710
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:710
 #, fuzzy
 msgid "The number of subscribers to the node"
 msgstr "อนุญาตให้ Jabber ID นี้เข้าร่วมเป็นสมาชิกของโหนด pubsub หรือไม่"
 
-#: deps/xmpp/src/push_summary.erl:343
+#: _build/default/lib/xmpp/src/push_summary.erl:343
 msgid "The number of unread or undelivered messages"
 msgstr ""
 
-#: src/mod_register.erl:392
+#: src/mod_register.erl:403
 msgid "The password contains unacceptable characters"
 msgstr ""
 
-#: src/mod_register.erl:390
+#: src/mod_register.erl:401
 #, fuzzy
 msgid "The password is too weak"
 msgstr "รหัสผ่านคือ"
@@ -2353,7 +2371,7 @@ msgstr "รหัสผ่านคือ"
 msgid "The passwords are different"
 msgstr "รหัสผ่านคือ"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:591
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:591
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 
@@ -2365,11 +2383,11 @@ msgstr ""
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:891
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:891
 msgid "The room subject can be modified by participants"
 msgstr ""
 
-#: deps/xmpp/src/push_summary.erl:381
+#: _build/default/lib/xmpp/src/push_summary.erl:381
 msgid "The sender of the last received message"
 msgstr ""
 
@@ -2379,11 +2397,11 @@ msgid ""
 "or one <list/> element"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:388
+#: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:388
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:2001
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2001
 msgid ""
 "The type of node data, usually specified by the namespace of the payload (if "
 "any)"
@@ -2449,7 +2467,7 @@ msgstr ""
 msgid "To"
 msgstr "ถึง"
 
-#: src/mod_register.erl:225
+#: src/mod_register.erl:230
 msgid "To register, visit ~s"
 msgstr ""
 
@@ -2468,7 +2486,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr ""
 
-#: src/mod_muc_room.erl:2779 src/mod_muc_room.erl:3413
+#: src/mod_muc_room.erl:2788 src/mod_muc_room.erl:3426
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2476,8 +2494,8 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_block_strangers.erl:127 src/mod_register.erl:249
-#: src/mod_muc_room.erl:2189
+#: src/mod_block_strangers.erl:127 src/mod_register.erl:260
+#: src/mod_muc_room.erl:2198
 msgid "Too many CAPTCHA requests"
 msgstr ""
 
@@ -2485,7 +2503,7 @@ msgstr ""
 msgid "Too many active bytestreams"
 msgstr ""
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1163
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1172
 msgid "Too many child elements"
 msgstr ""
 
@@ -2497,11 +2515,11 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr ""
 
-#: src/mod_muc_room.erl:2064
+#: src/mod_muc_room.erl:2073
 msgid "Too many users in this conference"
 msgstr ""
 
-#: src/mod_muc_admin.erl:482
+#: src/mod_muc_admin.erl:508
 #, fuzzy
 msgid "Total rooms"
 msgstr "ห้องสนทนา"
@@ -2530,12 +2548,12 @@ msgstr "ทรานแซกชันที่เริ่มทำงานใ
 msgid "Tuesday"
 msgstr "วันอังคาร"
 
-#: deps/xmpp/src/muc_roominfo.erl:831
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:831
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_block_strangers.erl:131 src/mod_register.erl:253
-#: src/mod_muc_room.erl:2198
+#: src/mod_block_strangers.erl:131 src/mod_register.erl:264
+#: src/mod_muc_room.erl:2207
 msgid "Unable to generate a CAPTCHA"
 msgstr ""
 
@@ -2554,7 +2572,7 @@ msgstr ""
 msgid "Unexpected action"
 msgstr ""
 
-#: src/mod_register.erl:400
+#: src/mod_register.erl:411
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
@@ -2571,7 +2589,7 @@ msgstr ""
 msgid "Unselect All"
 msgstr ""
 
-#: src/mod_mam.erl:688
+#: src/mod_mam.erl:694
 msgid "Unsupported <index/> element"
 msgstr ""
 
@@ -2611,7 +2629,7 @@ msgstr "เวลาการทำงานต่อเนื่อง:"
 
 #: src/mod_vcard_mnesia.erl:99 src/mod_vcard_sql.erl:156
 #: src/ejabberd_web_admin.erl:652 src/ejabberd_web_admin.erl:708
-#: src/mod_register.erl:234 src/mod_vcard_ldap.erl:326
+#: src/mod_register.erl:239 src/mod_vcard_ldap.erl:332
 msgid "User"
 msgstr "ผู้ใช้"
 
@@ -2620,7 +2638,8 @@ msgstr "ผู้ใช้"
 msgid "User (jid)"
 msgstr "ผู้ใช้"
 
-#: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
+#: _build/default/lib/xmpp/src/mam_query.erl:316
+#: _build/default/lib/xmpp/src/muc_request.erl:354
 #, fuzzy
 msgid "User JID"
 msgstr "ผู้ใช้"
@@ -2629,7 +2648,7 @@ msgstr "ผู้ใช้"
 msgid "User Management"
 msgstr "การจัดการผู้ใช้"
 
-#: src/mod_register.erl:396
+#: src/mod_register.erl:407
 msgid "User already exists"
 msgstr ""
 
@@ -2666,7 +2685,7 @@ msgstr "ผู้ใช้"
 msgid "Users Last Activity"
 msgstr "กิจกรรมล่าสุดของผู้ใช้"
 
-#: src/mod_register.erl:388
+#: src/mod_register.erl:399
 #, fuzzy
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "ผู้เยี่ยมเยือนไม่ได้รับอนุญาตให้ส่งข้อความถึงผู้ครอบครองห้องทั้งหมด"
@@ -2676,21 +2695,21 @@ msgid "Validate"
 msgstr "ตรวจสอบ"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4181 src/mod_muc_room.erl:4343
+#: src/mod_muc_room.erl:4194 src/mod_muc_room.erl:4356
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
 #: src/mod_stats.erl:55 src/mod_pubsub.erl:824 src/mod_pubsub.erl:843
 #: src/mod_pubsub.erl:882 src/mod_last.erl:108 src/mod_last.erl:126
-#: src/mod_muc.erl:603 src/mod_muc.erl:637 src/mod_muc.erl:678
-#: src/mod_muc.erl:698 src/mod_muc.erl:708 src/mod_disco.erl:137
+#: src/mod_muc.erl:642 src/mod_muc.erl:676 src/mod_muc.erl:717
+#: src/mod_muc.erl:737 src/mod_muc.erl:747 src/mod_disco.erl:137
 #: src/mod_disco.erl:153 src/mod_disco.erl:259 src/mod_disco.erl:311
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
 #: src/mod_stun_disco.erl:478 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4085
-#: src/mod_muc_room.erl:4156 src/mod_version.erl:53 src/mod_vcard.erl:205
+#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4098
+#: src/mod_muc_room.erl:4169 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr ""
@@ -2721,24 +2740,24 @@ msgstr "บัญชีรายชื่อ"
 msgid "Virtual Hosts"
 msgstr "โฮสต์เสมือน"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1851
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1851
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1236
+#: src/mod_muc_room.erl:1245
 #, fuzzy
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "ผู้ดูแลการสนทนาเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนหัวข้อในห้องนี้"
 
-#: src/mod_muc_room.erl:1013
+#: src/mod_muc_room.erl:1022
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "ผู้เยี่ยมเยือนไม่ได้รับอนุญาตให้ส่งข้อความถึงผู้ครอบครองห้องทั้งหมด"
 
-#: src/mod_muc_room.erl:4420
+#: src/mod_muc_room.erl:4433
 msgid "Voice request"
 msgstr ""
 
-#: src/mod_muc_room.erl:1113
+#: src/mod_muc_room.erl:1122
 msgid "Voice requests are disabled in this conference"
 msgstr ""
 
@@ -2746,58 +2765,58 @@ msgstr ""
 msgid "Wednesday"
 msgstr "วันพุธ"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1920
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1920
 #, fuzzy
 msgid "When a new subscription is processed"
 msgstr "อนุญาตให้เข้าร่วมเป็นสมาชิกหรือไม่"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1924
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1924
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1938
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1938
 msgid "When to send the last published item"
 msgstr "เวลาที่ส่งรายการที่เผยแพร่ครั้งล่าสุด"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:546
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:494
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:494
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:477
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:477
 msgid "Whether an entity wants to receive or disable notifications"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1611
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1611
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1694
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1694
 msgid "Whether the node is a leaf (default) or a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1970
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1970
 msgid "Whether to allow subscriptions"
 msgstr "อนุญาตให้เข้าร่วมเป็นสมาชิกหรือไม่"
 
-#: deps/xmpp/src/pubsub_node_config.erl:1954
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1954
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1793
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1793
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_node_config.erl:1405
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1405
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
@@ -2818,23 +2837,24 @@ msgstr "การลงทะเบียนชื่อเล่นที่ "
 msgid "XMPP Domains"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:563
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:563
 msgid "XMPP Show Value of Away"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:567
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:567
 msgid "XMPP Show Value of Chat"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:571
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:571
 msgid "XMPP Show Value of DND (Do Not Disturb)"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:579
+#: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:579
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:908 deps/xmpp/src/muc_roomconfig.erl:1723
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:908
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1723
 #, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd Publish-Subscribe module"
@@ -2852,24 +2872,24 @@ msgstr "ไม่อนุญาตให้ส่งข้อความส่
 msgid "You can later change your password using an XMPP client."
 msgstr ""
 
-#: src/mod_muc_room.erl:2092
+#: src/mod_muc_room.erl:2101
 msgid "You have been banned from this room"
 msgstr "คุณถูกสั่งห้ามไมให้เข้าห้องนี้"
 
-#: src/mod_muc_room.erl:2073
+#: src/mod_muc_room.erl:2082
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1062
+#: src/mod_muc.erl:1091
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "คุณต้องกรอกฟิลด์ \"Nickname\" ในแบบฟอร์ม"
 
-#: src/mod_register.erl:231
+#: src/mod_register.erl:236
 #, fuzzy
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "คุณต้องใช้ไคลเอ็นต์ที่รองรับ x:data เพื่อลงทะเบียนชื่อเล่น"
 
-#: src/mod_muc.erl:1017
+#: src/mod_muc.erl:1046
 #, fuzzy
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "คุณต้องใช้ไคลเอ็นต์ที่รองรับ x:data เพื่อลงทะเบียนชื่อเล่น"
@@ -2917,7 +2937,7 @@ msgstr "เว็บอินเทอร์เฟซของ ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:597
+#: src/mod_muc.erl:636
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC module"
 
@@ -2974,11 +2994,11 @@ msgstr "เข้าห้องสนทนานี้"
 msgid "leaves the room"
 msgstr "ออกจากห้อง"
 
-#: src/mod_muc_room.erl:4399
+#: src/mod_muc_room.erl:4412
 msgid "private, "
 msgstr "ส่วนตัว, "
 
-#: src/mod_muc_room.erl:4496
+#: src/mod_muc_room.erl:4509
 msgid "the password is"
 msgstr "รหัสผ่านคือ"
 
@@ -2986,7 +3006,7 @@ msgstr "รหัสผ่านคือ"
 msgid "vCard User Search"
 msgstr "ค้นหาผู้ใช้ vCard "
 
-#: src/mod_muc_room.erl:4489
+#: src/mod_muc_room.erl:4502
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s เชิญคุณเข้าร่วมสนทนาในห้อง ~s"
