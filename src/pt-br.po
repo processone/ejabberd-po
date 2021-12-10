@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2021-03-28 22:29+0000\n"
+"PO-Revision-Date: 2021-12-10 21:56+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/pt_BR/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 "X-Language: Portuguese (Brazil)\n"
 "X-Additional-Translator: Victor Hugo dos Santos\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -117,7 +117,7 @@ msgstr "Adicionar usuário"
 #: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
 #: src/mod_muc_room.erl:4620
 msgid "Add a hat to a user"
-msgstr ""
+msgstr "Adiciona um chapéu num usuário"
 
 #: src/ejabberd_web_admin.erl:397 src/ejabberd_web_admin.erl:406
 msgid "Administration"
@@ -596,7 +596,7 @@ msgstr "Endereço de e-mail"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2282
 msgid "Enable hats"
-msgstr ""
+msgstr "Ativa chapéus"
 
 #: src/mod_muc_log.erl:822 _build/default/lib/xmpp/src/muc_roomconfig.erl:1929
 msgid "Enable logging"
@@ -798,17 +798,15 @@ msgstr "Upload de arquivo HTTP"
 #: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
 #: src/mod_muc_room.erl:4766
 msgid "Hat URI"
-msgstr ""
+msgstr "URI do chapéu"
 
 #: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
-#, fuzzy
 msgid "Hat title"
-msgstr "Título da sala"
+msgstr "Título do chapéu"
 
 #: src/mod_muc_room.erl:4673
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "Limite de banda excedido"
+msgstr "O limite dos chapéus foi excedido"
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
@@ -1020,13 +1018,12 @@ msgid "List of rooms"
 msgstr "Lista de salas"
 
 #: src/mod_muc_room.erl:4756
-#, fuzzy
 msgid "List of users with hats"
-msgstr "Listas de módulos para inicializar"
+msgstr "Lista os usuários com chapéus"
 
 #: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
 msgid "List users with hats"
-msgstr ""
+msgstr "Lista os usuários com chapéus"
 
 #: src/mod_muc_admin.erl:563
 msgid "Logging"
@@ -1082,6 +1079,8 @@ msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
+"Máximo # de itens para persistir ou `max` para nenhum limite específico que "
+"não seja um servidor imposto como máximo"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
@@ -1492,11 +1491,12 @@ msgid "Number of registered users"
 msgstr "Número de usuários registrados"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1789
-#, fuzzy
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
-msgstr "Quantidade de segundos para excluir os itens automaticamente"
+msgstr ""
+"Quantidade de segundos após limpar automaticamente os itens ou `max` para "
+"nenhum limite específico que não seja um servidor imposto máximo"
 
 #: src/ejabberd_web_admin.erl:1265 src/ejabberd_web_admin.erl:1275
 #: src/ejabberd_web_admin.erl:1286 src/ejabberd_web_admin.erl:1295
@@ -1872,7 +1872,7 @@ msgstr "Remover usuário"
 #: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
 #: src/mod_muc_room.erl:4688
 msgid "Remove a hat from a user"
-msgstr ""
+msgstr "Remove um chapéu de um usuário"
 
 #: src/ejabberd_sm.erl:453
 msgid "Replaced by new connection"
@@ -2316,13 +2316,13 @@ msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr "A lista dos JIDs que podem associar as páginas dos nós em uma coleção"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
-#, fuzzy
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
-"A quantidade máxima dos nós relacionados que podem ser associados com uma "
-"coleção"
+"A quantidade máxima de nós relacionados que podem ser associados a uma "
+"coleção ou `máximo` para nenhum limite específico que não seja um servidor "
+"imposto no máximo"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
