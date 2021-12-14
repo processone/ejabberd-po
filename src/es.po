@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-05-29 15:32+0000\n"
+"PO-Revision-Date: 2021-12-14 21:51+0000\n"
 "Last-Translator: badlop <badlop@process-one.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/es/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 "X-Language: Spanish (castellano)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -119,7 +119,7 @@ msgstr "Añadir usuario"
 #: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
 #: src/mod_muc_room.erl:4620
 msgid "Add a hat to a user"
-msgstr ""
+msgstr "Añade un sombrero a un usuario"
 
 #: src/ejabberd_web_admin.erl:397 src/ejabberd_web_admin.erl:406
 msgid "Administration"
@@ -602,7 +602,7 @@ msgstr "Dirección de correo electrónico"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2282
 msgid "Enable hats"
-msgstr ""
+msgstr "Activar sombreros"
 
 #: src/mod_muc_log.erl:822 _build/default/lib/xmpp/src/muc_roomconfig.erl:1929
 msgid "Enable logging"
@@ -804,17 +804,15 @@ msgstr "Subir fichero por HTTP"
 #: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
 #: src/mod_muc_room.erl:4766
 msgid "Hat URI"
-msgstr ""
+msgstr "Dirección del sombrero"
 
 #: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
-#, fuzzy
 msgid "Hat title"
-msgstr "Título de la sala"
+msgstr "Título del sombrero"
 
 #: src/mod_muc_room.erl:4673
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "Se ha exedido el límite de tráfico"
+msgstr "Se ha excedido el límite de sombreros"
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
@@ -1026,13 +1024,12 @@ msgid "List of rooms"
 msgstr "Lista de salas"
 
 #: src/mod_muc_room.erl:4756
-#, fuzzy
 msgid "List of users with hats"
-msgstr "Lista de módulos a iniciar"
+msgstr "Lista de usuarios con sombreros"
 
 #: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
 msgid "List users with hats"
-msgstr ""
+msgstr "Listar usuarios con sombreros"
 
 #: src/mod_muc_admin.erl:563
 msgid "Logging"
@@ -1087,6 +1084,8 @@ msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
+"Máximo # de elementos a persistir, o `max` para no especificar un límite, "
+"más que el máximo impuesto por el servidor"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
@@ -1495,13 +1494,13 @@ msgid "Number of registered users"
 msgstr "Número de usuarios registrados"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1789
-#, fuzzy
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
 msgstr ""
 "Número de segundos después de los cuales se purgarán elementos "
-"automáticamente"
+"automáticamente, o `max` para no especificar un límite, más que el máximo "
+"impuesto por el servidor"
 
 #: src/ejabberd_web_admin.erl:1265 src/ejabberd_web_admin.erl:1275
 #: src/ejabberd_web_admin.erl:1286 src/ejabberd_web_admin.erl:1295
@@ -1876,7 +1875,7 @@ msgstr "Eliminar usuario"
 #: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
 #: src/mod_muc_room.erl:4688
 msgid "Remove a hat from a user"
-msgstr ""
+msgstr "Quitarle un sombrero a un usuario"
 
 #: src/ejabberd_sm.erl:453
 msgid "Replaced by new connection"
@@ -2324,11 +2323,12 @@ msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr "La lista de JIDs que pueden asociar nodos hijo con una colección"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
-#, fuzzy
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
-msgstr "El número máximo de nodos hijo que pueden asociarse a una colección"
+msgstr ""
+"El número máximo de nodos hijo que pueden asociarse a una colección, o `max` "
+"para no especificar un límite, más que el máximo impuesto por el servidor"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
@@ -2545,7 +2545,7 @@ msgstr "Salas totales"
 
 #: src/mod_muc_room.erl:325
 msgid "Traffic rate limit is exceeded"
-msgstr "Se ha exedido el límite de tráfico"
+msgstr "Se ha excedido el límite de tráfico"
 
 #: src/ejabberd_web_admin.erl:1423
 msgid "Transactions Aborted:"
