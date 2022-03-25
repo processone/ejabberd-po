@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-02-03 12:58+0000\n"
+"PO-Revision-Date: 2022-03-27 16:10+0000\n"
 "Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 "X-Language: French (française)\n"
 "X-Additional-Translator: Nicolas Vérité\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -1991,9 +1991,8 @@ msgid "Roster size"
 msgstr "Taille de la liste de contacts"
 
 #: src/mod_roster.erl:1174
-#, fuzzy
 msgid "Roster:"
-msgstr "Liste de contacts"
+msgstr "Liste de contacts :"
 
 #: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1095
 msgid "Running Nodes"
@@ -2026,7 +2025,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
-msgstr ""
+msgstr "Rechercher jusqu’à la date"
 
 #: src/mod_vcard.erl:444
 msgid "Search users in "
@@ -2064,7 +2063,7 @@ msgstr "Serveur :"
 
 #: src/mod_stun_disco.erl:497
 msgid "Service list retrieval timed out"
-msgstr ""
+msgstr "La récupération de la liste des services a expiré"
 
 #: src/mod_stream_mgmt.erl:790
 msgid "Session state copying timed out"
@@ -2161,7 +2160,7 @@ msgstr "Sauvegarde texte :"
 
 #: src/mod_stream_mgmt.erl:363
 msgid "Stream management is already enabled"
-msgstr ""
+msgstr "La gestion des flux est déjà activée"
 
 #: src/mod_stream_mgmt.erl:345
 #, fuzzy
@@ -2214,19 +2213,19 @@ msgstr "Dimanche"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:868
 msgid "Text associated with a picture"
-msgstr ""
+msgstr "Texte associé à une image"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:792
 msgid "Text associated with a sound"
-msgstr ""
+msgstr "Texte associé à un son"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:972
 msgid "Text associated with a video"
-msgstr ""
+msgstr "Texte associé à une vidéo"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:942
 msgid "Text associated with speech"
-msgstr ""
+msgstr "Texte associé au discours"
 
 #: src/mod_muc_room.erl:1266 src/mod_muc_room.erl:2134
 #: src/mod_muc_room.erl:4428
@@ -2254,7 +2253,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:744
 msgid "The JID of the node creator"
-msgstr ""
+msgstr "Le JID du créateur du nœud"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1705
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:712
@@ -2291,9 +2290,8 @@ msgid "The account already exists"
 msgstr "Le compte existe déjà"
 
 #: src/mod_register_web.erl:585
-#, fuzzy
 msgid "The account was not unregistered"
-msgstr "Votre compte Jabber a été effacé avec succès."
+msgstr "Le compte n’a pas été désinscrit"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
@@ -2346,7 +2344,7 @@ msgstr "Le nom du nœud"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
-msgstr ""
+msgstr "Le nœud est un nœud de collecte"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
@@ -2398,11 +2396,11 @@ msgstr "La requête ne doit pas contenir d'élément <item/>"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:993
 msgid "The room subject can be modified by participants"
-msgstr ""
+msgstr "Le sujet du salon peut être modifié par les participants"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
-msgstr ""
+msgstr "L’expéditeur du dernier message reçu"
 
 #: src/mod_privacy.erl:268
 msgid ""
@@ -2412,7 +2410,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
-msgstr ""
+msgstr "L’identificateur d’abonnement associé à la demande d’abonnement"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
 msgid ""
@@ -2476,7 +2474,7 @@ msgstr "Délais"
 
 #: src/mod_stream_mgmt.erl:255
 msgid "Timed out waiting for stream resumption"
-msgstr ""
+msgstr "Expiration du délai d’attente pour la reprise du flux"
 
 #: src/mod_offline.erl:1011
 msgid "To"
@@ -2526,7 +2524,7 @@ msgstr "Trop d'éléments <item/>"
 
 #: src/mod_multicast.erl:322
 msgid "Too many receiver fields were specified"
-msgstr ""
+msgstr "Trop de champs de récepteurs ont été spécifiés"
 
 #: src/mod_stream_mgmt.erl:206
 msgid "Too many unacked stanzas"
@@ -2566,7 +2564,7 @@ msgstr "Mardi"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:933
 msgid "URL for Archived Discussion Logs"
-msgstr ""
+msgstr "URL des journaux de discussion archivés"
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:266
 #: src/mod_muc_room.erl:2227
@@ -2817,7 +2815,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
-msgstr "Autoriser les abonnements ?"
+msgstr "Autoriser ou non les abonnements"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
