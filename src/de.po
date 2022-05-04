@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-03-26 20:14+0000\n"
+"PO-Revision-Date: 2021-12-10 21:56+0000\n"
 "Last-Translator: nautilusx <translate@disroot.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
-"po/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/ejabberd/"
+"ejabberd-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 "X-Language: German (deutsch)\n"
 "X-Additional-Translator: Marina Hahn\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -120,7 +120,7 @@ msgstr "Benutzer hinzufügen"
 #: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
 #: src/mod_muc_room.erl:4620
 msgid "Add a hat to a user"
-msgstr ""
+msgstr "Funktion zu einem Benutzer hinzufügen"
 
 #: src/ejabberd_web_admin.erl:397 src/ejabberd_web_admin.erl:406
 msgid "Administration"
@@ -599,7 +599,7 @@ msgstr "E-Mail-Adresse"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2282
 msgid "Enable hats"
-msgstr ""
+msgstr "Funktion einschalten"
 
 #: src/mod_muc_log.erl:822 _build/default/lib/xmpp/src/muc_roomconfig.erl:1929
 msgid "Enable logging"
@@ -804,17 +804,15 @@ msgstr "HTTP-Dateiupload"
 #: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
 #: src/mod_muc_room.erl:4766
 msgid "Hat URI"
-msgstr ""
+msgstr "Funktions-URI"
 
 #: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
-#, fuzzy
 msgid "Hat title"
-msgstr "Raumname"
+msgstr "Funktionstitel"
 
 #: src/mod_muc_room.erl:4673
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "Datenratenlimit wurde überschritten"
+msgstr "Funktionslimit wurde überschritten"
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
@@ -1027,13 +1025,12 @@ msgid "List of rooms"
 msgstr "Liste von Räumen"
 
 #: src/mod_muc_room.erl:4756
-#, fuzzy
 msgid "List of users with hats"
-msgstr "Liste der zu startenden Module"
+msgstr "Liste der Benutzer mit Funktionen"
 
 #: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
 msgid "List users with hats"
-msgstr ""
+msgstr "Benutzer mit Funktionen auflisten"
 
 #: src/mod_muc_admin.erl:563
 msgid "Logging"
@@ -1089,6 +1086,8 @@ msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
+"Maximale Anzahl der aufzubewahrenden Elemente oder `max`, wenn es keine "
+"spezifische Begrenzung gibt, außer einer vom Server festgelegten Höchstzahl"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
@@ -1498,11 +1497,13 @@ msgid "Number of registered users"
 msgstr "Anzahl der registrierten Benutzer"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1789
-#, fuzzy
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
-msgstr "Anzahl der Sekunden, nach der Items automatisch gelöscht werden"
+msgstr ""
+"Anzahl der Sekunden, nach denen Elemente automatisch gelöscht werden sollen, "
+"oder `max`, wenn es keine spezifische Grenze gibt, außer einer vom Server "
+"festgelegten Höchstgrenze"
 
 #: src/ejabberd_web_admin.erl:1265 src/ejabberd_web_admin.erl:1275
 #: src/ejabberd_web_admin.erl:1286 src/ejabberd_web_admin.erl:1295
@@ -1873,7 +1874,7 @@ msgstr "Benutzer löschen"
 #: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
 #: src/mod_muc_room.erl:4688
 msgid "Remove a hat from a user"
-msgstr ""
+msgstr "Eine Funktion bei einem Benutzer entfernen"
 
 #: src/ejabberd_sm.erl:453
 msgid "Replaced by new connection"
@@ -1943,7 +1944,7 @@ msgstr "Rollen die Privatnachrichten senden dürfen"
 
 #: src/mod_muc_log.erl:639
 msgid "Room Configuration"
-msgstr "Raum-Konfiguration"
+msgstr "Raumkonfiguration"
 
 #: src/mod_muc_log.erl:659
 msgid "Room Occupants"
@@ -2321,13 +2322,13 @@ msgstr ""
 "Die Liste der JIDs die Blattknoten mit einer Sammlung verknüpfen dürfen"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
-#, fuzzy
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
-"Die maximale Anzahl der Kindknoten die mit einer Sammlung verknüpft werden "
-"können"
+"Die Höchstzahl der untergeordneten Knoten, die einer Sammlung zugeordnet "
+"werden können, oder `max`, wenn es keine spezifische Begrenzung gibt, "
+"sondern nur eine vom Server festgelegte Höchstzahl"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
