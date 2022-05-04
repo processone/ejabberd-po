@@ -26,11 +26,11 @@ msgstr " (在字段末添加*来匹配子串)"
 msgid " has set the subject to: "
 msgstr " 已将标题设置为: "
 
-#: src/mod_muc_admin.erl:559
+#: src/mod_muc_admin.erl:583
 msgid "# participants"
 msgstr "# 个参与人"
 
-#: src/mod_shared_roster.erl:1060
+#: src/mod_shared_roster.erl:1064
 msgid "'Displayed groups' not added (they do not exist!): "
 msgstr "'显示的群组' 未被添加 (它们不存在!): "
 
@@ -47,25 +47,25 @@ msgstr "该节点的描述"
 msgid "A friendly name for the node"
 msgstr "该节点的友好名称"
 
-#: src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:2229
 msgid "A password is required to enter this room"
 msgstr "进入此房间需要密码"
 
-#: src/ejabberd_oauth.erl:519
+#: src/ejabberd_oauth.erl:527
 msgid "Accept"
 msgstr "接受"
 
-#: src/ejabberd_service.erl:232 src/mod_configure.erl:186
-#: src/mod_configure.erl:303 src/mod_configure.erl:429
-#: src/mod_configure.erl:715 src/mod_configure.erl:1480
-#: src/ejabberd_c2s.erl:449 src/ejabberd_c2s.erl:692
-#: src/mod_legacy_auth.erl:151 src/mod_roster.erl:182 src/mod_multicast.erl:310
-#: src/ejabberd_s2s.erl:337 src/mod_register.erl:130 src/mod_register.erl:295
-#: src/mod_register.erl:406 src/mod_s2s_dialback.erl:361 src/mod_muc.erl:212
-#: src/mod_muc.erl:677 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_announce.erl:242
+#: src/ejabberd_c2s.erl:453 src/ejabberd_c2s.erl:696
+#: src/ejabberd_service.erl:232 src/mod_roster.erl:182 src/mod_muc.erl:217
+#: src/mod_muc.erl:686 src/mod_multicast.erl:310 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
+#: src/mod_s2s_dialback.erl:361 src/mod_register.erl:130
+#: src/mod_register.erl:295 src/mod_register.erl:406 src/mod_configure.erl:191
+#: src/mod_configure.erl:312 src/mod_configure.erl:438
+#: src/mod_configure.erl:732 src/mod_configure.erl:1518
+#: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
+#: src/ejabberd_s2s.erl:337 src/mod_legacy_auth.erl:151
 #: src/mod_http_upload.erl:801
 msgid "Access denied by service policy"
 msgstr "访问被服务策略拒绝"
@@ -98,7 +98,7 @@ msgstr "白名单的访问模型"
 msgid "Account doesn't exist"
 msgstr "账号不存在"
 
-#: src/mod_configure.erl:1514
+#: src/mod_configure.erl:1552
 msgid "Action on user"
 msgstr "对用户的动作"
 
@@ -106,17 +106,17 @@ msgstr "对用户的动作"
 msgid "Add Jabber ID"
 msgstr "添加Jabber ID"
 
-#: src/mod_shared_roster.erl:942
+#: src/mod_shared_roster.erl:946
 msgid "Add New"
 msgstr "添加新用户"
 
-#: src/mod_configure.erl:161 src/mod_configure.erl:505
-#: src/mod_configure.erl:991 src/ejabberd_web_admin.erl:674
+#: src/ejabberd_web_admin.erl:674 src/mod_configure.erl:161
+#: src/mod_configure.erl:518 src/mod_configure.erl:1008
 msgid "Add User"
 msgstr "添加用户"
 
-#: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
-#: src/mod_muc_room.erl:4620
+#: src/mod_muc_room.erl:4232 src/mod_muc_room.erl:4366
+#: src/mod_muc_room.erl:4667
 msgid "Add a hat to a user"
 msgstr ""
 
@@ -124,15 +124,15 @@ msgstr ""
 msgid "Administration"
 msgstr "管理"
 
-#: src/mod_configure.erl:1509
+#: src/mod_configure.erl:1547
 msgid "Administration of "
 msgstr "管理 "
 
-#: src/mod_muc_room.erl:2840
+#: src/mod_muc_room.erl:2882
 msgid "Administrator privileges required"
 msgstr "需要管理员权限"
 
-#: src/mod_configure.erl:495
+#: src/mod_configure.erl:508
 msgid "All Users"
 msgstr "所有用户"
 
@@ -213,10 +213,10 @@ msgstr "与讲话关联的回答"
 msgid "Answer to a question"
 msgstr "问题的回答"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2242
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 msgid "Anyone"
 msgstr "任何人"
 
@@ -240,8 +240,8 @@ msgstr "任何人都可以发布"
 msgid "Anyone may subscribe and retrieve items"
 msgstr "任何人都可以订阅和检索内容项"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1682
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 msgid "Anyone with Voice"
 msgstr "任何带声音的人"
 
@@ -284,12 +284,12 @@ msgstr "八月"
 msgid "Automatic node creation is not enabled"
 msgstr "未启用自动节点创建"
 
-#: src/mod_configure.erl:143 src/mod_configure.erl:582
 #: src/ejabberd_web_admin.erl:1124 src/ejabberd_web_admin.erl:1949
+#: src/mod_configure.erl:143 src/mod_configure.erl:599
 msgid "Backup"
 msgstr "备份"
 
-#: src/mod_configure.erl:566
+#: src/mod_configure.erl:583
 msgid "Backup Management"
 msgstr "备份管理"
 
@@ -297,19 +297,19 @@ msgstr "备份管理"
 msgid "Backup of ~p"
 msgstr "~p的备份"
 
-#: src/mod_configure.erl:857
+#: src/mod_configure.erl:874
 msgid "Backup to File at "
 msgstr "备份文件位于 "
 
 #: src/ejabberd_web_admin.erl:652 src/ejabberd_web_admin.erl:962
 #: src/ejabberd_web_admin.erl:1118 src/mod_roster.erl:1061
-#: src/mod_shared_roster.erl:948 src/mod_shared_roster.erl:1061
+#: src/mod_shared_roster.erl:952 src/mod_shared_roster.erl:1065
 msgid "Bad format"
 msgstr "格式错误"
 
+#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
-#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 msgid "Birthday"
 msgstr "出生日期"
 
@@ -347,8 +347,8 @@ msgstr "挑战ID"
 msgid "Change Password"
 msgstr "更改密码"
 
-#: src/mod_configure.erl:169 src/mod_configure.erl:512
-#: src/mod_configure.erl:1038
+#: src/mod_configure.erl:169 src/mod_configure.erl:525
+#: src/mod_configure.erl:1055
 msgid "Change User Password"
 msgstr "更改用户密码"
 
@@ -356,7 +356,7 @@ msgstr "更改用户密码"
 msgid "Changing password is not allowed"
 msgstr "不允许修改密码"
 
-#: src/mod_muc_room.erl:3103
+#: src/mod_muc_room.erl:3145
 msgid "Changing role/affiliation is not allowed"
 msgstr "不允许修改角色/单位"
 
@@ -396,7 +396,7 @@ msgstr "聊天室已被启动"
 msgid "Chatroom is stopped"
 msgstr "聊天室已被停用"
 
-#: src/mod_muc_admin.erl:582 src/mod_muc.erl:1284
+#: src/mod_muc.erl:1336 src/mod_muc_admin.erl:606
 msgid "Chatrooms"
 msgstr "聊天室"
 
@@ -404,7 +404,7 @@ msgstr "聊天室"
 msgid "Choose a username and password to register with this server"
 msgstr "请选择在此服务器上注册所需的用户名和密码"
 
-#: src/mod_configure.erl:830
+#: src/mod_configure.erl:847
 msgid "Choose storage type of tables"
 msgstr "请选择表格的存储类型"
 
@@ -412,9 +412,9 @@ msgstr "请选择表格的存储类型"
 msgid "Choose whether to approve this entity's subscription."
 msgstr "选择是否允许该实体的订阅."
 
+#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
-#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 msgid "City"
 msgstr "城市"
 
@@ -423,21 +423,21 @@ msgid "Client acknowledged more stanzas than sent by server"
 msgstr "客户端确认的节数多于服务器发送的节数"
 
 #: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
-#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4168
+#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4215
 msgid "Commands"
 msgstr "命令"
 
-#: src/mod_muc.erl:599 src/mod_muc.erl:623 src/mod_muc_room.erl:220
-#: src/mod_muc_room.erl:231
+#: src/mod_muc.erl:608 src/mod_muc.erl:632 src/mod_muc_room.erl:239
+#: src/mod_muc_room.erl:250
 msgid "Conference room does not exist"
 msgstr "会议室不存在"
 
-#: src/mod_configure.erl:129 src/mod_configure.erl:275
-#: src/mod_configure.erl:296 src/mod_configure.erl:492
+#: src/mod_configure.erl:129 src/mod_configure.erl:284
+#: src/mod_configure.erl:305 src/mod_configure.erl:505
 msgid "Configuration"
 msgstr "配置"
 
-#: src/mod_muc_room.erl:3558
+#: src/mod_muc_room.erl:3600
 msgid "Configuration of room ~s"
 msgstr "房间~s的配置"
 
@@ -449,9 +449,9 @@ msgstr "已连接资源:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "联系人地址 (通常为房间持有人)"
 
+#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
-#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 msgid "Country"
 msgstr "国家"
 
@@ -459,12 +459,12 @@ msgstr "国家"
 msgid "Current Discussion Topic"
 msgstr "当前讨论话题"
 
-#: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1123 src/ejabberd_web_admin.erl:1948
+#: src/mod_configure.erl:140 src/mod_configure.erl:581
 msgid "Database"
 msgstr "数据库"
 
-#: src/mod_configure.erl:828
+#: src/mod_configure.erl:845
 msgid "Database Tables Configuration at "
 msgstr "数据库表格配置位于 "
 
@@ -473,19 +473,19 @@ msgstr "数据库表格配置位于 "
 msgid "Database Tables at ~p"
 msgstr "位于~p的数据库表"
 
-#: src/mod_blocking.erl:263 src/node_flat_sql.erl:797 src/mod_pubsub.erl:3790
-#: src/mod_pubsub.erl:3834 src/mod_pubsub.erl:3856 src/mod_pubsub.erl:3940
-#: src/mod_pubsub.erl:4161 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
-#: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
-#: src/mod_register.erl:418 src/mod_last.erl:202 src/mod_muc.erl:767
-#: src/mod_muc.erl:1071 src/mod_push.erl:336 src/mod_push.erl:351
-#: src/mod_proxy65_service.erl:242 src/mod_offline.erl:352
-#: src/mod_offline.erl:740 src/mod_mix.erl:652 src/mod_privacy.erl:174
-#: src/mod_privacy.erl:192 src/mod_privacy.erl:286 src/mod_privacy.erl:302
-#: src/mod_privacy.erl:335 src/mod_privacy.erl:352 src/mod_mam.erl:659
-#: src/mod_mam.erl:677 src/mod_mam.erl:707 src/mod_mam.erl:1043
+#: src/mod_push.erl:340 src/mod_push.erl:355 src/mod_blocking.erl:263
+#: src/mod_vcard.erl:238 src/mod_mix_pam.erl:321 src/mod_roster.erl:456
+#: src/mod_muc.erl:776 src/mod_muc.erl:1088 src/node_flat_sql.erl:797
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
-#: src/nodetree_tree_sql.erl:309 src/mod_vcard.erl:238
+#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:352
+#: src/mod_offline.erl:740 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
+#: src/mod_mam.erl:724 src/mod_mam.erl:742 src/mod_mam.erl:772
+#: src/mod_mam.erl:1108 src/mod_register.erl:418 src/mod_mix.erl:652
+#: src/mod_privacy.erl:174 src/mod_privacy.erl:192 src/mod_privacy.erl:286
+#: src/mod_privacy.erl:302 src/mod_privacy.erl:335 src/mod_privacy.erl:352
+#: src/mod_proxy65_service.erl:242 src/mod_private.erl:184
+#: src/mod_private.erl:191 src/mod_last.erl:202 src/mod_carboncopy.erl:97
 msgid "Database failure"
 msgstr "数据库失败"
 
@@ -497,12 +497,12 @@ msgstr "十二月"
 msgid "Default users as participants"
 msgstr "用户默认被视为参与人"
 
-#: src/mod_shared_roster.erl:956 src/mod_offline.erl:1022
+#: src/mod_offline.erl:1022 src/mod_shared_roster.erl:960
 msgid "Delete Selected"
 msgstr "删除已选内容"
 
-#: src/mod_configure.erl:163 src/mod_configure.erl:506
-#: src/mod_configure.erl:1008
+#: src/mod_configure.erl:163 src/mod_configure.erl:519
+#: src/mod_configure.erl:1025
 msgid "Delete User"
 msgstr "删除用户"
 
@@ -530,15 +530,15 @@ msgstr "传递事件通知"
 msgid "Deliver payloads with event notifications"
 msgstr "用事件通告传输有效负载"
 
-#: src/mod_shared_roster.erl:1024
+#: src/mod_shared_roster.erl:1028
 msgid "Description:"
 msgstr "描述:"
 
-#: src/mod_configure.erl:806 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1560 src/mod_configure.erl:823
 msgid "Disc only copy"
 msgstr "仅磁盘复制"
 
-#: src/mod_shared_roster.erl:1042
+#: src/mod_shared_roster.erl:1046
 msgid "Displayed:"
 msgstr "已显示:"
 
@@ -548,11 +548,11 @@ msgid ""
 "server."
 msgstr "不要将密码告诉任何人, 就算是XMPP服务器的管理员也不可以."
 
-#: src/mod_configure.erl:880
+#: src/mod_configure.erl:897
 msgid "Dump Backup to Text File at "
 msgstr "将备份转储到位于以下位置的文本文件 "
 
-#: src/mod_configure.erl:149 src/mod_configure.erl:586
+#: src/mod_configure.erl:149 src/mod_configure.erl:603
 msgid "Dump to Text File"
 msgstr "转储到文本文件"
 
@@ -564,11 +564,11 @@ msgstr "按照RFC6121的规则，不允许有重复的群组"
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr "为项目发布者动态指定一个 replyto"
 
-#: src/mod_configure.erl:1518
+#: src/mod_configure.erl:1556
 msgid "Edit Properties"
 msgstr "编辑属性"
 
-#: src/mod_muc_room.erl:4861
+#: src/mod_muc_room.erl:4908
 msgid "Either approve or decline the voice request."
 msgstr "接受或拒绝声音请求."
 
@@ -576,9 +576,9 @@ msgstr "接受或拒绝声音请求."
 msgid "Elements"
 msgstr "元素"
 
+#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
-#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 msgid "Email"
 msgstr "电子邮件"
 
@@ -598,32 +598,32 @@ msgstr "启用服务器端聊天记录"
 msgid "Enable message archiving"
 msgstr "启用消息归档"
 
-#: src/mod_push.erl:324
+#: src/mod_push.erl:328
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr "不支持未使用'node'属性就开启推送"
 
-#: src/mod_configure.erl:165 src/mod_configure.erl:508
-#: src/mod_configure.erl:1018
+#: src/mod_configure.erl:165 src/mod_configure.erl:521
+#: src/mod_configure.erl:1035
 msgid "End User Session"
 msgstr "结束用户会话"
 
-#: src/mod_muc.erl:1046
+#: src/mod_muc.erl:1063
 msgid "Enter nickname you want to register"
 msgstr "请输入您想要注册的昵称"
 
-#: src/mod_configure.erl:859 src/mod_configure.erl:871
+#: src/mod_configure.erl:876 src/mod_configure.erl:888
 msgid "Enter path to backup file"
 msgstr "请输入备份文件的路径"
 
-#: src/mod_configure.erl:905
+#: src/mod_configure.erl:922
 msgid "Enter path to jabberd14 spool dir"
 msgstr "请输入jabberd14 spool目录的路径"
 
-#: src/mod_configure.erl:894
+#: src/mod_configure.erl:911
 msgid "Enter path to jabberd14 spool file"
 msgstr "请输入 jabberd14 spool 文件的路径"
 
-#: src/mod_configure.erl:883
+#: src/mod_configure.erl:900
 msgid "Enter path to text file"
 msgstr "请输入文本文件的路径"
 
@@ -671,7 +671,7 @@ msgstr "常见问题入口"
 msgid "Failed to activate bytestream"
 msgstr "激活字节流失败"
 
-#: src/mod_muc_room.erl:1161
+#: src/mod_muc_room.erl:1203
 msgid "Failed to extract JID from your voice request approval"
 msgstr "无法从你的声音请求确认信息中提取JID"
 
@@ -683,13 +683,13 @@ msgstr "未能将代理命名空间映射到外部组件"
 msgid "Failed to parse HTTP response"
 msgstr "HTTP响应解析失败"
 
-#: src/mod_muc_room.erl:3703
+#: src/mod_muc_room.erl:3745
 msgid "Failed to process option '~s'"
 msgstr "选项'~s'处理失败"
 
+#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
-#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: _build/default/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "姓氏"
@@ -714,7 +714,7 @@ msgstr "星期五"
 msgid "From"
 msgstr "从"
 
-#: src/mod_configure.erl:678
+#: src/mod_configure.erl:695
 msgid "From ~ts"
 msgstr "来自 ~ts"
 
@@ -726,17 +726,27 @@ msgstr "房间管理员完整列表"
 msgid "Full List of Room Owners"
 msgstr "房间持有人完整列表"
 
+#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
-#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 msgid "Full Name"
 msgstr "全名"
 
-#: src/mod_configure.erl:178 src/mod_configure.erl:520
+#: src/mod_configure.erl:181 src/mod_configure.erl:535
+#, fuzzy
+msgid "Get List of Online Users"
+msgstr "获取在线用户数"
+
+#: src/mod_configure.erl:175 src/mod_configure.erl:531
+#, fuzzy
+msgid "Get List of Registered Users"
+msgstr "获取注册用户数"
+
+#: src/mod_configure.erl:183 src/mod_configure.erl:537
 msgid "Get Number of Online Users"
 msgstr "获取在线用户数"
 
-#: src/mod_configure.erl:175 src/mod_configure.erl:518
+#: src/mod_configure.erl:178 src/mod_configure.erl:533
 msgid "Get Number of Registered Users"
 msgstr "获取注册用户数"
 
@@ -744,18 +754,18 @@ msgstr "获取注册用户数"
 msgid "Get Pending"
 msgstr "获取挂起"
 
-#: src/mod_configure.erl:171 src/mod_configure.erl:514
-#: src/mod_configure.erl:1052
+#: src/mod_configure.erl:171 src/mod_configure.erl:527
+#: src/mod_configure.erl:1069
 msgid "Get User Last Login Time"
 msgstr "获取用户上次登录时间"
 
-#: src/mod_configure.erl:167 src/mod_configure.erl:510
-#: src/mod_configure.erl:1028
+#: src/mod_configure.erl:167 src/mod_configure.erl:523
+#: src/mod_configure.erl:1045
 msgid "Get User Password"
 msgstr "获取用户密码"
 
-#: src/mod_configure.erl:173 src/mod_configure.erl:516
-#: src/mod_configure.erl:1061
+#: src/mod_configure.erl:173 src/mod_configure.erl:529
+#: src/mod_configure.erl:1078
 msgid "Get User Statistics"
 msgstr "获取用户统计"
 
@@ -768,7 +778,7 @@ msgstr "中间名"
 msgid "Grant voice to this person?"
 msgstr "为此人授权声音?"
 
-#: src/mod_shared_roster.erl:1053
+#: src/mod_shared_roster.erl:1057
 msgid "Group"
 msgstr "组"
 
@@ -776,7 +786,7 @@ msgstr "组"
 msgid "Groups"
 msgstr "组"
 
-#: src/mod_shared_roster.erl:1048
+#: src/mod_shared_roster.erl:1052
 msgid "Groups that will be displayed to the members"
 msgstr "将显示给会员的群组"
 
@@ -784,17 +794,17 @@ msgstr "将显示给会员的群组"
 msgid "HTTP File Upload"
 msgstr "HTTP文件上传"
 
-#: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4766
+#: src/mod_muc_room.erl:4681 src/mod_muc_room.erl:4745
+#: src/mod_muc_room.erl:4813
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
+#: src/mod_muc_room.erl:4677 src/mod_muc_room.erl:4810
 #, fuzzy
 msgid "Hat title"
 msgstr "房间标题"
 
-#: src/mod_muc_room.erl:4673
+#: src/mod_muc_room.erl:4720
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "已经超过传输率限制"
@@ -807,7 +817,7 @@ msgstr "主机"
 msgid "Host unknown"
 msgstr "主人未知"
 
-#: src/mod_configure.erl:1405
+#: src/mod_configure.erl:1443
 msgid "IP addresses"
 msgstr "IP地址"
 
@@ -819,23 +829,23 @@ msgstr "空闲的连接"
 msgid "If you don't see the CAPTCHA image here, visit the web page."
 msgstr "如果您在这里没有看到验证码图片, 请访问网页."
 
-#: src/mod_configure.erl:155 src/mod_configure.erl:599
+#: src/mod_configure.erl:155 src/mod_configure.erl:616
 msgid "Import Directory"
 msgstr "导入目录"
 
-#: src/mod_configure.erl:152 src/mod_configure.erl:597
+#: src/mod_configure.erl:152 src/mod_configure.erl:614
 msgid "Import File"
 msgstr "导入文件"
 
-#: src/mod_configure.erl:891
+#: src/mod_configure.erl:908
 msgid "Import User from File at "
 msgstr "从以下位置的文件导入用户 "
 
-#: src/mod_configure.erl:568
+#: src/mod_configure.erl:585
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "从 jabberd14 Spool 文件导入用户"
 
-#: src/mod_configure.erl:902
+#: src/mod_configure.erl:919
 msgid "Import Users from Dir at "
 msgstr "从以下位置目录导入用户 "
 
@@ -855,7 +865,7 @@ msgstr "从jabberd14 Spool目录导入用户数据:"
 msgid "Improper domain part of 'from' attribute"
 msgstr "不恰当的'from'属性域名部分"
 
-#: src/mod_muc_room.erl:412
+#: src/mod_muc_room.erl:436
 msgid "Improper message type"
 msgstr "不恰当的消息类型"
 
@@ -863,33 +873,33 @@ msgstr "不恰当的消息类型"
 msgid "Incoming s2s Connections:"
 msgstr "入站 s2s 连接:"
 
-#: src/mod_register.erl:204 src/mod_muc_room.erl:4361
-#: src/ejabberd_captcha.erl:215
+#: src/ejabberd_captcha.erl:215 src/mod_register.erl:204
+#: src/mod_muc_room.erl:4408
 msgid "Incorrect CAPTCHA submit"
 msgstr "提交的验证码不正确"
 
-#: src/mod_pubsub.erl:1257 src/mod_register.erl:200 src/mod_muc.erl:1094
-#: src/mod_muc_room.erl:3433 src/mod_vcard.erl:267
+#: src/mod_vcard.erl:267 src/mod_muc.erl:1111 src/mod_pubsub.erl:1257
+#: src/mod_register.erl:200 src/mod_muc_room.erl:3475
 msgid "Incorrect data form"
 msgstr "数据形式不正确"
 
-#: src/mod_register.erl:155 src/mod_register_web.erl:579
-#: src/mod_muc_room.erl:2237
+#: src/mod_register.erl:155 src/mod_muc_room.erl:2279
+#: src/mod_register_web.erl:579
 msgid "Incorrect password"
 msgstr "密码不正确"
 
-#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4682 src/mod_muc_room.erl:4736
-#: src/mod_muc_room.erl:4776
+#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4729 src/mod_muc_room.erl:4783
+#: src/mod_muc_room.erl:4823
 msgid "Incorrect value of 'action' attribute"
 msgstr "'action' 属性的值不正确"
 
-#: src/mod_configure.erl:1550
+#: src/mod_configure.erl:1588
 msgid "Incorrect value of 'action' in data form"
 msgstr "数据表单中 'action' 的值不正确"
 
-#: src/mod_configure.erl:1153 src/mod_configure.erl:1186
-#: src/mod_configure.erl:1219 src/mod_configure.erl:1239
-#: src/mod_configure.erl:1259
+#: src/mod_configure.erl:1191 src/mod_configure.erl:1224
+#: src/mod_configure.erl:1257 src/mod_configure.erl:1277
+#: src/mod_configure.erl:1297
 msgid "Incorrect value of 'path' in data form"
 msgstr "数据表单中 'path' 的值不正确"
 
@@ -909,30 +919,30 @@ msgstr "转发的信息中 'from' 属性的值无效"
 msgid "Invalid 'previd' value"
 msgstr "无效的 'previd' 值"
 
-#: src/mod_muc_room.erl:4239
+#: src/mod_muc_room.erl:4286
 msgid "Invalid node name"
 msgstr "无效的节点名称"
 
-#: src/mod_muc_room.erl:4906
+#: src/mod_muc_room.erl:4953
 msgid "Invitations are not allowed in this conference"
 msgstr "此会议不允许邀请"
 
-#: src/mod_muc_room.erl:385 src/mod_muc_room.erl:533 src/mod_muc_room.erl:1326
+#: src/mod_muc_room.erl:409 src/mod_muc_room.erl:557 src/mod_muc_room.erl:1368
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 "不允许将错误消息发送到该房间. 参与者(~s)已发送过一条消息(~s)并已被踢出房间"
 
-#: src/mod_muc_room.erl:579 src/mod_muc_room.erl:590
+#: src/mod_muc_room.erl:603 src/mod_muc_room.erl:614
 msgid "It is not allowed to send private messages"
 msgstr "不可以发送私聊消息"
 
-#: src/mod_muc_room.erl:547
+#: src/mod_muc_room.erl:571
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "\"群组聊天\"类型不允许发送私聊消息"
 
-#: src/mod_muc_room.erl:396
+#: src/mod_muc_room.erl:420
 msgid "It is not allowed to send private messages to the conference"
 msgstr "不允许向会议发送私聊消息"
 
@@ -944,14 +954,15 @@ msgstr "JID规范化被服务策略拒绝"
 msgid "JID normalization failed"
 msgstr "JID规范化失败"
 
-#: src/mod_vcard_mnesia.erl:113 src/mod_configure.erl:995
-#: src/mod_configure.erl:1012 src/mod_configure.erl:1022
-#: src/mod_configure.erl:1032 src/mod_configure.erl:1042
-#: src/mod_configure.erl:1056 src/mod_configure.erl:1065
-#: src/mod_configure.erl:1332 src/mod_configure.erl:1376
-#: src/mod_configure.erl:1401 src/mod_vcard_sql.erl:170 src/mod_roster.erl:1001
-#: src/mod_muc_admin.erl:558 src/mod_muc_room.erl:4625
-#: src/mod_muc_room.erl:4693 src/mod_muc_room.erl:4760
+#: src/mod_roster.erl:1001 src/mod_vcard_mnesia.erl:113
+#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:1012
+#: src/mod_configure.erl:1029 src/mod_configure.erl:1039
+#: src/mod_configure.erl:1049 src/mod_configure.erl:1059
+#: src/mod_configure.erl:1073 src/mod_configure.erl:1082
+#: src/mod_configure.erl:1370 src/mod_configure.erl:1414
+#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4672
+#: src/mod_muc_room.erl:4740 src/mod_muc_room.erl:4807
+#: src/mod_muc_admin.erl:582
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -967,11 +978,11 @@ msgstr "七月"
 msgid "June"
 msgstr "六月"
 
-#: src/mod_muc_admin.erl:564
+#: src/mod_muc_admin.erl:588
 msgid "Just created"
 msgstr "刚刚创建"
 
-#: src/mod_shared_roster.erl:1019
+#: src/mod_shared_roster.erl:1023
 msgid "Label:"
 msgstr "标签:"
 
@@ -980,11 +991,11 @@ msgstr "标签:"
 msgid "Last Activity"
 msgstr "上次活动"
 
-#: src/mod_configure.erl:1378
+#: src/mod_configure.erl:1416
 msgid "Last login"
 msgstr "上次登录"
 
-#: src/mod_muc_admin.erl:560
+#: src/mod_muc_admin.erl:584
 msgid "Last message"
 msgstr "最近消息"
 
@@ -1001,20 +1012,20 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr "文本的SHA-256哈希的最低有效位应等于十六进制标签"
 
-#: src/mod_muc_admin.erl:512
+#: src/mod_muc_admin.erl:536
 msgid "List of rooms"
 msgstr "房间列表"
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4803
 #, fuzzy
 msgid "List of users with hats"
 msgstr "要启动的模块列表"
 
-#: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
+#: src/mod_muc_room.erl:4268 src/mod_muc_room.erl:4374
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:563
+#: src/mod_muc_admin.erl:587
 msgid "Logging"
 msgstr "正在记录"
 
@@ -1022,7 +1033,7 @@ msgstr "正在记录"
 msgid "Low level update script"
 msgstr "低级别更新脚本"
 
-#: src/mod_mam.erl:663
+#: src/mod_mam.erl:728
 msgid "MAM preference modification denied by service policy"
 msgstr "MAM偏好被服务策略拒绝"
 
@@ -1073,8 +1084,8 @@ msgstr "要保留的最大项目数 #，`max`表示除了服务器强加的最�
 msgid "Max payload size in bytes"
 msgstr "最大有效负载字节数"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1666
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr "房间返回的历史消息最大值"
 
@@ -1094,15 +1105,15 @@ msgstr "持久化内容的最大条目数"
 msgid "May"
 msgstr "五月"
 
-#: src/mod_shared_roster.erl:1058
+#: src/mod_shared_roster.erl:1062
 msgid "Members not added (inexistent vhost!): "
 msgstr "成员未添加 (不存在的vhost!): "
 
-#: src/mod_shared_roster.erl:1033
+#: src/mod_shared_roster.erl:1037
 msgid "Members:"
 msgstr "会员:"
 
-#: src/mod_muc_room.erl:2124
+#: src/mod_muc_room.erl:2166
 msgid "Membership is required to enter this room"
 msgstr "进入此房间需要会员身份"
 
@@ -1122,7 +1133,8 @@ msgstr "内存"
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr "仅XMPP中的可用性 (不显示值)"
 
-#: src/mod_configure.erl:948 src/mod_configure.erl:988 src/mod_announce.erl:528
+#: src/mod_announce.erl:528 src/mod_configure.erl:965
+#: src/mod_configure.erl:1005
 msgid "Message body"
 msgstr "消息主体"
 
@@ -1142,9 +1154,9 @@ msgstr "标题类型的消息"
 msgid "Messages of type normal"
 msgstr "普通类型的消息"
 
+#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
-#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Middle Name"
 msgstr "中间名"
 
@@ -1156,15 +1168,15 @@ msgstr "声音请求的最小间隔(以秒为单位)"
 msgid "Moderator"
 msgstr "主持人"
 
-#: src/mod_muc_room.erl:2848 src/mod_muc_room.erl:4415
-#: src/mod_muc_room.erl:4471 src/mod_muc_room.erl:4514
+#: src/mod_muc_room.erl:2890 src/mod_muc_room.erl:4462
+#: src/mod_muc_room.erl:4518 src/mod_muc_room.erl:4561
 msgid "Moderator privileges required"
 msgstr "需要主持人权限"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1685
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2240
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 msgid "Moderators Only"
 msgstr "仅限主持人"
 
@@ -1180,8 +1192,8 @@ msgstr "模块未能处理查询"
 msgid "Monday"
 msgstr "星期一"
 
-#: src/mod_muc_admin.erl:486 src/mod_muc_admin.erl:489
-#: src/mod_muc_admin.erl:505 src/mod_muc_admin.erl:580
+#: src/mod_muc_admin.erl:510 src/mod_muc_admin.erl:513
+#: src/mod_muc_admin.erl:529 src/mod_muc_admin.erl:604
 msgid "Multi-User Chat"
 msgstr "多用户聊天"
 
@@ -1193,22 +1205,22 @@ msgstr "多重映射"
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "按照 RFC6121，多个 <item/> 元素是不允许的"
 
+#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
-#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 msgid "Name"
 msgstr "姓名"
 
-#: src/mod_shared_roster.erl:1022
+#: src/mod_shared_roster.erl:1026
 msgid "Name in the rosters where this group will be displayed"
 msgstr "花名册中将显示的该分组的名称"
 
-#: src/mod_shared_roster.erl:921 src/mod_shared_roster.erl:1015
+#: src/mod_shared_roster.erl:925 src/mod_shared_roster.erl:1019
 msgid "Name:"
 msgstr "姓名:"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1968
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 msgid "Natural Language for Room Discussions"
 msgstr "房间讨论的自然语言"
 
@@ -1216,16 +1228,16 @@ msgstr "房间讨论的自然语言"
 msgid "Natural-Language Room Name"
 msgstr "自然语言房间名称"
 
-#: src/mod_muc_room.erl:3030
+#: src/mod_muc_room.erl:3072
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "属性 'jid' 或 'nick' 均未发现"
 
-#: src/mod_muc_room.erl:2830 src/mod_muc_room.erl:3035
+#: src/mod_muc_room.erl:2872 src/mod_muc_room.erl:3077
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "属性 'role' 或 'affiliation' 均未发现"
 
-#: src/mod_configure.erl:1361 src/ejabberd_web_admin.erl:736
-#: src/ejabberd_web_admin.erl:944
+#: src/ejabberd_web_admin.erl:736 src/ejabberd_web_admin.erl:944
+#: src/mod_configure.erl:1399
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "从未"
@@ -1234,36 +1246,36 @@ msgstr "从未"
 msgid "New Password:"
 msgstr "新密码:"
 
-#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: src/mod_vcard_sql.erl:161 src/mod_vcard_sql.erl:175 src/mod_roster.erl:1002
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: _build/default/lib/xmpp/src/muc_register.erl:536
+#: src/mod_roster.erl:1002 src/mod_vcard_mnesia.erl:104
+#: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
+#: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
 #: _build/default/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "昵称"
 
-#: src/mod_muc.erl:1045
+#: src/mod_muc.erl:1062
 msgid "Nickname Registration at "
 msgstr "昵称注册于 "
 
-#: src/mod_muc_room.erl:1275 src/mod_muc_room.erl:2145
-#: src/mod_muc_room.erl:4438
+#: src/mod_muc_room.erl:1317 src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:4485
 msgid "Nickname can't be empty"
 msgstr "昵称不能为空"
 
-#: src/mod_muc_room.erl:3047
+#: src/mod_muc_room.erl:3089
 msgid "Nickname ~s does not exist in the room"
 msgstr "昵称~s不在该房间"
 
-#: src/mod_muc_room.erl:3456
+#: src/mod_muc_room.erl:3498
 msgid "No 'affiliation' attribute found"
 msgstr "未发现 'affiliation' 属性"
 
-#: src/mod_muc_room.erl:2812
+#: src/mod_muc_room.erl:2854
 msgid "No 'item' element found"
 msgstr "没有找到 'item' 元素"
 
-#: src/mod_configure.erl:1543
+#: src/mod_configure.erl:1581
 msgid "No 'password' found in data form"
 msgstr "数据表单中未发现 'password'"
 
@@ -1271,13 +1283,13 @@ msgstr "数据表单中未发现 'password'"
 msgid "No 'password' found in this query"
 msgstr "此查询中未发现 'password'"
 
-#: src/mod_configure.erl:1135 src/mod_configure.erl:1168
-#: src/mod_configure.erl:1201 src/mod_configure.erl:1233
-#: src/mod_configure.erl:1253
+#: src/mod_configure.erl:1173 src/mod_configure.erl:1206
+#: src/mod_configure.erl:1239 src/mod_configure.erl:1271
+#: src/mod_configure.erl:1291
 msgid "No 'path' found in data form"
 msgstr "数据表单中未发现 'path'"
 
-#: src/mod_muc_room.erl:4902
+#: src/mod_muc_room.erl:4949
 msgid "No 'to' attribute found in the invitation"
 msgstr "邀请中未发现 'to' 标签"
 
@@ -1305,7 +1317,7 @@ msgstr "没发现可用资源"
 msgid "No body provided for announce message"
 msgstr "通知消息无正文内容"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1184
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1226
 msgid "No child elements found"
 msgstr "没有找到子元素"
 
@@ -1329,18 +1341,17 @@ msgstr "未找到上次活动的信息"
 msgid "No items found in this query"
 msgstr "此查询中没发现任何项"
 
-#: src/mod_muc_room.erl:3576
+#: src/mod_muc_room.erl:3618
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "不限"
 
-#: src/gen_iq_handler.erl:82 src/mod_blocking.erl:83 src/mod_blocking.erl:101
-#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:242
-#: src/mod_muc.erl:653 src/mod_muc.erl:720 src/mod_muc.erl:740
-#: src/mod_muc.erl:771 src/mod_offline.erl:364 src/mod_jidprep.erl:164
-#: src/mod_stun_disco.erl:482 src/mod_mix.erl:672 src/mod_privacy.erl:156
-#: src/mod_privacy.erl:273 src/mod_http_upload.erl:771
-#: src/ejabberd_captcha.erl:225
+#: src/mod_jidprep.erl:164 src/mod_blocking.erl:83 src/mod_blocking.erl:101
+#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:247
+#: src/mod_muc.erl:662 src/mod_muc.erl:729 src/mod_muc.erl:749
+#: src/mod_muc.erl:780 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/mod_offline.erl:364 src/ejabberd_captcha.erl:225 src/mod_mix.erl:672
+#: src/mod_privacy.erl:156 src/mod_privacy.erl:273 src/mod_http_upload.erl:771
 msgid "No module is handling this query"
 msgstr "没有正在处理此查询的模块"
 
@@ -1361,10 +1372,10 @@ msgstr "未找到带此名称的隐私列表"
 msgid "No private data found in this query"
 msgstr "此查询中未发现私有数据"
 
-#: src/mod_configure.erl:818 src/mod_configure.erl:1097
-#: src/mod_configure.erl:1130 src/mod_configure.erl:1163
-#: src/mod_configure.erl:1196 src/mod_configure.erl:1228
-#: src/mod_configure.erl:1248 src/mod_stats.erl:93
+#: src/mod_stats.erl:93 src/mod_configure.erl:835 src/mod_configure.erl:1135
+#: src/mod_configure.erl:1168 src/mod_configure.erl:1201
+#: src/mod_configure.erl:1234 src/mod_configure.erl:1266
+#: src/mod_configure.erl:1286
 msgid "No running node found"
 msgstr "没有找到运行中的节点"
 
@@ -1376,13 +1387,13 @@ msgstr "无可用服务"
 msgid "No statistics found for this item"
 msgstr "未找到此项的统计数据"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1734
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 msgid "Nobody"
 msgstr "没有人"
 
-#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:566
+#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:590
 msgid "Node"
 msgstr "节点"
 
@@ -1390,7 +1401,7 @@ msgstr "节点"
 msgid "Node ID"
 msgstr "节点ID"
 
-#: src/nodetree_tree.erl:228 src/nodetree_tree_sql.erl:307
+#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:228
 msgid "Node already exists"
 msgstr "节点已存在"
 
@@ -1398,13 +1409,12 @@ msgstr "节点已存在"
 msgid "Node index not found"
 msgstr "没有找到节点索引"
 
-#: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:77
-#: src/nodetree_tree.erl:83 src/mod_muc.erl:718 src/mod_muc.erl:983
-#: src/mod_muc_room.erl:4170 src/mod_muc_room.erl:4188
-#: src/mod_muc_room.erl:4206 src/mod_muc_room.erl:4224
-#: src/mod_muc_room.erl:4329 src/mod_muc_room.erl:4344
-#: src/mod_muc_room.erl:4348 src/nodetree_tree_sql.erl:127
-#: src/nodetree_tree_sql.erl:141
+#: src/ejabberd_web_admin.erl:533 src/mod_muc.erl:727 src/mod_muc.erl:1000
+#: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
+#: src/mod_muc_room.erl:4217 src/mod_muc_room.erl:4235
+#: src/mod_muc_room.erl:4253 src/mod_muc_room.erl:4271
+#: src/mod_muc_room.erl:4376 src/mod_muc_room.erl:4391
+#: src/mod_muc_room.erl:4395 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "没有找到节点"
 
@@ -1435,7 +1445,7 @@ msgstr "没有找到"
 msgid "Not allowed"
 msgstr "不允许"
 
-#: src/mod_last.erl:145 src/mod_disco.erl:276 src/mod_disco.erl:335
+#: src/mod_disco.erl:276 src/mod_disco.erl:335 src/mod_last.erl:145
 msgid "Not subscribed"
 msgstr "未订阅"
 
@@ -1467,11 +1477,11 @@ msgstr "需要的回答数量"
 msgid "Number of occupants"
 msgstr "驻留人数"
 
-#: src/mod_configure.erl:1085
+#: src/mod_configure.erl:1123
 msgid "Number of online users"
 msgstr "在线用户数"
 
-#: src/mod_configure.erl:1075
+#: src/mod_configure.erl:1102
 msgid "Number of registered users"
 msgstr "注册用户数"
 
@@ -1514,13 +1524,13 @@ msgstr "离线消息:"
 msgid "Old Password:"
 msgstr "旧密码:"
 
-#: src/mod_configure.erl:1371 src/ejabberd_web_admin.erl:754
-#: src/ejabberd_web_admin.erl:955
+#: src/ejabberd_web_admin.erl:754 src/ejabberd_web_admin.erl:955
+#: src/mod_configure.erl:1409
 msgid "Online"
 msgstr "在线"
 
-#: src/mod_configure.erl:494 src/ejabberd_web_admin.erl:460
-#: src/ejabberd_web_admin.erl:593 src/ejabberd_web_admin.erl:1933
+#: src/ejabberd_web_admin.erl:460 src/ejabberd_web_admin.erl:593
+#: src/ejabberd_web_admin.erl:1933 src/mod_configure.erl:507
 msgid "Online Users"
 msgstr "在线用户"
 
@@ -1537,7 +1547,7 @@ msgstr "仅允许 <enable/> 或 <disable/> 标签"
 msgid "Only <list/> element is allowed in this query"
 msgstr "此查询中只允许 <list/> 元素"
 
-#: src/mod_shared_roster.erl:1030
+#: src/mod_shared_roster.erl:1034
 msgid "Only admins can see this"
 msgstr "仅管理员可以看见此内容"
 
@@ -1550,29 +1560,29 @@ msgstr "只有集合节点所有者可以将叶子节点与集合关联"
 msgid "Only deliver notifications to available users"
 msgstr "仅将通知发送给可发送的用户"
 
-#: src/mod_mam.erl:520
+#: src/mod_mam.erl:521
 msgid "Only members may query archives of this room"
 msgstr "只有会员可以查询本房间的存档"
 
-#: src/mod_muc_room.erl:1024
+#: src/mod_muc_room.erl:1066
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "只有主持人和参与人可以在此房间里更改主题"
 
-#: src/mod_muc_room.erl:1029
+#: src/mod_muc_room.erl:1071
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "只有主持人可以在此房间里更改主题"
 
-#: src/mod_muc_room.erl:1168
+#: src/mod_muc_room.erl:1210
 msgid "Only moderators can approve voice requests"
 msgstr "仅主持人能确认声音请求"
 
-#: src/mod_muc_room.erl:585 src/mod_muc_room.erl:1043 src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:609 src/mod_muc_room.erl:1085 src/mod_muc_room.erl:5018
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "只有与会人可以向大会发送消息"
 
-#: src/mod_muc_room.erl:631
+#: src/mod_muc_room.erl:655
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "只有与会人可以向大会发出查询请求"
 
@@ -1581,7 +1591,7 @@ msgstr "只有与会人可以向大会发出查询请求"
 msgid "Only publishers may publish"
 msgstr "只有发布人可以发布"
 
-#: src/mod_muc.erl:232
+#: src/mod_muc.erl:237
 msgid "Only service administrators are allowed to send service messages"
 msgstr "只有服务管理员可以发送服务消息"
 
@@ -1594,19 +1604,19 @@ msgstr "仅白名单用户可以将叶节点与集合关联"
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr "仅白名单用户可以订阅和检索内容项"
 
+#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
-#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 msgid "Organization Name"
 msgstr "组织名称"
 
+#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
-#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 msgid "Organization Unit"
 msgstr "组织单位"
 
-#: src/mod_configure.erl:496
+#: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
 msgstr "出站 s2s 连接"
 
@@ -1615,10 +1625,10 @@ msgid "Outgoing s2s Connections:"
 msgstr "出站 s2s 连接:"
 
 #: src/mod_pubsub.erl:1365 src/mod_pubsub.erl:1460 src/mod_pubsub.erl:1634
-#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2306 src/mod_pubsub.erl:2516
-#: src/mod_pubsub.erl:2610 src/mod_pubsub.erl:3318 src/mod_pubsub.erl:3488
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3403 src/mod_muc_room.erl:3448
-#: src/mod_muc_room.erl:4391
+#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2318 src/mod_pubsub.erl:2528
+#: src/mod_pubsub.erl:2622 src/mod_pubsub.erl:3330 src/mod_pubsub.erl:3500
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3445 src/mod_muc_room.erl:3490
+#: src/mod_muc_room.erl:4438
 msgid "Owner privileges required"
 msgstr "需要持有人权限"
 
@@ -1635,15 +1645,15 @@ msgstr "包中继被服务策略拒绝"
 msgid "Participant"
 msgstr "参与人"
 
-#: src/mod_configure.erl:999 src/mod_configure.erl:1046
-#: src/mod_configure.erl:1334 src/mod_configure.erl:1523
 #: src/ejabberd_web_admin.erl:665 src/mod_register.erl:245
-#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:502
+#: src/mod_configure.erl:1016 src/mod_configure.erl:1063
+#: src/mod_configure.erl:1372 src/mod_configure.erl:1561
+#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:510
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "密码"
 
-#: src/mod_configure.erl:1003
+#: src/mod_configure.erl:1020
 msgid "Password Verification"
 msgstr "确认密码"
 
@@ -1656,12 +1666,12 @@ msgstr "密码确认:"
 msgid "Password:"
 msgstr "密码:"
 
-#: src/mod_configure.erl:907
+#: src/mod_configure.erl:924
 msgid "Path to Dir"
 msgstr "目录的路径"
 
-#: src/mod_configure.erl:861 src/mod_configure.erl:873
-#: src/mod_configure.erl:885 src/mod_configure.erl:896
+#: src/mod_configure.erl:878 src/mod_configure.erl:890
+#: src/mod_configure.erl:902 src/mod_configure.erl:913
 msgid "Path to File"
 msgstr "文件路径"
 
@@ -1677,12 +1687,12 @@ msgstr "挂起"
 msgid "Period: "
 msgstr "持续时间: "
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:309
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "持久化内容条目"
 
-#: src/mod_muc_admin.erl:562
+#: src/mod_muc_admin.erl:586
 msgid "Persistent"
 msgstr "永久"
 
@@ -1690,7 +1700,7 @@ msgstr "永久"
 msgid "Ping"
 msgstr "Ping"
 
-#: src/mod_ping.erl:178
+#: src/mod_ping.erl:194
 msgid "Ping query is incorrect"
 msgstr "Ping 查询不正确"
 
@@ -1703,7 +1713,7 @@ msgstr ""
 "注意：这些选项仅将备份内置的 Mnesia 数据库. 如果您正在使用 ODBC 模块, 您还需"
 "要分别备份您的数据库."
 
-#: src/mod_muc_room.erl:1129
+#: src/mod_muc_room.erl:1171
 msgid "Please, wait for a while before sending new voice request"
 msgstr "请稍后再发送新的声音请求"
 
@@ -1743,7 +1753,7 @@ msgstr "上一个会话已超时"
 msgid "PubSub subscriber request"
 msgstr "PubSub订阅人请求"
 
-#: src/mod_muc_admin.erl:561
+#: src/mod_muc_admin.erl:585
 msgid "Public"
 msgstr "公开"
 
@@ -1751,7 +1761,7 @@ msgstr "公开"
 msgid "Publish model"
 msgstr "发布模型"
 
-#: src/mod_pubsub.erl:4308
+#: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
 msgstr "发布-订阅"
 
@@ -1759,25 +1769,25 @@ msgstr "发布-订阅"
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr "相关发布人离线后清除所有选项"
 
-#: src/mod_push.erl:354
+#: src/mod_push.erl:358
 msgid "Push record not found"
 msgstr "没有找到推送记录"
 
-#: src/mod_muc_room.erl:626
+#: src/mod_muc_room.erl:650
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "本房间不可以查询会议成员信息"
 
-#: src/mod_blocking.erl:76 src/mod_mix_pam.erl:311 src/mod_roster.erl:157
-#: src/mod_private.erl:199 src/mod_disco.erl:305 src/mod_disco.erl:362
-#: src/mod_offline.erl:331 src/mod_privacy.erl:134 src/mod_sic.erl:77
+#: src/mod_blocking.erl:76 src/mod_disco.erl:305 src/mod_disco.erl:362
+#: src/mod_mix_pam.erl:311 src/mod_roster.erl:157 src/mod_offline.erl:331
+#: src/mod_privacy.erl:134 src/mod_private.erl:199 src/mod_sic.erl:77
 msgid "Query to another users is forbidden"
 msgstr "禁止查询其他用户"
 
-#: src/mod_configure.erl:804 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:1559 src/mod_configure.erl:821
 msgid "RAM and disc copy"
 msgstr "内存与磁盘复制"
 
-#: src/mod_configure.erl:802 src/ejabberd_web_admin.erl:1558
+#: src/ejabberd_web_admin.erl:1558 src/mod_configure.erl:819
 msgid "RAM copy"
 msgstr "内存(RAM)复制"
 
@@ -1805,7 +1815,7 @@ msgstr "仅接收新内容项的通知"
 msgid "Receive notification of new nodes only"
 msgstr "仅接收新节点的通知"
 
-#: src/mod_muc_room.erl:554 src/mod_muc_room.erl:603
+#: src/mod_muc_room.erl:578 src/mod_muc_room.erl:627
 msgid "Recipient is not in the conference room"
 msgstr "接收人不在会议室"
 
@@ -1826,7 +1836,7 @@ msgstr "注册用户"
 msgid "Registered Users:"
 msgstr "注册用户:"
 
-#: src/mod_configure.erl:808 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:1561 src/mod_configure.erl:825
 msgid "Remote copy"
 msgstr "远程复制"
 
@@ -1838,12 +1848,12 @@ msgstr "移除"
 msgid "Remove All Offline Messages"
 msgstr "移除所有离线消息"
 
-#: src/mod_configure.erl:1521 src/ejabberd_web_admin.erl:977
+#: src/ejabberd_web_admin.erl:977 src/mod_configure.erl:1559
 msgid "Remove User"
 msgstr "删除用户"
 
-#: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
-#: src/mod_muc_room.erl:4688
+#: src/mod_muc_room.erl:4250 src/mod_muc_room.erl:4370
+#: src/mod_muc_room.erl:4735
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1851,12 +1861,12 @@ msgstr ""
 msgid "Replaced by new connection"
 msgstr "被新的连接替换"
 
-#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:218 src/mod_muc_room.erl:227
-#: src/mod_muc_room.erl:869
+#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:237 src/mod_muc_room.erl:246
+#: src/mod_muc_room.erl:911
 msgid "Request has timed out"
 msgstr "请求已超时"
 
-#: src/mod_muc_room.erl:757 src/mod_muc_room.erl:772
+#: src/mod_muc_room.erl:797 src/mod_muc_room.erl:812
 msgid "Request is ignored"
 msgstr "请求被忽略"
 
@@ -1864,7 +1874,7 @@ msgstr "请求被忽略"
 msgid "Requested role"
 msgstr "请求的角色"
 
-#: src/mod_configure.erl:1407
+#: src/mod_configure.erl:1445
 msgid "Resources"
 msgstr "资源"
 
@@ -1872,16 +1882,16 @@ msgstr "资源"
 msgid "Restart"
 msgstr "重启"
 
-#: src/mod_configure.erl:157 src/mod_configure.erl:570
-#: src/mod_configure.erl:918
+#: src/mod_configure.erl:157 src/mod_configure.erl:587
+#: src/mod_configure.erl:935
 msgid "Restart Service"
 msgstr "重启服务"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:584
+#: src/mod_configure.erl:146 src/mod_configure.erl:601
 msgid "Restore"
 msgstr "恢复"
 
-#: src/mod_configure.erl:868
+#: src/mod_configure.erl:885
 msgid "Restore Backup from File at "
 msgstr "从以下位置的文件恢复备份 "
 
@@ -1906,8 +1916,8 @@ msgstr "可能会检索成员列表的角色和从属关系"
 msgid "Roles for which Presence is Broadcasted"
 msgstr "被广播状态的角色"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1699
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 msgid "Roles that May Send Private Messages"
 msgstr "可以发送私聊消息的角色"
 
@@ -1919,20 +1929,20 @@ msgstr "房间配置"
 msgid "Room Occupants"
 msgstr "房间人数"
 
-#: src/mod_muc.erl:617
+#: src/mod_muc.erl:626
 msgid "Room creation is denied by service policy"
 msgstr "创建房间被服务策略拒绝"
 
-#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:881
 msgid "Room description"
 msgstr "房间描述"
 
-#: src/mod_muc_room.erl:896
+#: src/mod_muc_room.erl:938
 msgid "Room terminates"
 msgstr "房间终止"
 
-#: src/mod_muc_admin.erl:565 src/mod_muc_log.erl:794
+#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:589
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "房间标题"
@@ -1945,7 +1955,7 @@ msgstr "允许订阅的花名册组"
 msgid "Roster of ~ts"
 msgstr "~ts的花名册"
 
-#: src/mod_configure.erl:1403
+#: src/mod_configure.erl:1441
 msgid "Roster size"
 msgstr "花名册大小"
 
@@ -1953,7 +1963,7 @@ msgstr "花名册大小"
 msgid "Roster:"
 msgstr "花名册:"
 
-#: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1095
+#: src/ejabberd_web_admin.erl:1095 src/mod_configure.erl:511
 msgid "Running Nodes"
 msgstr "运行中的节点"
 
@@ -1997,7 +2007,7 @@ msgstr "全选"
 msgid "Send announcement to all online users"
 msgstr "发送通知给所有在线用户"
 
-#: src/mod_configure.erl:941 src/mod_configure.erl:981 src/mod_announce.erl:615
+#: src/mod_announce.erl:615 src/mod_configure.erl:958 src/mod_configure.erl:998
 msgid "Send announcement to all online users on all hosts"
 msgstr "发送通知给所有主机的在线用户"
 
@@ -2034,8 +2044,8 @@ msgstr "设定每日消息并发送给所有在线用户"
 msgid "Set message of the day on all hosts and send to online users"
 msgstr "设置所有主机上的每日消息并发送给在线用户"
 
-#: src/mod_shared_roster.erl:897 src/mod_shared_roster.erl:943
-#: src/mod_shared_roster.erl:1050
+#: src/mod_shared_roster.erl:901 src/mod_shared_roster.erl:947
+#: src/mod_shared_roster.erl:1054
 msgid "Shared Roster Groups"
 msgstr "共享的花名册组群"
 
@@ -2047,8 +2057,8 @@ msgstr "显示完整列表"
 msgid "Show Ordinary Table"
 msgstr "显示普通列表"
 
-#: src/mod_configure.erl:159 src/mod_configure.erl:572
-#: src/mod_configure.erl:958
+#: src/mod_configure.erl:159 src/mod_configure.erl:589
+#: src/mod_configure.erl:975
 msgid "Shut Down Service"
 msgstr "关闭服务"
 
@@ -2060,8 +2070,8 @@ msgstr ""
 "某些 XMPP 客户端可以在计算机里存储你的密码. 处于安全考虑, 请仅在你的个人计算"
 "机里使用该功能."
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "指定访问范例"
 
@@ -2083,7 +2093,7 @@ msgstr "静态指定节点所有者的回复"
 
 #: src/ejabberd_web_admin.erl:506 src/ejabberd_web_admin.erl:1125
 #: src/ejabberd_web_admin.erl:1937 src/ejabberd_web_admin.erl:1950
-#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:507
+#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:531
 msgid "Statistics"
 msgstr "统计"
 
@@ -2095,7 +2105,7 @@ msgstr "~p的统计"
 msgid "Stop"
 msgstr "停止"
 
-#: src/mod_configure.erl:499 src/ejabberd_web_admin.erl:1096
+#: src/ejabberd_web_admin.erl:1096 src/mod_configure.erl:512
 msgid "Stopped Nodes"
 msgstr "已经停止的节点"
 
@@ -2119,19 +2129,20 @@ msgstr "流管理已启用"
 msgid "Stream management is not enabled"
 msgstr "流管理未启用"
 
-#: src/mod_configure.erl:945 src/mod_configure.erl:985 src/mod_announce.erl:524
+#: src/mod_announce.erl:524 src/mod_configure.erl:962
+#: src/mod_configure.erl:1002
 msgid "Subject"
 msgstr "标题"
 
-#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1068
+#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1072
 msgid "Submit"
 msgstr "提交"
 
 #: src/ejabberd_web_admin.erl:651 src/ejabberd_web_admin.erl:961
 #: src/ejabberd_web_admin.erl:1117 src/ejabberd_web_admin.erl:1145
 #: src/ejabberd_web_admin.erl:1239 src/ejabberd_web_admin.erl:1474
-#: src/mod_roster.erl:1060 src/mod_shared_roster.erl:947
-#: src/mod_shared_roster.erl:1055 src/mod_offline.erl:1003
+#: src/mod_roster.erl:1060 src/mod_offline.erl:1003
+#: src/mod_shared_roster.erl:951 src/mod_shared_roster.erl:1059
 msgid "Submitted"
 msgstr "已提交"
 
@@ -2155,7 +2166,7 @@ msgid ""
 "items"
 msgstr "订阅请求必须得到批准, 只有订阅人才能检索项目"
 
-#: src/mod_muc_room.erl:4402
+#: src/mod_muc_room.erl:4449
 msgid "Subscriptions are not allowed"
 msgstr "不允许订阅"
 
@@ -2179,13 +2190,13 @@ msgstr "与视频相关的文字"
 msgid "Text associated with speech"
 msgstr "与语音相关的文字"
 
-#: src/mod_muc_room.erl:1266 src/mod_muc_room.erl:2134
-#: src/mod_muc_room.erl:4428
+#: src/mod_muc_room.erl:1308 src/mod_muc_room.erl:2176
+#: src/mod_muc_room.erl:4475
 msgid "That nickname is already in use by another occupant"
 msgstr "该昵称已被另一用户使用"
 
-#: src/mod_muc.erl:1068 src/mod_muc_room.erl:1278 src/mod_muc_room.erl:2148
-#: src/mod_muc_room.erl:4442
+#: src/mod_muc.erl:1085 src/mod_muc_room.erl:1320 src/mod_muc_room.erl:2190
+#: src/mod_muc_room.erl:4489
 msgid "That nickname is registered by another person"
 msgstr "该昵称已被另一个人注册了"
 
@@ -2193,9 +2204,9 @@ msgstr "该昵称已被另一个人注册了"
 msgid "The CAPTCHA is valid."
 msgstr "验证码有效."
 
-#: src/mod_block_strangers.erl:150 src/mod_register.erl:207
-#: src/mod_muc_room.erl:850 src/mod_muc_room.erl:4364
-#: src/ejabberd_captcha.erl:218
+#: src/ejabberd_captcha.erl:218 src/mod_register.erl:207
+#: src/mod_muc_room.erl:890 src/mod_muc_room.erl:4411
+#: src/mod_block_strangers.erl:150
 msgid "The CAPTCHA verification has failed"
 msgstr "验证码检查失败"
 
@@ -2272,7 +2283,7 @@ msgstr "节点创建的日期时间"
 msgid "The default language of the node"
 msgstr "该节点的默认语言"
 
-#: src/mod_muc_room.erl:460
+#: src/mod_muc_room.erl:484
 msgid "The feature requested is not supported by the conference"
 msgstr "会议不支持所请求的特征"
 
@@ -2280,11 +2291,21 @@ msgstr "会议不支持所请求的特征"
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr "可以将叶节点与集合关联的JID列表"
 
+#: src/mod_configure.erl:1113
+#, fuzzy
+msgid "The list of all online users"
+msgstr "在线用户数"
+
+#: src/mod_configure.erl:1092
+msgid "The list of all users"
+msgstr ""
+
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
-msgstr "可以与集合相关联的最大子节点数，“max”表示除服务器施加的最大值外没有特定限制"
+msgstr ""
+"可以与集合相关联的最大子节点数，“max”表示除服务器施加的最大值外没有特定限制"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
@@ -2340,7 +2361,7 @@ msgstr "密码不一致"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr "实体要为其接收通知的状态"
 
-#: src/mod_register.erl:172 src/mod_vcard.erl:231
+#: src/mod_vcard.erl:231 src/mod_register.erl:172
 msgid "The query is only allowed from local users"
 msgstr "仅本地用户可以查询"
 
@@ -2417,7 +2438,7 @@ msgstr "星期四"
 msgid "Time"
 msgstr "时间"
 
-#: src/mod_configure.erl:923 src/mod_configure.erl:963
+#: src/mod_configure.erl:940 src/mod_configure.erl:980
 msgid "Time delay"
 msgstr "时间延迟"
 
@@ -2433,11 +2454,11 @@ msgstr "到"
 msgid "To register, visit ~s"
 msgstr "要注册，请访问 ~s"
 
-#: src/mod_configure.erl:666
+#: src/mod_configure.erl:683
 msgid "To ~ts"
 msgstr "发送到~ts"
 
-#: src/ejabberd_oauth.erl:510
+#: src/ejabberd_oauth.erl:518
 msgid "Token TTL"
 msgstr "TTL令牌"
 
@@ -2447,7 +2468,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr "来自IP地址(~p)的(~s)失败认证太多。将在UTC时间 ~s 解除对该地址的封锁"
 
-#: src/mod_muc_room.erl:2817 src/mod_muc_room.erl:3462
+#: src/mod_muc_room.erl:2859 src/mod_muc_room.erl:3504
 msgid "Too many <item/> elements"
 msgstr "太多 <item/> 元素"
 
@@ -2455,8 +2476,8 @@ msgstr "太多 <item/> 元素"
 msgid "Too many <list/> elements"
 msgstr "太多 <list/> 元素"
 
-#: src/mod_block_strangers.erl:127 src/mod_register.erl:262
-#: src/mod_muc_room.erl:2218
+#: src/mod_register.erl:262 src/mod_muc_room.erl:2260
+#: src/mod_block_strangers.erl:127
 msgid "Too many CAPTCHA requests"
 msgstr "验证码请求太多"
 
@@ -2464,7 +2485,7 @@ msgstr "验证码请求太多"
 msgid "Too many active bytestreams"
 msgstr "活跃的字节流太多"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1186
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1228
 msgid "Too many child elements"
 msgstr "太多子元素"
 
@@ -2476,15 +2497,15 @@ msgstr "指定的接收者字段太多"
 msgid "Too many unacked stanzas"
 msgstr "未被确认的节太多"
 
-#: src/mod_muc_room.erl:2093
+#: src/mod_muc_room.erl:2135
 msgid "Too many users in this conference"
 msgstr "该会议的用户太多"
 
-#: src/mod_muc_admin.erl:509
+#: src/mod_muc_admin.erl:533
 msgid "Total rooms"
 msgstr "所有房间"
 
-#: src/mod_muc_room.erl:325
+#: src/mod_muc_room.erl:349
 msgid "Traffic rate limit is exceeded"
 msgstr "已经超过传输率限制"
 
@@ -2512,8 +2533,8 @@ msgstr "星期二"
 msgid "URL for Archived Discussion Logs"
 msgstr "已归档对话日志的URL"
 
-#: src/mod_block_strangers.erl:131 src/mod_register.erl:266
-#: src/mod_muc_room.erl:2227
+#: src/mod_register.erl:266 src/mod_muc_room.erl:2269
+#: src/mod_block_strangers.erl:131
 msgid "Unable to generate a CAPTCHA"
 msgstr "无法生成验证码"
 
@@ -2527,8 +2548,8 @@ msgstr "在已存在的本地域上无法注册路由"
 msgid "Unauthorized"
 msgstr "未认证的"
 
-#: src/mod_configure.erl:776 src/mod_configure.erl:1498
-#: src/mod_announce.erl:493
+#: src/mod_announce.erl:493 src/mod_configure.erl:793
+#: src/mod_configure.erl:1536
 msgid "Unexpected action"
 msgstr "意外行为"
 
@@ -2549,7 +2570,7 @@ msgstr "注销XMPP帐户"
 msgid "Unselect All"
 msgstr "取消全选"
 
-#: src/mod_mam.erl:695
+#: src/mod_mam.erl:760
 msgid "Unsupported <index/> element"
 msgstr "不支持的 <index/> 元素"
 
@@ -2586,13 +2607,13 @@ msgstr "更新~p"
 msgid "Uptime:"
 msgstr "正常运行时间:"
 
-#: src/mod_vcard_mnesia.erl:99 src/mod_vcard_sql.erl:156
-#: src/ejabberd_web_admin.erl:660 src/ejabberd_web_admin.erl:716
-#: src/mod_register.erl:241 src/mod_vcard_ldap.erl:332
+#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:660
+#: src/ejabberd_web_admin.erl:716 src/mod_vcard_mnesia.erl:99
+#: src/mod_vcard_sql.erl:156 src/mod_register.erl:241
 msgid "User"
 msgstr "用户"
 
-#: src/ejabberd_oauth.erl:499
+#: src/ejabberd_oauth.erl:507
 msgid "User (jid)"
 msgstr "用户 (jid)"
 
@@ -2601,7 +2622,7 @@ msgstr "用户 (jid)"
 msgid "User JID"
 msgstr "用户JID"
 
-#: src/mod_configure.erl:298 src/mod_configure.erl:493
+#: src/mod_configure.erl:307 src/mod_configure.erl:506
 msgid "User Management"
 msgstr "用户管理"
 
@@ -2613,7 +2634,7 @@ msgstr "用户已存在"
 msgid "User removed"
 msgstr "用户已移除"
 
-#: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
+#: src/mod_push.erl:343 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
 msgid "User session not found"
 msgstr "用户会话未找到"
 
@@ -2647,36 +2668,36 @@ msgstr "不允许用户太频繁地注册帐户"
 msgid "Validate"
 msgstr "确认"
 
-#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4354 src/mod_muc_room.erl:4518
-#: src/ejabberd_captcha.erl:222
+#: src/mod_push.erl:325 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:222
+#: src/mod_muc_room.erl:4401 src/mod_muc_room.erl:4565
+#: src/mod_carboncopy.erl:104
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "不允许 'type' 属性的 'get' 值"
 
-#: src/mod_stats.erl:55 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_last.erl:108 src/mod_last.erl:126
-#: src/mod_muc.erl:650 src/mod_muc.erl:684 src/mod_muc.erl:725
-#: src/mod_muc.erl:745 src/mod_muc.erl:755 src/mod_disco.erl:137
-#: src/mod_disco.erl:153 src/mod_disco.erl:259 src/mod_disco.erl:311
+#: src/mod_jidprep.erl:137 src/mod_disco.erl:137 src/mod_disco.erl:153
+#: src/mod_disco.erl:259 src/mod_disco.erl:311 src/mod_vcard.erl:205
+#: src/mod_vcard.erl:248 src/mod_muc.erl:659 src/mod_muc.erl:693
+#: src/mod_muc.erl:734 src/mod_muc.erl:754 src/mod_muc.erl:764
+#: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
+#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:55
+#: src/mod_mix.erl:159 src/mod_mix.erl:206 src/mod_muc_room.erl:4195
+#: src/mod_muc_room.erl:4336 src/mod_time.erl:55
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
-#: src/mod_stun_disco.erl:479 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4148
-#: src/mod_muc_room.erl:4289 src/mod_version.erl:53 src/mod_vcard.erl:205
-#: src/mod_vcard.erl:248
+#: src/mod_proxy65_service.erl:172 src/mod_last.erl:108 src/mod_last.erl:126
+#: src/mod_sic.erl:68 src/mod_sic.erl:80
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "不允许 'type' 属性的 'set' 值"
 
-#: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
+#: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
 msgstr "'~s' 的值应为布尔型"
 
-#: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
+#: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
 msgstr "'~s' 的值应为日期时间字符串"
 
-#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
+#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 msgid "Value of '~s' should be integer"
 msgstr "'~s' 的值应为整数"
 
@@ -2696,19 +2717,19 @@ msgstr "虚拟主机"
 msgid "Visitor"
 msgstr "访客"
 
-#: src/mod_muc_room.erl:1259
+#: src/mod_muc_room.erl:1301
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "此房间不允许用户更改昵称"
 
-#: src/mod_muc_room.erl:1036
+#: src/mod_muc_room.erl:1078
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "不允许访客给所有占有者发送消息"
 
-#: src/mod_muc_room.erl:4859
+#: src/mod_muc_room.erl:4906
 msgid "Voice request"
 msgstr "声音请求"
 
-#: src/mod_muc_room.erl:1136
+#: src/mod_muc_room.erl:1178
 msgid "Voice requests are disabled in this conference"
 msgstr "该会议的声音请求已被禁用"
 
@@ -2802,12 +2823,12 @@ msgstr "XMPP的DND(勿扰)显示值"
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr "XMPP的XA (扩展不在)显示值"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1984
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "发布-订阅节点关联的XMPP URI"
 
-#: src/mod_muc_room.erl:894
+#: src/mod_muc_room.erl:936
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "因系统关机, 你正在被从房间移除"
 
@@ -2819,15 +2840,15 @@ msgstr "您未加入频道"
 msgid "You can later change your password using an XMPP client."
 msgstr "你可以稍后用XMPP客户端修改你的密码."
 
-#: src/mod_muc_room.erl:2121
+#: src/mod_muc_room.erl:2163
 msgid "You have been banned from this room"
 msgstr "您已被禁止进入该房间"
 
-#: src/mod_muc_room.erl:2102
+#: src/mod_muc_room.erl:2144
 msgid "You have joined too many conferences"
 msgstr "您加入的会议太多"
 
-#: src/mod_muc.erl:1099
+#: src/mod_muc.erl:1116
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "您必须填充表单中\"昵称\"项"
 
@@ -2835,7 +2856,7 @@ msgstr "您必须填充表单中\"昵称\"项"
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "您需要一个支持 x:data 和验证码的客户端进行注册"
 
-#: src/mod_muc.erl:1054
+#: src/mod_muc.erl:1071
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "您需要一个支持 x:data 的客户端来注册昵称"
 
@@ -2855,7 +2876,7 @@ msgstr "你的XMPP帐户注册成功."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "你的XMPP帐户注销成功."
 
-#: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
+#: src/ejabberd_c2s.erl:708 src/ejabberd_c2s.erl:864
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr "你的活跃私聊列表拒绝了在此房间进行路由分发."
 
@@ -2878,7 +2899,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd HTTP 上传服务"
 
-#: src/mod_muc.erl:644
+#: src/mod_muc.erl:653
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC 模块"
 
@@ -2934,11 +2955,11 @@ msgstr "加入房间"
 msgid "leaves the room"
 msgstr "离开房间"
 
-#: src/mod_muc_room.erl:4573
+#: src/mod_muc_room.erl:4620
 msgid "private, "
 msgstr "保密, "
 
-#: src/mod_muc_room.erl:4935
+#: src/mod_muc_room.erl:4982
 msgid "the password is"
 msgstr "密码是"
 
@@ -2946,7 +2967,7 @@ msgstr "密码是"
 msgid "vCard User Search"
 msgstr "vCard用户搜索"
 
-#: src/mod_muc_room.erl:4928
+#: src/mod_muc_room.erl:4975
 msgid "~s invites you to the room ~s"
 msgstr "~s邀请你到房间~s"
 
@@ -3138,13 +3159,13 @@ msgstr "~ts的离线消息队列"
 
 #~ msgid ""
 #~ "If you want to specify different ports, passwords, encodings for IRC "
-#~ "servers, fill this list with values in format '{\"irc server\", \"encoding"
-#~ "\", port, \"password\"}'.  By default this service use \"~s\" encoding, "
-#~ "port ~p, empty password."
+#~ "servers, fill this list with values in format '{\"irc server\", "
+#~ "\"encoding\", port, \"password\"}'.  By default this service use \"~s\" "
+#~ "encoding, port ~p, empty password."
 #~ msgstr ""
 #~ "如果您想为 IRC 服务器指定不同的端口, 密码, 编码, 请用 '{\"irc 服务器\", "
-#~ "\"编码\", 端口, \"密码\"}' 格式的值填充此表单. 默认情况下此服务使用\"~s"
-#~ "\"编码, ~p 端口, 密码为空."
+#~ "\"编码\", 端口, \"密码\"}' 格式的值填充此表单. 默认情况下此服务使用"
+#~ "\"~s\"编码, ~p 端口, 密码为空."
 
 #~ msgid "Improper 'from' attribute"
 #~ msgstr "不恰当的'from'属性"

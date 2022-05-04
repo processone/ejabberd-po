@@ -28,12 +28,12 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " הגדיר/ה את הנושא אל: "
 
-#: src/mod_muc_admin.erl:559
+#: src/mod_muc_admin.erl:583
 #, fuzzy
 msgid "# participants"
 msgstr "משתתף"
 
-#: src/mod_shared_roster.erl:1060
+#: src/mod_shared_roster.erl:1064
 msgid "'Displayed groups' not added (they do not exist!): "
 msgstr ""
 
@@ -52,25 +52,25 @@ msgid "A friendly name for the node"
 msgstr "שם ידידותי עבור הצומת"
 
 # מילת־מעבר
-#: src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:2229
 msgid "A password is required to enter this room"
 msgstr "נדרשת סיסמה כדי להיכנס אל חדר זה"
 
-#: src/ejabberd_oauth.erl:519
+#: src/ejabberd_oauth.erl:527
 msgid "Accept"
 msgstr "קבל"
 
-#: src/ejabberd_service.erl:232 src/mod_configure.erl:186
-#: src/mod_configure.erl:303 src/mod_configure.erl:429
-#: src/mod_configure.erl:715 src/mod_configure.erl:1480
-#: src/ejabberd_c2s.erl:449 src/ejabberd_c2s.erl:692
-#: src/mod_legacy_auth.erl:151 src/mod_roster.erl:182 src/mod_multicast.erl:310
-#: src/ejabberd_s2s.erl:337 src/mod_register.erl:130 src/mod_register.erl:295
-#: src/mod_register.erl:406 src/mod_s2s_dialback.erl:361 src/mod_muc.erl:212
-#: src/mod_muc.erl:677 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_announce.erl:242
+#: src/ejabberd_c2s.erl:453 src/ejabberd_c2s.erl:696
+#: src/ejabberd_service.erl:232 src/mod_roster.erl:182 src/mod_muc.erl:217
+#: src/mod_muc.erl:686 src/mod_multicast.erl:310 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
+#: src/mod_s2s_dialback.erl:361 src/mod_register.erl:130
+#: src/mod_register.erl:295 src/mod_register.erl:406 src/mod_configure.erl:191
+#: src/mod_configure.erl:312 src/mod_configure.erl:438
+#: src/mod_configure.erl:732 src/mod_configure.erl:1518
+#: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
+#: src/ejabberd_s2s.erl:337 src/mod_legacy_auth.erl:151
 #: src/mod_http_upload.erl:801
 msgid "Access denied by service policy"
 msgstr "גישה נדחתה על ידי פוליסת שירות"
@@ -107,7 +107,7 @@ msgstr "רשימות בקרת גישה"
 msgid "Account doesn't exist"
 msgstr "חדר ועידה לא קיים"
 
-#: src/mod_configure.erl:1514
+#: src/mod_configure.erl:1552
 msgid "Action on user"
 msgstr "פעולה על משתמש"
 
@@ -115,17 +115,17 @@ msgstr "פעולה על משתמש"
 msgid "Add Jabber ID"
 msgstr "הוסף מזהה Jabber"
 
-#: src/mod_shared_roster.erl:942
+#: src/mod_shared_roster.erl:946
 msgid "Add New"
 msgstr "הוסף חדש"
 
-#: src/mod_configure.erl:161 src/mod_configure.erl:505
-#: src/mod_configure.erl:991 src/ejabberd_web_admin.erl:674
+#: src/ejabberd_web_admin.erl:674 src/mod_configure.erl:161
+#: src/mod_configure.erl:518 src/mod_configure.erl:1008
 msgid "Add User"
 msgstr "הוסף משתמש"
 
-#: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
-#: src/mod_muc_room.erl:4620
+#: src/mod_muc_room.erl:4232 src/mod_muc_room.erl:4366
+#: src/mod_muc_room.erl:4667
 msgid "Add a hat to a user"
 msgstr ""
 
@@ -133,15 +133,15 @@ msgstr ""
 msgid "Administration"
 msgstr "הנהלה"
 
-#: src/mod_configure.erl:1509
+#: src/mod_configure.erl:1547
 msgid "Administration of "
 msgstr "ניהול של "
 
-#: src/mod_muc_room.erl:2840
+#: src/mod_muc_room.erl:2882
 msgid "Administrator privileges required"
 msgstr "נדרשות הרשאות מנהל"
 
-#: src/mod_configure.erl:495
+#: src/mod_configure.erl:508
 msgid "All Users"
 msgstr "כל המשתמשים"
 
@@ -221,10 +221,10 @@ msgstr ""
 msgid "Answer to a question"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2242
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 #, fuzzy
 msgid "Anyone"
 msgstr "לכל אחד"
@@ -249,8 +249,8 @@ msgstr ""
 msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1682
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 msgid "Anyone with Voice"
 msgstr ""
 
@@ -293,12 +293,12 @@ msgstr "אוגוסט"
 msgid "Automatic node creation is not enabled"
 msgstr "יצירה אוטומטית של צומת אינה מאופשרת"
 
-#: src/mod_configure.erl:143 src/mod_configure.erl:582
 #: src/ejabberd_web_admin.erl:1124 src/ejabberd_web_admin.erl:1949
+#: src/mod_configure.erl:143 src/mod_configure.erl:599
 msgid "Backup"
 msgstr "גיבוי"
 
-#: src/mod_configure.erl:566
+#: src/mod_configure.erl:583
 msgid "Backup Management"
 msgstr "ניהול גיבוי"
 
@@ -306,20 +306,20 @@ msgstr "ניהול גיבוי"
 msgid "Backup of ~p"
 msgstr "גיבוי של ~p"
 
-#: src/mod_configure.erl:857
+#: src/mod_configure.erl:874
 msgid "Backup to File at "
 msgstr "גבה לקובץ אצל "
 
 # פגום
 #: src/ejabberd_web_admin.erl:652 src/ejabberd_web_admin.erl:962
 #: src/ejabberd_web_admin.erl:1118 src/mod_roster.erl:1061
-#: src/mod_shared_roster.erl:948 src/mod_shared_roster.erl:1061
+#: src/mod_shared_roster.erl:952 src/mod_shared_roster.erl:1065
 msgid "Bad format"
 msgstr "פורמט רע"
 
+#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
-#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 msgid "Birthday"
 msgstr "יום הולדת"
 
@@ -357,8 +357,8 @@ msgstr ""
 msgid "Change Password"
 msgstr "שנה סיסמה"
 
-#: src/mod_configure.erl:169 src/mod_configure.erl:512
-#: src/mod_configure.erl:1038
+#: src/mod_configure.erl:169 src/mod_configure.erl:525
+#: src/mod_configure.erl:1055
 msgid "Change User Password"
 msgstr "שנה סיסמת משתמש"
 
@@ -366,7 +366,7 @@ msgstr "שנה סיסמת משתמש"
 msgid "Changing password is not allowed"
 msgstr "שינוי סיסמה אינו מותר"
 
-#: src/mod_muc_room.erl:3103
+#: src/mod_muc_room.erl:3145
 msgid "Changing role/affiliation is not allowed"
 msgstr "שינוי תפקיד/שיוך אינו מותר"
 
@@ -408,7 +408,7 @@ msgstr "חדר שיחה מותחל כעת"
 msgid "Chatroom is stopped"
 msgstr "חדר שיחה הינו מופסק"
 
-#: src/mod_muc_admin.erl:582 src/mod_muc.erl:1284
+#: src/mod_muc.erl:1336 src/mod_muc_admin.erl:606
 msgid "Chatrooms"
 msgstr "חדרי שיחה"
 
@@ -416,7 +416,7 @@ msgstr "חדרי שיחה"
 msgid "Choose a username and password to register with this server"
 msgstr "בחר שם משתמש וסיסמה כדי להירשם בעזרת שרת זה"
 
-#: src/mod_configure.erl:830
+#: src/mod_configure.erl:847
 msgid "Choose storage type of tables"
 msgstr "בחר טיפוס אחסון של טבלאות"
 
@@ -424,9 +424,9 @@ msgstr "בחר טיפוס אחסון של טבלאות"
 msgid "Choose whether to approve this entity's subscription."
 msgstr "בחר האם לאשר את ההרשמה של ישות זו."
 
+#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
-#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 msgid "City"
 msgstr "עיר"
 
@@ -435,22 +435,22 @@ msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
 
 #: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
-#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4168
+#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4215
 msgid "Commands"
 msgstr "פקודות"
 
-#: src/mod_muc.erl:599 src/mod_muc.erl:623 src/mod_muc_room.erl:220
-#: src/mod_muc_room.erl:231
+#: src/mod_muc.erl:608 src/mod_muc.erl:632 src/mod_muc_room.erl:239
+#: src/mod_muc_room.erl:250
 msgid "Conference room does not exist"
 msgstr "חדר ועידה לא קיים"
 
-#: src/mod_configure.erl:129 src/mod_configure.erl:275
-#: src/mod_configure.erl:296 src/mod_configure.erl:492
+#: src/mod_configure.erl:129 src/mod_configure.erl:284
+#: src/mod_configure.erl:305 src/mod_configure.erl:505
 msgid "Configuration"
 msgstr "תצורה"
 
 # תצורה של חדר
-#: src/mod_muc_room.erl:3558
+#: src/mod_muc_room.erl:3600
 msgid "Configuration of room ~s"
 msgstr "תצורת חדר ~s"
 
@@ -462,9 +462,9 @@ msgstr "משאבים מחוברים:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
-#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 msgid "Country"
 msgstr "ארץ"
 
@@ -472,12 +472,12 @@ msgstr "ארץ"
 msgid "Current Discussion Topic"
 msgstr ""
 
-#: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1123 src/ejabberd_web_admin.erl:1948
+#: src/mod_configure.erl:140 src/mod_configure.erl:581
 msgid "Database"
 msgstr "מסד נתונים"
 
-#: src/mod_configure.erl:828
+#: src/mod_configure.erl:845
 msgid "Database Tables Configuration at "
 msgstr "תצורת טבלאות מסד נתונים אצל "
 
@@ -486,19 +486,19 @@ msgstr "תצורת טבלאות מסד נתונים אצל "
 msgid "Database Tables at ~p"
 msgstr "טבלאות מסד נתונים אצל ~p"
 
-#: src/mod_blocking.erl:263 src/node_flat_sql.erl:797 src/mod_pubsub.erl:3790
-#: src/mod_pubsub.erl:3834 src/mod_pubsub.erl:3856 src/mod_pubsub.erl:3940
-#: src/mod_pubsub.erl:4161 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
-#: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
-#: src/mod_register.erl:418 src/mod_last.erl:202 src/mod_muc.erl:767
-#: src/mod_muc.erl:1071 src/mod_push.erl:336 src/mod_push.erl:351
-#: src/mod_proxy65_service.erl:242 src/mod_offline.erl:352
-#: src/mod_offline.erl:740 src/mod_mix.erl:652 src/mod_privacy.erl:174
-#: src/mod_privacy.erl:192 src/mod_privacy.erl:286 src/mod_privacy.erl:302
-#: src/mod_privacy.erl:335 src/mod_privacy.erl:352 src/mod_mam.erl:659
-#: src/mod_mam.erl:677 src/mod_mam.erl:707 src/mod_mam.erl:1043
+#: src/mod_push.erl:340 src/mod_push.erl:355 src/mod_blocking.erl:263
+#: src/mod_vcard.erl:238 src/mod_mix_pam.erl:321 src/mod_roster.erl:456
+#: src/mod_muc.erl:776 src/mod_muc.erl:1088 src/node_flat_sql.erl:797
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
-#: src/nodetree_tree_sql.erl:309 src/mod_vcard.erl:238
+#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:352
+#: src/mod_offline.erl:740 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
+#: src/mod_mam.erl:724 src/mod_mam.erl:742 src/mod_mam.erl:772
+#: src/mod_mam.erl:1108 src/mod_register.erl:418 src/mod_mix.erl:652
+#: src/mod_privacy.erl:174 src/mod_privacy.erl:192 src/mod_privacy.erl:286
+#: src/mod_privacy.erl:302 src/mod_privacy.erl:335 src/mod_privacy.erl:352
+#: src/mod_proxy65_service.erl:242 src/mod_private.erl:184
+#: src/mod_private.erl:191 src/mod_last.erl:202 src/mod_carboncopy.erl:97
 msgid "Database failure"
 msgstr "כשל מסד נתונים"
 
@@ -511,12 +511,12 @@ msgid "Default users as participants"
 msgstr "משתמשים שגרתיים כמשתתפים"
 
 # נבחרים
-#: src/mod_shared_roster.erl:956 src/mod_offline.erl:1022
+#: src/mod_offline.erl:1022 src/mod_shared_roster.erl:960
 msgid "Delete Selected"
 msgstr "מחק נבחרות"
 
-#: src/mod_configure.erl:163 src/mod_configure.erl:506
-#: src/mod_configure.erl:1008
+#: src/mod_configure.erl:163 src/mod_configure.erl:519
+#: src/mod_configure.erl:1025
 msgid "Delete User"
 msgstr "מחק משתמש"
 
@@ -547,15 +547,15 @@ msgstr "מסור התראות אירוע"
 msgid "Deliver payloads with event notifications"
 msgstr "מסור מטעני ייעוד (מטע״ד) יחד עם התראות אירוע"
 
-#: src/mod_shared_roster.erl:1024
+#: src/mod_shared_roster.erl:1028
 msgid "Description:"
 msgstr "תיאור:"
 
-#: src/mod_configure.erl:806 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1560 src/mod_configure.erl:823
 msgid "Disc only copy"
 msgstr "העתק של תקליטור בלבד"
 
-#: src/mod_shared_roster.erl:1042
+#: src/mod_shared_roster.erl:1046
 #, fuzzy
 msgid "Displayed:"
 msgstr "קבוצות מוצגות:"
@@ -567,12 +567,12 @@ msgid ""
 "server."
 msgstr "אל תגלה את הסיסמה שלך לאף אחד, אפילו לא למנהלים של שרת XMPP."
 
-#: src/mod_configure.erl:880
+#: src/mod_configure.erl:897
 msgid "Dump Backup to Text File at "
 msgstr "השלך גיבוי לקובץ טקסט אצל "
 
 # הטל אל קובץ תמליל
-#: src/mod_configure.erl:149 src/mod_configure.erl:586
+#: src/mod_configure.erl:149 src/mod_configure.erl:603
 msgid "Dump to Text File"
 msgstr "השלך לקובץ טקסט"
 
@@ -584,11 +584,11 @@ msgstr ""
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
-#: src/mod_configure.erl:1518
+#: src/mod_configure.erl:1556
 msgid "Edit Properties"
 msgstr "ערוך מאפיינים"
 
-#: src/mod_muc_room.erl:4861
+#: src/mod_muc_room.erl:4908
 msgid "Either approve or decline the voice request."
 msgstr "אשר או דחה בקשת ביטוי."
 
@@ -596,9 +596,9 @@ msgstr "אשר או דחה בקשת ביטוי."
 msgid "Elements"
 msgstr "אלמנטים"
 
+#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
-#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 msgid "Email"
 msgstr "דוא״ל"
 
@@ -618,32 +618,32 @@ msgstr "אפשר רישום פעילות"
 msgid "Enable message archiving"
 msgstr "אפשר אחסון הודעות"
 
-#: src/mod_push.erl:324
+#: src/mod_push.erl:328
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr ""
 
-#: src/mod_configure.erl:165 src/mod_configure.erl:508
-#: src/mod_configure.erl:1018
+#: src/mod_configure.erl:165 src/mod_configure.erl:521
+#: src/mod_configure.erl:1035
 msgid "End User Session"
 msgstr "סיים סשן משתמש"
 
-#: src/mod_muc.erl:1046
+#: src/mod_muc.erl:1063
 msgid "Enter nickname you want to register"
 msgstr "הזן שם כינוי אשר ברצונך לרשום"
 
-#: src/mod_configure.erl:859 src/mod_configure.erl:871
+#: src/mod_configure.erl:876 src/mod_configure.erl:888
 msgid "Enter path to backup file"
 msgstr "הזן נתיב לקובץ גיבוי"
 
-#: src/mod_configure.erl:905
+#: src/mod_configure.erl:922
 msgid "Enter path to jabberd14 spool dir"
 msgstr "הזן נתיב למדור סליל (spool dir) של jabberd14"
 
-#: src/mod_configure.erl:894
+#: src/mod_configure.erl:911
 msgid "Enter path to jabberd14 spool file"
 msgstr "הזן נתיב לקובץ סליל (spool file) של jabberd14"
 
-#: src/mod_configure.erl:883
+#: src/mod_configure.erl:900
 msgid "Enter path to text file"
 msgstr "הזן נתיב לקובץ טקסט"
 
@@ -692,7 +692,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr "נכשל להפעיל bytestream"
 
-#: src/mod_muc_room.erl:1161
+#: src/mod_muc_room.erl:1203
 msgid "Failed to extract JID from your voice request approval"
 msgstr "נכשל לחלץ JID מתוך אישור בקשת הביטוי שלך"
 
@@ -704,13 +704,13 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr "נכשל לפענח תגובת HTTP"
 
-#: src/mod_muc_room.erl:3703
+#: src/mod_muc_room.erl:3745
 msgid "Failed to process option '~s'"
 msgstr "נכשל לעבד אפשרות '~s'"
 
+#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
-#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: _build/default/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "שם משפחה"
@@ -737,7 +737,7 @@ msgstr "יום שישי"
 msgid "From"
 msgstr "מאת"
 
-#: src/mod_configure.erl:678
+#: src/mod_configure.erl:695
 #, fuzzy
 msgid "From ~ts"
 msgstr "מאת ~s"
@@ -752,17 +752,27 @@ msgstr "רשימה של חדרים"
 msgid "Full List of Room Owners"
 msgstr "רשימה של חדרים"
 
+#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
-#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 msgid "Full Name"
 msgstr "שם מלא"
 
-#: src/mod_configure.erl:178 src/mod_configure.erl:520
+#: src/mod_configure.erl:181 src/mod_configure.erl:535
+#, fuzzy
+msgid "Get List of Online Users"
+msgstr "השג מספר של משתמשים מקוונים"
+
+#: src/mod_configure.erl:175 src/mod_configure.erl:531
+#, fuzzy
+msgid "Get List of Registered Users"
+msgstr "השג מספר של משתמשים רשומים"
+
+#: src/mod_configure.erl:183 src/mod_configure.erl:537
 msgid "Get Number of Online Users"
 msgstr "השג מספר של משתמשים מקוונים"
 
-#: src/mod_configure.erl:175 src/mod_configure.erl:518
+#: src/mod_configure.erl:178 src/mod_configure.erl:533
 msgid "Get Number of Registered Users"
 msgstr "השג מספר של משתמשים רשומים"
 
@@ -772,18 +782,18 @@ msgid "Get Pending"
 msgstr "ממתינות"
 
 # התחברות
-#: src/mod_configure.erl:171 src/mod_configure.erl:514
-#: src/mod_configure.erl:1052
+#: src/mod_configure.erl:171 src/mod_configure.erl:527
+#: src/mod_configure.erl:1069
 msgid "Get User Last Login Time"
 msgstr "השג זמן כניסה אחרון של משתמש"
 
-#: src/mod_configure.erl:167 src/mod_configure.erl:510
-#: src/mod_configure.erl:1028
+#: src/mod_configure.erl:167 src/mod_configure.erl:523
+#: src/mod_configure.erl:1045
 msgid "Get User Password"
 msgstr "השג סיסמת משתמש"
 
-#: src/mod_configure.erl:173 src/mod_configure.erl:516
-#: src/mod_configure.erl:1061
+#: src/mod_configure.erl:173 src/mod_configure.erl:529
+#: src/mod_configure.erl:1078
 msgid "Get User Statistics"
 msgstr "השג סטטיסטיקת משתמש"
 
@@ -796,7 +806,7 @@ msgstr "שם פרטי"
 msgid "Grant voice to this person?"
 msgstr "להעניק ביטוי לאישיות זו?"
 
-#: src/mod_shared_roster.erl:1053
+#: src/mod_shared_roster.erl:1057
 msgid "Group"
 msgstr "קבוצה"
 
@@ -804,7 +814,7 @@ msgstr "קבוצה"
 msgid "Groups"
 msgstr "קבוצות"
 
-#: src/mod_shared_roster.erl:1048
+#: src/mod_shared_roster.erl:1052
 msgid "Groups that will be displayed to the members"
 msgstr ""
 
@@ -812,18 +822,18 @@ msgstr ""
 msgid "HTTP File Upload"
 msgstr ""
 
-#: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4766
+#: src/mod_muc_room.erl:4681 src/mod_muc_room.erl:4745
+#: src/mod_muc_room.erl:4813
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
+#: src/mod_muc_room.erl:4677 src/mod_muc_room.erl:4810
 #, fuzzy
 msgid "Hat title"
 msgstr "כותרת חדר"
 
 # נעברה
-#: src/mod_muc_room.erl:4673
+#: src/mod_muc_room.erl:4720
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "מגבלת שיעור תעבורה נחצתה"
@@ -836,7 +846,7 @@ msgstr "מארח"
 msgid "Host unknown"
 msgstr "מארח לא ידוע"
 
-#: src/mod_configure.erl:1405
+#: src/mod_configure.erl:1443
 msgid "IP addresses"
 msgstr "כתובות IP"
 
@@ -849,23 +859,23 @@ msgstr "הוחלף בחיבור חדש"
 msgid "If you don't see the CAPTCHA image here, visit the web page."
 msgstr "אם אינך רואה תמונת CAPTCHA כאן, בקר בעמוד רשת."
 
-#: src/mod_configure.erl:155 src/mod_configure.erl:599
+#: src/mod_configure.erl:155 src/mod_configure.erl:616
 msgid "Import Directory"
 msgstr "ייבוא מדור"
 
-#: src/mod_configure.erl:152 src/mod_configure.erl:597
+#: src/mod_configure.erl:152 src/mod_configure.erl:614
 msgid "Import File"
 msgstr "ייבוא קובץ"
 
-#: src/mod_configure.erl:891
+#: src/mod_configure.erl:908
 msgid "Import User from File at "
 msgstr "ייבוא משתמש מתוך קובץ אצל "
 
-#: src/mod_configure.erl:568
+#: src/mod_configure.erl:585
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "יבא משתמשים מתוך קבצי סליל (Spool Files) של jabberd14"
 
-#: src/mod_configure.erl:902
+#: src/mod_configure.erl:919
 msgid "Import Users from Dir at "
 msgstr "ייבוא משתמשים מתוך מדור אצל "
 
@@ -886,7 +896,7 @@ msgid "Improper domain part of 'from' attribute"
 msgstr ""
 
 # הולם
-#: src/mod_muc_room.erl:412
+#: src/mod_muc_room.erl:436
 msgid "Improper message type"
 msgstr "טיפוס הודעה לא מתאים"
 
@@ -894,33 +904,33 @@ msgstr "טיפוס הודעה לא מתאים"
 msgid "Incoming s2s Connections:"
 msgstr "חיבורי s2s נכנסים:"
 
-#: src/mod_register.erl:204 src/mod_muc_room.erl:4361
-#: src/ejabberd_captcha.erl:215
+#: src/ejabberd_captcha.erl:215 src/mod_register.erl:204
+#: src/mod_muc_room.erl:4408
 msgid "Incorrect CAPTCHA submit"
 msgstr "נשלחה CAPTCHA שגויה"
 
-#: src/mod_pubsub.erl:1257 src/mod_register.erl:200 src/mod_muc.erl:1094
-#: src/mod_muc_room.erl:3433 src/mod_vcard.erl:267
+#: src/mod_vcard.erl:267 src/mod_muc.erl:1111 src/mod_pubsub.erl:1257
+#: src/mod_register.erl:200 src/mod_muc_room.erl:3475
 msgid "Incorrect data form"
 msgstr "טופס מידע לא תקין"
 
-#: src/mod_register.erl:155 src/mod_register_web.erl:579
-#: src/mod_muc_room.erl:2237
+#: src/mod_register.erl:155 src/mod_muc_room.erl:2279
+#: src/mod_register_web.erl:579
 msgid "Incorrect password"
 msgstr "מילת מעבר שגויה"
 
-#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4682 src/mod_muc_room.erl:4736
-#: src/mod_muc_room.erl:4776
+#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4729 src/mod_muc_room.erl:4783
+#: src/mod_muc_room.erl:4823
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
-#: src/mod_configure.erl:1550
+#: src/mod_configure.erl:1588
 msgid "Incorrect value of 'action' in data form"
 msgstr ""
 
-#: src/mod_configure.erl:1153 src/mod_configure.erl:1186
-#: src/mod_configure.erl:1219 src/mod_configure.erl:1239
-#: src/mod_configure.erl:1259
+#: src/mod_configure.erl:1191 src/mod_configure.erl:1224
+#: src/mod_configure.erl:1257 src/mod_configure.erl:1277
+#: src/mod_configure.erl:1297
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
@@ -941,16 +951,16 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "תפקיד שגוי: ~s"
 
-#: src/mod_muc_room.erl:4239
+#: src/mod_muc_room.erl:4286
 #, fuzzy
 msgid "Invalid node name"
 msgstr "תפקיד שגוי: ~s"
 
-#: src/mod_muc_room.erl:4906
+#: src/mod_muc_room.erl:4953
 msgid "Invitations are not allowed in this conference"
 msgstr "הזמנות אינן מותרות בועידה זו"
 
-#: src/mod_muc_room.erl:385 src/mod_muc_room.erl:533 src/mod_muc_room.erl:1326
+#: src/mod_muc_room.erl:409 src/mod_muc_room.erl:557 src/mod_muc_room.erl:1368
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -958,16 +968,16 @@ msgstr ""
 "אין זה מותר לשלוח הודעות שגיאה לחדר. משתתף זה (~s) שלח הודעת שגיאה (~s) "
 "ונבעט מתוך החדר"
 
-#: src/mod_muc_room.erl:579 src/mod_muc_room.erl:590
+#: src/mod_muc_room.erl:603 src/mod_muc_room.erl:614
 msgid "It is not allowed to send private messages"
 msgstr "אין זה מותר לשלוח הודעות פרטיות"
 
-#: src/mod_muc_room.erl:547
+#: src/mod_muc_room.erl:571
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "אין זה מותר לשלוח הודעות פרטיות מן טיפוס \"groupchat\""
 
 # חל איסור
-#: src/mod_muc_room.erl:396
+#: src/mod_muc_room.erl:420
 msgid "It is not allowed to send private messages to the conference"
 msgstr "אין זה מותר לשלוח הודעות פרטיות לועידה"
 
@@ -980,14 +990,15 @@ msgstr "יצירת חדר נדחתה על ידי פוליסת שירות"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_vcard_mnesia.erl:113 src/mod_configure.erl:995
-#: src/mod_configure.erl:1012 src/mod_configure.erl:1022
-#: src/mod_configure.erl:1032 src/mod_configure.erl:1042
-#: src/mod_configure.erl:1056 src/mod_configure.erl:1065
-#: src/mod_configure.erl:1332 src/mod_configure.erl:1376
-#: src/mod_configure.erl:1401 src/mod_vcard_sql.erl:170 src/mod_roster.erl:1001
-#: src/mod_muc_admin.erl:558 src/mod_muc_room.erl:4625
-#: src/mod_muc_room.erl:4693 src/mod_muc_room.erl:4760
+#: src/mod_roster.erl:1001 src/mod_vcard_mnesia.erl:113
+#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:1012
+#: src/mod_configure.erl:1029 src/mod_configure.erl:1039
+#: src/mod_configure.erl:1049 src/mod_configure.erl:1059
+#: src/mod_configure.erl:1073 src/mod_configure.erl:1082
+#: src/mod_configure.erl:1370 src/mod_configure.erl:1414
+#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4672
+#: src/mod_muc_room.erl:4740 src/mod_muc_room.erl:4807
+#: src/mod_muc_admin.erl:582
 msgid "Jabber ID"
 msgstr "מזהה Jabber"
 
@@ -1003,11 +1014,11 @@ msgstr "יולי"
 msgid "June"
 msgstr "יוני"
 
-#: src/mod_muc_admin.erl:564
+#: src/mod_muc_admin.erl:588
 msgid "Just created"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1019
+#: src/mod_shared_roster.erl:1023
 msgid "Label:"
 msgstr ""
 
@@ -1016,11 +1027,11 @@ msgstr ""
 msgid "Last Activity"
 msgstr "פעילות אחרונה"
 
-#: src/mod_configure.erl:1378
+#: src/mod_configure.erl:1416
 msgid "Last login"
 msgstr "כניסה אחרונה"
 
-#: src/mod_muc_admin.erl:560
+#: src/mod_muc_admin.erl:584
 #, fuzzy
 msgid "Last message"
 msgstr "שנה אחרונה"
@@ -1038,20 +1049,20 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:512
+#: src/mod_muc_admin.erl:536
 msgid "List of rooms"
 msgstr "רשימה של חדרים"
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4803
 #, fuzzy
 msgid "List of users with hats"
 msgstr "רשימה של מודולים להפעלה"
 
-#: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
+#: src/mod_muc_room.erl:4268 src/mod_muc_room.erl:4374
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:563
+#: src/mod_muc_admin.erl:587
 msgid "Logging"
 msgstr ""
 
@@ -1059,7 +1070,7 @@ msgstr ""
 msgid "Low level update script"
 msgstr "תסריט עדכון Low level"
 
-#: src/mod_mam.erl:663
+#: src/mod_mam.erl:728
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "יצירת חדר נדחתה על ידי פוליסת שירות"
@@ -1111,8 +1122,8 @@ msgstr ""
 msgid "Max payload size in bytes"
 msgstr "גודל מרבי של מטען ייעוד (payload) ביחידות מידה של byte"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1666
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr ""
 
@@ -1133,15 +1144,15 @@ msgstr "מספר מרבי של פריטים לקיבוע"
 msgid "May"
 msgstr "מאי"
 
-#: src/mod_shared_roster.erl:1058
+#: src/mod_shared_roster.erl:1062
 msgid "Members not added (inexistent vhost!): "
 msgstr ""
 
-#: src/mod_shared_roster.erl:1033
+#: src/mod_shared_roster.erl:1037
 msgid "Members:"
 msgstr "חברים:"
 
-#: src/mod_muc_room.erl:2124
+#: src/mod_muc_room.erl:2166
 msgid "Membership is required to enter this room"
 msgstr "נדרשת חברות כדי להיכנס אל חדר זה"
 
@@ -1163,7 +1174,8 @@ msgstr "זיכרון"
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
-#: src/mod_configure.erl:948 src/mod_configure.erl:988 src/mod_announce.erl:528
+#: src/mod_announce.erl:528 src/mod_configure.erl:965
+#: src/mod_configure.erl:1005
 msgid "Message body"
 msgstr "גוף הודעה"
 
@@ -1183,9 +1195,9 @@ msgstr ""
 msgid "Messages of type normal"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
-#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Middle Name"
 msgstr "שם אמצעי"
 
@@ -1197,15 +1209,15 @@ msgstr "תדירות מינימלית בין בקשות ביטוי (בשניות
 msgid "Moderator"
 msgstr "אחראי"
 
-#: src/mod_muc_room.erl:2848 src/mod_muc_room.erl:4415
-#: src/mod_muc_room.erl:4471 src/mod_muc_room.erl:4514
+#: src/mod_muc_room.erl:2890 src/mod_muc_room.erl:4462
+#: src/mod_muc_room.erl:4518 src/mod_muc_room.erl:4561
 msgid "Moderator privileges required"
 msgstr "נדרשות הרשאות אחראי"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1685
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2240
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 #, fuzzy
 msgid "Moderators Only"
 msgstr "לאחראים בלבד"
@@ -1223,8 +1235,8 @@ msgstr "מודול נכשל לטפל בשאילתא"
 msgid "Monday"
 msgstr "יום שני"
 
-#: src/mod_muc_admin.erl:486 src/mod_muc_admin.erl:489
-#: src/mod_muc_admin.erl:505 src/mod_muc_admin.erl:580
+#: src/mod_muc_admin.erl:510 src/mod_muc_admin.erl:513
+#: src/mod_muc_admin.erl:529 src/mod_muc_admin.erl:604
 msgid "Multi-User Chat"
 msgstr "שיחה מרובת משתמשים"
 
@@ -1236,22 +1248,22 @@ msgstr "שידור מרובב"
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr ""
 
+#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
-#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 msgid "Name"
 msgstr "שם"
 
-#: src/mod_shared_roster.erl:1022
+#: src/mod_shared_roster.erl:1026
 msgid "Name in the rosters where this group will be displayed"
 msgstr ""
 
-#: src/mod_shared_roster.erl:921 src/mod_shared_roster.erl:1015
+#: src/mod_shared_roster.erl:925 src/mod_shared_roster.erl:1019
 msgid "Name:"
 msgstr "שם:"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1968
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 msgid "Natural Language for Room Discussions"
 msgstr ""
 
@@ -1259,16 +1271,16 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:3030
+#: src/mod_muc_room.erl:3072
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2830 src/mod_muc_room.erl:3035
+#: src/mod_muc_room.erl:2872 src/mod_muc_room.erl:3077
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_configure.erl:1361 src/ejabberd_web_admin.erl:736
-#: src/ejabberd_web_admin.erl:944
+#: src/ejabberd_web_admin.erl:736 src/ejabberd_web_admin.erl:944
+#: src/mod_configure.erl:1399
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "אף פעם"
@@ -1277,38 +1289,38 @@ msgstr "אף פעם"
 msgid "New Password:"
 msgstr "סיסמה חדשה:"
 
-#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: src/mod_vcard_sql.erl:161 src/mod_vcard_sql.erl:175 src/mod_roster.erl:1002
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: _build/default/lib/xmpp/src/muc_register.erl:536
+#: src/mod_roster.erl:1002 src/mod_vcard_mnesia.erl:104
+#: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
+#: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
 #: _build/default/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "שם כינוי"
 
-#: src/mod_muc.erl:1045
+#: src/mod_muc.erl:1062
 msgid "Nickname Registration at "
 msgstr "רישום שם כינוי אצל "
 
-#: src/mod_muc_room.erl:1275 src/mod_muc_room.erl:2145
-#: src/mod_muc_room.erl:4438
+#: src/mod_muc_room.erl:1317 src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:4485
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3047
+#: src/mod_muc_room.erl:3089
 #, fuzzy
 msgid "Nickname ~s does not exist in the room"
 msgstr "שם כינוי ~s לא קיים בחדר"
 
-#: src/mod_muc_room.erl:3456
+#: src/mod_muc_room.erl:3498
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2812
+#: src/mod_muc_room.erl:2854
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "צומת לא נמצא"
 
-#: src/mod_configure.erl:1543
+#: src/mod_configure.erl:1581
 msgid "No 'password' found in data form"
 msgstr ""
 
@@ -1316,13 +1328,13 @@ msgstr ""
 msgid "No 'password' found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:1135 src/mod_configure.erl:1168
-#: src/mod_configure.erl:1201 src/mod_configure.erl:1233
-#: src/mod_configure.erl:1253
+#: src/mod_configure.erl:1173 src/mod_configure.erl:1206
+#: src/mod_configure.erl:1239 src/mod_configure.erl:1271
+#: src/mod_configure.erl:1291
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:4902
+#: src/mod_muc_room.erl:4949
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1353,7 +1365,7 @@ msgstr "לא נמצא משאב זמין"
 msgid "No body provided for announce message"
 msgstr "לא סופק גוף עבור הודעת בשורה"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1184
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1226
 #, fuzzy
 msgid "No child elements found"
 msgstr "צומת לא נמצא"
@@ -1379,18 +1391,17 @@ msgstr ""
 msgid "No items found in this query"
 msgstr "לא נמצאו פריטים בתוך שאילתא זו"
 
-#: src/mod_muc_room.erl:3576
+#: src/mod_muc_room.erl:3618
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "ללא הגבלה"
 
-#: src/gen_iq_handler.erl:82 src/mod_blocking.erl:83 src/mod_blocking.erl:101
-#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:242
-#: src/mod_muc.erl:653 src/mod_muc.erl:720 src/mod_muc.erl:740
-#: src/mod_muc.erl:771 src/mod_offline.erl:364 src/mod_jidprep.erl:164
-#: src/mod_stun_disco.erl:482 src/mod_mix.erl:672 src/mod_privacy.erl:156
-#: src/mod_privacy.erl:273 src/mod_http_upload.erl:771
-#: src/ejabberd_captcha.erl:225
+#: src/mod_jidprep.erl:164 src/mod_blocking.erl:83 src/mod_blocking.erl:101
+#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:247
+#: src/mod_muc.erl:662 src/mod_muc.erl:729 src/mod_muc.erl:749
+#: src/mod_muc.erl:780 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/mod_offline.erl:364 src/ejabberd_captcha.erl:225 src/mod_mix.erl:672
+#: src/mod_privacy.erl:156 src/mod_privacy.erl:273 src/mod_http_upload.erl:771
 msgid "No module is handling this query"
 msgstr "אין מודול אשר מטפל בשאילתא זו"
 
@@ -1411,10 +1422,10 @@ msgstr "לא נמצאה רשימת פרטיות בשם זה"
 msgid "No private data found in this query"
 msgstr "לא נמצא מידע פרטי בתוך שאילתא זו"
 
-#: src/mod_configure.erl:818 src/mod_configure.erl:1097
-#: src/mod_configure.erl:1130 src/mod_configure.erl:1163
-#: src/mod_configure.erl:1196 src/mod_configure.erl:1228
-#: src/mod_configure.erl:1248 src/mod_stats.erl:93
+#: src/mod_stats.erl:93 src/mod_configure.erl:835 src/mod_configure.erl:1135
+#: src/mod_configure.erl:1168 src/mod_configure.erl:1201
+#: src/mod_configure.erl:1234 src/mod_configure.erl:1266
+#: src/mod_configure.erl:1286
 msgid "No running node found"
 msgstr "לא נמצא צומת מורץ"
 
@@ -1426,14 +1437,14 @@ msgstr "אין שירות זמין"
 msgid "No statistics found for this item"
 msgstr "לא נמצאה סטטיסטיקה לגבי פריט זה"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1734
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 #, fuzzy
 msgid "Nobody"
 msgstr "אף אחד"
 
-#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:566
+#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:590
 #, fuzzy
 msgid "Node"
 msgstr "צמתים"
@@ -1442,7 +1453,7 @@ msgstr "צמתים"
 msgid "Node ID"
 msgstr "מזהה צומת (NID)"
 
-#: src/nodetree_tree.erl:228 src/nodetree_tree_sql.erl:307
+#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:228
 msgid "Node already exists"
 msgstr "צומת כבר קיים"
 
@@ -1450,13 +1461,12 @@ msgstr "צומת כבר קיים"
 msgid "Node index not found"
 msgstr "מפתח צומת לא נמצא"
 
-#: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:77
-#: src/nodetree_tree.erl:83 src/mod_muc.erl:718 src/mod_muc.erl:983
-#: src/mod_muc_room.erl:4170 src/mod_muc_room.erl:4188
-#: src/mod_muc_room.erl:4206 src/mod_muc_room.erl:4224
-#: src/mod_muc_room.erl:4329 src/mod_muc_room.erl:4344
-#: src/mod_muc_room.erl:4348 src/nodetree_tree_sql.erl:127
-#: src/nodetree_tree_sql.erl:141
+#: src/ejabberd_web_admin.erl:533 src/mod_muc.erl:727 src/mod_muc.erl:1000
+#: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
+#: src/mod_muc_room.erl:4217 src/mod_muc_room.erl:4235
+#: src/mod_muc_room.erl:4253 src/mod_muc_room.erl:4271
+#: src/mod_muc_room.erl:4376 src/mod_muc_room.erl:4391
+#: src/mod_muc_room.erl:4395 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "צומת לא נמצא"
 
@@ -1488,7 +1498,7 @@ msgstr "לא נמצא"
 msgid "Not allowed"
 msgstr "לא נמצא"
 
-#: src/mod_last.erl:145 src/mod_disco.erl:276 src/mod_disco.erl:335
+#: src/mod_disco.erl:276 src/mod_disco.erl:335 src/mod_last.erl:145
 msgid "Not subscribed"
 msgstr "לא רשום"
 
@@ -1523,11 +1533,11 @@ msgstr "מספר של משתמשים מקוונים"
 msgid "Number of occupants"
 msgstr "מספר של נוכחים"
 
-#: src/mod_configure.erl:1085
+#: src/mod_configure.erl:1123
 msgid "Number of online users"
 msgstr "מספר של משתמשים מקוונים"
 
-#: src/mod_configure.erl:1075
+#: src/mod_configure.erl:1102
 msgid "Number of registered users"
 msgstr "מספר של משתמשים רשומים"
 
@@ -1572,13 +1582,13 @@ msgstr "הודעות לא מקוונות:"
 msgid "Old Password:"
 msgstr "סיסמה ישנה:"
 
-#: src/mod_configure.erl:1371 src/ejabberd_web_admin.erl:754
-#: src/ejabberd_web_admin.erl:955
+#: src/ejabberd_web_admin.erl:754 src/ejabberd_web_admin.erl:955
+#: src/mod_configure.erl:1409
 msgid "Online"
 msgstr "מקוון"
 
-#: src/mod_configure.erl:494 src/ejabberd_web_admin.erl:460
-#: src/ejabberd_web_admin.erl:593 src/ejabberd_web_admin.erl:1933
+#: src/ejabberd_web_admin.erl:460 src/ejabberd_web_admin.erl:593
+#: src/ejabberd_web_admin.erl:1933 src/mod_configure.erl:507
 msgid "Online Users"
 msgstr "משתמשים מקוונים"
 
@@ -1595,7 +1605,7 @@ msgstr "רק תגיות <enable/> או <disable/> הינן מורשות"
 msgid "Only <list/> element is allowed in this query"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1030
+#: src/mod_shared_roster.erl:1034
 msgid "Only admins can see this"
 msgstr ""
 
@@ -1608,29 +1618,29 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "מסור התראות למשתמשים זמינים בלבד"
 
-#: src/mod_mam.erl:520
+#: src/mod_mam.erl:521
 msgid "Only members may query archives of this room"
 msgstr "רק חברים רשאים לתשאל ארכיונים של חדר זה"
 
-#: src/mod_muc_room.erl:1024
+#: src/mod_muc_room.erl:1066
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "רק אחראים ומשתתפים רשאים לשנות את הנושא בחדר זה"
 
-#: src/mod_muc_room.erl:1029
+#: src/mod_muc_room.erl:1071
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "רק אחראים רשאים לשנות את הנושא בחדר זה"
 
-#: src/mod_muc_room.erl:1168
+#: src/mod_muc_room.erl:1210
 msgid "Only moderators can approve voice requests"
 msgstr "רק אחראים יכולים לאשר בקשות ביטוי"
 
-#: src/mod_muc_room.erl:585 src/mod_muc_room.erl:1043 src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:609 src/mod_muc_room.erl:1085 src/mod_muc_room.erl:5018
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "רק נוכחים רשאים לשלוח הודעות אל הועידה"
 
-#: src/mod_muc_room.erl:631
+#: src/mod_muc_room.erl:655
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "רק נוכחים רשאים לשלוח שאילתות אל הועידה"
 
@@ -1639,7 +1649,7 @@ msgstr "רק נוכחים רשאים לשלוח שאילתות אל הועידה
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:232
+#: src/mod_muc.erl:237
 msgid "Only service administrators are allowed to send service messages"
 msgstr "רק מנהלי שירות רשאים לשלוח הודעות שירות"
 
@@ -1652,19 +1662,19 @@ msgstr ""
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
-#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 msgid "Organization Name"
 msgstr "שם ארגון"
 
+#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
-#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 msgid "Organization Unit"
 msgstr "יחידת איגוד"
 
-#: src/mod_configure.erl:496
+#: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
 msgstr "חיבורי s2s יוצאים"
 
@@ -1673,10 +1683,10 @@ msgid "Outgoing s2s Connections:"
 msgstr "חיבורי s2s יוצאים:"
 
 #: src/mod_pubsub.erl:1365 src/mod_pubsub.erl:1460 src/mod_pubsub.erl:1634
-#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2306 src/mod_pubsub.erl:2516
-#: src/mod_pubsub.erl:2610 src/mod_pubsub.erl:3318 src/mod_pubsub.erl:3488
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3403 src/mod_muc_room.erl:3448
-#: src/mod_muc_room.erl:4391
+#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2318 src/mod_pubsub.erl:2528
+#: src/mod_pubsub.erl:2622 src/mod_pubsub.erl:3330 src/mod_pubsub.erl:3500
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3445 src/mod_muc_room.erl:3490
+#: src/mod_muc_room.erl:4438
 msgid "Owner privileges required"
 msgstr "נדרשות הרשאות בעלים"
 
@@ -1694,15 +1704,15 @@ msgstr "יצירת חדר נדחתה על ידי פוליסת שירות"
 msgid "Participant"
 msgstr "משתתף"
 
-#: src/mod_configure.erl:999 src/mod_configure.erl:1046
-#: src/mod_configure.erl:1334 src/mod_configure.erl:1523
 #: src/ejabberd_web_admin.erl:665 src/mod_register.erl:245
-#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:502
+#: src/mod_configure.erl:1016 src/mod_configure.erl:1063
+#: src/mod_configure.erl:1372 src/mod_configure.erl:1561
+#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:510
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "סיסמה"
 
-#: src/mod_configure.erl:1003
+#: src/mod_configure.erl:1020
 msgid "Password Verification"
 msgstr "אימות סיסמה"
 
@@ -1715,12 +1725,12 @@ msgstr "אימות סיסמה:"
 msgid "Password:"
 msgstr "סיסמה:"
 
-#: src/mod_configure.erl:907
+#: src/mod_configure.erl:924
 msgid "Path to Dir"
 msgstr "נתיב למדור"
 
-#: src/mod_configure.erl:861 src/mod_configure.erl:873
-#: src/mod_configure.erl:885 src/mod_configure.erl:896
+#: src/mod_configure.erl:878 src/mod_configure.erl:890
+#: src/mod_configure.erl:902 src/mod_configure.erl:913
 msgid "Path to File"
 msgstr "נתיב לקובץ"
 
@@ -1736,12 +1746,12 @@ msgstr "ממתינות"
 msgid "Period: "
 msgstr "משך זמן: "
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:309
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "פריטים קבועים לאחסון"
 
-#: src/mod_muc_admin.erl:562
+#: src/mod_muc_admin.erl:586
 #, fuzzy
 msgid "Persistent"
 msgstr "הפוך חדר לחדר קבוע"
@@ -1750,7 +1760,7 @@ msgstr "הפוך חדר לחדר קבוע"
 msgid "Ping"
 msgstr "פינג"
 
-#: src/mod_ping.erl:178
+#: src/mod_ping.erl:194
 msgid "Ping query is incorrect"
 msgstr "שאילתת פינג הינה שגויה"
 
@@ -1765,7 +1775,7 @@ msgstr ""
 "עושה שימוש במודול ODBC, עליך גם לגבות את מסד הנתונים SQL אשר מצוי ברשותך "
 "בנפרד."
 
-#: src/mod_muc_room.erl:1129
+#: src/mod_muc_room.erl:1171
 msgid "Please, wait for a while before sending new voice request"
 msgstr "אנא, המתן לזמן מה לפני שליחת בקשת ביטוי חדשה"
 
@@ -1806,7 +1816,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "בקשת מנוי PubSub"
 
-#: src/mod_muc_admin.erl:561
+#: src/mod_muc_admin.erl:585
 msgid "Public"
 msgstr ""
 
@@ -1815,7 +1825,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "ציין מודל פרסום"
 
-#: src/mod_pubsub.erl:4308
+#: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
 msgstr "‫Publish-Subscribe"
 
@@ -1823,26 +1833,26 @@ msgstr "‫Publish-Subscribe"
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr "טהר את כל הפריטים כאשר המפרסם הרלוונטי הופך לבלתי מקוון"
 
-#: src/mod_push.erl:354
+#: src/mod_push.erl:358
 #, fuzzy
 msgid "Push record not found"
 msgstr "צומת לא נמצא"
 
-#: src/mod_muc_room.erl:626
+#: src/mod_muc_room.erl:650
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "שאילתות אל חברי הועידה אינן מותרות בחדר זה"
 
-#: src/mod_blocking.erl:76 src/mod_mix_pam.erl:311 src/mod_roster.erl:157
-#: src/mod_private.erl:199 src/mod_disco.erl:305 src/mod_disco.erl:362
-#: src/mod_offline.erl:331 src/mod_privacy.erl:134 src/mod_sic.erl:77
+#: src/mod_blocking.erl:76 src/mod_disco.erl:305 src/mod_disco.erl:362
+#: src/mod_mix_pam.erl:311 src/mod_roster.erl:157 src/mod_offline.erl:331
+#: src/mod_privacy.erl:134 src/mod_private.erl:199 src/mod_sic.erl:77
 msgid "Query to another users is forbidden"
 msgstr ""
 
-#: src/mod_configure.erl:804 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:1559 src/mod_configure.erl:821
 msgid "RAM and disc copy"
 msgstr "העתק RAM וגם תקליטור"
 
-#: src/mod_configure.erl:802 src/ejabberd_web_admin.erl:1558
+#: src/ejabberd_web_admin.erl:1558 src/mod_configure.erl:819
 msgid "RAM copy"
 msgstr "העתק RAM"
 
@@ -1870,7 +1880,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:554 src/mod_muc_room.erl:603
+#: src/mod_muc_room.erl:578 src/mod_muc_room.erl:627
 msgid "Recipient is not in the conference room"
 msgstr "מקבל אינו מצוי בחדר הועידה"
 
@@ -1894,7 +1904,7 @@ msgstr "משתמשים רשומים"
 msgid "Registered Users:"
 msgstr "משתמשים רשומים:"
 
-#: src/mod_configure.erl:808 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:1561 src/mod_configure.erl:825
 msgid "Remote copy"
 msgstr "העתק מרוחק"
 
@@ -1906,12 +1916,12 @@ msgstr "הסר"
 msgid "Remove All Offline Messages"
 msgstr "הסר את כל ההודעות הלא מקוונות"
 
-#: src/mod_configure.erl:1521 src/ejabberd_web_admin.erl:977
+#: src/ejabberd_web_admin.erl:977 src/mod_configure.erl:1559
 msgid "Remove User"
 msgstr "הסר משתמש"
 
-#: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
-#: src/mod_muc_room.erl:4688
+#: src/mod_muc_room.erl:4250 src/mod_muc_room.erl:4370
+#: src/mod_muc_room.erl:4735
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1919,12 +1929,12 @@ msgstr ""
 msgid "Replaced by new connection"
 msgstr "הוחלף בחיבור חדש"
 
-#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:218 src/mod_muc_room.erl:227
-#: src/mod_muc_room.erl:869
+#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:237 src/mod_muc_room.erl:246
+#: src/mod_muc_room.erl:911
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:757 src/mod_muc_room.erl:772
+#: src/mod_muc_room.erl:797 src/mod_muc_room.erl:812
 msgid "Request is ignored"
 msgstr ""
 
@@ -1932,7 +1942,7 @@ msgstr ""
 msgid "Requested role"
 msgstr ""
 
-#: src/mod_configure.erl:1407
+#: src/mod_configure.erl:1445
 msgid "Resources"
 msgstr "משאבים"
 
@@ -1940,16 +1950,16 @@ msgstr "משאבים"
 msgid "Restart"
 msgstr "אתחל"
 
-#: src/mod_configure.erl:157 src/mod_configure.erl:570
-#: src/mod_configure.erl:918
+#: src/mod_configure.erl:157 src/mod_configure.erl:587
+#: src/mod_configure.erl:935
 msgid "Restart Service"
 msgstr "אתחל שירות"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:584
+#: src/mod_configure.erl:146 src/mod_configure.erl:601
 msgid "Restore"
 msgstr "שחזר"
 
-#: src/mod_configure.erl:868
+#: src/mod_configure.erl:885
 msgid "Restore Backup from File at "
 msgstr "שחזר גיבוי מתוך קובץ אצל "
 
@@ -1975,8 +1985,8 @@ msgstr ""
 msgid "Roles for which Presence is Broadcasted"
 msgstr "תפקידים להם נוכחות הינה משודרת"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1699
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 #, fuzzy
 msgid "Roles that May Send Private Messages"
 msgstr "התר למשתמשים לשלוח הודעות פרטיות"
@@ -1989,21 +1999,21 @@ msgstr "תצורת חדר"
 msgid "Room Occupants"
 msgstr "נוכחי חדר"
 
-#: src/mod_muc.erl:617
+#: src/mod_muc.erl:626
 msgid "Room creation is denied by service policy"
 msgstr "יצירת חדר נדחתה על ידי פוליסת שירות"
 
-#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:881
 msgid "Room description"
 msgstr "תיאור חדר"
 
-#: src/mod_muc_room.erl:896
+#: src/mod_muc_room.erl:938
 #, fuzzy
 msgid "Room terminates"
 msgstr "כותרת חדר"
 
-#: src/mod_muc_admin.erl:565 src/mod_muc_log.erl:794
+#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:589
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "כותרת חדר"
@@ -2017,7 +2027,7 @@ msgstr "קבוצות רשימה מורשות להירשם"
 msgid "Roster of ~ts"
 msgstr "רשימה של "
 
-#: src/mod_configure.erl:1403
+#: src/mod_configure.erl:1441
 msgid "Roster size"
 msgstr "גודל רשימה"
 
@@ -2026,7 +2036,7 @@ msgstr "גודל רשימה"
 msgid "Roster:"
 msgstr "רשימה"
 
-#: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1095
+#: src/ejabberd_web_admin.erl:1095 src/mod_configure.erl:511
 msgid "Running Nodes"
 msgstr "צמתים מורצים"
 
@@ -2072,7 +2082,7 @@ msgstr ""
 msgid "Send announcement to all online users"
 msgstr "שלח בשורה לכל המשתמשים המקוונים"
 
-#: src/mod_configure.erl:941 src/mod_configure.erl:981 src/mod_announce.erl:615
+#: src/mod_announce.erl:615 src/mod_configure.erl:958 src/mod_configure.erl:998
 msgid "Send announcement to all online users on all hosts"
 msgstr "שלח בשורה לכל המשתמשים המקוונים בכל המארחים"
 
@@ -2109,8 +2119,8 @@ msgstr "קבע את בשורת היום ושלח למשתמשים מקוונים
 msgid "Set message of the day on all hosts and send to online users"
 msgstr "קבע את בשורת היום בכל המארחים ושלח למשתמשים מקוונים"
 
-#: src/mod_shared_roster.erl:897 src/mod_shared_roster.erl:943
-#: src/mod_shared_roster.erl:1050
+#: src/mod_shared_roster.erl:901 src/mod_shared_roster.erl:947
+#: src/mod_shared_roster.erl:1054
 msgid "Shared Roster Groups"
 msgstr "קבוצות רשימה משותפות"
 
@@ -2123,8 +2133,8 @@ msgid "Show Ordinary Table"
 msgstr "הצג טבלה רגילה"
 
 # שירות כיבוי
-#: src/mod_configure.erl:159 src/mod_configure.erl:572
-#: src/mod_configure.erl:958
+#: src/mod_configure.erl:159 src/mod_configure.erl:589
+#: src/mod_configure.erl:975
 msgid "Shut Down Service"
 msgstr "כבה שירות"
 
@@ -2139,8 +2149,8 @@ msgstr ""
 "ישנם לקוחות XMPP אשר מסוגלים לאחסן את הסיסמה שלך בתוך המחשב, אולם עליך לעשות "
 "זאת רק בתוך המחשב האישי שלך מסיבות ביטחוניות."
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "ציין מודל גישה"
 
@@ -2162,7 +2172,7 @@ msgstr ""
 
 #: src/ejabberd_web_admin.erl:506 src/ejabberd_web_admin.erl:1125
 #: src/ejabberd_web_admin.erl:1937 src/ejabberd_web_admin.erl:1950
-#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:507
+#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:531
 msgid "Statistics"
 msgstr "סטטיסטיקה"
 
@@ -2174,7 +2184,7 @@ msgstr "סטטיסטיקות של ~p"
 msgid "Stop"
 msgstr "הפסק"
 
-#: src/mod_configure.erl:499 src/ejabberd_web_admin.erl:1096
+#: src/ejabberd_web_admin.erl:1096 src/mod_configure.erl:512
 msgid "Stopped Nodes"
 msgstr "צמתים שנפסקו"
 
@@ -2200,19 +2210,20 @@ msgstr ""
 msgid "Stream management is not enabled"
 msgstr "יצירה אוטומטית של צומת אינה מאופשרת"
 
-#: src/mod_configure.erl:945 src/mod_configure.erl:985 src/mod_announce.erl:524
+#: src/mod_announce.erl:524 src/mod_configure.erl:962
+#: src/mod_configure.erl:1002
 msgid "Subject"
 msgstr "נושא"
 
-#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1068
+#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1072
 msgid "Submit"
 msgstr "שלח"
 
 #: src/ejabberd_web_admin.erl:651 src/ejabberd_web_admin.erl:961
 #: src/ejabberd_web_admin.erl:1117 src/ejabberd_web_admin.erl:1145
 #: src/ejabberd_web_admin.erl:1239 src/ejabberd_web_admin.erl:1474
-#: src/mod_roster.erl:1060 src/mod_shared_roster.erl:947
-#: src/mod_shared_roster.erl:1055 src/mod_offline.erl:1003
+#: src/mod_roster.erl:1060 src/mod_offline.erl:1003
+#: src/mod_shared_roster.erl:951 src/mod_shared_roster.erl:1059
 msgid "Submitted"
 msgstr "נשלח"
 
@@ -2236,7 +2247,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4402
+#: src/mod_muc_room.erl:4449
 msgid "Subscriptions are not allowed"
 msgstr "הרשמות אינן מורשות"
 
@@ -2260,14 +2271,14 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1266 src/mod_muc_room.erl:2134
-#: src/mod_muc_room.erl:4428
+#: src/mod_muc_room.erl:1308 src/mod_muc_room.erl:2176
+#: src/mod_muc_room.erl:4475
 msgid "That nickname is already in use by another occupant"
 msgstr "שם כינוי זה כבר מצוי בשימוש על ידי נוכח אחר"
 
 # note: another person > someone else
-#: src/mod_muc.erl:1068 src/mod_muc_room.erl:1278 src/mod_muc_room.erl:2148
-#: src/mod_muc_room.erl:4442
+#: src/mod_muc.erl:1085 src/mod_muc_room.erl:1320 src/mod_muc_room.erl:2190
+#: src/mod_muc_room.erl:4489
 msgid "That nickname is registered by another person"
 msgstr "שם כינוי זה הינו רשום על ידי מישהו אחר"
 
@@ -2275,9 +2286,9 @@ msgstr "שם כינוי זה הינו רשום על ידי מישהו אחר"
 msgid "The CAPTCHA is valid."
 msgstr "‏CAPTCHA הינה תקפה."
 
-#: src/mod_block_strangers.erl:150 src/mod_register.erl:207
-#: src/mod_muc_room.erl:850 src/mod_muc_room.erl:4364
-#: src/ejabberd_captcha.erl:218
+#: src/ejabberd_captcha.erl:218 src/mod_register.erl:207
+#: src/mod_muc_room.erl:890 src/mod_muc_room.erl:4411
+#: src/mod_block_strangers.erl:150
 msgid "The CAPTCHA verification has failed"
 msgstr "אימות CAPTCHA נכשל"
 
@@ -2355,12 +2366,21 @@ msgstr ""
 msgid "The default language of the node"
 msgstr "שם ידידותי עבור הצומת"
 
-#: src/mod_muc_room.erl:460
+#: src/mod_muc_room.erl:484
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
+msgstr ""
+
+#: src/mod_configure.erl:1113
+#, fuzzy
+msgid "The list of all online users"
+msgstr "מספר של משתמשים מקוונים"
+
+#: src/mod_configure.erl:1092
+msgid "The list of all users"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
@@ -2428,7 +2448,7 @@ msgstr "הסיסמה חלשה מדי"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 
-#: src/mod_register.erl:172 src/mod_vcard.erl:231
+#: src/mod_vcard.erl:231 src/mod_register.erl:172
 msgid "The query is only allowed from local users"
 msgstr ""
 
@@ -2510,7 +2530,7 @@ msgstr "יום חמישי"
 msgid "Time"
 msgstr "זמן"
 
-#: src/mod_configure.erl:923 src/mod_configure.erl:963
+#: src/mod_configure.erl:940 src/mod_configure.erl:980
 msgid "Time delay"
 msgstr "זמן שיהוי"
 
@@ -2526,12 +2546,12 @@ msgstr "לכבוד"
 msgid "To register, visit ~s"
 msgstr "כדי להירשם, בקרו ~s"
 
-#: src/mod_configure.erl:666
+#: src/mod_configure.erl:683
 #, fuzzy
 msgid "To ~ts"
 msgstr "אל ~s"
 
-#: src/ejabberd_oauth.erl:510
+#: src/ejabberd_oauth.erl:518
 msgid "Token TTL"
 msgstr "סימן TTL"
 
@@ -2543,7 +2563,7 @@ msgstr ""
 "יותר מדי (~p) אימותים כושלים מתוך כתובת IP זו (~s). הכתובת תורשה לקבל גישה "
 "בשעה ~s UTC"
 
-#: src/mod_muc_room.erl:2817 src/mod_muc_room.erl:3462
+#: src/mod_muc_room.erl:2859 src/mod_muc_room.erl:3504
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2551,8 +2571,8 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_block_strangers.erl:127 src/mod_register.erl:262
-#: src/mod_muc_room.erl:2218
+#: src/mod_register.erl:262 src/mod_muc_room.erl:2260
+#: src/mod_block_strangers.erl:127
 msgid "Too many CAPTCHA requests"
 msgstr "יותר מדי בקשות CAPTCHA"
 
@@ -2560,7 +2580,7 @@ msgstr "יותר מדי בקשות CAPTCHA"
 msgid "Too many active bytestreams"
 msgstr "יותר מדי יחידות bytestream פעילות"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1186
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1228
 #, fuzzy
 msgid "Too many child elements"
 msgstr "יותר מדי יחידות bytestream פעילות"
@@ -2573,16 +2593,16 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr "יותר מדי סטנזות בלי אישורי קבלה"
 
-#: src/mod_muc_room.erl:2093
+#: src/mod_muc_room.erl:2135
 msgid "Too many users in this conference"
 msgstr "יותר מדי משתמשים בועידה זו"
 
-#: src/mod_muc_admin.erl:509
+#: src/mod_muc_admin.erl:533
 msgid "Total rooms"
 msgstr "חדרים סה״כ"
 
 # נעברה
-#: src/mod_muc_room.erl:325
+#: src/mod_muc_room.erl:349
 msgid "Traffic rate limit is exceeded"
 msgstr "מגבלת שיעור תעבורה נחצתה"
 
@@ -2610,8 +2630,8 @@ msgstr "יום שלישי"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_block_strangers.erl:131 src/mod_register.erl:266
-#: src/mod_muc_room.erl:2227
+#: src/mod_register.erl:266 src/mod_muc_room.erl:2269
+#: src/mod_block_strangers.erl:131
 msgid "Unable to generate a CAPTCHA"
 msgstr "אין אפשרות להפיק CAPTCHA"
 
@@ -2625,8 +2645,8 @@ msgstr ""
 msgid "Unauthorized"
 msgstr "לא מורשה"
 
-#: src/mod_configure.erl:776 src/mod_configure.erl:1498
-#: src/mod_announce.erl:493
+#: src/mod_announce.erl:493 src/mod_configure.erl:793
+#: src/mod_configure.erl:1536
 msgid "Unexpected action"
 msgstr "פעולה לא צפויה"
 
@@ -2649,7 +2669,7 @@ msgstr "בטל רישום חשבון XMPP"
 msgid "Unselect All"
 msgstr ""
 
-#: src/mod_mam.erl:695
+#: src/mod_mam.erl:760
 msgid "Unsupported <index/> element"
 msgstr ""
 
@@ -2687,13 +2707,13 @@ msgstr "עדכון ~p"
 msgid "Uptime:"
 msgstr "זמן פעילות:"
 
-#: src/mod_vcard_mnesia.erl:99 src/mod_vcard_sql.erl:156
-#: src/ejabberd_web_admin.erl:660 src/ejabberd_web_admin.erl:716
-#: src/mod_register.erl:241 src/mod_vcard_ldap.erl:332
+#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:660
+#: src/ejabberd_web_admin.erl:716 src/mod_vcard_mnesia.erl:99
+#: src/mod_vcard_sql.erl:156 src/mod_register.erl:241
 msgid "User"
 msgstr "משתמש"
 
-#: src/ejabberd_oauth.erl:499
+#: src/ejabberd_oauth.erl:507
 msgid "User (jid)"
 msgstr "משתמש (jid)"
 
@@ -2702,7 +2722,7 @@ msgstr "משתמש (jid)"
 msgid "User JID"
 msgstr "‏JID משתמש"
 
-#: src/mod_configure.erl:298 src/mod_configure.erl:493
+#: src/mod_configure.erl:307 src/mod_configure.erl:506
 msgid "User Management"
 msgstr "ניהול משתמשים"
 
@@ -2714,7 +2734,7 @@ msgstr "משתמש כבר קיים"
 msgid "User removed"
 msgstr ""
 
-#: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
+#: src/mod_push.erl:343 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
 msgid "User session not found"
 msgstr "סשן משתמש לא נמצא"
 
@@ -2750,36 +2770,36 @@ msgstr "משתמשים אינם מורשים לרשום חשבונות כל כך
 msgid "Validate"
 msgstr "הענק תוקף"
 
-#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4354 src/mod_muc_room.erl:4518
-#: src/ejabberd_captcha.erl:222
+#: src/mod_push.erl:325 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:222
+#: src/mod_muc_room.erl:4401 src/mod_muc_room.erl:4565
+#: src/mod_carboncopy.erl:104
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/mod_stats.erl:55 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_last.erl:108 src/mod_last.erl:126
-#: src/mod_muc.erl:650 src/mod_muc.erl:684 src/mod_muc.erl:725
-#: src/mod_muc.erl:745 src/mod_muc.erl:755 src/mod_disco.erl:137
-#: src/mod_disco.erl:153 src/mod_disco.erl:259 src/mod_disco.erl:311
+#: src/mod_jidprep.erl:137 src/mod_disco.erl:137 src/mod_disco.erl:153
+#: src/mod_disco.erl:259 src/mod_disco.erl:311 src/mod_vcard.erl:205
+#: src/mod_vcard.erl:248 src/mod_muc.erl:659 src/mod_muc.erl:693
+#: src/mod_muc.erl:734 src/mod_muc.erl:754 src/mod_muc.erl:764
+#: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
+#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:55
+#: src/mod_mix.erl:159 src/mod_mix.erl:206 src/mod_muc_room.erl:4195
+#: src/mod_muc_room.erl:4336 src/mod_time.erl:55
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
-#: src/mod_stun_disco.erl:479 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4148
-#: src/mod_muc_room.erl:4289 src/mod_version.erl:53 src/mod_vcard.erl:205
-#: src/mod_vcard.erl:248
+#: src/mod_proxy65_service.erl:172 src/mod_last.erl:108 src/mod_last.erl:126
+#: src/mod_sic.erl:68 src/mod_sic.erl:80
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
+#: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
 msgstr "ערך של '~s' צריך להיות boolean"
 
-#: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
+#: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
 msgstr "ערך של '~s' צריך להיות מחרוזת datetime"
 
-#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
+#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 msgid "Value of '~s' should be integer"
 msgstr "ערך של '~s' צריך להיות integer"
 
@@ -2801,20 +2821,20 @@ msgstr "מארחים מדומים"
 msgid "Visitor"
 msgstr "מבקר"
 
-#: src/mod_muc_room.erl:1259
+#: src/mod_muc_room.erl:1301
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "מבקרים אינם מורשים לשנות את שמות הכינויים שלהם בחדר זה"
 
 # רשאים
-#: src/mod_muc_room.erl:1036
+#: src/mod_muc_room.erl:1078
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "מבקרים אינם מורשים לשלוח הודעות אל כל הנוכחים"
 
-#: src/mod_muc_room.erl:4859
+#: src/mod_muc_room.erl:4906
 msgid "Voice request"
 msgstr "בקשת ביטוי"
 
-#: src/mod_muc_room.erl:1136
+#: src/mod_muc_room.erl:1178
 msgid "Voice requests are disabled in this conference"
 msgstr "בקשות ביטוי מנוטרלות בועידה זו"
 
@@ -2913,13 +2933,13 @@ msgstr ""
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1984
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 #, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "מודול Publish-Subscribe של ejabberd"
 
-#: src/mod_muc_room.erl:894
+#: src/mod_muc_room.erl:936
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "נבעט/ה משום כיבוי מערכת"
@@ -2934,15 +2954,15 @@ msgstr "אינך מורשה ליצור צמתים"
 msgid "You can later change your password using an XMPP client."
 msgstr "באפשרותך לשנות את הסיסמה שלך מאוחר יותר באמצעות לקוח XMPP."
 
-#: src/mod_muc_room.erl:2121
+#: src/mod_muc_room.erl:2163
 msgid "You have been banned from this room"
 msgstr "נאסרת מן חדר זה"
 
-#: src/mod_muc_room.erl:2102
+#: src/mod_muc_room.erl:2144
 msgid "You have joined too many conferences"
 msgstr "הצטרפת ליותר מדי ועידות"
 
-#: src/mod_muc.erl:1099
+#: src/mod_muc.erl:1116
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "עליך למלא את השדה \"שם כינוי\" בתוך התבנית"
 
@@ -2951,7 +2971,7 @@ msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "עליך להשתמש בלקוח אשר תומך x:data וגם CAPTCHA כדי להירשם"
 
 # to register nickname
-#: src/mod_muc.erl:1054
+#: src/mod_muc.erl:1071
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "עליך להשתמש בלקוח אשר תומך x:data כדי לרשום את השם כינוי"
 
@@ -2973,7 +2993,7 @@ msgstr "חשבון XMPP נמחק בהצלחה."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "חשבון XMPP נמחק בהצלחה."
 
-#: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
+#: src/ejabberd_c2s.erl:708 src/ejabberd_c2s.erl:864
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr "רשימת הפרטיות הפעילה שלך אסרה את הניתוב של סטנזה זו."
 
@@ -2999,7 +3019,7 @@ msgstr "מנהל רשת ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "שירות שידור מרובב של ejabberd"
 
-#: src/mod_muc.erl:644
+#: src/mod_muc.erl:653
 msgid "ejabberd MUC module"
 msgstr "מודול MUC של ejabberd"
 
@@ -3055,11 +3075,11 @@ msgstr "נכנס/ת אל החדר"
 msgid "leaves the room"
 msgstr "עוזב/ת את החדר"
 
-#: src/mod_muc_room.erl:4573
+#: src/mod_muc_room.erl:4620
 msgid "private, "
 msgstr "פרטי, "
 
-#: src/mod_muc_room.erl:4935
+#: src/mod_muc_room.erl:4982
 msgid "the password is"
 msgstr "הסיסמה היא"
 
@@ -3067,7 +3087,7 @@ msgstr "הסיסמה היא"
 msgid "vCard User Search"
 msgstr "חיפוש משתמש vCard"
 
-#: src/mod_muc_room.erl:4928
+#: src/mod_muc_room.erl:4975
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "‫~s מזמינך לחדר ~s"
@@ -3257,13 +3277,14 @@ msgstr "תור הודעות לא מקוונות של ~s"
 
 #~ msgid ""
 #~ "If you want to specify different ports, passwords, encodings for IRC "
-#~ "servers, fill this list with values in format '{\"irc server\", \"encoding"
-#~ "\", port, \"password\"}'.  By default this service use \"~s\" encoding, "
-#~ "port ~p, empty password."
+#~ "servers, fill this list with values in format '{\"irc server\", "
+#~ "\"encoding\", port, \"password\"}'.  By default this service use \"~s\" "
+#~ "encoding, port ~p, empty password."
 #~ msgstr ""
 #~ "אם ברצונך לציין פורטים, סיסמאות, קידודים אחרים עבור שרתים של IRC, מלא את "
-#~ "רשימה זו עם ערכים בפורמט '{\"irc server\", \"encoding\", port, \"password"
-#~ "\"}'.  באופן שגרתי שירות זה משתמש בקידוד \"~s\", פורט ~p, סיסמה ריקה."
+#~ "רשימה זו עם ערכים בפורמט '{\"irc server\", \"encoding\", port, "
+#~ "\"password\"}'.  באופן שגרתי שירות זה משתמש בקידוד \"~s\", פורט ~p, סיסמה "
+#~ "ריקה."
 
 #~ msgid "Incorrect value in data form"
 #~ msgstr "נשלח ערך שגוי בטופס מידע"

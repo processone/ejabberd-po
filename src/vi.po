@@ -20,12 +20,12 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " đã đặt chủ đề thành: "
 
-#: src/mod_muc_admin.erl:559
+#: src/mod_muc_admin.erl:583
 #, fuzzy
 msgid "# participants"
 msgstr "Người sử dụng mặc định là người tham dự"
 
-#: src/mod_shared_roster.erl:1060
+#: src/mod_shared_roster.erl:1064
 msgid "'Displayed groups' not added (they do not exist!): "
 msgstr ""
 
@@ -42,26 +42,26 @@ msgstr ""
 msgid "A friendly name for the node"
 msgstr ""
 
-#: src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:2229
 #, fuzzy
 msgid "A password is required to enter this room"
 msgstr "Yêu cầu nhập mật khẩu để vào phòng này"
 
-#: src/ejabberd_oauth.erl:519
+#: src/ejabberd_oauth.erl:527
 msgid "Accept"
 msgstr ""
 
-#: src/ejabberd_service.erl:232 src/mod_configure.erl:186
-#: src/mod_configure.erl:303 src/mod_configure.erl:429
-#: src/mod_configure.erl:715 src/mod_configure.erl:1480
-#: src/ejabberd_c2s.erl:449 src/ejabberd_c2s.erl:692
-#: src/mod_legacy_auth.erl:151 src/mod_roster.erl:182 src/mod_multicast.erl:310
-#: src/ejabberd_s2s.erl:337 src/mod_register.erl:130 src/mod_register.erl:295
-#: src/mod_register.erl:406 src/mod_s2s_dialback.erl:361 src/mod_muc.erl:212
-#: src/mod_muc.erl:677 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_announce.erl:242
+#: src/ejabberd_c2s.erl:453 src/ejabberd_c2s.erl:696
+#: src/ejabberd_service.erl:232 src/mod_roster.erl:182 src/mod_muc.erl:217
+#: src/mod_muc.erl:686 src/mod_multicast.erl:310 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
+#: src/mod_s2s_dialback.erl:361 src/mod_register.erl:130
+#: src/mod_register.erl:295 src/mod_register.erl:406 src/mod_configure.erl:191
+#: src/mod_configure.erl:312 src/mod_configure.erl:438
+#: src/mod_configure.erl:732 src/mod_configure.erl:1518
+#: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
+#: src/ejabberd_s2s.erl:337 src/mod_legacy_auth.erl:151
 #: src/mod_http_upload.erl:801
 msgid "Access denied by service policy"
 msgstr "Sự truy cập bị chặn theo chính sách phục vụ"
@@ -97,7 +97,7 @@ msgstr "Danh sách kiểm soát truy cập"
 msgid "Account doesn't exist"
 msgstr "Phòng họp không tồn tại"
 
-#: src/mod_configure.erl:1514
+#: src/mod_configure.erl:1552
 msgid "Action on user"
 msgstr "Hành động đối với người sử dụng"
 
@@ -105,17 +105,17 @@ msgstr "Hành động đối với người sử dụng"
 msgid "Add Jabber ID"
 msgstr "Thêm Jabber ID"
 
-#: src/mod_shared_roster.erl:942
+#: src/mod_shared_roster.erl:946
 msgid "Add New"
 msgstr "Thêm Mới"
 
-#: src/mod_configure.erl:161 src/mod_configure.erl:505
-#: src/mod_configure.erl:991 src/ejabberd_web_admin.erl:674
+#: src/ejabberd_web_admin.erl:674 src/mod_configure.erl:161
+#: src/mod_configure.erl:518 src/mod_configure.erl:1008
 msgid "Add User"
 msgstr "Thêm Người Sử Dụng"
 
-#: src/mod_muc_room.erl:4185 src/mod_muc_room.erl:4319
-#: src/mod_muc_room.erl:4620
+#: src/mod_muc_room.erl:4232 src/mod_muc_room.erl:4366
+#: src/mod_muc_room.erl:4667
 msgid "Add a hat to a user"
 msgstr ""
 
@@ -123,15 +123,15 @@ msgstr ""
 msgid "Administration"
 msgstr "Quản trị"
 
-#: src/mod_configure.erl:1509
+#: src/mod_configure.erl:1547
 msgid "Administration of "
 msgstr "Quản trị về "
 
-#: src/mod_muc_room.erl:2840
+#: src/mod_muc_room.erl:2882
 msgid "Administrator privileges required"
 msgstr "Yêu cầu đặc quyền của nhà quản trị"
 
-#: src/mod_configure.erl:495
+#: src/mod_configure.erl:508
 msgid "All Users"
 msgstr "Tất Cả Người Sử Dụng"
 
@@ -216,10 +216,10 @@ msgstr ""
 msgid "Answer to a question"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2242
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:830
 #, fuzzy
 msgid "Anyone"
 msgstr "bất kỳ ai"
@@ -244,8 +244,8 @@ msgstr ""
 msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1682
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:833
 msgid "Anyone with Voice"
 msgstr ""
 
@@ -288,12 +288,12 @@ msgstr "Tháng Tám"
 msgid "Automatic node creation is not enabled"
 msgstr ""
 
-#: src/mod_configure.erl:143 src/mod_configure.erl:582
 #: src/ejabberd_web_admin.erl:1124 src/ejabberd_web_admin.erl:1949
+#: src/mod_configure.erl:143 src/mod_configure.erl:599
 msgid "Backup"
 msgstr "Sao lưu dự phòng"
 
-#: src/mod_configure.erl:566
+#: src/mod_configure.erl:583
 msgid "Backup Management"
 msgstr "Quản lý Sao Lưu Dự Phòng"
 
@@ -302,19 +302,19 @@ msgstr "Quản lý Sao Lưu Dự Phòng"
 msgid "Backup of ~p"
 msgstr "Sao lưu dự phòng về"
 
-#: src/mod_configure.erl:857
+#: src/mod_configure.erl:874
 msgid "Backup to File at "
 msgstr "Sao lưu dự phòng ra Tập Tin tại"
 
 #: src/ejabberd_web_admin.erl:652 src/ejabberd_web_admin.erl:962
 #: src/ejabberd_web_admin.erl:1118 src/mod_roster.erl:1061
-#: src/mod_shared_roster.erl:948 src/mod_shared_roster.erl:1061
+#: src/mod_shared_roster.erl:952 src/mod_shared_roster.erl:1065
 msgid "Bad format"
 msgstr "Định dạng hỏng"
 
+#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
-#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 msgid "Birthday"
 msgstr "Ngày sinh"
 
@@ -352,8 +352,8 @@ msgstr ""
 msgid "Change Password"
 msgstr "Thay Đổi Mật Khẩu"
 
-#: src/mod_configure.erl:169 src/mod_configure.erl:512
-#: src/mod_configure.erl:1038
+#: src/mod_configure.erl:169 src/mod_configure.erl:525
+#: src/mod_configure.erl:1055
 msgid "Change User Password"
 msgstr "Thay Đổi Mật Khẩu Người Sử Dụng"
 
@@ -362,7 +362,7 @@ msgstr "Thay Đổi Mật Khẩu Người Sử Dụng"
 msgid "Changing password is not allowed"
 msgstr "mật khẩu là"
 
-#: src/mod_muc_room.erl:3103
+#: src/mod_muc_room.erl:3145
 msgid "Changing role/affiliation is not allowed"
 msgstr ""
 
@@ -407,7 +407,7 @@ msgstr "Phòng trò chuyện"
 msgid "Chatroom is stopped"
 msgstr "Phòng trò chuyện"
 
-#: src/mod_muc_admin.erl:582 src/mod_muc.erl:1284
+#: src/mod_muc.erl:1336 src/mod_muc_admin.erl:606
 msgid "Chatrooms"
 msgstr "Phòng trò chuyện"
 
@@ -415,7 +415,7 @@ msgstr "Phòng trò chuyện"
 msgid "Choose a username and password to register with this server"
 msgstr "Chọn một tên truy cập và mật khẩu để đăng ký với máy chủ này"
 
-#: src/mod_configure.erl:830
+#: src/mod_configure.erl:847
 msgid "Choose storage type of tables"
 msgstr "Chọn loại bảng lưu trữ"
 
@@ -423,9 +423,9 @@ msgstr "Chọn loại bảng lưu trữ"
 msgid "Choose whether to approve this entity's subscription."
 msgstr "Chọn có nên chấp nhận sự đăng ký của đối tượng này không"
 
+#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
-#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 msgid "City"
 msgstr "Thành phố"
 
@@ -434,21 +434,21 @@ msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
 
 #: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
-#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4168
+#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4215
 msgid "Commands"
 msgstr "Lệnh"
 
-#: src/mod_muc.erl:599 src/mod_muc.erl:623 src/mod_muc_room.erl:220
-#: src/mod_muc_room.erl:231
+#: src/mod_muc.erl:608 src/mod_muc.erl:632 src/mod_muc_room.erl:239
+#: src/mod_muc_room.erl:250
 msgid "Conference room does not exist"
 msgstr "Phòng họp không tồn tại"
 
-#: src/mod_configure.erl:129 src/mod_configure.erl:275
-#: src/mod_configure.erl:296 src/mod_configure.erl:492
+#: src/mod_configure.erl:129 src/mod_configure.erl:284
+#: src/mod_configure.erl:305 src/mod_configure.erl:505
 msgid "Configuration"
 msgstr "Cấu hình"
 
-#: src/mod_muc_room.erl:3558
+#: src/mod_muc_room.erl:3600
 #, fuzzy
 msgid "Configuration of room ~s"
 msgstr "Cấu hình cho "
@@ -461,9 +461,9 @@ msgstr "Tài Nguyên Được Kết Nối:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
-#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 msgid "Country"
 msgstr "Quốc gia"
 
@@ -471,12 +471,12 @@ msgstr "Quốc gia"
 msgid "Current Discussion Topic"
 msgstr ""
 
-#: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1123 src/ejabberd_web_admin.erl:1948
+#: src/mod_configure.erl:140 src/mod_configure.erl:581
 msgid "Database"
 msgstr "Cơ sở dữ liệu"
 
-#: src/mod_configure.erl:828
+#: src/mod_configure.erl:845
 msgid "Database Tables Configuration at "
 msgstr "Cấu Hình Bảng Cơ Sở Dữ Liệu tại"
 
@@ -486,19 +486,19 @@ msgstr "Cấu Hình Bảng Cơ Sở Dữ Liệu tại"
 msgid "Database Tables at ~p"
 msgstr "Bảng Cơ Sở Dữ Liệu tại"
 
-#: src/mod_blocking.erl:263 src/node_flat_sql.erl:797 src/mod_pubsub.erl:3790
-#: src/mod_pubsub.erl:3834 src/mod_pubsub.erl:3856 src/mod_pubsub.erl:3940
-#: src/mod_pubsub.erl:4161 src/mod_carboncopy.erl:97 src/mod_mix_pam.erl:321
-#: src/mod_roster.erl:456 src/mod_private.erl:184 src/mod_private.erl:191
-#: src/mod_register.erl:418 src/mod_last.erl:202 src/mod_muc.erl:767
-#: src/mod_muc.erl:1071 src/mod_push.erl:336 src/mod_push.erl:351
-#: src/mod_proxy65_service.erl:242 src/mod_offline.erl:352
-#: src/mod_offline.erl:740 src/mod_mix.erl:652 src/mod_privacy.erl:174
-#: src/mod_privacy.erl:192 src/mod_privacy.erl:286 src/mod_privacy.erl:302
-#: src/mod_privacy.erl:335 src/mod_privacy.erl:352 src/mod_mam.erl:659
-#: src/mod_mam.erl:677 src/mod_mam.erl:707 src/mod_mam.erl:1043
+#: src/mod_push.erl:340 src/mod_push.erl:355 src/mod_blocking.erl:263
+#: src/mod_vcard.erl:238 src/mod_mix_pam.erl:321 src/mod_roster.erl:456
+#: src/mod_muc.erl:776 src/mod_muc.erl:1088 src/node_flat_sql.erl:797
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
-#: src/nodetree_tree_sql.erl:309 src/mod_vcard.erl:238
+#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:352
+#: src/mod_offline.erl:740 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
+#: src/mod_mam.erl:724 src/mod_mam.erl:742 src/mod_mam.erl:772
+#: src/mod_mam.erl:1108 src/mod_register.erl:418 src/mod_mix.erl:652
+#: src/mod_privacy.erl:174 src/mod_privacy.erl:192 src/mod_privacy.erl:286
+#: src/mod_privacy.erl:302 src/mod_privacy.erl:335 src/mod_privacy.erl:352
+#: src/mod_proxy65_service.erl:242 src/mod_private.erl:184
+#: src/mod_private.erl:191 src/mod_last.erl:202 src/mod_carboncopy.erl:97
 #, fuzzy
 msgid "Database failure"
 msgstr "Cơ sở dữ liệu"
@@ -511,12 +511,12 @@ msgstr "Tháng Mười Hai"
 msgid "Default users as participants"
 msgstr "Người sử dụng mặc định là người tham dự"
 
-#: src/mod_shared_roster.erl:956 src/mod_offline.erl:1022
+#: src/mod_offline.erl:1022 src/mod_shared_roster.erl:960
 msgid "Delete Selected"
 msgstr "Tùy chọn Xóa được Chọn"
 
-#: src/mod_configure.erl:163 src/mod_configure.erl:506
-#: src/mod_configure.erl:1008
+#: src/mod_configure.erl:163 src/mod_configure.erl:519
+#: src/mod_configure.erl:1025
 msgid "Delete User"
 msgstr "Xóa Người Sử Dụng"
 
@@ -546,15 +546,15 @@ msgstr "Đưa ra các thông báo sự kiện"
 msgid "Deliver payloads with event notifications"
 msgstr "Đưa ra thông tin dung lượng với các thông báo sự kiện"
 
-#: src/mod_shared_roster.erl:1024
+#: src/mod_shared_roster.erl:1028
 msgid "Description:"
 msgstr "Miêu tả:"
 
-#: src/mod_configure.erl:806 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1560 src/mod_configure.erl:823
 msgid "Disc only copy"
 msgstr "Chỉ sao chép vào đĩa"
 
-#: src/mod_shared_roster.erl:1042
+#: src/mod_shared_roster.erl:1046
 #, fuzzy
 msgid "Displayed:"
 msgstr "Nhóm được hiển thị:"
@@ -565,11 +565,11 @@ msgid ""
 "server."
 msgstr ""
 
-#: src/mod_configure.erl:880
+#: src/mod_configure.erl:897
 msgid "Dump Backup to Text File at "
 msgstr "Kết Xuất Sao Lưu ra Tập Tin Văn Bản tại"
 
-#: src/mod_configure.erl:149 src/mod_configure.erl:586
+#: src/mod_configure.erl:149 src/mod_configure.erl:603
 msgid "Dump to Text File"
 msgstr "Kết xuất ra Tập Tin Văn Bản"
 
@@ -581,11 +581,11 @@ msgstr ""
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
-#: src/mod_configure.erl:1518
+#: src/mod_configure.erl:1556
 msgid "Edit Properties"
 msgstr "Chỉnh Sửa Thuộc Tính"
 
-#: src/mod_muc_room.erl:4861
+#: src/mod_muc_room.erl:4908
 msgid "Either approve or decline the voice request."
 msgstr ""
 
@@ -593,9 +593,9 @@ msgstr ""
 msgid "Elements"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
-#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 msgid "Email"
 msgstr "Email"
 
@@ -615,32 +615,32 @@ msgstr "Cho phép ghi nhật ký"
 msgid "Enable message archiving"
 msgstr ""
 
-#: src/mod_push.erl:324
+#: src/mod_push.erl:328
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr ""
 
-#: src/mod_configure.erl:165 src/mod_configure.erl:508
-#: src/mod_configure.erl:1018
+#: src/mod_configure.erl:165 src/mod_configure.erl:521
+#: src/mod_configure.erl:1035
 msgid "End User Session"
 msgstr "Kết Thúc Phiên Giao Dịch Người Sử Dụng"
 
-#: src/mod_muc.erl:1046
+#: src/mod_muc.erl:1063
 msgid "Enter nickname you want to register"
 msgstr "Nhập bí danh bạn muốn đăng ký"
 
-#: src/mod_configure.erl:859 src/mod_configure.erl:871
+#: src/mod_configure.erl:876 src/mod_configure.erl:888
 msgid "Enter path to backup file"
 msgstr "Nhập đường dẫn đến tập tin sao lưu dự phòng"
 
-#: src/mod_configure.erl:905
+#: src/mod_configure.erl:922
 msgid "Enter path to jabberd14 spool dir"
 msgstr "Nhập đường dẫn đến thư mục spool jabberd14"
 
-#: src/mod_configure.erl:894
+#: src/mod_configure.erl:911
 msgid "Enter path to jabberd14 spool file"
 msgstr "Nhập đường dẫn đến tập tin spool jabberd14"
 
-#: src/mod_configure.erl:883
+#: src/mod_configure.erl:900
 msgid "Enter path to text file"
 msgstr "Nhập đường dẫn đến tập tin văn bản"
 
@@ -690,7 +690,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1161
+#: src/mod_muc_room.erl:1203
 msgid "Failed to extract JID from your voice request approval"
 msgstr ""
 
@@ -702,13 +702,13 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr ""
 
-#: src/mod_muc_room.erl:3703
+#: src/mod_muc_room.erl:3745
 msgid "Failed to process option '~s'"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
-#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: _build/default/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "Họ"
@@ -736,7 +736,7 @@ msgstr "Thứ Sáu"
 msgid "From"
 msgstr "Từ"
 
-#: src/mod_configure.erl:678
+#: src/mod_configure.erl:695
 #, fuzzy
 msgid "From ~ts"
 msgstr "Nhận từ ~s"
@@ -749,17 +749,27 @@ msgstr ""
 msgid "Full List of Room Owners"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
-#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 msgid "Full Name"
 msgstr "Tên Đầy Đủ"
 
-#: src/mod_configure.erl:178 src/mod_configure.erl:520
+#: src/mod_configure.erl:181 src/mod_configure.erl:535
+#, fuzzy
+msgid "Get List of Online Users"
+msgstr "Nhận Số Người Sử Dụng Trực Tuyến"
+
+#: src/mod_configure.erl:175 src/mod_configure.erl:531
+#, fuzzy
+msgid "Get List of Registered Users"
+msgstr "Nhận Số Người Sử Dụng Đã Đăng Ký"
+
+#: src/mod_configure.erl:183 src/mod_configure.erl:537
 msgid "Get Number of Online Users"
 msgstr "Nhận Số Người Sử Dụng Trực Tuyến"
 
-#: src/mod_configure.erl:175 src/mod_configure.erl:518
+#: src/mod_configure.erl:178 src/mod_configure.erl:533
 msgid "Get Number of Registered Users"
 msgstr "Nhận Số Người Sử Dụng Đã Đăng Ký"
 
@@ -768,18 +778,18 @@ msgstr "Nhận Số Người Sử Dụng Đã Đăng Ký"
 msgid "Get Pending"
 msgstr "Chờ"
 
-#: src/mod_configure.erl:171 src/mod_configure.erl:514
-#: src/mod_configure.erl:1052
+#: src/mod_configure.erl:171 src/mod_configure.erl:527
+#: src/mod_configure.erl:1069
 msgid "Get User Last Login Time"
 msgstr "Nhận Thời Gian Đăng Nhập Cuối Cùng Của Người Sử Dụng"
 
-#: src/mod_configure.erl:167 src/mod_configure.erl:510
-#: src/mod_configure.erl:1028
+#: src/mod_configure.erl:167 src/mod_configure.erl:523
+#: src/mod_configure.erl:1045
 msgid "Get User Password"
 msgstr "Nhận Mật Khẩu Người Sử Dụng"
 
-#: src/mod_configure.erl:173 src/mod_configure.erl:516
-#: src/mod_configure.erl:1061
+#: src/mod_configure.erl:173 src/mod_configure.erl:529
+#: src/mod_configure.erl:1078
 msgid "Get User Statistics"
 msgstr "Nhận Thông Tin Thống Kê Người Sử Dụng"
 
@@ -793,7 +803,7 @@ msgstr "Họ Đệm"
 msgid "Grant voice to this person?"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1053
+#: src/mod_shared_roster.erl:1057
 msgid "Group"
 msgstr "Nhóm"
 
@@ -801,7 +811,7 @@ msgstr "Nhóm"
 msgid "Groups"
 msgstr "Nhóm"
 
-#: src/mod_shared_roster.erl:1048
+#: src/mod_shared_roster.erl:1052
 msgid "Groups that will be displayed to the members"
 msgstr ""
 
@@ -809,17 +819,17 @@ msgstr ""
 msgid "HTTP File Upload"
 msgstr ""
 
-#: src/mod_muc_room.erl:4634 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4766
+#: src/mod_muc_room.erl:4681 src/mod_muc_room.erl:4745
+#: src/mod_muc_room.erl:4813
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4630 src/mod_muc_room.erl:4763
+#: src/mod_muc_room.erl:4677 src/mod_muc_room.erl:4810
 #, fuzzy
 msgid "Hat title"
 msgstr "Tên phòng"
 
-#: src/mod_muc_room.erl:4673
+#: src/mod_muc_room.erl:4720
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Quá giới hạn tỷ lệ lưu lượng truyền tải"
@@ -832,7 +842,7 @@ msgstr "Máy chủ"
 msgid "Host unknown"
 msgstr ""
 
-#: src/mod_configure.erl:1405
+#: src/mod_configure.erl:1443
 msgid "IP addresses"
 msgstr "Địa chỉ IP"
 
@@ -845,23 +855,23 @@ msgstr "Được thay thế bởi kết nối mới"
 msgid "If you don't see the CAPTCHA image here, visit the web page."
 msgstr ""
 
-#: src/mod_configure.erl:155 src/mod_configure.erl:599
+#: src/mod_configure.erl:155 src/mod_configure.erl:616
 msgid "Import Directory"
 msgstr "Nhập Thư Mục"
 
-#: src/mod_configure.erl:152 src/mod_configure.erl:597
+#: src/mod_configure.erl:152 src/mod_configure.erl:614
 msgid "Import File"
 msgstr "Nhập Tập Tin"
 
-#: src/mod_configure.erl:891
+#: src/mod_configure.erl:908
 msgid "Import User from File at "
 msgstr "Nhập Người Sử Dụng từ Tập Tin tại"
 
-#: src/mod_configure.erl:568
+#: src/mod_configure.erl:585
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "Nhập Người Sử Dụng Từ Các Tập Tin Spool jabberd14"
 
-#: src/mod_configure.erl:902
+#: src/mod_configure.erl:919
 msgid "Import Users from Dir at "
 msgstr "Nhập Người Sử Dụng từ Thư Mục tại"
 
@@ -883,7 +893,7 @@ msgstr "Nhập Người Sử Dụng Từ Các Tập Tin Spool jabberd14"
 msgid "Improper domain part of 'from' attribute"
 msgstr ""
 
-#: src/mod_muc_room.erl:412
+#: src/mod_muc_room.erl:436
 msgid "Improper message type"
 msgstr "Loại thư không phù hợp"
 
@@ -892,34 +902,34 @@ msgstr "Loại thư không phù hợp"
 msgid "Incoming s2s Connections:"
 msgstr "Kết Nối Bên Ngoài s2s:"
 
-#: src/mod_register.erl:204 src/mod_muc_room.erl:4361
-#: src/ejabberd_captcha.erl:215
+#: src/ejabberd_captcha.erl:215 src/mod_register.erl:204
+#: src/mod_muc_room.erl:4408
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
-#: src/mod_pubsub.erl:1257 src/mod_register.erl:200 src/mod_muc.erl:1094
-#: src/mod_muc_room.erl:3433 src/mod_vcard.erl:267
+#: src/mod_vcard.erl:267 src/mod_muc.erl:1111 src/mod_pubsub.erl:1257
+#: src/mod_register.erl:200 src/mod_muc_room.erl:3475
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Mật khẩu sai"
 
-#: src/mod_register.erl:155 src/mod_register_web.erl:579
-#: src/mod_muc_room.erl:2237
+#: src/mod_register.erl:155 src/mod_muc_room.erl:2279
+#: src/mod_register_web.erl:579
 msgid "Incorrect password"
 msgstr "Mật khẩu sai"
 
-#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4682 src/mod_muc_room.erl:4736
-#: src/mod_muc_room.erl:4776
+#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4729 src/mod_muc_room.erl:4783
+#: src/mod_muc_room.erl:4823
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
-#: src/mod_configure.erl:1550
+#: src/mod_configure.erl:1588
 msgid "Incorrect value of 'action' in data form"
 msgstr ""
 
-#: src/mod_configure.erl:1153 src/mod_configure.erl:1186
-#: src/mod_configure.erl:1219 src/mod_configure.erl:1239
-#: src/mod_configure.erl:1259
+#: src/mod_configure.erl:1191 src/mod_configure.erl:1224
+#: src/mod_configure.erl:1257 src/mod_configure.erl:1277
+#: src/mod_configure.erl:1297
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
@@ -940,32 +950,32 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "Vai trò không hợp lệ: ~s"
 
-#: src/mod_muc_room.erl:4239
+#: src/mod_muc_room.erl:4286
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Vai trò không hợp lệ: ~s"
 
-#: src/mod_muc_room.erl:4906
+#: src/mod_muc_room.erl:4953
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "Không được phép gửi những thư riêng đến phòng họp"
 
-#: src/mod_muc_room.erl:385 src/mod_muc_room.erl:533 src/mod_muc_room.erl:1326
+#: src/mod_muc_room.erl:409 src/mod_muc_room.erl:557 src/mod_muc_room.erl:1368
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 
-#: src/mod_muc_room.erl:579 src/mod_muc_room.erl:590
+#: src/mod_muc_room.erl:603 src/mod_muc_room.erl:614
 #, fuzzy
 msgid "It is not allowed to send private messages"
 msgstr "Không được phép gửi những thư riêng đến phòng họp"
 
-#: src/mod_muc_room.erl:547
+#: src/mod_muc_room.erl:571
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "Không được phép gửi những thư riêng loại \"groupchat\""
 
-#: src/mod_muc_room.erl:396
+#: src/mod_muc_room.erl:420
 msgid "It is not allowed to send private messages to the conference"
 msgstr "Không được phép gửi những thư riêng đến phòng họp"
 
@@ -978,14 +988,15 @@ msgstr "Việc tạo phòng bị ngăn lại theo chính sách dịch vụ"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_vcard_mnesia.erl:113 src/mod_configure.erl:995
-#: src/mod_configure.erl:1012 src/mod_configure.erl:1022
-#: src/mod_configure.erl:1032 src/mod_configure.erl:1042
-#: src/mod_configure.erl:1056 src/mod_configure.erl:1065
-#: src/mod_configure.erl:1332 src/mod_configure.erl:1376
-#: src/mod_configure.erl:1401 src/mod_vcard_sql.erl:170 src/mod_roster.erl:1001
-#: src/mod_muc_admin.erl:558 src/mod_muc_room.erl:4625
-#: src/mod_muc_room.erl:4693 src/mod_muc_room.erl:4760
+#: src/mod_roster.erl:1001 src/mod_vcard_mnesia.erl:113
+#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:1012
+#: src/mod_configure.erl:1029 src/mod_configure.erl:1039
+#: src/mod_configure.erl:1049 src/mod_configure.erl:1059
+#: src/mod_configure.erl:1073 src/mod_configure.erl:1082
+#: src/mod_configure.erl:1370 src/mod_configure.erl:1414
+#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4672
+#: src/mod_muc_room.erl:4740 src/mod_muc_room.erl:4807
+#: src/mod_muc_admin.erl:582
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1001,11 +1012,11 @@ msgstr "Tháng Bảy"
 msgid "June"
 msgstr "Tháng Sáu"
 
-#: src/mod_muc_admin.erl:564
+#: src/mod_muc_admin.erl:588
 msgid "Just created"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1019
+#: src/mod_shared_roster.erl:1023
 msgid "Label:"
 msgstr ""
 
@@ -1014,11 +1025,11 @@ msgstr ""
 msgid "Last Activity"
 msgstr "Hoạt Động Cuối Cùng"
 
-#: src/mod_configure.erl:1378
+#: src/mod_configure.erl:1416
 msgid "Last login"
 msgstr "Đăng nhập lần cuối"
 
-#: src/mod_muc_admin.erl:560
+#: src/mod_muc_admin.erl:584
 #, fuzzy
 msgid "Last message"
 msgstr "Năm trước"
@@ -1036,20 +1047,20 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:512
+#: src/mod_muc_admin.erl:536
 msgid "List of rooms"
 msgstr ""
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4803
 #, fuzzy
 msgid "List of users with hats"
 msgstr "Danh sách các môđun khởi động"
 
-#: src/mod_muc_room.erl:4221 src/mod_muc_room.erl:4327
+#: src/mod_muc_room.erl:4268 src/mod_muc_room.erl:4374
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:563
+#: src/mod_muc_admin.erl:587
 msgid "Logging"
 msgstr ""
 
@@ -1057,7 +1068,7 @@ msgstr ""
 msgid "Low level update script"
 msgstr "Lệnh cập nhật mức độ thấp"
 
-#: src/mod_mam.erl:663
+#: src/mod_mam.erl:728
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "Việc tạo phòng bị ngăn lại theo chính sách dịch vụ"
@@ -1111,8 +1122,8 @@ msgstr ""
 msgid "Max payload size in bytes"
 msgstr "Kích thước dung lượng byte tối đa"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1666
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:801
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr ""
 
@@ -1133,15 +1144,15 @@ msgstr "Số mục tối đa để lưu trữ"
 msgid "May"
 msgstr "Tháng Năm"
 
-#: src/mod_shared_roster.erl:1058
+#: src/mod_shared_roster.erl:1062
 msgid "Members not added (inexistent vhost!): "
 msgstr ""
 
-#: src/mod_shared_roster.erl:1033
+#: src/mod_shared_roster.erl:1037
 msgid "Members:"
 msgstr "Thành viên:"
 
-#: src/mod_muc_room.erl:2124
+#: src/mod_muc_room.erl:2166
 #, fuzzy
 msgid "Membership is required to enter this room"
 msgstr "Yêu cầu tư cách thành viên khi tham gia vào phòng này"
@@ -1160,7 +1171,8 @@ msgstr "Bộ Nhớ"
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
-#: src/mod_configure.erl:948 src/mod_configure.erl:988 src/mod_announce.erl:528
+#: src/mod_announce.erl:528 src/mod_configure.erl:965
+#: src/mod_configure.erl:1005
 msgid "Message body"
 msgstr "Thân thư"
 
@@ -1180,9 +1192,9 @@ msgstr ""
 msgid "Messages of type normal"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
-#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Middle Name"
 msgstr "Họ Đệm"
 
@@ -1195,15 +1207,15 @@ msgstr ""
 msgid "Moderator"
 msgstr "nhà điều phối duy nhất"
 
-#: src/mod_muc_room.erl:2848 src/mod_muc_room.erl:4415
-#: src/mod_muc_room.erl:4471 src/mod_muc_room.erl:4514
+#: src/mod_muc_room.erl:2890 src/mod_muc_room.erl:4462
+#: src/mod_muc_room.erl:4518 src/mod_muc_room.erl:4561
 msgid "Moderator privileges required"
 msgstr "Yêu cầu đặc quyền của nhà điều phối"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1685
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2240
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:836
 #, fuzzy
 msgid "Moderators Only"
 msgstr "nhà điều phối duy nhất"
@@ -1221,8 +1233,8 @@ msgstr ""
 msgid "Monday"
 msgstr "Thứ Hai"
 
-#: src/mod_muc_admin.erl:486 src/mod_muc_admin.erl:489
-#: src/mod_muc_admin.erl:505 src/mod_muc_admin.erl:580
+#: src/mod_muc_admin.erl:510 src/mod_muc_admin.erl:513
+#: src/mod_muc_admin.erl:529 src/mod_muc_admin.erl:604
 msgid "Multi-User Chat"
 msgstr ""
 
@@ -1234,22 +1246,22 @@ msgstr ""
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr ""
 
+#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
-#: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 msgid "Name"
 msgstr "Tên"
 
-#: src/mod_shared_roster.erl:1022
+#: src/mod_shared_roster.erl:1026
 msgid "Name in the rosters where this group will be displayed"
 msgstr ""
 
-#: src/mod_shared_roster.erl:921 src/mod_shared_roster.erl:1015
+#: src/mod_shared_roster.erl:925 src/mod_shared_roster.erl:1019
 msgid "Name:"
 msgstr "Tên:"
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1968
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:897
 msgid "Natural Language for Room Discussions"
 msgstr ""
 
@@ -1257,16 +1269,16 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:3030
+#: src/mod_muc_room.erl:3072
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2830 src/mod_muc_room.erl:3035
+#: src/mod_muc_room.erl:2872 src/mod_muc_room.erl:3077
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_configure.erl:1361 src/ejabberd_web_admin.erl:736
-#: src/ejabberd_web_admin.erl:944
+#: src/ejabberd_web_admin.erl:736 src/ejabberd_web_admin.erl:944
+#: src/mod_configure.erl:1399
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "Không bao giờ"
@@ -1276,37 +1288,37 @@ msgstr "Không bao giờ"
 msgid "New Password:"
 msgstr "Mật Khẩu:"
 
-#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: src/mod_vcard_sql.erl:161 src/mod_vcard_sql.erl:175 src/mod_roster.erl:1002
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: _build/default/lib/xmpp/src/muc_register.erl:536
+#: src/mod_roster.erl:1002 src/mod_vcard_mnesia.erl:104
+#: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
+#: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
 #: _build/default/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "Bí danh"
 
-#: src/mod_muc.erl:1045
+#: src/mod_muc.erl:1062
 msgid "Nickname Registration at "
 msgstr "Đăng Ký Bí Danh tại"
 
-#: src/mod_muc_room.erl:1275 src/mod_muc_room.erl:2145
-#: src/mod_muc_room.erl:4438
+#: src/mod_muc_room.erl:1317 src/mod_muc_room.erl:2187
+#: src/mod_muc_room.erl:4485
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3047
+#: src/mod_muc_room.erl:3089
 msgid "Nickname ~s does not exist in the room"
 msgstr "Bí danh ~s không tồn tại trong phòng này"
 
-#: src/mod_muc_room.erl:3456
+#: src/mod_muc_room.erl:3498
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:2812
+#: src/mod_muc_room.erl:2854
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "Nút không tìm thấy"
 
-#: src/mod_configure.erl:1543
+#: src/mod_configure.erl:1581
 msgid "No 'password' found in data form"
 msgstr ""
 
@@ -1314,13 +1326,13 @@ msgstr ""
 msgid "No 'password' found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:1135 src/mod_configure.erl:1168
-#: src/mod_configure.erl:1201 src/mod_configure.erl:1233
-#: src/mod_configure.erl:1253
+#: src/mod_configure.erl:1173 src/mod_configure.erl:1206
+#: src/mod_configure.erl:1239 src/mod_configure.erl:1271
+#: src/mod_configure.erl:1291
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:4902
+#: src/mod_muc_room.erl:4949
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1351,7 +1363,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "Không có nội dung trong thư thông báo"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1184
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1226
 #, fuzzy
 msgid "No child elements found"
 msgstr "Nút không tìm thấy"
@@ -1377,18 +1389,17 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3576
+#: src/mod_muc_room.erl:3618
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Không giới hạn"
 
-#: src/gen_iq_handler.erl:82 src/mod_blocking.erl:83 src/mod_blocking.erl:101
-#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:242
-#: src/mod_muc.erl:653 src/mod_muc.erl:720 src/mod_muc.erl:740
-#: src/mod_muc.erl:771 src/mod_offline.erl:364 src/mod_jidprep.erl:164
-#: src/mod_stun_disco.erl:482 src/mod_mix.erl:672 src/mod_privacy.erl:156
-#: src/mod_privacy.erl:273 src/mod_http_upload.erl:771
-#: src/ejabberd_captcha.erl:225
+#: src/mod_jidprep.erl:164 src/mod_blocking.erl:83 src/mod_blocking.erl:101
+#: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:247
+#: src/mod_muc.erl:662 src/mod_muc.erl:729 src/mod_muc.erl:749
+#: src/mod_muc.erl:780 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/mod_offline.erl:364 src/ejabberd_captcha.erl:225 src/mod_mix.erl:672
+#: src/mod_privacy.erl:156 src/mod_privacy.erl:273 src/mod_http_upload.erl:771
 msgid "No module is handling this query"
 msgstr ""
 
@@ -1409,10 +1420,10 @@ msgstr ""
 msgid "No private data found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:818 src/mod_configure.erl:1097
-#: src/mod_configure.erl:1130 src/mod_configure.erl:1163
-#: src/mod_configure.erl:1196 src/mod_configure.erl:1228
-#: src/mod_configure.erl:1248 src/mod_stats.erl:93
+#: src/mod_stats.erl:93 src/mod_configure.erl:835 src/mod_configure.erl:1135
+#: src/mod_configure.erl:1168 src/mod_configure.erl:1201
+#: src/mod_configure.erl:1234 src/mod_configure.erl:1266
+#: src/mod_configure.erl:1286
 #, fuzzy
 msgid "No running node found"
 msgstr "Nút không tìm thấy"
@@ -1425,13 +1436,13 @@ msgstr ""
 msgid "No statistics found for this item"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1734
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:838
 msgid "Nobody"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:566
+#: src/ejabberd_web_admin.erl:1809 src/mod_muc_admin.erl:590
 #, fuzzy
 msgid "Node"
 msgstr "Nút"
@@ -1440,7 +1451,7 @@ msgstr "Nút"
 msgid "Node ID"
 msgstr "ID Nút"
 
-#: src/nodetree_tree.erl:228 src/nodetree_tree_sql.erl:307
+#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:228
 msgid "Node already exists"
 msgstr ""
 
@@ -1449,13 +1460,12 @@ msgstr ""
 msgid "Node index not found"
 msgstr "Nút không tìm thấy"
 
-#: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:77
-#: src/nodetree_tree.erl:83 src/mod_muc.erl:718 src/mod_muc.erl:983
-#: src/mod_muc_room.erl:4170 src/mod_muc_room.erl:4188
-#: src/mod_muc_room.erl:4206 src/mod_muc_room.erl:4224
-#: src/mod_muc_room.erl:4329 src/mod_muc_room.erl:4344
-#: src/mod_muc_room.erl:4348 src/nodetree_tree_sql.erl:127
-#: src/nodetree_tree_sql.erl:141
+#: src/ejabberd_web_admin.erl:533 src/mod_muc.erl:727 src/mod_muc.erl:1000
+#: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
+#: src/mod_muc_room.erl:4217 src/mod_muc_room.erl:4235
+#: src/mod_muc_room.erl:4253 src/mod_muc_room.erl:4271
+#: src/mod_muc_room.erl:4376 src/mod_muc_room.erl:4391
+#: src/mod_muc_room.erl:4395 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Nút không tìm thấy"
 
@@ -1489,7 +1499,7 @@ msgstr "Nút không tìm thấy"
 msgid "Not allowed"
 msgstr "Nút không tìm thấy"
 
-#: src/mod_last.erl:145 src/mod_disco.erl:276 src/mod_disco.erl:335
+#: src/mod_disco.erl:276 src/mod_disco.erl:335 src/mod_last.erl:145
 msgid "Not subscribed"
 msgstr ""
 
@@ -1523,11 +1533,11 @@ msgstr "Số người sử dụng trực tuyến"
 msgid "Number of occupants"
 msgstr "Số người tham dự"
 
-#: src/mod_configure.erl:1085
+#: src/mod_configure.erl:1123
 msgid "Number of online users"
 msgstr "Số người sử dụng trực tuyến"
 
-#: src/mod_configure.erl:1075
+#: src/mod_configure.erl:1102
 msgid "Number of registered users"
 msgstr "Số người sử dụng đã đăng ký"
 
@@ -1574,13 +1584,13 @@ msgstr "Thư Ngoại Tuyến:"
 msgid "Old Password:"
 msgstr "Mật Khẩu:"
 
-#: src/mod_configure.erl:1371 src/ejabberd_web_admin.erl:754
-#: src/ejabberd_web_admin.erl:955
+#: src/ejabberd_web_admin.erl:754 src/ejabberd_web_admin.erl:955
+#: src/mod_configure.erl:1409
 msgid "Online"
 msgstr "Trực tuyến"
 
-#: src/mod_configure.erl:494 src/ejabberd_web_admin.erl:460
-#: src/ejabberd_web_admin.erl:593 src/ejabberd_web_admin.erl:1933
+#: src/ejabberd_web_admin.erl:460 src/ejabberd_web_admin.erl:593
+#: src/ejabberd_web_admin.erl:1933 src/mod_configure.erl:507
 msgid "Online Users"
 msgstr "Người Sử Dụng Trực Tuyến"
 
@@ -1597,7 +1607,7 @@ msgstr ""
 msgid "Only <list/> element is allowed in this query"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1030
+#: src/mod_shared_roster.erl:1034
 msgid "Only admins can see this"
 msgstr ""
 
@@ -1610,12 +1620,12 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Chỉ gửi thông báo đến những người sử dụng hiện có"
 
-#: src/mod_mam.erl:520
+#: src/mod_mam.erl:521
 #, fuzzy
 msgid "Only members may query archives of this room"
 msgstr "Chỉ có những người điều phối được phép thay đổi chủ đề trong phòng này"
 
-#: src/mod_muc_room.erl:1024
+#: src/mod_muc_room.erl:1066
 #, fuzzy
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
@@ -1624,21 +1634,21 @@ msgstr ""
 "Chỉ có những người điều phối và những người tham gia được phép thay đổi chủ "
 "đề trong phòng này"
 
-#: src/mod_muc_room.erl:1029
+#: src/mod_muc_room.erl:1071
 #, fuzzy
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Chỉ có những người điều phối được phép thay đổi chủ đề trong phòng này"
 
-#: src/mod_muc_room.erl:1168
+#: src/mod_muc_room.erl:1210
 #, fuzzy
 msgid "Only moderators can approve voice requests"
 msgstr "Cho phép người sử dụng gửi lời mời"
 
-#: src/mod_muc_room.erl:585 src/mod_muc_room.erl:1043 src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:609 src/mod_muc_room.erl:1085 src/mod_muc_room.erl:5018
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Chỉ có những đối tượng tham gia mới được phép gửi thư đến phòng họp"
 
-#: src/mod_muc_room.erl:631
+#: src/mod_muc_room.erl:655
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr ""
 "Chỉ có những đối tượng tham gia mới được phép gửi yêu cầu đến phòng họp"
@@ -1648,7 +1658,7 @@ msgstr ""
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:232
+#: src/mod_muc.erl:237
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Chỉ có người quản trị dịch vụ mới được phép gửi những thư dịch vụ"
 
@@ -1661,19 +1671,19 @@ msgstr ""
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
+#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
-#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 msgid "Organization Name"
 msgstr "Tên Tổ Chức"
 
+#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
-#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 msgid "Organization Unit"
 msgstr "Bộ Phận"
 
-#: src/mod_configure.erl:496
+#: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
 msgstr "Kết Nối Bên Ngoài s2s"
 
@@ -1682,10 +1692,10 @@ msgid "Outgoing s2s Connections:"
 msgstr "Kết Nối Bên Ngoài s2s:"
 
 #: src/mod_pubsub.erl:1365 src/mod_pubsub.erl:1460 src/mod_pubsub.erl:1634
-#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2306 src/mod_pubsub.erl:2516
-#: src/mod_pubsub.erl:2610 src/mod_pubsub.erl:3318 src/mod_pubsub.erl:3488
-#: src/mod_mix.erl:677 src/mod_muc_room.erl:3403 src/mod_muc_room.erl:3448
-#: src/mod_muc_room.erl:4391
+#: src/mod_pubsub.erl:2240 src/mod_pubsub.erl:2318 src/mod_pubsub.erl:2528
+#: src/mod_pubsub.erl:2622 src/mod_pubsub.erl:3330 src/mod_pubsub.erl:3500
+#: src/mod_mix.erl:677 src/mod_muc_room.erl:3445 src/mod_muc_room.erl:3490
+#: src/mod_muc_room.erl:4438
 msgid "Owner privileges required"
 msgstr "Yêu cầu đặc quyền của người sở hữu"
 
@@ -1703,15 +1713,15 @@ msgstr "Việc tạo phòng bị ngăn lại theo chính sách dịch vụ"
 msgid "Participant"
 msgstr ""
 
-#: src/mod_configure.erl:999 src/mod_configure.erl:1046
-#: src/mod_configure.erl:1334 src/mod_configure.erl:1523
 #: src/ejabberd_web_admin.erl:665 src/mod_register.erl:245
-#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:502
+#: src/mod_configure.erl:1016 src/mod_configure.erl:1063
+#: src/mod_configure.erl:1372 src/mod_configure.erl:1561
+#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:510
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "Mật Khẩu"
 
-#: src/mod_configure.erl:1003
+#: src/mod_configure.erl:1020
 msgid "Password Verification"
 msgstr "Kiểm Tra Mật Khẩu"
 
@@ -1725,12 +1735,12 @@ msgstr "Kiểm Tra Mật Khẩu"
 msgid "Password:"
 msgstr "Mật Khẩu:"
 
-#: src/mod_configure.erl:907
+#: src/mod_configure.erl:924
 msgid "Path to Dir"
 msgstr "Đường Dẫn đến Thư Mục"
 
-#: src/mod_configure.erl:861 src/mod_configure.erl:873
-#: src/mod_configure.erl:885 src/mod_configure.erl:896
+#: src/mod_configure.erl:878 src/mod_configure.erl:890
+#: src/mod_configure.erl:902 src/mod_configure.erl:913
 msgid "Path to File"
 msgstr "Đường dẫn đến Tập Tin"
 
@@ -1746,12 +1756,12 @@ msgstr "Chờ"
 msgid "Period: "
 msgstr "Giai đoạn: "
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:309
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "Những mục cần để lưu trữ"
 
-#: src/mod_muc_admin.erl:562
+#: src/mod_muc_admin.erl:586
 #, fuzzy
 msgid "Persistent"
 msgstr "Tạo phòng bền vững"
@@ -1760,7 +1770,7 @@ msgstr "Tạo phòng bền vững"
 msgid "Ping"
 msgstr "Ping"
 
-#: src/mod_ping.erl:178
+#: src/mod_ping.erl:194
 msgid "Ping query is incorrect"
 msgstr ""
 
@@ -1775,7 +1785,7 @@ msgstr ""
 "Mnesia. Nếu bạn đang sử dụng môđun ODBC, bạn cũng cần sao lưu cơ sở dữ liệu "
 "SQL của bạn riêng biệt."
 
-#: src/mod_muc_room.erl:1129
+#: src/mod_muc_room.erl:1171
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 
@@ -1816,7 +1826,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "Yêu cầu người đăng ký môđun Xuất Bản Đăng Ký"
 
-#: src/mod_muc_admin.erl:561
+#: src/mod_muc_admin.erl:585
 msgid "Public"
 msgstr ""
 
@@ -1825,7 +1835,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "Xác định mô hình nhà xuất bản"
 
-#: src/mod_pubsub.erl:4308
+#: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
 msgstr "Xuất Bản-Đăng Ký"
 
@@ -1833,27 +1843,27 @@ msgstr "Xuất Bản-Đăng Ký"
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
 
-#: src/mod_push.erl:354
+#: src/mod_push.erl:358
 #, fuzzy
 msgid "Push record not found"
 msgstr "Nút không tìm thấy"
 
-#: src/mod_muc_room.erl:626
+#: src/mod_muc_room.erl:650
 msgid "Queries to the conference members are not allowed in this room"
 msgstr ""
 "Không được phép gửi các yêu cầu gửi đến các thành viên trong phòng họp này"
 
-#: src/mod_blocking.erl:76 src/mod_mix_pam.erl:311 src/mod_roster.erl:157
-#: src/mod_private.erl:199 src/mod_disco.erl:305 src/mod_disco.erl:362
-#: src/mod_offline.erl:331 src/mod_privacy.erl:134 src/mod_sic.erl:77
+#: src/mod_blocking.erl:76 src/mod_disco.erl:305 src/mod_disco.erl:362
+#: src/mod_mix_pam.erl:311 src/mod_roster.erl:157 src/mod_offline.erl:331
+#: src/mod_privacy.erl:134 src/mod_private.erl:199 src/mod_sic.erl:77
 msgid "Query to another users is forbidden"
 msgstr ""
 
-#: src/mod_configure.erl:804 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:1559 src/mod_configure.erl:821
 msgid "RAM and disc copy"
 msgstr "Sao chép vào RAM và đĩa"
 
-#: src/mod_configure.erl:802 src/ejabberd_web_admin.erl:1558
+#: src/ejabberd_web_admin.erl:1558 src/mod_configure.erl:819
 msgid "RAM copy"
 msgstr "Sao chép vào RAM"
 
@@ -1881,7 +1891,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:554 src/mod_muc_room.erl:603
+#: src/mod_muc_room.erl:578 src/mod_muc_room.erl:627
 msgid "Recipient is not in the conference room"
 msgstr "Người nhận không có trong phòng họp"
 
@@ -1903,7 +1913,7 @@ msgstr "Người Sử Dụng Đã Đăng Ký"
 msgid "Registered Users:"
 msgstr "Người Sử Dụng Đã Đăng Ký:"
 
-#: src/mod_configure.erl:808 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:1561 src/mod_configure.erl:825
 msgid "Remote copy"
 msgstr "Sao chép từ xa"
 
@@ -1916,12 +1926,12 @@ msgstr "Gỡ bỏ"
 msgid "Remove All Offline Messages"
 msgstr "Thư Ngoại Tuyến"
 
-#: src/mod_configure.erl:1521 src/ejabberd_web_admin.erl:977
+#: src/ejabberd_web_admin.erl:977 src/mod_configure.erl:1559
 msgid "Remove User"
 msgstr "Gỡ Bỏ Người Sử Dụng"
 
-#: src/mod_muc_room.erl:4203 src/mod_muc_room.erl:4323
-#: src/mod_muc_room.erl:4688
+#: src/mod_muc_room.erl:4250 src/mod_muc_room.erl:4370
+#: src/mod_muc_room.erl:4735
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1929,12 +1939,12 @@ msgstr ""
 msgid "Replaced by new connection"
 msgstr "Được thay thế bởi kết nối mới"
 
-#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:218 src/mod_muc_room.erl:227
-#: src/mod_muc_room.erl:869
+#: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:237 src/mod_muc_room.erl:246
+#: src/mod_muc_room.erl:911
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:757 src/mod_muc_room.erl:772
+#: src/mod_muc_room.erl:797 src/mod_muc_room.erl:812
 msgid "Request is ignored"
 msgstr ""
 
@@ -1942,7 +1952,7 @@ msgstr ""
 msgid "Requested role"
 msgstr ""
 
-#: src/mod_configure.erl:1407
+#: src/mod_configure.erl:1445
 msgid "Resources"
 msgstr "Nguồn tài nguyên"
 
@@ -1950,16 +1960,16 @@ msgstr "Nguồn tài nguyên"
 msgid "Restart"
 msgstr "Khởi động lại"
 
-#: src/mod_configure.erl:157 src/mod_configure.erl:570
-#: src/mod_configure.erl:918
+#: src/mod_configure.erl:157 src/mod_configure.erl:587
+#: src/mod_configure.erl:935
 msgid "Restart Service"
 msgstr "Khởi Động Lại Dịch Vụ"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:584
+#: src/mod_configure.erl:146 src/mod_configure.erl:601
 msgid "Restore"
 msgstr "Khôi phục"
 
-#: src/mod_configure.erl:868
+#: src/mod_configure.erl:885
 msgid "Restore Backup from File at "
 msgstr "Phục hồi Sao Lưu từ Tập Tin tại "
 
@@ -1986,8 +1996,8 @@ msgstr ""
 msgid "Roles for which Presence is Broadcasted"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1699
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:850
 #, fuzzy
 msgid "Roles that May Send Private Messages"
 msgstr "Cho phép người sử dụng gửi thư riêng"
@@ -2001,22 +2011,22 @@ msgstr "Cấu Hình Phòng"
 msgid "Room Occupants"
 msgstr "Số người tham dự"
 
-#: src/mod_muc.erl:617
+#: src/mod_muc.erl:626
 msgid "Room creation is denied by service policy"
 msgstr "Việc tạo phòng bị ngăn lại theo chính sách dịch vụ"
 
-#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: src/mod_muc_log.erl:830 _build/default/lib/xmpp/src/muc_roomconfig.erl:2184
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:881
 #, fuzzy
 msgid "Room description"
 msgstr "Miêu tả:"
 
-#: src/mod_muc_room.erl:896
+#: src/mod_muc_room.erl:938
 #, fuzzy
 msgid "Room terminates"
 msgstr "Tên phòng"
 
-#: src/mod_muc_admin.erl:565 src/mod_muc_log.erl:794
+#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:589
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Tên phòng"
@@ -2030,7 +2040,7 @@ msgstr ""
 msgid "Roster of ~ts"
 msgstr "Bảng phân công của "
 
-#: src/mod_configure.erl:1403
+#: src/mod_configure.erl:1441
 msgid "Roster size"
 msgstr "Kích thước bảng phân công"
 
@@ -2039,7 +2049,7 @@ msgstr "Kích thước bảng phân công"
 msgid "Roster:"
 msgstr "Bảng phân công"
 
-#: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1095
+#: src/ejabberd_web_admin.erl:1095 src/mod_configure.erl:511
 msgid "Running Nodes"
 msgstr "Nút Hoạt Động"
 
@@ -2084,7 +2094,7 @@ msgstr ""
 msgid "Send announcement to all online users"
 msgstr "Gửi thông báo đến tất cả người sử dụng trực tuyến"
 
-#: src/mod_configure.erl:941 src/mod_configure.erl:981 src/mod_announce.erl:615
+#: src/mod_announce.erl:615 src/mod_configure.erl:958 src/mod_configure.erl:998
 msgid "Send announcement to all online users on all hosts"
 msgstr ""
 "Gửi thông báo đến tất cả người sử dụng trực tuyến trên tất cả các máy chủ"
@@ -2125,8 +2135,8 @@ msgstr ""
 "Tạo lập thư trong ngày trên tất cả các máy chủ và gửi đến những người sử "
 "dụng trực tuyến"
 
-#: src/mod_shared_roster.erl:897 src/mod_shared_roster.erl:943
-#: src/mod_shared_roster.erl:1050
+#: src/mod_shared_roster.erl:901 src/mod_shared_roster.erl:947
+#: src/mod_shared_roster.erl:1054
 msgid "Shared Roster Groups"
 msgstr "Nhóm Phân Công Chia Sẻ"
 
@@ -2138,8 +2148,8 @@ msgstr "Hiển Thị Bảng Đầy Đủ"
 msgid "Show Ordinary Table"
 msgstr "Hiển Thị Bảng Thường"
 
-#: src/mod_configure.erl:159 src/mod_configure.erl:572
-#: src/mod_configure.erl:958
+#: src/mod_configure.erl:159 src/mod_configure.erl:589
+#: src/mod_configure.erl:975
 msgid "Shut Down Service"
 msgstr "Tắt Dịch Vụ"
 
@@ -2149,8 +2159,8 @@ msgid ""
 "this only in your personal computer for safety reasons."
 msgstr ""
 
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "Xác định mô hình truy cập"
 
@@ -2173,7 +2183,7 @@ msgstr ""
 
 #: src/ejabberd_web_admin.erl:506 src/ejabberd_web_admin.erl:1125
 #: src/ejabberd_web_admin.erl:1937 src/ejabberd_web_admin.erl:1950
-#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:507
+#: src/ejabberd_web_admin.erl:1962 src/mod_muc_admin.erl:531
 msgid "Statistics"
 msgstr "Số liệu thống kê"
 
@@ -2185,7 +2195,7 @@ msgstr "Thống kê về ~p"
 msgid "Stop"
 msgstr "Dừng"
 
-#: src/mod_configure.erl:499 src/ejabberd_web_admin.erl:1096
+#: src/ejabberd_web_admin.erl:1096 src/mod_configure.erl:512
 msgid "Stopped Nodes"
 msgstr "Nút Dừng"
 
@@ -2209,19 +2219,20 @@ msgstr ""
 msgid "Stream management is not enabled"
 msgstr ""
 
-#: src/mod_configure.erl:945 src/mod_configure.erl:985 src/mod_announce.erl:524
+#: src/mod_announce.erl:524 src/mod_configure.erl:962
+#: src/mod_configure.erl:1002
 msgid "Subject"
 msgstr "Tiêu đề"
 
-#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1068
+#: src/ejabberd_web_admin.erl:1224 src/mod_shared_roster.erl:1072
 msgid "Submit"
 msgstr "Gửi"
 
 #: src/ejabberd_web_admin.erl:651 src/ejabberd_web_admin.erl:961
 #: src/ejabberd_web_admin.erl:1117 src/ejabberd_web_admin.erl:1145
 #: src/ejabberd_web_admin.erl:1239 src/ejabberd_web_admin.erl:1474
-#: src/mod_roster.erl:1060 src/mod_shared_roster.erl:947
-#: src/mod_shared_roster.erl:1055 src/mod_offline.erl:1003
+#: src/mod_roster.erl:1060 src/mod_offline.erl:1003
+#: src/mod_shared_roster.erl:951 src/mod_shared_roster.erl:1059
 msgid "Submitted"
 msgstr "Đã gửi"
 
@@ -2245,7 +2256,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4402
+#: src/mod_muc_room.erl:4449
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2269,14 +2280,14 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1266 src/mod_muc_room.erl:2134
-#: src/mod_muc_room.erl:4428
+#: src/mod_muc_room.erl:1308 src/mod_muc_room.erl:2176
+#: src/mod_muc_room.erl:4475
 #, fuzzy
 msgid "That nickname is already in use by another occupant"
 msgstr "Bí danh đang do một người tham dự khác sử dụng"
 
-#: src/mod_muc.erl:1068 src/mod_muc_room.erl:1278 src/mod_muc_room.erl:2148
-#: src/mod_muc_room.erl:4442
+#: src/mod_muc.erl:1085 src/mod_muc_room.erl:1320 src/mod_muc_room.erl:2190
+#: src/mod_muc_room.erl:4489
 #, fuzzy
 msgid "That nickname is registered by another person"
 msgstr "Một người khác đã đăng ký bí danh này rồi"
@@ -2285,9 +2296,9 @@ msgstr "Một người khác đã đăng ký bí danh này rồi"
 msgid "The CAPTCHA is valid."
 msgstr ""
 
-#: src/mod_block_strangers.erl:150 src/mod_register.erl:207
-#: src/mod_muc_room.erl:850 src/mod_muc_room.erl:4364
-#: src/ejabberd_captcha.erl:218
+#: src/ejabberd_captcha.erl:218 src/mod_register.erl:207
+#: src/mod_muc_room.erl:890 src/mod_muc_room.erl:4411
+#: src/mod_block_strangers.erl:150
 msgid "The CAPTCHA verification has failed"
 msgstr ""
 
@@ -2363,12 +2374,21 @@ msgstr ""
 msgid "The default language of the node"
 msgstr ""
 
-#: src/mod_muc_room.erl:460
+#: src/mod_muc_room.erl:484
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
+msgstr ""
+
+#: src/mod_configure.erl:1113
+#, fuzzy
+msgid "The list of all online users"
+msgstr "Số người sử dụng trực tuyến"
+
+#: src/mod_configure.erl:1092
+msgid "The list of all users"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
@@ -2435,7 +2455,7 @@ msgstr "mật khẩu là"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 
-#: src/mod_register.erl:172 src/mod_vcard.erl:231
+#: src/mod_vcard.erl:231 src/mod_register.erl:172
 msgid "The query is only allowed from local users"
 msgstr ""
 
@@ -2511,7 +2531,7 @@ msgstr "Thứ Năm"
 msgid "Time"
 msgstr "Thời Gian"
 
-#: src/mod_configure.erl:923 src/mod_configure.erl:963
+#: src/mod_configure.erl:940 src/mod_configure.erl:980
 msgid "Time delay"
 msgstr "Thời gian trì hoãn"
 
@@ -2527,12 +2547,12 @@ msgstr "Đến"
 msgid "To register, visit ~s"
 msgstr ""
 
-#: src/mod_configure.erl:666
+#: src/mod_configure.erl:683
 #, fuzzy
 msgid "To ~ts"
 msgstr "Gửi đến ~s"
 
-#: src/ejabberd_oauth.erl:510
+#: src/ejabberd_oauth.erl:518
 msgid "Token TTL"
 msgstr ""
 
@@ -2542,7 +2562,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr ""
 
-#: src/mod_muc_room.erl:2817 src/mod_muc_room.erl:3462
+#: src/mod_muc_room.erl:2859 src/mod_muc_room.erl:3504
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2550,8 +2570,8 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_block_strangers.erl:127 src/mod_register.erl:262
-#: src/mod_muc_room.erl:2218
+#: src/mod_register.erl:262 src/mod_muc_room.erl:2260
+#: src/mod_block_strangers.erl:127
 msgid "Too many CAPTCHA requests"
 msgstr ""
 
@@ -2559,7 +2579,7 @@ msgstr ""
 msgid "Too many active bytestreams"
 msgstr ""
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1186
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1228
 msgid "Too many child elements"
 msgstr ""
 
@@ -2571,16 +2591,16 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr ""
 
-#: src/mod_muc_room.erl:2093
+#: src/mod_muc_room.erl:2135
 msgid "Too many users in this conference"
 msgstr ""
 
-#: src/mod_muc_admin.erl:509
+#: src/mod_muc_admin.erl:533
 #, fuzzy
 msgid "Total rooms"
 msgstr "Phòng trò chuyện"
 
-#: src/mod_muc_room.erl:325
+#: src/mod_muc_room.erl:349
 msgid "Traffic rate limit is exceeded"
 msgstr "Quá giới hạn tỷ lệ lưu lượng truyền tải"
 
@@ -2608,8 +2628,8 @@ msgstr "Thứ Ba"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_block_strangers.erl:131 src/mod_register.erl:266
-#: src/mod_muc_room.erl:2227
+#: src/mod_register.erl:266 src/mod_muc_room.erl:2269
+#: src/mod_block_strangers.erl:131
 msgid "Unable to generate a CAPTCHA"
 msgstr ""
 
@@ -2623,8 +2643,8 @@ msgstr ""
 msgid "Unauthorized"
 msgstr ""
 
-#: src/mod_configure.erl:776 src/mod_configure.erl:1498
-#: src/mod_announce.erl:493
+#: src/mod_announce.erl:493 src/mod_configure.erl:793
+#: src/mod_configure.erl:1536
 msgid "Unexpected action"
 msgstr ""
 
@@ -2645,7 +2665,7 @@ msgstr ""
 msgid "Unselect All"
 msgstr ""
 
-#: src/mod_mam.erl:695
+#: src/mod_mam.erl:760
 msgid "Unsupported <index/> element"
 msgstr ""
 
@@ -2683,13 +2703,13 @@ msgstr "Cập Nhật "
 msgid "Uptime:"
 msgstr "Thời gian tải lên:"
 
-#: src/mod_vcard_mnesia.erl:99 src/mod_vcard_sql.erl:156
-#: src/ejabberd_web_admin.erl:660 src/ejabberd_web_admin.erl:716
-#: src/mod_register.erl:241 src/mod_vcard_ldap.erl:332
+#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:660
+#: src/ejabberd_web_admin.erl:716 src/mod_vcard_mnesia.erl:99
+#: src/mod_vcard_sql.erl:156 src/mod_register.erl:241
 msgid "User"
 msgstr "Người sử dụng"
 
-#: src/ejabberd_oauth.erl:499
+#: src/ejabberd_oauth.erl:507
 #, fuzzy
 msgid "User (jid)"
 msgstr "Người sử dụng "
@@ -2700,7 +2720,7 @@ msgstr "Người sử dụng "
 msgid "User JID"
 msgstr "Người sử dụng "
 
-#: src/mod_configure.erl:298 src/mod_configure.erl:493
+#: src/mod_configure.erl:307 src/mod_configure.erl:506
 msgid "User Management"
 msgstr "Quản Lý Người Sử Dụng"
 
@@ -2712,7 +2732,7 @@ msgstr ""
 msgid "User removed"
 msgstr ""
 
-#: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
+#: src/mod_push.erl:343 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
 #, fuzzy
 msgid "User session not found"
 msgstr "Nút không tìm thấy"
@@ -2750,36 +2770,36 @@ msgstr "Người ghé thăm không được phép gửi thư đến tất cả c
 msgid "Validate"
 msgstr "Xác nhận hợp lệ"
 
-#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:104 src/mod_push.erl:321
-#: src/mod_muc_room.erl:4354 src/mod_muc_room.erl:4518
-#: src/ejabberd_captcha.erl:222
+#: src/mod_push.erl:325 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:222
+#: src/mod_muc_room.erl:4401 src/mod_muc_room.erl:4565
+#: src/mod_carboncopy.erl:104
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/mod_stats.erl:55 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_last.erl:108 src/mod_last.erl:126
-#: src/mod_muc.erl:650 src/mod_muc.erl:684 src/mod_muc.erl:725
-#: src/mod_muc.erl:745 src/mod_muc.erl:755 src/mod_disco.erl:137
-#: src/mod_disco.erl:153 src/mod_disco.erl:259 src/mod_disco.erl:311
+#: src/mod_jidprep.erl:137 src/mod_disco.erl:137 src/mod_disco.erl:153
+#: src/mod_disco.erl:259 src/mod_disco.erl:311 src/mod_vcard.erl:205
+#: src/mod_vcard.erl:248 src/mod_muc.erl:659 src/mod_muc.erl:693
+#: src/mod_muc.erl:734 src/mod_muc.erl:754 src/mod_muc.erl:764
+#: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
+#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:55
+#: src/mod_mix.erl:159 src/mod_mix.erl:206 src/mod_muc_room.erl:4195
+#: src/mod_muc_room.erl:4336 src/mod_time.erl:55
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_jidprep.erl:137 src/mod_time.erl:55
-#: src/mod_stun_disco.erl:479 src/mod_mix.erl:159 src/mod_mix.erl:206
-#: src/mod_sic.erl:68 src/mod_sic.erl:80 src/mod_muc_room.erl:4148
-#: src/mod_muc_room.erl:4289 src/mod_version.erl:53 src/mod_vcard.erl:205
-#: src/mod_vcard.erl:248
+#: src/mod_proxy65_service.erl:172 src/mod_last.erl:108 src/mod_last.erl:126
+#: src/mod_sic.erl:68 src/mod_sic.erl:80
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
+#: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
 msgstr ""
 
-#: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
+#: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
 msgstr ""
 
-#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
+#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 msgid "Value of '~s' should be integer"
 msgstr ""
 
@@ -2800,20 +2820,20 @@ msgstr "Máy Chủ Ảo"
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1259
+#: src/mod_muc_room.erl:1301
 #, fuzzy
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Chỉ có những người điều phối được phép thay đổi chủ đề trong phòng này"
 
-#: src/mod_muc_room.erl:1036
+#: src/mod_muc_room.erl:1078
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Người ghé thăm không được phép gửi thư đến tất cả các người tham dự"
 
-#: src/mod_muc_room.erl:4859
+#: src/mod_muc_room.erl:4906
 msgid "Voice request"
 msgstr ""
 
-#: src/mod_muc_room.erl:1136
+#: src/mod_muc_room.erl:1178
 msgid "Voice requests are disabled in this conference"
 msgstr ""
 
@@ -2909,13 +2929,13 @@ msgstr ""
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1984
+#: _build/default/lib/xmpp/src/muc_roominfo.erl:1010
 #, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "Môdun ejabberd Xuất Bản-Đăng Ký Bản quyền"
 
-#: src/mod_muc_room.erl:894
+#: src/mod_muc_room.erl:936
 msgid "You are being removed from the room because of a system shutdown"
 msgstr ""
 
@@ -2928,15 +2948,15 @@ msgstr "Không được phép gửi những thư riêng đến phòng họp"
 msgid "You can later change your password using an XMPP client."
 msgstr ""
 
-#: src/mod_muc_room.erl:2121
+#: src/mod_muc_room.erl:2163
 msgid "You have been banned from this room"
 msgstr "Bạn bị cấm tham gia phòng này"
 
-#: src/mod_muc_room.erl:2102
+#: src/mod_muc_room.erl:2144
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1099
+#: src/mod_muc.erl:1116
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Bạn phải điền thông tin vào ô \"Nickname\" trong biểu mẫu này"
 
@@ -2947,7 +2967,7 @@ msgstr ""
 "Bạn cần có một trình ứng dụng khách hỗ trợ định dạng dữ liệu x: để đăng ký "
 "bí danh"
 
-#: src/mod_muc.erl:1054
+#: src/mod_muc.erl:1071
 #, fuzzy
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
@@ -2974,7 +2994,7 @@ msgstr "Đăng Ký Bí Danh tại"
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Đăng Ký Bí Danh tại"
 
-#: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
+#: src/ejabberd_c2s.erl:708 src/ejabberd_c2s.erl:864
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr ""
 
@@ -2999,7 +3019,7 @@ msgstr "Giao diện Web ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:644
+#: src/mod_muc.erl:653
 msgid "ejabberd MUC module"
 msgstr "Môdun ejabberd MUC Bản quyền"
 
@@ -3056,11 +3076,11 @@ msgstr "tham gia phòng này"
 msgid "leaves the room"
 msgstr "rời khỏi phòng này"
 
-#: src/mod_muc_room.erl:4573
+#: src/mod_muc_room.erl:4620
 msgid "private, "
 msgstr "riêng,"
 
-#: src/mod_muc_room.erl:4935
+#: src/mod_muc_room.erl:4982
 msgid "the password is"
 msgstr "mật khẩu là"
 
@@ -3068,7 +3088,7 @@ msgstr "mật khẩu là"
 msgid "vCard User Search"
 msgstr "Tìm Kiếm Người Sử Dụng vCard"
 
-#: src/mod_muc_room.erl:4928
+#: src/mod_muc_room.erl:4975
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s mời bạn vào phòng ~s"
@@ -3212,13 +3232,13 @@ msgstr "~s's Danh Sách Chờ Thư Ngoại Tuyến"
 #, fuzzy
 #~ msgid ""
 #~ "If you want to specify different ports, passwords, encodings for IRC "
-#~ "servers, fill this list with values in format '{\"irc server\", \"encoding"
-#~ "\", port, \"password\"}'.  By default this service use \"~s\" encoding, "
-#~ "port ~p, empty password."
+#~ "servers, fill this list with values in format '{\"irc server\", "
+#~ "\"encoding\", port, \"password\"}'.  By default this service use \"~s\" "
+#~ "encoding, port ~p, empty password."
 #~ msgstr ""
 #~ "Nếu bạn muốn xác định các cách thức mã hóa khác nhau cho các máy chủ IRC, "
-#~ "hãy điền vào danh sách này những giá trị theo định dạng '{\"máy chủ irc"
-#~ "\", \"mã hóa\"}'. Dịch vụ này mặc định sử dụng định dạng mã hóa \"~s\"."
+#~ "hãy điền vào danh sách này những giá trị theo định dạng '{\"máy chủ "
+#~ "irc\", \"mã hóa\"}'. Dịch vụ này mặc định sử dụng định dạng mã hóa \"~s\"."
 
 #, fuzzy
 #~ msgid "Password ~b"
