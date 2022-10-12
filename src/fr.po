@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-03-27 16:10+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
-"po/fr/>\n"
+"PO-Revision-Date: 2022-06-03 22:14+0000\n"
+"Last-Translator: Maxime Leroy <lisacintosh@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ejabberd/"
+"ejabberd-po/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "X-Language: French (française)\n"
 "X-Additional-Translator: Nicolas Vérité\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -748,14 +748,12 @@ msgid "Full Name"
 msgstr "Nom complet"
 
 #: src/mod_configure.erl:181 src/mod_configure.erl:535
-#, fuzzy
 msgid "Get List of Online Users"
-msgstr "Récupérer le nombre d'utilisateurs en ligne"
+msgstr "Récupérer les utilisateurs en ligne"
 
 #: src/mod_configure.erl:175 src/mod_configure.erl:531
-#, fuzzy
 msgid "Get List of Registered Users"
-msgstr "Récupérer le nombre d'utilisateurs enregistrés"
+msgstr "Récupérer les utilisateurs enregistrés"
 
 #: src/mod_configure.erl:183 src/mod_configure.erl:537
 msgid "Get Number of Online Users"
@@ -816,14 +814,12 @@ msgid "Hat URI"
 msgstr ""
 
 #: src/mod_muc_room.erl:4677 src/mod_muc_room.erl:4810
-#, fuzzy
 msgid "Hat title"
-msgstr "Titre du salon"
+msgstr ""
 
 #: src/mod_muc_room.erl:4720
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "La limite de trafic a été dépassée"
+msgstr "La limite a été dépassée"
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
@@ -966,9 +962,8 @@ msgid "It is not allowed to send private messages to the conference"
 msgstr "Il n'est pas permis d'envoyer des messages privés à la conférence"
 
 #: src/mod_jidprep.erl:160
-#, fuzzy
 msgid "JID normalization denied by service policy"
-msgstr "La création de salons est interdite par le service"
+msgstr ""
 
 #: src/mod_jidprep.erl:154
 msgid "JID normalization failed"
@@ -1037,9 +1032,8 @@ msgid "List of rooms"
 msgstr "Liste des salons"
 
 #: src/mod_muc_room.erl:4803
-#, fuzzy
 msgid "List of users with hats"
-msgstr "Liste des modules à démarrer"
+msgstr ""
 
 #: src/mod_muc_room.erl:4268 src/mod_muc_room.erl:4374
 msgid "List users with hats"
@@ -1138,14 +1132,13 @@ msgid "Membership is required to enter this room"
 msgstr "Vous devez être membre pour accèder à ce salon"
 
 #: src/mod_register_web.erl:268
-#, fuzzy
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 "Mémorisez votre mot de passe, ou écrivez-le sur un papier conservé dans un "
-"endroit secret. Dans Jabber il n'y a pas de mécanisme pour retrouver votre "
-"mot de passe si vous l'avez oublié."
+"endroit secret. Dans XMPP il n'y a pas de mécanisme pour retrouver votre mot "
+"de passe si vous l'avez oublié."
 
 #: src/ejabberd_web_admin.erl:1215 src/ejabberd_web_admin.erl:1826
 msgid "Memory"
@@ -1224,9 +1217,8 @@ msgid "Multicast"
 msgstr "Multidiffusion"
 
 #: src/mod_roster.erl:190
-#, fuzzy
 msgid "Multiple <item/> elements are not allowed by RFC6121"
-msgstr "Les elements <item/> multiples ne sont pas autorisés (rfc6121)"
+msgstr "Les multiples éléments <item/> ne sont pas autorisés avec RFC6121"
 
 #: src/ejabberd_web_admin.erl:1208 src/ejabberd_web_admin.erl:1804
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1317,23 +1309,20 @@ msgid "No 'to' attribute found in the invitation"
 msgstr "L'élément 'to' est absent de l'invitation"
 
 #: src/mod_privilege.erl:423
-#, fuzzy
 msgid "No <forwarded/> element found"
-msgstr "Element <forwarded/> invalide"
+msgstr "Aucun élément <forwarded/> trouvé"
 
 #: src/ejabberd_web_admin.erl:1024
 msgid "No Data"
 msgstr "Aucune information disponible"
 
 #: src/mod_multicast.erl:316
-#, fuzzy
 msgid "No address elements found"
-msgstr "Aucun élément 'item' trouvé"
+msgstr "Aucun élément d'adresse trouvé"
 
 #: src/mod_multicast.erl:313
-#, fuzzy
 msgid "No addresses element found"
-msgstr "Aucun élément 'item' trouvé"
+msgstr "Aucun élément d'adresses trouvé"
 
 #: src/ejabberd_local.erl:103
 msgid "No available resource found"
@@ -1754,9 +1743,8 @@ msgid "Pong"
 msgstr "Pong"
 
 #: src/mod_roster.erl:168
-#, fuzzy
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
-msgstr "Le traitement de l'attribut 'ack' n'est pas autorisé (rfc6121)"
+msgstr "L'appartenance de l'attribut 'ask' n'est pas autorisé avec RFC6121"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2253
 msgid "Present real Jabber IDs to"
@@ -1764,15 +1752,15 @@ msgstr "Rendre le Jabber ID réel visible pour"
 
 #: src/mod_stream_mgmt.erl:788
 msgid "Previous session PID has been killed"
-msgstr ""
+msgstr "Le précédent PID de session a été tuée"
 
 #: src/mod_stream_mgmt.erl:786
 msgid "Previous session PID has exited"
-msgstr ""
+msgstr "Le précédent PID de session a quitté"
 
 #: src/mod_stream_mgmt.erl:784
 msgid "Previous session PID is dead"
-msgstr ""
+msgstr "Le précédent PID de session est mort"
 
 #: src/mod_stream_mgmt.erl:780
 msgid "Previous session not found"
@@ -1788,12 +1776,12 @@ msgstr "Demande d'abonnement PubSub"
 
 #: src/mod_muc_admin.erl:585
 msgid "Public"
-msgstr ""
+msgstr "Public"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:952
 #, fuzzy
 msgid "Publish model"
-msgstr "Définir le modèle de publication"
+msgstr "Publier le modèle"
 
 #: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
@@ -1838,19 +1826,19 @@ msgstr "Confirmer la suppression du message du jour ?"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:712
 msgid "Receive notification from all descendent nodes"
-msgstr ""
+msgstr "Recevoir les notifications de tous les nœuds descendants"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:707
 msgid "Receive notification from direct child nodes only"
-msgstr ""
+msgstr "Recevoir les notifications des nœuds enfants seulement"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:677
 msgid "Receive notification of new items only"
-msgstr ""
+msgstr "Recevoir les notifications des nouveaux éléments uniquement"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:681
 msgid "Receive notification of new nodes only"
-msgstr ""
+msgstr "Recevoir les notifications de tous les nouveaux nœuds descendants"
 
 #: src/mod_muc_room.erl:578 src/mod_muc_room.erl:627
 msgid "Recipient is not in the conference room"
@@ -2009,9 +1997,8 @@ msgid "Running Nodes"
 msgstr "Nœuds actifs"
 
 #: src/mod_proxy65.erl:135
-#, fuzzy
 msgid "SOCKS5 Bytestreams"
-msgstr "ejabberd SOCKS5 Bytestreams module"
+msgstr "SOCKS5 Bytestreams"
 
 #: src/mod_muc_log.erl:473
 msgid "Saturday"
@@ -2031,7 +2018,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/mam_query.erl:390
 msgid "Search the text"
-msgstr ""
+msgstr "Recherche le texte"
 
 #: _build/default/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
@@ -2108,7 +2095,6 @@ msgid "Shut Down Service"
 msgstr "Arrêter le service"
 
 #: src/mod_register_web.erl:264
-#, fuzzy
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
@@ -2132,7 +2118,7 @@ msgstr "Définir le modèle de publication"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:912
 msgid "Stanza ID"
-msgstr ""
+msgstr "Identifiant Stanza"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
@@ -2173,9 +2159,8 @@ msgid "Stream management is already enabled"
 msgstr "La gestion des flux est déjà activée"
 
 #: src/mod_stream_mgmt.erl:345
-#, fuzzy
 msgid "Stream management is not enabled"
-msgstr "La creation implicite de nœud n'est pas disponible"
+msgstr ""
 
 #: src/mod_announce.erl:524 src/mod_configure.erl:962
 #: src/mod_configure.erl:1002
@@ -2201,7 +2186,7 @@ msgstr "Adresse de l'abonné"
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2063
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:939
 msgid "Subscribers may publish"
-msgstr ""
+msgstr "Les souscripteurs peuvent publier"
 
 #: src/mod_roster.erl:1003
 msgid "Subscription"
@@ -2338,13 +2323,12 @@ msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 
 #: src/mod_configure.erl:1113
-#, fuzzy
 msgid "The list of all online users"
-msgstr "Nombre d'utilisateurs en ligne"
+msgstr "Les utilisateurs en ligne"
 
 #: src/mod_configure.erl:1092
 msgid "The list of all users"
-msgstr ""
+msgstr "La liste de tous les utilisateurs"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid ""
@@ -2368,7 +2352,7 @@ msgstr "Le nœud est un nœud de collecte"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
-msgstr ""
+msgstr "Ce nœud est un nœud feuille (défaut)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
@@ -2451,20 +2435,18 @@ msgid "There was an error deleting the account: "
 msgstr "Il y a eu une erreur en effaçant le compte : "
 
 #: src/mod_register_web.erl:242
-#, fuzzy
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 "C'est insensible à la casse : macbeth est identique à MacBeth et Macbeth."
 
 #: src/mod_register_web.erl:226
-#, fuzzy
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
-"Cette page permet de créer un compte XMPP sur ce serveur XMPP. Votre JID "
-"(Jabber IDentifier, identifiant Jabber) sera de la forme : nom@serveur. "
+"Cette page permet de créer un compte XMPP sur ce serveur XMPP. Votre JID ("
+"Jabber IDentifier, identifiant Jabber) sera de la forme : nom@serveur. "
 "Prière de lire avec attention les instructions pour remplir correctement ces "
 "champs."
 
@@ -2763,9 +2745,8 @@ msgid "View Queue"
 msgstr "Afficher la file d’attente"
 
 #: src/mod_roster.erl:1172
-#, fuzzy
 msgid "View Roster"
-msgstr "Liste de contacts"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:439 src/ejabberd_web_admin.erl:1960
 msgid "Virtual Hosts"
@@ -2824,11 +2805,13 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
+msgstr "Quand une entité veut recevoir ou désactiver les notifications"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
+"Quand les propriétaires ou annonceurs doivent revoir des réponses à leurs "
+"éléments"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
@@ -2846,6 +2829,8 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
+"Quand notifier le propriétaire à propos des nouvelles souscriptions et "
+"désinscriptions"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
@@ -2890,14 +2875,13 @@ msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "Module Publish-Subscribe d'ejabberd"
 
 #: src/mod_muc_room.erl:936
-#, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
-msgstr "a été éjecté en raison de l'arrêt du système"
+msgstr ""
+"Vous avez été éjecté du salon de discussion en raison de l'arrêt du système"
 
 #: src/mod_mix.erl:667
-#, fuzzy
 msgid "You are not joined to the channel"
-msgstr "Vous n'êtes pas autorisé à créer des nœuds"
+msgstr "Vous n'avez pas rejoint ce canal"
 
 #: src/mod_register_web.erl:261
 msgid "You can later change your password using an XMPP client."
@@ -2939,9 +2923,8 @@ msgid "You're not allowed to create nodes"
 msgstr "Vous n'êtes pas autorisé à créer des nœuds"
 
 #: src/mod_register_web.erl:92
-#, fuzzy
 msgid "Your XMPP account was successfully registered."
-msgstr "Votre compte XMPP a été effacé avec succès."
+msgstr "Votre compte XMPP a été enregistré avec succès."
 
 #: src/mod_register_web.erl:105
 msgid "Your XMPP account was successfully unregistered."
@@ -3043,9 +3026,8 @@ msgid "vCard User Search"
 msgstr "Recherche dans l'annnuaire"
 
 #: src/mod_muc_room.erl:4975
-#, fuzzy
 msgid "~s invites you to the room ~s"
-msgstr "~s vous a invité dans la salle de discussion ~s"
+msgstr "~s vous invite dans la salle de discussion ~s"
 
 #: src/mod_offline.erl:1001
 #, fuzzy
