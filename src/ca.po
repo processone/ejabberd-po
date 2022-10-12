@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-05-15 21:17+0000\n"
-"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
+"PO-Revision-Date: 2022-10-12 09:49+0000\n"
+"Last-Translator: badlop <badlop@gmx.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/ca/>\n"
 "Language: ca\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Language: Catalan (català)\n"
 "X-Additional-Translator: Vicent Alberola Canet\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -370,9 +370,8 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "No està permès canviar el rol/afiliació"
 
 #: src/mod_mix_pam.erl:504
-#, fuzzy
 msgid "Channel JID"
-msgstr "Canals"
+msgstr "JID del Canal"
 
 #: src/mod_mix.erl:663
 msgid "Channel already exists"
@@ -464,9 +463,8 @@ msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "Adreces de contacte (normalment, propietaris de la sala)"
 
 #: src/ext_mod.erl:858 src/ext_mod.erl:868
-#, fuzzy
 msgid "Contrib Modules"
-msgstr "Iniciar mòduls"
+msgstr "Mòduls Contrib"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
@@ -924,12 +922,11 @@ msgstr "Valor incorrecte de 'path' al formulari de dades"
 
 #: src/ext_mod.erl:996
 msgid "Install"
-msgstr ""
+msgstr "Instal·lar"
 
 #: src/ext_mod.erl:1073
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "Iniciar mòduls"
+msgstr "Mòduls instal·lats:"
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
@@ -1000,14 +997,12 @@ msgid "January"
 msgstr "Gener"
 
 #: src/mod_mix_pam.erl:514
-#, fuzzy
 msgid "Joined MIX channels of ~ts"
-msgstr "Entra a canal d'IRC"
+msgstr "Canals MIX units de ~ts"
 
 #: src/mod_mix_pam.erl:480
-#, fuzzy
 msgid "Joined MIX channels:"
-msgstr "Entra a canal d'IRC"
+msgstr "Canals MIX units:"
 
 #: src/mod_muc_log.erl:484
 msgid "July"
@@ -1555,9 +1550,8 @@ msgid "Occupants are allowed to invite others"
 msgstr "Els ocupants poden invitar a altres"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#, fuzzy
 msgid "Occupants are allowed to query others"
-msgstr "Els ocupants poden invitar a altres"
+msgstr "Els ocupants poden enviar peticions a altres"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
@@ -1676,9 +1670,8 @@ msgid "Organization Unit"
 msgstr "Unitat de la organizació"
 
 #: src/ext_mod.erl:1077
-#, fuzzy
 msgid "Other Modules Available:"
-msgstr "El modul de Roster ha fallat"
+msgstr "Altres mòduls disponibles:"
 
 #: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
@@ -1710,9 +1703,8 @@ msgid "Participant"
 msgstr "Participant"
 
 #: src/mod_mix_pam.erl:505
-#, fuzzy
 msgid "Participant ID"
-msgstr "Participant"
+msgstr "ID del Participant"
 
 #: src/ejabberd_web_admin.erl:668 src/mod_register.erl:245
 #: src/mod_configure.erl:1016 src/mod_configure.erl:1063
@@ -2147,7 +2139,7 @@ msgstr ""
 
 #: src/ext_mod.erl:1066
 msgid "Sources Specs:"
-msgstr ""
+msgstr "Especificacions de Codi Font:"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
@@ -2663,7 +2655,7 @@ msgstr "Condició d'error inesperada: ~p"
 
 #: src/ext_mod.erl:978
 msgid "Uninstall"
-msgstr ""
+msgstr "Desinstal·lar"
 
 #: src/mod_register_web.erl:498
 msgid "Unregister"
@@ -2692,9 +2684,8 @@ msgid "Update"
 msgstr "Actualitzar"
 
 #: src/ext_mod.erl:1071
-#, fuzzy
 msgid "Update Specs"
-msgstr "Actualitzar ~p"
+msgstr "Actualitzar Especificacions"
 
 #: src/mod_announce.erl:621
 msgid "Update message of the day (don't send)"
@@ -2715,6 +2706,8 @@ msgstr "Script d'actualització"
 #: src/ext_mod.erl:1061
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
+"Actualitza les especificacions per obtindre el codi font dels mòduls, "
+"després instal·la els que vulgues."
 
 #: src/ejabberd_web_admin.erl:1474
 msgid "Update ~p"
@@ -2722,7 +2715,7 @@ msgstr "Actualitzar ~p"
 
 #: src/ext_mod.erl:981
 msgid "Upgrade"
-msgstr ""
+msgstr "Actualitza"
 
 #: src/ejabberd_web_admin.erl:1406
 msgid "Uptime:"
@@ -2831,9 +2824,8 @@ msgid "View Roster"
 msgstr "Vore Llista de contactes"
 
 #: src/mod_mix_pam.erl:478
-#, fuzzy
 msgid "View joined MIX channels"
-msgstr "Entra a canal d'IRC"
+msgstr "Vore els canals MIX units"
 
 #: src/ejabberd_web_admin.erl:442 src/ejabberd_web_admin.erl:1959
 msgid "Virtual Hosts"
