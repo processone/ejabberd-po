@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-02 12:17+0000\n"
+"PO-Revision-Date: 2022-10-12 09:49+0000\n"
 "Last-Translator: badlop <badlop@gmx.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/es/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Language: Spanish (castellano)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -369,9 +369,8 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "No está permitido cambiar el rol/afiliación"
 
 #: src/mod_mix_pam.erl:504
-#, fuzzy
 msgid "Channel JID"
-msgstr "Canales"
+msgstr "JID del Canal"
 
 #: src/mod_mix.erl:663
 msgid "Channel already exists"
@@ -465,9 +464,8 @@ msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "Direcciones de contacto (normalmente la del dueño o dueños de la sala)"
 
 #: src/ext_mod.erl:858 src/ext_mod.erl:868
-#, fuzzy
 msgid "Contrib Modules"
-msgstr "Iniciar módulos"
+msgstr "Módulos Contrib"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
@@ -928,12 +926,11 @@ msgstr "Valor incorrecto de 'path' en el formulario de datos"
 
 #: src/ext_mod.erl:996
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: src/ext_mod.erl:1073
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "Iniciar módulos"
+msgstr "Módulos Instalados:"
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
@@ -1004,14 +1001,12 @@ msgid "January"
 msgstr "Enero"
 
 #: src/mod_mix_pam.erl:514
-#, fuzzy
 msgid "Joined MIX channels of ~ts"
-msgstr "Entrar en canal IRC"
+msgstr "Canales MIX unidos de ~ts"
 
 #: src/mod_mix_pam.erl:480
-#, fuzzy
 msgid "Joined MIX channels:"
-msgstr "Entrar en canal IRC"
+msgstr "Canales MIX unidos:"
 
 #: src/mod_muc_log.erl:484
 msgid "July"
@@ -1557,9 +1552,8 @@ msgid "Occupants are allowed to invite others"
 msgstr "Los ocupantes pueden invitar a otras personas"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#, fuzzy
 msgid "Occupants are allowed to query others"
-msgstr "Los ocupantes pueden invitar a otras personas"
+msgstr "Los ocupantes pueden enviar peticiones a otros"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
@@ -1678,9 +1672,8 @@ msgid "Organization Unit"
 msgstr "Unidad de la organización"
 
 #: src/ext_mod.erl:1077
-#, fuzzy
 msgid "Other Modules Available:"
-msgstr "El módulo Roster ha fallado"
+msgstr "Otros módulos disponibles:"
 
 #: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
@@ -1712,9 +1705,8 @@ msgid "Participant"
 msgstr "Participante"
 
 #: src/mod_mix_pam.erl:505
-#, fuzzy
 msgid "Participant ID"
-msgstr "Participante"
+msgstr "ID del Participante"
 
 #: src/ejabberd_web_admin.erl:668 src/mod_register.erl:245
 #: src/mod_configure.erl:1016 src/mod_configure.erl:1063
@@ -2148,7 +2140,7 @@ msgstr ""
 
 #: src/ext_mod.erl:1066
 msgid "Sources Specs:"
-msgstr ""
+msgstr "Especificaciones de Códigos Fuente:"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
@@ -2667,7 +2659,7 @@ msgstr "Condición de error inesperada: ~p"
 
 #: src/ext_mod.erl:978
 msgid "Uninstall"
-msgstr ""
+msgstr "Desinstalar"
 
 #: src/mod_register_web.erl:498
 msgid "Unregister"
@@ -2696,9 +2688,8 @@ msgid "Update"
 msgstr "Actualizar"
 
 #: src/ext_mod.erl:1071
-#, fuzzy
 msgid "Update Specs"
-msgstr "Actualizar ~p"
+msgstr "Actualizar Especificaciones"
 
 #: src/mod_announce.erl:621
 msgid "Update message of the day (don't send)"
@@ -2719,6 +2710,8 @@ msgstr "Script de actualización"
 #: src/ext_mod.erl:1061
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
+"Actualizar Especificaciones para conseguir el código fuente de los módulos, "
+"luego instala los que quieras."
 
 #: src/ejabberd_web_admin.erl:1474
 msgid "Update ~p"
@@ -2726,7 +2719,7 @@ msgstr "Actualizar ~p"
 
 #: src/ext_mod.erl:981
 msgid "Upgrade"
-msgstr ""
+msgstr "Actualizar"
 
 #: src/ejabberd_web_admin.erl:1406
 msgid "Uptime:"
@@ -2835,9 +2828,8 @@ msgid "View Roster"
 msgstr "Ver Lista de contactos"
 
 #: src/mod_mix_pam.erl:478
-#, fuzzy
 msgid "View joined MIX channels"
-msgstr "Entrar en canal IRC"
+msgstr "Ver los canales MIX unidos"
 
 #: src/ejabberd_web_admin.erl:442 src/ejabberd_web_admin.erl:1959
 msgid "Virtual Hosts"
