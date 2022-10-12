@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2022-05-07 00:13+0000\n"
+"PO-Revision-Date: 2022-10-12 15:07+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/pt_BR/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Language: Portuguese (Brazil)\n"
 "X-Additional-Translator: Victor Hugo dos Santos\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -365,9 +365,8 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "Não é permitida a alteração da função/afiliação"
 
 #: src/mod_mix_pam.erl:504
-#, fuzzy
 msgid "Channel JID"
-msgstr "Canais"
+msgstr "Canal JID"
 
 #: src/mod_mix.erl:663
 msgid "Channel already exists"
@@ -461,9 +460,8 @@ msgstr ""
 "sala)"
 
 #: src/ext_mod.erl:858 src/ext_mod.erl:868
-#, fuzzy
 msgid "Contrib Modules"
-msgstr "Iniciar módulos"
+msgstr "Módulos contrib"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
@@ -922,12 +920,11 @@ msgstr "Valor incorreto de 'path' no formulário de dados"
 
 #: src/ext_mod.erl:996
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: src/ext_mod.erl:1072
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "Iniciar módulos"
+msgstr "Módulos instalados:"
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
@@ -998,14 +995,12 @@ msgid "January"
 msgstr "Janeiro"
 
 #: src/mod_mix_pam.erl:514
-#, fuzzy
 msgid "Joined MIX channels of ~ts"
-msgstr "Entrar no canal IRC"
+msgstr "Entrou no canais MIX do ~ts"
 
 #: src/mod_mix_pam.erl:480
-#, fuzzy
 msgid "Joined MIX channels:"
-msgstr "Entrar no canal IRC"
+msgstr "Uniu-se aos canais MIX:"
 
 #: src/mod_muc_log.erl:484
 msgid "July"
@@ -1553,9 +1548,8 @@ msgid "Occupants are allowed to invite others"
 msgstr "As pessoas estão autorizadas a convidar outras pessoas"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#, fuzzy
 msgid "Occupants are allowed to query others"
-msgstr "As pessoas estão autorizadas a convidar outras pessoas"
+msgstr "Os ocupantes estão autorizados a consultar os outros"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
@@ -1675,9 +1669,8 @@ msgid "Organization Unit"
 msgstr "Departamento/Unidade"
 
 #: src/ext_mod.erl:1076
-#, fuzzy
 msgid "Other Modules Available:"
-msgstr "O módulo Roster falhou"
+msgstr "Outros módulos disponíveis:"
 
 #: src/mod_configure.erl:509
 msgid "Outgoing s2s Connections"
@@ -1709,9 +1702,8 @@ msgid "Participant"
 msgstr "Participante"
 
 #: src/mod_mix_pam.erl:505
-#, fuzzy
 msgid "Participant ID"
-msgstr "Participante"
+msgstr "ID do participante"
 
 #: src/ejabberd_web_admin.erl:668 src/mod_register.erl:245
 #: src/mod_configure.erl:1016 src/mod_configure.erl:1063
@@ -2144,7 +2136,7 @@ msgstr ""
 
 #: src/ext_mod.erl:1065
 msgid "Sources Specs:"
-msgstr ""
+msgstr "Especificações das fontes:"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
@@ -2655,7 +2647,7 @@ msgstr "Condição de erro inesperada: ~p"
 
 #: src/ext_mod.erl:978
 msgid "Uninstall"
-msgstr ""
+msgstr "Desinstalar"
 
 #: src/mod_register_web.erl:498
 msgid "Unregister"
@@ -2684,9 +2676,8 @@ msgid "Update"
 msgstr "Atualizar"
 
 #: src/ext_mod.erl:1070
-#, fuzzy
 msgid "Update Specs"
-msgstr "Atualizar ~p"
+msgstr "Atualizar as especificações"
 
 #: src/mod_announce.erl:621
 msgid "Update message of the day (don't send)"
@@ -2707,6 +2698,8 @@ msgstr "Script de atualização"
 #: src/ext_mod.erl:1060
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
+"Atualize as especificações para obter a fonte dos módulos e instale os que "
+"desejar."
 
 #: src/ejabberd_web_admin.erl:1474
 msgid "Update ~p"
@@ -2714,7 +2707,7 @@ msgstr "Atualizar ~p"
 
 #: src/ext_mod.erl:981
 msgid "Upgrade"
-msgstr ""
+msgstr "Atualização"
 
 #: src/ejabberd_web_admin.erl:1406
 msgid "Uptime:"
@@ -2823,9 +2816,8 @@ msgid "View Roster"
 msgstr "Ver a lista"
 
 #: src/mod_mix_pam.erl:478
-#, fuzzy
 msgid "View joined MIX channels"
-msgstr "Entrar no canal IRC"
+msgstr "Exibir os canais MIX aderidos"
 
 #: src/ejabberd_web_admin.erl:442 src/ejabberd_web_admin.erl:1959
 msgid "Virtual Hosts"
