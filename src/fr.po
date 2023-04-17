@@ -26,7 +26,7 @@ msgstr " (Ajouter * à la fin du champ pour correspondre à la sous-chaîne)"
 msgid " has set the subject to: "
 msgstr " a défini le sujet sur : "
 
-#: src/mod_muc_admin.erl:585
+#: src/mod_muc_admin.erl:600
 msgid "# participants"
 msgstr "# participants"
 
@@ -47,7 +47,7 @@ msgstr "Une description du nœud"
 msgid "A friendly name for the node"
 msgstr "Un nom convivial pour le nœud"
 
-#: src/mod_muc_room.erl:2257
+#: src/mod_muc_room.erl:2349
 msgid "A password is required to enter this room"
 msgstr "Un mot de passe est nécessaire pour accéder à ce salon"
 
@@ -57,7 +57,7 @@ msgstr "Accepter"
 
 #: src/ejabberd_c2s.erl:457 src/ejabberd_c2s.erl:700
 #: src/ejabberd_service.erl:232 src/mod_roster.erl:183 src/mod_muc.erl:218
-#: src/mod_muc.erl:687 src/mod_multicast.erl:304 src/mod_announce.erl:242
+#: src/mod_muc.erl:698 src/mod_multicast.erl:304 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
 #: src/mod_s2s_dialback.erl:361 src/mod_register.erl:130
@@ -70,7 +70,7 @@ msgstr "Accepter"
 msgid "Access denied by service policy"
 msgstr "L'accès au service est refusé"
 
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:920
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:922
 msgid "Access model"
 msgstr "Modèle d’accès"
 
@@ -102,7 +102,7 @@ msgstr "Le compte n’existe pas"
 msgid "Action on user"
 msgstr "Action sur l'utilisateur"
 
-#: src/mod_roster.erl:1124
+#: src/mod_roster.erl:1134
 msgid "Add Jabber ID"
 msgstr "Ajouter un Jabber ID"
 
@@ -115,8 +115,8 @@ msgstr "Ajouter"
 msgid "Add User"
 msgstr "Ajouter un utilisateur"
 
-#: src/mod_muc_room.erl:4282 src/mod_muc_room.erl:4417
-#: src/mod_muc_room.erl:4733
+#: src/mod_muc_room.erl:4405 src/mod_muc_room.erl:4540
+#: src/mod_muc_room.erl:4856
 msgid "Add a hat to a user"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr "Administration"
 msgid "Administration of "
 msgstr "Administration de "
 
-#: src/mod_muc_room.erl:2910
+#: src/mod_muc_room.erl:3033
 msgid "Administrator privileges required"
 msgstr "Les droits d'administrateur sont nécessaires"
 
@@ -223,7 +223,7 @@ msgid "Anyone"
 msgstr "N’importe qui"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1537
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:904
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:906
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
@@ -235,12 +235,12 @@ msgid "Anyone may associate leaf nodes with the collection"
 msgstr "N’importe qui peut associer les feuilles avec la collection"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2066
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:942
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:944
 msgid "Anyone may publish"
 msgstr "N’importe qui peut publier"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1527
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:894
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:896
 msgid "Anyone may subscribe and retrieve items"
 msgstr "N’importe qui peut s’abonner et récupérer les items"
 
@@ -250,7 +250,7 @@ msgid "Anyone with Voice"
 msgstr "N’importe qui avec Voice"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1531
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:898
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:900
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
@@ -308,7 +308,7 @@ msgid "Backup to File at "
 msgstr "Sauvegarde fichier sur "
 
 #: src/ejabberd_web_admin.erl:655 src/ejabberd_web_admin.erl:965
-#: src/ejabberd_web_admin.erl:1121 src/mod_roster.erl:1114
+#: src/ejabberd_web_admin.erl:1121 src/mod_roster.erl:1124
 #: src/mod_shared_roster.erl:952 src/mod_shared_roster.erl:1065
 msgid "Bad format"
 msgstr "Mauvais format"
@@ -362,7 +362,7 @@ msgstr "Changer le mot de passe de l'utilisateur"
 msgid "Changing password is not allowed"
 msgstr "La modification du mot de passe n'est pas autorisée"
 
-#: src/mod_muc_room.erl:3177
+#: src/mod_muc_room.erl:3300
 msgid "Changing role/affiliation is not allowed"
 msgstr "La modification role/affiliation n'est pas autorisée"
 
@@ -407,7 +407,7 @@ msgstr "Le salon de discussion a démarré"
 msgid "Chatroom is stopped"
 msgstr "Le salon de discussion est stoppé"
 
-#: src/mod_muc.erl:1337 src/mod_muc_admin.erl:608
+#: src/mod_muc.erl:1348 src/mod_muc_admin.erl:623
 msgid "Chatrooms"
 msgstr "Salons de discussion"
 
@@ -436,11 +436,11 @@ msgstr ""
 "serveur"
 
 #: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
-#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4265
+#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4388
 msgid "Commands"
 msgstr "Commandes"
 
-#: src/mod_muc.erl:609 src/mod_muc.erl:633 src/mod_muc_room.erl:238
+#: src/mod_muc.erl:620 src/mod_muc.erl:644 src/mod_muc_room.erl:238
 #: src/mod_muc_room.erl:249
 msgid "Conference room does not exist"
 msgstr "Le salon de discussion n'existe pas"
@@ -450,7 +450,7 @@ msgstr "Le salon de discussion n'existe pas"
 msgid "Configuration"
 msgstr "Configuration"
 
-#: src/mod_muc_room.erl:3632
+#: src/mod_muc_room.erl:3746
 msgid "Configuration of room ~s"
 msgstr "Configuration pour le salon ~s"
 
@@ -462,7 +462,7 @@ msgstr "Ressources connectées :"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "Adresses de contact (normalement les administrateurs du salon)"
 
-#: src/ext_mod.erl:874 src/ext_mod.erl:884
+#: src/ext_mod.erl:877 src/ext_mod.erl:887
 #, fuzzy
 msgid "Contrib Modules"
 msgstr "Modules de démarrage"
@@ -493,13 +493,13 @@ msgstr "Tables de base de données sur ~p"
 
 #: src/mod_push.erl:340 src/mod_push.erl:355 src/mod_blocking.erl:263
 #: src/mod_vcard.erl:239 src/mod_mix_pam.erl:382 src/mod_roster.erl:455
-#: src/mod_muc.erl:777 src/mod_muc.erl:1089 src/node_flat_sql.erl:797
+#: src/mod_muc.erl:788 src/mod_muc.erl:1100 src/node_flat_sql.erl:797
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:355
-#: src/mod_offline.erl:746 src/mod_pubsub.erl:3807 src/mod_pubsub.erl:3851
-#: src/mod_pubsub.erl:3873 src/mod_pubsub.erl:3957 src/mod_pubsub.erl:4178
-#: src/mod_mam.erl:735 src/mod_mam.erl:753 src/mod_mam.erl:783
-#: src/mod_mam.erl:1119 src/mod_register.erl:418 src/mod_mix.erl:658
+#: src/mod_offline.erl:746 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
+#: src/mod_mam.erl:750 src/mod_mam.erl:768 src/mod_mam.erl:798
+#: src/mod_mam.erl:1134 src/mod_register.erl:418 src/mod_mix.erl:658
 #: src/mod_privacy.erl:174 src/mod_privacy.erl:192 src/mod_privacy.erl:286
 #: src/mod_privacy.erl:302 src/mod_privacy.erl:335 src/mod_privacy.erl:352
 #: src/mod_proxy65_service.erl:242 src/mod_private.erl:184
@@ -588,7 +588,7 @@ msgstr "Spécifie dynamiquement un « réponse à » de l’item de l’édi
 msgid "Edit Properties"
 msgstr "Modifier les propriétés"
 
-#: src/mod_muc_room.erl:4974
+#: src/mod_muc_room.erl:5143
 msgid "Either approve or decline the voice request."
 msgstr "Accepter ou refuser la demande de voix."
 
@@ -627,7 +627,7 @@ msgstr "L'activation push ne peut se faire sans l'attribut 'node'"
 msgid "End User Session"
 msgstr "Terminer la session de l'utilisateur"
 
-#: src/mod_muc.erl:1064
+#: src/mod_muc.erl:1075
 msgid "Enter nickname you want to register"
 msgstr "Entrez le pseudo que vous souhaitez enregistrer"
 
@@ -695,7 +695,7 @@ msgstr "Entrée FAQ"
 msgid "Failed to activate bytestream"
 msgstr "Échec d'activation de bytestream"
 
-#: src/mod_muc_room.erl:1206
+#: src/mod_muc_room.erl:1285
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Échec d'extraction du JID dans la requête de voix"
 
@@ -707,7 +707,7 @@ msgstr "Échec d'association d'espace de nom vers un composant externe"
 msgid "Failed to parse HTTP response"
 msgstr "Échec de lecture de la réponse HTTP"
 
-#: src/mod_muc_room.erl:3777
+#: src/mod_muc_room.erl:3891
 msgid "Failed to process option '~s'"
 msgstr "Échec de traitement de l'option '~s'"
 
@@ -806,7 +806,7 @@ msgstr "Accorder le droit de parole à cet utilisateur ?"
 msgid "Group"
 msgstr "Groupe"
 
-#: src/mod_roster.erl:1058
+#: src/mod_roster.erl:1068
 msgid "Groups"
 msgstr "Groupes"
 
@@ -818,16 +818,16 @@ msgstr "Groupes qui seront affichés aux membres"
 msgid "HTTP File Upload"
 msgstr "Téléversement de fichier HTTP"
 
-#: src/mod_muc_room.erl:4747 src/mod_muc_room.erl:4811
-#: src/mod_muc_room.erl:4879
+#: src/mod_muc_room.erl:4870 src/mod_muc_room.erl:4934
+#: src/mod_muc_room.erl:5002
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4743 src/mod_muc_room.erl:4876
+#: src/mod_muc_room.erl:4866 src/mod_muc_room.erl:4999
 msgid "Hat title"
 msgstr ""
 
-#: src/mod_muc_room.erl:4786
+#: src/mod_muc_room.erl:4909
 msgid "Hats limit exceeded"
 msgstr "La limite a été dépassée"
 
@@ -888,7 +888,7 @@ msgstr "Importer des utilisateurs depuis un fichier spool Jabberd 1.4 :"
 msgid "Improper domain part of 'from' attribute"
 msgstr "Le domaine de l'attribut 'from' est incorrect"
 
-#: src/mod_muc_room.erl:435
+#: src/mod_muc_room.erl:455
 msgid "Improper message type"
 msgstr "Mauvais type de message"
 
@@ -897,22 +897,22 @@ msgid "Incoming s2s Connections:"
 msgstr "Connexions s2s entrantes :"
 
 #: src/ejabberd_captcha.erl:220 src/mod_register.erl:204
-#: src/mod_muc_room.erl:4459
+#: src/mod_muc_room.erl:4582
 msgid "Incorrect CAPTCHA submit"
 msgstr "Entrée CAPTCHA incorrecte"
 
-#: src/mod_vcard.erl:268 src/mod_muc.erl:1112 src/mod_pubsub.erl:1258
-#: src/mod_register.erl:200 src/mod_muc_room.erl:3507
+#: src/mod_vcard.erl:268 src/mod_muc.erl:1123 src/mod_pubsub.erl:1258
+#: src/mod_register.erl:200 src/mod_muc_room.erl:3621
 msgid "Incorrect data form"
 msgstr "Formulaire incorrect"
 
-#: src/mod_register.erl:155 src/mod_muc_room.erl:2307
+#: src/mod_register.erl:155 src/mod_muc_room.erl:2399
 #: src/mod_register_web.erl:579
 msgid "Incorrect password"
 msgstr "Mot de passe incorrect"
 
-#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4795 src/mod_muc_room.erl:4849
-#: src/mod_muc_room.erl:4889
+#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4918 src/mod_muc_room.erl:4972
+#: src/mod_muc_room.erl:5012
 msgid "Incorrect value of 'action' attribute"
 msgstr "Valeur de l'attribut 'action' incorrecte"
 
@@ -926,11 +926,11 @@ msgstr "Valeur de l'attribut 'action' incorrecte dans le formulaire"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Valeur de l'attribut 'path' incorrecte dans le formulaire"
 
-#: src/ext_mod.erl:1047
+#: src/ext_mod.erl:1050
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1123
+#: src/ext_mod.erl:1126
 #, fuzzy
 msgid "Installed Modules:"
 msgstr "Modules de démarrage"
@@ -951,15 +951,15 @@ msgstr "L'attribut 'from' du message transféré est incorrect"
 msgid "Invalid 'previd' value"
 msgstr "Valeur 'previd' invalide"
 
-#: src/mod_muc_room.erl:4336
+#: src/mod_muc_room.erl:4459
 msgid "Invalid node name"
 msgstr "Nom de nœud invalide"
 
-#: src/mod_muc_room.erl:5019
+#: src/mod_muc_room.erl:5188
 msgid "Invitations are not allowed in this conference"
 msgstr "Les invitations ne sont pas autorisées dans ce salon"
 
-#: src/mod_muc_room.erl:408 src/mod_muc_room.erl:556 src/mod_muc_room.erl:1371
+#: src/mod_muc_room.erl:428 src/mod_muc_room.erl:585 src/mod_muc_room.erl:1450
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -967,16 +967,16 @@ msgstr ""
 "L'envoyer de messages d'erreur au salon n'est pas autorisé. Le participant "
 "(~s) à envoyé un message d'erreur (~s) et à été expulsé du salon"
 
-#: src/mod_muc_room.erl:602 src/mod_muc_room.erl:613
+#: src/mod_muc_room.erl:631 src/mod_muc_room.erl:642
 msgid "It is not allowed to send private messages"
 msgstr "L'envoi de messages privés n'est pas autorisé"
 
-#: src/mod_muc_room.erl:570
+#: src/mod_muc_room.erl:599
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr ""
 "Il n'est pas permis d'envoyer des messages privés de type \"groupchat\""
 
-#: src/mod_muc_room.erl:419
+#: src/mod_muc_room.erl:439
 msgid "It is not allowed to send private messages to the conference"
 msgstr "Il n'est pas permis d'envoyer des messages privés à la conférence"
 
@@ -988,15 +988,15 @@ msgstr ""
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_roster.erl:1054 src/mod_vcard_mnesia.erl:113
+#: src/mod_roster.erl:1064 src/mod_vcard_mnesia.erl:113
 #: src/mod_vcard_sql.erl:170 src/mod_configure.erl:1012
 #: src/mod_configure.erl:1029 src/mod_configure.erl:1039
 #: src/mod_configure.erl:1049 src/mod_configure.erl:1059
 #: src/mod_configure.erl:1073 src/mod_configure.erl:1082
 #: src/mod_configure.erl:1370 src/mod_configure.erl:1414
-#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4738
-#: src/mod_muc_room.erl:4806 src/mod_muc_room.erl:4873
-#: src/mod_muc_admin.erl:584
+#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4861
+#: src/mod_muc_room.erl:4929 src/mod_muc_room.erl:4996
+#: src/mod_muc_admin.erl:599
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1022,7 +1022,7 @@ msgstr "Juillet"
 msgid "June"
 msgstr "Juin"
 
-#: src/mod_muc_admin.erl:590
+#: src/mod_muc_admin.erl:605
 msgid "Just created"
 msgstr "Vient d'être créé"
 
@@ -1039,7 +1039,7 @@ msgstr "Dernière activité"
 msgid "Last login"
 msgstr "Dernière connexion"
 
-#: src/mod_muc_admin.erl:586
+#: src/mod_muc_admin.erl:601
 msgid "Last message"
 msgstr "Dernier message"
 
@@ -1056,19 +1056,19 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:538
+#: src/mod_muc_admin.erl:553
 msgid "List of rooms"
 msgstr "Liste des salons"
 
-#: src/mod_muc_room.erl:4869
+#: src/mod_muc_room.erl:4992
 msgid "List of users with hats"
 msgstr ""
 
-#: src/mod_muc_room.erl:4318 src/mod_muc_room.erl:4425
+#: src/mod_muc_room.erl:4441 src/mod_muc_room.erl:4548
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:589
+#: src/mod_muc_admin.erl:604
 msgid "Logging"
 msgstr ""
 
@@ -1076,7 +1076,7 @@ msgstr ""
 msgid "Low level update script"
 msgstr "Script de mise à jour de bas-niveau"
 
-#: src/mod_mam.erl:739
+#: src/mod_mam.erl:754
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "La création de salons est interdite par le service"
@@ -1140,7 +1140,7 @@ msgstr "Nombre maximal d'occupants"
 msgid "Maximum file size"
 msgstr "Taille maximale du fichier"
 
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:875
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
 msgstr "Nombre maximal d'éléments à conserver"
 
@@ -1156,7 +1156,7 @@ msgstr ""
 msgid "Members:"
 msgstr "Membres :"
 
-#: src/mod_muc_room.erl:2194
+#: src/mod_muc_room.erl:2286
 msgid "Membership is required to enter this room"
 msgstr "Vous devez être membre pour accèder à ce salon"
 
@@ -1212,8 +1212,8 @@ msgstr "Intervalle minimum entre les demandes de 'voice' (en secondes)"
 msgid "Moderator"
 msgstr "Modérateur"
 
-#: src/mod_muc_room.erl:2918 src/mod_muc_room.erl:4513
-#: src/mod_muc_room.erl:4569 src/mod_muc_room.erl:4627
+#: src/mod_muc_room.erl:3041 src/mod_muc_room.erl:4636
+#: src/mod_muc_room.erl:4692 src/mod_muc_room.erl:4750
 msgid "Moderator privileges required"
 msgstr "Les droits de modérateur sont nécessaires"
 
@@ -1236,8 +1236,8 @@ msgstr "Échec de traitement de la demande"
 msgid "Monday"
 msgstr "Lundi"
 
-#: src/mod_muc_admin.erl:512 src/mod_muc_admin.erl:515
-#: src/mod_muc_admin.erl:531 src/mod_muc_admin.erl:606
+#: src/mod_muc_admin.erl:527 src/mod_muc_admin.erl:530
+#: src/mod_muc_admin.erl:546 src/mod_muc_admin.erl:621
 msgid "Multi-User Chat"
 msgstr "Discussion de groupe"
 
@@ -1272,11 +1272,11 @@ msgstr "Langue naturelle pour les discussions en salle"
 msgid "Natural-Language Room Name"
 msgstr "Nom de la salle en langue naturelle"
 
-#: src/mod_muc_room.erl:3104
+#: src/mod_muc_room.erl:3227
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "Attribut 'jid' ou 'nick' absent"
 
-#: src/mod_muc_room.erl:2900 src/mod_muc_room.erl:3109
+#: src/mod_muc_room.erl:3023 src/mod_muc_room.erl:3232
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Attribut 'role' ou 'affiliation' absent"
 
@@ -1291,31 +1291,31 @@ msgid "New Password:"
 msgstr "Nouveau mot de passe :"
 
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: src/mod_roster.erl:1055 src/mod_vcard_mnesia.erl:104
+#: src/mod_roster.erl:1065 src/mod_vcard_mnesia.erl:104
 #: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
 #: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
 #: _build/default/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "Pseudo"
 
-#: src/mod_muc.erl:1063
+#: src/mod_muc.erl:1074
 msgid "Nickname Registration at "
 msgstr "Enregistrement d'un pseudo sur "
 
-#: src/mod_muc_room.erl:1320 src/mod_muc_room.erl:2215
-#: src/mod_muc_room.erl:4536
+#: src/mod_muc_room.erl:1399 src/mod_muc_room.erl:2307
+#: src/mod_muc_room.erl:4659
 msgid "Nickname can't be empty"
 msgstr "Le pseudonyme ne peut être laissé vide"
 
-#: src/mod_muc_room.erl:3121
+#: src/mod_muc_room.erl:3244
 msgid "Nickname ~s does not exist in the room"
 msgstr "Le pseudo ~s n'existe pas dans ce salon"
 
-#: src/mod_muc_room.erl:3530
+#: src/mod_muc_room.erl:3644
 msgid "No 'affiliation' attribute found"
 msgstr "Attribut 'affiliation' absent"
 
-#: src/mod_muc_room.erl:2882
+#: src/mod_muc_room.erl:3005
 msgid "No 'item' element found"
 msgstr "Aucun élément 'item' trouvé"
 
@@ -1333,7 +1333,7 @@ msgstr "L'élément 'password' est absent de la requête"
 msgid "No 'path' found in data form"
 msgstr "Entrée 'path' absente du formulaire"
 
-#: src/mod_muc_room.erl:5015
+#: src/mod_muc_room.erl:5184
 msgid "No 'to' attribute found in the invitation"
 msgstr "L'élément 'to' est absent de l'invitation"
 
@@ -1361,7 +1361,7 @@ msgstr "Aucune ressource disponible"
 msgid "No body provided for announce message"
 msgstr "Pas de corps de message pour l'annonce"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1229
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1308
 msgid "No child elements found"
 msgstr "Aucun élément enfant trouvé"
 
@@ -1385,15 +1385,15 @@ msgstr "Aucune activité précédente trouvée"
 msgid "No items found in this query"
 msgstr "Aucun item trouvé dans cette requête"
 
-#: src/mod_muc_room.erl:3650
+#: src/mod_muc_room.erl:3764
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Pas de limite"
 
 #: src/mod_jidprep.erl:164 src/mod_blocking.erl:83 src/mod_blocking.erl:101
 #: src/mod_mix_pam.erl:377 src/mod_roster.erl:203 src/mod_muc.erl:248
-#: src/mod_muc.erl:663 src/mod_muc.erl:730 src/mod_muc.erl:750
-#: src/mod_muc.erl:781 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/mod_muc.erl:674 src/mod_muc.erl:741 src/mod_muc.erl:761
+#: src/mod_muc.erl:792 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
 #: src/mod_offline.erl:367 src/ejabberd_captcha.erl:230 src/mod_mix.erl:678
 #: src/mod_privacy.erl:156 src/mod_privacy.erl:273 src/mod_http_upload.erl:771
 msgid "No module is handling this query"
@@ -1437,7 +1437,7 @@ msgstr "Pas de statistiques"
 msgid "Nobody"
 msgstr "Personne"
 
-#: src/ejabberd_web_admin.erl:1812 src/mod_muc_admin.erl:592
+#: src/ejabberd_web_admin.erl:1812 src/mod_muc_admin.erl:607
 msgid "Node"
 msgstr "Nœud"
 
@@ -1453,12 +1453,12 @@ msgstr "Ce nœud existe déjà"
 msgid "Node index not found"
 msgstr "Index de nœud non trouvé"
 
-#: src/ejabberd_web_admin.erl:536 src/mod_muc.erl:728 src/mod_muc.erl:1001
+#: src/ejabberd_web_admin.erl:536 src/mod_muc.erl:739 src/mod_muc.erl:1012
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
-#: src/mod_muc_room.erl:4267 src/mod_muc_room.erl:4285
-#: src/mod_muc_room.erl:4303 src/mod_muc_room.erl:4321
-#: src/mod_muc_room.erl:4427 src/mod_muc_room.erl:4442
-#: src/mod_muc_room.erl:4446 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
+#: src/mod_muc_room.erl:4390 src/mod_muc_room.erl:4408
+#: src/mod_muc_room.erl:4426 src/mod_muc_room.erl:4444
+#: src/mod_muc_room.erl:4550 src/mod_muc_room.erl:4565
+#: src/mod_muc_room.erl:4569 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Nœud non trouvé"
 
@@ -1477,7 +1477,7 @@ msgstr "Nœuds"
 
 #: src/mod_mix_pam.erl:502 src/ejabberd_web_admin.erl:882
 #: src/ejabberd_web_admin.erl:1078 src/ejabberd_web_admin.erl:1088
-#: src/ejabberd_web_admin.erl:1445 src/mod_roster.erl:1049
+#: src/ejabberd_web_admin.erl:1445 src/mod_roster.erl:1059
 msgid "None"
 msgstr "Aucun"
 
@@ -1609,11 +1609,11 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Envoyer les notifications uniquement aux utilisateurs disponibles"
 
-#: src/mod_mam.erl:532
+#: src/mod_mam.erl:547
 msgid "Only members may query archives of this room"
 msgstr "Seuls les membres peuvent accéder aux archives de ce salon"
 
-#: src/mod_muc_room.erl:1069
+#: src/mod_muc_room.erl:1096
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
@@ -1621,25 +1621,32 @@ msgstr ""
 "Seuls les modérateurs et les participants peuvent changer le sujet dans ce "
 "salon"
 
-#: src/mod_muc_room.erl:1074
+#: src/mod_muc_room.erl:1101
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Seuls les modérateurs peuvent changer le sujet dans ce salon"
 
-#: src/mod_muc_room.erl:1213
+#: src/mod_muc_room.erl:5106
+#, fuzzy
+msgid "Only moderators are allowed to retract messages"
+msgstr ""
+"Seuls les administrateurs du service sont autoriser à envoyer des messages "
+"de service"
+
+#: src/mod_muc_room.erl:1292
 msgid "Only moderators can approve voice requests"
 msgstr "Seuls les modérateurs peuvent accépter les requêtes voix"
 
-#: src/mod_muc_room.erl:608 src/mod_muc_room.erl:1088 src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:637 src/mod_muc_room.erl:1115 src/mod_muc_room.erl:5253
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Seuls les occupants peuvent envoyer des messages à la conférence"
 
-#: src/mod_muc_room.erl:654
+#: src/mod_muc_room.erl:683
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr ""
 "Seuls les occupants sont autorisés à envoyer des requêtes à la conférence"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:935
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:937
 msgid "Only publishers may publish"
 msgstr "Seuls les éditeurs peuvent publier"
 
@@ -1654,7 +1661,7 @@ msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:909
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
@@ -1670,7 +1677,7 @@ msgstr "Nom de l'organisation"
 msgid "Organization Unit"
 msgstr "Unité de l'organisation"
 
-#: src/ext_mod.erl:1127
+#: src/ext_mod.erl:1130
 #, fuzzy
 msgid "Other Modules Available:"
 msgstr "Echec du module roster"
@@ -1685,9 +1692,9 @@ msgstr "Connexions s2s sortantes :"
 
 #: src/mod_pubsub.erl:1366 src/mod_pubsub.erl:1461 src/mod_pubsub.erl:1635
 #: src/mod_pubsub.erl:2241 src/mod_pubsub.erl:2319 src/mod_pubsub.erl:2529
-#: src/mod_pubsub.erl:2623 src/mod_pubsub.erl:3331 src/mod_pubsub.erl:3496
-#: src/mod_mix.erl:683 src/mod_muc_room.erl:3477 src/mod_muc_room.erl:3522
-#: src/mod_muc_room.erl:4489
+#: src/mod_pubsub.erl:2623 src/mod_pubsub.erl:3331 src/mod_pubsub.erl:3500
+#: src/mod_mix.erl:683 src/mod_muc_room.erl:3591 src/mod_muc_room.erl:3636
+#: src/mod_muc_room.erl:4612
 msgid "Owner privileges required"
 msgstr "Les droits de propriétaire sont nécessaires"
 
@@ -1740,11 +1747,11 @@ msgstr "Chemin vers le répertoire"
 msgid "Path to File"
 msgstr "Chemin vers le fichier"
 
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:859
-msgid "Payload type"
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
+msgid "Payload semantic type information"
 msgstr ""
 
-#: src/mod_roster.erl:1057
+#: src/mod_roster.erl:1067
 msgid "Pending"
 msgstr "En suspens"
 
@@ -1757,7 +1764,7 @@ msgstr "Période : "
 msgid "Persist items to storage"
 msgstr "Stockage persistant des éléments"
 
-#: src/mod_muc_admin.erl:588
+#: src/mod_muc_admin.erl:603
 msgid "Persistent"
 msgstr "Persistant"
 
@@ -1778,7 +1785,7 @@ msgstr ""
 "Ces options sauvegardent uniquement la base de données interne Mnesia. Si "
 "vous utilisez le module ODBC vous devez sauvegarde votre base SQL séparément."
 
-#: src/mod_muc_room.erl:1174
+#: src/mod_muc_room.erl:1253
 msgid "Please, wait for a while before sending new voice request"
 msgstr "Attendez un moment avant de re-lancer une requête de voix"
 
@@ -1818,16 +1825,16 @@ msgstr "La session précédente a expiré"
 msgid "PubSub subscriber request"
 msgstr "Demande d'abonnement PubSub"
 
-#: src/mod_muc_admin.erl:587
+#: src/mod_muc_admin.erl:602
 msgid "Public"
 msgstr "Public"
 
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:952
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:954
 #, fuzzy
 msgid "Publish model"
 msgstr "Publier le modèle"
 
-#: src/mod_pubsub.erl:4325
+#: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
 msgstr "Publication-Abonnement"
 
@@ -1840,7 +1847,7 @@ msgstr "Purger tous les items lorsque publieur est hors-ligne"
 msgid "Push record not found"
 msgstr "Nœud non trouvé"
 
-#: src/mod_muc_room.erl:649
+#: src/mod_muc_room.erl:678
 msgid "Queries to the conference members are not allowed in this room"
 msgstr ""
 "Les requêtes sur les membres de la conférence ne sont pas autorisé dans ce "
@@ -1884,7 +1891,7 @@ msgstr "Recevoir les notifications des nouveaux éléments uniquement"
 msgid "Receive notification of new nodes only"
 msgstr "Recevoir les notifications de tous les nouveaux nœuds descendants"
 
-#: src/mod_muc_room.erl:577 src/mod_muc_room.erl:626
+#: src/mod_muc_room.erl:606 src/mod_muc_room.erl:655
 msgid "Recipient is not in the conference room"
 msgstr "Le destinataire n'est pas dans la conférence"
 
@@ -1909,7 +1916,7 @@ msgstr "Utilisateurs enregistrés :"
 msgid "Remote copy"
 msgstr "Copie distante"
 
-#: src/mod_roster.erl:1105
+#: src/mod_roster.erl:1115
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -1921,8 +1928,8 @@ msgstr "Effacer tous les messages hors ligne"
 msgid "Remove User"
 msgstr "Supprimer l'utilisateur"
 
-#: src/mod_muc_room.erl:4300 src/mod_muc_room.erl:4421
-#: src/mod_muc_room.erl:4801
+#: src/mod_muc_room.erl:4423 src/mod_muc_room.erl:4544
+#: src/mod_muc_room.erl:4924
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1931,11 +1938,11 @@ msgid "Replaced by new connection"
 msgstr "Remplacé par une nouvelle connexion"
 
 #: src/mod_mix_pam.erl:353 src/mod_muc_room.erl:236 src/mod_muc_room.erl:245
-#: src/mod_muc_room.erl:914
+#: src/mod_muc_room.erl:943
 msgid "Request has timed out"
 msgstr "La demande a expiré"
 
-#: src/mod_muc_room.erl:800 src/mod_muc_room.erl:815
+#: src/mod_muc_room.erl:829 src/mod_muc_room.erl:844
 msgid "Request is ignored"
 msgstr "La demande est ignorée"
 
@@ -2001,7 +2008,7 @@ msgstr "Configuration du salon"
 msgid "Room Occupants"
 msgstr "Occupants du salon"
 
-#: src/mod_muc.erl:627
+#: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
 msgstr "La création de salons est interdite par le service"
 
@@ -2010,12 +2017,12 @@ msgstr "La création de salons est interdite par le service"
 msgid "Room description"
 msgstr "Description du salon"
 
-#: src/mod_muc_room.erl:941
+#: src/mod_muc_room.erl:970
 #, fuzzy
 msgid "Room terminates"
 msgstr "Titre du salon"
 
-#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:591
+#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:606
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Titre du salon"
@@ -2024,7 +2031,7 @@ msgstr "Titre du salon"
 msgid "Roster groups allowed to subscribe"
 msgstr "Groupes de liste de contact autorisés à s'abonner"
 
-#: src/mod_roster.erl:1109
+#: src/mod_roster.erl:1119
 msgid "Roster of ~ts"
 msgstr "Liste de contacts de ~ts"
 
@@ -2032,7 +2039,7 @@ msgstr "Liste de contacts de ~ts"
 msgid "Roster size"
 msgstr "Taille de la liste de contacts"
 
-#: src/mod_roster.erl:1227
+#: src/mod_roster.erl:1237
 msgid "Roster:"
 msgstr "Liste de contacts :"
 
@@ -2147,7 +2154,7 @@ msgstr ""
 "ordinateur. N'utilisez cette fonctionnalité que si vous avez confiance en la "
 "sécurité de votre ordinateur."
 
-#: src/ext_mod.erl:1116
+#: src/ext_mod.erl:1119
 msgid "Sources Specs:"
 msgstr ""
 
@@ -2168,13 +2175,17 @@ msgstr "Définir le modèle de publication"
 msgid "Stanza ID"
 msgstr "Identifiant Stanza"
 
+#: src/mod_muc_room.erl:5132
+msgid "Stanza id is not valid"
+msgstr ""
+
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
 #: src/ejabberd_web_admin.erl:509 src/ejabberd_web_admin.erl:1128
 #: src/ejabberd_web_admin.erl:1936 src/ejabberd_web_admin.erl:1949
-#: src/ejabberd_web_admin.erl:1961 src/mod_muc_admin.erl:533
+#: src/ejabberd_web_admin.erl:1961 src/mod_muc_admin.erl:548
 msgid "Statistics"
 msgstr "Statistiques"
 
@@ -2222,9 +2233,9 @@ msgstr "Soumettre"
 #: src/ejabberd_web_admin.erl:654 src/ejabberd_web_admin.erl:964
 #: src/ejabberd_web_admin.erl:1120 src/ejabberd_web_admin.erl:1148
 #: src/ejabberd_web_admin.erl:1242 src/ejabberd_web_admin.erl:1477
-#: src/mod_roster.erl:1113 src/mod_offline.erl:1009
+#: src/mod_roster.erl:1123 src/mod_offline.erl:1009
 #: src/mod_shared_roster.erl:951 src/mod_shared_roster.erl:1059
-#: src/ext_mod.erl:889
+#: src/ext_mod.erl:892
 msgid "Submitted"
 msgstr "Soumis"
 
@@ -2233,22 +2244,22 @@ msgid "Subscriber Address"
 msgstr "Adresse de l'abonné"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2063
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:939
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:941
 msgid "Subscribers may publish"
 msgstr "Les souscripteurs peuvent publier"
 
-#: src/mod_roster.erl:1056
+#: src/mod_roster.erl:1066
 msgid "Subscription"
 msgstr "Abonnement"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1522
-#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:889
+#: _build/default/lib/xmpp/src/pubsub_meta_data.erl:891
 msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4500
+#: src/mod_muc_room.erl:4623
 msgid "Subscriptions are not allowed"
 msgstr "Les abonnement ne sont pas autorisés"
 
@@ -2272,13 +2283,13 @@ msgstr "Texte associé à une vidéo"
 msgid "Text associated with speech"
 msgstr "Texte associé au discours"
 
-#: src/mod_muc_room.erl:1311 src/mod_muc_room.erl:2204
-#: src/mod_muc_room.erl:4526
+#: src/mod_muc_room.erl:1390 src/mod_muc_room.erl:2296
+#: src/mod_muc_room.erl:4649
 msgid "That nickname is already in use by another occupant"
 msgstr "Le pseudo est déjà utilisé par un autre occupant"
 
-#: src/mod_muc.erl:1086 src/mod_muc_room.erl:1323 src/mod_muc_room.erl:2218
-#: src/mod_muc_room.erl:4540
+#: src/mod_muc.erl:1097 src/mod_muc_room.erl:1402 src/mod_muc_room.erl:2310
+#: src/mod_muc_room.erl:4663
 msgid "That nickname is registered by another person"
 msgstr "Le pseudo est enregistré par une autre personne"
 
@@ -2287,7 +2298,7 @@ msgid "The CAPTCHA is valid."
 msgstr "Le CAPTCHA est valide."
 
 #: src/ejabberd_captcha.erl:223 src/mod_register.erl:207
-#: src/mod_muc_room.erl:893 src/mod_muc_room.erl:4462
+#: src/mod_muc_room.erl:922 src/mod_muc_room.erl:4585
 #: src/mod_block_strangers.erl:150
 msgid "The CAPTCHA verification has failed"
 msgstr "La vérification du CAPTCHA a échoué"
@@ -2363,7 +2374,7 @@ msgstr "La date à laquelle le nœud a été créé"
 msgid "The default language of the node"
 msgstr "La langue par défaut du nœud"
 
-#: src/mod_muc_room.erl:483
+#: src/mod_muc_room.erl:507 src/mod_muc_room.erl:512
 msgid "The feature requested is not supported by the conference"
 msgstr "La demande de fonctionalité n'est pas supportée par la conférence"
 
@@ -2451,6 +2462,12 @@ msgstr "La requête ne doit pas contenir d'élément <item/>"
 msgid "The room subject can be modified by participants"
 msgstr "Le sujet du salon peut être modifié par les participants"
 
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
+msgid ""
+"The semantic type information of data in the node, usually specified by the "
+"namespace of the payload (if any)"
+msgstr ""
+
 #: _build/default/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
 msgstr "L’expéditeur du dernier message reçu"
@@ -2464,12 +2481,6 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
 msgstr "L’identificateur d’abonnement associé à la demande d’abonnement"
-
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
-msgid ""
-"The type of node data, usually specified by the namespace of the payload (if "
-"any)"
-msgstr ""
 
 #: src/mod_register_web.erl:124
 msgid "There was an error changing the password: "
@@ -2552,7 +2563,7 @@ msgstr ""
 "Trop (~p) d'authentification ont échoué pour cette adresse IP (~s). "
 "L'adresse sera débloquée à ~s UTC"
 
-#: src/mod_muc_room.erl:2887 src/mod_muc_room.erl:3536
+#: src/mod_muc_room.erl:3010 src/mod_muc_room.erl:3650
 msgid "Too many <item/> elements"
 msgstr "Trop d'éléments <item/>"
 
@@ -2560,7 +2571,7 @@ msgstr "Trop d'éléments <item/>"
 msgid "Too many <list/> elements"
 msgstr "Trop d'éléments <list/>"
 
-#: src/mod_register.erl:262 src/mod_muc_room.erl:2288
+#: src/mod_register.erl:262 src/mod_muc_room.erl:2380
 #: src/mod_block_strangers.erl:127
 msgid "Too many CAPTCHA requests"
 msgstr "Trop de requêtes CAPTCHA"
@@ -2569,7 +2580,7 @@ msgstr "Trop de requêtes CAPTCHA"
 msgid "Too many active bytestreams"
 msgstr "Trop de flux SOCKS5 actifs"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1231
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1310
 #, fuzzy
 msgid "Too many child elements"
 msgstr "Trop d'éléments <item/>"
@@ -2582,15 +2593,15 @@ msgstr "Trop de champs de récepteurs ont été spécifiés"
 msgid "Too many unacked stanzas"
 msgstr "Trop de stanzas sans accusé de réception (ack)"
 
-#: src/mod_muc_room.erl:2163
+#: src/mod_muc_room.erl:2255
 msgid "Too many users in this conference"
 msgstr "Trop d'utilisateurs dans cette conférence"
 
-#: src/mod_muc_admin.erl:535
+#: src/mod_muc_admin.erl:550
 msgid "Total rooms"
 msgstr "Nombre de salons"
 
-#: src/mod_muc_room.erl:348
+#: src/mod_muc_room.erl:368
 msgid "Traffic rate limit is exceeded"
 msgstr "La limite de trafic a été dépassée"
 
@@ -2618,7 +2629,7 @@ msgstr "Mardi"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL des journaux de discussion archivés"
 
-#: src/mod_register.erl:266 src/mod_muc_room.erl:2297
+#: src/mod_register.erl:266 src/mod_muc_room.erl:2389
 #: src/mod_block_strangers.erl:131
 msgid "Unable to generate a CAPTCHA"
 msgstr "Impossible de générer le CAPTCHA"
@@ -2642,7 +2653,7 @@ msgstr "Action inattendu"
 msgid "Unexpected error condition: ~p"
 msgstr "Condition d’erreur inattendue : ~p"
 
-#: src/ext_mod.erl:1029
+#: src/ext_mod.erl:1032
 msgid "Uninstall"
 msgstr ""
 
@@ -2659,7 +2670,7 @@ msgstr "Annuler l’enregistrement d’un compte XMPP"
 msgid "Unselect All"
 msgstr "Tout désélectionner"
 
-#: src/mod_mam.erl:771
+#: src/mod_mam.erl:786
 msgid "Unsupported <index/> element"
 msgstr "Elément <index/> non supporté"
 
@@ -2672,7 +2683,7 @@ msgstr "Version non prise en charge"
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: src/ext_mod.erl:1121
+#: src/ext_mod.erl:1124
 #, fuzzy
 msgid "Update Specs"
 msgstr "Mise à jour de ~p"
@@ -2694,7 +2705,7 @@ msgstr "Plan de mise à jour"
 msgid "Update script"
 msgstr "Script de mise à jour"
 
-#: src/ext_mod.erl:1111
+#: src/ext_mod.erl:1114
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
@@ -2702,7 +2713,7 @@ msgstr ""
 msgid "Update ~p"
 msgstr "Mise à jour de ~p"
 
-#: src/ext_mod.erl:1032
+#: src/ext_mod.erl:1035
 msgid "Upgrade"
 msgstr ""
 
@@ -2769,24 +2780,24 @@ msgstr ""
 "Les utilisateurs ne sont pas autorisés à enregistrer des comptes si "
 "rapidement"
 
-#: src/mod_roster.erl:1096
+#: src/mod_roster.erl:1106
 msgid "Validate"
 msgstr "Valider"
 
 #: src/mod_push.erl:325 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
-#: src/mod_muc_room.erl:4452 src/mod_muc_room.erl:4631
+#: src/mod_muc_room.erl:4575 src/mod_muc_room.erl:4754
 #: src/mod_carboncopy.erl:104
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "La valeur de l'attribut 'type' ne peut être 'get'"
 
 #: src/mod_jidprep.erl:137 src/mod_disco.erl:137 src/mod_disco.erl:153
 #: src/mod_disco.erl:259 src/mod_disco.erl:311 src/mod_vcard.erl:206
-#: src/mod_vcard.erl:249 src/mod_muc.erl:660 src/mod_muc.erl:694
-#: src/mod_muc.erl:735 src/mod_muc.erl:755 src/mod_muc.erl:765
+#: src/mod_vcard.erl:249 src/mod_muc.erl:671 src/mod_muc.erl:705
+#: src/mod_muc.erl:746 src/mod_muc.erl:766 src/mod_muc.erl:776
 #: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
 #: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:55
-#: src/mod_mix.erl:159 src/mod_mix.erl:207 src/mod_muc_room.erl:4245
-#: src/mod_muc_room.erl:4387 src/mod_time.erl:55
+#: src/mod_mix.erl:159 src/mod_mix.erl:207 src/mod_muc_room.erl:4368
+#: src/mod_muc_room.erl:4510 src/mod_time.erl:55
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172 src/mod_last.erl:108 src/mod_last.erl:126
 #: src/mod_sic.erl:68 src/mod_sic.erl:80
@@ -2810,7 +2821,7 @@ msgstr "La valeur de '~s' doit être un entier"
 msgid "View Queue"
 msgstr "Afficher la file d’attente"
 
-#: src/mod_roster.erl:1225
+#: src/mod_roster.erl:1235
 msgid "View Roster"
 msgstr ""
 
@@ -2827,21 +2838,21 @@ msgstr "Serveurs virtuels"
 msgid "Visitor"
 msgstr "Visiteur"
 
-#: src/mod_muc_room.erl:1304
+#: src/mod_muc_room.erl:1383
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Les visiteurs ne sont pas autorisés à changer de pseudo dans ce salon"
 
-#: src/mod_muc_room.erl:1081
+#: src/mod_muc_room.erl:1108
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "Les visiteurs ne sont pas autorisés à envoyer des messages à tout les "
 "occupants"
 
-#: src/mod_muc_room.erl:4972
+#: src/mod_muc_room.erl:5141
 msgid "Voice request"
 msgstr "Demande de voix"
 
-#: src/mod_muc_room.erl:1181
+#: src/mod_muc_room.erl:1260
 msgid "Voice requests are disabled in this conference"
 msgstr "Les demandes de voix sont désactivées dans cette conférence"
 
@@ -2945,7 +2956,7 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "Module Publish-Subscribe d'ejabberd"
 
-#: src/mod_muc_room.erl:939
+#: src/mod_muc_room.erl:968
 msgid "You are being removed from the room because of a system shutdown"
 msgstr ""
 "Vous avez été éjecté du salon de discussion en raison de l'arrêt du système"
@@ -2960,15 +2971,15 @@ msgstr ""
 "Vous pouvez modifier ultérieurement votre mot de passe à l’aide d’un client "
 "XMPP."
 
-#: src/mod_muc_room.erl:2191
+#: src/mod_muc_room.erl:2283
 msgid "You have been banned from this room"
 msgstr "Vous avez été exclus de ce salon"
 
-#: src/mod_muc_room.erl:2172
+#: src/mod_muc_room.erl:2264
 msgid "You have joined too many conferences"
 msgstr "Vous avec rejoint trop de conférences"
 
-#: src/mod_muc.erl:1117
+#: src/mod_muc.erl:1128
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Vous devez préciser le champ \"pseudo\" dans le formulaire"
 
@@ -2978,7 +2989,7 @@ msgstr ""
 "Vous avez besoin d'un client prenant en charge x:data et CAPTCHA pour "
 "enregistrer un pseudo"
 
-#: src/mod_muc.erl:1072
+#: src/mod_muc.erl:1083
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
 "Vous avez besoin d'un client prenant en charge x:data pour enregistrer un "
@@ -3028,7 +3039,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "Service de Multidiffusion d'ejabberd"
 
-#: src/mod_muc.erl:654
+#: src/mod_muc.erl:665
 msgid "ejabberd MUC module"
 msgstr "Module MUC ejabberd"
 
@@ -3084,11 +3095,11 @@ msgstr "rejoint le salon"
 msgid "leaves the room"
 msgstr "quitte le salon"
 
-#: src/mod_muc_room.erl:4686
+#: src/mod_muc_room.erl:4809
 msgid "private, "
 msgstr "privé, "
 
-#: src/mod_muc_room.erl:5048
+#: src/mod_muc_room.erl:5217
 msgid "the password is"
 msgstr "le mot de passe est"
 
@@ -3096,7 +3107,7 @@ msgstr "le mot de passe est"
 msgid "vCard User Search"
 msgstr "Recherche dans l'annnuaire"
 
-#: src/mod_muc_room.erl:5041
+#: src/mod_muc_room.erl:5210
 msgid "~s invites you to the room ~s"
 msgstr "~s vous invite dans la salle de discussion ~s"
 
