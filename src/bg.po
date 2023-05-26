@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-05-24 05:50+0000\n"
+"PO-Revision-Date: 2023-05-28 11:50+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -2179,43 +2179,49 @@ msgstr "JID на създателя на нода"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1705 _build/default/lib/xmpp/src/pubsub_meta_data.erl:712
 msgid "The JIDs of those to contact with questions"
-msgstr ""
+msgstr "JID на лицата, с които да се свържете при въпроси"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:813
 msgid "The JIDs of those with an affiliation of owner"
-msgstr ""
+msgstr "JID на лицата с принадлежност на собственик"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:830
 msgid "The JIDs of those with an affiliation of publisher"
-msgstr ""
+msgstr "JID-та на лица с принадлежност към публикуващи"
 
 #: _build/default/lib/xmpp/src/pubsub_get_pending.erl:272
 msgid "The NodeID of the relevant node"
-msgstr ""
+msgstr "NodeID на съответния нод"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1570
 msgid "The URL of an XSL transformation which can be applied to payloads in order to generate an appropriate message body element."
 msgstr ""
+"URL адрес на XSL трансформацията, която може да се приложи към прикачените "
+"данни, за да се генерира подходящ елемент от тялото на съобщението."
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1721
 msgid "The URL of an XSL transformation which can be applied to the payload format in order to generate a valid Data Forms result that the client could display using a generic Data Forms rendering engine"
 msgstr ""
+"URL адрес на XSL трансформацията, която може да се приложи към формата на "
+"прикачените данни, за да се генерира валиден резултат от Data Forms, който "
+"клиентът може да покаже с помощта на общ механизъм за визуализация на Data "
+"Forms."
 
 #: src/mod_register_web.erl:577
 msgid "The account already exists"
-msgstr ""
+msgstr "Профилът вече съществува"
 
 #: src/mod_register_web.erl:585
 msgid "The account was not unregistered"
-msgstr ""
+msgstr "Профилът не е дерегистриран"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
-msgstr ""
+msgstr "Текстът на последното получено съобщение"
 
 #: src/mod_register_web.erl:575
 msgid "The captcha you entered is wrong"
-msgstr ""
+msgstr "Въведеният captcha код е грешен"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
@@ -2227,15 +2233,15 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:729
 msgid "The datetime when the node was created"
-msgstr ""
+msgstr "Датата, когато нодът е бил създаден"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1846 _build/default/lib/xmpp/src/pubsub_meta_data.erl:780
 msgid "The default language of the node"
-msgstr ""
+msgstr "Езикът по подразбиране на нода"
 
 #: src/mod_muc_room.erl:507 src/mod_muc_room.erl:512
 msgid "The feature requested is not supported by the conference"
-msgstr ""
+msgstr "Исканата функция не се поддържа от конференцията"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
@@ -2243,27 +2249,31 @@ msgstr ""
 
 #: src/mod_configure.erl:1113
 msgid "The list of all online users"
-msgstr ""
+msgstr "Списък на всички онлайн потребители"
 
 #: src/mod_configure.erl:1092
 msgid "The list of all users"
-msgstr ""
+msgstr "Списък на всички потребители"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid "The maximum number of child nodes that can be associated with a collection, or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
+"Максимален брой подчинени нодове, които могат да бъдат свързани с колекция, "
+"или `max` за липса на конкретен лимит, различен от наложения от сървъра "
+"максимум"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid "The minimum number of milliseconds between sending any two notification digests"
 msgstr ""
+"Минималният брой милисекунди между изпращането на две извадки на известия"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:845
 msgid "The name of the node"
-msgstr ""
+msgstr "Името на нода"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
-msgstr ""
+msgstr "Нодът е от тип колекция"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
@@ -2271,63 +2281,68 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
-msgstr ""
+msgstr "Броят на чакащите входящи заявки за абонамент за присъствие"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:797
 msgid "The number of subscribers to the node"
-msgstr ""
+msgstr "Бротят абонати на нода"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:378
 msgid "The number of unread or undelivered messages"
-msgstr ""
+msgstr "Броят непрочетени или недоставени съобщения"
 
 #: src/mod_register.erl:412
 msgid "The password contains unacceptable characters"
-msgstr ""
+msgstr "Паролата съдържа недопустими символи"
 
 #: src/mod_register.erl:410
 msgid "The password is too weak"
-msgstr ""
+msgstr "Паролата е твърде слаба"
 
 #: src/mod_register_web.erl:120
 msgid "The password of your XMPP account was successfully changed."
-msgstr ""
+msgstr "Паролата на вашия XMPP профил беше успешно променена."
 
 #: src/mod_register_web.erl:587
 msgid "The password was not changed"
-msgstr ""
+msgstr "Паролата не е променена"
 
 #: src/mod_register_web.erl:589
 msgid "The passwords are different"
-msgstr ""
+msgstr "Паролите са различни"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:660
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
+"Състояния на присъствие, за които даден субект желае да получава известия"
 
 #: src/mod_vcard.erl:232 src/mod_register.erl:172
 msgid "The query is only allowed from local users"
-msgstr ""
+msgstr "Заявката е разрешена само за локални потребители"
 
 #: src/mod_roster.erl:199
 msgid "The query must not contain <item/> elements"
-msgstr ""
+msgstr "Заявката не може да съдържа елементи <item/>"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1056
 msgid "The room subject can be modified by participants"
-msgstr ""
+msgstr "Темата на стаята може да бъде променяна от участниците"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
 msgid "The semantic type information of data in the node, usually specified by the namespace of the payload (if any)"
 msgstr ""
+"Информацията за семантичния тип данни на нода, обикновено зададена от "
+"пространството на имената на прикачените данни (ако има такива)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
-msgstr ""
+msgstr "Подателят на последното получено съобщение"
 
 #: src/mod_privacy.erl:268
 msgid "The stanza MUST contain only one <active/> element, one <default/> element, or one <list/> element"
 msgstr ""
+"Строфата ТРЯБВА да съдържа само един <active/> елемент, един <default/> "
+"елемент или един <list/> елемент"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
