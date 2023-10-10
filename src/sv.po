@@ -24,12 +24,12 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " har satt ämnet till: "
 
-#: src/mod_muc_admin.erl:600
+#: src/mod_muc_admin.erl:604
 #, fuzzy
 msgid "# participants"
 msgstr "Gör om användare till deltagare"
 
-#: src/mod_shared_roster.erl:1064
+#: src/mod_shared_roster.erl:1031
 msgid "'Displayed groups' not added (they do not exist!): "
 msgstr ""
 
@@ -37,36 +37,38 @@ msgstr ""
 msgid "A Web Page"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1775
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1773
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:759
 #, fuzzy
 msgid "A description of the node"
 msgstr "Ett vänligt namn for noden"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2203
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2201
 msgid "A friendly name for the node"
 msgstr "Ett vänligt namn for noden"
 
-#: src/mod_muc_room.erl:2349
+#: src/mod_muc_room.erl:2393
 #, fuzzy
 msgid "A password is required to enter this room"
 msgstr "Lösenord erfordras"
 
-#: src/ejabberd_oauth.erl:534
+#: src/ejabberd_oauth.erl:533
 msgid "Accept"
 msgstr ""
 
 #: src/ejabberd_c2s.erl:457 src/ejabberd_c2s.erl:700
-#: src/ejabberd_service.erl:232 src/mod_roster.erl:183 src/mod_muc.erl:218
-#: src/mod_muc.erl:698 src/mod_multicast.erl:304 src/mod_announce.erl:242
+#: src/ejabberd_service.erl:232 src/mod_roster.erl:160 src/mod_muc.erl:219
+#: src/mod_muc.erl:703 src/mod_multicast.erl:304 src/mod_announce.erl:242
 #: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
-#: src/mod_s2s_dialback.erl:361 src/mod_register.erl:130
-#: src/mod_register.erl:295 src/mod_register.erl:406 src/mod_configure.erl:191
-#: src/mod_configure.erl:312 src/mod_configure.erl:438
-#: src/mod_configure.erl:732 src/mod_configure.erl:1518
+#: src/mod_s2s_dialback.erl:333 src/mod_register.erl:118
+#: src/mod_register.erl:283 src/mod_register.erl:394 src/mod_configure.erl:161
+#: src/mod_configure.erl:282 src/mod_configure.erl:408
+#: src/mod_configure.erl:702 src/mod_configure.erl:1488
 #: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
-#: src/ejabberd_s2s.erl:340 src/mod_legacy_auth.erl:151
+#: src/ejabberd_s2s.erl:340 src/mod_legacy_auth.erl:146
 #: src/mod_http_upload.erl:801
 msgid "Access denied by service policy"
 msgstr "Åtkomst nekad enligt lokal policy"
@@ -76,71 +78,50 @@ msgstr "Åtkomst nekad enligt lokal policy"
 msgid "Access model"
 msgstr "Åtkomstregler"
 
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:323
-msgid "Access model of authorize"
-msgstr ""
-
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:327
-msgid "Access model of open"
-msgstr ""
-
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:331
-msgid "Access model of presence"
-msgstr ""
-
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:335
-msgid "Access model of roster"
-msgstr ""
-
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:339
-#, fuzzy
-msgid "Access model of whitelist"
-msgstr "ACL"
-
-#: src/mod_register_web.erl:583
+#: src/mod_register_web.erl:597
 #, fuzzy
 msgid "Account doesn't exist"
 msgstr "Rummet finns inte"
 
-#: src/mod_configure.erl:1552
+#: src/mod_configure.erl:1522
 msgid "Action on user"
 msgstr "Handling mot användare"
 
-#: src/mod_roster.erl:1134
+#: src/mod_roster.erl:1110
 msgid "Add Jabber ID"
 msgstr "Lägg till Jabber ID"
 
-#: src/mod_shared_roster.erl:946
+#: src/mod_shared_roster.erl:913
 msgid "Add New"
 msgstr "Lägg till ny"
 
-#: src/ejabberd_web_admin.erl:677 src/mod_configure.erl:161
-#: src/mod_configure.erl:518 src/mod_configure.erl:1008
+#: src/ejabberd_web_admin.erl:692 src/mod_configure.erl:131
+#: src/mod_configure.erl:488 src/mod_configure.erl:978
 msgid "Add User"
 msgstr "Lägg till användare"
 
-#: src/mod_muc_room.erl:4405 src/mod_muc_room.erl:4540
-#: src/mod_muc_room.erl:4856
+#: src/mod_muc_room.erl:4474 src/mod_muc_room.erl:4601
+#: src/mod_muc_room.erl:4917
 msgid "Add a hat to a user"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:400 src/ejabberd_web_admin.erl:409
+#: src/ejabberd_web_admin.erl:402 src/ejabberd_web_admin.erl:411
 msgid "Administration"
 msgstr "Administration"
 
-#: src/mod_configure.erl:1547
+#: src/mod_configure.erl:1517
 msgid "Administration of "
 msgstr "Administration av "
 
-#: src/mod_muc_room.erl:3033
+#: src/mod_muc_room.erl:3087
 msgid "Administrator privileges required"
 msgstr "Administrationsprivilegier krävs"
 
-#: src/mod_configure.erl:508
+#: src/mod_configure.erl:478
 msgid "All Users"
 msgstr "Alla användare"
 
-#: src/ejabberd_web_admin.erl:498
+#: src/ejabberd_web_admin.erl:500
 msgid "All activity"
 msgstr "All aktivitet"
 
@@ -169,7 +150,7 @@ msgstr "Tillåt användare att söka efter andra användare"
 msgid "Allow users to send invites"
 msgstr "Tillåt användare att skicka inbjudningar"
 
-#: src/mod_muc_log.erl:815 _build/default/lib/xmpp/src/muc_roomconfig.erl:1717
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:1717
 msgid "Allow users to send private messages"
 msgstr "Tillåt användare att skicka privata meddelanden"
 
@@ -226,21 +207,25 @@ msgstr ""
 msgid "Anyone"
 msgstr "Vemsomhelst"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1539
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1537
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:906
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1593
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1591
 msgid "Anyone may associate leaf nodes with the collection"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2068
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2066
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:944
 msgid "Anyone may publish"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1529
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1527
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:896
 msgid "Anyone may subscribe and retrieve items"
@@ -251,11 +236,19 @@ msgstr ""
 msgid "Anyone with Voice"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1533
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1531
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:900
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
+msgstr ""
+
+#: src/ejabberd_web_admin.erl:626
+msgid ""
+"Apparently your account has no administration rights in this server. Please "
+"check how to grant admin rights in: https://docs.ejabberd.im/admin/"
+"installation/#administration-account"
 msgstr ""
 
 #: src/mod_muc_log.erl:481
@@ -290,27 +283,27 @@ msgstr "Augusti"
 msgid "Automatic node creation is not enabled"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1127 src/ejabberd_web_admin.erl:1948
-#: src/mod_configure.erl:143 src/mod_configure.erl:599
+#: src/ejabberd_web_admin.erl:1142 src/ejabberd_web_admin.erl:1963
+#: src/mod_configure.erl:113 src/mod_configure.erl:569
 msgid "Backup"
 msgstr "Säkerhetskopiera"
 
-#: src/mod_configure.erl:583
+#: src/mod_configure.erl:553
 msgid "Backup Management"
 msgstr "Hantera säkerhetskopior"
 
-#: src/ejabberd_web_admin.erl:1247
+#: src/ejabberd_web_admin.erl:1262
 #, fuzzy
 msgid "Backup of ~p"
 msgstr "Backup av"
 
-#: src/mod_configure.erl:874
+#: src/mod_configure.erl:844
 msgid "Backup to File at "
 msgstr "Säkerhetskopiera till fil på "
 
-#: src/ejabberd_web_admin.erl:655 src/ejabberd_web_admin.erl:965
-#: src/ejabberd_web_admin.erl:1121 src/mod_roster.erl:1124
-#: src/mod_shared_roster.erl:952 src/mod_shared_roster.erl:1065
+#: src/ejabberd_web_admin.erl:670 src/ejabberd_web_admin.erl:980
+#: src/ejabberd_web_admin.erl:1136 src/mod_roster.erl:1101
+#: src/mod_shared_roster.erl:919 src/mod_shared_roster.erl:1032
 msgid "Bad format"
 msgstr "Dåligt format"
 
@@ -320,7 +313,7 @@ msgstr "Dåligt format"
 msgid "Birthday"
 msgstr "Födelsedag"
 
-#: src/mod_legacy_auth.erl:117
+#: src/mod_legacy_auth.erl:112
 msgid "Both the username and the resource are required"
 msgstr ""
 
@@ -332,15 +325,15 @@ msgstr ""
 msgid "CAPTCHA web page"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1414
+#: src/ejabberd_web_admin.erl:1429
 msgid "CPU Time:"
 msgstr "CPU tid"
 
-#: src/mod_privacy.erl:322
+#: src/mod_privacy.erl:305
 msgid "Cannot remove active list"
 msgstr ""
 
-#: src/mod_privacy.erl:329
+#: src/mod_privacy.erl:312
 msgid "Cannot remove default list"
 msgstr ""
 
@@ -348,23 +341,23 @@ msgstr ""
 msgid "Challenge ID"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:939 src/mod_register_web.erl:190
-#: src/mod_register_web.erl:362 src/mod_register_web.erl:370
-#: src/mod_register_web.erl:395
+#: src/ejabberd_web_admin.erl:954 src/mod_register_web.erl:204
+#: src/mod_register_web.erl:376 src/mod_register_web.erl:384
+#: src/mod_register_web.erl:409
 msgid "Change Password"
 msgstr "Ändra lösenord"
 
-#: src/mod_configure.erl:169 src/mod_configure.erl:525
-#: src/mod_configure.erl:1055
+#: src/mod_configure.erl:139 src/mod_configure.erl:495
+#: src/mod_configure.erl:1025
 msgid "Change User Password"
 msgstr "Andra användarlösenord"
 
-#: src/mod_register.erl:321
+#: src/mod_register.erl:309
 #, fuzzy
 msgid "Changing password is not allowed"
 msgstr "Lösenordet är"
 
-#: src/mod_muc_room.erl:3300
+#: src/mod_muc_room.erl:3354
 msgid "Changing role/affiliation is not allowed"
 msgstr ""
 
@@ -385,7 +378,7 @@ msgstr "Rummet finns inte"
 msgid "Channels"
 msgstr ""
 
-#: src/mod_register_web.erl:245
+#: src/mod_register_web.erl:259
 msgid "Characters not allowed:"
 msgstr ""
 
@@ -413,15 +406,15 @@ msgstr "Chattrum"
 msgid "Chatroom is stopped"
 msgstr "Chattrum"
 
-#: src/mod_muc.erl:1348 src/mod_muc_admin.erl:623
+#: src/mod_muc.erl:1367 src/mod_muc_admin.erl:627
 msgid "Chatrooms"
 msgstr "Chattrum"
 
-#: src/mod_register.erl:228
+#: src/mod_register.erl:216
 msgid "Choose a username and password to register with this server"
 msgstr "Välj ett användarnamn och lösenord för att registrera mot denna server"
 
-#: src/mod_configure.erl:847
+#: src/mod_configure.erl:817
 msgid "Choose storage type of tables"
 msgstr "Välj lagringstyp för tabeller"
 
@@ -435,30 +428,30 @@ msgstr "Välj om du vill godkänna hela denna  prenumertion."
 msgid "City"
 msgstr "Stad"
 
-#: src/mod_stream_mgmt.erl:477
+#: src/mod_stream_mgmt.erl:457
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
 
-#: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
-#: src/mod_adhoc.erl:166 src/mod_muc_room.erl:4388
+#: src/mod_adhoc.erl:78 src/mod_adhoc.erl:105 src/mod_adhoc.erl:121
+#: src/mod_adhoc.erl:137 src/mod_muc_room.erl:4457
 msgid "Commands"
 msgstr "Kommandon"
 
-#: src/mod_muc.erl:620 src/mod_muc.erl:644 src/mod_muc_room.erl:238
+#: src/mod_muc.erl:621 src/mod_muc.erl:645 src/mod_muc_room.erl:238
 #: src/mod_muc_room.erl:249
 msgid "Conference room does not exist"
 msgstr "Rummet finns inte"
 
-#: src/mod_configure.erl:129 src/mod_configure.erl:284
-#: src/mod_configure.erl:305 src/mod_configure.erl:505
+#: src/mod_configure.erl:99 src/mod_configure.erl:254 src/mod_configure.erl:275
+#: src/mod_configure.erl:475
 msgid "Configuration"
 msgstr "Konfiguration"
 
-#: src/mod_muc_room.erl:3746
+#: src/mod_muc_room.erl:3800
 msgid "Configuration of room ~s"
 msgstr "Konfiguration för ~s"
 
-#: src/ejabberd_web_admin.erl:971
+#: src/ejabberd_web_admin.erl:986
 msgid "Connected Resources:"
 msgstr "Anslutna resurser:"
 
@@ -466,7 +459,7 @@ msgstr "Anslutna resurser:"
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr ""
 
-#: src/ext_mod.erl:877 src/ext_mod.erl:887
+#: src/ext_mod.erl:928 src/ext_mod.erl:938
 #, fuzzy
 msgid "Contrib Modules"
 msgstr "Starta moduler"
@@ -481,34 +474,34 @@ msgstr "Land"
 msgid "Current Discussion Topic"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1126 src/ejabberd_web_admin.erl:1947
-#: src/mod_configure.erl:140 src/mod_configure.erl:581
+#: src/ejabberd_web_admin.erl:1141 src/ejabberd_web_admin.erl:1962
+#: src/mod_configure.erl:110 src/mod_configure.erl:551
 msgid "Database"
 msgstr "Databas"
 
-#: src/mod_configure.erl:845
+#: src/mod_configure.erl:815
 msgid "Database Tables Configuration at "
 msgstr "Databastabellers konfiguration"
 
-#: src/ejabberd_web_admin.erl:1201 src/ejabberd_web_admin.erl:1802
-#: src/ejabberd_web_admin.erl:1845
+#: src/ejabberd_web_admin.erl:1216 src/ejabberd_web_admin.erl:1817
+#: src/ejabberd_web_admin.erl:1860
 #, fuzzy
 msgid "Database Tables at ~p"
 msgstr "Databas tabell pa"
 
-#: src/mod_push.erl:340 src/mod_push.erl:355 src/mod_blocking.erl:263
-#: src/mod_vcard.erl:239 src/mod_mix_pam.erl:382 src/mod_roster.erl:455
-#: src/mod_muc.erl:788 src/mod_muc.erl:1100 src/node_flat_sql.erl:797
+#: src/mod_push.erl:305 src/mod_push.erl:320 src/mod_blocking.erl:261
+#: src/mod_vcard.erl:239 src/mod_mix_pam.erl:382 src/mod_roster.erl:432
+#: src/mod_muc.erl:797 src/mod_muc.erl:1109 src/node_flat_sql.erl:797
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
-#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:355
-#: src/mod_offline.erl:746 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
-#: src/mod_mam.erl:750 src/mod_mam.erl:768 src/mod_mam.erl:798
-#: src/mod_mam.erl:1134 src/mod_register.erl:418 src/mod_mix.erl:658
-#: src/mod_privacy.erl:174 src/mod_privacy.erl:192 src/mod_privacy.erl:286
-#: src/mod_privacy.erl:302 src/mod_privacy.erl:335 src/mod_privacy.erl:352
-#: src/mod_proxy65_service.erl:242 src/mod_private.erl:184
-#: src/mod_private.erl:191 src/mod_last.erl:202 src/mod_carboncopy.erl:97
+#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:327
+#: src/mod_offline.erl:718 src/mod_pubsub.erl:3817 src/mod_pubsub.erl:3861
+#: src/mod_pubsub.erl:3883 src/mod_pubsub.erl:3967 src/mod_pubsub.erl:4188
+#: src/mod_mam.erl:756 src/mod_mam.erl:774 src/mod_mam.erl:804
+#: src/mod_mam.erl:1140 src/mod_register.erl:406 src/mod_mix.erl:658
+#: src/mod_privacy.erl:157 src/mod_privacy.erl:175 src/mod_privacy.erl:269
+#: src/mod_privacy.erl:285 src/mod_privacy.erl:318 src/mod_privacy.erl:335
+#: src/mod_proxy65_service.erl:242 src/mod_private.erl:185
+#: src/mod_private.erl:192 src/mod_last.erl:185 src/mod_carboncopy.erl:90
 #, fuzzy
 msgid "Database failure"
 msgstr "Databas"
@@ -521,16 +514,16 @@ msgstr "December"
 msgid "Default users as participants"
 msgstr "Gör om användare till deltagare"
 
-#: src/mod_offline.erl:1028 src/mod_shared_roster.erl:960
+#: src/mod_offline.erl:1000 src/mod_shared_roster.erl:927
 msgid "Delete Selected"
 msgstr "Tabort valda"
 
-#: src/mod_configure.erl:163 src/mod_configure.erl:519
-#: src/mod_configure.erl:1025
+#: src/mod_configure.erl:133 src/mod_configure.erl:489
+#: src/mod_configure.erl:995
 msgid "Delete User"
 msgstr "Ta bort användare"
 
-#: src/ejabberd_web_admin.erl:1565
+#: src/ejabberd_web_admin.erl:1580
 #, fuzzy
 msgid "Delete content"
 msgstr "Tabort valda"
@@ -543,63 +536,66 @@ msgstr "Ta bort dagens meddelande"
 msgid "Delete message of the day on all hosts"
 msgstr "Ta bort dagens meddelande på alla värdar"
 
-#: src/ejabberd_web_admin.erl:1566
+#: src/ejabberd_web_admin.erl:1581
 #, fuzzy
 msgid "Delete table"
 msgstr "Ta bort användare"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1744
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1742
 msgid "Deliver event notifications"
 msgstr "Skicka eventnotifikation"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1760
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1758
 msgid "Deliver payloads with event notifications"
 msgstr "Skicka innehåll tillsammans med notifikationer"
 
-#: src/mod_shared_roster.erl:1028
+#: src/mod_shared_roster.erl:995
 msgid "Description:"
 msgstr "Beskrivning:"
 
-#: src/ejabberd_web_admin.erl:1563 src/mod_configure.erl:823
+#: src/ejabberd_web_admin.erl:1578 src/mod_configure.erl:793
 msgid "Disc only copy"
 msgstr "Endast diskkopia"
 
-#: src/mod_shared_roster.erl:1046
+#: src/mod_shared_roster.erl:1013
 #, fuzzy
 msgid "Displayed:"
 msgstr "Visade grupper:"
 
-#: src/mod_register_web.erl:257
+#: src/mod_register_web.erl:271
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
 msgstr ""
 
-#: src/mod_configure.erl:897
+#: src/mod_configure.erl:867
 msgid "Dump Backup to Text File at "
 msgstr "Dumpa säkerhetskopia till textfil på "
 
-#: src/mod_configure.erl:149 src/mod_configure.erl:603
+#: src/mod_configure.erl:119 src/mod_configure.erl:573
 msgid "Dump to Text File"
 msgstr "Dumpa till textfil"
 
-#: src/mod_roster.erl:176
+#: src/mod_roster.erl:147
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1812
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1810
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
-#: src/mod_configure.erl:1556
+#: src/mod_configure.erl:1526
 msgid "Edit Properties"
 msgstr "Redigera egenskaper"
 
-#: src/mod_muc_room.erl:5143
+#: src/mod_muc_room.erl:5210
 msgid "Either approve or decline the voice request."
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1215 src/ejabberd_web_admin.erl:1822
+#: src/ejabberd_web_admin.erl:1230 src/ejabberd_web_admin.erl:1837
 msgid "Elements"
 msgstr "Elements"
 
@@ -625,32 +621,32 @@ msgstr "Möjliggör login"
 msgid "Enable message archiving"
 msgstr ""
 
-#: src/mod_push.erl:328
+#: src/mod_push.erl:293
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr ""
 
-#: src/mod_configure.erl:165 src/mod_configure.erl:521
-#: src/mod_configure.erl:1035
+#: src/mod_configure.erl:135 src/mod_configure.erl:491
+#: src/mod_configure.erl:1005
 msgid "End User Session"
 msgstr "Avsluta användarsession"
 
-#: src/mod_muc.erl:1075
+#: src/mod_muc.erl:1084
 msgid "Enter nickname you want to register"
 msgstr "Skriv in smeknamnet du vill registrera"
 
-#: src/mod_configure.erl:876 src/mod_configure.erl:888
+#: src/mod_configure.erl:846 src/mod_configure.erl:858
 msgid "Enter path to backup file"
 msgstr "Skriv in sökväg till fil för säkerhetskopia"
 
-#: src/mod_configure.erl:922
+#: src/mod_configure.erl:892
 msgid "Enter path to jabberd14 spool dir"
 msgstr "Skriv in sökväg till spoolkatalog från jabberd14"
 
-#: src/mod_configure.erl:911
+#: src/mod_configure.erl:881
 msgid "Enter path to jabberd14 spool file"
 msgstr "Skriv in sökväg till spoolfil från jabberd14"
 
-#: src/mod_configure.erl:900
+#: src/mod_configure.erl:870
 msgid "Enter path to text file"
 msgstr "Skriv in sökväg till textfil"
 
@@ -663,7 +659,7 @@ msgstr "Skriv in sökväg till textfil"
 msgid "Erlang XMPP Server"
 msgstr "Erlang XMPP Server"
 
-#: src/ejabberd_web_admin.erl:1244
+#: src/ejabberd_web_admin.erl:1259
 msgid "Error"
 msgstr "Fel"
 
@@ -671,16 +667,16 @@ msgstr "Fel"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1350
+#: src/ejabberd_web_admin.erl:1365
 msgid "Export all tables as SQL queries to a file:"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1324
+#: src/ejabberd_web_admin.erl:1339
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Exportera data av alla användare i servern till en PIEFXIS fil (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1336
+#: src/ejabberd_web_admin.erl:1351
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr "Exportera data av användare i en host till PIEFXIS fil (XEP-0227):"
 
@@ -700,7 +696,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1285
+#: src/mod_muc_room.erl:1300
 msgid "Failed to extract JID from your voice request approval"
 msgstr ""
 
@@ -712,7 +708,7 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr ""
 
-#: src/mod_muc_room.erl:3891
+#: src/mod_muc_room.erl:3945
 msgid "Failed to process option '~s'"
 msgstr ""
 
@@ -740,11 +736,11 @@ msgstr "Fyll i fält för att söka efter jabberanvändare"
 msgid "Friday"
 msgstr "Fredag"
 
-#: src/mod_offline.erl:1016
+#: src/mod_offline.erl:988
 msgid "From"
 msgstr "Från"
 
-#: src/mod_configure.erl:695
+#: src/mod_configure.erl:665
 #, fuzzy
 msgid "From ~ts"
 msgstr "Från ~s"
@@ -763,21 +759,21 @@ msgstr ""
 msgid "Full Name"
 msgstr "Fullständigt namn"
 
-#: src/mod_configure.erl:181 src/mod_configure.erl:535
+#: src/mod_configure.erl:151 src/mod_configure.erl:505
 #, fuzzy
 msgid "Get List of Online Users"
 msgstr "Hämta antal inloggade användare"
 
-#: src/mod_configure.erl:175 src/mod_configure.erl:531
+#: src/mod_configure.erl:145 src/mod_configure.erl:501
 #, fuzzy
 msgid "Get List of Registered Users"
 msgstr "Hämta antal registrerade användare"
 
-#: src/mod_configure.erl:183 src/mod_configure.erl:537
+#: src/mod_configure.erl:153 src/mod_configure.erl:507
 msgid "Get Number of Online Users"
 msgstr "Hämta antal inloggade användare"
 
-#: src/mod_configure.erl:178 src/mod_configure.erl:533
+#: src/mod_configure.erl:148 src/mod_configure.erl:503
 msgid "Get Number of Registered Users"
 msgstr "Hämta antal registrerade användare"
 
@@ -786,18 +782,18 @@ msgstr "Hämta antal registrerade användare"
 msgid "Get Pending"
 msgstr "Ännu inte godkända"
 
-#: src/mod_configure.erl:171 src/mod_configure.erl:527
-#: src/mod_configure.erl:1069
+#: src/mod_configure.erl:141 src/mod_configure.erl:497
+#: src/mod_configure.erl:1039
 msgid "Get User Last Login Time"
 msgstr "Hämta användarens senast inloggade tid"
 
-#: src/mod_configure.erl:167 src/mod_configure.erl:523
-#: src/mod_configure.erl:1045
+#: src/mod_configure.erl:137 src/mod_configure.erl:493
+#: src/mod_configure.erl:1015
 msgid "Get User Password"
 msgstr "Hämta användarlösenord"
 
-#: src/mod_configure.erl:173 src/mod_configure.erl:529
-#: src/mod_configure.erl:1078
+#: src/mod_configure.erl:143 src/mod_configure.erl:499
+#: src/mod_configure.erl:1048
 msgid "Get User Statistics"
 msgstr "Hämta användarstatistik"
 
@@ -811,15 +807,15 @@ msgstr "Mellannamn"
 msgid "Grant voice to this person?"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1057
+#: src/mod_shared_roster.erl:1024
 msgid "Group"
 msgstr "Grupp"
 
-#: src/mod_roster.erl:1068
+#: src/mod_roster.erl:1045
 msgid "Groups"
 msgstr "Grupper"
 
-#: src/mod_shared_roster.erl:1052
+#: src/mod_shared_roster.erl:1019
 msgid "Groups that will be displayed to the members"
 msgstr ""
 
@@ -827,30 +823,30 @@ msgstr ""
 msgid "HTTP File Upload"
 msgstr ""
 
-#: src/mod_muc_room.erl:4870 src/mod_muc_room.erl:4934
-#: src/mod_muc_room.erl:5002
+#: src/mod_muc_room.erl:4931 src/mod_muc_room.erl:4995
+#: src/mod_muc_room.erl:5063
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4866 src/mod_muc_room.erl:4999
+#: src/mod_muc_room.erl:4927 src/mod_muc_room.erl:5060
 #, fuzzy
 msgid "Hat title"
 msgstr "Rumstitel"
 
-#: src/mod_muc_room.erl:4909
+#: src/mod_muc_room.erl:4970
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Trafikgränsen har överstigits"
 
-#: src/ejabberd_web_admin.erl:590
+#: src/ejabberd_web_admin.erl:594
 msgid "Host"
 msgstr "Server"
 
-#: src/mod_s2s_dialback.erl:363 src/mod_register_web.erl:581
+#: src/mod_s2s_dialback.erl:335 src/mod_register_web.erl:595
 msgid "Host unknown"
 msgstr ""
 
-#: src/mod_configure.erl:1443
+#: src/mod_configure.erl:1413
 msgid "IP addresses"
 msgstr "IP adresser"
 
@@ -863,35 +859,35 @@ msgstr "Ersatt av ny anslutning"
 msgid "If you don't see the CAPTCHA image here, visit the web page."
 msgstr ""
 
-#: src/mod_configure.erl:155 src/mod_configure.erl:616
+#: src/mod_configure.erl:125 src/mod_configure.erl:586
 msgid "Import Directory"
 msgstr "Importera katalog"
 
-#: src/mod_configure.erl:152 src/mod_configure.erl:614
+#: src/mod_configure.erl:122 src/mod_configure.erl:584
 msgid "Import File"
 msgstr "Importera fil"
 
-#: src/mod_configure.erl:908
+#: src/mod_configure.erl:878
 msgid "Import User from File at "
 msgstr "Importera användare från fil på "
 
-#: src/mod_configure.erl:585
+#: src/mod_configure.erl:555
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "Importera användare från jabberd14 Spool filer"
 
-#: src/mod_configure.erl:919
+#: src/mod_configure.erl:889
 msgid "Import Users from Dir at "
 msgstr "Importera användare från katalog på "
 
-#: src/ejabberd_web_admin.erl:1364
+#: src/ejabberd_web_admin.erl:1379
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Importera användare från jabberd14 Spool filer"
 
-#: src/ejabberd_web_admin.erl:1311
+#: src/ejabberd_web_admin.erl:1326
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Importera användardata från en PIEFXIS fil (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1375
+#: src/ejabberd_web_admin.erl:1390
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Importera användare från jabberd14 Spool directory:"
 
@@ -903,47 +899,47 @@ msgstr ""
 msgid "Improper message type"
 msgstr "Felaktig medelandetyp"
 
-#: src/ejabberd_web_admin.erl:840
+#: src/ejabberd_web_admin.erl:855
 #, fuzzy
 msgid "Incoming s2s Connections:"
 msgstr "Utgående s2s anslutning"
 
-#: src/ejabberd_captcha.erl:220 src/mod_register.erl:204
-#: src/mod_muc_room.erl:4582
+#: src/ejabberd_captcha.erl:220 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4643
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
-#: src/mod_vcard.erl:268 src/mod_muc.erl:1123 src/mod_pubsub.erl:1258
-#: src/mod_register.erl:200 src/mod_muc_room.erl:3621
+#: src/mod_vcard.erl:268 src/mod_muc.erl:1132 src/mod_pubsub.erl:1258
+#: src/mod_register.erl:188 src/mod_muc_room.erl:3675
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Fel lösenord"
 
-#: src/mod_register.erl:155 src/mod_muc_room.erl:2399
-#: src/mod_register_web.erl:579
+#: src/mod_register.erl:143 src/mod_muc_room.erl:2443
+#: src/mod_register_web.erl:593
 msgid "Incorrect password"
 msgstr "Fel lösenord"
 
-#: src/mod_adhoc.erl:262 src/mod_muc_room.erl:4918 src/mod_muc_room.erl:4972
-#: src/mod_muc_room.erl:5012
+#: src/mod_adhoc.erl:233 src/mod_muc_room.erl:4979 src/mod_muc_room.erl:5033
+#: src/mod_muc_room.erl:5073
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
-#: src/mod_configure.erl:1588
+#: src/mod_configure.erl:1558
 msgid "Incorrect value of 'action' in data form"
 msgstr ""
 
-#: src/mod_configure.erl:1191 src/mod_configure.erl:1224
-#: src/mod_configure.erl:1257 src/mod_configure.erl:1277
-#: src/mod_configure.erl:1297
+#: src/mod_configure.erl:1161 src/mod_configure.erl:1194
+#: src/mod_configure.erl:1227 src/mod_configure.erl:1247
+#: src/mod_configure.erl:1267
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/ext_mod.erl:1050
+#: src/ext_mod.erl:1121
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1126
+#: src/ext_mod.erl:1197
 #, fuzzy
 msgid "Installed Modules:"
 msgstr "Starta moduler"
@@ -956,37 +952,33 @@ msgstr ""
 msgid "Internal server error"
 msgstr ""
 
-#: src/mod_privilege.erl:409
+#: src/mod_privilege.erl:417
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:792
+#: src/mod_stream_mgmt.erl:772
 #, fuzzy
 msgid "Invalid 'previd' value"
 msgstr "Ogiltlig roll: ~s"
 
-#: src/mod_muc_room.erl:4459
+#: src/mod_muc_room.erl:4528
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Ogiltlig roll: ~s"
 
-#: src/mod_muc_room.erl:5188
+#: src/mod_muc_room.erl:5255
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr ""
 "Det är inte tillåtet att skicka privata medelanden till den här konferensen"
 
-#: src/mod_muc_room.erl:428 src/mod_muc_room.erl:585 src/mod_muc_room.erl:1450
+#: src/mod_muc_room.erl:428 src/mod_muc_room.erl:589 src/mod_muc_room.erl:1484
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 
-#: src/mod_muc_room.erl:631 src/mod_muc_room.erl:642
-msgid "It is not allowed to send private messages"
-msgstr "Det ar inte tillåtet att skicka privata meddelanden"
-
-#: src/mod_muc_room.erl:599
+#: src/mod_muc_room.erl:603
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr ""
 "Det är inte tillåtet att skicka privata medelanden med typen \"groupchat\""
@@ -996,24 +988,24 @@ msgid "It is not allowed to send private messages to the conference"
 msgstr ""
 "Det är inte tillåtet att skicka privata medelanden till den här konferensen"
 
-#: src/mod_jidprep.erl:160
+#: src/mod_jidprep.erl:137
 #, fuzzy
 msgid "JID normalization denied by service policy"
 msgstr "Skapandet av rum är förbjudet enligt lokal policy"
 
-#: src/mod_jidprep.erl:154
+#: src/mod_jidprep.erl:131
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_roster.erl:1064 src/mod_vcard_mnesia.erl:113
-#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:1012
-#: src/mod_configure.erl:1029 src/mod_configure.erl:1039
-#: src/mod_configure.erl:1049 src/mod_configure.erl:1059
-#: src/mod_configure.erl:1073 src/mod_configure.erl:1082
-#: src/mod_configure.erl:1370 src/mod_configure.erl:1414
-#: src/mod_configure.erl:1439 src/mod_muc_room.erl:4861
-#: src/mod_muc_room.erl:4929 src/mod_muc_room.erl:4996
-#: src/mod_muc_admin.erl:599
+#: src/mod_roster.erl:1041 src/mod_vcard_mnesia.erl:113
+#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:982
+#: src/mod_configure.erl:999 src/mod_configure.erl:1009
+#: src/mod_configure.erl:1019 src/mod_configure.erl:1029
+#: src/mod_configure.erl:1043 src/mod_configure.erl:1052
+#: src/mod_configure.erl:1340 src/mod_configure.erl:1384
+#: src/mod_configure.erl:1409 src/mod_muc_room.erl:4922
+#: src/mod_muc_room.erl:4990 src/mod_muc_room.erl:5057
+#: src/mod_muc_admin.erl:603
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1039,33 +1031,33 @@ msgstr "Juli"
 msgid "June"
 msgstr "Juni"
 
-#: src/mod_muc_admin.erl:605
+#: src/mod_muc_admin.erl:609
 msgid "Just created"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1023
+#: src/mod_shared_roster.erl:990
 msgid "Label:"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:723 src/ejabberd_web_admin.erl:789
-#: src/ejabberd_web_admin.erl:975
+#: src/ejabberd_web_admin.erl:738 src/ejabberd_web_admin.erl:804
+#: src/ejabberd_web_admin.erl:990
 msgid "Last Activity"
 msgstr "Senast aktivitet"
 
-#: src/mod_configure.erl:1416
+#: src/mod_configure.erl:1386
 msgid "Last login"
 msgstr "Senaste login"
 
-#: src/mod_muc_admin.erl:601
+#: src/mod_muc_admin.erl:605
 #, fuzzy
 msgid "Last message"
 msgstr "Senaste året"
 
-#: src/ejabberd_web_admin.erl:495
+#: src/ejabberd_web_admin.erl:497
 msgid "Last month"
 msgstr "Senaste månaden"
 
-#: src/ejabberd_web_admin.erl:496
+#: src/ejabberd_web_admin.erl:498
 msgid "Last year"
 msgstr "Senaste året"
 
@@ -1074,28 +1066,28 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:553
+#: src/mod_muc_admin.erl:557
 msgid "List of rooms"
 msgstr ""
 
-#: src/mod_muc_room.erl:4992
+#: src/mod_muc_room.erl:5053
 #, fuzzy
 msgid "List of users with hats"
 msgstr "Lista av moduler som skall startas"
 
-#: src/mod_muc_room.erl:4441 src/mod_muc_room.erl:4548
+#: src/mod_muc_room.erl:4510 src/mod_muc_room.erl:4609
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:604
+#: src/mod_muc_admin.erl:608
 msgid "Logging"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1488
+#: src/ejabberd_web_admin.erl:1503
 msgid "Low level update script"
 msgstr "Uppdaterade laglevel skript"
 
-#: src/mod_mam.erl:754
+#: src/mod_mam.erl:760
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "Skapandet av rum är förbjudet enligt lokal policy"
@@ -1129,7 +1121,7 @@ msgstr "Gör rummet permanent"
 msgid "Make room public searchable"
 msgstr "Gör rummet publikt sökbart"
 
-#: src/mod_register.erl:404
+#: src/mod_register.erl:392
 #, fuzzy
 msgid "Malformed username"
 msgstr "IRC-användarnamn"
@@ -1138,12 +1130,14 @@ msgstr "IRC-användarnamn"
 msgid "March"
 msgstr "Mars"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1864
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1862
 msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1882
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
 msgstr "Högsta innehållsstorlek i bytes"
@@ -1170,25 +1164,25 @@ msgstr "Högsta antal dataposter som sparas"
 msgid "May"
 msgstr "Maj"
 
-#: src/mod_shared_roster.erl:1062
+#: src/mod_shared_roster.erl:1029
 msgid "Members not added (inexistent vhost!): "
 msgstr ""
 
-#: src/mod_shared_roster.erl:1037
+#: src/mod_shared_roster.erl:1004
 msgid "Members:"
 msgstr "Medlemmar:"
 
-#: src/mod_muc_room.erl:2286
+#: src/mod_muc_room.erl:2330
 msgid "Membership is required to enter this room"
 msgstr "Du måste vara medlem för att komma in i det här rummet"
 
-#: src/mod_register_web.erl:268
+#: src/mod_register_web.erl:282
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1218 src/ejabberd_web_admin.erl:1829
+#: src/ejabberd_web_admin.erl:1233 src/ejabberd_web_admin.erl:1844
 msgid "Memory"
 msgstr "Minne"
 
@@ -1196,23 +1190,24 @@ msgstr "Minne"
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
-#: src/mod_announce.erl:528 src/mod_configure.erl:965
-#: src/mod_configure.erl:1005
+#: src/mod_announce.erl:528 src/mod_configure.erl:935 src/mod_configure.erl:975
 msgid "Message body"
 msgstr "Meddelande kropp"
 
-#: src/mod_privilege.erl:414
+#: src/mod_privilege.erl:422
 msgid "Message not found in forwarded payload"
 msgstr ""
 
-#: src/mod_block_strangers.erl:177
+#: src/mod_block_strangers.erl:169
 msgid "Messages from strangers are rejected"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1933
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1931
 msgid "Messages of type headline"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1929
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1927
 msgid "Messages of type normal"
 msgstr ""
@@ -1232,8 +1227,8 @@ msgstr ""
 msgid "Moderator"
 msgstr "endast moderatorer"
 
-#: src/mod_muc_room.erl:3041 src/mod_muc_room.erl:4636
-#: src/mod_muc_room.erl:4692 src/mod_muc_room.erl:4750
+#: src/mod_muc_room.erl:3095 src/mod_muc_room.erl:4697
+#: src/mod_muc_room.erl:4753 src/mod_muc_room.erl:4811
 msgid "Moderator privileges required"
 msgstr "Moderatorprivilegier krävs"
 
@@ -1245,7 +1240,7 @@ msgstr "Moderatorprivilegier krävs"
 msgid "Moderators Only"
 msgstr "endast moderatorer"
 
-#: src/ejabberd_web_admin.erl:1486
+#: src/ejabberd_web_admin.erl:1501
 msgid "Modified modules"
 msgstr "Uppdaterade moduler"
 
@@ -1257,8 +1252,8 @@ msgstr ""
 msgid "Monday"
 msgstr "Måndag"
 
-#: src/mod_muc_admin.erl:527 src/mod_muc_admin.erl:530
-#: src/mod_muc_admin.erl:546 src/mod_muc_admin.erl:621
+#: src/mod_muc_admin.erl:531 src/mod_muc_admin.erl:534
+#: src/mod_muc_admin.erl:550 src/mod_muc_admin.erl:625
 msgid "Multi-User Chat"
 msgstr ""
 
@@ -1266,21 +1261,21 @@ msgstr ""
 msgid "Multicast"
 msgstr ""
 
-#: src/mod_roster.erl:191
+#: src/mod_roster.erl:168
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1211 src/ejabberd_web_admin.erl:1807
+#: src/ejabberd_web_admin.erl:1226 src/ejabberd_web_admin.erl:1822
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
 msgid "Name"
 msgstr "Namn"
 
-#: src/mod_shared_roster.erl:1026
+#: src/mod_shared_roster.erl:993
 msgid "Name in the rosters where this group will be displayed"
 msgstr ""
 
-#: src/mod_shared_roster.erl:925 src/mod_shared_roster.erl:1019
+#: src/mod_shared_roster.erl:892 src/mod_shared_roster.erl:986
 msgid "Name:"
 msgstr "Namn:"
 
@@ -1293,79 +1288,80 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:3227
+#: src/mod_muc_room.erl:3281
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3023 src/mod_muc_room.erl:3232
+#: src/mod_muc_room.erl:3077 src/mod_muc_room.erl:3286
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:739 src/ejabberd_web_admin.erl:947
-#: src/mod_configure.erl:1399
+#: src/ejabberd_web_admin.erl:754 src/ejabberd_web_admin.erl:962
+#: src/mod_configure.erl:1369
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2134
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "Aldrig"
 
-#: src/mod_register_web.erl:386
+#: src/mod_register_web.erl:400
 #, fuzzy
 msgid "New Password:"
 msgstr "Lösenord:"
 
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: src/mod_roster.erl:1065 src/mod_vcard_mnesia.erl:104
+#: src/mod_roster.erl:1042 src/mod_vcard_mnesia.erl:104
 #: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
 #: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
 #: _build/default/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "Smeknamn"
 
-#: src/mod_muc.erl:1074
+#: src/mod_muc.erl:1083
 msgid "Nickname Registration at "
 msgstr "Registrera smeknamn på "
 
-#: src/mod_muc_room.erl:1399 src/mod_muc_room.erl:2307
-#: src/mod_muc_room.erl:4659
+#: src/mod_muc_room.erl:1433 src/mod_muc_room.erl:2351
+#: src/mod_muc_room.erl:4720
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3244
+#: src/mod_muc_room.erl:3298
 msgid "Nickname ~s does not exist in the room"
 msgstr "Smeknamnet ~s existerar inte i det här rummet"
 
-#: src/mod_muc_room.erl:3644
+#: src/mod_muc_room.erl:3698
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3005
+#: src/mod_muc_room.erl:3059
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "Noden finns inte"
 
-#: src/mod_configure.erl:1581
+#: src/mod_configure.erl:1551
 msgid "No 'password' found in data form"
 msgstr ""
 
-#: src/mod_register.erl:160
+#: src/mod_register.erl:148
 msgid "No 'password' found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:1173 src/mod_configure.erl:1206
-#: src/mod_configure.erl:1239 src/mod_configure.erl:1271
-#: src/mod_configure.erl:1291
+#: src/mod_configure.erl:1143 src/mod_configure.erl:1176
+#: src/mod_configure.erl:1209 src/mod_configure.erl:1241
+#: src/mod_configure.erl:1261
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5184
+#: src/mod_muc_room.erl:5251
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
-#: src/mod_privilege.erl:423
+#: src/mod_privilege.erl:431
 #, fuzzy
 msgid "No <forwarded/> element found"
 msgstr "Noden finns inte"
 
-#: src/ejabberd_web_admin.erl:1027
+#: src/ejabberd_web_admin.erl:1042
 msgid "No Data"
 msgstr "Ingen data"
 
@@ -1387,7 +1383,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "Ingen kropp behövs för dessa meddelanden"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1308
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1324
 #, fuzzy
 msgid "No child elements found"
 msgstr "Noden finns inte"
@@ -1397,33 +1393,33 @@ msgstr "Noden finns inte"
 msgid "No data form found"
 msgstr "Noden finns inte"
 
-#: src/mod_disco.erl:204 src/mod_vcard.erl:294
+#: src/mod_disco.erl:168 src/mod_vcard.erl:294
 msgid "No features available"
 msgstr ""
 
-#: src/mod_adhoc.erl:226
+#: src/mod_adhoc.erl:197
 msgid "No hook has processed this command"
 msgstr ""
 
-#: src/mod_last.erl:205
+#: src/mod_last.erl:188
 msgid "No info about last activity found"
 msgstr ""
 
-#: src/mod_blocking.erl:90
+#: src/mod_blocking.erl:88
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3764
+#: src/mod_muc_room.erl:3818
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Ingen gräns"
 
-#: src/mod_jidprep.erl:164 src/mod_blocking.erl:83 src/mod_blocking.erl:101
-#: src/mod_mix_pam.erl:377 src/mod_roster.erl:203 src/mod_muc.erl:248
-#: src/mod_muc.erl:674 src/mod_muc.erl:741 src/mod_muc.erl:761
-#: src/mod_muc.erl:792 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
-#: src/mod_offline.erl:367 src/ejabberd_captcha.erl:230 src/mod_mix.erl:678
-#: src/mod_privacy.erl:156 src/mod_privacy.erl:273 src/mod_http_upload.erl:771
+#: src/mod_jidprep.erl:141 src/mod_blocking.erl:81 src/mod_blocking.erl:99
+#: src/mod_mix_pam.erl:377 src/mod_roster.erl:180 src/mod_muc.erl:249
+#: src/mod_muc.erl:675 src/mod_muc.erl:750 src/mod_muc.erl:770
+#: src/mod_muc.erl:801 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/mod_offline.erl:339 src/ejabberd_captcha.erl:230 src/mod_mix.erl:678
+#: src/mod_privacy.erl:139 src/mod_privacy.erl:256 src/mod_http_upload.erl:771
 msgid "No module is handling this query"
 msgstr ""
 
@@ -1435,28 +1431,28 @@ msgstr ""
 msgid "No pending subscriptions found"
 msgstr ""
 
-#: src/mod_privacy.erl:189 src/mod_privacy.erl:283 src/mod_privacy.erl:299
-#: src/mod_privacy.erl:332
+#: src/mod_privacy.erl:172 src/mod_privacy.erl:266 src/mod_privacy.erl:282
+#: src/mod_privacy.erl:315
 msgid "No privacy list with this name found"
 msgstr ""
 
-#: src/mod_private.erl:175
+#: src/mod_private.erl:176
 msgid "No private data found in this query"
 msgstr ""
 
-#: src/mod_stats.erl:93 src/mod_configure.erl:835 src/mod_configure.erl:1135
-#: src/mod_configure.erl:1168 src/mod_configure.erl:1201
-#: src/mod_configure.erl:1234 src/mod_configure.erl:1266
-#: src/mod_configure.erl:1286
+#: src/mod_stats.erl:92 src/mod_configure.erl:805 src/mod_configure.erl:1105
+#: src/mod_configure.erl:1138 src/mod_configure.erl:1171
+#: src/mod_configure.erl:1204 src/mod_configure.erl:1236
+#: src/mod_configure.erl:1256
 #, fuzzy
 msgid "No running node found"
 msgstr "Noden finns inte"
 
-#: src/mod_disco.erl:232 src/mod_vcard.erl:277
+#: src/mod_disco.erl:196 src/mod_vcard.erl:277
 msgid "No services available"
 msgstr ""
 
-#: src/mod_stats.erl:101
+#: src/mod_stats.erl:100
 msgid "No statistics found for this item"
 msgstr ""
 
@@ -1466,7 +1462,7 @@ msgstr ""
 msgid "Nobody"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1812 src/mod_muc_admin.erl:607
+#: src/ejabberd_web_admin.erl:1827 src/mod_muc_admin.erl:611
 #, fuzzy
 msgid "Node"
 msgstr "Noder"
@@ -1484,16 +1480,16 @@ msgstr ""
 msgid "Node index not found"
 msgstr "Noden finns inte"
 
-#: src/ejabberd_web_admin.erl:536 src/mod_muc.erl:739 src/mod_muc.erl:1012
+#: src/ejabberd_web_admin.erl:538 src/mod_muc.erl:748 src/mod_muc.erl:1021
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
-#: src/mod_muc_room.erl:4390 src/mod_muc_room.erl:4408
-#: src/mod_muc_room.erl:4426 src/mod_muc_room.erl:4444
-#: src/mod_muc_room.erl:4550 src/mod_muc_room.erl:4565
-#: src/mod_muc_room.erl:4569 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
+#: src/mod_muc_room.erl:4459 src/mod_muc_room.erl:4477
+#: src/mod_muc_room.erl:4495 src/mod_muc_room.erl:4513
+#: src/mod_muc_room.erl:4611 src/mod_muc_room.erl:4626
+#: src/mod_muc_room.erl:4630 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Noden finns inte"
 
-#: src/ejabberd_web_admin.erl:1117 src/ejabberd_web_admin.erl:1139
+#: src/ejabberd_web_admin.erl:1132 src/ejabberd_web_admin.erl:1154
 #, fuzzy
 msgid "Node ~p"
 msgstr "Nod "
@@ -1502,38 +1498,41 @@ msgstr "Nod "
 msgid "Nodeprep has failed"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1097 src/ejabberd_web_admin.erl:1935
-#: src/ejabberd_web_admin.erl:1960
+#: src/ejabberd_web_admin.erl:1112 src/ejabberd_web_admin.erl:1950
+#: src/ejabberd_web_admin.erl:1975
 msgid "Nodes"
 msgstr "Noder"
 
-#: src/mod_mix_pam.erl:502 src/ejabberd_web_admin.erl:882
-#: src/ejabberd_web_admin.erl:1078 src/ejabberd_web_admin.erl:1088
-#: src/ejabberd_web_admin.erl:1445 src/mod_roster.erl:1059
+#: src/mod_mix_pam.erl:502 src/ejabberd_web_admin.erl:897
+#: src/ejabberd_web_admin.erl:1093 src/ejabberd_web_admin.erl:1103
+#: src/ejabberd_web_admin.erl:1460 src/mod_roster.erl:1036
 msgid "None"
 msgstr "Inga"
 
-#: src/ejabberd_web_admin.erl:522
+#: src/ejabberd_web_admin.erl:524
 msgid "Not Found"
 msgstr "Noden finns inte"
 
-#: src/mod_register.erl:414
+#: src/mod_register.erl:402
 #, fuzzy
 msgid "Not allowed"
 msgstr "Noden finns inte"
 
-#: src/mod_disco.erl:276 src/mod_disco.erl:335 src/mod_last.erl:145
+#: src/mod_disco.erl:240 src/mod_disco.erl:299 src/mod_last.erl:128
 msgid "Not subscribed"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1994
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1992
 msgid "Notify subscribers when items are removed from the node"
 msgstr "Meddela prenumeranter när dataposter tas bort från noden"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1960
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1958
 msgid "Notify subscribers when the node configuration changes"
 msgstr "Meddela prenumeranter när nodens konfiguration ändras"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1977
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1975
 msgid "Notify subscribers when the node is deleted"
 msgstr "Meddela prenumeranter när noden tas bort"
@@ -1556,26 +1555,27 @@ msgstr "Antal inloggade användare"
 msgid "Number of occupants"
 msgstr "Antal besökare"
 
-#: src/mod_configure.erl:1123
+#: src/mod_configure.erl:1093
 msgid "Number of online users"
 msgstr "Antal inloggade användare"
 
-#: src/mod_configure.erl:1102
+#: src/mod_configure.erl:1072
 msgid "Number of registered users"
 msgstr "Antal registrerade användare"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1791
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1789
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1268 src/ejabberd_web_admin.erl:1278
-#: src/ejabberd_web_admin.erl:1289 src/ejabberd_web_admin.erl:1298
-#: src/ejabberd_web_admin.erl:1308 src/ejabberd_web_admin.erl:1321
-#: src/ejabberd_web_admin.erl:1333 src/ejabberd_web_admin.erl:1347
-#: src/ejabberd_web_admin.erl:1361 src/ejabberd_web_admin.erl:1372
-#: src/ejabberd_web_admin.erl:1382 src/ejabberd_captcha.erl:181
+#: src/ejabberd_web_admin.erl:1283 src/ejabberd_web_admin.erl:1293
+#: src/ejabberd_web_admin.erl:1304 src/ejabberd_web_admin.erl:1313
+#: src/ejabberd_web_admin.erl:1323 src/ejabberd_web_admin.erl:1336
+#: src/ejabberd_web_admin.erl:1348 src/ejabberd_web_admin.erl:1362
+#: src/ejabberd_web_admin.erl:1376 src/ejabberd_web_admin.erl:1387
+#: src/ejabberd_web_admin.erl:1397 src/ejabberd_captcha.erl:181
 msgid "OK"
 msgstr "OK"
 
@@ -1598,61 +1598,63 @@ msgstr "Utomstående får inte skicka iq-queries till den här konferensen"
 msgid "October"
 msgstr "Oktober"
 
-#: src/ejabberd_web_admin.erl:722
+#: src/ejabberd_web_admin.erl:737
 msgid "Offline Messages"
 msgstr "Offline meddelanden"
 
-#: src/mod_offline.erl:1093
+#: src/mod_offline.erl:1065
 msgid "Offline Messages:"
 msgstr "Offline meddelanden:"
 
-#: src/mod_register_web.erl:382
+#: src/mod_register_web.erl:396
 #, fuzzy
 msgid "Old Password:"
 msgstr "Lösenord:"
 
-#: src/ejabberd_web_admin.erl:757 src/ejabberd_web_admin.erl:958
-#: src/mod_configure.erl:1409
+#: src/ejabberd_web_admin.erl:772 src/ejabberd_web_admin.erl:973
+#: src/mod_configure.erl:1379
 msgid "Online"
 msgstr "Ansluten"
 
-#: src/ejabberd_web_admin.erl:463 src/ejabberd_web_admin.erl:596
-#: src/ejabberd_web_admin.erl:1932 src/mod_configure.erl:507
+#: src/ejabberd_web_admin.erl:465 src/ejabberd_web_admin.erl:600
+#: src/ejabberd_web_admin.erl:1947 src/mod_configure.erl:477
 msgid "Online Users"
 msgstr "Anslutna användare"
 
-#: src/ejabberd_web_admin.erl:830 src/ejabberd_web_admin.erl:857
-#: src/ejabberd_web_admin.erl:1418
+#: src/ejabberd_web_admin.erl:845 src/ejabberd_web_admin.erl:872
+#: src/ejabberd_web_admin.erl:1433
 msgid "Online Users:"
 msgstr "Inloggade användare"
 
-#: src/mod_carboncopy.erl:101
+#: src/mod_carboncopy.erl:94
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr ""
 
-#: src/mod_privacy.erl:142
+#: src/mod_privacy.erl:125
 msgid "Only <list/> element is allowed in this query"
 msgstr ""
 
-#: src/mod_shared_roster.erl:1034
+#: src/mod_shared_roster.erl:1001
 msgid "Only admins can see this"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1598
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1596
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2045
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2043
 msgid "Only deliver notifications to available users"
 msgstr "Skicka notifikationer bara till uppkopplade användare"
 
-#: src/mod_mam.erl:547
+#: src/mod_mam.erl:553
 #, fuzzy
 msgid "Only members may query archives of this room"
 msgstr "Endast moderatorer får ändra ämnet i det här rummet"
 
-#: src/mod_muc_room.erl:1096
+#: src/mod_muc_room.erl:1111
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
@@ -1660,42 +1662,45 @@ msgstr ""
 "Endast moderatorer och deltagare har tillåtelse att ändra ämnet i det här "
 "rummet"
 
-#: src/mod_muc_room.erl:1101
+#: src/mod_muc_room.erl:1116
 #, fuzzy
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Endast moderatorer får ändra ämnet i det här rummet"
 
-#: src/mod_muc_room.erl:5106
+#: src/mod_muc_room.erl:5168
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "Endast administratörer får skicka tjänstmeddelanden"
 
-#: src/mod_muc_room.erl:1292
+#: src/mod_muc_room.erl:1307
 #, fuzzy
 msgid "Only moderators can approve voice requests"
 msgstr "Tillåt användare att skicka inbjudningar"
 
-#: src/mod_muc_room.erl:637 src/mod_muc_room.erl:1115 src/mod_muc_room.erl:5253
+#: src/mod_muc_room.erl:648 src/mod_muc_room.erl:1130 src/mod_muc_room.erl:5320
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Utomstående får inte skicka medelanden till den här konferensen"
 
-#: src/mod_muc_room.erl:683
+#: src/mod_muc_room.erl:698
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Utomstående får inte skicka iq-queries till den här konferensen"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2061
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:937
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:238
+#: src/mod_muc.erl:239
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Endast administratörer får skicka tjänstmeddelanden"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1603
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1544
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
 msgid "Only those on a whitelist may subscribe and retrieve items"
@@ -1713,27 +1718,27 @@ msgstr "Organisationsnamn"
 msgid "Organization Unit"
 msgstr "Organisationsenhet"
 
-#: src/ext_mod.erl:1130
+#: src/ext_mod.erl:1201
 msgid "Other Modules Available:"
 msgstr ""
 
-#: src/mod_configure.erl:509
+#: src/mod_configure.erl:479
 msgid "Outgoing s2s Connections"
 msgstr "Utgaende s2s anslutning"
 
-#: src/ejabberd_web_admin.erl:835
+#: src/ejabberd_web_admin.erl:850
 msgid "Outgoing s2s Connections:"
 msgstr "Utgående s2s anslutning"
 
 #: src/mod_pubsub.erl:1366 src/mod_pubsub.erl:1461 src/mod_pubsub.erl:1635
-#: src/mod_pubsub.erl:2241 src/mod_pubsub.erl:2319 src/mod_pubsub.erl:2529
-#: src/mod_pubsub.erl:2623 src/mod_pubsub.erl:3331 src/mod_pubsub.erl:3500
-#: src/mod_mix.erl:683 src/mod_muc_room.erl:3591 src/mod_muc_room.erl:3636
-#: src/mod_muc_room.erl:4612
+#: src/mod_pubsub.erl:2244 src/mod_pubsub.erl:2322 src/mod_pubsub.erl:2532
+#: src/mod_pubsub.erl:2626 src/mod_pubsub.erl:3334 src/mod_pubsub.erl:3504
+#: src/mod_mix.erl:683 src/mod_muc_room.erl:3645 src/mod_muc_room.erl:3690
+#: src/mod_muc_room.erl:4673
 msgid "Owner privileges required"
 msgstr "Ägarprivilegier krävs"
 
-#: src/mod_offline.erl:1018
+#: src/mod_offline.erl:990
 msgid "Packet"
 msgstr "Paket"
 
@@ -1752,34 +1757,34 @@ msgstr ""
 msgid "Participant ID"
 msgstr "Gör om användare till deltagare"
 
-#: src/ejabberd_web_admin.erl:668 src/mod_register.erl:245
-#: src/mod_configure.erl:1016 src/mod_configure.erl:1063
-#: src/mod_configure.erl:1372 src/mod_configure.erl:1561
-#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:517
+#: src/ejabberd_web_admin.erl:683 src/mod_register.erl:233
+#: src/mod_configure.erl:986 src/mod_configure.erl:1033
+#: src/mod_configure.erl:1342 src/mod_configure.erl:1531
+#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:516
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "Lösenord"
 
-#: src/mod_configure.erl:1020
+#: src/mod_configure.erl:990
 msgid "Password Verification"
 msgstr "Lösenordsverifikation"
 
-#: src/mod_register_web.erl:274 src/mod_register_web.erl:390
+#: src/mod_register_web.erl:288 src/mod_register_web.erl:404
 #, fuzzy
 msgid "Password Verification:"
 msgstr "Lösenordsverifikation"
 
-#: src/ejabberd_web_admin.erl:973 src/mod_register_web.erl:251
-#: src/mod_register_web.erl:493
+#: src/ejabberd_web_admin.erl:988 src/mod_register_web.erl:265
+#: src/mod_register_web.erl:507
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: src/mod_configure.erl:924
+#: src/mod_configure.erl:894
 msgid "Path to Dir"
 msgstr "Sökväg till katalog"
 
-#: src/mod_configure.erl:878 src/mod_configure.erl:890
-#: src/mod_configure.erl:902 src/mod_configure.erl:913
+#: src/mod_configure.erl:848 src/mod_configure.erl:860
+#: src/mod_configure.erl:872 src/mod_configure.erl:883
 msgid "Path to File"
 msgstr "Sökväg till fil"
 
@@ -1787,25 +1792,25 @@ msgstr "Sökväg till fil"
 msgid "Payload semantic type information"
 msgstr ""
 
-#: src/mod_roster.erl:1067
+#: src/mod_roster.erl:1044
 msgid "Pending"
 msgstr "Ännu inte godkända"
 
-#: src/ejabberd_web_admin.erl:482
+#: src/ejabberd_web_admin.erl:484
 msgid "Period: "
 msgstr "Period: "
 
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:309
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2027
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "Spara dataposter permanent"
 
-#: src/mod_muc_admin.erl:603
+#: src/mod_muc_admin.erl:607
 #, fuzzy
 msgid "Persistent"
 msgstr "Gör rummet permanent"
 
-#: src/mod_adhoc.erl:155 src/mod_adhoc.erl:245
+#: src/mod_adhoc.erl:126 src/mod_adhoc.erl:216
 msgid "Ping"
 msgstr "Ping"
 
@@ -1813,7 +1818,7 @@ msgstr "Ping"
 msgid "Ping query is incorrect"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1251
+#: src/ejabberd_web_admin.erl:1266
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1823,15 +1828,15 @@ msgstr ""
 "databas. Om du använder ODBC modul så måste du ta backup på SQLs databas "
 "enskilt"
 
-#: src/mod_muc_room.erl:1253
+#: src/mod_muc_room.erl:1268
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 
-#: src/mod_adhoc.erl:260
+#: src/mod_adhoc.erl:231
 msgid "Pong"
 msgstr "Pong"
 
-#: src/mod_roster.erl:169
+#: src/mod_roster.erl:140
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr ""
 
@@ -1839,24 +1844,24 @@ msgstr ""
 msgid "Present real Jabber IDs to"
 msgstr "Nuvarande äkta Jabber IDs till"
 
-#: src/mod_stream_mgmt.erl:788
+#: src/mod_stream_mgmt.erl:768
 msgid "Previous session PID has been killed"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:786
+#: src/mod_stream_mgmt.erl:766
 msgid "Previous session PID has exited"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:784
+#: src/mod_stream_mgmt.erl:764
 msgid "Previous session PID is dead"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:780
+#: src/mod_stream_mgmt.erl:760
 #, fuzzy
 msgid "Previous session not found"
 msgstr "Noden finns inte"
 
-#: src/mod_stream_mgmt.erl:782
+#: src/mod_stream_mgmt.erl:762
 msgid "Previous session timed out"
 msgstr ""
 
@@ -1864,7 +1869,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "Pubsub prenumerationsforfrågan"
 
-#: src/mod_muc_admin.erl:602
+#: src/mod_muc_admin.erl:606
 msgid "Public"
 msgstr ""
 
@@ -1873,38 +1878,39 @@ msgstr ""
 msgid "Publish model"
 msgstr "Ange publiceringsmodell"
 
-#: src/mod_pubsub.erl:4329
+#: src/mod_pubsub.erl:4335
 msgid "Publish-Subscribe"
 msgstr "Publikprenumeration"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2095
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
 
-#: src/mod_push.erl:358
+#: src/mod_push.erl:323
 #, fuzzy
 msgid "Push record not found"
 msgstr "Noden finns inte"
 
-#: src/mod_muc_room.erl:678
+#: src/mod_muc_room.erl:693
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "Det är förbjudet att skicka iq-queries till konferensdeltagare"
 
-#: src/mod_blocking.erl:76 src/mod_disco.erl:305 src/mod_disco.erl:362
-#: src/mod_mix_pam.erl:372 src/mod_roster.erl:158 src/mod_offline.erl:334
-#: src/mod_privacy.erl:134 src/mod_private.erl:199 src/mod_sic.erl:77
+#: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
+#: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
+#: src/mod_privacy.erl:117 src/mod_private.erl:200 src/mod_sic.erl:70
 msgid "Query to another users is forbidden"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1562 src/mod_configure.erl:821
+#: src/ejabberd_web_admin.erl:1577 src/mod_configure.erl:791
 msgid "RAM and disc copy"
 msgstr "RAM- och diskkopia"
 
-#: src/ejabberd_web_admin.erl:1561 src/mod_configure.erl:819
+#: src/ejabberd_web_admin.erl:1576 src/mod_configure.erl:789
 msgid "RAM copy"
 msgstr "RAM-kopia"
 
-#: src/ejabberd_web_admin.erl:1144
+#: src/ejabberd_web_admin.erl:1159
 msgid "RPC Call Error"
 msgstr "RPC Uppringningserror"
 
@@ -1928,47 +1934,47 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:606 src/mod_muc_room.erl:655
+#: src/mod_muc_room.erl:610 src/mod_muc_room.erl:666
 msgid "Recipient is not in the conference room"
 msgstr "Mottagaren finns inte i rummet"
 
-#: src/mod_register_web.erl:281
+#: src/mod_register_web.erl:295
 #, fuzzy
 msgid "Register"
 msgstr "Kontaktlista"
 
-#: src/mod_register_web.erl:188 src/mod_register_web.erl:216
-#: src/mod_register_web.erl:224
+#: src/mod_register_web.erl:202 src/mod_register_web.erl:230
+#: src/mod_register_web.erl:238
 msgid "Register an XMPP account"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:593
+#: src/ejabberd_web_admin.erl:597
 msgid "Registered Users"
 msgstr "Registrerade användare"
 
-#: src/ejabberd_web_admin.erl:825 src/ejabberd_web_admin.erl:852
+#: src/ejabberd_web_admin.erl:840 src/ejabberd_web_admin.erl:867
 msgid "Registered Users:"
 msgstr "Registrerade användare"
 
-#: src/ejabberd_web_admin.erl:1564 src/mod_configure.erl:825
+#: src/ejabberd_web_admin.erl:1579 src/mod_configure.erl:795
 msgid "Remote copy"
 msgstr "Sparas inte lokalt"
 
-#: src/mod_roster.erl:1115
+#: src/mod_roster.erl:1092
 msgid "Remove"
 msgstr "Ta bort"
 
-#: src/mod_offline.erl:1099
+#: src/mod_offline.erl:1071
 #, fuzzy
 msgid "Remove All Offline Messages"
 msgstr "Offline meddelanden"
 
-#: src/ejabberd_web_admin.erl:980 src/mod_configure.erl:1559
+#: src/ejabberd_web_admin.erl:995 src/mod_configure.erl:1529
 msgid "Remove User"
 msgstr "Ta bort användare"
 
-#: src/mod_muc_room.erl:4423 src/mod_muc_room.erl:4544
-#: src/mod_muc_room.erl:4924
+#: src/mod_muc_room.erl:4492 src/mod_muc_room.erl:4605
+#: src/mod_muc_room.erl:4985
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1977,11 +1983,11 @@ msgid "Replaced by new connection"
 msgstr "Ersatt av ny anslutning"
 
 #: src/mod_mix_pam.erl:353 src/mod_muc_room.erl:236 src/mod_muc_room.erl:245
-#: src/mod_muc_room.erl:943
+#: src/mod_muc_room.erl:958
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:829 src/mod_muc_room.erl:844
+#: src/mod_muc_room.erl:844 src/mod_muc_room.erl:859
 msgid "Request is ignored"
 msgstr ""
 
@@ -1989,37 +1995,37 @@ msgstr ""
 msgid "Requested role"
 msgstr ""
 
-#: src/mod_configure.erl:1445
+#: src/mod_configure.erl:1415
 msgid "Resources"
 msgstr "Resurser"
 
-#: src/ejabberd_web_admin.erl:1133
+#: src/ejabberd_web_admin.erl:1148
 msgid "Restart"
 msgstr "Omstart"
 
-#: src/mod_configure.erl:157 src/mod_configure.erl:587
-#: src/mod_configure.erl:935
+#: src/mod_configure.erl:127 src/mod_configure.erl:557
+#: src/mod_configure.erl:905
 msgid "Restart Service"
 msgstr "Starta om servicen"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:601
+#: src/mod_configure.erl:116 src/mod_configure.erl:571
 msgid "Restore"
 msgstr "Återställ"
 
-#: src/mod_configure.erl:885
+#: src/mod_configure.erl:855
 msgid "Restore Backup from File at "
 msgstr "Återställ säkerhetskopia från fil på "
 
-#: src/ejabberd_web_admin.erl:1281
+#: src/ejabberd_web_admin.erl:1296
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr "återställ den binära backupen efter nästa ejabberd omstart"
 
-#: src/ejabberd_web_admin.erl:1271
+#: src/ejabberd_web_admin.erl:1286
 msgid "Restore binary backup immediately:"
 msgstr "återställ den binära backupen omedelbart"
 
-#: src/ejabberd_web_admin.erl:1301
+#: src/ejabberd_web_admin.erl:1316
 msgid "Restore plain text backup immediately:"
 msgstr "återställ textbackup omedelbart"
 
@@ -2045,7 +2051,7 @@ msgstr "Rumkonfiguration"
 msgid "Room Occupants"
 msgstr "Antal besökare"
 
-#: src/mod_muc.erl:638
+#: src/mod_muc.erl:639
 msgid "Room creation is denied by service policy"
 msgstr "Skapandet av rum är förbjudet enligt lokal policy"
 
@@ -2055,35 +2061,36 @@ msgstr "Skapandet av rum är förbjudet enligt lokal policy"
 msgid "Room description"
 msgstr "Beskrivning:"
 
-#: src/mod_muc_room.erl:970
+#: src/mod_muc_room.erl:985
 #, fuzzy
 msgid "Room terminates"
 msgstr "Rumstitel"
 
-#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:606
+#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:610
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Rumstitel"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2118
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2116
 msgid "Roster groups allowed to subscribe"
 msgstr "Rostergrupper tillåts att prenumerera"
 
-#: src/mod_roster.erl:1119
+#: src/mod_roster.erl:1096
 #, fuzzy
 msgid "Roster of ~ts"
 msgstr "Kontaktlista för "
 
-#: src/mod_configure.erl:1441
+#: src/mod_configure.erl:1411
 msgid "Roster size"
 msgstr "Roster storlek"
 
-#: src/mod_roster.erl:1237
+#: src/mod_roster.erl:1214
 #, fuzzy
 msgid "Roster:"
 msgstr "Kontaktlista"
 
-#: src/ejabberd_web_admin.erl:1098 src/mod_configure.erl:511
+#: src/ejabberd_web_admin.erl:1113 src/mod_configure.erl:481
 msgid "Running Nodes"
 msgstr "Körande noder"
 
@@ -2096,7 +2103,7 @@ msgstr "ejabberd SOCKS5 Bytestrem modul"
 msgid "Saturday"
 msgstr "Lördag"
 
-#: src/ejabberd_web_admin.erl:1489
+#: src/ejabberd_web_admin.erl:1504
 msgid "Script check"
 msgstr "Skript kollat"
 
@@ -2120,7 +2127,7 @@ msgstr ""
 msgid "Search users in "
 msgstr "Sök efter användare på "
 
-#: src/ejabberd_web_admin.erl:1458
+#: src/ejabberd_web_admin.erl:1473
 msgid "Select All"
 msgstr ""
 
@@ -2128,7 +2135,7 @@ msgstr ""
 msgid "Send announcement to all online users"
 msgstr "Sänd meddelanden till alla inloggade användare"
 
-#: src/mod_announce.erl:615 src/mod_configure.erl:958 src/mod_configure.erl:998
+#: src/mod_announce.erl:615 src/mod_configure.erl:928 src/mod_configure.erl:968
 msgid "Send announcement to all online users on all hosts"
 msgstr "Sänd meddelanden till alla inloggade användare på alla värdar"
 
@@ -2144,8 +2151,8 @@ msgstr "Sänd meddelanden till alla  användare på alla värdar"
 msgid "September"
 msgstr "September"
 
-#: src/mod_register_web.erl:248 src/mod_register_web.erl:379
-#: src/mod_register_web.erl:490
+#: src/mod_register_web.erl:262 src/mod_register_web.erl:393
+#: src/mod_register_web.erl:504
 #, fuzzy
 msgid "Server:"
 msgstr "Server ~b"
@@ -2154,7 +2161,7 @@ msgstr "Server ~b"
 msgid "Service list retrieval timed out"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:790
+#: src/mod_stream_mgmt.erl:770
 msgid "Session state copying timed out"
 msgstr ""
 
@@ -2167,44 +2174,46 @@ msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
 "Sätt dagens status meddelande pa alla värdar och skicka till alla användare"
 
-#: src/mod_shared_roster.erl:901 src/mod_shared_roster.erl:947
-#: src/mod_shared_roster.erl:1054
+#: src/mod_shared_roster.erl:868 src/mod_shared_roster.erl:914
+#: src/mod_shared_roster.erl:1021
 msgid "Shared Roster Groups"
 msgstr "Delade Rostergrupper"
 
-#: src/ejabberd_web_admin.erl:504
+#: src/ejabberd_web_admin.erl:506
 msgid "Show Integral Table"
 msgstr "Visa kumulativ tabell"
 
-#: src/ejabberd_web_admin.erl:501
+#: src/ejabberd_web_admin.erl:503
 msgid "Show Ordinary Table"
 msgstr "Visa normal tabell"
 
-#: src/mod_configure.erl:159 src/mod_configure.erl:589
-#: src/mod_configure.erl:975
+#: src/mod_configure.erl:129 src/mod_configure.erl:559
+#: src/mod_configure.erl:945
 msgid "Shut Down Service"
 msgstr "Stäng ner servicen"
 
-#: src/mod_register_web.erl:264
+#: src/mod_register_web.erl:278
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
 msgstr ""
 
-#: src/ext_mod.erl:1119
+#: src/ext_mod.erl:1190
 msgid "Sources Specs:"
 msgstr ""
 
-#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:350
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1556
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "Specificera accessmodellen"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1944
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1942
 #, fuzzy
 msgid "Specify the event message type"
 msgstr "Specificera accessmodellen"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2079
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
 msgstr "Ange publiceringsmodell"
@@ -2213,67 +2222,67 @@ msgstr "Ange publiceringsmodell"
 msgid "Stanza ID"
 msgstr ""
 
-#: src/mod_muc_room.erl:5132
+#: src/mod_muc_room.erl:5199
 msgid "Stanza id is not valid"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1807
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:509 src/ejabberd_web_admin.erl:1128
-#: src/ejabberd_web_admin.erl:1936 src/ejabberd_web_admin.erl:1949
-#: src/ejabberd_web_admin.erl:1961 src/mod_muc_admin.erl:548
+#: src/ejabberd_web_admin.erl:511 src/ejabberd_web_admin.erl:1143
+#: src/ejabberd_web_admin.erl:1951 src/ejabberd_web_admin.erl:1964
+#: src/ejabberd_web_admin.erl:1976 src/mod_muc_admin.erl:552
 msgid "Statistics"
 msgstr "Statistik"
 
-#: src/ejabberd_web_admin.erl:1402
+#: src/ejabberd_web_admin.erl:1417
 msgid "Statistics of ~p"
 msgstr "Statistik på ~p"
 
-#: src/ejabberd_web_admin.erl:1135
+#: src/ejabberd_web_admin.erl:1150
 msgid "Stop"
 msgstr "Stoppa"
 
-#: src/ejabberd_web_admin.erl:1099 src/mod_configure.erl:512
+#: src/ejabberd_web_admin.erl:1114 src/mod_configure.erl:482
 msgid "Stopped Nodes"
 msgstr "Stannade noder"
 
-#: src/ejabberd_web_admin.erl:1212 src/ejabberd_web_admin.erl:1817
+#: src/ejabberd_web_admin.erl:1227 src/ejabberd_web_admin.erl:1832
 msgid "Storage Type"
 msgstr "Lagringstyp"
 
-#: src/ejabberd_web_admin.erl:1261
+#: src/ejabberd_web_admin.erl:1276
 msgid "Store binary backup:"
 msgstr "Lagra den binära backupen"
 
-#: src/ejabberd_web_admin.erl:1291
+#: src/ejabberd_web_admin.erl:1306
 msgid "Store plain text backup:"
 msgstr "Lagra textbackup"
 
-#: src/mod_stream_mgmt.erl:363
+#: src/mod_stream_mgmt.erl:343
 msgid "Stream management is already enabled"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:345
+#: src/mod_stream_mgmt.erl:325
 msgid "Stream management is not enabled"
 msgstr ""
 
-#: src/mod_announce.erl:524 src/mod_configure.erl:962
-#: src/mod_configure.erl:1002
+#: src/mod_announce.erl:524 src/mod_configure.erl:932 src/mod_configure.erl:972
 msgid "Subject"
 msgstr "Ämne"
 
-#: src/ejabberd_web_admin.erl:1227 src/mod_shared_roster.erl:1072
+#: src/ejabberd_web_admin.erl:1242 src/mod_shared_roster.erl:1039
 msgid "Submit"
 msgstr "Skicka"
 
-#: src/ejabberd_web_admin.erl:654 src/ejabberd_web_admin.erl:964
-#: src/ejabberd_web_admin.erl:1120 src/ejabberd_web_admin.erl:1148
-#: src/ejabberd_web_admin.erl:1242 src/ejabberd_web_admin.erl:1477
-#: src/mod_roster.erl:1123 src/mod_offline.erl:1009
-#: src/mod_shared_roster.erl:951 src/mod_shared_roster.erl:1059
-#: src/ext_mod.erl:892
+#: src/ejabberd_web_admin.erl:669 src/ejabberd_web_admin.erl:979
+#: src/ejabberd_web_admin.erl:1135 src/ejabberd_web_admin.erl:1163
+#: src/ejabberd_web_admin.erl:1257 src/ejabberd_web_admin.erl:1492
+#: src/mod_roster.erl:1100 src/mod_offline.erl:981
+#: src/mod_shared_roster.erl:918 src/mod_shared_roster.erl:1026
+#: src/ext_mod.erl:943
 msgid "Submitted"
 msgstr "Skicka in"
 
@@ -2281,15 +2290,17 @@ msgstr "Skicka in"
 msgid "Subscriber Address"
 msgstr "Prenumerationsadress"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2065
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2063
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:941
 msgid "Subscribers may publish"
 msgstr ""
 
-#: src/mod_roster.erl:1066
+#: src/mod_roster.erl:1043
 msgid "Subscription"
 msgstr "Prenumeration"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1524
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1522
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:891
 msgid ""
@@ -2297,7 +2308,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4623
+#: src/mod_muc_room.erl:4684
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2321,14 +2332,14 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1390 src/mod_muc_room.erl:2296
-#: src/mod_muc_room.erl:4649
+#: src/mod_muc_room.erl:1424 src/mod_muc_room.erl:2340
+#: src/mod_muc_room.erl:4710
 #, fuzzy
 msgid "That nickname is already in use by another occupant"
 msgstr "Smeknamnet används redan"
 
-#: src/mod_muc.erl:1097 src/mod_muc_room.erl:1402 src/mod_muc_room.erl:2310
-#: src/mod_muc_room.erl:4663
+#: src/mod_muc.erl:1106 src/mod_muc_room.erl:1436 src/mod_muc_room.erl:2354
+#: src/mod_muc_room.erl:4724
 msgid "That nickname is registered by another person"
 msgstr "Smeknamnet är reserverat"
 
@@ -2336,9 +2347,9 @@ msgstr "Smeknamnet är reserverat"
 msgid "The CAPTCHA is valid."
 msgstr "Din CAPTCHA är godkänd."
 
-#: src/ejabberd_captcha.erl:223 src/mod_register.erl:207
-#: src/mod_muc_room.erl:922 src/mod_muc_room.erl:4585
-#: src/mod_block_strangers.erl:150
+#: src/ejabberd_captcha.erl:223 src/mod_register.erl:195
+#: src/mod_muc_room.erl:937 src/mod_muc_room.erl:4646
+#: src/mod_block_strangers.erl:142
 #, fuzzy
 msgid "The CAPTCHA verification has failed"
 msgstr "Din CAPTCHA är godkänd."
@@ -2351,6 +2362,7 @@ msgstr ""
 msgid "The JID of the node creator"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1707
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1705
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:712
 msgid "The JIDs of those to contact with questions"
@@ -2368,12 +2380,14 @@ msgstr ""
 msgid "The NodeID of the relevant node"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1572
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1570
 msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1723
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1721
 msgid ""
 "The URL of an XSL transformation which can be applied to the payload format "
@@ -2381,11 +2395,11 @@ msgid ""
 "using a generic Data Forms rendering engine"
 msgstr ""
 
-#: src/mod_register_web.erl:577
+#: src/mod_register_web.erl:591
 msgid "The account already exists"
 msgstr ""
 
-#: src/mod_register_web.erl:585
+#: src/mod_register_web.erl:599
 #, fuzzy
 msgid "The account was not unregistered"
 msgstr "Lösenordet är"
@@ -2394,14 +2408,16 @@ msgstr "Lösenordet är"
 msgid "The body text of the last received message"
 msgstr ""
 
-#: src/mod_register_web.erl:575
+#: src/mod_register_web.erl:589
 msgid "The captcha you entered is wrong"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1654
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1690
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
 msgstr ""
@@ -2410,29 +2426,32 @@ msgstr ""
 msgid "The datetime when the node was created"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1848
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1846
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:780
 #, fuzzy
 msgid "The default language of the node"
 msgstr "Ett vänligt namn for noden"
 
-#: src/mod_muc_room.erl:507 src/mod_muc_room.erl:512
+#: src/mod_muc_room.erl:511 src/mod_muc_room.erl:516
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1637
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_configure.erl:1113
+#: src/mod_configure.erl:1083
 #, fuzzy
 msgid "The list of all online users"
 msgstr "Antal inloggade användare"
 
-#: src/mod_configure.erl:1092
+#: src/mod_configure.erl:1062
 msgid "The list of all users"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1671
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
@@ -2450,10 +2469,12 @@ msgstr ""
 msgid "The name of the node"
 msgstr "Ett vänligt namn for noden"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1900
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1896
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
 msgstr ""
@@ -2471,25 +2492,25 @@ msgstr "Tillåt denna Jabber ID att prenumerera på denna pubsub node"
 msgid "The number of unread or undelivered messages"
 msgstr ""
 
-#: src/mod_register.erl:412
+#: src/mod_register.erl:400
 msgid "The password contains unacceptable characters"
 msgstr ""
 
-#: src/mod_register.erl:410
+#: src/mod_register.erl:398
 #, fuzzy
 msgid "The password is too weak"
 msgstr "Lösenordet är"
 
-#: src/mod_register_web.erl:120
+#: src/mod_register_web.erl:134
 msgid "The password of your XMPP account was successfully changed."
 msgstr ""
 
-#: src/mod_register_web.erl:587
+#: src/mod_register_web.erl:601
 #, fuzzy
 msgid "The password was not changed"
 msgstr "Lösenordet är"
 
-#: src/mod_register_web.erl:589
+#: src/mod_register_web.erl:603
 #, fuzzy
 msgid "The passwords are different"
 msgstr "Lösenordet är"
@@ -2498,11 +2519,11 @@ msgstr "Lösenordet är"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 
-#: src/mod_vcard.erl:232 src/mod_register.erl:172
+#: src/mod_vcard.erl:232 src/mod_register.erl:160
 msgid "The query is only allowed from local users"
 msgstr ""
 
-#: src/mod_roster.erl:199
+#: src/mod_roster.erl:176
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
@@ -2510,6 +2531,7 @@ msgstr ""
 msgid "The room subject can be modified by participants"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2219
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
 msgid ""
 "The semantic type information of data in the node, usually specified by the "
@@ -2520,7 +2542,7 @@ msgstr ""
 msgid "The sender of the last received message"
 msgstr ""
 
-#: src/mod_privacy.erl:268
+#: src/mod_privacy.erl:251
 msgid ""
 "The stanza MUST contain only one <active/> element, one <default/> element, "
 "or one <list/> element"
@@ -2530,31 +2552,31 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
-#: src/mod_register_web.erl:124
+#: src/mod_register_web.erl:138
 #, fuzzy
 msgid "There was an error changing the password: "
 msgstr "Andra användarlösenord"
 
-#: src/mod_register_web.erl:96
+#: src/mod_register_web.erl:110
 msgid "There was an error creating the account: "
 msgstr ""
 
-#: src/mod_register_web.erl:109
+#: src/mod_register_web.erl:123
 msgid "There was an error deleting the account: "
 msgstr ""
 
-#: src/mod_register_web.erl:242
+#: src/mod_register_web.erl:256
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 
-#: src/mod_register_web.erl:226
+#: src/mod_register_web.erl:240
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
 
-#: src/mod_register_web.erl:480
+#: src/mod_register_web.erl:494
 msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr ""
 
@@ -2570,32 +2592,32 @@ msgstr ""
 msgid "Thursday"
 msgstr "Torsdag"
 
-#: src/mod_offline.erl:1015
+#: src/mod_offline.erl:987
 msgid "Time"
 msgstr "Tid"
 
-#: src/mod_configure.erl:940 src/mod_configure.erl:980
+#: src/mod_configure.erl:910 src/mod_configure.erl:950
 msgid "Time delay"
 msgstr "Tidsförsening"
 
-#: src/mod_stream_mgmt.erl:255
+#: src/mod_stream_mgmt.erl:235
 msgid "Timed out waiting for stream resumption"
 msgstr ""
 
-#: src/mod_offline.erl:1017
+#: src/mod_offline.erl:989
 msgid "To"
 msgstr "Till"
 
-#: src/mod_register.erl:232
+#: src/mod_register.erl:220
 msgid "To register, visit ~s"
 msgstr ""
 
-#: src/mod_configure.erl:683
+#: src/mod_configure.erl:653
 #, fuzzy
 msgid "To ~ts"
 msgstr "Till ~s"
 
-#: src/ejabberd_oauth.erl:525
+#: src/ejabberd_oauth.erl:524
 msgid "Token TTL"
 msgstr ""
 
@@ -2605,16 +2627,16 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr ""
 
-#: src/mod_muc_room.erl:3010 src/mod_muc_room.erl:3650
+#: src/mod_muc_room.erl:3064 src/mod_muc_room.erl:3704
 msgid "Too many <item/> elements"
 msgstr ""
 
-#: src/mod_privacy.erl:152
+#: src/mod_privacy.erl:135
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_register.erl:262 src/mod_muc_room.erl:2380
-#: src/mod_block_strangers.erl:127
+#: src/mod_register.erl:250 src/mod_muc_room.erl:2424
+#: src/mod_block_strangers.erl:119
 msgid "Too many CAPTCHA requests"
 msgstr ""
 
@@ -2622,7 +2644,7 @@ msgstr ""
 msgid "Too many active bytestreams"
 msgstr ""
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1310
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1326
 msgid "Too many child elements"
 msgstr ""
 
@@ -2630,15 +2652,15 @@ msgstr ""
 msgid "Too many receiver fields were specified"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:206
+#: src/mod_stream_mgmt.erl:186
 msgid "Too many unacked stanzas"
 msgstr ""
 
-#: src/mod_muc_room.erl:2255
+#: src/mod_muc_room.erl:2299
 msgid "Too many users in this conference"
 msgstr ""
 
-#: src/mod_muc_admin.erl:550
+#: src/mod_muc_admin.erl:554
 #, fuzzy
 msgid "Total rooms"
 msgstr "Chattrum"
@@ -2647,19 +2669,19 @@ msgstr "Chattrum"
 msgid "Traffic rate limit is exceeded"
 msgstr "Trafikgränsen har överstigits"
 
-#: src/ejabberd_web_admin.erl:1426
+#: src/ejabberd_web_admin.erl:1441
 msgid "Transactions Aborted:"
 msgstr "Transaktioner borttagna"
 
-#: src/ejabberd_web_admin.erl:1422
+#: src/ejabberd_web_admin.erl:1437
 msgid "Transactions Committed:"
 msgstr "Transaktioner kommittade"
 
-#: src/ejabberd_web_admin.erl:1434
+#: src/ejabberd_web_admin.erl:1449
 msgid "Transactions Logged:"
 msgstr "Transaktioner loggade "
 
-#: src/ejabberd_web_admin.erl:1430
+#: src/ejabberd_web_admin.erl:1445
 msgid "Transactions Restarted:"
 msgstr "Transaktioner omstartade"
 
@@ -2671,8 +2693,8 @@ msgstr "Tisdag"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_register.erl:266 src/mod_muc_room.erl:2389
-#: src/mod_block_strangers.erl:131
+#: src/mod_register.erl:254 src/mod_muc_room.erl:2433
+#: src/mod_block_strangers.erl:123
 #, fuzzy
 msgid "Unable to generate a CAPTCHA"
 msgstr "Kunde inte generera ett CAPTCHA"
@@ -2683,50 +2705,50 @@ msgstr ""
 
 #: src/ejabberd_web_admin.erl:178 src/ejabberd_web_admin.erl:190
 #: src/ejabberd_web_admin.erl:210 src/ejabberd_web_admin.erl:222
-#: src/mod_stream_mgmt.erl:142
+#: src/mod_stream_mgmt.erl:122
 msgid "Unauthorized"
 msgstr "Ej auktoriserad"
 
-#: src/mod_announce.erl:493 src/mod_configure.erl:793
-#: src/mod_configure.erl:1536
+#: src/mod_announce.erl:493 src/mod_configure.erl:763
+#: src/mod_configure.erl:1506
 msgid "Unexpected action"
 msgstr ""
 
-#: src/mod_register.erl:420
+#: src/mod_register.erl:408
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
-#: src/ext_mod.erl:1032
+#: src/ext_mod.erl:1103
 msgid "Uninstall"
 msgstr ""
 
-#: src/mod_register_web.erl:498
+#: src/mod_register_web.erl:512
 msgid "Unregister"
 msgstr ""
 
-#: src/mod_register_web.erl:193 src/mod_register_web.erl:470
-#: src/mod_register_web.erl:478
+#: src/mod_register_web.erl:207 src/mod_register_web.erl:484
+#: src/mod_register_web.erl:492
 msgid "Unregister an XMPP account"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1463
+#: src/ejabberd_web_admin.erl:1478
 msgid "Unselect All"
 msgstr ""
 
-#: src/mod_mam.erl:786
+#: src/mod_mam.erl:792
 msgid "Unsupported <index/> element"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:369
+#: src/mod_stream_mgmt.erl:349
 msgid "Unsupported version"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1129 src/ejabberd_web_admin.erl:1492
-#: src/ejabberd_web_admin.erl:1950
+#: src/ejabberd_web_admin.erl:1144 src/ejabberd_web_admin.erl:1507
+#: src/ejabberd_web_admin.erl:1965
 msgid "Update"
 msgstr "Uppdatera"
 
-#: src/ext_mod.erl:1124
+#: src/ext_mod.erl:1195
 #, fuzzy
 msgid "Update Specs"
 msgstr "Uppdatera"
@@ -2739,38 +2761,38 @@ msgstr "Uppdatera dagens status meddelande (skicka inte)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Uppdatera dagens status meddelande på alla värdar (skicka inte)"
 
-#: src/ejabberd_web_admin.erl:1485
+#: src/ejabberd_web_admin.erl:1500
 msgid "Update plan"
 msgstr "Uppdateringsplan"
 
-#: src/ejabberd_web_admin.erl:1487
+#: src/ejabberd_web_admin.erl:1502
 msgid "Update script"
 msgstr "Uppdatera skript"
 
-#: src/ext_mod.erl:1114
+#: src/ext_mod.erl:1185
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1474
+#: src/ejabberd_web_admin.erl:1489
 #, fuzzy
 msgid "Update ~p"
 msgstr "Uppdatera"
 
-#: src/ext_mod.erl:1035
+#: src/ext_mod.erl:1106
 msgid "Upgrade"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1406
+#: src/ejabberd_web_admin.erl:1421
 msgid "Uptime:"
 msgstr "Tid upp"
 
-#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:663
-#: src/ejabberd_web_admin.erl:719 src/mod_vcard_mnesia.erl:99
-#: src/mod_vcard_sql.erl:156 src/mod_register.erl:241
+#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:678
+#: src/ejabberd_web_admin.erl:734 src/mod_vcard_mnesia.erl:99
+#: src/mod_vcard_sql.erl:156 src/mod_register.erl:229
 msgid "User"
 msgstr "Användarnamn"
 
-#: src/ejabberd_oauth.erl:514
+#: src/ejabberd_oauth.erl:513
 #, fuzzy
 msgid "User (jid)"
 msgstr "Användare "
@@ -2781,11 +2803,11 @@ msgstr "Användare "
 msgid "User JID"
 msgstr "Användare "
 
-#: src/mod_configure.erl:307 src/mod_configure.erl:506
+#: src/mod_configure.erl:277 src/mod_configure.erl:476
 msgid "User Management"
 msgstr "Användarmanagement"
 
-#: src/mod_register.erl:416
+#: src/mod_register.erl:404
 msgid "User already exists"
 msgstr ""
 
@@ -2793,60 +2815,60 @@ msgstr ""
 msgid "User removed"
 msgstr ""
 
-#: src/mod_push.erl:343 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
+#: src/mod_push.erl:308 src/ejabberd_sm.erl:202 src/mod_sic.erl:86
 #, fuzzy
 msgid "User session not found"
 msgstr "Noden finns inte"
 
-#: src/mod_stream_mgmt.erl:614 src/mod_stream_mgmt.erl:637
+#: src/mod_stream_mgmt.erl:594 src/mod_stream_mgmt.erl:617
 msgid "User session terminated"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:960
+#: src/ejabberd_web_admin.erl:975
 #, fuzzy
 msgid "User ~ts"
 msgstr "Användare "
 
-#: src/mod_register_web.erl:236 src/mod_register_web.erl:375
-#: src/mod_register_web.erl:486
+#: src/mod_register_web.erl:250 src/mod_register_web.erl:389
+#: src/mod_register_web.erl:500
 #, fuzzy
 msgid "Username:"
 msgstr "IRC-användarnamn"
 
-#: src/ejabberd_web_admin.erl:450 src/ejabberd_web_admin.erl:457
-#: src/ejabberd_web_admin.erl:1931
+#: src/ejabberd_web_admin.erl:452 src/ejabberd_web_admin.erl:459
+#: src/ejabberd_web_admin.erl:1946
 msgid "Users"
 msgstr "Användare"
 
-#: src/ejabberd_web_admin.erl:478
+#: src/ejabberd_web_admin.erl:480
 msgid "Users Last Activity"
 msgstr "Användarens senaste aktivitet"
 
-#: src/mod_register.erl:408
+#: src/mod_register.erl:396
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Det är inte tillåtet för användare att skapa konton så fort"
 
-#: src/mod_roster.erl:1106
+#: src/mod_roster.erl:1083
 msgid "Validate"
 msgstr "Validera"
 
-#: src/mod_push.erl:325 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
-#: src/mod_muc_room.erl:4575 src/mod_muc_room.erl:4754
-#: src/mod_carboncopy.erl:104
+#: src/mod_push.erl:290 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
+#: src/mod_muc_room.erl:4636 src/mod_muc_room.erl:4815
+#: src/mod_carboncopy.erl:97
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/mod_jidprep.erl:137 src/mod_disco.erl:137 src/mod_disco.erl:153
-#: src/mod_disco.erl:259 src/mod_disco.erl:311 src/mod_vcard.erl:206
-#: src/mod_vcard.erl:249 src/mod_muc.erl:671 src/mod_muc.erl:705
-#: src/mod_muc.erl:746 src/mod_muc.erl:766 src/mod_muc.erl:776
+#: src/mod_jidprep.erl:114 src/mod_disco.erl:101 src/mod_disco.erl:117
+#: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
+#: src/mod_vcard.erl:249 src/mod_muc.erl:672 src/mod_muc.erl:710
+#: src/mod_muc.erl:755 src/mod_muc.erl:775 src/mod_muc.erl:785
 #: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:55
-#: src/mod_mix.erl:159 src/mod_mix.erl:207 src/mod_muc_room.erl:4368
-#: src/mod_muc_room.erl:4510 src/mod_time.erl:55
+#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:54
+#: src/mod_mix.erl:159 src/mod_mix.erl:207 src/mod_muc_room.erl:4437
+#: src/mod_muc_room.erl:4571 src/mod_time.erl:53
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_last.erl:108 src/mod_last.erl:126
-#: src/mod_sic.erl:68 src/mod_sic.erl:80
+#: src/mod_proxy65_service.erl:172 src/mod_last.erl:91 src/mod_last.erl:109
+#: src/mod_sic.erl:61 src/mod_sic.erl:73
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr ""
 
@@ -2863,11 +2885,11 @@ msgstr ""
 msgid "Value of '~s' should be integer"
 msgstr ""
 
-#: src/mod_offline.erl:1091
+#: src/mod_offline.erl:1063
 msgid "View Queue"
 msgstr ""
 
-#: src/mod_roster.erl:1235
+#: src/mod_roster.erl:1212
 #, fuzzy
 msgid "View Roster"
 msgstr "Kontaktlista"
@@ -2877,7 +2899,7 @@ msgstr "Kontaktlista"
 msgid "View joined MIX channels"
 msgstr "Lägg till IRC kanal"
 
-#: src/ejabberd_web_admin.erl:442 src/ejabberd_web_admin.erl:1959
+#: src/ejabberd_web_admin.erl:444 src/ejabberd_web_admin.erl:1974
 msgid "Virtual Hosts"
 msgstr "Virtuella servrar"
 
@@ -2885,19 +2907,19 @@ msgstr "Virtuella servrar"
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1383
+#: src/mod_muc_room.erl:1417
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Det är inte tillåtet for gäster att ändra sina smeknamn i detta rummet"
 
-#: src/mod_muc_room.erl:1108
+#: src/mod_muc_room.erl:1123
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Besökare får inte skicka medelande till alla"
 
-#: src/mod_muc_room.erl:5141
+#: src/mod_muc_room.erl:5208
 msgid "Voice request"
 msgstr ""
 
-#: src/mod_muc_room.erl:1260
+#: src/mod_muc_room.erl:1275
 msgid "Voice requests are disabled in this conference"
 msgstr ""
 
@@ -2905,16 +2927,19 @@ msgstr ""
 msgid "Wednesday"
 msgstr "Onsdag"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2138
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2136
 #, fuzzy
 msgid "When a new subscription is processed"
 msgstr "Tillåta prenumerationer?"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2142
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2140
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2156
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
 msgstr "När att skicka senast publicerade ämne"
@@ -2935,32 +2960,43 @@ msgstr ""
 msgid "Whether an entity wants to receive or disable notifications"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1826
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1912
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2188
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
 msgstr "Tillåta prenumerationer?"
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2172
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
 
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2011
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 
+#: src/mod_muc_log.erl:815
+#, fuzzy
+msgid "Who can send private messages"
+msgstr "Tillåt användare att skicka privata meddelanden"
+
+#: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1617
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_register_web.erl:591
+#: src/mod_register_web.erl:605
 msgid "Wrong parameters in the web formulary"
 msgstr ""
 
@@ -2968,12 +3004,12 @@ msgstr ""
 msgid "Wrong xmlns"
 msgstr ""
 
-#: src/mod_register_web.erl:177 src/mod_register_web.erl:185
+#: src/mod_register_web.erl:191 src/mod_register_web.erl:199
 #, fuzzy
 msgid "XMPP Account Registration"
 msgstr "Registrera smeknamn på "
 
-#: src/ejabberd_web_admin.erl:443
+#: src/ejabberd_web_admin.erl:445
 msgid "XMPP Domains"
 msgstr ""
 
@@ -2999,38 +3035,43 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd publikprenumerations modul"
 
-#: src/mod_muc_room.erl:968
+#: src/mod_muc_room.erl:983
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "har blivit kickad p.g.a en systemnerstängning"
+
+#: src/mod_muc_room.erl:642 src/mod_muc_room.erl:653
+#, fuzzy
+msgid "You are not allowed to send private messages"
+msgstr "Det ar inte tillåtet att skicka privata meddelanden"
 
 #: src/mod_mix.erl:673
 #, fuzzy
 msgid "You are not joined to the channel"
 msgstr "Det ar inte tillåtet att skicka privata meddelanden"
 
-#: src/mod_register_web.erl:261
+#: src/mod_register_web.erl:275
 msgid "You can later change your password using an XMPP client."
 msgstr ""
 
-#: src/mod_muc_room.erl:2283
+#: src/mod_muc_rtbl.erl:191 src/mod_muc_room.erl:2327
 msgid "You have been banned from this room"
 msgstr "Du har blivit bannlyst från det här rummet"
 
-#: src/mod_muc_room.erl:2264
+#: src/mod_muc_room.erl:2308
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1128
+#: src/mod_muc.erl:1137
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Du måste fylla i fält \"smeknamn\" i formen"
 
-#: src/mod_register.erl:238
+#: src/mod_register.erl:226
 #, fuzzy
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Du behöver en klient som stödjer x:data för att registrera smeknamn"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1092
 #, fuzzy
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "Du behöver en klient som stödjer x:data för att registrera smeknamn"
@@ -3044,12 +3085,12 @@ msgstr "Du behöver en klient som stödjer x:data, för att kunna söka"
 msgid "You're not allowed to create nodes"
 msgstr "Det ar inte tillåtet att skicka privata meddelanden"
 
-#: src/mod_register_web.erl:92
+#: src/mod_register_web.erl:106
 #, fuzzy
 msgid "Your XMPP account was successfully registered."
 msgstr "Registrera smeknamn på "
 
-#: src/mod_register_web.erl:105
+#: src/mod_register_web.erl:119
 #, fuzzy
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Registrera smeknamn på "
@@ -3058,7 +3099,7 @@ msgstr "Registrera smeknamn på "
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr ""
 
-#: src/mod_offline.erl:742
+#: src/mod_offline.erl:714
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr "Din kontaktkö for offlinekontakter ar full"
@@ -3070,7 +3111,7 @@ msgid ""
 msgstr ""
 "Dina meddelanden till ~s är blockerade. För att avblockera dem, gå till ~s"
 
-#: src/mod_disco.erl:439
+#: src/mod_disco.erl:403
 #, fuzzy
 msgid "ejabberd"
 msgstr "ejabberd Web Admin"
@@ -3079,7 +3120,7 @@ msgstr "ejabberd Web Admin"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:665
+#: src/mod_muc.erl:666
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC modul"
 
@@ -3135,11 +3176,11 @@ msgstr "joinar rummet"
 msgid "leaves the room"
 msgstr "lämnar rummet"
 
-#: src/mod_muc_room.erl:4809
+#: src/mod_muc_room.erl:4870
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:5217
+#: src/mod_muc_room.erl:5284
 msgid "the password is"
 msgstr "Lösenordet är"
 
@@ -3147,15 +3188,19 @@ msgstr "Lösenordet är"
 msgid "vCard User Search"
 msgstr "vCard användare sök"
 
-#: src/mod_muc_room.erl:5210
+#: src/mod_muc_room.erl:5277
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s bjöd in dig till rummet ~s"
 
-#: src/mod_offline.erl:1007
+#: src/mod_offline.erl:979
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "~s's offline meddelandekö"
+
+#, fuzzy
+#~ msgid "Access model of whitelist"
+#~ msgstr "ACL"
 
 #~ msgid "Max # of items to persist"
 #~ msgstr "Högsta antal dataposter som sparas"
