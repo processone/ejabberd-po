@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2022-10-12 15:07+0000\n"
+"PO-Revision-Date: 2023-07-01 11:49+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/pt_BR/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "X-Language: Portuguese (Brazil)\n"
 "X-Additional-Translator: Victor Hugo dos Santos\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -789,7 +789,7 @@ msgstr "Obter Estatísticas do Usuário"
 #: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
 #: _build/default/lib/xmpp/src/muc_register.erl:508
 msgid "Given Name"
-msgstr "Sobrenome"
+msgstr "Prenome"
 
 #: _build/default/lib/xmpp/src/muc_request.erl:420
 msgid "Grant voice to this person?"
@@ -1052,7 +1052,7 @@ msgstr "Lista de salas"
 
 #: src/mod_muc_room.erl:4992
 msgid "List of users with hats"
-msgstr "Lista os usuários com chapéus"
+msgstr "Lista dos usuários com chapéus"
 
 #: src/mod_muc_room.erl:4441 src/mod_muc_room.erl:4548
 msgid "List users with hats"
@@ -1512,7 +1512,7 @@ msgstr "Quantidade de respostas necessárias"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1025
 msgid "Number of occupants"
-msgstr "Número de participantes"
+msgstr "Quantidade de ocupantes"
 
 #: src/mod_configure.erl:1123
 msgid "Number of online users"
@@ -1622,10 +1622,8 @@ msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Somente os moderadores podem alterar o assunto desta sala"
 
 #: src/mod_muc_room.erl:5106
-#, fuzzy
 msgid "Only moderators are allowed to retract messages"
-msgstr ""
-"Apenas administradores possuem permissão para enviar mensagens de serviço"
+msgstr "Apenas moderadores estão autorizados a retirar mensagens"
 
 #: src/mod_muc_room.erl:1292
 msgid "Only moderators can approve voice requests"
@@ -1743,7 +1741,7 @@ msgstr "Caminho do arquivo"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Informações de tipo semântico de carga útil"
 
 #: src/mod_roster.erl:1067
 msgid "Pending"
@@ -1996,7 +1994,7 @@ msgstr "Configuração de salas"
 
 #: src/mod_muc_log.erl:659
 msgid "Room Occupants"
-msgstr "Número de participantes"
+msgstr "Ocupantes do quarto"
 
 #: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
@@ -2162,9 +2160,8 @@ msgid "Stanza ID"
 msgstr "ID da estrofe"
 
 #: src/mod_muc_room.erl:5132
-#, fuzzy
 msgid "Stanza id is not valid"
-msgstr "O nome do usuário não é válido"
+msgstr "A Stanza ID não é válido"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
@@ -2464,13 +2461,12 @@ msgid "The room subject can be modified by participants"
 msgstr "O tema da sala pode ser alterada pelos próprios participantes"
 
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
-#, fuzzy
 msgid ""
 "The semantic type information of data in the node, usually specified by the "
 "namespace of the payload (if any)"
 msgstr ""
-"O tipo dos dados do nó, normalmente definido pelo espaço dos nomes da carga "
-"útil (caso haja)"
+"Informações de tipo semântico dos dados no nó, geralmente especificadas pelo "
+"espaço de nomes da carga útil (se houver)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
