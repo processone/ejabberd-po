@@ -475,9 +475,9 @@ msgstr "数据库表格配置位于 "
 msgid "Database Tables at ~p"
 msgstr "位于~p的数据库表"
 
-#: src/mod_push.erl:305 src/mod_push.erl:320 src/mod_blocking.erl:261
+#: src/mod_push.erl:306 src/mod_push.erl:321 src/mod_blocking.erl:261
 #: src/mod_vcard.erl:239 src/mod_mix_pam.erl:382 src/mod_roster.erl:432
-#: src/mod_muc.erl:797 src/mod_muc.erl:1109 src/node_flat_sql.erl:797
+#: src/mod_muc.erl:797 src/mod_muc.erl:1109 src/node_flat_sql.erl:804
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:327
 #: src/mod_offline.erl:718 src/mod_pubsub.erl:3817 src/mod_pubsub.erl:3861
@@ -486,8 +486,8 @@ msgstr "位于~p的数据库表"
 #: src/mod_mam.erl:1140 src/mod_register.erl:406 src/mod_mix.erl:658
 #: src/mod_privacy.erl:157 src/mod_privacy.erl:175 src/mod_privacy.erl:269
 #: src/mod_privacy.erl:285 src/mod_privacy.erl:318 src/mod_privacy.erl:335
-#: src/mod_proxy65_service.erl:242 src/mod_private.erl:185
-#: src/mod_private.erl:192 src/mod_last.erl:185 src/mod_carboncopy.erl:90
+#: src/mod_proxy65_service.erl:242 src/mod_private.erl:189
+#: src/mod_private.erl:196 src/mod_last.erl:185 src/mod_carboncopy.erl:90
 msgid "Database failure"
 msgstr "数据库失败"
 
@@ -603,7 +603,7 @@ msgstr "启用服务器端聊天记录"
 msgid "Enable message archiving"
 msgstr "启用消息归档"
 
-#: src/mod_push.erl:293
+#: src/mod_push.erl:294
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr "不支持未使用'node'属性就开启推送"
 
@@ -1384,7 +1384,7 @@ msgstr "未发现挂起的订阅"
 msgid "No privacy list with this name found"
 msgstr "未找到带此名称的隐私列表"
 
-#: src/mod_private.erl:176
+#: src/mod_private.erl:180
 msgid "No private data found in this query"
 msgstr "此查询中未发现私有数据"
 
@@ -1812,7 +1812,7 @@ msgstr "发布-订阅"
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr "相关发布人离线后清除所有选项"
 
-#: src/mod_push.erl:323
+#: src/mod_push.erl:324
 msgid "Push record not found"
 msgstr "没有找到推送记录"
 
@@ -1822,7 +1822,7 @@ msgstr "本房间不可以查询会议成员信息"
 
 #: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
 #: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
-#: src/mod_privacy.erl:117 src/mod_private.erl:200 src/mod_sic.erl:70
+#: src/mod_privacy.erl:117 src/mod_private.erl:204 src/mod_sic.erl:70
 msgid "Query to another users is forbidden"
 msgstr "禁止查询其他用户"
 
@@ -2719,7 +2719,7 @@ msgstr "用户已存在"
 msgid "User removed"
 msgstr "用户已移除"
 
-#: src/mod_push.erl:308 src/ejabberd_sm.erl:202 src/mod_sic.erl:86
+#: src/mod_push.erl:309 src/ejabberd_sm.erl:202 src/mod_sic.erl:86
 msgid "User session not found"
 msgstr "用户会话未找到"
 
@@ -2753,7 +2753,7 @@ msgstr "不允许用户太频繁地注册帐户"
 msgid "Validate"
 msgstr "确认"
 
-#: src/mod_push.erl:290 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
+#: src/mod_push.erl:291 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
 #: src/mod_muc_room.erl:4636 src/mod_muc_room.erl:4815
 #: src/mod_carboncopy.erl:97
 msgid "Value 'get' of 'type' attribute is not allowed"
