@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-06-23 20:21+0000\n"
-"Last-Translator: Artem <artem@molotov.work>\n"
+"PO-Revision-Date: 2023-10-14 09:02+0000\n"
+"Last-Translator: Олександр Кревський <sasha135280@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/uk/>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 "X-Language: Ukrainian (українська)\n"
 "X-Additional-Translator: Sergei Golovan\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -177,6 +177,9 @@ msgid ""
 "LDAP Distinguished Name according to an implementation-specific or "
 "deployment-specific definition of a group."
 msgstr ""
+"Асоційована група LDAP, яка визначає членство в кімнаті; це повинно бути "
+"відмінне ім'я LDAP відповідно до специфічного для реалізації або "
+"специфічного для розгортання визначення групи."
 
 #: src/mod_announce.erl:607
 msgid "Announcements"
@@ -202,9 +205,8 @@ msgstr "Відповідь на запитання"
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2242
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:893
-#, fuzzy
 msgid "Anyone"
-msgstr "всім учасникам"
+msgstr "Будь-хто"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1539
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1537
@@ -212,29 +214,30 @@ msgstr "всім учасникам"
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
-"Будь-хто в зазначеному списку груп(и) може підписатися та отримати елементи"
+"Будь-хто в зазначеній групі (групах) реєстру може підписатися та отримувати "
+"матеріали"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1593
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1591
 msgid "Anyone may associate leaf nodes with the collection"
-msgstr "Будь-хто може зв'язати вузли листів з колекцією"
+msgstr "Будь-хто може асоціювати листові вузли з колекцією"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2068
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2066
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:944
 msgid "Anyone may publish"
-msgstr "Будь-хто може опублікувати"
+msgstr "Будь-хто може публікувати"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1529
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1527
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:896
 msgid "Anyone may subscribe and retrieve items"
-msgstr "Будь-хто може підписатися та отримати елементи"
+msgstr "Будь-хто може підписатися та отримувати публікації"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1682
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:896
 msgid "Anyone with Voice"
-msgstr "Усі, хто має голос"
+msgstr "Будь-хто, хто має голос"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1533
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1531
@@ -243,6 +246,8 @@ msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
 msgstr ""
+"Будь-хто, хто має підписку на отримання інформації про присутність в обох "
+"випадках або може підписуватись та отримувати матеріали"
 
 #: src/ejabberd_web_admin.erl:626
 msgid ""
@@ -250,34 +255,37 @@ msgid ""
 "check how to grant admin rights in: https://docs.ejabberd.im/admin/"
 "installation/#administration-account"
 msgstr ""
+"Очевидно, ваш обліковий запис не має прав адміністратора на цьому сервері. "
+"Будь ласка, перевірте, як отримати права адміністратора за посиланням: "
+"https://docs.ejabberd.im/admin/installation/#administration-account"
 
 #: src/mod_muc_log.erl:481
 msgid "April"
-msgstr "квітня"
+msgstr "Квітень"
 
 #: src/mod_mix_pam.erl:367
 msgid "Attribute 'channel' is required for this request"
-msgstr "Для цього запиту потрібен атрибут \"канал\""
+msgstr "Атрибут \"канал\" є обов'язковим для цього запиту"
 
 #: src/mod_mix.erl:148
 msgid "Attribute 'id' is mandatory for MIX messages"
-msgstr "Для MIX повідомлень потрібен атрибут \"id\""
+msgstr "Атрибут 'id' обов'язковий для MIX повідомлень"
 
 #: src/mod_pubsub.erl:1184
 msgid "Attribute 'jid' is not allowed here"
-msgstr "Атрибут 'jid' тут заборонений"
+msgstr "Атрибут 'jid' заборонений"
 
 #: src/mod_pubsub.erl:1187
 msgid "Attribute 'node' is not allowed here"
-msgstr "Атрибут \"вузол\" тут заборонений"
+msgstr "Атрибут \"вузол\" заборонений"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:822
 msgid "Attribute 'to' of stanza that triggered challenge"
-msgstr ""
+msgstr "Атрибут \"до\" рядка, який спровокував виклик"
 
 #: src/mod_muc_log.erl:485
 msgid "August"
-msgstr "серпня"
+msgstr "Серпень"
 
 #: src/mod_pubsub.erl:1929
 msgid "Automatic node creation is not enabled"
@@ -304,7 +312,7 @@ msgstr "Резервне копіювання в файл на "
 #: src/ejabberd_web_admin.erl:1136 src/mod_roster.erl:1101
 #: src/mod_shared_roster.erl:919 src/mod_shared_roster.erl:1032
 msgid "Bad format"
-msgstr "Неправильний формат"
+msgstr "Невірний формат"
 
 #: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
@@ -314,7 +322,7 @@ msgstr "День народження"
 
 #: src/mod_legacy_auth.erl:112
 msgid "Both the username and the resource are required"
-msgstr "Потрібне ім'я користувача та ресурс"
+msgstr "Обов'язково потрібне ім'я користувача та джерело"
 
 #: src/mod_proxy65_service.erl:237
 msgid "Bytestream already activated"
@@ -322,11 +330,11 @@ msgstr "Потік байтів вже активовано"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:1001
 msgid "CAPTCHA web page"
-msgstr "Адреса капчі"
+msgstr "Веб-сторінка CAPTCHA"
 
 #: src/ejabberd_web_admin.erl:1429
 msgid "CPU Time:"
-msgstr "Процесорний час:"
+msgstr "Час роботи процесора:"
 
 #: src/mod_privacy.erl:305
 msgid "Cannot remove active list"
@@ -334,7 +342,7 @@ msgstr "Неможливо видалити активний список"
 
 #: src/mod_privacy.erl:312
 msgid "Cannot remove default list"
-msgstr "Неможливо видалити список за промовчанням"
+msgstr "Неможливо видалити список за замовчуванням"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:806
 msgid "Challenge ID"
@@ -349,7 +357,7 @@ msgstr "Змінити пароль"
 #: src/mod_configure.erl:139 src/mod_configure.erl:495
 #: src/mod_configure.erl:1025
 msgid "Change User Password"
-msgstr "Змінити Пароль Користувача"
+msgstr "Змінити пароль користувача"
 
 #: src/mod_register.erl:309
 msgid "Changing password is not allowed"
@@ -360,17 +368,16 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "Зміна ролі/рангу заборонена"
 
 #: src/mod_mix_pam.erl:504
-#, fuzzy
 msgid "Channel JID"
-msgstr "Канали"
+msgstr "Канали JID"
 
 #: src/mod_mix.erl:663
 msgid "Channel already exists"
-msgstr "Канал уже існує"
+msgstr "Канал вже існує"
 
 #: src/mod_mix.erl:668
 msgid "Channel does not exist"
-msgstr "Канал не існує"
+msgstr "Каналу не існує"
 
 #: src/mod_mix.erl:97
 msgid "Channels"
@@ -382,23 +389,23 @@ msgstr "Заборонені символи:"
 
 #: src/mod_muc_log.erl:365 src/mod_muc_log.erl:374
 msgid "Chatroom configuration modified"
-msgstr "Конфігурація кімнати змінилась"
+msgstr "Конфігурацію кімнати змінено"
 
 #: src/mod_muc_log.erl:458
 msgid "Chatroom is created"
-msgstr "Створено кімнату"
+msgstr "Кімнату створено"
 
 #: src/mod_muc_log.erl:460
 msgid "Chatroom is destroyed"
-msgstr "Знищено кімнату"
+msgstr "Кімнату видалено"
 
 #: src/mod_muc_log.erl:462
 msgid "Chatroom is started"
-msgstr "Запущено кімнату"
+msgstr "Кімнату запущено"
 
 #: src/mod_muc_log.erl:464
 msgid "Chatroom is stopped"
-msgstr "Зупинено кімнату"
+msgstr "Кімнату зупинено"
 
 #: src/mod_muc.erl:1367 src/mod_muc_admin.erl:627
 msgid "Chatrooms"
@@ -406,7 +413,7 @@ msgstr "Кімнати"
 
 #: src/mod_register.erl:216
 msgid "Choose a username and password to register with this server"
-msgstr "Виберіть назву користувача та пароль для реєстрації на цьому сервері"
+msgstr "Виберіть логін і пароль для реєстрації на цьому сервері"
 
 #: src/mod_configure.erl:817
 msgid "Choose storage type of tables"
@@ -414,7 +421,7 @@ msgstr "Оберіть тип збереження таблиць"
 
 #: src/mod_pubsub.erl:1401
 msgid "Choose whether to approve this entity's subscription."
-msgstr "Вирішіть, чи задовольнити запит цього об'єкту на підписку."
+msgstr "Виберіть, чи підтверджувати підписку."
 
 #: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
@@ -434,7 +441,7 @@ msgstr "Команди"
 #: src/mod_muc.erl:621 src/mod_muc.erl:645 src/mod_muc_room.erl:238
 #: src/mod_muc_room.erl:249
 msgid "Conference room does not exist"
-msgstr "Конференція не існує"
+msgstr "Кімната для переговорів відсутня"
 
 #: src/mod_configure.erl:99 src/mod_configure.erl:254 src/mod_configure.erl:275
 #: src/mod_configure.erl:475
@@ -496,24 +503,24 @@ msgstr "Таблиці бази даних на ~p"
 #: src/mod_proxy65_service.erl:242 src/mod_private.erl:185
 #: src/mod_private.erl:192 src/mod_last.erl:185 src/mod_carboncopy.erl:90
 msgid "Database failure"
-msgstr "Помилка база даних"
+msgstr "Збій бази даних"
 
 #: src/mod_muc_log.erl:489
 msgid "December"
-msgstr "грудня"
+msgstr "Грудень"
 
 #: src/mod_muc_log.erl:811 _build/default/lib/xmpp/src/muc_roomconfig.erl:2062
 msgid "Default users as participants"
-msgstr "Зробити користувачів учасниками за замовчуванням"
+msgstr "Користувачі за замовчуванням як учасники"
 
 #: src/mod_offline.erl:1000 src/mod_shared_roster.erl:927
 msgid "Delete Selected"
-msgstr "Видалити виділені"
+msgstr "Видалити вибране"
 
 #: src/mod_configure.erl:133 src/mod_configure.erl:489
 #: src/mod_configure.erl:995
 msgid "Delete User"
-msgstr "Видалити Користувача"
+msgstr "Видалити користувача"
 
 #: src/ejabberd_web_admin.erl:1580
 msgid "Delete content"
