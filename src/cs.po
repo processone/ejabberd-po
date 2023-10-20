@@ -1,18 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
+"Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Jan Pinkas\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-10-22 07:01+0000\n"
+"Last-Translator: Jan Aschenbrenner <asch@req.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ejabberd/"
+"ejabberd-po/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1\n"
 "X-Language: Czech (čeština)\n"
-"X-Additional-Translator: Lukáš Polívka [spike411] xmpp:spike411@jabber.cz\n"
 "X-Additional-Translator: Milos Svasek [DuxforD] from openheads.net\n"
-"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -736,9 +738,8 @@ msgid "From"
 msgstr "Od"
 
 #: src/mod_configure.erl:665
-#, fuzzy
 msgid "From ~ts"
-msgstr "Od  ~s"
+msgstr "Od ~ts"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2170
 #, fuzzy
@@ -934,9 +935,8 @@ msgid "Install"
 msgstr ""
 
 #: src/ext_mod.erl:1197
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "Spustit moduly"
+msgstr "Instalované moduly:"
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
@@ -974,7 +974,7 @@ msgstr ""
 
 #: src/mod_muc_room.erl:603
 msgid "It is not allowed to send private messages of type \"groupchat\""
-msgstr "Není dovoleno odeslání soukromé zprávy typu \"skupinová zpráva\" "
+msgstr "Není dovoleno odeslání soukromých zpráv typu \"skupinová zpráva\""
 
 #: src/mod_muc_room.erl:439
 msgid "It is not allowed to send private messages to the conference"
@@ -1011,9 +1011,8 @@ msgid "Joined MIX channels of ~ts"
 msgstr "Vstoupit do IRC kanálu"
 
 #: src/mod_mix_pam.erl:480
-#, fuzzy
 msgid "Joined MIX channels:"
-msgstr "Vstoupit do IRC kanálu"
+msgstr "Připojené MIX kanály:"
 
 #: src/mod_muc_log.erl:484
 msgid "July"
@@ -1139,7 +1138,7 @@ msgstr ""
 
 #: src/mod_muc_log.erl:834 _build/default/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
-msgstr "Počet účastníků"
+msgstr "Maximální počet účastníků"
 
 #: _build/default/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
@@ -1287,7 +1286,7 @@ msgstr "Nebyl nalezen atribut 'jid' ani 'nick'"
 
 #: src/mod_muc_room.erl:3077 src/mod_muc_room.erl:3286
 msgid "Neither 'role' nor 'affiliation' attribute found"
-msgstr "Nebyl nalezen atribut 'role'  ani 'affiliation'"
+msgstr "Nebyl nalezen atribut 'role' ani 'affiliation'"
 
 #: src/ejabberd_web_admin.erl:754 src/ejabberd_web_admin.erl:962
 #: src/mod_configure.erl:1369
@@ -1701,9 +1700,8 @@ msgid "Organization Unit"
 msgstr "Oddělení"
 
 #: src/ext_mod.erl:1201
-#, fuzzy
 msgid "Other Modules Available:"
-msgstr "Modul Roster chyboval"
+msgstr "Ostatní dostupné moduly:"
 
 #: src/mod_configure.erl:479
 msgid "Outgoing s2s Connections"
@@ -2061,18 +2059,16 @@ msgid "Roster groups allowed to subscribe"
 msgstr "Skupiny kontaktů, které mohou odebírat"
 
 #: src/mod_roster.erl:1096
-#, fuzzy
 msgid "Roster of ~ts"
-msgstr "Seznam kontaktů "
+msgstr "Seznam kontaktů ~ts"
 
 #: src/mod_configure.erl:1411
 msgid "Roster size"
 msgstr "Velikost seznamu kontaktů"
 
 #: src/mod_roster.erl:1214
-#, fuzzy
 msgid "Roster:"
-msgstr "Seznam kontaktů"
+msgstr "Seznam kontaktů:"
 
 #: src/ejabberd_web_admin.erl:1113 src/mod_configure.erl:481
 msgid "Running Nodes"
@@ -2154,7 +2150,7 @@ msgstr "Nastavit zprávu dne a odeslat ji online uživatelům"
 
 #: src/mod_announce.erl:619
 msgid "Set message of the day on all hosts and send to online users"
-msgstr "Nastavit zprávu dne a odeslat ji online uživatelům"
+msgstr "Nastavit zprávu dne na všech hostitelích a odeslat ji online uživatelům"
 
 #: src/mod_shared_roster.erl:868 src/mod_shared_roster.erl:914
 #: src/mod_shared_roster.erl:1021
@@ -2384,9 +2380,8 @@ msgid "The account already exists"
 msgstr "Uzel již existuje"
 
 #: src/mod_register_web.erl:599
-#, fuzzy
 msgid "The account was not unregistered"
-msgstr "Váš účet Jabberu byl úspěšně smazán."
+msgstr "Účet nebyl smazán"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
@@ -2468,9 +2463,8 @@ msgid "The number of pending incoming presence subscription requests"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:797
-#, fuzzy
 msgid "The number of subscribers to the node"
-msgstr "Povolit tomuto Jabber ID odebírat tento pubsub uzel?"
+msgstr "Počet odběratelů uzlu"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:378
 msgid "The number of unread or undelivered messages"
@@ -2531,7 +2525,7 @@ msgid ""
 "The stanza MUST contain only one <active/> element, one <default/> element, "
 "or one <list/> element"
 msgstr ""
-"Stanza MUSÍ obsahovat pouze jeden element  <active/>, jeden element <default/"
+"Stanza MUSÍ obsahovat pouze jeden element <active/>, jeden element <default/"
 "> nebo jeden element <list/>"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
@@ -2539,13 +2533,12 @@ msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
 #: src/mod_register_web.erl:138
-#, fuzzy
 msgid "There was an error changing the password: "
-msgstr "Při vytváření účtu došlo k chybě:"
+msgstr "Při změně hesla došlo k chybě: "
 
 #: src/mod_register_web.erl:110
 msgid "There was an error creating the account: "
-msgstr "Při vytváření účtu došlo k chybě:"
+msgstr "Při vytváření účtu došlo k chybě: "
 
 #: src/mod_register_web.erl:123
 msgid "There was an error deleting the account: "
@@ -2866,11 +2859,11 @@ msgstr "Hodnota 'set' atrubutu 'type' není povolena"
 
 #: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
-msgstr "Hodnota  '~s' by měla být boolean"
+msgstr "Hodnota '~s' by měla být boolean"
 
 #: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
-msgstr "Hodnota  '~s' by měla být datetime řetězec"
+msgstr "Hodnota '~s' by měla být datetime řetězec"
 
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
