@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-11-06 11:35+0000\n"
+"PO-Revision-Date: 2023-11-15 10:05+0000\n"
 "Last-Translator: Олександр Кревський <sasha135280@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/uk/>\n"
@@ -815,14 +815,12 @@ msgid "Hat URI"
 msgstr "Назва URI"
 
 #: src/mod_muc_room.erl:4927 src/mod_muc_room.erl:5060
-#, fuzzy
 msgid "Hat title"
 msgstr "Назва кімнати"
 
 #: src/mod_muc_room.erl:4970
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "Швидкість передачі інформації було перевищено"
+msgstr "Перевищено швидкість передачі інформації"
 
 #: src/ejabberd_web_admin.erl:594
 msgid "Host"
@@ -967,7 +965,6 @@ msgid "It is not allowed to send private messages to the conference"
 msgstr "Не дозволяється надсилати приватні повідомлення в конференцію"
 
 #: src/mod_jidprep.erl:137
-#, fuzzy
 msgid "JID normalization denied by service policy"
 msgstr "Створювати конференцію заборонено політикою служби"
 
@@ -1042,6 +1039,8 @@ msgstr "За останній рік"
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
+"Найменш значущі біти хеш-функції SHA-256 від тексту мають відповідати "
+"шістнадцятковій мітці."
 
 #: src/mod_muc_admin.erl:557
 msgid "List of rooms"
@@ -1064,9 +1063,8 @@ msgid "Low level update script"
 msgstr "Низькорівневий сценарій поновлення"
 
 #: src/mod_mam.erl:760
-#, fuzzy
 msgid "MAM preference modification denied by service policy"
-msgstr "Створювати конференцію заборонено політикою служби"
+msgstr "Зміна налаштувань MAM відхилена через політики сервісу"
 
 #: src/mod_muc_log.erl:800 _build/default/lib/xmpp/src/muc_roomconfig.erl:2155
 msgid "Make participants list public"
@@ -1110,6 +1108,8 @@ msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
+"Максимальна кількість елементів для зберігання, або max для встановлення не "
+"конкретизованого ліміту, окрім максимального, накладеного сервером"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1882
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1880
@@ -1150,14 +1150,13 @@ msgid "Membership is required to enter this room"
 msgstr "В цю конференцію можуть входити тільки її члени"
 
 #: src/mod_register_web.erl:282
-#, fuzzy
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
-"Запам'ятайте пароль, або запишіть його на папері, який треба зберегти у "
-"безпечному місці. У XMPP'і немає автоматизованих засобів відновлення пароля "
-"на той випадок, якщо ви його забудете."
+"Запам'ятайте свій пароль або запишіть його на папері та зберігайте у "
+"безпечному місці. У XMPP не існує автоматизованого способу відновлення "
+"паролю, якщо ви його забудете."
 
 #: src/ejabberd_web_admin.erl:1233 src/ejabberd_web_admin.erl:1844
 msgid "Memory"
@@ -1165,7 +1164,7 @@ msgstr "Пам'ять"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:644
 msgid "Mere Availability in XMPP (No Show Value)"
-msgstr ""
+msgstr "Проста доступність у XMPP (без показу статусу)"
 
 #: src/mod_announce.erl:528 src/mod_configure.erl:935 src/mod_configure.erl:975
 msgid "Message body"
@@ -1212,9 +1211,8 @@ msgstr "Необхідні права модератора"
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2240
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:899
-#, fuzzy
 msgid "Moderators Only"
-msgstr "тільки модераторам"
+msgstr "Тільки модераторам"
 
 #: src/ejabberd_web_admin.erl:1501
 msgid "Modified modules"
@@ -1249,7 +1247,7 @@ msgstr "Назва"
 
 #: src/mod_shared_roster.erl:993
 msgid "Name in the rosters where this group will be displayed"
-msgstr ""
+msgstr "Назва у списку контактів, де ця група буде відображена"
 
 #: src/mod_shared_roster.erl:892 src/mod_shared_roster.erl:986
 msgid "Name:"
@@ -1258,11 +1256,11 @@ msgstr "Назва:"
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1968
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:960
 msgid "Natural Language for Room Discussions"
-msgstr ""
+msgstr "Розмовна мова для обговорень у кімнаті"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1011
 msgid "Natural-Language Room Name"
-msgstr ""
+msgstr "Назва кімнати розмовною мовою"
 
 #: src/mod_muc_room.erl:3281
 msgid "Neither 'jid' nor 'nick' attribute found"
@@ -1427,9 +1425,8 @@ msgstr "Для цього елемента статистичні дані не 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1734
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:901
-#, fuzzy
 msgid "Nobody"
-msgstr "ніхто"
+msgstr "Ніхто"
 
 #: src/ejabberd_web_admin.erl:1827 src/mod_muc_admin.erl:611
 msgid "Node"
@@ -1532,6 +1529,8 @@ msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
 msgstr ""
+"Кількість секунд, після яких автоматично видаляти елементи, або `max` для "
+"встановлення невизначеного ліміту, окрім максимального, накладеного сервером."
 
 #: src/ejabberd_web_admin.erl:1283 src/ejabberd_web_admin.erl:1293
 #: src/ejabberd_web_admin.erl:1304 src/ejabberd_web_admin.erl:1313
@@ -1543,19 +1542,16 @@ msgid "OK"
 msgstr "Продовжити"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1090
-#, fuzzy
 msgid "Occupants May Change the Subject"
-msgstr "Дозволити користувачам змінювати тему"
+msgstr "Учасникам дозволено змінювати тему"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:864
-#, fuzzy
 msgid "Occupants are allowed to invite others"
-msgstr "Тільки присутнім дозволяється відправляти запити в конференцію"
+msgstr "Учасникам дозволено запрошувати інших"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:881
-#, fuzzy
 msgid "Occupants are allowed to query others"
-msgstr "Тільки присутнім дозволяється відправляти запити в конференцію"
+msgstr "Учасникам дозволено ставити запитання іншим"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
@@ -1627,9 +1623,8 @@ msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Тільки модератори можуть змінювати тему в цій кімнаті"
 
 #: src/mod_muc_room.erl:5168
-#, fuzzy
 msgid "Only moderators are allowed to retract messages"
-msgstr "Тільки адміністратор сервісу може надсилати службові повідомлення"
+msgstr "Тільки модераторам дозволено відкликати повідомлення"
 
 #: src/mod_muc_room.erl:1307
 msgid "Only moderators can approve voice requests"
@@ -1665,6 +1660,7 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
+"Тільки ті, хто є в білому списку, можуть підписуватися та отримувати елементи"
 
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
@@ -1680,7 +1676,7 @@ msgstr "Відділ організації"
 
 #: src/ext_mod.erl:1201
 msgid "Other Modules Available:"
-msgstr ""
+msgstr "Інші доступні модулі:"
 
 #: src/mod_configure.erl:479
 msgid "Outgoing s2s Connections"
@@ -1712,9 +1708,8 @@ msgid "Participant"
 msgstr "Учасник"
 
 #: src/mod_mix_pam.erl:505
-#, fuzzy
 msgid "Participant ID"
-msgstr "Учасник"
+msgstr "ID учасника"
 
 #: src/ejabberd_web_admin.erl:683 src/mod_register.erl:233
 #: src/mod_configure.erl:986 src/mod_configure.erl:1033
@@ -1748,7 +1743,7 @@ msgstr "Шлях до файла"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Інформація про тип вмісту даних"
 
 #: src/mod_roster.erl:1044
 msgid "Pending"
@@ -1761,19 +1756,19 @@ msgstr "Період: "
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2027
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
-msgstr "Зберегати публікації до сховища"
+msgstr "Зберігати елементи в сховищі"
 
 #: src/mod_muc_admin.erl:607
 msgid "Persistent"
-msgstr ""
+msgstr "Тривалий"
 
 #: src/mod_adhoc.erl:126 src/mod_adhoc.erl:216
 msgid "Ping"
-msgstr "Пінг"
+msgstr "Затримка (пінг)"
 
 #: src/mod_ping.erl:194
 msgid "Ping query is incorrect"
-msgstr ""
+msgstr "Запит ping некоректний"
 
 #: src/ejabberd_web_admin.erl:1266
 msgid ""
@@ -1781,61 +1776,58 @@ msgid ""
 "If you are using the ODBC module, you also need to backup your SQL database "
 "separately."
 msgstr ""
-"Зауважте, що ця опція відповідає за резервне копіювання тільки вбудованної "
-"бази даних Mnesia. Якщо Ви також використовуєте інше сховище для даних "
-"(наприклад за допомогою модуля ODBC), то його резервне копіювання потрібно "
-"робити окремо."
+"Зверніть увагу, що ці налаштування створюють резервну копію лише вбудованої "
+"бази даних Mnesia. Якщо ви використовуєте модуль ODBC, вам також потрібно "
+"окремо створити резервну копію вашої SQL-бази даних."
 
 #: src/mod_muc_room.erl:1268
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
-"Будь ласка, почекайте деякий час перед тим, як знову відправляти голосовий "
-"запит"
+"Будь ласка, зачекайте трохи перед тим, як відправляти новий голосовий запит"
 
 #: src/mod_adhoc.erl:231
 msgid "Pong"
-msgstr "Понг"
+msgstr "Pong (відповідь на Ping, підтвердження взаємодії)"
 
 #: src/mod_roster.erl:140
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
-msgstr ""
+msgstr "Наявність атрибуту 'ask' не дозволена згідно з RFC6121"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2253
 msgid "Present real Jabber IDs to"
-msgstr "Зробити реальні Jabber ID учасників видимими"
+msgstr "Показувати реальні Jabber ID для"
 
 #: src/mod_stream_mgmt.erl:768
 msgid "Previous session PID has been killed"
-msgstr ""
+msgstr "PID попередньої сесії був зупинений"
 
 #: src/mod_stream_mgmt.erl:766
 msgid "Previous session PID has exited"
-msgstr ""
+msgstr "PID попередньої сесії завершив роботу"
 
 #: src/mod_stream_mgmt.erl:764
 msgid "Previous session PID is dead"
-msgstr ""
+msgstr "PID попередньої сесії більше не активний"
 
 #: src/mod_stream_mgmt.erl:760
 msgid "Previous session not found"
-msgstr "Попередній сеанс не знайдено"
+msgstr "Попередню сесію не знайдено"
 
 #: src/mod_stream_mgmt.erl:762
 msgid "Previous session timed out"
-msgstr ""
+msgstr "Час попередньої сесії вичерпано"
 
 #: src/mod_pubsub.erl:1398
 msgid "PubSub subscriber request"
-msgstr "Запит на підписку PubSub"
+msgstr "Запит підписника PubSub"
 
 #: src/mod_muc_admin.erl:606
 msgid "Public"
-msgstr ""
+msgstr "Публічний"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:954
-#, fuzzy
 msgid "Publish model"
-msgstr "Умови публікації"
+msgstr "Модель публікації"
 
 #: src/mod_pubsub.erl:4335
 msgid "Publish-Subscribe"
@@ -1844,8 +1836,7 @@ msgstr "Публікація-Підписка"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2095
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
-msgstr ""
-"Видалити всі елементи, коли особа, що їх опублікувала, вимикається від мережі"
+msgstr "Видалити всі елементи, коли автор публікації виходить офлайн"
 
 #: src/mod_push.erl:324
 msgid "Push record not found"
@@ -1853,21 +1844,21 @@ msgstr "Push-запис не знайдено"
 
 #: src/mod_muc_room.erl:693
 msgid "Queries to the conference members are not allowed in this room"
-msgstr "Запити до користувачів в цій конференції заборонені"
+msgstr "Запити до учасників конференції не дозволені в цій кімнаті"
 
 #: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
 #: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
 #: src/mod_privacy.erl:117 src/mod_private.erl:204 src/mod_sic.erl:70
 msgid "Query to another users is forbidden"
-msgstr ""
+msgstr "Запит до інших користувачів заборонено"
 
 #: src/ejabberd_web_admin.erl:1577 src/mod_configure.erl:791
 msgid "RAM and disc copy"
-msgstr "ОЗП та диск"
+msgstr "Копія оперативної пам'яті та диску"
 
 #: src/ejabberd_web_admin.erl:1576 src/mod_configure.erl:789
 msgid "RAM copy"
-msgstr "ОЗП"
+msgstr "Копія оперативної пам'яті"
 
 #: src/ejabberd_web_admin.erl:1159
 msgid "RPC Call Error"
@@ -1875,11 +1866,11 @@ msgstr "Помилка виклику RPC"
 
 #: src/mod_announce.erl:519
 msgid "Really delete message of the day?"
-msgstr "Насправді, видалити повідомлення дня?"
+msgstr "Дійсно видалити повідомлення дня?"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:712
 msgid "Receive notification from all descendent nodes"
-msgstr ""
+msgstr "Отримувати сповіщення від усіх підпорядкованих вузлів"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:707
 msgid "Receive notification from direct child nodes only"
