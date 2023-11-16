@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-05-28 11:50+0000\n"
+"PO-Revision-Date: 2023-11-19 06:02+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -250,6 +250,9 @@ msgid ""
 "check how to grant admin rights in: https://docs.ejabberd.im/admin/"
 "installation/#administration-account"
 msgstr ""
+"Очевидно Вашият акаунт няма административни права за този сървър. Моля, "
+"проверете как да предоставите администраторски права на: https://docs."
+"ejabberd.im/admin/installation/#administration-account"
 
 #: src/mod_muc_log.erl:481
 msgid "April"
@@ -2367,7 +2370,7 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1690
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
-msgstr ""
+msgstr "Колекциите, с които даден нод е свързан"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:729
 msgid "The datetime when the node was created"
@@ -2499,23 +2502,25 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
-msgstr ""
+msgstr "Идентификаторът на абонамента, свързан със заявката за абонамент"
 
 #: src/mod_register_web.erl:138
 msgid "There was an error changing the password: "
-msgstr ""
+msgstr "Възникна грешка при промяна на паролата: "
 
 #: src/mod_register_web.erl:110
 msgid "There was an error creating the account: "
-msgstr ""
+msgstr "Възникна грешка при създаването на профила: "
 
 #: src/mod_register_web.erl:123
 msgid "There was an error deleting the account: "
-msgstr ""
+msgstr "Възникна грешка при изтриването на профила: "
 
 #: src/mod_register_web.erl:256
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
+"Не е чувствително към регистъра (главни и малки букви): \"macbeth\"е същото "
+"като \"MacBeth\"и \"Macbeth\"."
 
 #: src/mod_register_web.erl:240
 msgid ""
@@ -2523,126 +2528,132 @@ msgid ""
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
+"Тази страница позволява регистриране на XMPP профил на този сървър. Вашият "
+"JID (Jabber ID) ще бъде във формата: username@server. Моля, прочетете "
+"внимателно инструкциите, за да попълните правилно полетата."
 
 #: src/mod_register_web.erl:494
 msgid "This page allows to unregister an XMPP account in this XMPP server."
-msgstr ""
+msgstr "Тази страница позволява премахване на XMPP профил от този сървър."
 
 #: src/mod_muc_log.erl:805
 msgid "This room is not anonymous"
-msgstr ""
+msgstr "Тази стая не е анонимна"
 
 #: src/mod_multicast.erl:481
 msgid "This service can not process the address: ~s"
-msgstr ""
+msgstr "Тази услуга не може да обработи адреса: ~s"
 
 #: src/mod_muc_log.erl:471
 msgid "Thursday"
-msgstr ""
+msgstr "Четвъртък"
 
 #: src/mod_offline.erl:987
 msgid "Time"
-msgstr ""
+msgstr "Час"
 
 #: src/mod_configure.erl:910 src/mod_configure.erl:950
 msgid "Time delay"
-msgstr ""
+msgstr "Закъснение"
 
 #: src/mod_stream_mgmt.erl:235
 msgid "Timed out waiting for stream resumption"
-msgstr ""
+msgstr "Времето за изчакване за възобновяване на потока изтече"
 
 #: src/mod_offline.erl:989
 msgid "To"
-msgstr ""
+msgstr "До"
 
 #: src/mod_register.erl:220
 msgid "To register, visit ~s"
-msgstr ""
+msgstr "За да се регистрирате, посетете ~s"
 
 #: src/mod_configure.erl:653
 msgid "To ~ts"
-msgstr ""
+msgstr "До ~ts"
 
 #: src/ejabberd_oauth.erl:524
 msgid "Token TTL"
-msgstr ""
+msgstr "Токен TTL"
 
 #: src/mod_fail2ban.erl:219
 msgid ""
 "Too many (~p) failed authentications from this IP address (~s). The address "
 "will be unblocked at ~s UTC"
 msgstr ""
+"Твърде много (~p) неуспешни опити за удостоверявания от този IP адрес (~s). "
+"Адресът ще бъде деблокиран в ~s UTC"
 
 #: src/mod_muc_room.erl:3064 src/mod_muc_room.erl:3704
 msgid "Too many <item/> elements"
-msgstr ""
+msgstr "Твърде много <item/> елементи"
 
 #: src/mod_privacy.erl:135
 msgid "Too many <list/> elements"
-msgstr ""
+msgstr "Твърде много <list/> елементи"
 
 #: src/mod_register.erl:250 src/mod_muc_room.erl:2424
 #: src/mod_block_strangers.erl:119
 msgid "Too many CAPTCHA requests"
-msgstr ""
+msgstr "Твърде много CAPTCHA заявки"
 
 #: src/mod_proxy65_service.erl:234
 msgid "Too many active bytestreams"
-msgstr ""
+msgstr "Твърде много активни \"bytestreams\" потоци"
 
 #: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1326
 msgid "Too many child elements"
-msgstr ""
+msgstr "Твърде много дъщерни елементи"
 
 #: src/mod_multicast.erl:316
 msgid "Too many receiver fields were specified"
-msgstr ""
+msgstr "Посочени са твърде много полета за получател"
 
 #: src/mod_stream_mgmt.erl:186
+#, fuzzy
 msgid "Too many unacked stanzas"
-msgstr ""
+msgstr "Твърде много непотвърдени пакети"
 
 #: src/mod_muc_room.erl:2299
 msgid "Too many users in this conference"
-msgstr ""
+msgstr "Твърде много потребители в тази конференция"
 
 #: src/mod_muc_admin.erl:554
 msgid "Total rooms"
-msgstr ""
+msgstr "Общо стаи"
 
 #: src/mod_muc_room.erl:368
 msgid "Traffic rate limit is exceeded"
-msgstr ""
+msgstr "Лимитът за трафик е надвишен"
 
 #: src/ejabberd_web_admin.erl:1441
 msgid "Transactions Aborted:"
-msgstr ""
+msgstr "Прекратени транзакции:"
 
 #: src/ejabberd_web_admin.erl:1437
 msgid "Transactions Committed:"
-msgstr ""
+msgstr "Извършени транзакции:"
 
 #: src/ejabberd_web_admin.erl:1449
 msgid "Transactions Logged:"
-msgstr ""
+msgstr "Регистрирани транзакции:"
 
 #: src/ejabberd_web_admin.erl:1445
 msgid "Transactions Restarted:"
-msgstr ""
+msgstr "Рестартирани транзакции:"
 
 #: src/mod_muc_log.erl:469
 msgid "Tuesday"
-msgstr ""
+msgstr "Вторник"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:996
 msgid "URL for Archived Discussion Logs"
-msgstr ""
+msgstr "URL адрес за дневници на архивирани дискусии"
 
 #: src/mod_register.erl:254 src/mod_muc_room.erl:2433
 #: src/mod_block_strangers.erl:123
 msgid "Unable to generate a CAPTCHA"
-msgstr ""
+msgstr "Не може да се генерира CAPTCHA"
 
 #: src/ejabberd_service.erl:140
 msgid "Unable to register route on existing local domain"
