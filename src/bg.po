@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-11-25 05:13+0000\n"
+"PO-Revision-Date: 2023-11-27 21:03+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1125,7 +1125,7 @@ msgstr "Максимален брой съобщения от хронологи
 
 #: src/mod_muc_log.erl:834 _build/default/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
-msgstr "Максимален брой потребители"
+msgstr "Максимален брой участници"
 
 #: _build/default/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
@@ -1515,7 +1515,7 @@ msgstr "Брой на необходимите отговори"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1025
 msgid "Number of occupants"
-msgstr "Брой потребители"
+msgstr "Брой участници"
 
 #: src/mod_configure.erl:1093
 msgid "Number of online users"
@@ -1603,6 +1603,8 @@ msgstr "Само администратори могат да видят тов�
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
+"Само собственици на колекционни нодове имат право да свързват листови нодове "
+"към колекцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2045
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2043
@@ -1633,11 +1635,11 @@ msgstr "Само модераторите могат да одобряват г�
 
 #: src/mod_muc_room.erl:648 src/mod_muc_room.erl:1130 src/mod_muc_room.erl:5320
 msgid "Only occupants are allowed to send messages to the conference"
-msgstr "Само обитателите имат право да изпращат съобщения до конференцията"
+msgstr "Само участници имат право да изпращат съобщения до конференцията"
 
 #: src/mod_muc_room.erl:698
 msgid "Only occupants are allowed to send queries to the conference"
-msgstr "Само обитателите имат право да изпращат запитвания до конференцията"
+msgstr "Само участници имат право да изпращат запитвания до конференцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2061
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
@@ -1654,12 +1656,15 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
+"Само тези от списъка с позволени могат да свързват листови нодове с "
+"колекцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1544
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
 msgid "Only those on a whitelist may subscribe and retrieve items"
-msgstr "Само тези в белия списък могат да се абонират и да извличат елементи"
+msgstr ""
+"Само тези от списъка с позволени могат да се абонират и да извличат елементи"
 
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
@@ -1742,7 +1747,7 @@ msgstr "Път до файл"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Информация за семантичен тип полезен товар"
 
 #: src/mod_roster.erl:1044
 msgid "Pending"
@@ -1845,7 +1850,7 @@ msgstr "Push записът не е намерен"
 
 #: src/mod_muc_room.erl:693
 msgid "Queries to the conference members are not allowed in this room"
-msgstr "В тази зала не се допускат запитвания към членовете на конференцията"
+msgstr "В тази стая не се допускат запитвания към членовете на конференцията"
 
 #: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
 #: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
@@ -1887,7 +1892,7 @@ msgstr "Получаване на известия само за нови нод
 
 #: src/mod_muc_room.erl:610 src/mod_muc_room.erl:666
 msgid "Recipient is not in the conference room"
-msgstr "Получателят не е в конферентната зала"
+msgstr "Получателят не е в конферентната стая"
 
 #: src/mod_register_web.erl:295
 msgid "Register"
@@ -1999,7 +2004,7 @@ msgstr "Конфигурация на стаята"
 
 #: src/mod_muc_log.erl:659
 msgid "Room Occupants"
-msgstr "Обитатели на стаята"
+msgstr "Участници в стаята"
 
 #: src/mod_muc.erl:639
 msgid "Room creation is denied by service policy"
@@ -2282,7 +2287,7 @@ msgstr "Текст, свързан с реч"
 #: src/mod_muc_room.erl:1424 src/mod_muc_room.erl:2340
 #: src/mod_muc_room.erl:4710
 msgid "That nickname is already in use by another occupant"
-msgstr "Този псевдоним вече се използва от друг потребител"
+msgstr "Този псевдоним вече се използва от друг участник"
 
 #: src/mod_muc.erl:1106 src/mod_muc_room.erl:1436 src/mod_muc_room.erl:2354
 #: src/mod_muc_room.erl:4724
@@ -2365,7 +2370,7 @@ msgstr "Въведеният captcha код е грешен"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1654
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
-msgstr ""
+msgstr "Дъщерните нодове (листови или колекция), свързани с колекция"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1690
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1688
@@ -2389,7 +2394,7 @@ msgstr "Исканата функция не се поддържа от конф
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1637
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Списъкът с JID, които могат да асоциират листови нодове с колекция"
 
 #: src/mod_configure.erl:1083
 msgid "The list of all online users"
@@ -2428,7 +2433,7 @@ msgstr "Нодът е от тип колекция"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1896
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
-msgstr ""
+msgstr "Нодът е листов (по подразбиране)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
@@ -2807,7 +2812,7 @@ msgstr "Валидирай"
 #: src/mod_muc_room.erl:4636 src/mod_muc_room.erl:4815
 #: src/mod_carboncopy.erl:97
 msgid "Value 'get' of 'type' attribute is not allowed"
-msgstr ""
+msgstr "Стойността 'get' на атрибут 'type' не е разрешена"
 
 #: src/mod_jidprep.erl:114 src/mod_disco.erl:101 src/mod_disco.erl:117
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
@@ -2821,24 +2826,24 @@ msgstr ""
 #: src/mod_proxy65_service.erl:172 src/mod_last.erl:91 src/mod_last.erl:109
 #: src/mod_sic.erl:61 src/mod_sic.erl:73
 msgid "Value 'set' of 'type' attribute is not allowed"
-msgstr ""
+msgstr "Стойността 'set' на атрибут 'type' не е разрешена"
 
 #: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
-msgstr ""
+msgstr "Стойността на '~s' трябва да е булева"
 
 #: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
-msgstr ""
+msgstr "Стойността на '~s' трябва да бъде низ за дата и час"
 
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 msgid "Value of '~s' should be integer"
-msgstr ""
+msgstr "Стойността на '~s' трябва да бъде цяло число"
 
 #: src/mod_offline.erl:1063
 msgid "View Queue"
-msgstr ""
+msgstr "Вижте опашката"
 
 #: src/mod_roster.erl:1212
 msgid "View Roster"
@@ -2846,46 +2851,48 @@ msgstr "Преглед на списъка с контакти"
 
 #: src/mod_mix_pam.erl:478
 msgid "View joined MIX channels"
-msgstr ""
+msgstr "Вижте присъединените MIX канали"
 
 #: src/ejabberd_web_admin.erl:444 src/ejabberd_web_admin.erl:1974
 msgid "Virtual Hosts"
-msgstr ""
+msgstr "Виртуални хостове"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2112
 msgid "Visitor"
-msgstr ""
+msgstr "Посетител"
 
 #: src/mod_muc_room.erl:1417
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr ""
+msgstr "Посетителите нямат право да променят псевдонимите си в тази стая"
 
 #: src/mod_muc_room.erl:1123
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
+"На посетителите не е разрешено да изпращат съобщения до всички участници"
 
 #: src/mod_muc_room.erl:5208
 msgid "Voice request"
-msgstr ""
+msgstr "Заявка за гласово обаждане"
 
 #: src/mod_muc_room.erl:1275
 msgid "Voice requests are disabled in this conference"
-msgstr ""
+msgstr "Гласовите обаждания са деактивирани в тази конференция"
 
 #: src/mod_muc_log.erl:470
 msgid "Wednesday"
-msgstr ""
+msgstr "Сряда"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2138
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2136
 msgid "When a new subscription is processed"
-msgstr ""
+msgstr "Когато се обработва нов абонамент"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2142
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2140
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
+"Когато се обработва нов абонамент и всеки път, когато абонат се появи онлайн"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2156
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2154
@@ -3004,7 +3011,7 @@ msgstr ""
 
 #: src/mod_muc_room.erl:2308
 msgid "You have joined too many conferences"
-msgstr ""
+msgstr "Присъединили сте се към твърде много конференции"
 
 #: src/mod_muc.erl:1137
 msgid "You must fill in field \"Nickname\" in the form"
