@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-11-27 21:03+0000\n"
+"PO-Revision-Date: 2023-12-05 02:45+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -1842,7 +1842,7 @@ msgstr "Публикуване-Абониране"
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
-"Изчисти всички елементи, когато съответният издател премине в режим офлайн"
+"Изчисти всички елементи, когато съответният публикуващ премине в режим офлайн"
 
 #: src/mod_push.erl:324
 msgid "Push record not found"
@@ -2166,7 +2166,7 @@ msgstr "Задай типа на съобщението за събитие"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2079
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
-msgstr "Задай модела на издателя"
+msgstr "Задайте модела на публикуващия"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:912
 msgid "Stanza ID"
@@ -2615,9 +2615,8 @@ msgid "Too many receiver fields were specified"
 msgstr "Посочени са твърде много полета за получател"
 
 #: src/mod_stream_mgmt.erl:186
-#, fuzzy
 msgid "Too many unacked stanzas"
-msgstr "Твърде много непотвърдени пакети"
+msgstr "Твърде много непотвърдени строфи"
 
 #: src/mod_muc_room.erl:2299
 msgid "Too many users in this conference"
@@ -2897,91 +2896,97 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2156
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
-msgstr ""
+msgstr "Кога да изпратите последния публикуван елемент"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:615
 msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
+"Дали даден обект иска да получи тяло на XMPP съобщение в допълнение към "
+"формата на полезен товар"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:563
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
+"Дали даден обект желае да получава обобщения за известия или всички известия "
+"поотделно"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
+msgstr "Дали даден обект желае да получава или деактивира известия"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1826
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
+"Дали собствениците или публикуващите трябва да получават отговори на елементи"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1912
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
-msgstr ""
+msgstr "Дали нодът е листов (по подразбиране) или колекция"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2188
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
-msgstr ""
+msgstr "Дали да се разрешат абонаменти"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2172
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
+"Дали всички абонаменти да бъдат временни въз основа на присъствието на абонат"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2011
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
+"Дали да се уведомяват собствениците за нови абонати и откази от абонамент"
 
 #: src/mod_muc_log.erl:815
-#, fuzzy
 msgid "Who can send private messages"
-msgstr "Разреши на потребителите да изпращат лични съобщения"
+msgstr "Кой може да изпраща лични съобщения"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1617
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Кой може да асоциира листови нодове с колекция"
 
 #: src/mod_register_web.erl:605
 msgid "Wrong parameters in the web formulary"
-msgstr ""
+msgstr "Грешни параметри в уеб формуляра"
 
 #: src/mod_multicast.erl:313
 msgid "Wrong xmlns"
-msgstr ""
+msgstr "Грешен xmlns"
 
 #: src/mod_register_web.erl:191 src/mod_register_web.erl:199
 msgid "XMPP Account Registration"
-msgstr ""
+msgstr "Регистриране на XMPP профил"
 
 #: src/ejabberd_web_admin.erl:445
 msgid "XMPP Domains"
-msgstr ""
+msgstr "XMPP домейни"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:632
 msgid "XMPP Show Value of Away"
-msgstr ""
+msgstr "XMPP покажи стойност на Отсъства"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:636
 msgid "XMPP Show Value of Chat"
-msgstr ""
+msgstr "XMPP покажи стойност на Чат"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:640
 msgid "XMPP Show Value of DND (Do Not Disturb)"
-msgstr ""
+msgstr "XMPP покажи стойност на DND (Не ме безпокой)"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:648
 msgid "XMPP Show Value of XA (Extended Away)"
-msgstr ""
+msgstr "XMPP покажи стойност на Продължително отсъствие"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1984
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1073
@@ -2993,9 +2998,8 @@ msgid "You are being removed from the room because of a system shutdown"
 msgstr ""
 
 #: src/mod_muc_room.erl:642 src/mod_muc_room.erl:653
-#, fuzzy
 msgid "You are not allowed to send private messages"
-msgstr "Изпращнето на лични съобщения не е позволено"
+msgstr "Нямате право да изпращате лични съобщения"
 
 #: src/mod_mix.erl:673
 msgid "You are not joined to the channel"
