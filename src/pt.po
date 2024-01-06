@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-04-08 18:50+0000\n"
+"PO-Revision-Date: 2024-01-08 11:06+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/pt/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Language: Portuguese (português)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -248,6 +248,9 @@ msgid ""
 "check how to grant admin rights in: https://docs.ejabberd.im/admin/"
 "installation/#administration-account"
 msgstr ""
+"Aparentemente, a sua conta não tem direitos de administração neste servidor. "
+"Verifique como conceder os direitos administrativos em: https://docs.ejabberd"
+".im/admin/installation/#administration-account"
 
 #: src/mod_muc_log.erl:481
 msgid "April"
@@ -1626,11 +1629,8 @@ msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Somente os moderadores podem alterar o assunto desta sala"
 
 #: src/mod_muc_room.erl:5168
-#, fuzzy
 msgid "Only moderators are allowed to retract messages"
-msgstr ""
-"Só os administradores do serviço têm permissão para enviar mensagens de "
-"serviço"
+msgstr "Apenas moderadores estão autorizados de retirar mensagens"
 
 #: src/mod_muc_room.erl:1307
 msgid "Only moderators can approve voice requests"
@@ -1751,7 +1751,7 @@ msgstr "Caminho do ficheiro"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Informações de tipo semântico de carga útil"
 
 #: src/mod_roster.erl:1044
 msgid "Pending"
@@ -2175,9 +2175,8 @@ msgid "Stanza ID"
 msgstr "ID da estrofe"
 
 #: src/mod_muc_room.erl:5199
-#, fuzzy
 msgid "Stanza id is not valid"
-msgstr "O nome do utilizador não é válido"
+msgstr "A Stanza ID é inválido"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1807
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1805
@@ -2490,13 +2489,12 @@ msgstr "O tema da sala pode ser alterada pelos próprios participantes"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2219
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2217
-#, fuzzy
 msgid ""
 "The semantic type information of data in the node, usually specified by the "
 "namespace of the payload (if any)"
 msgstr ""
-"O tipo dos dados do nó, normalmente definido pelo espaço dos nomes da carga "
-"útil (caso haja)"
+"Informações de tipo semântico dos dados no nó, geralmente especificadas pelo "
+"espaço de nomes da carga útil (se houver)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
@@ -2954,9 +2952,8 @@ msgstr ""
 "cancelaram a assinatura"
 
 #: src/mod_muc_log.erl:815
-#, fuzzy
 msgid "Who can send private messages"
-msgstr "Permitir a utilizadores enviarem mensagens privadas"
+msgstr "Quem pode enviar mensagens privadas"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1617
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
@@ -3005,9 +3002,8 @@ msgid "You are being removed from the room because of a system shutdown"
 msgstr "Está a ser removido da sala devido ao desligamento do sistema"
 
 #: src/mod_muc_room.erl:642 src/mod_muc_room.erl:653
-#, fuzzy
 msgid "You are not allowed to send private messages"
-msgstr "Não é permitido enviar mensagens privadas"
+msgstr "Não tem permissão de enviar mensagens privadas"
 
 #: src/mod_mix.erl:673
 msgid "You are not joined to the channel"
