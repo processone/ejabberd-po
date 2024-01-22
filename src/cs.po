@@ -5,8 +5,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2023-10-22 07:01+0000\n"
 "Last-Translator: Jan Aschenbrenner <asch@req.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/ejabberd/"
-"ejabberd-po/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
+"po/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " změnil(a) téma na: "
 
-#: src/mod_muc_admin.erl:604
+#: src/mod_muc_admin.erl:662
 #, fuzzy
 msgid "# participants"
 msgstr "Účastník"
@@ -43,8 +43,8 @@ msgid "A Web Page"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1775
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1773
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:759
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1773
 #, fuzzy
 msgid "A description of the node"
 msgstr "Přívětivé jméno pro uzel"
@@ -58,22 +58,22 @@ msgstr "Přívětivé jméno pro uzel"
 msgid "A password is required to enter this room"
 msgstr "Pro vstup do místnosti musíte zadat heslo"
 
-#: src/ejabberd_oauth.erl:533
+#: src/ejabberd_oauth.erl:548
 msgid "Accept"
 msgstr "Přijmout"
 
-#: src/ejabberd_c2s.erl:457 src/ejabberd_c2s.erl:700
-#: src/ejabberd_service.erl:232 src/mod_roster.erl:160 src/mod_muc.erl:219
-#: src/mod_muc.erl:703 src/mod_multicast.erl:304 src/mod_announce.erl:242
-#: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
-#: src/mod_announce.erl:844 src/mod_stun_disco.erl:504
-#: src/mod_s2s_dialback.erl:333 src/mod_register.erl:118
-#: src/mod_register.erl:283 src/mod_register.erl:394 src/mod_configure.erl:161
-#: src/mod_configure.erl:282 src/mod_configure.erl:408
-#: src/mod_configure.erl:702 src/mod_configure.erl:1488
-#: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
-#: src/ejabberd_s2s.erl:340 src/mod_legacy_auth.erl:146
-#: src/mod_http_upload.erl:801
+#: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
+#: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:844
+#: src/mod_roster.erl:160 src/ejabberd_c2s.erl:474 src/ejabberd_c2s.erl:733
+#: src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_register.erl:283 src/mod_register.erl:394
+#: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:333
+#: src/ejabberd_s2s.erl:340 src/mod_http_upload.erl:801
+#: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/mod_configure.erl:161 src/mod_configure.erl:282
+#: src/mod_configure.erl:408 src/mod_configure.erl:702
+#: src/mod_configure.erl:1488 src/mod_proxy65_service.erl:197
+#: src/mod_proxy65_service.erl:246
 msgid "Access denied by service policy"
 msgstr "Přístup byl zamítnut nastavením služby"
 
@@ -210,8 +210,8 @@ msgid "Anyone"
 msgstr "každému"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1539
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1537
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:906
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1537
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
@@ -222,14 +222,14 @@ msgid "Anyone may associate leaf nodes with the collection"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2068
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2066
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:944
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2066
 msgid "Anyone may publish"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1529
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1527
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:896
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1527
 msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
@@ -239,8 +239,8 @@ msgid "Anyone with Voice"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1533
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1531
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:900
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1531
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
@@ -302,15 +302,15 @@ msgstr "Záloha ~p"
 msgid "Backup to File at "
 msgstr "Záloha do souboru na "
 
-#: src/ejabberd_web_admin.erl:670 src/ejabberd_web_admin.erl:980
-#: src/ejabberd_web_admin.erl:1136 src/mod_roster.erl:1101
-#: src/mod_shared_roster.erl:919 src/mod_shared_roster.erl:1032
+#: src/mod_roster.erl:1101 src/mod_shared_roster.erl:919
+#: src/mod_shared_roster.erl:1032 src/ejabberd_web_admin.erl:670
+#: src/ejabberd_web_admin.erl:980 src/ejabberd_web_admin.erl:1136
 msgid "Bad format"
 msgstr "Nesprávný formát"
 
 #: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
+#: src/mod_vcard_sql.erl:232 src/mod_vcard_sql.erl:246
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
-#: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
 msgid "Birthday"
 msgstr "Datum narození"
 
@@ -342,9 +342,9 @@ msgstr "Výchozí seznam nelze odebrat"
 msgid "Challenge ID"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:954 src/mod_register_web.erl:204
-#: src/mod_register_web.erl:376 src/mod_register_web.erl:384
-#: src/mod_register_web.erl:409
+#: src/mod_register_web.erl:204 src/mod_register_web.erl:376
+#: src/mod_register_web.erl:384 src/mod_register_web.erl:409
+#: src/ejabberd_web_admin.erl:954
 msgid "Change Password"
 msgstr "Změnit heslo"
 
@@ -403,7 +403,7 @@ msgstr "Místnost spuštěna"
 msgid "Chatroom is stopped"
 msgstr "Místnost zastavena"
 
-#: src/mod_muc.erl:1367 src/mod_muc_admin.erl:627
+#: src/mod_muc_admin.erl:685 src/mod_muc.erl:1367
 msgid "Chatrooms"
 msgstr "Místnosti"
 
@@ -420,22 +420,22 @@ msgid "Choose whether to approve this entity's subscription."
 msgstr "Zvolte, zda chcete schválit odebírání touto entitou."
 
 #: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
+#: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
-#: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
 msgid "City"
 msgstr "Město"
 
-#: src/mod_stream_mgmt.erl:457
+#: src/mod_stream_mgmt.erl:528
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
 
-#: src/mod_adhoc.erl:78 src/mod_adhoc.erl:105 src/mod_adhoc.erl:121
-#: src/mod_adhoc.erl:137 src/mod_muc_room.erl:4457
+#: src/mod_muc_room.erl:4457 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Příkazy"
 
-#: src/mod_muc.erl:621 src/mod_muc.erl:645 src/mod_muc_room.erl:238
-#: src/mod_muc_room.erl:249
+#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
+#: src/mod_muc.erl:645
 msgid "Conference room does not exist"
 msgstr "Místnost neexistuje"
 
@@ -462,8 +462,8 @@ msgid "Contrib Modules"
 msgstr "Spustit moduly"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
+#: src/mod_vcard_sql.erl:233 src/mod_vcard_sql.erl:247
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
-#: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
 msgid "Country"
 msgstr "Země"
 
@@ -485,19 +485,19 @@ msgstr "Konfigurace databázových tabulek "
 msgid "Database Tables at ~p"
 msgstr "Databázové tabulky na ~p"
 
-#: src/mod_push.erl:306 src/mod_push.erl:321 src/mod_blocking.erl:261
-#: src/mod_vcard.erl:239 src/mod_mix_pam.erl:382 src/mod_roster.erl:432
-#: src/mod_muc.erl:797 src/mod_muc.erl:1109 src/node_flat_sql.erl:804
-#: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
-#: src/nodetree_tree_sql.erl:309 src/mod_offline.erl:327
-#: src/mod_offline.erl:718 src/mod_pubsub.erl:3817 src/mod_pubsub.erl:3861
+#: src/mod_last.erl:185 src/mod_mix_pam.erl:382 src/node_flat_sql.erl:804
+#: src/mod_vcard.erl:239 src/mod_pubsub.erl:3817 src/mod_pubsub.erl:3861
 #: src/mod_pubsub.erl:3883 src/mod_pubsub.erl:3967 src/mod_pubsub.erl:4188
-#: src/mod_mam.erl:756 src/mod_mam.erl:774 src/mod_mam.erl:804
-#: src/mod_mam.erl:1140 src/mod_register.erl:406 src/mod_mix.erl:658
-#: src/mod_privacy.erl:157 src/mod_privacy.erl:175 src/mod_privacy.erl:269
-#: src/mod_privacy.erl:285 src/mod_privacy.erl:318 src/mod_privacy.erl:335
-#: src/mod_proxy65_service.erl:242 src/mod_private.erl:189
-#: src/mod_private.erl:196 src/mod_last.erl:185 src/mod_carboncopy.erl:90
+#: src/mod_mam.erl:769 src/mod_mam.erl:787 src/mod_mam.erl:817
+#: src/mod_mam.erl:1160 src/mod_privacy.erl:157 src/mod_privacy.erl:175
+#: src/mod_privacy.erl:269 src/mod_privacy.erl:285 src/mod_privacy.erl:318
+#: src/mod_privacy.erl:335 src/mod_private.erl:189 src/mod_private.erl:196
+#: src/mod_roster.erl:432 src/mod_offline.erl:333 src/mod_offline.erl:724
+#: src/mod_register.erl:406 src/mod_carboncopy.erl:93
+#: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
+#: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
+#: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
+#: src/mod_mix.erl:658 src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "Chyba databáze"
 
@@ -509,7 +509,7 @@ msgstr ". prosince"
 msgid "Default users as participants"
 msgstr "Uživatelé jsou implicitně členy"
 
-#: src/mod_offline.erl:1000 src/mod_shared_roster.erl:927
+#: src/mod_offline.erl:1006 src/mod_shared_roster.erl:927
 msgid "Delete Selected"
 msgstr "Smazat vybrané"
 
@@ -597,8 +597,8 @@ msgid "Elements"
 msgstr "Položek"
 
 #: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
+#: src/mod_vcard_sql.erl:235 src/mod_vcard_sql.erl:249
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
-#: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
 msgid "Email"
 msgstr "E-mail"
 
@@ -710,8 +710,8 @@ msgid "Failed to process option '~s'"
 msgstr "Chyba při zpracování možnosti '~s'"
 
 #: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
+#: src/mod_vcard_sql.erl:230 src/mod_vcard_sql.erl:244
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
-#: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
 #: _build/default/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "Příjmení"
@@ -733,7 +733,7 @@ msgstr "Vyplňte políčka pro vyhledání uživatele XMPP"
 msgid "Friday"
 msgstr "Pátek"
 
-#: src/mod_offline.erl:988
+#: src/mod_offline.erl:994
 msgid "From"
 msgstr "Od"
 
@@ -752,8 +752,8 @@ msgid "Full List of Room Owners"
 msgstr "Seznam místností"
 
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
+#: src/mod_vcard_sql.erl:227 src/mod_vcard_sql.erl:241
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
-#: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
 msgid "Full Name"
 msgstr "Celé jméno"
 
@@ -839,7 +839,7 @@ msgstr "Byl překročen limit"
 msgid "Host"
 msgstr "Hostitel"
 
-#: src/mod_s2s_dialback.erl:335 src/mod_register_web.erl:595
+#: src/mod_register_web.erl:595 src/mod_s2s_dialback.erl:335
 msgid "Host unknown"
 msgstr "Neznámý hostitel"
 
@@ -900,23 +900,23 @@ msgstr "Nesprávný typ zprávy"
 msgid "Incoming s2s Connections:"
 msgstr "Příchozí s2s spojení:"
 
-#: src/ejabberd_captcha.erl:220 src/mod_register.erl:192
-#: src/mod_muc_room.erl:4643
+#: src/mod_register.erl:192 src/mod_muc_room.erl:4643
+#: src/ejabberd_captcha.erl:220
 msgid "Incorrect CAPTCHA submit"
 msgstr "Nesprávné odeslání CAPTCHA"
 
-#: src/mod_vcard.erl:268 src/mod_muc.erl:1132 src/mod_pubsub.erl:1258
-#: src/mod_register.erl:188 src/mod_muc_room.erl:3675
+#: src/mod_vcard.erl:268 src/mod_pubsub.erl:1258 src/mod_register.erl:188
+#: src/mod_muc_room.erl:3675 src/mod_muc.erl:1132
 msgid "Incorrect data form"
 msgstr "Nesprávný datový formulář"
 
-#: src/mod_register.erl:143 src/mod_muc_room.erl:2443
-#: src/mod_register_web.erl:593
+#: src/mod_register.erl:143 src/mod_register_web.erl:593
+#: src/mod_muc_room.erl:2443
 msgid "Incorrect password"
 msgstr "Nesprávné heslo"
 
-#: src/mod_adhoc.erl:233 src/mod_muc_room.erl:4979 src/mod_muc_room.erl:5033
-#: src/mod_muc_room.erl:5073
+#: src/mod_muc_room.erl:4979 src/mod_muc_room.erl:5033
+#: src/mod_muc_room.erl:5073 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Nesprávná hodnota atributu 'action'"
 
@@ -950,7 +950,7 @@ msgstr ""
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr "Nesprávný atribut 'from' v přeposlané zprávě"
 
-#: src/mod_stream_mgmt.erl:772
+#: src/mod_stream_mgmt.erl:843
 #, fuzzy
 msgid "Invalid 'previd' value"
 msgstr "Neplatná role: ~s"
@@ -989,15 +989,14 @@ msgstr "Pravidla služby nepovolují vytvořit místnost"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_roster.erl:1041 src/mod_vcard_mnesia.erl:113
-#: src/mod_vcard_sql.erl:170 src/mod_configure.erl:982
-#: src/mod_configure.erl:999 src/mod_configure.erl:1009
-#: src/mod_configure.erl:1019 src/mod_configure.erl:1029
-#: src/mod_configure.erl:1043 src/mod_configure.erl:1052
-#: src/mod_configure.erl:1340 src/mod_configure.erl:1384
-#: src/mod_configure.erl:1409 src/mod_muc_room.erl:4922
-#: src/mod_muc_room.erl:4990 src/mod_muc_room.erl:5057
-#: src/mod_muc_admin.erl:603
+#: src/mod_muc_admin.erl:661 src/mod_roster.erl:1041 src/mod_vcard_sql.erl:240
+#: src/mod_muc_room.erl:4922 src/mod_muc_room.erl:4990
+#: src/mod_muc_room.erl:5057 src/mod_vcard_mnesia.erl:113
+#: src/mod_configure.erl:982 src/mod_configure.erl:999
+#: src/mod_configure.erl:1009 src/mod_configure.erl:1019
+#: src/mod_configure.erl:1029 src/mod_configure.erl:1043
+#: src/mod_configure.erl:1052 src/mod_configure.erl:1340
+#: src/mod_configure.erl:1384 src/mod_configure.erl:1409
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1022,7 +1021,7 @@ msgstr ". července"
 msgid "June"
 msgstr ". června"
 
-#: src/mod_muc_admin.erl:609
+#: src/mod_muc_admin.erl:667
 msgid "Just created"
 msgstr ""
 
@@ -1039,7 +1038,7 @@ msgstr "Poslední aktivita"
 msgid "Last login"
 msgstr "Poslední přihlášení"
 
-#: src/mod_muc_admin.erl:605
+#: src/mod_muc_admin.erl:663
 #, fuzzy
 msgid "Last message"
 msgstr "Poslední rok"
@@ -1057,7 +1056,7 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_admin.erl:557
+#: src/mod_muc_admin.erl:615
 msgid "List of rooms"
 msgstr "Seznam místností"
 
@@ -1070,7 +1069,7 @@ msgstr "Seznam modulů, které mají být spuštěné"
 msgid "List users with hats"
 msgstr ""
 
-#: src/mod_muc_admin.erl:608
+#: src/mod_muc_admin.erl:666
 msgid "Logging"
 msgstr ""
 
@@ -1078,7 +1077,7 @@ msgstr ""
 msgid "Low level update script"
 msgstr "Nízkoúrovňový aktualizační skript"
 
-#: src/mod_mam.erl:760
+#: src/mod_mam.erl:773
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "Pravidla služby nepovolují vytvořit místnost"
@@ -1205,8 +1204,8 @@ msgid "Messages of type normal"
 msgstr ""
 
 #: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
+#: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
-#: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
 msgid "Middle Name"
 msgstr "Druhé jméno"
 
@@ -1243,8 +1242,8 @@ msgstr "Modul chyboval při zpracování dotazu"
 msgid "Monday"
 msgstr "Pondělí"
 
-#: src/mod_muc_admin.erl:531 src/mod_muc_admin.erl:534
-#: src/mod_muc_admin.erl:550 src/mod_muc_admin.erl:625
+#: src/mod_muc_admin.erl:589 src/mod_muc_admin.erl:592
+#: src/mod_muc_admin.erl:608 src/mod_muc_admin.erl:683
 msgid "Multi-User Chat"
 msgstr "Víceuživatelský chat"
 
@@ -1257,9 +1256,9 @@ msgstr "Multicast"
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Vícenásobný element <item/> není povolen dle RFC6121"
 
+#: src/mod_vcard_sql.erl:228 src/mod_vcard_sql.erl:242
 #: src/ejabberd_web_admin.erl:1226 src/ejabberd_web_admin.erl:1822
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
-#: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
 msgid "Name"
 msgstr "Jméno"
 
@@ -1300,10 +1299,10 @@ msgid "New Password:"
 msgstr "Nové heslo:"
 
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
-#: src/mod_roster.erl:1042 src/mod_vcard_mnesia.erl:104
-#: src/mod_vcard_mnesia.erl:118 src/mod_vcard_sql.erl:161
-#: src/mod_vcard_sql.erl:175 _build/default/lib/xmpp/src/muc_register.erl:536
+#: src/mod_roster.erl:1042 src/mod_vcard_sql.erl:231 src/mod_vcard_sql.erl:245
+#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
 #: _build/default/lib/xmpp/src/muc_request.erl:405
+#: _build/default/lib/xmpp/src/muc_register.erl:536
 msgid "Nickname"
 msgstr "Přezdívka"
 
@@ -1403,12 +1402,13 @@ msgstr "Žádné položky nebyly nalezeny v tomto dotazu"
 msgid "No limit"
 msgstr "Bez limitu"
 
-#: src/mod_jidprep.erl:141 src/mod_blocking.erl:81 src/mod_blocking.erl:99
-#: src/mod_mix_pam.erl:377 src/mod_roster.erl:180 src/mod_muc.erl:249
-#: src/mod_muc.erl:675 src/mod_muc.erl:750 src/mod_muc.erl:770
-#: src/mod_muc.erl:801 src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
-#: src/mod_offline.erl:339 src/ejabberd_captcha.erl:230 src/mod_mix.erl:678
-#: src/mod_privacy.erl:139 src/mod_privacy.erl:256 src/mod_http_upload.erl:771
+#: src/mod_mix_pam.erl:377 src/mod_privacy.erl:139 src/mod_privacy.erl:256
+#: src/mod_jidprep.erl:141 src/mod_roster.erl:180 src/mod_offline.erl:345
+#: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:230
+#: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:771
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
+#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_mix.erl:678
 msgid "No module is handling this query"
 msgstr "Žádný modul neobsluhuje tento dotaz"
 
@@ -1451,7 +1451,7 @@ msgstr "Nebyly nalezeny statistiky pro uvedenou položku"
 msgid "Nobody"
 msgstr "nikdo"
 
-#: src/ejabberd_web_admin.erl:1827 src/mod_muc_admin.erl:611
+#: src/mod_muc_admin.erl:669 src/ejabberd_web_admin.erl:1827
 #, fuzzy
 msgid "Node"
 msgstr "Uzly"
@@ -1460,7 +1460,7 @@ msgstr "Uzly"
 msgid "Node ID"
 msgstr "ID uzlu"
 
-#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:228
+#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:236
 msgid "Node already exists"
 msgstr "Uzel již existuje"
 
@@ -1468,12 +1468,13 @@ msgstr "Uzel již existuje"
 msgid "Node index not found"
 msgstr "Index uzlu nebyl nalezen"
 
-#: src/ejabberd_web_admin.erl:538 src/mod_muc.erl:748 src/mod_muc.erl:1021
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
 #: src/mod_muc_room.erl:4459 src/mod_muc_room.erl:4477
 #: src/mod_muc_room.erl:4495 src/mod_muc_room.erl:4513
 #: src/mod_muc_room.erl:4611 src/mod_muc_room.erl:4626
-#: src/mod_muc_room.erl:4630 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
+#: src/mod_muc_room.erl:4630 src/ejabberd_web_admin.erl:538
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
+#: src/mod_muc.erl:1021
 msgid "Node not found"
 msgstr "Uzel nenalezen"
 
@@ -1490,9 +1491,9 @@ msgstr "Nodeprep chyboval"
 msgid "Nodes"
 msgstr "Uzly"
 
-#: src/mod_mix_pam.erl:502 src/ejabberd_web_admin.erl:897
-#: src/ejabberd_web_admin.erl:1093 src/ejabberd_web_admin.erl:1103
-#: src/ejabberd_web_admin.erl:1460 src/mod_roster.erl:1036
+#: src/mod_mix_pam.erl:502 src/mod_roster.erl:1036
+#: src/ejabberd_web_admin.erl:897 src/ejabberd_web_admin.erl:1093
+#: src/ejabberd_web_admin.erl:1103 src/ejabberd_web_admin.erl:1460
 msgid "None"
 msgstr "Nic"
 
@@ -1505,7 +1506,7 @@ msgstr "Nenalezeno"
 msgid "Not allowed"
 msgstr "Nenalezeno"
 
-#: src/mod_disco.erl:240 src/mod_disco.erl:299 src/mod_last.erl:128
+#: src/mod_last.erl:128 src/mod_disco.erl:240 src/mod_disco.erl:299
 msgid "Not subscribed"
 msgstr "Není odebíráno"
 
@@ -1557,12 +1558,12 @@ msgid ""
 "specific limit other than a server imposed maximum"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1283 src/ejabberd_web_admin.erl:1293
-#: src/ejabberd_web_admin.erl:1304 src/ejabberd_web_admin.erl:1313
-#: src/ejabberd_web_admin.erl:1323 src/ejabberd_web_admin.erl:1336
-#: src/ejabberd_web_admin.erl:1348 src/ejabberd_web_admin.erl:1362
-#: src/ejabberd_web_admin.erl:1376 src/ejabberd_web_admin.erl:1387
-#: src/ejabberd_web_admin.erl:1397 src/ejabberd_captcha.erl:181
+#: src/ejabberd_captcha.erl:181 src/ejabberd_web_admin.erl:1283
+#: src/ejabberd_web_admin.erl:1293 src/ejabberd_web_admin.erl:1304
+#: src/ejabberd_web_admin.erl:1313 src/ejabberd_web_admin.erl:1323
+#: src/ejabberd_web_admin.erl:1336 src/ejabberd_web_admin.erl:1348
+#: src/ejabberd_web_admin.erl:1362 src/ejabberd_web_admin.erl:1376
+#: src/ejabberd_web_admin.erl:1387 src/ejabberd_web_admin.erl:1397
 msgid "OK"
 msgstr "OK"
 
@@ -1589,7 +1590,7 @@ msgstr ". října"
 msgid "Offline Messages"
 msgstr "Offline zprávy"
 
-#: src/mod_offline.erl:1065
+#: src/mod_offline.erl:1071
 msgid "Offline Messages:"
 msgstr "Offline zprávy:"
 
@@ -1612,7 +1613,7 @@ msgstr "Připojení uživatelé"
 msgid "Online Users:"
 msgstr "Připojení uživatelé:"
 
-#: src/mod_carboncopy.erl:94
+#: src/mod_carboncopy.erl:97
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr "Pouze značky <enable/> nebo <disable/>jsou povoleny"
 
@@ -1635,7 +1636,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Doručovat upozornění jen právě přihlášeným uživatelům"
 
-#: src/mod_mam.erl:553
+#: src/mod_mam.erl:565
 msgid "Only members may query archives of this room"
 msgstr "Pouze moderátoři mají povoleno měnit téma místnosti"
 
@@ -1667,8 +1668,8 @@ msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Jen členové mohou odesílat požadavky (query) do místnosti"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2061
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:937
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
 msgid "Only publishers may publish"
 msgstr ""
 
@@ -1682,20 +1683,20 @@ msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1544
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
+#: src/mod_vcard_sql.erl:236 src/mod_vcard_sql.erl:250
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
-#: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
 msgid "Organization Name"
 msgstr "Název firmy"
 
 #: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
+#: src/mod_vcard_sql.erl:237 src/mod_vcard_sql.erl:251
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
-#: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
 msgid "Organization Unit"
 msgstr "Oddělení"
 
@@ -1714,12 +1715,12 @@ msgstr "Odchozí s2s spojení:"
 #: src/mod_pubsub.erl:1366 src/mod_pubsub.erl:1461 src/mod_pubsub.erl:1635
 #: src/mod_pubsub.erl:2244 src/mod_pubsub.erl:2322 src/mod_pubsub.erl:2532
 #: src/mod_pubsub.erl:2626 src/mod_pubsub.erl:3334 src/mod_pubsub.erl:3504
-#: src/mod_mix.erl:683 src/mod_muc_room.erl:3645 src/mod_muc_room.erl:3690
-#: src/mod_muc_room.erl:4673
+#: src/mod_muc_room.erl:3645 src/mod_muc_room.erl:3690
+#: src/mod_muc_room.erl:4673 src/mod_mix.erl:683
 msgid "Owner privileges required"
 msgstr "Jsou vyžadována práva vlastníka"
 
-#: src/mod_offline.erl:990
+#: src/mod_offline.erl:996
 msgid "Packet"
 msgstr "Paket"
 
@@ -1728,8 +1729,8 @@ msgstr "Paket"
 msgid "Packet relay is denied by service policy"
 msgstr "Pravidla služby nepovolují vytvořit místnost"
 
-#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2110
 #: _build/default/lib/xmpp/src/muc_request.erl:367
+#: _build/default/lib/xmpp/src/muc_roomconfig.erl:2110
 msgid "Participant"
 msgstr "Účastník"
 
@@ -1738,10 +1739,10 @@ msgstr "Účastník"
 msgid "Participant ID"
 msgstr "Účastník"
 
-#: src/ejabberd_web_admin.erl:683 src/mod_register.erl:233
-#: src/mod_configure.erl:986 src/mod_configure.erl:1033
-#: src/mod_configure.erl:1342 src/mod_configure.erl:1531
-#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:516
+#: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:531 src/mod_register.erl:233
+#: src/ejabberd_web_admin.erl:683 src/mod_configure.erl:986
+#: src/mod_configure.erl:1033 src/mod_configure.erl:1342
+#: src/mod_configure.erl:1531
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "Heslo"
@@ -1754,8 +1755,8 @@ msgstr "Ověření hesla"
 msgid "Password Verification:"
 msgstr "Ověření hesla:"
 
-#: src/ejabberd_web_admin.erl:988 src/mod_register_web.erl:265
-#: src/mod_register_web.erl:507
+#: src/mod_register_web.erl:265 src/mod_register_web.erl:507
+#: src/ejabberd_web_admin.erl:988
 msgid "Password:"
 msgstr "Heslo:"
 
@@ -1785,7 +1786,7 @@ msgstr "Čas: "
 msgid "Persist items to storage"
 msgstr "Uložit položky natrvalo do úložiště"
 
-#: src/mod_muc_admin.erl:607
+#: src/mod_muc_admin.erl:665
 #, fuzzy
 msgid "Persistent"
 msgstr "Nastavit místnost jako stálou"
@@ -1794,7 +1795,7 @@ msgstr "Nastavit místnost jako stálou"
 msgid "Ping"
 msgstr "Ping"
 
-#: src/mod_ping.erl:194
+#: src/mod_ping.erl:188
 msgid "Ping query is incorrect"
 msgstr "Ping dotaz je nesprávný"
 
@@ -1825,24 +1826,24 @@ msgstr "Atribut 'ask' není povolen dle RFC6121"
 msgid "Present real Jabber IDs to"
 msgstr "Odhalovat skutečná Jabber ID"
 
-#: src/mod_stream_mgmt.erl:768
+#: src/mod_stream_mgmt.erl:839
 msgid "Previous session PID has been killed"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:766
+#: src/mod_stream_mgmt.erl:837
 msgid "Previous session PID has exited"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:764
+#: src/mod_stream_mgmt.erl:835
 msgid "Previous session PID is dead"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:760
+#: src/mod_stream_mgmt.erl:831
 #, fuzzy
 msgid "Previous session not found"
 msgstr "Sezení uživatele nebylo nalezeno"
 
-#: src/mod_stream_mgmt.erl:762
+#: src/mod_stream_mgmt.erl:833
 msgid "Previous session timed out"
 msgstr ""
 
@@ -1850,7 +1851,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "Žádost odběratele PubSub"
 
-#: src/mod_muc_admin.erl:606
+#: src/mod_muc_admin.erl:664
 msgid "Public"
 msgstr ""
 
@@ -1878,9 +1879,9 @@ msgid "Queries to the conference members are not allowed in this room"
 msgstr ""
 "Požadavky (queries) na členy místnosti nejsou v této místnosti povolené"
 
-#: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
-#: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
-#: src/mod_privacy.erl:117 src/mod_private.erl:204 src/mod_sic.erl:70
+#: src/mod_mix_pam.erl:372 src/mod_sic.erl:70 src/mod_disco.erl:269
+#: src/mod_disco.erl:326 src/mod_privacy.erl:117 src/mod_private.erl:204
+#: src/mod_roster.erl:129 src/mod_offline.erl:312 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr "Dotaz na jiné uživatele je zakázán"
 
@@ -1946,7 +1947,7 @@ msgstr "Vzdálená kopie"
 msgid "Remove"
 msgstr "Odstranit"
 
-#: src/mod_offline.erl:1071
+#: src/mod_offline.erl:1077
 msgid "Remove All Offline Messages"
 msgstr "Odstranit všechny offline zprávy"
 
@@ -1959,7 +1960,7 @@ msgstr "Odstranit uživatele"
 msgid "Remove a hat from a user"
 msgstr ""
 
-#: src/ejabberd_sm.erl:453
+#: src/ejabberd_sm.erl:460 src/ejabberd_sm.erl:465
 msgid "Replaced by new connection"
 msgstr "Nahrazeno novým spojením"
 
@@ -2048,7 +2049,7 @@ msgstr "Popis místnosti"
 msgid "Room terminates"
 msgstr "Název místnosti"
 
-#: src/mod_muc_log.erl:794 src/mod_muc_admin.erl:610
+#: src/mod_muc_admin.erl:668 src/mod_muc_log.erl:794
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Název místnosti"
@@ -2140,7 +2141,7 @@ msgstr "Server:"
 msgid "Service list retrieval timed out"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:770
+#: src/mod_stream_mgmt.erl:841
 msgid "Session state copying timed out"
 msgstr ""
 
@@ -2150,7 +2151,8 @@ msgstr "Nastavit zprávu dne a odeslat ji online uživatelům"
 
 #: src/mod_announce.erl:619
 msgid "Set message of the day on all hosts and send to online users"
-msgstr "Nastavit zprávu dne na všech hostitelích a odeslat ji online uživatelům"
+msgstr ""
+"Nastavit zprávu dne na všech hostitelích a odeslat ji online uživatelům"
 
 #: src/mod_shared_roster.erl:868 src/mod_shared_roster.erl:914
 #: src/mod_shared_roster.erl:1021
@@ -2211,9 +2213,9 @@ msgstr ""
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:511 src/ejabberd_web_admin.erl:1143
-#: src/ejabberd_web_admin.erl:1951 src/ejabberd_web_admin.erl:1964
-#: src/ejabberd_web_admin.erl:1976 src/mod_muc_admin.erl:552
+#: src/mod_muc_admin.erl:610 src/ejabberd_web_admin.erl:511
+#: src/ejabberd_web_admin.erl:1143 src/ejabberd_web_admin.erl:1951
+#: src/ejabberd_web_admin.erl:1964 src/ejabberd_web_admin.erl:1976
 msgid "Statistics"
 msgstr "Statistiky"
 
@@ -2241,11 +2243,11 @@ msgstr "Uložit binární zálohu:"
 msgid "Store plain text backup:"
 msgstr "Uložit zálohu do textového souboru:"
 
-#: src/mod_stream_mgmt.erl:343
+#: src/mod_stream_mgmt.erl:400
 msgid "Stream management is already enabled"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:325
+#: src/mod_stream_mgmt.erl:382
 #, fuzzy
 msgid "Stream management is not enabled"
 msgstr "Automatické vytváření uzlů není povoleno"
@@ -2254,16 +2256,15 @@ msgstr "Automatické vytváření uzlů není povoleno"
 msgid "Subject"
 msgstr "Předmět"
 
-#: src/ejabberd_web_admin.erl:1242 src/mod_shared_roster.erl:1039
+#: src/mod_shared_roster.erl:1039 src/ejabberd_web_admin.erl:1242
 msgid "Submit"
 msgstr "Odeslat"
 
+#: src/mod_roster.erl:1100 src/ext_mod.erl:943 src/mod_offline.erl:987
+#: src/mod_shared_roster.erl:918 src/mod_shared_roster.erl:1026
 #: src/ejabberd_web_admin.erl:669 src/ejabberd_web_admin.erl:979
 #: src/ejabberd_web_admin.erl:1135 src/ejabberd_web_admin.erl:1163
 #: src/ejabberd_web_admin.erl:1257 src/ejabberd_web_admin.erl:1492
-#: src/mod_roster.erl:1100 src/mod_offline.erl:981
-#: src/mod_shared_roster.erl:918 src/mod_shared_roster.erl:1026
-#: src/ext_mod.erl:943
 msgid "Submitted"
 msgstr "Odeslané"
 
@@ -2272,8 +2273,8 @@ msgid "Subscriber Address"
 msgstr "Adresa odběratele"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2065
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2063
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:941
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:2063
 msgid "Subscribers may publish"
 msgstr ""
 
@@ -2282,8 +2283,8 @@ msgid "Subscription"
 msgstr "Přihlášení"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1524
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1522
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:891
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1522
 msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
@@ -2318,8 +2319,8 @@ msgstr ""
 msgid "That nickname is already in use by another occupant"
 msgstr "Přezdívka je již používána jiným členem"
 
-#: src/mod_muc.erl:1106 src/mod_muc_room.erl:1436 src/mod_muc_room.erl:2354
-#: src/mod_muc_room.erl:4724
+#: src/mod_muc_room.erl:1436 src/mod_muc_room.erl:2354
+#: src/mod_muc_room.erl:4724 src/mod_muc.erl:1106
 msgid "That nickname is registered by another person"
 msgstr "Přezdívka je zaregistrována jinou osobou"
 
@@ -2327,9 +2328,9 @@ msgstr "Přezdívka je zaregistrována jinou osobou"
 msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA souhlasí."
 
-#: src/ejabberd_captcha.erl:223 src/mod_register.erl:195
+#: src/mod_register.erl:195 src/mod_block_strangers.erl:142
 #: src/mod_muc_room.erl:937 src/mod_muc_room.erl:4646
-#: src/mod_block_strangers.erl:142
+#: src/ejabberd_captcha.erl:223
 msgid "The CAPTCHA verification has failed"
 msgstr "Ověření CAPTCHA se nezdařilo"
 
@@ -2342,8 +2343,8 @@ msgid "The JID of the node creator"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1707
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1705
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:712
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1705
 msgid "The JIDs of those to contact with questions"
 msgstr ""
 
@@ -2406,8 +2407,8 @@ msgid "The datetime when the node was created"
 msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1848
-#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1846
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:780
+#: _build/default/lib/xmpp/src/pubsub_node_config.erl:1846
 #, fuzzy
 msgid "The default language of the node"
 msgstr "Přívětivé jméno pro uzel"
@@ -2578,7 +2579,7 @@ msgstr ""
 msgid "Thursday"
 msgstr "Čtvrtek"
 
-#: src/mod_offline.erl:987
+#: src/mod_offline.erl:993
 msgid "Time"
 msgstr "Čas"
 
@@ -2586,11 +2587,11 @@ msgstr "Čas"
 msgid "Time delay"
 msgstr "Časový posun"
 
-#: src/mod_stream_mgmt.erl:235
+#: src/mod_stream_mgmt.erl:292
 msgid "Timed out waiting for stream resumption"
 msgstr ""
 
-#: src/mod_offline.erl:989
+#: src/mod_offline.erl:995
 msgid "To"
 msgstr "Pro"
 
@@ -2603,7 +2604,7 @@ msgstr "Pokud se chcete zaregistrovat, navštivte ~s"
 msgid "To ~ts"
 msgstr "Pro ~s"
 
-#: src/ejabberd_oauth.erl:524
+#: src/ejabberd_oauth.erl:539
 msgid "Token TTL"
 msgstr "Token TTL"
 
@@ -2623,8 +2624,8 @@ msgstr "Příliš mnoho elementů <item/>"
 msgid "Too many <list/> elements"
 msgstr "Přilíš mnoho elementů <list/>"
 
-#: src/mod_register.erl:250 src/mod_muc_room.erl:2424
-#: src/mod_block_strangers.erl:119
+#: src/mod_register.erl:250 src/mod_block_strangers.erl:119
+#: src/mod_muc_room.erl:2424
 msgid "Too many CAPTCHA requests"
 msgstr "Přiliš mnoho CAPTCHA žádostí"
 
@@ -2641,7 +2642,7 @@ msgstr "Příliš mnoho elementů <item/>"
 msgid "Too many receiver fields were specified"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:186
+#: src/mod_stream_mgmt.erl:236
 msgid "Too many unacked stanzas"
 msgstr "Příliš mnoho nepotvrzených stanz"
 
@@ -2649,7 +2650,7 @@ msgstr "Příliš mnoho nepotvrzených stanz"
 msgid "Too many users in this conference"
 msgstr "Přiliš mnoho uživatelů v této místnosti"
 
-#: src/mod_muc_admin.erl:554
+#: src/mod_muc_admin.erl:612
 msgid "Total rooms"
 msgstr "Celkem místností"
 
@@ -2681,8 +2682,8 @@ msgstr "Úterý"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_register.erl:254 src/mod_muc_room.erl:2433
-#: src/mod_block_strangers.erl:123
+#: src/mod_register.erl:254 src/mod_block_strangers.erl:123
+#: src/mod_muc_room.erl:2433
 msgid "Unable to generate a CAPTCHA"
 msgstr "Nebylo možné vygenerovat CAPTCHA"
 
@@ -2690,9 +2691,9 @@ msgstr "Nebylo možné vygenerovat CAPTCHA"
 msgid "Unable to register route on existing local domain"
 msgstr "Není možné zaregistrovat routu na existující místní doménu"
 
-#: src/ejabberd_web_admin.erl:178 src/ejabberd_web_admin.erl:190
-#: src/ejabberd_web_admin.erl:210 src/ejabberd_web_admin.erl:222
-#: src/mod_stream_mgmt.erl:122
+#: src/mod_stream_mgmt.erl:172 src/ejabberd_web_admin.erl:178
+#: src/ejabberd_web_admin.erl:190 src/ejabberd_web_admin.erl:210
+#: src/ejabberd_web_admin.erl:222
 msgid "Unauthorized"
 msgstr "Nemáte oprávnění"
 
@@ -2724,11 +2725,11 @@ msgstr "Zrušte registraci účtu XMPP"
 msgid "Unselect All"
 msgstr ""
 
-#: src/mod_mam.erl:792
+#: src/mod_mam.erl:805
 msgid "Unsupported <index/> element"
 msgstr "Nepodporovaný <index/> element"
 
-#: src/mod_stream_mgmt.erl:349
+#: src/mod_stream_mgmt.erl:406
 #, fuzzy
 msgid "Unsupported version"
 msgstr "Nepodporovaný MIX dotaz"
@@ -2775,18 +2776,18 @@ msgstr ""
 msgid "Uptime:"
 msgstr "Čas běhu:"
 
-#: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:678
+#: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:226
+#: src/mod_register.erl:229 src/ejabberd_web_admin.erl:678
 #: src/ejabberd_web_admin.erl:734 src/mod_vcard_mnesia.erl:99
-#: src/mod_vcard_sql.erl:156 src/mod_register.erl:229
 msgid "User"
 msgstr "Uživatel"
 
-#: src/ejabberd_oauth.erl:513
+#: src/ejabberd_oauth.erl:528
 msgid "User (jid)"
 msgstr "Uživatel (JID)"
 
-#: _build/default/lib/xmpp/src/mam_query.erl:348
 #: _build/default/lib/xmpp/src/muc_request.erl:391
+#: _build/default/lib/xmpp/src/mam_query.erl:348
 msgid "User JID"
 msgstr "Jabber ID uživatele"
 
@@ -2798,15 +2799,15 @@ msgstr "Správa uživatelů"
 msgid "User already exists"
 msgstr "Uživatel již existuje"
 
-#: src/ejabberd_sm.erl:214
+#: src/ejabberd_sm.erl:221
 msgid "User removed"
 msgstr ""
 
-#: src/mod_push.erl:309 src/ejabberd_sm.erl:202 src/mod_sic.erl:86
+#: src/mod_sic.erl:86 src/ejabberd_sm.erl:209 src/mod_push.erl:309
 msgid "User session not found"
 msgstr "Sezení uživatele nebylo nalezeno"
 
-#: src/mod_stream_mgmt.erl:594 src/mod_stream_mgmt.erl:617
+#: src/mod_stream_mgmt.erl:665 src/mod_stream_mgmt.erl:688
 msgid "User session terminated"
 msgstr "Sezení uživatele bylo ukončeno"
 
@@ -2837,40 +2838,39 @@ msgstr "Je zakázáno registrovat účty v tak rychlém sledu"
 msgid "Validate"
 msgstr "Ověřit"
 
-#: src/mod_push.erl:291 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
-#: src/mod_muc_room.erl:4636 src/mod_muc_room.erl:4815
-#: src/mod_carboncopy.erl:97
+#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4636
+#: src/mod_muc_room.erl:4815 src/ejabberd_captcha.erl:227 src/mod_push.erl:291
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "Hodnota 'get' atrubutu 'type' není povolena"
 
-#: src/mod_jidprep.erl:114 src/mod_disco.erl:101 src/mod_disco.erl:117
+#: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_version.erl:53
+#: src/mod_sic.erl:61 src/mod_sic.erl:73 src/mod_stats.erl:54
+#: src/mod_time.erl:53 src/mod_disco.erl:101 src/mod_disco.erl:117
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
-#: src/mod_vcard.erl:249 src/mod_muc.erl:672 src/mod_muc.erl:710
-#: src/mod_muc.erl:755 src/mod_muc.erl:775 src/mod_muc.erl:785
-#: src/mod_stun_disco.erl:479 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_version.erl:53 src/mod_stats.erl:54
-#: src/mod_mix.erl:159 src/mod_mix.erl:207 src/mod_muc_room.erl:4437
-#: src/mod_muc_room.erl:4571 src/mod_time.erl:53
+#: src/mod_vcard.erl:249 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
+#: src/mod_pubsub.erl:892 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4437
+#: src/mod_muc_room.erl:4571 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
+#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
+#: src/mod_muc.erl:785 src/mod_mix.erl:159 src/mod_mix.erl:207
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_last.erl:91 src/mod_last.erl:109
-#: src/mod_sic.erl:61 src/mod_sic.erl:73
+#: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "Hodnota 'set' atrubutu 'type' není povolena"
 
-#: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
+#: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
 msgid "Value of '~s' should be boolean"
 msgstr "Hodnota '~s' by měla být boolean"
 
-#: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
+#: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
 msgid "Value of '~s' should be datetime string"
 msgstr "Hodnota '~s' by měla být datetime řetězec"
 
-#: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
+#: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 msgid "Value of '~s' should be integer"
 msgstr "Hodnota '~s' by měla být celé číslo"
 
-#: src/mod_offline.erl:1063
+#: src/mod_offline.erl:1069
 msgid "View Queue"
 msgstr ""
 
@@ -3041,7 +3041,7 @@ msgstr "Nemáte povoleno vytvářet uzly"
 msgid "You can later change your password using an XMPP client."
 msgstr "Později můžete své heslo změnit pomocí klienta XMPP."
 
-#: src/mod_muc_rtbl.erl:191 src/mod_muc_room.erl:2327
+#: src/mod_muc_room.erl:2327 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Byl jste vyloučen z této místnosti"
 
@@ -3079,11 +3079,11 @@ msgstr "Váš účet XMPP byl úspěšně smazán."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Váš účet XMPP byl úspěšně smazán."
 
-#: src/ejabberd_c2s.erl:712 src/ejabberd_c2s.erl:866
+#: src/ejabberd_c2s.erl:745 src/ejabberd_c2s.erl:899
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr "Vaše nastavení soukromí znemožnilo směrování této stance."
 
-#: src/mod_offline.erl:714
+#: src/mod_offline.erl:720
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr "Fronta offline zpráv pro váš kontakt je plná. Zpráva byla zahozena."
@@ -3132,7 +3132,7 @@ msgstr "ejabberd vCard modul"
 msgid "has been banned"
 msgstr "byl(a) zablokován(a)"
 
-#: src/mod_muc_log.erl:394 src/mod_muc_log.erl:397 src/ejabberd_sm.erl:456
+#: src/mod_muc_log.erl:394 src/mod_muc_log.erl:397 src/ejabberd_sm.erl:470
 msgid "has been kicked"
 msgstr "byl(a) vyhozen(a) z místnosti"
 
@@ -3177,7 +3177,7 @@ msgstr "Hledání uživatelů ve vizitkách"
 msgid "~s invites you to the room ~s"
 msgstr "~s vás zve do místnosti ~s"
 
-#: src/mod_offline.erl:979
+#: src/mod_offline.erl:985
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "Fronta offline zpráv uživatele ~s"
