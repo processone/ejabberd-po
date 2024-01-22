@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2023-05-28 11:50+0000\n"
+"PO-Revision-Date: 2023-12-10 04:02+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -250,6 +250,9 @@ msgid ""
 "check how to grant admin rights in: https://docs.ejabberd.im/admin/"
 "installation/#administration-account"
 msgstr ""
+"Очевидно Вашият акаунт няма административни права за този сървър. Моля, "
+"проверете как да предоставите администраторски права на: https://docs."
+"ejabberd.im/admin/installation/#administration-account"
 
 #: src/mod_muc_log.erl:481
 msgid "April"
@@ -1122,7 +1125,7 @@ msgstr "Максимален брой съобщения от хронологи
 
 #: src/mod_muc_log.erl:834 _build/default/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
-msgstr "Максимален брой потребители"
+msgstr "Максимален брой участници"
 
 #: _build/default/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
@@ -1512,7 +1515,7 @@ msgstr "Брой на необходимите отговори"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1025
 msgid "Number of occupants"
-msgstr "Брой потребители"
+msgstr "Брой участници"
 
 #: src/mod_configure.erl:1093
 msgid "Number of online users"
@@ -1600,6 +1603,8 @@ msgstr "Само администратори могат да видят тов�
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
+"Само собственици на колекционни нодове имат право да свързват листови нодове "
+"към колекцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2045
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2043
@@ -1630,11 +1635,11 @@ msgstr "Само модераторите могат да одобряват г�
 
 #: src/mod_muc_room.erl:648 src/mod_muc_room.erl:1130 src/mod_muc_room.erl:5320
 msgid "Only occupants are allowed to send messages to the conference"
-msgstr "Само обитателите имат право да изпращат съобщения до конференцията"
+msgstr "Само участници имат право да изпращат съобщения до конференцията"
 
 #: src/mod_muc_room.erl:698
 msgid "Only occupants are allowed to send queries to the conference"
-msgstr "Само обитателите имат право да изпращат запитвания до конференцията"
+msgstr "Само участници имат право да изпращат запитвания до конференцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2061
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2059
@@ -1651,12 +1656,15 @@ msgstr ""
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
+"Само тези от списъка с позволени могат да свързват листови нодове с "
+"колекцията"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1544
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:911
 msgid "Only those on a whitelist may subscribe and retrieve items"
-msgstr "Само тези в белия списък могат да се абонират и да извличат елементи"
+msgstr ""
+"Само тези от списъка с позволени могат да се абонират и да извличат елементи"
 
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
@@ -1739,7 +1747,7 @@ msgstr "Път до файл"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Информация за семантичен тип полезен товар"
 
 #: src/mod_roster.erl:1044
 msgid "Pending"
@@ -1834,7 +1842,7 @@ msgstr "Публикуване-Абониране"
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
-"Изчисти всички елементи, когато съответният издател премине в режим офлайн"
+"Изчисти всички елементи, когато съответният публикуващ премине в режим офлайн"
 
 #: src/mod_push.erl:324
 msgid "Push record not found"
@@ -1842,7 +1850,7 @@ msgstr "Push записът не е намерен"
 
 #: src/mod_muc_room.erl:693
 msgid "Queries to the conference members are not allowed in this room"
-msgstr "В тази зала не се допускат запитвания към членовете на конференцията"
+msgstr "В тази стая не се допускат запитвания към членовете на конференцията"
 
 #: src/mod_blocking.erl:74 src/mod_disco.erl:269 src/mod_disco.erl:326
 #: src/mod_mix_pam.erl:372 src/mod_roster.erl:129 src/mod_offline.erl:306
@@ -1884,7 +1892,7 @@ msgstr "Получаване на известия само за нови нод
 
 #: src/mod_muc_room.erl:610 src/mod_muc_room.erl:666
 msgid "Recipient is not in the conference room"
-msgstr "Получателят не е в конферентната зала"
+msgstr "Получателят не е в конферентната стая"
 
 #: src/mod_register_web.erl:295
 msgid "Register"
@@ -1996,7 +2004,7 @@ msgstr "Конфигурация на стаята"
 
 #: src/mod_muc_log.erl:659
 msgid "Room Occupants"
-msgstr "Обитатели на стаята"
+msgstr "Участници в стаята"
 
 #: src/mod_muc.erl:639
 msgid "Room creation is denied by service policy"
@@ -2158,7 +2166,7 @@ msgstr "Задай типа на съобщението за събитие"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2079
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
-msgstr "Задай модела на издателя"
+msgstr "Задайте модела на публикуващия"
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:912
 msgid "Stanza ID"
@@ -2279,7 +2287,7 @@ msgstr "Текст, свързан с реч"
 #: src/mod_muc_room.erl:1424 src/mod_muc_room.erl:2340
 #: src/mod_muc_room.erl:4710
 msgid "That nickname is already in use by another occupant"
-msgstr "Този псевдоним вече се използва от друг потребител"
+msgstr "Този псевдоним вече се използва от друг участник"
 
 #: src/mod_muc.erl:1106 src/mod_muc_room.erl:1436 src/mod_muc_room.erl:2354
 #: src/mod_muc_room.erl:4724
@@ -2362,12 +2370,12 @@ msgstr "Въведеният captcha код е грешен"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1654
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
-msgstr ""
+msgstr "Дъщерните нодове (листови или колекция), свързани с колекция"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1690
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
-msgstr ""
+msgstr "Колекциите, с които даден нод е свързан"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:729
 msgid "The datetime when the node was created"
@@ -2386,7 +2394,7 @@ msgstr "Исканата функция не се поддържа от конф
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1637
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Списъкът с JID, които могат да асоциират листови нодове с колекция"
 
 #: src/mod_configure.erl:1083
 msgid "The list of all online users"
@@ -2425,7 +2433,7 @@ msgstr "Нодът е от тип колекция"
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1896
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
-msgstr ""
+msgstr "Нодът е листов (по подразбиране)"
 
 #: _build/default/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
@@ -2499,23 +2507,25 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
-msgstr ""
+msgstr "Идентификаторът на абонамента, свързан със заявката за абонамент"
 
 #: src/mod_register_web.erl:138
 msgid "There was an error changing the password: "
-msgstr ""
+msgstr "Възникна грешка при промяна на паролата: "
 
 #: src/mod_register_web.erl:110
 msgid "There was an error creating the account: "
-msgstr ""
+msgstr "Възникна грешка при създаването на профила: "
 
 #: src/mod_register_web.erl:123
 msgid "There was an error deleting the account: "
-msgstr ""
+msgstr "Възникна грешка при изтриването на профила: "
 
 #: src/mod_register_web.erl:256
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
+"Не е чувствително към регистъра (главни и малки букви): \"macbeth\"е същото "
+"като \"MacBeth\"и \"Macbeth\"."
 
 #: src/mod_register_web.erl:240
 msgid ""
@@ -2523,278 +2533,285 @@ msgid ""
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
+"Тази страница позволява регистриране на XMPP профил на този сървър. Вашият "
+"JID (Jabber ID) ще бъде във формата: username@server. Моля, прочетете "
+"внимателно инструкциите, за да попълните правилно полетата."
 
 #: src/mod_register_web.erl:494
 msgid "This page allows to unregister an XMPP account in this XMPP server."
-msgstr ""
+msgstr "Тази страница позволява премахване на XMPP профил от този сървър."
 
 #: src/mod_muc_log.erl:805
 msgid "This room is not anonymous"
-msgstr ""
+msgstr "Тази стая не е анонимна"
 
 #: src/mod_multicast.erl:481
 msgid "This service can not process the address: ~s"
-msgstr ""
+msgstr "Тази услуга не може да обработи адреса: ~s"
 
 #: src/mod_muc_log.erl:471
 msgid "Thursday"
-msgstr ""
+msgstr "Четвъртък"
 
 #: src/mod_offline.erl:987
 msgid "Time"
-msgstr ""
+msgstr "Час"
 
 #: src/mod_configure.erl:910 src/mod_configure.erl:950
 msgid "Time delay"
-msgstr ""
+msgstr "Закъснение"
 
 #: src/mod_stream_mgmt.erl:235
 msgid "Timed out waiting for stream resumption"
-msgstr ""
+msgstr "Времето за изчакване за възобновяване на потока изтече"
 
 #: src/mod_offline.erl:989
 msgid "To"
-msgstr ""
+msgstr "До"
 
 #: src/mod_register.erl:220
 msgid "To register, visit ~s"
-msgstr ""
+msgstr "За да се регистрирате, посетете ~s"
 
 #: src/mod_configure.erl:653
 msgid "To ~ts"
-msgstr ""
+msgstr "До ~ts"
 
 #: src/ejabberd_oauth.erl:524
 msgid "Token TTL"
-msgstr ""
+msgstr "Токен TTL"
 
 #: src/mod_fail2ban.erl:219
 msgid ""
 "Too many (~p) failed authentications from this IP address (~s). The address "
 "will be unblocked at ~s UTC"
 msgstr ""
+"Твърде много (~p) неуспешни опити за удостоверявания от този IP адрес (~s). "
+"Адресът ще бъде деблокиран в ~s UTC"
 
 #: src/mod_muc_room.erl:3064 src/mod_muc_room.erl:3704
 msgid "Too many <item/> elements"
-msgstr ""
+msgstr "Твърде много <item/> елементи"
 
 #: src/mod_privacy.erl:135
 msgid "Too many <list/> elements"
-msgstr ""
+msgstr "Твърде много <list/> елементи"
 
 #: src/mod_register.erl:250 src/mod_muc_room.erl:2424
 #: src/mod_block_strangers.erl:119
 msgid "Too many CAPTCHA requests"
-msgstr ""
+msgstr "Твърде много CAPTCHA заявки"
 
 #: src/mod_proxy65_service.erl:234
 msgid "Too many active bytestreams"
-msgstr ""
+msgstr "Твърде много активни \"bytestreams\" потоци"
 
 #: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1326
 msgid "Too many child elements"
-msgstr ""
+msgstr "Твърде много дъщерни елементи"
 
 #: src/mod_multicast.erl:316
 msgid "Too many receiver fields were specified"
-msgstr ""
+msgstr "Посочени са твърде много полета за получател"
 
 #: src/mod_stream_mgmt.erl:186
 msgid "Too many unacked stanzas"
-msgstr ""
+msgstr "Твърде много непотвърдени строфи"
 
 #: src/mod_muc_room.erl:2299
 msgid "Too many users in this conference"
-msgstr ""
+msgstr "Твърде много потребители в тази конференция"
 
 #: src/mod_muc_admin.erl:554
 msgid "Total rooms"
-msgstr ""
+msgstr "Общо стаи"
 
 #: src/mod_muc_room.erl:368
 msgid "Traffic rate limit is exceeded"
-msgstr ""
+msgstr "Лимитът за трафик е надвишен"
 
 #: src/ejabberd_web_admin.erl:1441
 msgid "Transactions Aborted:"
-msgstr ""
+msgstr "Прекратени транзакции:"
 
 #: src/ejabberd_web_admin.erl:1437
 msgid "Transactions Committed:"
-msgstr ""
+msgstr "Извършени транзакции:"
 
 #: src/ejabberd_web_admin.erl:1449
 msgid "Transactions Logged:"
-msgstr ""
+msgstr "Регистрирани транзакции:"
 
 #: src/ejabberd_web_admin.erl:1445
 msgid "Transactions Restarted:"
-msgstr ""
+msgstr "Рестартирани транзакции:"
 
 #: src/mod_muc_log.erl:469
 msgid "Tuesday"
-msgstr ""
+msgstr "Вторник"
 
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:996
 msgid "URL for Archived Discussion Logs"
-msgstr ""
+msgstr "URL адрес за дневници на архивирани дискусии"
 
 #: src/mod_register.erl:254 src/mod_muc_room.erl:2433
 #: src/mod_block_strangers.erl:123
 msgid "Unable to generate a CAPTCHA"
-msgstr ""
+msgstr "Не може да се генерира CAPTCHA"
 
 #: src/ejabberd_service.erl:140
 msgid "Unable to register route on existing local domain"
-msgstr ""
+msgstr "Не може да се регистрира маршрут в съществуващ локален домейн"
 
 #: src/ejabberd_web_admin.erl:178 src/ejabberd_web_admin.erl:190
 #: src/ejabberd_web_admin.erl:210 src/ejabberd_web_admin.erl:222
 #: src/mod_stream_mgmt.erl:122
 msgid "Unauthorized"
-msgstr ""
+msgstr "Неоторизиран"
 
 #: src/mod_announce.erl:493 src/mod_configure.erl:763
 #: src/mod_configure.erl:1506
 msgid "Unexpected action"
-msgstr ""
+msgstr "Неочаквано действие"
 
 #: src/mod_register.erl:408
 msgid "Unexpected error condition: ~p"
-msgstr ""
+msgstr "Неочаквано състояние на грешка: ~p"
 
 #: src/ext_mod.erl:1103
 msgid "Uninstall"
-msgstr ""
+msgstr "Деинсталирай"
 
 #: src/mod_register_web.erl:512
 msgid "Unregister"
-msgstr ""
+msgstr "Дерегистрирай"
 
 #: src/mod_register_web.erl:207 src/mod_register_web.erl:484
 #: src/mod_register_web.erl:492
 msgid "Unregister an XMPP account"
-msgstr ""
+msgstr "Дерегистрирай XMPP профил"
 
 #: src/ejabberd_web_admin.erl:1478
 msgid "Unselect All"
-msgstr ""
+msgstr "Размаркирай всички"
 
 #: src/mod_mam.erl:792
 msgid "Unsupported <index/> element"
-msgstr ""
+msgstr "Неподдържан елемент <index/>"
 
 #: src/mod_stream_mgmt.erl:349
 msgid "Unsupported version"
-msgstr ""
+msgstr "Неподдържана версия"
 
 #: src/ejabberd_web_admin.erl:1144 src/ejabberd_web_admin.erl:1507
 #: src/ejabberd_web_admin.erl:1965
 msgid "Update"
-msgstr ""
+msgstr "Актуализирай"
 
 #: src/ext_mod.erl:1195
 msgid "Update Specs"
-msgstr ""
+msgstr "Актуализирай спецификациите"
 
 #: src/mod_announce.erl:621
 msgid "Update message of the day (don't send)"
-msgstr ""
+msgstr "Актуализирай съобщението на деня (не изпращай)"
 
 #: src/mod_announce.erl:623
 msgid "Update message of the day on all hosts (don't send)"
-msgstr ""
+msgstr "Актуализирай съобщението на деня на всички хостове (не изпращай)"
 
 #: src/ejabberd_web_admin.erl:1500
 msgid "Update plan"
-msgstr ""
+msgstr "План за актуализация"
 
 #: src/ejabberd_web_admin.erl:1502
 msgid "Update script"
-msgstr ""
+msgstr "Актуализиращ скрипт"
 
 #: src/ext_mod.erl:1185
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
+"Актуализирайте спецификациите, за да получите източник на модули, след което "
+"инсталирайте желаните."
 
 #: src/ejabberd_web_admin.erl:1489
 msgid "Update ~p"
-msgstr ""
+msgstr "Актуализирай ~p"
 
 #: src/ext_mod.erl:1106
 msgid "Upgrade"
-msgstr ""
+msgstr "Обнови"
 
 #: src/ejabberd_web_admin.erl:1421
 msgid "Uptime:"
-msgstr ""
+msgstr "Време на работа:"
 
 #: src/mod_vcard_ldap.erl:332 src/ejabberd_web_admin.erl:678
 #: src/ejabberd_web_admin.erl:734 src/mod_vcard_mnesia.erl:99
 #: src/mod_vcard_sql.erl:156 src/mod_register.erl:229
 msgid "User"
-msgstr ""
+msgstr "Потребител"
 
 #: src/ejabberd_oauth.erl:513
 msgid "User (jid)"
-msgstr ""
+msgstr "Потребител (jid)"
 
 #: _build/default/lib/xmpp/src/mam_query.erl:348
 #: _build/default/lib/xmpp/src/muc_request.erl:391
 msgid "User JID"
-msgstr ""
+msgstr "Потребител JID"
 
 #: src/mod_configure.erl:277 src/mod_configure.erl:476
 msgid "User Management"
-msgstr ""
+msgstr "Управление на потребители"
 
 #: src/mod_register.erl:404
 msgid "User already exists"
-msgstr ""
+msgstr "Потребителят вече съществува"
 
 #: src/ejabberd_sm.erl:214
 msgid "User removed"
-msgstr ""
+msgstr "Потребителят е премахнат"
 
 #: src/mod_push.erl:309 src/ejabberd_sm.erl:202 src/mod_sic.erl:86
 msgid "User session not found"
-msgstr ""
+msgstr "Потребителската сесия не е намерена"
 
 #: src/mod_stream_mgmt.erl:594 src/mod_stream_mgmt.erl:617
 msgid "User session terminated"
-msgstr ""
+msgstr "Потребителската сесия е прекратена"
 
 #: src/ejabberd_web_admin.erl:975
 msgid "User ~ts"
-msgstr ""
+msgstr "Потребител ~ts"
 
 #: src/mod_register_web.erl:250 src/mod_register_web.erl:389
 #: src/mod_register_web.erl:500
 msgid "Username:"
-msgstr ""
+msgstr "Потребителско име:"
 
 #: src/ejabberd_web_admin.erl:452 src/ejabberd_web_admin.erl:459
 #: src/ejabberd_web_admin.erl:1946
 msgid "Users"
-msgstr ""
+msgstr "Потребители"
 
 #: src/ejabberd_web_admin.erl:480
 msgid "Users Last Activity"
-msgstr ""
+msgstr "Последна активност на потребителите"
 
 #: src/mod_register.erl:396
 msgid "Users are not allowed to register accounts so quickly"
-msgstr ""
+msgstr "Не е разрешено потребителите да регистрират профили толкова бързо"
 
 #: src/mod_roster.erl:1083
 msgid "Validate"
-msgstr ""
+msgstr "Валидирай"
 
 #: src/mod_push.erl:291 src/mod_pubsub.erl:910 src/ejabberd_captcha.erl:227
 #: src/mod_muc_room.erl:4636 src/mod_muc_room.erl:4815
 #: src/mod_carboncopy.erl:97
 msgid "Value 'get' of 'type' attribute is not allowed"
-msgstr ""
+msgstr "Стойността 'get' на атрибут 'type' не е разрешена"
 
 #: src/mod_jidprep.erl:114 src/mod_disco.erl:101 src/mod_disco.erl:117
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
@@ -2808,24 +2825,24 @@ msgstr ""
 #: src/mod_proxy65_service.erl:172 src/mod_last.erl:91 src/mod_last.erl:109
 #: src/mod_sic.erl:61 src/mod_sic.erl:73
 msgid "Value 'set' of 'type' attribute is not allowed"
-msgstr ""
+msgstr "Стойността 'set' на атрибут 'type' не е разрешена"
 
 #: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
 msgid "Value of '~s' should be boolean"
-msgstr ""
+msgstr "Стойността на '~s' трябва да е булева"
 
 #: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
 msgid "Value of '~s' should be datetime string"
-msgstr ""
+msgstr "Стойността на '~s' трябва да бъде низ за дата и час"
 
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 msgid "Value of '~s' should be integer"
-msgstr ""
+msgstr "Стойността на '~s' трябва да бъде цяло число"
 
 #: src/mod_offline.erl:1063
 msgid "View Queue"
-msgstr ""
+msgstr "Вижте опашката"
 
 #: src/mod_roster.erl:1212
 msgid "View Roster"
@@ -2833,135 +2850,143 @@ msgstr "Преглед на списъка с контакти"
 
 #: src/mod_mix_pam.erl:478
 msgid "View joined MIX channels"
-msgstr ""
+msgstr "Вижте присъединените MIX канали"
 
 #: src/ejabberd_web_admin.erl:444 src/ejabberd_web_admin.erl:1974
 msgid "Virtual Hosts"
-msgstr ""
+msgstr "Виртуални хостове"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:2112
 msgid "Visitor"
-msgstr ""
+msgstr "Посетител"
 
 #: src/mod_muc_room.erl:1417
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr ""
+msgstr "Посетителите нямат право да променят псевдонимите си в тази стая"
 
 #: src/mod_muc_room.erl:1123
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
+"На посетителите не е разрешено да изпращат съобщения до всички участници"
 
 #: src/mod_muc_room.erl:5208
 msgid "Voice request"
-msgstr ""
+msgstr "Заявка за гласово обаждане"
 
 #: src/mod_muc_room.erl:1275
 msgid "Voice requests are disabled in this conference"
-msgstr ""
+msgstr "Гласовите обаждания са деактивирани в тази конференция"
 
 #: src/mod_muc_log.erl:470
 msgid "Wednesday"
-msgstr ""
+msgstr "Сряда"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2138
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2136
 msgid "When a new subscription is processed"
-msgstr ""
+msgstr "Когато се обработва нов абонамент"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2142
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2140
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
+"Когато се обработва нов абонамент и всеки път, когато абонат се появи онлайн"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2156
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
-msgstr ""
+msgstr "Кога да изпратите последния публикуван елемент"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:615
 msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
+"Дали даден обект иска да получи тяло на XMPP съобщение в допълнение към "
+"формата на полезен товар"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:563
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
+"Дали даден обект желае да получава обобщения за известия или всички известия "
+"поотделно"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
+msgstr "Дали даден обект желае да получава или деактивира известия"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1826
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
+"Дали собствениците или публикуващите трябва да получават отговори на елементи"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1912
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
-msgstr ""
+msgstr "Дали нодът е листов (по подразбиране) или колекция"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2188
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
-msgstr ""
+msgstr "Дали да се разрешат абонаменти"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2172
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
+"Дали всички абонаменти да бъдат временни въз основа на присъствието на абонат"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2011
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
+"Дали да се уведомяват собствениците за нови абонати и откази от абонамент"
 
 #: src/mod_muc_log.erl:815
-#, fuzzy
 msgid "Who can send private messages"
-msgstr "Разреши на потребителите да изпращат лични съобщения"
+msgstr "Кой може да изпраща лични съобщения"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1617
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Кой може да асоциира листови нодове с колекция"
 
 #: src/mod_register_web.erl:605
 msgid "Wrong parameters in the web formulary"
-msgstr ""
+msgstr "Грешни параметри в уеб формуляра"
 
 #: src/mod_multicast.erl:313
 msgid "Wrong xmlns"
-msgstr ""
+msgstr "Грешен xmlns"
 
 #: src/mod_register_web.erl:191 src/mod_register_web.erl:199
 msgid "XMPP Account Registration"
-msgstr ""
+msgstr "Регистриране на XMPP профил"
 
 #: src/ejabberd_web_admin.erl:445
 msgid "XMPP Domains"
-msgstr ""
+msgstr "XMPP домейни"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:632
 msgid "XMPP Show Value of Away"
-msgstr ""
+msgstr "XMPP покажи стойност на Отсъства"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:636
 msgid "XMPP Show Value of Chat"
-msgstr ""
+msgstr "XMPP покажи стойност на Чат"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:640
 msgid "XMPP Show Value of DND (Do Not Disturb)"
-msgstr ""
+msgstr "XMPP покажи стойност на DND (Не ме безпокой)"
 
 #: _build/default/lib/xmpp/src/pubsub_subscribe_options.erl:648
 msgid "XMPP Show Value of XA (Extended Away)"
-msgstr ""
+msgstr "XMPP покажи стойност на Продължително отсъствие"
 
 #: _build/default/lib/xmpp/src/muc_roomconfig.erl:1984
 #: _build/default/lib/xmpp/src/muc_roominfo.erl:1073
@@ -2970,56 +2995,57 @@ msgstr ""
 
 #: src/mod_muc_room.erl:983
 msgid "You are being removed from the room because of a system shutdown"
-msgstr ""
+msgstr "Премахнати сте от стаята поради изключване на системата"
 
 #: src/mod_muc_room.erl:642 src/mod_muc_room.erl:653
-#, fuzzy
 msgid "You are not allowed to send private messages"
-msgstr "Изпращнето на лични съобщения не е позволено"
+msgstr "Нямате право да изпращате лични съобщения"
 
 #: src/mod_mix.erl:673
 msgid "You are not joined to the channel"
-msgstr ""
+msgstr "Не сте присъединени към канала"
 
 #: src/mod_register_web.erl:275
 msgid "You can later change your password using an XMPP client."
-msgstr ""
+msgstr "По-късно можете да промените паролата си с помощта на XMPP клиент."
 
 #: src/mod_muc_rtbl.erl:191 src/mod_muc_room.erl:2327
 msgid "You have been banned from this room"
-msgstr ""
+msgstr "Достъпът ви до тази стая е забранен"
 
 #: src/mod_muc_room.erl:2308
 msgid "You have joined too many conferences"
-msgstr ""
+msgstr "Присъединили сте се към твърде много конференции"
 
 #: src/mod_muc.erl:1137
 msgid "You must fill in field \"Nickname\" in the form"
-msgstr ""
+msgstr "Трябва да попълните полето \"Псевдоним\" във формата"
 
 #: src/mod_register.erl:226
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
+"За да се регистрирате Ви е нужен клиент, който поддържа x:data и CAPTCHA"
 
 #: src/mod_muc.erl:1092
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
+"За да регистрирате псевдонима, Ви е необходим клиент, който поддържа x:data"
 
 #: src/mod_vcard.erl:456
 msgid "You need an x:data capable client to search"
-msgstr ""
+msgstr "За да търсите, Ви е нужен клиент, който поддържа x:data"
 
 #: src/mod_pubsub.erl:1574
 msgid "You're not allowed to create nodes"
-msgstr ""
+msgstr "Нямате право да създавате нодове"
 
 #: src/mod_register_web.erl:106
 msgid "Your XMPP account was successfully registered."
-msgstr ""
+msgstr "Вашият XMPP акаунт, беше регистриран успешно."
 
 #: src/mod_register_web.erl:119
 msgid "Your XMPP account was successfully unregistered."
-msgstr ""
+msgstr "Вашият XMPP акаунт, беше успешно дерегистриран."
 
 #: src/ejabberd_c2s.erl:712 src/ejabberd_c2s.erl:866
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -3038,7 +3064,7 @@ msgstr ""
 
 #: src/mod_disco.erl:403
 msgid "ejabberd"
-msgstr ""
+msgstr "ejabberd"
 
 #: src/mod_http_upload.erl:753
 msgid "ejabberd HTTP Upload service"
@@ -3062,11 +3088,11 @@ msgstr ""
 
 #: src/ejabberd_web_admin.erl:296
 msgid "ejabberd Web Admin"
-msgstr ""
+msgstr "Уеб администрация на ejabberd"
 
 #: src/mod_vcard.erl:255
 msgid "ejabberd vCard module"
-msgstr ""
+msgstr "ejabberd vCard модул"
 
 #: src/mod_muc_log.erl:387 src/mod_muc_log.erl:390
 msgid "has been banned"
@@ -3114,11 +3140,11 @@ msgstr ""
 
 #: src/mod_muc_room.erl:5277
 msgid "~s invites you to the room ~s"
-msgstr ""
+msgstr "~s ви кани в стая ~s"
 
 #: src/mod_offline.erl:979
 msgid "~ts's Offline Messages Queue"
-msgstr ""
+msgstr "Офлайн съобщения на ~ts"
 
 #~ msgid "Access model of authorize"
 #~ msgstr "Модел за достъп - авторизация"
