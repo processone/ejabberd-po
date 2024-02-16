@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ejabberd 2.1.x\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2021-02-12 03:50+0000\n"
+"PO-Revision-Date: 2024-02-18 09:02+0000\n"
 "Last-Translator: Mako N <mako@pasero.net>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/ja/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 5.4\n"
 "X-Language: Japanese (日本語)\n"
 "X-Additional-Translator: Mako N <mako@pasero.net>\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -23,7 +23,7 @@ msgstr " (* を最後に付けると部分文字列にマッチします)"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
 msgid " has set the subject to: "
-msgstr " は件名を設定しました: "
+msgstr " は題を設定しました: "
 
 #: src/mod_muc_admin.erl:662
 #, fuzzy
@@ -274,7 +274,7 @@ msgstr "8月"
 
 #: src/mod_pubsub.erl:1929
 msgid "Automatic node creation is not enabled"
-msgstr ""
+msgstr "ノードの自動作成は有効になっていません"
 
 #: src/ejabberd_web_admin.erl:1142 src/ejabberd_web_admin.erl:1963
 #: src/mod_configure.erl:113 src/mod_configure.erl:569
@@ -331,7 +331,7 @@ msgstr ""
 
 #: _build/default/lib/xmpp/src/captcha_form.erl:806
 msgid "Challenge ID"
-msgstr ""
+msgstr "チャレンジ ID"
 
 #: src/mod_register_web.erl:204 src/mod_register_web.erl:376
 #: src/mod_register_web.erl:384 src/mod_register_web.erl:409
@@ -354,9 +354,8 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "使用できない文字:"
 
 #: src/mod_mix_pam.erl:504
-#, fuzzy
 msgid "Channel JID"
-msgstr "チャンネル"
+msgstr "チャンネル ID"
 
 #: src/mod_mix.erl:663
 msgid "Channel already exists"
@@ -489,9 +488,8 @@ msgstr "データーベーステーブル: ~p"
 #: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
 #: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
 #: src/mod_mix.erl:658 src/mod_proxy65_service.erl:242
-#, fuzzy
 msgid "Database failure"
-msgstr "データーベース"
+msgstr "データーベース障害"
 
 #: src/mod_muc_log.erl:489
 msgid "December"
@@ -669,11 +667,11 @@ msgstr "ホストのユーザーデータを PIEFXIS ファイルにエクスポ
 
 #: src/mod_delegation.erl:352
 msgid "External component failure"
-msgstr ""
+msgstr "外部コンポーネントの障害"
 
 #: src/mod_delegation.erl:360
 msgid "External component timeout"
-msgstr ""
+msgstr "外部コンポーネントのタイムアウト"
 
 #: _build/default/lib/xmpp/src/muc_register.erl:494
 msgid "FAQ Entry"
@@ -697,7 +695,7 @@ msgstr "HTTP 応答のパースに失敗しました"
 
 #: src/mod_muc_room.erl:3945
 msgid "Failed to process option '~s'"
-msgstr ""
+msgstr "オプション '~s' の処理に失敗しました"
 
 #: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_sql.erl:230 src/mod_vcard_sql.erl:244
@@ -745,14 +743,12 @@ msgid "Full Name"
 msgstr "氏名"
 
 #: src/mod_configure.erl:151 src/mod_configure.erl:505
-#, fuzzy
 msgid "Get List of Online Users"
-msgstr "オンラインユーザー数を取得"
+msgstr "オンラインユーザーの一覧を取得"
 
 #: src/mod_configure.erl:145 src/mod_configure.erl:501
-#, fuzzy
 msgid "Get List of Registered Users"
-msgstr "登録ユーザー数を取得"
+msgstr "登録ユーザーの一覧を取得"
 
 #: src/mod_configure.erl:153 src/mod_configure.erl:507
 msgid "Get Number of Online Users"
@@ -763,9 +759,8 @@ msgid "Get Number of Registered Users"
 msgstr "登録ユーザー数を取得"
 
 #: src/mod_pubsub.erl:1047
-#, fuzzy
 msgid "Get Pending"
-msgstr "保留"
+msgstr "保留中の取得"
 
 #: src/mod_configure.erl:141 src/mod_configure.erl:497
 #: src/mod_configure.erl:1039
@@ -920,16 +915,15 @@ msgstr ""
 
 #: src/ext_mod.erl:1121
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 #: src/ext_mod.erl:1197
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "モジュールを起動"
+msgstr "インストールされているモジュール:"
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
-msgstr ""
+msgstr "権限が不十分です"
 
 #: src/mod_multicast.erl:324
 msgid "Internal server error"
@@ -940,9 +934,8 @@ msgid "Invalid 'from' attribute in forwarded message"
 msgstr ""
 
 #: src/mod_stream_mgmt.erl:843
-#, fuzzy
 msgid "Invalid 'previd' value"
-msgstr "無効な役です: ~s"
+msgstr "無効な 'previd' の値です"
 
 #: src/mod_muc_room.erl:4528
 msgid "Invalid node name"
@@ -976,7 +969,7 @@ msgstr "サービスポリシーによってチャットルームの作成が禁
 
 #: src/mod_jidprep.erl:131
 msgid "JID normalization failed"
-msgstr ""
+msgstr "JID の正規化に失敗しました"
 
 #: src/mod_muc_admin.erl:661 src/mod_roster.erl:1041 src/mod_vcard_sql.erl:240
 #: src/mod_muc_room.erl:4922 src/mod_muc_room.erl:4990
@@ -1312,9 +1305,8 @@ msgid "No 'affiliation' attribute found"
 msgstr ""
 
 #: src/mod_muc_room.erl:3059
-#, fuzzy
 msgid "No 'item' element found"
-msgstr "ノードが見つかりません"
+msgstr "'item' 要素が見つかりません"
 
 #: src/mod_configure.erl:1551
 msgid "No 'password' found in data form"
@@ -1322,7 +1314,7 @@ msgstr ""
 
 #: src/mod_register.erl:148
 msgid "No 'password' found in this query"
-msgstr ""
+msgstr "このクエリに 'password' が見つかりません"
 
 #: src/mod_configure.erl:1143 src/mod_configure.erl:1176
 #: src/mod_configure.erl:1209 src/mod_configure.erl:1241
@@ -1335,23 +1327,20 @@ msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
 #: src/mod_privilege.erl:431
-#, fuzzy
 msgid "No <forwarded/> element found"
-msgstr "ノードが見つかりません"
+msgstr "<forwarded/> 要素が見つかりません"
 
 #: src/ejabberd_web_admin.erl:1042
 msgid "No Data"
 msgstr "データなし"
 
 #: src/mod_multicast.erl:310
-#, fuzzy
 msgid "No address elements found"
-msgstr "ノードが見つかりません"
+msgstr "アドレス要素が見つかりません"
 
 #: src/mod_multicast.erl:307
-#, fuzzy
 msgid "No addresses element found"
-msgstr "ノードが見つかりません"
+msgstr "アドレス要素が見つかりません"
 
 #: src/ejabberd_local.erl:103
 msgid "No available resource found"
@@ -1362,9 +1351,8 @@ msgid "No body provided for announce message"
 msgstr "アナウンスメッセージはありませんでした"
 
 #: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1324
-#, fuzzy
 msgid "No child elements found"
-msgstr "ノードが見つかりません"
+msgstr "子要素が見つかりません"
 
 #: src/mod_pubsub.erl:1247
 #, fuzzy
@@ -1429,7 +1417,7 @@ msgstr "ノードが見つかりません"
 
 #: src/mod_disco.erl:196 src/mod_vcard.erl:277
 msgid "No services available"
-msgstr ""
+msgstr "利用できるサービスはありません"
 
 #: src/mod_stats.erl:100
 msgid "No statistics found for this item"
@@ -1443,7 +1431,6 @@ msgid "Nobody"
 msgstr "誰にも許可しない"
 
 #: src/mod_muc_admin.erl:669 src/ejabberd_web_admin.erl:1827
-#, fuzzy
 msgid "Node"
 msgstr "ノード"
 
@@ -1604,11 +1591,11 @@ msgstr "オンラインユーザー:"
 
 #: src/mod_carboncopy.erl:97
 msgid "Only <enable/> or <disable/> tags are allowed"
-msgstr ""
+msgstr "<enable/> タグまたは <disable/> タグのみが許可されます"
 
 #: src/mod_privacy.erl:125
 msgid "Only <list/> element is allowed in this query"
-msgstr ""
+msgstr "このクエリでは <list/> 要素のみが許可されます"
 
 #: src/mod_shared_roster.erl:1001
 msgid "Only admins can see this"
@@ -1724,9 +1711,8 @@ msgid "Participant"
 msgstr "参加者"
 
 #: src/mod_mix_pam.erl:505
-#, fuzzy
 msgid "Participant ID"
-msgstr "参加者"
+msgstr "参加者 ID"
 
 #: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:531 src/mod_register.erl:233
 #: src/ejabberd_web_admin.erl:683 src/mod_configure.erl:986
@@ -1826,9 +1812,8 @@ msgid "Previous session PID is dead"
 msgstr ""
 
 #: src/mod_stream_mgmt.erl:831
-#, fuzzy
 msgid "Previous session not found"
-msgstr "ノードが見つかりません"
+msgstr "前のセッションが見つかりません"
 
 #: src/mod_stream_mgmt.erl:833
 msgid "Previous session timed out"
@@ -1840,7 +1825,7 @@ msgstr "PubSub 購読者のリクエスト"
 
 #: src/mod_muc_admin.erl:664
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 #: _build/default/lib/xmpp/src/pubsub_meta_data.erl:954
 #, fuzzy
@@ -1869,7 +1854,7 @@ msgstr "このチャットルームでは、会議のメンバーへのクエリ
 #: src/mod_disco.erl:326 src/mod_privacy.erl:117 src/mod_private.erl:204
 #: src/mod_roster.erl:129 src/mod_offline.erl:312 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
-msgstr ""
+msgstr "他のユーザーへのクエリは禁止されています"
 
 #: src/ejabberd_web_admin.erl:1577 src/mod_configure.erl:791
 msgid "RAM and disc copy"
@@ -1956,7 +1941,7 @@ msgstr ""
 
 #: src/mod_muc_room.erl:844 src/mod_muc_room.erl:859
 msgid "Request is ignored"
-msgstr ""
+msgstr "リクエストは無視されます"
 
 #: _build/default/lib/xmpp/src/muc_request.erl:377
 msgid "Requested role"
@@ -2059,7 +2044,6 @@ msgid "Running Nodes"
 msgstr "起動ノード"
 
 #: src/mod_proxy65.erl:135
-#, fuzzy
 msgid "SOCKS5 Bytestreams"
 msgstr "SOCKS5 Bytestreams"
 
@@ -2619,9 +2603,8 @@ msgid "Too many unacked stanzas"
 msgstr "多くのスタンザが応答していません"
 
 #: src/mod_muc_room.erl:2299
-#, fuzzy
 msgid "Too many users in this conference"
-msgstr "この会議では、発言権の要求はできません"
+msgstr "この会議にはユーザーが多すぎます"
 
 #: src/mod_muc_admin.erl:612
 msgid "Total rooms"
@@ -2673,15 +2656,15 @@ msgstr "認証されていません"
 #: src/mod_announce.erl:493 src/mod_configure.erl:763
 #: src/mod_configure.erl:1506
 msgid "Unexpected action"
-msgstr ""
+msgstr "予期しないアクション"
 
 #: src/mod_register.erl:408
 msgid "Unexpected error condition: ~p"
-msgstr ""
+msgstr "予期しないエラー状態: ~p"
 
 #: src/ext_mod.erl:1103
 msgid "Uninstall"
-msgstr ""
+msgstr "アンインストール"
 
 #: src/mod_register_web.erl:512
 msgid "Unregister"
@@ -2694,7 +2677,7 @@ msgstr "XMPP アカウントを削除"
 
 #: src/ejabberd_web_admin.erl:1478
 msgid "Unselect All"
-msgstr ""
+msgstr "すべての選択を解除"
 
 #: src/mod_mam.erl:805
 msgid "Unsupported <index/> element"
@@ -2740,7 +2723,7 @@ msgstr "更新 ~p"
 
 #: src/ext_mod.erl:1106
 msgid "Upgrade"
-msgstr ""
+msgstr "アップグレード"
 
 #: src/ejabberd_web_admin.erl:1421
 msgid "Uptime:"
@@ -2774,13 +2757,12 @@ msgid "User removed"
 msgstr "ユーザーを削除しました"
 
 #: src/mod_sic.erl:86 src/ejabberd_sm.erl:209 src/mod_push.erl:309
-#, fuzzy
 msgid "User session not found"
-msgstr "ノードが見つかりません"
+msgstr "ユーザーセッションが見つかりません"
 
 #: src/mod_stream_mgmt.erl:665 src/mod_stream_mgmt.erl:688
 msgid "User session terminated"
-msgstr ""
+msgstr "ユーザーセッションが終了しました"
 
 #: src/ejabberd_web_admin.erl:975
 msgid "User ~ts"
@@ -2829,7 +2811,7 @@ msgstr ""
 
 #: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
 msgid "Value of '~s' should be boolean"
-msgstr ""
+msgstr "'~s' の値はブール値である必要があります"
 
 #: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
 msgid "Value of '~s' should be datetime string"
@@ -2838,7 +2820,7 @@ msgstr ""
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 msgid "Value of '~s' should be integer"
-msgstr ""
+msgstr "'~s' の値は整数である必要があります"
 
 #: src/mod_offline.erl:1069
 msgid "View Queue"
@@ -2883,9 +2865,8 @@ msgstr "水曜日"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2138
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2136
-#, fuzzy
 msgid "When a new subscription is processed"
-msgstr "購読を許可するかどうか"
+msgstr "新しい購読が処理されるとき"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:2142
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:2140
@@ -2941,9 +2922,8 @@ msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 
 #: src/mod_muc_log.erl:815
-#, fuzzy
 msgid "Who can send private messages"
-msgstr "ユーザーによるプライベートメッセージの送信を許可"
+msgstr "誰がプライベートメッセージを送れるか"
 
 #: _build/default/lib/xmpp/src/pubsub_publish_options.erl:1617
 #: _build/default/lib/xmpp/src/pubsub_node_config.erl:1615
@@ -2993,14 +2973,12 @@ msgid "You are being removed from the room because of a system shutdown"
 msgstr "システムシャットダウンのためチャットルームから削除されました"
 
 #: src/mod_muc_room.erl:642 src/mod_muc_room.erl:653
-#, fuzzy
 msgid "You are not allowed to send private messages"
-msgstr "プライベートメッセージを送信することはできません"
+msgstr "プライベートメッセージを送信する権限がありません"
 
 #: src/mod_mix.erl:673
-#, fuzzy
 msgid "You are not joined to the channel"
-msgstr "プライベートメッセージを送信することはできません"
+msgstr "チャンネルに参加していません"
 
 #: src/mod_register_web.erl:275
 msgid "You can later change your password using an XMPP client."
