@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-03-13 05:01+0000\n"
-"Last-Translator: Sketch6580 <sky@openmbox.net>\n"
+"PO-Revision-Date: 2024-05-01 03:07+0000\n"
+"Last-Translator: Sketch6580 <Sketch6580@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/zh_Hans/>\n"
 "Language: zh\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.5.3-dev\n"
 "X-Language: Chinese (中文)\n"
 "X-Additional-Translator: Mike Wang\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: src/mod_vcard.erl:467
 msgid " (Add * to the end of field to match substring)"
-msgstr " (在字段末添加*来匹配子串)"
+msgstr " (在字段末尾添加 * 以匹配子字符串)"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
 msgid " has set the subject to: "
-msgstr " 已将标题设置为： "
+msgstr " 已将话题设置为: "
 
 #: src/mod_muc_admin.erl:662
 msgid "# participants"
@@ -32,7 +32,7 @@ msgstr "# 参与者"
 
 #: src/mod_shared_roster.erl:1031
 msgid "'Displayed groups' not added (they do not exist!): "
-msgstr "'显示的群组' 未被添加(它们不存在!)： "
+msgstr "“显示的群组”未添加(它们不存在!): "
 
 #: _build/translations/lib/xmpp/src/muc_register.erl:550
 msgid "A Web Page"
@@ -42,12 +42,12 @@ msgstr "网页"
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 msgid "A description of the node"
-msgstr "该节点的描述"
+msgstr "节点的描述"
 
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 msgid "A friendly name for the node"
-msgstr "该节点的友好名称"
+msgstr "节点的友好名称"
 
 #: src/mod_muc_room.erl:2393
 msgid "A password is required to enter this room"
@@ -70,7 +70,7 @@ msgstr "接受"
 #: src/mod_configure.erl:1488 src/mod_proxy65_service.erl:197
 #: src/mod_proxy65_service.erl:246
 msgid "Access denied by service policy"
-msgstr "访问被服务策略拒绝"
+msgstr "服务策略拒绝访问"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:922
 msgid "Access model"
@@ -90,7 +90,7 @@ msgstr "添加 Jabber ID"
 
 #: src/mod_shared_roster.erl:913
 msgid "Add New"
-msgstr "添加新用户"
+msgstr "添加新的"
 
 #: src/ejabberd_web_admin.erl:692 src/mod_configure.erl:131
 #: src/mod_configure.erl:488 src/mod_configure.erl:978
@@ -137,7 +137,7 @@ msgstr "允许此用户注册此房间？"
 #: src/mod_muc_log.erl:813
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1915
 msgid "Allow users to change the subject"
-msgstr "允许用户更改主题"
+msgstr "允许用户更改话题"
 
 #: src/mod_muc_log.erl:819
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1884
@@ -313,7 +313,7 @@ msgstr "格式错误"
 #: src/mod_vcard_sql.erl:233 src/mod_vcard_sql.erl:247
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 msgid "Birthday"
-msgstr "出生日期"
+msgstr "生日"
 
 #: src/mod_legacy_auth.erl:112
 msgid "Both the username and the resource are required"
@@ -356,11 +356,11 @@ msgstr "更改用户密码"
 
 #: src/mod_register.erl:309
 msgid "Changing password is not allowed"
-msgstr "不允许修改密码"
+msgstr "不允许更改密码"
 
 #: src/mod_muc_room.erl:3354
 msgid "Changing role/affiliation is not allowed"
-msgstr "不允许修改角色/从属关系"
+msgstr "不允许更改角色/从属关系"
 
 #: src/mod_mix_pam.erl:504
 msgid "Channel JID"
@@ -436,7 +436,7 @@ msgstr "命令"
 #: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
 #: src/mod_muc.erl:645
 msgid "Conference room does not exist"
-msgstr "会议室不存在"
+msgstr "聊天室不存在"
 
 #: src/mod_configure.erl:99 src/mod_configure.erl:254 src/mod_configure.erl:275
 #: src/mod_configure.erl:475
@@ -1879,7 +1879,7 @@ msgstr "仅接收新节点的通知"
 
 #: src/mod_muc_room.erl:610 src/mod_muc_room.erl:666
 msgid "Recipient is not in the conference room"
-msgstr "接收人不在会议室"
+msgstr "接收人不在聊天室"
 
 #: src/mod_register_web.erl:295
 msgid "Register"
@@ -2965,7 +2965,7 @@ msgstr "您稍后可以使用 XMPP 客户端更改密码。"
 
 #: src/mod_muc_room.erl:2327 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
-msgstr "您已被禁止进入该房间"
+msgstr "您已被此房间封禁"
 
 #: src/mod_muc_room.erl:2308
 msgid "You have joined too many conferences"
@@ -3064,11 +3064,11 @@ msgstr "因从属关系改变而被踢出"
 
 #: src/mod_muc_log.erl:407
 msgid "has been kicked because the room has been changed to members-only"
-msgstr "被踢了，因为房间已改为仅成员进入"
+msgstr "被踢出，因为房间已改为仅成员进入"
 
 #: src/mod_muc_log.erl:417
 msgid "is now known as"
-msgstr "现在称呼为"
+msgstr "现在称为"
 
 #: src/mod_muc_log.erl:377
 msgid "joins the room"
