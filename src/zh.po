@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-27 06:09+0000\n"
+"PO-Revision-Date: 2024-06-27 09:03+0000\n"
 "Last-Translator: Sketch6580 <Sketch6580@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/zh_Hans/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 "X-Language: Chinese (中文)\n"
 "X-Additional-Translator: Mike Wang\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/mod_vcard.erl:467
 msgid " (Add * to the end of field to match substring)"
-msgstr " (在字段末尾添加 * 以匹配子字符串)"
+msgstr " （在字段末尾添加 * 以匹配子字符串）"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
 msgid " has set the subject to: "
@@ -407,7 +407,7 @@ msgstr "群聊"
 
 #: src/mod_register.erl:216
 msgid "Choose a username and password to register with this server"
-msgstr "选择要在此服务器上注册的用户名和密码"
+msgstr "请选择要在此服务器中注册的用户名和密码"
 
 #: src/mod_configure.erl:817
 msgid "Choose storage type of tables"
@@ -1151,9 +1151,8 @@ msgstr "进入此群聊需要成员资格"
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
-msgstr ""
-"请记住您的密码，或将其写在纸上并放在安全的地方。 在 XMPP 中，如果您忘记密码，"
-"则没有自动恢复密码的方法。"
+msgstr "请记住密码，或将密码写在纸上，放在安全的地方。在 XMPP "
+"中，如果您忘记密码，没有自动恢复密码的方法。"
 
 #: src/ejabberd_web_admin.erl:1233 src/ejabberd_web_admin.erl:1844
 msgid "Memory"
@@ -2340,7 +2339,7 @@ msgstr "最后收到的消息的正文"
 
 #: src/mod_register_web.erl:589
 msgid "The captcha you entered is wrong"
-msgstr "您输入的验证码有误"
+msgstr "您输入的验证码错误"
 
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
@@ -2497,13 +2496,12 @@ msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
-msgstr ""
-"本页面允许在此服务器上注册 XMPP 账号。您的 JID（Jabber "
-"ID）的格式如下：username@server。请仔细阅读说明以正确填写各项内容。"
+msgstr "本页面允许在此服务器中注册 XMPP 账号，您的 JID（Jabber "
+"ID）的格式为：用户名@服务器。请仔细阅读说明以正确填写字段。"
 
 #: src/mod_register_web.erl:494
 msgid "This page allows to unregister an XMPP account in this XMPP server."
-msgstr "此页面允许在此 XMPP 服务器上注销 XMPP 账号。"
+msgstr "本页面允许在此 XMPP 服务器中注销 XMPP 账号。"
 
 #: src/mod_muc_log.erl:805
 msgid "This room is not anonymous"
@@ -2549,8 +2547,8 @@ msgstr "TTL 令牌"
 msgid ""
 "Too many (~p) failed authentications from this IP address (~s). The address "
 "will be unblocked at ~s UTC"
-msgstr ""
-"来自 IP 地址(~p)的(~s)失败认证太多。将在 UTC 时间 ~s 解除对该地址的封锁"
+msgstr "来自 IP 地址 (~s) 的身份验证失败次数太多 (~p)，将在 UTC 时间 ~s "
+"解除屏蔽此地址"
 
 #: src/mod_muc_room.erl:3064 src/mod_muc_room.erl:3704
 msgid "Too many <item/> elements"
@@ -2970,19 +2968,19 @@ msgstr "您加入了太多群聊"
 
 #: src/mod_muc.erl:1137
 msgid "You must fill in field \"Nickname\" in the form"
-msgstr "您必须填充表单中“昵称”项"
+msgstr "您必须在表单中填写“昵称”字段"
 
 #: src/mod_register.erl:226
 msgid "You need a client that supports x:data and CAPTCHA to register"
-msgstr "您需要一个支持 x:data 和验证码的客户端进行注册"
+msgstr "您需要支持 x:data 和验证码的客户端来注册"
 
 #: src/mod_muc.erl:1092
 msgid "You need a client that supports x:data to register the nickname"
-msgstr "您需要一个支持 x:data 的客户端来注册昵称"
+msgstr "您需要支持 x:data 的客户端来注册昵称"
 
 #: src/mod_vcard.erl:456
 msgid "You need an x:data capable client to search"
-msgstr "您需要一个兼容 x:data 的客户端来搜索"
+msgstr "您需要支持 x:data 的客户端来搜索"
 
 #: src/mod_pubsub.erl:1574
 msgid "You're not allowed to create nodes"
@@ -3009,7 +3007,7 @@ msgstr "您的联系人离线消息队列已满。消息已被丢弃。"
 msgid ""
 "Your subscription request and/or messages to ~s have been blocked. To "
 "unblock your subscription request, visit ~s"
-msgstr "您对 ~s 的订阅请求和/或消息已被阻止。若要取消阻止您的订阅请求，请访问 ~s"
+msgstr "您对 ~s 的订阅请求和/或消息已被屏蔽。若要解除屏蔽您的订阅请求，请访问 ~s"
 
 #: src/mod_disco.erl:403
 msgid "ejabberd"
@@ -3045,7 +3043,7 @@ msgstr "ejabberd vCard 模块"
 
 #: src/mod_muc_log.erl:387 src/mod_muc_log.erl:390
 msgid "has been banned"
-msgstr "已被禁止"
+msgstr "已被封禁"
 
 #: src/mod_muc_log.erl:394 src/mod_muc_log.erl:397 src/ejabberd_sm.erl:470
 msgid "has been kicked"
