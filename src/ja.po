@@ -30,18 +30,18 @@ msgstr " は題を設定しました: "
 msgid "# participants"
 msgstr "参加者"
 
-#: deps/xmpp/src/muc_register.erl:550
+#: _build/translations/lib/xmpp/src/muc_register.erl:550
 msgid "A Web Page"
 msgstr "ウェブページ"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1775
-#: deps/xmpp/src/pubsub_meta_data.erl:759
-#: deps/xmpp/src/pubsub_node_config.erl:1773
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1775
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 msgid "A description of the node"
 msgstr "ノードの説明"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2203
-#: deps/xmpp/src/pubsub_node_config.erl:2201
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 msgid "A friendly name for the node"
 msgstr "ノードのフレンドリネーム"
 
@@ -68,7 +68,7 @@ msgstr "許可"
 msgid "Access denied by service policy"
 msgstr "サービスポリシーによってアクセスが禁止されました"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:922
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:922
 msgid "Access model"
 msgstr "アクセスモデル"
 
@@ -85,8 +85,8 @@ msgstr "ユーザー操作"
 msgid "Add User"
 msgstr "ユーザーを追加"
 
-#: src/mod_muc_room.erl:4485 src/mod_muc_room.erl:4615
-#: src/mod_muc_room.erl:4931
+#: src/mod_muc_room.erl:4485 src/mod_muc_room.erl:4621
+#: src/mod_muc_room.erl:4937
 msgid "Add a hat to a user"
 msgstr ""
 
@@ -110,51 +110,57 @@ msgstr "全ユーザー"
 msgid "All activity"
 msgstr "すべて"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1817
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1817
 msgid "Allow subscription"
 msgstr "購読を認可"
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:380
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:380
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
 msgstr "この Jabber ID に、この pubsubノードの購読を許可しますか ?"
 
-#: deps/xmpp/src/muc_register.erl:465
+#: _build/translations/lib/xmpp/src/muc_register.erl:465
 msgid "Allow this person to register with the room?"
 msgstr ""
 
-#: src/mod_muc_log.erl:862 deps/xmpp/src/muc_roomconfig.erl:1915
+#: src/mod_muc_log.erl:862
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1915
 msgid "Allow users to change the subject"
 msgstr "ユーザーによる件名の変更を許可"
 
-#: src/mod_muc_log.erl:868 deps/xmpp/src/muc_roomconfig.erl:1884
+#: src/mod_muc_log.erl:868
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1884
 msgid "Allow users to query other users"
 msgstr "ユーザーによる他のユーザーへのクエリーを許可"
 
-#: src/mod_muc_log.erl:870 deps/xmpp/src/muc_roomconfig.erl:1899
+#: src/mod_muc_log.erl:870
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1899
 msgid "Allow users to send invites"
 msgstr "ユーザーによる招待を許可"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1717
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1717
 msgid "Allow users to send private messages"
 msgstr "ユーザーによるプライベートメッセージの送信を許可"
 
-#: src/mod_muc_log.erl:873 deps/xmpp/src/muc_roomconfig.erl:1787
+#: src/mod_muc_log.erl:873
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1787
 msgid "Allow visitors to change nickname"
 msgstr "傍聴者のニックネームの変更を許可"
 
-#: src/mod_muc_log.erl:866 deps/xmpp/src/muc_roomconfig.erl:1752
+#: src/mod_muc_log.erl:866
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1752
 msgid "Allow visitors to send private messages to"
 msgstr "傍聴者によるプライベートメッセージの送信を次の相手に許可"
 
-#: src/mod_muc_log.erl:875 deps/xmpp/src/muc_roomconfig.erl:1768
+#: src/mod_muc_log.erl:875
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1768
 msgid "Allow visitors to send status text in presence updates"
 msgstr "傍聴者によるプレゼンス更新のステータス文の送信を許可"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1803
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1803
 msgid "Allow visitors to send voice requests"
 msgstr "傍聴者による発言権の要求を許可"
 
-#: deps/xmpp/src/muc_roominfo.erl:976
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:999
 msgid ""
 "An associated LDAP group that defines room membership; this should be an "
 "LDAP Distinguished Name according to an implementation-specific or "
@@ -165,58 +171,61 @@ msgstr ""
 msgid "Announcements"
 msgstr "アナウンス"
 
-#: deps/xmpp/src/captcha_form.erl:853
+#: _build/translations/lib/xmpp/src/captcha_form.erl:853
 msgid "Answer associated with a picture"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:957
+#: _build/translations/lib/xmpp/src/captcha_form.erl:957
 msgid "Answer associated with a video"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:927
+#: _build/translations/lib/xmpp/src/captcha_form.erl:927
 msgid "Answer associated with speech"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:882
+#: _build/translations/lib/xmpp/src/captcha_form.erl:882
 msgid "Answer to a question"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1679 deps/xmpp/src/muc_roomconfig.erl:1739
-#: deps/xmpp/src/muc_roomconfig.erl:2242 deps/xmpp/src/muc_roominfo.erl:893
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:916
 msgid "Anyone"
 msgstr "誰にでも"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1539
-#: deps/xmpp/src/pubsub_meta_data.erl:906
-#: deps/xmpp/src/pubsub_node_config.erl:1537
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1539
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:906
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1593
-#: deps/xmpp/src/pubsub_node_config.erl:1591
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1593
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
 msgid "Anyone may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2068
-#: deps/xmpp/src/pubsub_meta_data.erl:944
-#: deps/xmpp/src/pubsub_node_config.erl:2066
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2068
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:944
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
 msgid "Anyone may publish"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1529
-#: deps/xmpp/src/pubsub_meta_data.erl:896
-#: deps/xmpp/src/pubsub_node_config.erl:1527
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1529
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:896
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
 msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1682 deps/xmpp/src/muc_roominfo.erl:896
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:919
 msgid "Anyone with Voice"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1533
-#: deps/xmpp/src/pubsub_meta_data.erl:900
-#: deps/xmpp/src/pubsub_node_config.erl:1531
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1533
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:900
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
@@ -242,7 +251,7 @@ msgstr ""
 msgid "Attribute 'node' is not allowed here"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:822
+#: _build/translations/lib/xmpp/src/captcha_form.erl:822
 msgid "Attribute 'to' of stanza that triggered challenge"
 msgstr ""
 
@@ -288,7 +297,7 @@ msgstr "ユーザー名とリソースの両方が必要"
 msgid "Bytestream already activated"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:1001
+#: _build/translations/lib/xmpp/src/captcha_form.erl:1001
 msgid "CAPTCHA web page"
 msgstr "CAPTCHA ウェブページ"
 
@@ -300,7 +309,7 @@ msgstr ""
 msgid "Cannot remove default list"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:806
+#: _build/translations/lib/xmpp/src/captcha_form.erl:806
 msgid "Challenge ID"
 msgstr "チャレンジ ID"
 
@@ -408,7 +417,7 @@ msgstr "設定"
 msgid "Configuration of room ~s"
 msgstr "チャットルーム ~s の設定"
 
-#: deps/xmpp/src/muc_roominfo.erl:929
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:952
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "連絡先 (通常は会議室の主宰者またはその複数)"
 
@@ -418,7 +427,7 @@ msgstr "連絡先 (通常は会議室の主宰者またはその複数)"
 msgid "Country"
 msgstr "国"
 
-#: deps/xmpp/src/muc_roominfo.erl:1040
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1063
 msgid "Current Discussion Topic"
 msgstr "現在の話題"
 
@@ -450,7 +459,8 @@ msgstr "データーベース障害"
 msgid "December"
 msgstr "12月"
 
-#: src/mod_muc_log.erl:860 deps/xmpp/src/muc_roomconfig.erl:2062
+#: src/mod_muc_log.erl:860
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2062
 msgid "Default users as participants"
 msgstr "デフォルトのユーザーは参加者"
 
@@ -467,13 +477,13 @@ msgstr "お知らせメッセージを削除"
 msgid "Delete message of the day on all hosts"
 msgstr "全ホストのお知らせメッセージを削除"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1744
-#: deps/xmpp/src/pubsub_node_config.erl:1742
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1744
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1742
 msgid "Deliver event notifications"
 msgstr "イベント通知を配送する"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1760
-#: deps/xmpp/src/pubsub_node_config.erl:1758
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1760
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1758
 msgid "Deliver payloads with event notifications"
 msgstr "イベント通知と同時にペイロードを配送する"
 
@@ -501,8 +511,8 @@ msgstr "テキストファイルに出力"
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "RFC6121 によりグループの重複は許されません"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1812
-#: deps/xmpp/src/pubsub_node_config.erl:1810
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1812
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
@@ -510,7 +520,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "プロパティを編集"
 
-#: src/mod_muc_room.erl:5235
+#: src/mod_muc_room.erl:5232
 msgid "Either approve or decline the voice request."
 msgstr "発言権の要求を承認または却下します。"
 
@@ -520,19 +530,20 @@ msgstr "発言権の要求を承認または却下します。"
 msgid "Email"
 msgstr "メール"
 
-#: deps/xmpp/src/muc_register.erl:480
+#: _build/translations/lib/xmpp/src/muc_register.erl:480
 msgid "Email Address"
 msgstr "メールアドレス"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2282
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2282
 msgid "Enable hats"
 msgstr ""
 
-#: src/mod_muc_log.erl:871 deps/xmpp/src/muc_roomconfig.erl:1929
+#: src/mod_muc_log.erl:871
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1929
 msgid "Enable logging"
 msgstr "ロギングを有効"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2268
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2268
 msgid "Enable message archiving"
 msgstr "メッセージアーカイブを有効化"
 
@@ -565,7 +576,8 @@ msgstr "jabberd14 spool ファイルのパスを入力してください"
 msgid "Enter path to text file"
 msgstr "テキストファイルのパスを入力してください"
 
-#: src/ejabberd_captcha.erl:73 deps/xmpp/src/captcha_form.erl:837
+#: src/ejabberd_captcha.erl:73
+#: _build/translations/lib/xmpp/src/captcha_form.erl:837
 msgid "Enter the text you see"
 msgstr "見えているテキストを入力してください"
 
@@ -573,7 +585,7 @@ msgstr "見えているテキストを入力してください"
 msgid "Erlang XMPP Server"
 msgstr "Erlang XMPP サーバー"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1868
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1868
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "CAPTCHA 入力を免除する Jabber ID"
 
@@ -599,7 +611,7 @@ msgstr "外部コンポーネントの障害"
 msgid "External component timeout"
 msgstr "外部コンポーネントのタイムアウト"
 
-#: deps/xmpp/src/muc_register.erl:494
+#: _build/translations/lib/xmpp/src/muc_register.erl:494
 msgid "FAQ Entry"
 msgstr ""
 
@@ -626,7 +638,7 @@ msgstr "オプション '~s' の処理に失敗しました"
 #: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_sql.erl:231 src/mod_vcard_sql.erl:245
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
-#: deps/xmpp/src/muc_register.erl:522
+#: _build/translations/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "姓"
 
@@ -650,11 +662,11 @@ msgstr "金曜日"
 msgid "From ~ts"
 msgstr "From ~ts"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2170
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2170
 msgid "Full List of Room Admins"
 msgstr "チャットルーム管理者の一覧"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2213
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2213
 msgid "Full List of Room Owners"
 msgstr "チャットルーム主宰者の一覧"
 
@@ -695,11 +707,11 @@ msgid "Get User Statistics"
 msgstr "ユーザー統計を取得"
 
 #: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
-#: deps/xmpp/src/muc_register.erl:508
+#: _build/translations/lib/xmpp/src/muc_register.erl:508
 msgid "Given Name"
 msgstr "名"
 
-#: deps/xmpp/src/muc_request.erl:420
+#: _build/translations/lib/xmpp/src/muc_request.erl:420
 msgid "Grant voice to this person?"
 msgstr "この人に発言権を与えますか ?"
 
@@ -707,17 +719,21 @@ msgstr "この人に発言権を与えますか ?"
 msgid "HTTP File Upload"
 msgstr "HTTP ファイルアップロード"
 
-#: src/mod_muc_room.erl:4945 src/mod_muc_room.erl:5009
-#: src/mod_muc_room.erl:5077
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1129
+msgid "Hash of the vCard-temp avatar of this room"
+msgstr ""
+
+#: src/mod_muc_room.erl:4951 src/mod_muc_room.erl:5015
+#: src/mod_muc_room.erl:5083
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4941 src/mod_muc_room.erl:5074
+#: src/mod_muc_room.erl:4947 src/mod_muc_room.erl:5080
 #, fuzzy
 msgid "Hat title"
 msgstr "チャットルームのタイトル"
 
-#: src/mod_muc_room.erl:4984
+#: src/mod_muc_room.erl:4990
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "トラフィックレートの制限を超えました"
@@ -780,7 +796,7 @@ msgstr ""
 msgid "Improper message type"
 msgstr "誤ったメッセージタイプです"
 
-#: src/mod_register.erl:192 src/mod_muc_room.erl:4657
+#: src/mod_register.erl:192 src/mod_muc_room.erl:4663
 #: src/ejabberd_captcha.erl:221
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
@@ -795,8 +811,8 @@ msgstr "データ形式が違います"
 msgid "Incorrect password"
 msgstr "パスワードが違います"
 
-#: src/mod_muc_room.erl:4993 src/mod_muc_room.erl:5047
-#: src/mod_muc_room.erl:5087 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:4999 src/mod_muc_room.erl:5053
+#: src/mod_muc_room.erl:5093 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
@@ -810,11 +826,11 @@ msgstr ""
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/ext_mod.erl:1261
+#: src/ext_mod.erl:1291
 msgid "Install"
 msgstr "インストール"
 
-#: src/ext_mod.erl:1337
+#: src/ext_mod.erl:1367
 msgid "Installed Modules:"
 msgstr "インストールされているモジュール:"
 
@@ -838,7 +854,7 @@ msgstr "無効な 'previd' の値です"
 msgid "Invalid node name"
 msgstr "無効なノード名です"
 
-#: src/mod_muc_room.erl:5280
+#: src/mod_muc_room.erl:5277
 msgid "Invitations are not allowed in this conference"
 msgstr "この会議では、招待はできません"
 
@@ -869,8 +885,8 @@ msgid "JID normalization failed"
 msgstr "JID の正規化に失敗しました"
 
 #: src/mod_muc_admin.erl:985 src/mod_vcard_sql.erl:241
-#: src/mod_muc_room.erl:4936 src/mod_muc_room.erl:5004
-#: src/mod_muc_room.erl:5071 src/mod_vcard_mnesia.erl:113
+#: src/mod_muc_room.erl:4942 src/mod_muc_room.erl:5010
+#: src/mod_muc_room.erl:5077 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
 #: src/mod_configure.erl:1001 src/mod_configure.erl:1011
 #: src/mod_configure.erl:1025 src/mod_configure.erl:1034
@@ -924,17 +940,17 @@ msgstr "先月"
 msgid "Last year"
 msgstr "去年"
 
-#: deps/xmpp/src/captcha_form.erl:898
+#: _build/translations/lib/xmpp/src/captcha_form.erl:898
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_room.erl:5067
+#: src/mod_muc_room.erl:5073
 #, fuzzy
 msgid "List of users with hats"
 msgstr "起動モジュールの一覧"
 
-#: src/mod_muc_room.erl:4521 src/mod_muc_room.erl:4623
+#: src/mod_muc_room.erl:4521 src/mod_muc_room.erl:4629
 msgid "List users with hats"
 msgstr ""
 
@@ -951,31 +967,38 @@ msgstr ""
 msgid "MAM preference modification denied by service policy"
 msgstr "サービスポリシーによってチャットルームの作成が禁止されています"
 
-#: src/mod_muc_log.erl:849 deps/xmpp/src/muc_roomconfig.erl:2155
+#: src/mod_muc_log.erl:849
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2155
 msgid "Make participants list public"
 msgstr "参加者一覧を公開"
 
-#: src/mod_muc_log.erl:877 deps/xmpp/src/muc_roomconfig.erl:1852
+#: src/mod_muc_log.erl:877
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1852
 msgid "Make room CAPTCHA protected"
 msgstr "チャットルームを CAPTCHA で保護"
 
-#: src/mod_muc_log.erl:856 deps/xmpp/src/muc_roomconfig.erl:2033
+#: src/mod_muc_log.erl:856
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2033
 msgid "Make room members-only"
 msgstr "チャットルームをメンバーのみに制限"
 
-#: src/mod_muc_log.erl:858 deps/xmpp/src/muc_roomconfig.erl:2047
+#: src/mod_muc_log.erl:858
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2047
 msgid "Make room moderated"
 msgstr "チャットルームをモデレート化"
 
-#: src/mod_muc_log.erl:851 deps/xmpp/src/muc_roomconfig.erl:2079
+#: src/mod_muc_log.erl:851
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2079
 msgid "Make room password protected"
 msgstr "チャットルームをパスワードで保護"
 
-#: src/mod_muc_log.erl:845 deps/xmpp/src/muc_roomconfig.erl:2093
+#: src/mod_muc_log.erl:845
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2093
 msgid "Make room persistent"
 msgstr "チャットルームを永続化"
 
-#: src/mod_muc_log.erl:847 deps/xmpp/src/muc_roomconfig.erl:2140
+#: src/mod_muc_log.erl:847
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2140
 msgid "Make room public searchable"
 msgstr "チャットルームを検索可"
 
@@ -987,31 +1010,33 @@ msgstr "不正な形式のユーザー名"
 msgid "March"
 msgstr "3月"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1864
-#: deps/xmpp/src/pubsub_node_config.erl:1862
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1864
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1862
 msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1882
-#: deps/xmpp/src/pubsub_node_config.erl:1880
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1882
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
 msgstr "最大ぺイロードサイズ (byte)"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1666 deps/xmpp/src/muc_roominfo.erl:847
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:870
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr ""
 
-#: src/mod_muc_log.erl:883 deps/xmpp/src/muc_roomconfig.erl:2019
+#: src/mod_muc_log.erl:883
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
 msgstr "最大在室者数"
 
-#: deps/xmpp/src/http_upload.erl:261
+#: _build/translations/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
 msgstr "最大ファイルサイズ"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:877
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 #, fuzzy
 msgid "Maximum number of items to persist"
 msgstr "アイテムの最大保存数"
@@ -1033,7 +1058,7 @@ msgstr ""
 "パスワードを忘れてしまった場合、XMPP ではパスワードのリカバリを自動的に行うこ"
 "とはできません。"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:644
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:644
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
@@ -1049,13 +1074,13 @@ msgstr ""
 msgid "Messages from strangers are rejected"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1933
-#: deps/xmpp/src/pubsub_node_config.erl:1931
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1933
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
 msgid "Messages of type headline"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1929
-#: deps/xmpp/src/pubsub_node_config.erl:1927
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1929
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
 msgid "Messages of type normal"
 msgstr ""
 
@@ -1065,21 +1090,23 @@ msgstr ""
 msgid "Middle Name"
 msgstr "ミドルネーム"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1836
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1836
 msgid "Minimum interval between voice requests (in seconds)"
 msgstr "発言権の要求の最小時間間隔 (秒)"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2107
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2107
 msgid "Moderator"
 msgstr "モデレーター"
 
-#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:4711
-#: src/mod_muc_room.erl:4767 src/mod_muc_room.erl:4825
+#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:4717
+#: src/mod_muc_room.erl:4773 src/mod_muc_room.erl:4831
 msgid "Moderator privileges required"
 msgstr "モデレーター権限が必要です"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1685 deps/xmpp/src/muc_roomconfig.erl:1737
-#: deps/xmpp/src/muc_roomconfig.erl:2240 deps/xmpp/src/muc_roominfo.erl:899
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1685
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:922
 #, fuzzy
 msgid "Moderators Only"
 msgstr "モデレーターにのみ"
@@ -1110,11 +1137,12 @@ msgstr ""
 msgid "Name"
 msgstr "名"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1968 deps/xmpp/src/muc_roominfo.erl:960
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:983
 msgid "Natural Language for Room Discussions"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:1011
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1034
 msgid "Natural-Language Room Name"
 msgstr "自然言語での会議室名"
 
@@ -1126,8 +1154,9 @@ msgstr ""
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_configure.erl:1334 deps/xmpp/src/pubsub_publish_options.erl:2134
-#: deps/xmpp/src/pubsub_node_config.erl:2132
+#: src/mod_configure.erl:1334
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2134
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "なし"
 
@@ -1138,7 +1167,8 @@ msgstr "新しいパスワード:"
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
 #: src/mod_vcard_sql.erl:232 src/mod_vcard_sql.erl:246
 #: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: deps/xmpp/src/muc_request.erl:405 deps/xmpp/src/muc_register.erl:536
+#: _build/translations/lib/xmpp/src/muc_request.erl:405
+#: _build/translations/lib/xmpp/src/muc_register.erl:536
 msgid "Nickname"
 msgstr "ニックネーム"
 
@@ -1147,7 +1177,7 @@ msgid "Nickname Registration at "
 msgstr "ニックネーム登録: "
 
 #: src/mod_muc_room.erl:1437 src/mod_muc_room.erl:2355
-#: src/mod_muc_room.erl:4734
+#: src/mod_muc_room.erl:4740
 msgid "Nickname can't be empty"
 msgstr "ニックネームは空にできません"
 
@@ -1177,7 +1207,7 @@ msgstr "このクエリに 'password' が見つかりません"
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5276
+#: src/mod_muc_room.erl:5273
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1230,7 +1260,8 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3824 deps/xmpp/src/muc_roomconfig.erl:1997
+#: src/mod_muc_room.erl:3824
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "制限なし"
 
@@ -1277,8 +1308,9 @@ msgstr "利用できるサービスはありません"
 msgid "No statistics found for this item"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1687 deps/xmpp/src/muc_roomconfig.erl:1734
-#: deps/xmpp/src/muc_roominfo.erl:901
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:924
 #, fuzzy
 msgid "Nobody"
 msgstr "誰にも許可しない"
@@ -1287,7 +1319,7 @@ msgstr "誰にも許可しない"
 msgid "Node"
 msgstr "ノード"
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:395
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:395
 msgid "Node ID"
 msgstr "ノードID"
 
@@ -1303,8 +1335,8 @@ msgstr "ノードが見つかりません"
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
 #: src/mod_muc_room.erl:4470 src/mod_muc_room.erl:4488
 #: src/mod_muc_room.erl:4506 src/mod_muc_room.erl:4524
-#: src/mod_muc_room.erl:4625 src/mod_muc_room.erl:4640
-#: src/mod_muc_room.erl:4644 src/ejabberd_web_admin.erl:633
+#: src/mod_muc_room.erl:4631 src/mod_muc_room.erl:4646
+#: src/mod_muc_room.erl:4650 src/ejabberd_web_admin.erl:633
 #: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
 #: src/mod_muc.erl:1021
 msgid "Node not found"
@@ -1339,18 +1371,18 @@ msgstr "見つかりません"
 msgid "Not subscribed"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1994
-#: deps/xmpp/src/pubsub_node_config.erl:1992
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1994
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1992
 msgid "Notify subscribers when items are removed from the node"
 msgstr "アイテムがノードから消された時に購読者へ通知する"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1960
-#: deps/xmpp/src/pubsub_node_config.erl:1958
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1960
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1958
 msgid "Notify subscribers when the node configuration changes"
 msgstr "ノード設定に変更があった時に購読者へ通知する"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1977
-#: deps/xmpp/src/pubsub_node_config.erl:1975
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1977
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1975
 msgid "Notify subscribers when the node is deleted"
 msgstr "ノードが削除された時に購読者へ通知する"
 
@@ -1358,16 +1390,16 @@ msgstr "ノードが削除された時に購読者へ通知する"
 msgid "November"
 msgstr "11月"
 
-#: deps/xmpp/src/flex_offline.erl:261
+#: _build/translations/lib/xmpp/src/flex_offline.erl:261
 msgid "Number of Offline Messages"
 msgstr "オフラインメッセージ数"
 
-#: deps/xmpp/src/captcha_form.erl:777
+#: _build/translations/lib/xmpp/src/captcha_form.erl:777
 #, fuzzy
 msgid "Number of answers required"
 msgstr "オンラインユーザー数"
 
-#: deps/xmpp/src/muc_roominfo.erl:1025
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1048
 msgid "Number of occupants"
 msgstr "在室者の数"
 
@@ -1379,8 +1411,8 @@ msgstr "オンラインユーザー数"
 msgid "Number of registered users"
 msgstr "登録ユーザー数"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1791
-#: deps/xmpp/src/pubsub_node_config.erl:1789
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1791
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1789
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
@@ -1390,15 +1422,15 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: deps/xmpp/src/muc_roominfo.erl:1090
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1113
 msgid "Occupants May Change the Subject"
 msgstr "ユーザーによる件名の変更を許可"
 
-#: deps/xmpp/src/muc_roominfo.erl:864
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:887
 msgid "Occupants are allowed to invite others"
 msgstr "在室者は誰かを招待することができます"
 
-#: deps/xmpp/src/muc_roominfo.erl:881
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:904
 #, fuzzy
 msgid "Occupants are allowed to query others"
 msgstr "在室者は誰かを招待することができます"
@@ -1428,14 +1460,14 @@ msgstr "<enable/> タグまたは <disable/> タグのみが許可されます"
 msgid "Only <list/> element is allowed in this query"
 msgstr "このクエリでは <list/> 要素のみが許可されます"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1598
-#: deps/xmpp/src/pubsub_node_config.erl:1596
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1598
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1596
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2045
-#: deps/xmpp/src/pubsub_node_config.erl:2043
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2045
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
 msgid "Only deliver notifications to available users"
 msgstr "有効なユーザーにのみ告知を送信する"
 
@@ -1453,7 +1485,7 @@ msgstr "モデレーターと参加者のみがチャットルームの件名を
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "モデレーターのみがチャットルームの件名を変更できます"
 
-#: src/mod_muc_room.erl:5181
+#: src/mod_muc_room.erl:5186
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "サービス管理者のみがサービスメッセージを送信できます"
@@ -1462,7 +1494,7 @@ msgstr "サービス管理者のみがサービスメッセージを送信でき
 msgid "Only moderators can approve voice requests"
 msgstr "モデレーターだけが発言権の要求を承認できます"
 
-#: src/mod_muc_room.erl:652 src/mod_muc_room.erl:1134 src/mod_muc_room.erl:5345
+#: src/mod_muc_room.erl:652 src/mod_muc_room.erl:1134 src/mod_muc_room.erl:5342
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "在室者のみがこの会議にメッセージを送ることができます"
 
@@ -1470,9 +1502,9 @@ msgstr "在室者のみがこの会議にメッセージを送ることができ
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "在室者のみが会議にクエリーを送信することができます"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2061
-#: deps/xmpp/src/pubsub_meta_data.erl:937
-#: deps/xmpp/src/pubsub_node_config.erl:2059
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2061
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:937
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2059
 msgid "Only publishers may publish"
 msgstr ""
 
@@ -1480,14 +1512,14 @@ msgstr ""
 msgid "Only service administrators are allowed to send service messages"
 msgstr "サービス管理者のみがサービスメッセージを送信できます"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1603
-#: deps/xmpp/src/pubsub_node_config.erl:1601
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1603
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1544
-#: deps/xmpp/src/pubsub_meta_data.erl:911
-#: deps/xmpp/src/pubsub_node_config.erl:1542
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1544
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:911
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 
@@ -1503,7 +1535,7 @@ msgstr "会社名"
 msgid "Organization Unit"
 msgstr "部署名"
 
-#: src/ext_mod.erl:1341
+#: src/ext_mod.erl:1371
 msgid "Other Modules Available:"
 msgstr ""
 
@@ -1515,7 +1547,7 @@ msgstr "外向き s2s コネクション"
 #: src/mod_pubsub.erl:2244 src/mod_pubsub.erl:2322 src/mod_pubsub.erl:2532
 #: src/mod_pubsub.erl:2626 src/mod_pubsub.erl:3334 src/mod_pubsub.erl:3504
 #: src/mod_muc_room.erl:3649 src/mod_muc_room.erl:3694
-#: src/mod_muc_room.erl:4687 src/mod_mix.erl:677
+#: src/mod_muc_room.erl:4693 src/mod_mix.erl:677
 msgid "Owner privileges required"
 msgstr "主宰者の権限が必要です"
 
@@ -1524,7 +1556,8 @@ msgstr "主宰者の権限が必要です"
 msgid "Packet relay is denied by service policy"
 msgstr "サービスポリシーによってチャットルームの作成が禁止されています"
 
-#: deps/xmpp/src/muc_request.erl:367 deps/xmpp/src/muc_roomconfig.erl:2110
+#: _build/translations/lib/xmpp/src/muc_request.erl:367
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2110
 msgid "Participant"
 msgstr "参加者"
 
@@ -1534,7 +1567,8 @@ msgstr "参加者 ID"
 
 #: src/mod_muc_log.erl:852 src/ejabberd_oauth.erl:537 src/mod_register.erl:233
 #: src/mod_configure.erl:978 src/mod_configure.erl:1015
-#: src/mod_configure.erl:1496 deps/xmpp/src/muc_roomconfig.erl:2227
+#: src/mod_configure.erl:1496
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "パスワード"
 
@@ -1559,7 +1593,7 @@ msgstr "ディレクトリのパス"
 msgid "Path to File"
 msgstr "ファイルのパス"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:861
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
 msgstr ""
 
@@ -1567,8 +1601,8 @@ msgstr ""
 msgid "Period: "
 msgstr "期間: "
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2027
-#: deps/xmpp/src/pubsub_node_config.erl:2025
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2027
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "アイテムをストレージに保存する"
 
@@ -1606,7 +1640,7 @@ msgstr "Pong"
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:2253
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2253
 msgid "Present real Jabber IDs to"
 msgstr "本当の Jabber ID を公開"
 
@@ -1638,7 +1672,7 @@ msgstr "PubSub 購読者のリクエスト"
 msgid "Public"
 msgstr "公開"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:954
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:954
 #, fuzzy
 msgid "Publish model"
 msgstr "公開モデルを指定する"
@@ -1647,8 +1681,8 @@ msgstr "公開モデルを指定する"
 msgid "Publish-Subscribe"
 msgstr "Publish-Subscribe"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2095
-#: deps/xmpp/src/pubsub_node_config.erl:2093
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2095
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr "公開者がオフラインになるときに、すべてのアイテムを削除"
 
@@ -1679,19 +1713,19 @@ msgstr "RAM コピー"
 msgid "Really delete message of the day?"
 msgstr "本当にお知らせメッセージを削除しますか ?"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:712
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:712
 msgid "Receive notification from all descendent nodes"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:707
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:707
 msgid "Receive notification from direct child nodes only"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:677
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:677
 msgid "Receive notification of new items only"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:681
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:681
 msgid "Receive notification of new nodes only"
 msgstr ""
 
@@ -1716,8 +1750,8 @@ msgstr "リモートコピー"
 msgid "Remove User"
 msgstr "ユーザーを削除"
 
-#: src/mod_muc_room.erl:4503 src/mod_muc_room.erl:4619
-#: src/mod_muc_room.erl:4999
+#: src/mod_muc_room.erl:4503 src/mod_muc_room.erl:4625
+#: src/mod_muc_room.erl:5005
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1734,7 +1768,7 @@ msgstr ""
 msgid "Request is ignored"
 msgstr "リクエストは無視されます"
 
-#: deps/xmpp/src/muc_request.erl:377
+#: _build/translations/lib/xmpp/src/muc_request.erl:377
 msgid "Requested role"
 msgstr ""
 
@@ -1768,15 +1802,16 @@ msgstr "直ちにバイナリバックアップからリストア:"
 msgid "Restore plain text backup immediately:"
 msgstr "直ちにプレーンテキストバックアップからリストア:"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1951
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1951
 msgid "Roles and Affiliations that May Retrieve Member List"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:2125
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2125
 msgid "Roles for which Presence is Broadcasted"
 msgstr "プレゼンスをブロードキャストするロール"
 
-#: deps/xmpp/src/muc_roomconfig.erl:1699 deps/xmpp/src/muc_roominfo.erl:913
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:936
 #, fuzzy
 msgid "Roles that May Send Private Messages"
 msgstr "ユーザーによるプライベートメッセージの送信を許可"
@@ -1793,8 +1828,9 @@ msgstr "在室者"
 msgid "Room creation is denied by service policy"
 msgstr "サービスポリシーによってチャットルームの作成が禁止されています"
 
-#: src/mod_muc_log.erl:879 deps/xmpp/src/muc_roomconfig.erl:2184
-#: deps/xmpp/src/muc_roominfo.erl:944
+#: src/mod_muc_log.erl:879
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:967
 msgid "Room description"
 msgstr "チャットルームの説明"
 
@@ -1804,12 +1840,12 @@ msgid "Room terminates"
 msgstr "チャットルームのタイトル"
 
 #: src/mod_muc_admin.erl:992 src/mod_muc_log.erl:843
-#: deps/xmpp/src/muc_roomconfig.erl:2198
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "チャットルームのタイトル"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2118
-#: deps/xmpp/src/pubsub_node_config.erl:2116
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2118
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2116
 msgid "Roster groups allowed to subscribe"
 msgstr "名簿グループは購読を許可しました"
 
@@ -1833,15 +1869,15 @@ msgstr "土曜日"
 msgid "Search Results for "
 msgstr "検索結果: "
 
-#: deps/xmpp/src/mam_query.erl:362
+#: _build/translations/lib/xmpp/src/mam_query.erl:362
 msgid "Search from the date"
 msgstr ""
 
-#: deps/xmpp/src/mam_query.erl:390
+#: _build/translations/lib/xmpp/src/mam_query.erl:390
 msgid "Search the text"
 msgstr ""
 
-#: deps/xmpp/src/mam_query.erl:376
+#: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
 msgstr ""
 
@@ -1919,36 +1955,36 @@ msgstr ""
 "XMPP クライアントはコンピューターにパスワードを記憶できます。コンピューターが"
 "安全であると信頼できる場合にのみ、この機能を使用してください。"
 
-#: src/ext_mod.erl:1330
+#: src/ext_mod.erl:1360
 msgid "Sources Specs:"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1556
-#: deps/xmpp/src/pubsub_node_config.erl:1554
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "アクセスモデルを設定する"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1944
-#: deps/xmpp/src/pubsub_node_config.erl:1942
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1944
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1942
 msgid "Specify the event message type"
 msgstr "イベントメッセージ種別を設定"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2079
-#: deps/xmpp/src/pubsub_node_config.erl:2077
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2079
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
 msgstr "公開モデルを指定する"
 
-#: deps/xmpp/src/captcha_form.erl:912
+#: _build/translations/lib/xmpp/src/captcha_form.erl:912
 msgid "Stanza ID"
 msgstr "スタンザ ID"
 
-#: src/mod_muc_room.erl:5224
+#: src/mod_muc_room.erl:5221
 #, fuzzy
 msgid "Stanza id is not valid"
 msgstr "ユーザー名が正しくありません"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1807
-#: deps/xmpp/src/pubsub_node_config.erl:1805
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
@@ -1976,29 +2012,29 @@ msgstr ""
 msgid "Subject"
 msgstr "件名"
 
-#: src/ext_mod.erl:1072 src/ejabberd_web_admin.erl:959
+#: src/ext_mod.erl:1102 src/ejabberd_web_admin.erl:959
 msgid "Submitted"
 msgstr "送信完了"
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:409
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:409
 msgid "Subscriber Address"
 msgstr "購読者のアドレス"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2065
-#: deps/xmpp/src/pubsub_meta_data.erl:941
-#: deps/xmpp/src/pubsub_node_config.erl:2063
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2065
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:941
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2063
 msgid "Subscribers may publish"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1524
-#: deps/xmpp/src/pubsub_meta_data.erl:891
-#: deps/xmpp/src/pubsub_node_config.erl:1522
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1524
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:891
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
 msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4698
+#: src/mod_muc_room.erl:4704
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2006,29 +2042,29 @@ msgstr ""
 msgid "Sunday"
 msgstr "日曜日"
 
-#: deps/xmpp/src/captcha_form.erl:868
+#: _build/translations/lib/xmpp/src/captcha_form.erl:868
 msgid "Text associated with a picture"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:792
+#: _build/translations/lib/xmpp/src/captcha_form.erl:792
 msgid "Text associated with a sound"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:972
+#: _build/translations/lib/xmpp/src/captcha_form.erl:972
 msgid "Text associated with a video"
 msgstr ""
 
-#: deps/xmpp/src/captcha_form.erl:942
+#: _build/translations/lib/xmpp/src/captcha_form.erl:942
 msgid "Text associated with speech"
 msgstr ""
 
 #: src/mod_muc_room.erl:1428 src/mod_muc_room.erl:2344
-#: src/mod_muc_room.erl:4724
+#: src/mod_muc_room.erl:4730
 msgid "That nickname is already in use by another occupant"
 msgstr "そのニックネームは既にほかの在室者によって使用されています"
 
 #: src/mod_muc_room.erl:1440 src/mod_muc_room.erl:2358
-#: src/mod_muc_room.erl:4738 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:4744 src/mod_muc.erl:1106
 msgid "That nickname is registered by another person"
 msgstr "ニックネームはほかの人によって登録されています"
 
@@ -2037,46 +2073,46 @@ msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA は有効です。"
 
 #: src/mod_register.erl:195 src/mod_block_strangers.erl:142
-#: src/mod_muc_room.erl:941 src/mod_muc_room.erl:4660
+#: src/mod_muc_room.erl:941 src/mod_muc_room.erl:4666
 #: src/ejabberd_captcha.erl:224
 msgid "The CAPTCHA verification has failed"
 msgstr "CAPTCHA 検証は失敗しました"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:598
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:598
 msgid "The DateTime at which a leased subscription will end or has ended"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:744
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:744
 msgid "The JID of the node creator"
 msgstr "ノード作成者の JID"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1707
-#: deps/xmpp/src/pubsub_meta_data.erl:712
-#: deps/xmpp/src/pubsub_node_config.erl:1705
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1707
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:712
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
 msgid "The JIDs of those to contact with questions"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:813
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:813
 msgid "The JIDs of those with an affiliation of owner"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:830
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:830
 msgid "The JIDs of those with an affiliation of publisher"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_get_pending.erl:272
+#: _build/translations/lib/xmpp/src/pubsub_get_pending.erl:272
 msgid "The NodeID of the relevant node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1572
-#: deps/xmpp/src/pubsub_node_config.erl:1570
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1572
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
 msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1723
-#: deps/xmpp/src/pubsub_node_config.erl:1721
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1723
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
 msgid ""
 "The URL of an XSL transformation which can be applied to the payload format "
 "in order to generate a valid Data Forms result that the client could display "
@@ -2091,7 +2127,7 @@ msgstr "アカウントは既に存在しています"
 msgid "The account was not unregistered"
 msgstr "アカウントは削除されませんでした"
 
-#: deps/xmpp/src/push_summary.erl:432
+#: _build/translations/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
 msgstr ""
 
@@ -2099,23 +2135,23 @@ msgstr ""
 msgid "The captcha you entered is wrong"
 msgstr "入力した CAPTCHA は間違っています"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1654
-#: deps/xmpp/src/pubsub_node_config.erl:1652
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1690
-#: deps/xmpp/src/pubsub_node_config.erl:1688
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1690
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
 msgstr "提携されたノードの集合です"
 
-#: deps/xmpp/src/pubsub_meta_data.erl:729
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:729
 msgid "The datetime when the node was created"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1848
-#: deps/xmpp/src/pubsub_meta_data.erl:780
-#: deps/xmpp/src/pubsub_node_config.erl:1846
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1848
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:780
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
 msgid "The default language of the node"
 msgstr "ノードのデフォルトの言語"
 
@@ -2123,8 +2159,8 @@ msgstr "ノードのデフォルトの言語"
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1637
-#: deps/xmpp/src/pubsub_node_config.erl:1635
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1637
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 
@@ -2137,43 +2173,43 @@ msgstr "オンラインユーザー数"
 msgid "The list of all users"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1671
-#: deps/xmpp/src/pubsub_node_config.erl:1669
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1671
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:581
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
 "The minimum number of milliseconds between sending any two notification "
 "digests"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:845
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:845
 msgid "The name of the node"
 msgstr "ノード名"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1900
-#: deps/xmpp/src/pubsub_node_config.erl:1898
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1900
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1896
-#: deps/xmpp/src/pubsub_node_config.erl:1894
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1896
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
 msgstr ""
 
-#: deps/xmpp/src/push_summary.erl:398
+#: _build/translations/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_meta_data.erl:797
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:797
 #, fuzzy
 msgid "The number of subscribers to the node"
 msgstr "この Jabber ID に、この pubsubノードの購読を許可しますか ?"
 
-#: deps/xmpp/src/push_summary.erl:378
+#: _build/translations/lib/xmpp/src/push_summary.erl:378
 msgid "The number of unread or undelivered messages"
 msgstr ""
 
@@ -2197,7 +2233,7 @@ msgstr "このパスワードは変更されませんでした"
 msgid "The passwords are different"
 msgstr "このパスワードが違います"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:660
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:660
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 
@@ -2209,18 +2245,18 @@ msgstr ""
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
-#: deps/xmpp/src/muc_roominfo.erl:1056
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1079
 msgid "The room subject can be modified by participants"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2219
-#: deps/xmpp/src/pubsub_node_config.erl:2217
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
 msgid ""
 "The semantic type information of data in the node, usually specified by the "
 "namespace of the payload (if any)"
 msgstr ""
 
-#: deps/xmpp/src/push_summary.erl:416
+#: _build/translations/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
 msgstr ""
 
@@ -2230,7 +2266,7 @@ msgid ""
 "or one <list/> element"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_authorization.erl:425
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
@@ -2349,7 +2385,7 @@ msgstr "トラフィックレートの制限を超えました"
 msgid "Tuesday"
 msgstr "火曜日"
 
-#: deps/xmpp/src/muc_roominfo.erl:996
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1019
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
@@ -2375,7 +2411,7 @@ msgstr "予期しないアクション"
 msgid "Unexpected error condition: ~p"
 msgstr "予期しないエラー状態: ~p"
 
-#: src/ext_mod.erl:1243
+#: src/ext_mod.erl:1273
 msgid "Uninstall"
 msgstr "アンインストール"
 
@@ -2396,7 +2432,7 @@ msgstr ""
 msgid "Unsupported version"
 msgstr "対応していないバージョン"
 
-#: src/ext_mod.erl:1335
+#: src/ext_mod.erl:1365
 #, fuzzy
 msgid "Update Specs"
 msgstr "更新 ~p"
@@ -2409,11 +2445,11 @@ msgstr "お知らせメッセージを更新 (送信しない)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "全ホストのお知らせメッセージを更新 (送信しない)"
 
-#: src/ext_mod.erl:1325
+#: src/ext_mod.erl:1355
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
-#: src/ext_mod.erl:1246
+#: src/ext_mod.erl:1276
 msgid "Upgrade"
 msgstr "アップグレード"
 
@@ -2426,7 +2462,8 @@ msgstr "ユーザー"
 msgid "User (jid)"
 msgstr "ユーザー (JID)"
 
-#: deps/xmpp/src/muc_request.erl:391 deps/xmpp/src/mam_query.erl:348
+#: _build/translations/lib/xmpp/src/muc_request.erl:391
+#: _build/translations/lib/xmpp/src/mam_query.erl:348
 msgid "User JID"
 msgstr "ユーザー JID"
 
@@ -2472,8 +2509,8 @@ msgstr "ユーザーの活動履歴"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "それほど速くアカウントを登録することはできません"
 
-#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4650
-#: src/mod_muc_room.erl:4829 src/ejabberd_captcha.erl:228 src/mod_push.erl:291
+#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4656
+#: src/mod_muc_room.erl:4835 src/ejabberd_captcha.erl:228 src/mod_push.erl:291
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
@@ -2483,7 +2520,7 @@ msgstr ""
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
 #: src/mod_vcard.erl:249 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
 #: src/mod_pubsub.erl:892 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4448
-#: src/mod_muc_room.erl:4585 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
+#: src/mod_muc_room.erl:4591 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
 #: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
 #: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
@@ -2513,7 +2550,7 @@ msgstr "IRC チャンネルに参加"
 msgid "Virtual Hosts"
 msgstr "バーチャルホスト"
 
-#: deps/xmpp/src/muc_roomconfig.erl:2112
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2112
 msgid "Visitor"
 msgstr "傍聴者"
 
@@ -2525,7 +2562,7 @@ msgstr "傍聴者はこのチャットルームでニックネームを変更す
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "傍聴者はすべての在室者にメッセージを送信することはできません"
 
-#: src/mod_muc_room.erl:5233
+#: src/mod_muc_room.erl:5230
 msgid "Voice request"
 msgstr "発言権を要求"
 
@@ -2537,61 +2574,61 @@ msgstr "この会議では、発言権の要求はできません"
 msgid "Wednesday"
 msgstr "水曜日"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2138
-#: deps/xmpp/src/pubsub_node_config.erl:2136
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2138
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
 msgid "When a new subscription is processed"
 msgstr "新しい購読が処理されるとき"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2142
-#: deps/xmpp/src/pubsub_node_config.erl:2140
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2142
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2156
-#: deps/xmpp/src/pubsub_node_config.erl:2154
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2156
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
 msgstr "最後の公開アイテムを送信するタイミングで"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:615
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:615
 msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:563
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:563
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:546
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1826
-#: deps/xmpp/src/pubsub_node_config.erl:1824
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1826
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1912
-#: deps/xmpp/src/pubsub_node_config.erl:1910
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1912
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2188
-#: deps/xmpp/src/pubsub_node_config.erl:2186
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2188
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
 msgstr "購読を許可するかどうか"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2172
-#: deps/xmpp/src/pubsub_node_config.erl:2170
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2172
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_publish_options.erl:2011
-#: deps/xmpp/src/pubsub_node_config.erl:2009
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2011
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 
@@ -2599,8 +2636,8 @@ msgstr ""
 msgid "Who can send private messages"
 msgstr "誰がプライベートメッセージを送れるか"
 
-#: deps/xmpp/src/pubsub_publish_options.erl:1617
-#: deps/xmpp/src/pubsub_node_config.erl:1615
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1617
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
@@ -2620,23 +2657,24 @@ msgstr "XMPP アカウント登録"
 msgid "XMPP Domains"
 msgstr "XMPP ドメイン"
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:632
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:632
 msgid "XMPP Show Value of Away"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:636
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:636
 msgid "XMPP Show Value of Chat"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:640
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:640
 msgid "XMPP Show Value of DND (Do Not Disturb)"
 msgstr ""
 
-#: deps/xmpp/src/pubsub_subscribe_options.erl:648
+#: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:648
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr ""
 
-#: deps/xmpp/src/muc_roomconfig.erl:1984 deps/xmpp/src/muc_roominfo.erl:1073
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1096
 #, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd Publish-Subscribe モジュール"
@@ -2774,11 +2812,11 @@ msgstr "がチャットルームに参加しました"
 msgid "leaves the room"
 msgstr "がチャットルームから退出しました"
 
-#: src/mod_muc_room.erl:4884
+#: src/mod_muc_room.erl:4890
 msgid "private, "
 msgstr "プライベート、"
 
-#: src/mod_muc_room.erl:5309
+#: src/mod_muc_room.erl:5306
 msgid "the password is"
 msgstr "パスワードは"
 
@@ -2786,7 +2824,7 @@ msgstr "パスワードは"
 msgid "vCard User Search"
 msgstr "vCard検索"
 
-#: src/mod_muc_room.erl:5302
+#: src/mod_muc_room.erl:5299
 msgid "~s invites you to the room ~s"
 msgstr "~s はあなたをチャットルーム ~s に招待しています"
 
