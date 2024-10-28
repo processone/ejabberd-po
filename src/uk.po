@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: src/mod_vcard.erl:467
+#: src/mod_vcard.erl:486
 msgid " (Add * to the end of field to match substring)"
 msgstr ""
 " Заповніть поля для пошуку користувача Jabber (Додайте * в кінець поля для "
@@ -29,7 +29,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " встановив(ла) тему: "
 
-#: src/mod_muc_admin.erl:986
+#: src/mod_muc_admin.erl:983
 msgid "# participants"
 msgstr "# учасників"
 
@@ -48,7 +48,7 @@ msgstr "Опис вузла"
 msgid "A friendly name for the node"
 msgstr "Псевдонім для вузла"
 
-#: src/mod_muc_room.erl:2397
+#: src/mod_muc_room.erl:2399
 msgid "A password is required to enter this room"
 msgstr "Щоб зайти в цю конференцію, необхідно ввести пароль"
 
@@ -57,12 +57,12 @@ msgid "Accept"
 msgstr "Прийняти"
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
-#: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:844
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:488 src/ejabberd_c2s.erl:748
+#: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:492 src/ejabberd_c2s.erl:762
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:283 src/mod_register.erl:394
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:341 src/mod_http_upload.erl:796
+#: src/ejabberd_s2s.erl:347 src/mod_http_upload.erl:796
 #: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
 #: src/mod_configure.erl:159 src/mod_configure.erl:278
 #: src/mod_configure.erl:404 src/mod_configure.erl:694
@@ -88,8 +88,8 @@ msgstr "Дія над користувачем"
 msgid "Add User"
 msgstr "Додати користувача"
 
-#: src/mod_muc_room.erl:4485 src/mod_muc_room.erl:4621
-#: src/mod_muc_room.erl:4937
+#: src/mod_muc_room.erl:4487 src/mod_muc_room.erl:4623
+#: src/mod_muc_room.erl:4939
 msgid "Add a hat to a user"
 msgstr "Додати капелюх користувачу"
 
@@ -101,7 +101,7 @@ msgstr "Адміністрування"
 msgid "Administration of "
 msgstr "Адміністрування "
 
-#: src/mod_muc_room.erl:3091
+#: src/mod_muc_room.erl:3093
 msgid "Administrator privileges required"
 msgstr "Необхідні права адміністратора"
 
@@ -109,7 +109,7 @@ msgstr "Необхідні права адміністратора"
 msgid "All Users"
 msgstr "Всі користувачі"
 
-#: src/ejabberd_web_admin.erl:937
+#: src/ejabberd_web_admin.erl:990
 msgid "All activity"
 msgstr "Вся статистика"
 
@@ -174,7 +174,7 @@ msgstr ""
 "відмінне ім'я LDAP відповідно до специфічного для реалізації або "
 "специфічного для розгортання визначення групи."
 
-#: src/mod_announce.erl:607
+#: src/mod_announce.erl:604
 msgid "Announcements"
 msgstr "Сповіщення"
 
@@ -254,11 +254,11 @@ msgstr "Атрибут \"канал\" є обов'язковим для цьог
 msgid "Attribute 'id' is mandatory for MIX messages"
 msgstr "Атрибут 'id' обов'язковий для MIX повідомлень"
 
-#: src/mod_pubsub.erl:1184
+#: src/mod_pubsub.erl:1181
 msgid "Attribute 'jid' is not allowed here"
 msgstr "Атрибут 'jid' заборонений"
 
-#: src/mod_pubsub.erl:1187
+#: src/mod_pubsub.erl:1184
 msgid "Attribute 'node' is not allowed here"
 msgstr "Атрибут \"вузол\" заборонений"
 
@@ -270,7 +270,7 @@ msgstr "Атрибут \"до\" рядка, який спровокував ви
 msgid "August"
 msgstr "Серпень"
 
-#: src/mod_pubsub.erl:1929
+#: src/mod_pubsub.erl:1926
 msgid "Automatic node creation is not enabled"
 msgstr "Автоматичне створення вузлів не ввімкнено"
 
@@ -282,7 +282,7 @@ msgstr "Резервне копіювання"
 msgid "Backup Management"
 msgstr "Керування резервним копіюванням"
 
-#: src/ejabberd_web_admin.erl:1104
+#: src/ejabberd_web_admin.erl:1163
 msgid "Backup of ~p"
 msgstr "Резервне копіювання ~p"
 
@@ -290,7 +290,7 @@ msgstr "Резервне копіювання ~p"
 msgid "Backup to File at "
 msgstr "Резервне копіювання в файл на "
 
-#: src/ejabberd_web_admin.erl:960
+#: src/ejabberd_web_admin.erl:1024
 msgid "Bad format"
 msgstr "Невірний формат"
 
@@ -312,11 +312,11 @@ msgstr "Потік байтів вже активовано"
 msgid "CAPTCHA web page"
 msgstr "Веб-сторінка CAPTCHA"
 
-#: src/mod_privacy.erl:305
+#: src/mod_privacy.erl:313
 msgid "Cannot remove active list"
 msgstr "Неможливо видалити активний список"
 
-#: src/mod_privacy.erl:312
+#: src/mod_privacy.erl:320
 msgid "Cannot remove default list"
 msgstr "Неможливо видалити список за замовчуванням"
 
@@ -338,7 +338,7 @@ msgstr "Змінити пароль користувача"
 msgid "Changing password is not allowed"
 msgstr "Зміна пароля заборонена"
 
-#: src/mod_muc_room.erl:3358
+#: src/mod_muc_room.erl:3360
 msgid "Changing role/affiliation is not allowed"
 msgstr "Зміна ролі/рангу заборонена"
 
@@ -382,7 +382,7 @@ msgstr "Кімнату запущено"
 msgid "Chatroom is stopped"
 msgstr "Кімнату зупинено"
 
-#: src/mod_muc_admin.erl:1007 src/mod_muc.erl:1367
+#: src/mod_muc_admin.erl:1004 src/mod_muc.erl:1367
 msgid "Chatrooms"
 msgstr "Кімнати"
 
@@ -394,7 +394,7 @@ msgstr "Виберіть логін і пароль для реєстрації 
 msgid "Choose storage type of tables"
 msgstr "Оберіть тип збереження таблиць"
 
-#: src/mod_pubsub.erl:1401
+#: src/mod_pubsub.erl:1398
 msgid "Choose whether to approve this entity's subscription."
 msgstr "Виберіть, чи підтверджувати підписку."
 
@@ -404,11 +404,11 @@ msgstr "Виберіть, чи підтверджувати підписку."
 msgid "City"
 msgstr "Місто"
 
-#: src/mod_stream_mgmt.erl:528
+#: src/mod_stream_mgmt.erl:529
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr "Клієнт підтвердив більше повідомлень, ніж було відправлено сервером"
 
-#: src/mod_muc_room.erl:4468 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4470 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Команди"
@@ -423,7 +423,7 @@ msgstr "Кімната для переговорів відсутня"
 msgid "Configuration"
 msgstr "Конфігурація"
 
-#: src/mod_muc_room.erl:3806
+#: src/mod_muc_room.erl:3808
 msgid "Configuration of room ~s"
 msgstr "Конфігурація кімнати ~s"
 
@@ -450,12 +450,12 @@ msgid "Database Tables Configuration at "
 msgstr "Конфігурація таблиць бази даних на "
 
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
-#: src/mod_vcard.erl:239 src/mod_pubsub.erl:3817 src/mod_pubsub.erl:3861
-#: src/mod_pubsub.erl:3883 src/mod_pubsub.erl:3967 src/mod_pubsub.erl:4188
-#: src/mod_mam.erl:769 src/mod_mam.erl:787 src/mod_mam.erl:817
-#: src/mod_mam.erl:1160 src/mod_privacy.erl:157 src/mod_privacy.erl:175
-#: src/mod_privacy.erl:269 src/mod_privacy.erl:285 src/mod_privacy.erl:318
-#: src/mod_privacy.erl:335 src/mod_private.erl:188 src/mod_private.erl:195
+#: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
+#: src/mod_mam.erl:854 src/mod_mam.erl:872 src/mod_mam.erl:902
+#: src/mod_mam.erl:1245 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
+#: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
 #: src/mod_roster.erl:436 src/mod_offline.erl:339 src/mod_offline.erl:730
 #: src/mod_register.erl:406 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
@@ -479,11 +479,11 @@ msgstr "Користувачі за замовчуванням як учасни
 msgid "Delete User"
 msgstr "Видалити користувача"
 
-#: src/mod_announce.erl:625
+#: src/mod_announce.erl:622
 msgid "Delete message of the day"
 msgstr "Видалити повідомлення дня"
 
-#: src/mod_announce.erl:627
+#: src/mod_announce.erl:624
 msgid "Delete message of the day on all hosts"
 msgstr "Видалити повідомлення дня на усіх хостах"
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Змінити параметри"
 
-#: src/mod_muc_room.erl:5232
+#: src/mod_muc_room.erl:5234
 msgid "Either approve or decline the voice request."
 msgstr "Підтвердіть або відхиліть голосовий запит."
 
@@ -589,7 +589,7 @@ msgstr "Введіть шлях до текстового файла"
 msgid "Enter the text you see"
 msgstr "Введіть текст, що ви бачите"
 
-#: src/mod_vcard.erl:214
+#: src/mod_vcard.erl:223
 msgid "Erlang XMPP Server"
 msgstr "Ерланґ XMPP Сервер"
 
@@ -597,15 +597,15 @@ msgstr "Ерланґ XMPP Сервер"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Пропускати ці Jabber ID без CAPTCHA-запиту"
 
-#: src/ejabberd_web_admin.erl:1141
+#: src/ejabberd_web_admin.erl:1200
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Експортувати всі таблиці у файл як SQL запити:"
 
-#: src/ejabberd_web_admin.erl:1134
+#: src/ejabberd_web_admin.erl:1193
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr "Експорт даних всіх користувачів сервера до файлу PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1136
+#: src/ejabberd_web_admin.erl:1195
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr "Експорт даних користувачів домена до файлу PIEFXIS (XEP-0227):"
 
@@ -625,7 +625,7 @@ msgstr "Запис в ЧаПи"
 msgid "Failed to activate bytestream"
 msgstr "Не вдалося активувати потік байтів"
 
-#: src/mod_muc_room.erl:1304
+#: src/mod_muc_room.erl:1306
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Помилка витягнення JID з вашого схвалення голосового запиту"
 
@@ -637,7 +637,7 @@ msgstr "Не вдалося зіставити делегований прост
 msgid "Failed to parse HTTP response"
 msgstr "Не вдалося розібрати HTTP-відповідь"
 
-#: src/mod_muc_room.erl:3954
+#: src/mod_muc_room.erl:3956
 msgid "Failed to process option '~s'"
 msgstr "Не вдалося обробити параметр \"~s\""
 
@@ -656,7 +656,7 @@ msgstr "лютого"
 msgid "File larger than ~w bytes"
 msgstr "Файл більший, ніж ~w байт"
 
-#: src/mod_vcard.erl:463
+#: src/mod_vcard.erl:482
 msgid "Fill in the form to search for any matching XMPP User"
 msgstr "Заповніть форму для пошуку будь-якого відповідного користувача XMPP"
 
@@ -698,7 +698,7 @@ msgstr "Отримати Кількість Підключених Корист�
 msgid "Get Number of Registered Users"
 msgstr "Отримати Кількість Зареєстрованих Користувачів"
 
-#: src/mod_pubsub.erl:1047
+#: src/mod_pubsub.erl:1044
 msgid "Get Pending"
 msgstr "Очікування"
 
@@ -729,16 +729,16 @@ msgstr "Відвантаження файлів по HTTP"
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
-#: src/mod_muc_room.erl:4951 src/mod_muc_room.erl:5015
-#: src/mod_muc_room.erl:5083
+#: src/mod_muc_room.erl:4953 src/mod_muc_room.erl:5017
+#: src/mod_muc_room.erl:5085
 msgid "Hat URI"
 msgstr "Назва URI"
 
-#: src/mod_muc_room.erl:4947 src/mod_muc_room.erl:5080
+#: src/mod_muc_room.erl:4949 src/mod_muc_room.erl:5082
 msgid "Hat title"
 msgstr "Назва кімнати"
 
-#: src/mod_muc_room.erl:4990
+#: src/mod_muc_room.erl:4992
 msgid "Hats limit exceeded"
 msgstr "Перевищено швидкість передачі інформації"
 
@@ -750,7 +750,7 @@ msgstr "Невідоме ім'я сервера"
 msgid "IP addresses"
 msgstr "IP адреси"
 
-#: src/ejabberd_s2s_out.erl:269
+#: src/ejabberd_s2s_out.erl:272
 msgid "Idle connection"
 msgstr "Неактивне підключення"
 
@@ -778,15 +778,15 @@ msgstr "Імпорт користувачів з jabberd14 файлів \"Spool\
 msgid "Import Users from Dir at "
 msgstr "Імпортування користувача з директорії на "
 
-#: src/ejabberd_web_admin.erl:1151
+#: src/ejabberd_web_admin.erl:1210
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Імпорт користувачів з файла спула jabberd14:"
 
-#: src/ejabberd_web_admin.erl:1132
+#: src/ejabberd_web_admin.erl:1191
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Імпорт даних користовучів з файлу PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1153
+#: src/ejabberd_web_admin.erl:1212
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Імпорт користувачів з діректорії спула jabberd14:"
 
@@ -798,23 +798,23 @@ msgstr "Неправильна доменна частина атрибута \"
 msgid "Improper message type"
 msgstr "Неправильний тип повідомлення"
 
-#: src/mod_register.erl:192 src/mod_muc_room.erl:4663
+#: src/mod_register.erl:192 src/mod_muc_room.erl:4665
 #: src/ejabberd_captcha.erl:221
 msgid "Incorrect CAPTCHA submit"
 msgstr "Неправильний ввід CAPTCHA"
 
-#: src/mod_vcard.erl:268 src/mod_pubsub.erl:1258 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3679 src/mod_muc.erl:1132
+#: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
+#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1132
 msgid "Incorrect data form"
 msgstr "Неправильна форма даних"
 
 #: src/mod_register.erl:143 src/mod_register_web.erl:593
-#: src/mod_muc_room.erl:2447
+#: src/mod_muc_room.erl:2449
 msgid "Incorrect password"
 msgstr "Неправильний пароль"
 
-#: src/mod_muc_room.erl:4999 src/mod_muc_room.erl:5053
-#: src/mod_muc_room.erl:5093 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5001 src/mod_muc_room.erl:5055
+#: src/mod_muc_room.erl:5095 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Неправильне значення атрибута \"action\""
 
@@ -828,15 +828,15 @@ msgstr "Неправильне значення \"action\" у формі дан�
 msgid "Incorrect value of 'path' in data form"
 msgstr "Неправильне значення \"path\" у формі даних"
 
-#: src/ext_mod.erl:1291
+#: src/ext_mod.erl:1296
 msgid "Install"
 msgstr "Встановлення"
 
-#: src/ext_mod.erl:1367
+#: src/ext_mod.erl:1372
 msgid "Installed Modules:"
 msgstr "Запуск модулів:"
 
-#: src/mod_privilege.erl:206
+#: src/mod_privilege.erl:243
 msgid "Insufficient privilege"
 msgstr "Недостатньо привілеїв"
 
@@ -844,23 +844,23 @@ msgstr "Недостатньо привілеїв"
 msgid "Internal server error"
 msgstr "Внутрішня помилка сервера"
 
-#: src/mod_privilege.erl:415
+#: src/mod_privilege.erl:529
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr "Неприйнятний атрибут \"from\" у пересланому повідомленні"
 
-#: src/mod_stream_mgmt.erl:843
+#: src/mod_stream_mgmt.erl:844
 msgid "Invalid 'previd' value"
 msgstr "Неприйнятне значення \"previd\""
 
-#: src/mod_muc_room.erl:4539
+#: src/mod_muc_room.erl:4541
 msgid "Invalid node name"
 msgstr "Неприйнятне ім'я вузла"
 
-#: src/mod_muc_room.erl:5277
+#: src/mod_muc_room.erl:5279
 msgid "Invitations are not allowed in this conference"
 msgstr "Запрошення на цю конференцію не допускаються"
 
-#: src/mod_muc_room.erl:430 src/mod_muc_room.erl:593 src/mod_muc_room.erl:1488
+#: src/mod_muc_room.erl:430 src/mod_muc_room.erl:593 src/mod_muc_room.erl:1490
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -884,9 +884,9 @@ msgstr "Створювати конференцію заборонено пол�
 msgid "JID normalization failed"
 msgstr "Помилка нормалізації JID"
 
-#: src/mod_muc_admin.erl:985 src/mod_vcard_sql.erl:241
-#: src/mod_muc_room.erl:4942 src/mod_muc_room.erl:5010
-#: src/mod_muc_room.erl:5077 src/mod_vcard_mnesia.erl:113
+#: src/mod_muc_admin.erl:982 src/mod_vcard_sql.erl:241
+#: src/mod_muc_room.erl:4944 src/mod_muc_room.erl:5012
+#: src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
 #: src/mod_configure.erl:1001 src/mod_configure.erl:1011
 #: src/mod_configure.erl:1025 src/mod_configure.erl:1034
@@ -916,11 +916,11 @@ msgstr "липня"
 msgid "June"
 msgstr "червня"
 
-#: src/mod_muc_admin.erl:991
+#: src/mod_muc_admin.erl:988
 msgid "Just created"
 msgstr "Щойно створено"
 
-#: src/ejabberd_web_admin.erl:890
+#: src/ejabberd_web_admin.erl:943
 msgid "Last Activity"
 msgstr "Останнє підключення"
 
@@ -928,15 +928,15 @@ msgstr "Останнє підключення"
 msgid "Last login"
 msgstr "Останнє підключення"
 
-#: src/mod_muc_admin.erl:987
+#: src/mod_muc_admin.erl:984
 msgid "Last message"
 msgstr "Останнє повідомлення"
 
-#: src/ejabberd_web_admin.erl:934
+#: src/ejabberd_web_admin.erl:987
 msgid "Last month"
 msgstr "За останній місяць"
 
-#: src/ejabberd_web_admin.erl:935
+#: src/ejabberd_web_admin.erl:988
 msgid "Last year"
 msgstr "За останній рік"
 
@@ -947,11 +947,11 @@ msgstr ""
 "Найменш значущі біти хеш-функції SHA-256 від тексту мають відповідати "
 "шістнадцятковій мітці."
 
-#: src/mod_muc_room.erl:5073
+#: src/mod_muc_room.erl:5075
 msgid "List of users with hats"
 msgstr "Список користувачів із капелюхами"
 
-#: src/mod_muc_room.erl:4521 src/mod_muc_room.erl:4629
+#: src/mod_muc_room.erl:4523 src/mod_muc_room.erl:4631
 msgid "List users with hats"
 msgstr "Список користувачів із капелюхами"
 
@@ -959,11 +959,11 @@ msgstr "Список користувачів із капелюхами"
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:990
+#: src/mod_muc_admin.erl:987
 msgid "Logging"
 msgstr "Журналювання"
 
-#: src/mod_mam.erl:773
+#: src/mod_mam.erl:858
 msgid "MAM preference modification denied by service policy"
 msgstr "Зміна налаштувань MAM відхилена через політики сервісу"
 
@@ -1046,7 +1046,7 @@ msgstr "Максимальна кількість елементів для зб
 msgid "May"
 msgstr "травня"
 
-#: src/mod_muc_room.erl:2334
+#: src/mod_muc_room.erl:2336
 msgid "Membership is required to enter this room"
 msgstr "В цю конференцію можуть входити тільки її члени"
 
@@ -1063,15 +1063,15 @@ msgstr ""
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr "Проста доступність у XMPP (без показу статусу)"
 
-#: src/mod_announce.erl:528 src/mod_configure.erl:927 src/mod_configure.erl:967
+#: src/mod_announce.erl:525 src/mod_configure.erl:927 src/mod_configure.erl:967
 msgid "Message body"
 msgstr "Тіло повідомлення"
 
-#: src/mod_privilege.erl:420
+#: src/mod_privilege.erl:534
 msgid "Message not found in forwarded payload"
 msgstr "Повідомлення не знайдено в пересланому вмісті"
 
-#: src/mod_block_strangers.erl:169
+#: src/mod_block_strangers.erl:184
 msgid "Messages from strangers are rejected"
 msgstr "Повідомлення від незнайомців відхиляються"
 
@@ -1099,8 +1099,8 @@ msgstr "Мінімальний інтервал між голосовими за
 msgid "Moderator"
 msgstr "Модератор"
 
-#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:4717
-#: src/mod_muc_room.erl:4773 src/mod_muc_room.erl:4831
+#: src/mod_muc_room.erl:3101 src/mod_muc_room.erl:4719
+#: src/mod_muc_room.erl:4775 src/mod_muc_room.erl:4833
 msgid "Moderator privileges required"
 msgstr "Необхідні права модератора"
 
@@ -1120,7 +1120,7 @@ msgid "Monday"
 msgstr "Понеділок"
 
 #: src/mod_muc_admin.erl:615 src/mod_muc_admin.erl:618
-#: src/mod_muc_admin.erl:627 src/mod_muc_admin.erl:635
+#: src/mod_muc_admin.erl:624 src/mod_muc_admin.erl:632
 msgid "Multi-User Chat"
 msgstr "Багато-користувальницький чат"
 
@@ -1146,11 +1146,11 @@ msgstr "Розмовна мова для обговорень у кімнаті"
 msgid "Natural-Language Room Name"
 msgstr "Назва кімнати розмовною мовою"
 
-#: src/mod_muc_room.erl:3285
+#: src/mod_muc_room.erl:3287
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "Не знайдено ні атрибута \"jid\", ні \"nick\""
 
-#: src/mod_muc_room.erl:3081 src/mod_muc_room.erl:3290
+#: src/mod_muc_room.erl:3083 src/mod_muc_room.erl:3292
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Не знайдено ні атрибута \"role\", ні \"affiliation\""
 
@@ -1176,20 +1176,20 @@ msgstr "Псевдонім"
 msgid "Nickname Registration at "
 msgstr "Реєстрація псевдоніма на "
 
-#: src/mod_muc_room.erl:1437 src/mod_muc_room.erl:2355
-#: src/mod_muc_room.erl:4740
+#: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2357
+#: src/mod_muc_room.erl:4742
 msgid "Nickname can't be empty"
 msgstr "Псевдонім не може бути порожнім"
 
-#: src/mod_muc_room.erl:3302
+#: src/mod_muc_room.erl:3304
 msgid "Nickname ~s does not exist in the room"
 msgstr "Псевдонім ~s в кімнаті відсутній"
 
-#: src/mod_muc_room.erl:3702
+#: src/mod_muc_room.erl:3704
 msgid "No 'affiliation' attribute found"
 msgstr "Не знайдено атрибут \"affiliation\""
 
-#: src/mod_muc_room.erl:3063
+#: src/mod_muc_room.erl:3065
 msgid "No 'item' element found"
 msgstr "Елемент \"item\" не знайдено"
 
@@ -1207,15 +1207,20 @@ msgstr "Не знайдено \"пароль\" у цьому запиті"
 msgid "No 'path' found in data form"
 msgstr "Не знайдено \"path\" у формі даних"
 
-#: src/mod_muc_room.erl:5273
+#: src/mod_muc_room.erl:5275
 msgid "No 'to' attribute found in the invitation"
 msgstr "У запрошенні не знайдено атрибут \"до\""
 
-#: src/mod_privilege.erl:429
+#: src/mod_privilege.erl:543
 msgid "No <forwarded/> element found"
 msgstr "Вузол <forwarded/> не знайдено"
 
-#: src/ejabberd_web_admin.erl:1017
+#: src/mod_privilege.erl:570
+#, fuzzy
+msgid "No <privileged_iq/> element found"
+msgstr "Вузол <forwarded/> не знайдено"
+
+#: src/ejabberd_web_admin.erl:1076
 msgid "No Data"
 msgstr "Немає даних"
 
@@ -1231,19 +1236,19 @@ msgstr "Не знайдено елемента адрес"
 msgid "No available resource found"
 msgstr "Не знайдено доступного ресурсу"
 
-#: src/mod_announce.erl:579
+#: src/mod_announce.erl:576
 msgid "No body provided for announce message"
 msgstr "Тіло оголошення має бути непустим"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1328
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1330
 msgid "No child elements found"
 msgstr "Не знайдено дочірніх елементів"
 
-#: src/mod_pubsub.erl:1247
+#: src/mod_pubsub.erl:1244
 msgid "No data form found"
 msgstr "Не знайдено форми даних"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:294
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:629
 msgid "No features available"
 msgstr "Немає доступних функцій"
 
@@ -1259,12 +1264,12 @@ msgstr "Не знайдено інформації про останню дія�
 msgid "No items found in this query"
 msgstr "У цьому запиті не знайдено жодного елемента"
 
-#: src/mod_muc_room.erl:3824
+#: src/mod_muc_room.erl:3826
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Без обмежень"
 
-#: src/mod_mix_pam.erl:379 src/mod_privacy.erl:139 src/mod_privacy.erl:256
+#: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:351
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
 #: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:766
@@ -1274,20 +1279,20 @@ msgstr "Без обмежень"
 msgid "No module is handling this query"
 msgstr "Жоден модуль не може обробити цей запит"
 
-#: src/mod_pubsub.erl:1613
+#: src/mod_pubsub.erl:1610
 msgid "No node specified"
 msgstr "Вузол не вказано"
 
-#: src/mod_pubsub.erl:1490
+#: src/mod_pubsub.erl:1487
 msgid "No pending subscriptions found"
 msgstr "Не знайдено очікуваних рішення підписок"
 
-#: src/mod_privacy.erl:172 src/mod_privacy.erl:266 src/mod_privacy.erl:282
-#: src/mod_privacy.erl:315
+#: src/mod_privacy.erl:180 src/mod_privacy.erl:274 src/mod_privacy.erl:290
+#: src/mod_privacy.erl:323
 msgid "No privacy list with this name found"
 msgstr "Немає списку конфіденційності з такою назвою"
 
-#: src/mod_private.erl:179
+#: src/mod_private.erl:187
 msgid "No private data found in this query"
 msgstr "Приватних даних у цьому запиті не знайдено"
 
@@ -1298,7 +1303,7 @@ msgstr "Приватних даних у цьому запиті не знайд
 msgid "No running node found"
 msgstr "Не знайдено запущеного вузла"
 
-#: src/mod_disco.erl:196 src/mod_vcard.erl:277
+#: src/mod_disco.erl:196 src/mod_vcard.erl:286
 msgid "No services available"
 msgstr "Немає доступних сервісів"
 
@@ -1312,7 +1317,7 @@ msgstr "Для цього елемента статистичні дані не 
 msgid "Nobody"
 msgstr "Ніхто"
 
-#: src/mod_muc_admin.erl:993
+#: src/mod_muc_admin.erl:990
 msgid "Node"
 msgstr "Вузол"
 
@@ -1329,24 +1334,24 @@ msgid "Node index not found"
 msgstr "Індекс вузла не знайдено"
 
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
-#: src/mod_muc_room.erl:4470 src/mod_muc_room.erl:4488
-#: src/mod_muc_room.erl:4506 src/mod_muc_room.erl:4524
-#: src/mod_muc_room.erl:4631 src/mod_muc_room.erl:4646
-#: src/mod_muc_room.erl:4650 src/ejabberd_web_admin.erl:633
+#: src/mod_muc_room.erl:4472 src/mod_muc_room.erl:4490
+#: src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
+#: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648
+#: src/mod_muc_room.erl:4652 src/ejabberd_web_admin.erl:633
 #: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
 #: src/mod_muc.erl:1021
 msgid "Node not found"
 msgstr "Вузол не знайдено"
 
-#: src/ejabberd_web_admin.erl:1081 src/ejabberd_web_admin.erl:1087
+#: src/ejabberd_web_admin.erl:1140 src/ejabberd_web_admin.erl:1146
 msgid "Node ~p"
 msgstr "Вузол ~p"
 
-#: src/mod_vcard.erl:399
+#: src/mod_vcard.erl:414
 msgid "Nodeprep has failed"
 msgstr "Не вдалося виконати Nodeprep"
 
-#: src/ejabberd_web_admin.erl:1473 src/ejabberd_web_admin.erl:1496
+#: src/ejabberd_web_admin.erl:1532 src/ejabberd_web_admin.erl:1555
 msgid "Nodes"
 msgstr "Вузли"
 
@@ -1442,7 +1447,7 @@ msgstr "Старий пароль:"
 msgid "Online"
 msgstr "Підключений"
 
-#: src/ejabberd_web_admin.erl:592 src/ejabberd_web_admin.erl:1470
+#: src/ejabberd_web_admin.erl:592 src/ejabberd_web_admin.erl:1529
 #: src/mod_configure.erl:471
 msgid "Online Users"
 msgstr "Підключені користувачі"
@@ -1451,7 +1456,7 @@ msgstr "Підключені користувачі"
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr "Дозволені лише теги <enable/> або <disable/>"
 
-#: src/mod_privacy.erl:125
+#: src/mod_privacy.erl:133
 msgid "Only <list/> element is allowed in this query"
 msgstr "У цьому запиті дозволено лише елемент <list/>"
 
@@ -1467,29 +1472,29 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Доставляти повідомленнями тільки доступним користувачам"
 
-#: src/mod_mam.erl:565
+#: src/mod_mam.erl:590
 msgid "Only members may query archives of this room"
 msgstr "Тільки модератори можуть запитувати архіви цієї кімнати"
 
-#: src/mod_muc_room.erl:1115
+#: src/mod_muc_room.erl:1117
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "Тільки модератори та учасники можуть змінювати тему в цій кімнаті"
 
-#: src/mod_muc_room.erl:1120
+#: src/mod_muc_room.erl:1122
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Тільки модератори можуть змінювати тему в цій кімнаті"
 
-#: src/mod_muc_room.erl:5186
+#: src/mod_muc_room.erl:5188
 msgid "Only moderators are allowed to retract messages"
 msgstr "Тільки модераторам дозволено відкликати повідомлення"
 
-#: src/mod_muc_room.erl:1311
+#: src/mod_muc_room.erl:1313
 msgid "Only moderators can approve voice requests"
 msgstr "Тільки модератори можуть схвалювати голосові запити"
 
-#: src/mod_muc_room.erl:652 src/mod_muc_room.erl:1134 src/mod_muc_room.erl:5342
+#: src/mod_muc_room.erl:652 src/mod_muc_room.erl:1136 src/mod_muc_room.erl:5344
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Тільки присутнім дозволяється надсилати повідомленняя в конференцію"
 
@@ -1533,7 +1538,7 @@ msgstr "Назва організації"
 msgid "Organization Unit"
 msgstr "Відділ організації"
 
-#: src/ext_mod.erl:1371
+#: src/ext_mod.erl:1376
 msgid "Other Modules Available:"
 msgstr "Інші доступні модулі:"
 
@@ -1541,11 +1546,11 @@ msgstr "Інші доступні модулі:"
 msgid "Outgoing s2s Connections"
 msgstr "Вихідні s2s-з'єднання"
 
-#: src/mod_pubsub.erl:1366 src/mod_pubsub.erl:1461 src/mod_pubsub.erl:1635
-#: src/mod_pubsub.erl:2244 src/mod_pubsub.erl:2322 src/mod_pubsub.erl:2532
-#: src/mod_pubsub.erl:2626 src/mod_pubsub.erl:3334 src/mod_pubsub.erl:3504
-#: src/mod_muc_room.erl:3649 src/mod_muc_room.erl:3694
-#: src/mod_muc_room.erl:4693 src/mod_mix.erl:677
+#: src/mod_pubsub.erl:1363 src/mod_pubsub.erl:1458 src/mod_pubsub.erl:1632
+#: src/mod_pubsub.erl:2241 src/mod_pubsub.erl:2319 src/mod_pubsub.erl:2529
+#: src/mod_pubsub.erl:2623 src/mod_pubsub.erl:3331 src/mod_pubsub.erl:3498
+#: src/mod_muc_room.erl:3651 src/mod_muc_room.erl:3696
+#: src/mod_muc_room.erl:4695 src/mod_mix.erl:677
 msgid "Owner privileges required"
 msgstr "Необхідні права власника"
 
@@ -1594,7 +1599,7 @@ msgstr "Шлях до файла"
 msgid "Payload semantic type information"
 msgstr "Інформація про тип вмісту даних"
 
-#: src/ejabberd_web_admin.erl:921
+#: src/ejabberd_web_admin.erl:974
 msgid "Period: "
 msgstr "Період: "
 
@@ -1603,7 +1608,7 @@ msgstr "Період: "
 msgid "Persist items to storage"
 msgstr "Зберігати елементи в сховищі"
 
-#: src/mod_muc_admin.erl:989
+#: src/mod_muc_admin.erl:986
 msgid "Persistent"
 msgstr "Тривалий"
 
@@ -1615,7 +1620,7 @@ msgstr "Затримка (пінг)"
 msgid "Ping query is incorrect"
 msgstr "Запит ping некоректний"
 
-#: src/ejabberd_web_admin.erl:1106
+#: src/ejabberd_web_admin.erl:1165
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1625,7 +1630,7 @@ msgstr ""
 "бази даних Mnesia. Якщо ви використовуєте модуль ODBC, вам також потрібно "
 "окремо створити резервну копію вашої SQL-бази даних."
 
-#: src/mod_muc_room.erl:1272
+#: src/mod_muc_room.erl:1274
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 "Будь ласка, зачекайте трохи перед тим, як відправляти новий голосовий запит"
@@ -1642,31 +1647,31 @@ msgstr "Наявність атрибуту 'ask' не дозволена згі
 msgid "Present real Jabber IDs to"
 msgstr "Показувати реальні Jabber ID для"
 
-#: src/mod_stream_mgmt.erl:839
+#: src/mod_stream_mgmt.erl:840
 msgid "Previous session PID has been killed"
 msgstr "PID попередньої сесії був зупинений"
 
-#: src/mod_stream_mgmt.erl:837
+#: src/mod_stream_mgmt.erl:838
 msgid "Previous session PID has exited"
 msgstr "PID попередньої сесії завершив роботу"
 
-#: src/mod_stream_mgmt.erl:835
+#: src/mod_stream_mgmt.erl:836
 msgid "Previous session PID is dead"
 msgstr "PID попередньої сесії більше не активний"
 
-#: src/mod_stream_mgmt.erl:831
+#: src/mod_stream_mgmt.erl:832
 msgid "Previous session not found"
 msgstr "Попередню сесію не знайдено"
 
-#: src/mod_stream_mgmt.erl:833
+#: src/mod_stream_mgmt.erl:834
 msgid "Previous session timed out"
 msgstr "Час попередньої сесії вичерпано"
 
-#: src/mod_pubsub.erl:1398
+#: src/mod_pubsub.erl:1395
 msgid "PubSub subscriber request"
 msgstr "Запит підписника PubSub"
 
-#: src/mod_muc_admin.erl:988
+#: src/mod_muc_admin.erl:985
 msgid "Public"
 msgstr "Публічний"
 
@@ -1674,7 +1679,7 @@ msgstr "Публічний"
 msgid "Publish model"
 msgstr "Модель публікації"
 
-#: src/mod_pubsub.erl:4335
+#: src/mod_pubsub.erl:4329
 msgid "Publish-Subscribe"
 msgstr "Публікація-Підписка"
 
@@ -1692,7 +1697,7 @@ msgid "Queries to the conference members are not allowed in this room"
 msgstr "Запити до учасників конференції не дозволені в цій кімнаті"
 
 #: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
-#: src/mod_disco.erl:326 src/mod_privacy.erl:117 src/mod_private.erl:203
+#: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
 #: src/mod_roster.erl:133 src/mod_offline.erl:318 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr "Запит до інших користувачів заборонено"
@@ -1705,7 +1710,7 @@ msgstr "Копія оперативної пам'яті та диску"
 msgid "RAM copy"
 msgstr "Копія оперативної пам'яті"
 
-#: src/mod_announce.erl:519
+#: src/mod_announce.erl:516
 msgid "Really delete message of the day?"
 msgstr "Дійсно видалити повідомлення дня?"
 
@@ -1746,12 +1751,12 @@ msgstr "не зберігаеться локально"
 msgid "Remove User"
 msgstr "Видалити користувача"
 
-#: src/mod_muc_room.erl:4503 src/mod_muc_room.erl:4625
-#: src/mod_muc_room.erl:5005
+#: src/mod_muc_room.erl:4505 src/mod_muc_room.erl:4627
+#: src/mod_muc_room.erl:5007
 msgid "Remove a hat from a user"
 msgstr ""
 
-#: src/ejabberd_sm.erl:462 src/ejabberd_sm.erl:467
+#: src/ejabberd_sm.erl:474 src/ejabberd_sm.erl:479
 msgid "Replaced by new connection"
 msgstr "Замінено новим з'єднанням"
 
@@ -1785,18 +1790,18 @@ msgstr "Відновлення з резервної копії"
 msgid "Restore Backup from File at "
 msgstr "Відновлення з резервної копії на "
 
-#: src/ejabberd_web_admin.erl:1119
+#: src/ejabberd_web_admin.erl:1178
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "Відновити з бінарної резервної копії при наступному запуску (потребує менше "
 "пам'яті):"
 
-#: src/ejabberd_web_admin.erl:1117
+#: src/ejabberd_web_admin.erl:1176
 msgid "Restore binary backup immediately:"
 msgstr "Відновити з бінарної резервної копії негайно:"
 
-#: src/ejabberd_web_admin.erl:1127
+#: src/ejabberd_web_admin.erl:1186
 msgid "Restore plain text backup immediately:"
 msgstr "Відновити з текстової резервної копії негайно:"
 
@@ -1835,7 +1840,7 @@ msgstr "Опис кімнати"
 msgid "Room terminates"
 msgstr "Кімната припиняється"
 
-#: src/mod_muc_admin.erl:992 src/mod_muc_log.erl:843
+#: src/mod_muc_admin.erl:989 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Назва кімнати"
@@ -1862,7 +1867,7 @@ msgstr "ejabberd SOCKS5 Bytestreams модуль"
 msgid "Saturday"
 msgstr "Субота"
 
-#: src/mod_vcard.erl:480
+#: src/mod_vcard.erl:499
 msgid "Search Results for "
 msgstr "Результати пошуку в "
 
@@ -1878,25 +1883,25 @@ msgstr ""
 msgid "Search until the date"
 msgstr ""
 
-#: src/mod_vcard.erl:445
+#: src/mod_vcard.erl:464
 msgid "Search users in "
 msgstr "Пошук користувачів в "
 
-#: src/mod_announce.erl:613
+#: src/mod_announce.erl:610
 msgid "Send announcement to all online users"
 msgstr "Надіслати сповіщення всім підключеним користувачам"
 
-#: src/mod_announce.erl:615 src/mod_configure.erl:920 src/mod_configure.erl:960
+#: src/mod_announce.erl:612 src/mod_configure.erl:920 src/mod_configure.erl:960
 msgid "Send announcement to all online users on all hosts"
 msgstr ""
 "Надіслати сповіщення всім підключеним користувачам на всіх віртуальних "
 "серверах"
 
-#: src/mod_announce.erl:609
+#: src/mod_announce.erl:606
 msgid "Send announcement to all users"
 msgstr "Надіслати сповіщення всім користувачам"
 
-#: src/mod_announce.erl:611
+#: src/mod_announce.erl:608
 msgid "Send announcement to all users on all hosts"
 msgstr "Надіслати сповіщення до усіх користувачів на усіх хостах"
 
@@ -1913,15 +1918,15 @@ msgstr "Сервер:"
 msgid "Service list retrieval timed out"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:841
+#: src/mod_stream_mgmt.erl:842
 msgid "Session state copying timed out"
 msgstr ""
 
-#: src/mod_announce.erl:617
+#: src/mod_announce.erl:614
 msgid "Set message of the day and send to online users"
 msgstr "Встановити повідомлення дня та надіслати його підключеним користувачам"
 
-#: src/mod_announce.erl:619
+#: src/mod_announce.erl:616
 msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
 "Встановити повідомлення дня на всіх хостах та надійслати його підключеним "
@@ -1931,7 +1936,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Спільні групи контактів"
 
-#: src/ejabberd_web_admin.erl:943
+#: src/ejabberd_web_admin.erl:996
 msgid "Show Integral Table"
 msgstr "Показати інтегральну таблицю"
 
@@ -1939,7 +1944,7 @@ msgstr "Показати інтегральну таблицю"
 msgid "Show Occupants Join/Leave"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:940
+#: src/ejabberd_web_admin.erl:993
 msgid "Show Ordinary Table"
 msgstr "Показати звичайну таблицю"
 
@@ -1957,7 +1962,7 @@ msgstr ""
 "Деякі XMPP-клієнти можуть зберігати пароль на вашому комп'ютері. "
 "Користуйтесь цією функцією тільки у тому випадку, якщо вважаєте її безпечною."
 
-#: src/ext_mod.erl:1360
+#: src/ext_mod.erl:1365
 msgid "Sources Specs:"
 msgstr ""
 
@@ -1980,7 +1985,7 @@ msgstr "Умови публікації"
 msgid "Stanza ID"
 msgstr ""
 
-#: src/mod_muc_room.erl:5221
+#: src/mod_muc_room.erl:5223
 msgid "Stanza id is not valid"
 msgstr ""
 
@@ -1993,27 +1998,27 @@ msgstr ""
 msgid "Stopped Nodes"
 msgstr "Зупинені вузли"
 
-#: src/ejabberd_web_admin.erl:1115
+#: src/ejabberd_web_admin.erl:1174
 msgid "Store binary backup:"
 msgstr "Зберегти бінарну резервну копію:"
 
-#: src/ejabberd_web_admin.erl:1125
+#: src/ejabberd_web_admin.erl:1184
 msgid "Store plain text backup:"
 msgstr "Зберегти текстову резервну копію:"
 
-#: src/mod_stream_mgmt.erl:400
+#: src/mod_stream_mgmt.erl:401
 msgid "Stream management is already enabled"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:382
+#: src/mod_stream_mgmt.erl:383
 msgid "Stream management is not enabled"
 msgstr ""
 
-#: src/mod_announce.erl:524 src/mod_configure.erl:924 src/mod_configure.erl:964
+#: src/mod_announce.erl:521 src/mod_configure.erl:924 src/mod_configure.erl:964
 msgid "Subject"
 msgstr "Тема"
 
-#: src/ext_mod.erl:1102 src/ejabberd_web_admin.erl:959
+#: src/ext_mod.erl:1107 src/ejabberd_web_admin.erl:1023
 msgid "Submitted"
 msgstr "Відправлено"
 
@@ -2035,7 +2040,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4704
+#: src/mod_muc_room.erl:4706
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2059,13 +2064,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1428 src/mod_muc_room.erl:2344
-#: src/mod_muc_room.erl:4730
+#: src/mod_muc_room.erl:1430 src/mod_muc_room.erl:2346
+#: src/mod_muc_room.erl:4732
 msgid "That nickname is already in use by another occupant"
 msgstr "Псевдонім зайнято кимось з присутніх"
 
-#: src/mod_muc_room.erl:1440 src/mod_muc_room.erl:2358
-#: src/mod_muc_room.erl:4744 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360
+#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1106
 msgid "That nickname is registered by another person"
 msgstr "Псевдонім зареєстровано кимось іншим"
 
@@ -2073,8 +2078,8 @@ msgstr "Псевдонім зареєстровано кимось іншим"
 msgid "The CAPTCHA is valid."
 msgstr "Перевірку CAPTCHA успішно завершено."
 
-#: src/mod_register.erl:195 src/mod_block_strangers.erl:142
-#: src/mod_muc_room.erl:941 src/mod_muc_room.erl:4666
+#: src/mod_register.erl:195 src/mod_block_strangers.erl:157
+#: src/mod_muc_room.erl:941 src/mod_muc_room.erl:4668
 #: src/ejabberd_captcha.erl:224
 msgid "The CAPTCHA verification has failed"
 msgstr "Перевірку капчею не пройдено"
@@ -2243,7 +2248,7 @@ msgstr "Пароль надто простий"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr "Стан присутності, для якого сутність хоче отримувати сповіщення"
 
-#: src/mod_vcard.erl:232 src/mod_register.erl:160
+#: src/mod_vcard.erl:241 src/mod_register.erl:160
 msgid "The query is only allowed from local users"
 msgstr "Запит дозволено лише від локальних користувачів"
 
@@ -2266,7 +2271,7 @@ msgstr ""
 msgid "The sender of the last received message"
 msgstr "Відправник останнього отриманого повідомлення"
 
-#: src/mod_privacy.erl:251
+#: src/mod_privacy.erl:259
 msgid ""
 "The stanza MUST contain only one <active/> element, one <default/> element, "
 "or one <list/> element"
@@ -2328,7 +2333,7 @@ msgstr "Четвер"
 msgid "Time delay"
 msgstr "Час затримки"
 
-#: src/mod_stream_mgmt.erl:292
+#: src/mod_stream_mgmt.erl:293
 msgid "Timed out waiting for stream resumption"
 msgstr "Час очікування на відновлення потоку закінчився"
 
@@ -2352,16 +2357,16 @@ msgstr ""
 "Забагато (~p) помилок авторизації з цієї IP адреси (~s). Адресу буде "
 "розблоковано о ~s UTC"
 
-#: src/mod_muc_room.erl:3068 src/mod_muc_room.erl:3708
+#: src/mod_muc_room.erl:3070 src/mod_muc_room.erl:3710
 msgid "Too many <item/> elements"
 msgstr "Надто багато елементів <item/>"
 
-#: src/mod_privacy.erl:135
+#: src/mod_privacy.erl:143
 msgid "Too many <list/> elements"
 msgstr "Надто багато елементів <list/>"
 
-#: src/mod_register.erl:250 src/mod_block_strangers.erl:119
-#: src/mod_muc_room.erl:2428
+#: src/mod_register.erl:250 src/mod_block_strangers.erl:134
+#: src/mod_muc_room.erl:2430
 msgid "Too many CAPTCHA requests"
 msgstr "Надто багато CAPTCHA-запитів"
 
@@ -2369,7 +2374,7 @@ msgstr "Надто багато CAPTCHA-запитів"
 msgid "Too many active bytestreams"
 msgstr "Надто багато активних потоків байтів"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1330
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1332
 msgid "Too many child elements"
 msgstr "Надто багато дочірніх елементів"
 
@@ -2377,11 +2382,11 @@ msgstr "Надто багато дочірніх елементів"
 msgid "Too many receiver fields were specified"
 msgstr "Вказано забагато одержувачів"
 
-#: src/mod_stream_mgmt.erl:236
+#: src/mod_stream_mgmt.erl:237
 msgid "Too many unacked stanzas"
 msgstr "Занадто багато пакетів без відповідей"
 
-#: src/mod_muc_room.erl:2303
+#: src/mod_muc_room.erl:2305
 msgid "Too many users in this conference"
 msgstr "Надто багато користувачів у цій конференції"
 
@@ -2397,8 +2402,8 @@ msgstr "Вівторок"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL-адреса для журналів архівних обговорень"
 
-#: src/mod_register.erl:254 src/mod_block_strangers.erl:123
-#: src/mod_muc_room.erl:2437
+#: src/mod_register.erl:254 src/mod_block_strangers.erl:138
+#: src/mod_muc_room.erl:2439
 msgid "Unable to generate a CAPTCHA"
 msgstr "Нема можливості згенерувати капчу"
 
@@ -2406,7 +2411,7 @@ msgstr "Нема можливості згенерувати капчу"
 msgid "Unable to register route on existing local domain"
 msgstr "Неможливо зареєструвати маршрут на наявному локальному домені"
 
-#: src/mod_stream_mgmt.erl:172 src/ejabberd_web_admin.erl:232
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:232
 msgid "Unauthorized"
 msgstr "Не авторизовано"
 
@@ -2419,7 +2424,7 @@ msgstr "Несподівана дія"
 msgid "Unexpected error condition: ~p"
 msgstr "Умова несподіваної помилки: ~p"
 
-#: src/ext_mod.erl:1273
+#: src/ext_mod.erl:1278
 msgid "Uninstall"
 msgstr ""
 
@@ -2432,32 +2437,36 @@ msgstr "Видалити"
 msgid "Unregister an XMPP account"
 msgstr "Видалити обліковий запис XMPP"
 
-#: src/mod_mam.erl:805
+#: src/mod_mam.erl:890
 msgid "Unsupported <index/> element"
 msgstr "Непідтримуваний елемент <index/>"
 
-#: src/mod_stream_mgmt.erl:406
+#: src/mod_stream_mgmt.erl:407
 msgid "Unsupported version"
 msgstr "Непідтримувана версія"
 
-#: src/ext_mod.erl:1365
+#: src/ext_mod.erl:1370
 #, fuzzy
 msgid "Update Specs"
 msgstr "Оновлення ~p"
 
-#: src/mod_announce.erl:621
+#: src/mod_announce.erl:618
 msgid "Update message of the day (don't send)"
 msgstr "Оновити повідомлення дня (не надсилати)"
 
-#: src/mod_announce.erl:623
+#: src/mod_announce.erl:620
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Оновити повідомлення дня на всіх хостах (не надсилати)"
 
-#: src/ext_mod.erl:1355
+#: src/ext_mod.erl:1360
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
-#: src/ext_mod.erl:1276
+#: src/mod_vcard.erl:417
+msgid "Updating the vCard is not supported by the vCard storage backend"
+msgstr ""
+
+#: src/ext_mod.erl:1281
 msgid "Upgrade"
 msgstr ""
 
@@ -2483,19 +2492,23 @@ msgstr "Управління Користувачами"
 msgid "User already exists"
 msgstr "Користувач уже існує"
 
-#: src/ejabberd_sm.erl:223
+#: src/mod_vcard.erl:407
+msgid "User not allowed to perform an IQ set on another user's vCard."
+msgstr ""
+
+#: src/ejabberd_sm.erl:235
 msgid "User removed"
 msgstr "Користувача видалено"
 
-#: src/mod_sic.erl:86 src/ejabberd_sm.erl:211 src/mod_push.erl:309
+#: src/mod_sic.erl:86 src/ejabberd_sm.erl:223 src/mod_push.erl:309
 msgid "User session not found"
 msgstr "Сеанс користувача не знайдено"
 
-#: src/mod_stream_mgmt.erl:665 src/mod_stream_mgmt.erl:688
+#: src/mod_stream_mgmt.erl:666 src/mod_stream_mgmt.erl:689
 msgid "User session terminated"
 msgstr "Сеанс користувача припинено"
 
-#: src/ejabberd_web_admin.erl:955
+#: src/ejabberd_web_admin.erl:1019
 msgid "User ~ts"
 msgstr "Користувач ~ts"
 
@@ -2505,7 +2518,7 @@ msgid "Username:"
 msgstr "Ім'я користувача:"
 
 #: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577
-#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1469
+#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1528
 msgid "Users"
 msgstr "Користувачі"
 
@@ -2517,18 +2530,18 @@ msgstr "Статистика останнього підключення кор�
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Користувачам не дозволено так часто реєструвати облікові записи"
 
-#: src/mod_pubsub.erl:910 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4656
-#: src/mod_muc_room.erl:4835 src/ejabberd_captcha.erl:228 src/mod_push.erl:291
+#: src/mod_pubsub.erl:907 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4658
+#: src/mod_muc_room.erl:4837 src/ejabberd_captcha.erl:228 src/mod_push.erl:291
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_version.erl:53
 #: src/mod_sic.erl:61 src/mod_sic.erl:73 src/mod_stats.erl:54
 #: src/mod_time.erl:53 src/mod_disco.erl:101 src/mod_disco.erl:117
-#: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:206
-#: src/mod_vcard.erl:249 src/mod_pubsub.erl:834 src/mod_pubsub.erl:853
-#: src/mod_pubsub.erl:892 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4448
-#: src/mod_muc_room.erl:4591 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
+#: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
+#: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
+#: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
+#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
 #: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
 #: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
@@ -2554,7 +2567,7 @@ msgstr "Значення \"~s\" має бути цілим числом"
 msgid "View joined MIX channels"
 msgstr "Приєднатися до каналу IRC"
 
-#: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1495
+#: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1554
 msgid "Virtual Hosts"
 msgstr "віртуальні хости"
 
@@ -2562,19 +2575,19 @@ msgstr "віртуальні хости"
 msgid "Visitor"
 msgstr "Відвідувач"
 
-#: src/mod_muc_room.erl:1421
+#: src/mod_muc_room.erl:1423
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Відвідувачам не дозволяється змінювати псевдонім в цій кімнаті"
 
-#: src/mod_muc_room.erl:1127
+#: src/mod_muc_room.erl:1129
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Відвідувачам не дозволяється надсилати повідомлення всім присутнім"
 
-#: src/mod_muc_room.erl:5230
+#: src/mod_muc_room.erl:5232
 msgid "Voice request"
 msgstr "Голосовий запит"
 
-#: src/mod_muc_room.erl:1279
+#: src/mod_muc_room.erl:1281
 msgid "Voice requests are disabled in this conference"
 msgstr "Голосові запити відключені в цій конференції"
 
@@ -2704,11 +2717,11 @@ msgstr "Ви не приєднані до каналу"
 msgid "You can later change your password using an XMPP client."
 msgstr "Пізніше ви можете змінити пароль за допомогою XMPP-клієнта."
 
-#: src/mod_muc_room.erl:2331 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2333 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Вам заборонено входити в цю конференцію"
 
-#: src/mod_muc_room.erl:2312
+#: src/mod_muc_room.erl:2314
 msgid "You have joined too many conferences"
 msgstr "Ви приєднані до надто великої кількості конференцій"
 
@@ -2728,11 +2741,11 @@ msgstr ""
 "Для реєстрації псевдоніму необхідно використовувати клієнт з підтримкою x:"
 "data"
 
-#: src/mod_vcard.erl:456
+#: src/mod_vcard.erl:475
 msgid "You need an x:data capable client to search"
 msgstr "Для пошуку необхідний клієнт із підтримкою x:data"
 
-#: src/mod_pubsub.erl:1574
+#: src/mod_pubsub.erl:1571
 msgid "You're not allowed to create nodes"
 msgstr "Вам заборонено створювати вузли"
 
@@ -2744,7 +2757,7 @@ msgstr "Ваш обліковий запис XMPP успішно зареєст�
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Ваш обліковий запис XMPP успішно видалено."
 
-#: src/ejabberd_c2s.erl:760 src/ejabberd_c2s.erl:914
+#: src/ejabberd_c2s.erl:774 src/ejabberd_c2s.erl:928
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr "Маршрутизація цієї строфи була відмінена активним списком приватності."
 
@@ -2777,7 +2790,7 @@ msgstr "ejabberd MUC модуль"
 msgid "ejabberd Multicast service"
 msgstr "Мультікаст ejabberd сервіс"
 
-#: src/mod_pubsub.erl:1118
+#: src/mod_pubsub.erl:1115
 msgid "ejabberd Publish-Subscribe module"
 msgstr "Модуль ejabberd Публікації-Підписки"
 
@@ -2789,7 +2802,7 @@ msgstr "ejabberd SOCKS5 Bytestreams модуль"
 msgid "ejabberd Web Admin"
 msgstr "Веб-інтерфейс Адміністрування ejabberd"
 
-#: src/mod_vcard.erl:255
+#: src/mod_vcard.erl:264
 msgid "ejabberd vCard module"
 msgstr "ejabberd vCard модуль"
 
@@ -2797,7 +2810,7 @@ msgstr "ejabberd vCard модуль"
 msgid "has been banned"
 msgstr "заборонили вхід в кімнату"
 
-#: src/mod_muc_log.erl:405 src/mod_muc_log.erl:408 src/ejabberd_sm.erl:472
+#: src/mod_muc_log.erl:405 src/mod_muc_log.erl:408 src/ejabberd_sm.erl:484
 msgid "has been kicked"
 msgstr "вигнали з кімнати"
 
@@ -2825,21 +2838,25 @@ msgstr "увійшов(ла) в кімнату"
 msgid "leaves the room"
 msgstr "вийшов(ла) з кімнати"
 
-#: src/mod_muc_room.erl:4890
+#: src/mod_muc_room.erl:4892
 msgid "private, "
 msgstr "приватна, "
 
-#: src/mod_muc_room.erl:5306
+#: src/mod_muc_room.erl:5308
 msgid "the password is"
 msgstr "паролем є"
 
-#: src/mod_vcard.erl:587
+#: src/mod_vcard.erl:661
 msgid "vCard User Search"
 msgstr "Пошук користувачів по vCard"
 
-#: src/mod_muc_room.erl:5299
+#: src/mod_muc_room.erl:5301
 msgid "~s invites you to the room ~s"
 msgstr "~s запрошує вас до кімнати ~s"
+
+#: src/mod_mam.erl:1695
+msgid "~ts's MAM Archive"
+msgstr ""
 
 #: src/mod_offline.erl:763
 msgid "~ts's Offline Messages Queue"
