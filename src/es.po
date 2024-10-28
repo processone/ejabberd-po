@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-07-19 04:34+0000\n"
+"PO-Revision-Date: 2024-10-30 13:01+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/es/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 "X-Language: Spanish (castellano)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1221,9 +1221,8 @@ msgid "No <forwarded/> element found"
 msgstr "No se ha encontrado elemento <forwarded/>"
 
 #: src/mod_privilege.erl:570
-#, fuzzy
 msgid "No <privileged_iq/> element found"
-msgstr "No se ha encontrado elemento <forwarded/>"
+msgstr "No se encontró ningún elemento <privileged_iq/>"
 
 #: src/ejabberd_web_admin.erl:1076
 msgid "No Data"
@@ -2480,10 +2479,10 @@ msgstr ""
 "luego instala los que quieras."
 
 #: src/mod_vcard.erl:417
-#, fuzzy
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
-"La característica solicitada no está soportada por la sala de conferencia"
+"La actualización de la vCard no es compatible con el vCard almacenamiento "
+"backend"
 
 #: src/ext_mod.erl:1281
 msgid "Upgrade"
@@ -2514,6 +2513,8 @@ msgstr "El usuario ya existe"
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
 msgstr ""
+"No se permite al usuario realizar un IQ establecido en la vCard de otro "
+"usuario."
 
 #: src/ejabberd_sm.erl:235
 msgid "User removed"
@@ -2878,7 +2879,7 @@ msgstr "~s te invita a la sala ~s"
 
 #: src/mod_mam.erl:1695
 msgid "~ts's MAM Archive"
-msgstr ""
+msgstr "Archivo MAM de ~ts"
 
 #: src/mod_offline.erl:763
 msgid "~ts's Offline Messages Queue"
