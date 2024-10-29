@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2024-09-12 14:09+0000\n"
+"PO-Revision-Date: 2024-10-30 13:01+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -718,7 +718,7 @@ msgstr "Покажи статистика за потребителя"
 #: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
 #: _build/translations/lib/xmpp/src/muc_register.erl:508
 msgid "Given Name"
-msgstr "Име"
+msgstr "Наименование"
 
 #: _build/translations/lib/xmpp/src/muc_request.erl:420
 msgid "Grant voice to this person?"
@@ -1218,9 +1218,8 @@ msgid "No <forwarded/> element found"
 msgstr "Елементът <forwarded/> не е намерен"
 
 #: src/mod_privilege.erl:570
-#, fuzzy
 msgid "No <privileged_iq/> element found"
-msgstr "Елементът <forwarded/> не е намерен"
+msgstr "Елементът <privileged_iq/> не е намерен"
 
 #: src/ejabberd_web_admin.erl:1076
 msgid "No Data"
@@ -2132,7 +2131,7 @@ msgstr ""
 "URL адрес на XSL трансформацията, която може да се приложи към формата на "
 "прикачените данни, за да се генерира валиден резултат от Data Forms, който "
 "клиентът може да покаже с помощта на общ механизъм за визуализация на Data "
-"Forms."
+"Forms"
 
 #: src/mod_register_web.erl:591
 msgid "The account already exists"
@@ -2471,9 +2470,9 @@ msgstr ""
 "инсталирайте желаните."
 
 #: src/mod_vcard.erl:417
-#, fuzzy
 msgid "Updating the vCard is not supported by the vCard storage backend"
-msgstr "Исканата функция не се поддържа от конференцията"
+msgstr ""
+"Актуализирането на vCard не се поддържа от настройката за съхранение на vCard"
 
 #: src/ext_mod.erl:1281
 msgid "Upgrade"
@@ -2504,6 +2503,7 @@ msgstr "Потребителят вече съществува"
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
 msgstr ""
+"Потребителят не може да извършва IQ настрийка на vCard на друг потребител."
 
 #: src/ejabberd_sm.erl:235
 msgid "User removed"
@@ -2873,7 +2873,7 @@ msgstr "~s ви кани в стая ~s"
 
 #: src/mod_mam.erl:1695
 msgid "~ts's MAM Archive"
-msgstr ""
+msgstr "~ts's MAM архив"
 
 #: src/mod_offline.erl:763
 msgid "~ts's Offline Messages Queue"
