@@ -20,7 +20,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " ตั้งหัวข้อว่า: "
 
-#: src/mod_muc_admin.erl:983
+#: src/mod_muc_admin.erl:1108
 #, fuzzy
 msgid "# participants"
 msgstr "ผู้ใช้เริ่มต้นเป็นผู้เข้าร่วม"
@@ -51,12 +51,12 @@ msgstr ""
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:492 src/ejabberd_c2s.erl:762
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:507 src/ejabberd_c2s.erl:777
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:283 src/mod_register.erl:394
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:347 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
+#: src/mod_stun_disco.erl:504 src/mod_muc.erl:218 src/mod_muc.erl:702
 #: src/mod_configure.erl:159 src/mod_configure.erl:278
 #: src/mod_configure.erl:404 src/mod_configure.erl:694
 #: src/mod_configure.erl:1453 src/mod_proxy65_service.erl:197
@@ -383,7 +383,7 @@ msgstr "ห้องสนทนา"
 msgid "Chatroom is stopped"
 msgstr "ห้องสนทนา"
 
-#: src/mod_muc_admin.erl:1004 src/mod_muc.erl:1367
+#: src/mod_muc_admin.erl:1129 src/mod_muc.erl:1366
 msgid "Chatrooms"
 msgstr "ห้องสนทนา"
 
@@ -414,8 +414,8 @@ msgstr ""
 msgid "Commands"
 msgstr "คำสั่ง"
 
-#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:620
+#: src/mod_muc.erl:644
 msgid "Conference room does not exist"
 msgstr "ไม่มีห้องประชุม"
 
@@ -453,16 +453,16 @@ msgstr "การกำหนดค่าตารางฐานข้อมู
 
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
-#: src/mod_mam.erl:854 src/mod_mam.erl:872 src/mod_mam.erl:902
-#: src/mod_mam.erl:1245 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4180
+#: src/mod_mam.erl:855 src/mod_mam.erl:873 src/mod_mam.erl:903
+#: src/mod_mam.erl:1246 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
-#: src/mod_roster.erl:436 src/mod_offline.erl:339 src/mod_offline.erl:730
+#: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
 #: src/mod_register.erl:406 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
-#: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
+#: src/mod_blocking.erl:261 src/mod_muc.erl:796 src/mod_muc.erl:1108
 #: src/mod_mix.erl:652 src/mod_proxy65_service.erl:242
 #, fuzzy
 msgid "Database failure"
@@ -567,7 +567,7 @@ msgstr ""
 msgid "End User Session"
 msgstr "สิ้นสุดเซสชันของผู้ใช้"
 
-#: src/mod_muc.erl:1084
+#: src/mod_muc.erl:1083
 msgid "Enter nickname you want to register"
 msgstr "ป้อนชื่อเล่นที่คุณต้องการลงทะเบียน"
 
@@ -820,7 +820,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1132
+#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1131
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "รหัสผ่านไม่ถูกต้อง"
@@ -854,7 +854,7 @@ msgstr ""
 msgid "Installed Modules:"
 msgstr "เริ่มโมดูล"
 
-#: src/mod_privilege.erl:243
+#: src/mod_privilege.erl:244
 msgid "Insufficient privilege"
 msgstr ""
 
@@ -862,7 +862,7 @@ msgstr ""
 msgid "Internal server error"
 msgstr ""
 
-#: src/mod_privilege.erl:529
+#: src/mod_privilege.erl:539
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr ""
 
@@ -904,7 +904,7 @@ msgstr "การสร้างห้องสนทนาถูกปฏิเ
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_muc_admin.erl:982 src/mod_vcard_sql.erl:241
+#: src/mod_muc_admin.erl:1107 src/mod_vcard_sql.erl:241
 #: src/mod_muc_room.erl:4944 src/mod_muc_room.erl:5012
 #: src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
@@ -934,7 +934,7 @@ msgstr "กรกฎาคม"
 msgid "June"
 msgstr "มิถุนายน"
 
-#: src/mod_muc_admin.erl:988
+#: src/mod_muc_admin.erl:1113
 msgid "Just created"
 msgstr ""
 
@@ -946,7 +946,7 @@ msgstr "กิจกรรมล่าสุด"
 msgid "Last login"
 msgstr "การเข้าสู่ระบบครั้งล่าสุด"
 
-#: src/mod_muc_admin.erl:984
+#: src/mod_muc_admin.erl:1109
 #, fuzzy
 msgid "Last message"
 msgstr "ปีที่แล้ว"
@@ -977,11 +977,11 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:987
+#: src/mod_muc_admin.erl:1112
 msgid "Logging"
 msgstr ""
 
-#: src/mod_mam.erl:858
+#: src/mod_mam.erl:859
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "การสร้างห้องสนทนาถูกปฏิเสธโดยนโยบายการบริการ"
@@ -1086,7 +1086,7 @@ msgstr ""
 msgid "Message body"
 msgstr "เนื้อหาของข้อความ"
 
-#: src/mod_privilege.erl:534
+#: src/mod_privilege.erl:544
 msgid "Message not found in forwarded payload"
 msgstr ""
 
@@ -1140,8 +1140,8 @@ msgstr ""
 msgid "Monday"
 msgstr "วันจันทร์"
 
-#: src/mod_muc_admin.erl:615 src/mod_muc_admin.erl:618
-#: src/mod_muc_admin.erl:624 src/mod_muc_admin.erl:632
+#: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742
+#: src/mod_muc_admin.erl:748 src/mod_muc_admin.erl:756
 msgid "Multi-User Chat"
 msgstr ""
 
@@ -1194,7 +1194,7 @@ msgstr "รหัสผ่าน:"
 msgid "Nickname"
 msgstr "ชื่อเล่น"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1082
 msgid "Nickname Registration at "
 msgstr "การลงทะเบียนชื่อเล่นที่ "
 
@@ -1235,12 +1235,12 @@ msgstr ""
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
-#: src/mod_privilege.erl:543
+#: src/mod_privilege.erl:553
 #, fuzzy
 msgid "No <forwarded/> element found"
 msgstr "ไม่พบโหนด"
 
-#: src/mod_privilege.erl:570
+#: src/mod_privilege.erl:584
 #, fuzzy
 msgid "No <privileged_iq/> element found"
 msgstr "ไม่พบโหนด"
@@ -1277,7 +1277,7 @@ msgstr "ไม่พบโหนด"
 msgid "No data form found"
 msgstr "ไม่พบโหนด"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:629
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
 msgid "No features available"
 msgstr ""
 
@@ -1299,11 +1299,11 @@ msgid "No limit"
 msgstr "ไม่จำกัด"
 
 #: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:351
+#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
 #: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:248 src/mod_muc.erl:674
+#: src/mod_muc.erl:749 src/mod_muc.erl:769 src/mod_muc.erl:800
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr ""
@@ -1347,7 +1347,7 @@ msgstr ""
 msgid "Nobody"
 msgstr ""
 
-#: src/mod_muc_admin.erl:990
+#: src/mod_muc_admin.erl:1115
 #, fuzzy
 msgid "Node"
 msgstr "โหนด"
@@ -1370,8 +1370,8 @@ msgstr "ไม่พบโหนด"
 #: src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
 #: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648
 #: src/mod_muc_room.erl:4652 src/ejabberd_web_admin.erl:633
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1021
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:747
+#: src/mod_muc.erl:1020
 msgid "Node not found"
 msgstr "ไม่พบโหนด"
 
@@ -1510,7 +1510,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "ส่งการแจ้งเตือนถึงผู้ใช้ที่สามารถติดต่อได้เท่านั้น"
 
-#: src/mod_mam.erl:590
+#: src/mod_mam.erl:591
 #, fuzzy
 msgid "Only members may query archives of this room"
 msgstr "ผู้ดูแลการสนทนาเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนหัวข้อในห้องนี้"
@@ -1551,7 +1551,7 @@ msgstr "ผู้ครอบครองห้องเท่านั้นท
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:238
 msgid "Only service administrators are allowed to send service messages"
 msgstr "ผู้ดูแลด้านการบริการเท่านั้นที่ได้รับอนุญาตให้ส่งข้อความการบริการ"
 
@@ -1651,7 +1651,7 @@ msgstr "ระยะเวลา:"
 msgid "Persist items to storage"
 msgstr "ยืนยันรายการที่จะจัดเก็บ"
 
-#: src/mod_muc_admin.erl:986
+#: src/mod_muc_admin.erl:1111
 #, fuzzy
 msgid "Persistent"
 msgstr "สร้างเป็นห้องถาวร"
@@ -1715,7 +1715,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "คำร้องขอของผู้สมัครเข้าใช้งาน PubSub"
 
-#: src/mod_muc_admin.erl:985
+#: src/mod_muc_admin.erl:1110
 msgid "Public"
 msgstr ""
 
@@ -1724,7 +1724,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "ระบุโมเดลผู้เผยแพร่"
 
-#: src/mod_pubsub.erl:4329
+#: src/mod_pubsub.erl:4327
 msgid "Publish-Subscribe"
 msgstr "เผยแพร่-สมัครเข้าใช้งาน"
 
@@ -1744,7 +1744,7 @@ msgstr "ห้องนี้ไม่อนุญาตให้ส่งกร
 
 #: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
 #: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
-#: src/mod_roster.erl:133 src/mod_offline.erl:318 src/mod_blocking.erl:74
+#: src/mod_roster.erl:133 src/mod_offline.erl:323 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr ""
 
@@ -1874,7 +1874,7 @@ msgstr "การกำหนดค่าห้องสนทนา"
 msgid "Room Occupants"
 msgstr "จำนวนผู้ครอบครองห้อง"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
 msgstr "การสร้างห้องสนทนาถูกปฏิเสธโดยนโยบายการบริการ"
 
@@ -1890,7 +1890,7 @@ msgstr "รายละเอียด:"
 msgid "Room terminates"
 msgstr "ชื่อห้อง"
 
-#: src/mod_muc_admin.erl:989 src/mod_muc_log.erl:843
+#: src/mod_muc_admin.erl:1114 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "ชื่อห้อง"
@@ -1979,7 +1979,7 @@ msgstr "ตั้งค่าข้อความของวันและส
 msgid "Set message of the day on all hosts and send to online users"
 msgstr "ตั้งค่าข้อความของวันบนโฮสต์ทั้งหมดและส่งถึงผู้ใช้ออนไลน์"
 
-#: src/mod_shared_roster.erl:872 src/mod_shared_roster.erl:880
+#: src/mod_shared_roster.erl:886 src/mod_shared_roster.erl:894
 msgid "Shared Roster Groups"
 msgstr "กลุ่มบัญชีรายชื่อที่ใช้งานร่วมกัน"
 
@@ -2116,7 +2116,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr "ชื่อเล่นถูกใช้งานอยู่โดยผู้ครอบครองห้อง"
 
 #: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360
-#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1105
 #, fuzzy
 msgid "That nickname is registered by another person"
 msgstr "ชื่อเล่นถูกลงทะเบียนใช้งานโดยบุคคลอื่น"
@@ -2474,7 +2474,7 @@ msgstr ""
 msgid "Unregister an XMPP account"
 msgstr ""
 
-#: src/mod_mam.erl:890
+#: src/mod_mam.erl:891
 msgid "Unsupported <index/> element"
 msgstr ""
 
@@ -2584,9 +2584,9 @@ msgstr ""
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
 #: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
-#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:671
+#: src/mod_muc.erl:709 src/mod_muc.erl:754 src/mod_muc.erl:774
+#: src/mod_muc.erl:784 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2772,7 +2772,7 @@ msgstr "คุณถูกสั่งห้ามไมให้เข้าห
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1137
+#: src/mod_muc.erl:1136
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "คุณต้องกรอกฟิลด์ \"Nickname\" ในแบบฟอร์ม"
 
@@ -2781,7 +2781,7 @@ msgstr "คุณต้องกรอกฟิลด์ \"Nickname\" ในแ�
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "คุณต้องใช้ไคลเอ็นต์ที่รองรับ x:data เพื่อลงทะเบียนชื่อเล่น"
 
-#: src/mod_muc.erl:1092
+#: src/mod_muc.erl:1091
 #, fuzzy
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "คุณต้องใช้ไคลเอ็นต์ที่รองรับ x:data เพื่อลงทะเบียนชื่อเล่น"
@@ -2805,11 +2805,11 @@ msgstr "การลงทะเบียนชื่อเล่นที่ "
 msgid "Your XMPP account was successfully unregistered."
 msgstr "การลงทะเบียนชื่อเล่นที่ "
 
-#: src/ejabberd_c2s.erl:774 src/ejabberd_c2s.erl:928
+#: src/ejabberd_c2s.erl:789 src/ejabberd_c2s.erl:943
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr ""
 
-#: src/mod_offline.erl:726
+#: src/mod_offline.erl:731
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr "ลำดับข้อความออฟไลน์ของผู้ที่ติดต่อของคุณเต็มแล้ว ข้อความถูกลบทิ้งแล้ว"
@@ -2829,7 +2829,7 @@ msgstr "เว็บอินเทอร์เฟซของ ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:665
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC module"
 
@@ -2903,11 +2903,11 @@ msgstr "ค้นหาผู้ใช้ vCard "
 msgid "~s invites you to the room ~s"
 msgstr "~s เชิญคุณเข้าร่วมสนทนาในห้อง ~s"
 
-#: src/mod_mam.erl:1695
+#: src/mod_mam.erl:1709
 msgid "~ts's MAM Archive"
 msgstr ""
 
-#: src/mod_offline.erl:763
+#: src/mod_offline.erl:768
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "~s's ลำดับข้อความออฟไลน์"

@@ -25,7 +25,7 @@ msgstr " (Adicione * no final do campo para combinar com a substring)"
 msgid " has set the subject to: "
 msgstr " mudou o assunto para: "
 
-#: src/mod_muc_admin.erl:983
+#: src/mod_muc_admin.erl:1108
 msgid "# participants"
 msgstr "# participantes"
 
@@ -54,12 +54,12 @@ msgstr "Aceito"
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:492 src/ejabberd_c2s.erl:762
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:507 src/ejabberd_c2s.erl:777
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:283 src/mod_register.erl:394
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:347 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
+#: src/mod_stun_disco.erl:504 src/mod_muc.erl:218 src/mod_muc.erl:702
 #: src/mod_configure.erl:159 src/mod_configure.erl:278
 #: src/mod_configure.erl:404 src/mod_configure.erl:694
 #: src/mod_configure.erl:1453 src/mod_proxy65_service.erl:197
@@ -377,7 +377,7 @@ msgstr "A sala de chat está iniciada"
 msgid "Chatroom is stopped"
 msgstr "A sala de chat está parada"
 
-#: src/mod_muc_admin.erl:1004 src/mod_muc.erl:1367
+#: src/mod_muc_admin.erl:1129 src/mod_muc.erl:1366
 msgid "Chatrooms"
 msgstr "Salas de Chat"
 
@@ -408,8 +408,8 @@ msgstr "O cliente reconheceu mais estrofes do que as enviadas pelo servidor"
 msgid "Commands"
 msgstr "Comandos"
 
-#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:620
+#: src/mod_muc.erl:644
 msgid "Conference room does not exist"
 msgstr "A sala de conferência não existe"
 
@@ -448,16 +448,16 @@ msgstr "Configuração de Tabelas de Base de dados em "
 
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
-#: src/mod_mam.erl:854 src/mod_mam.erl:872 src/mod_mam.erl:902
-#: src/mod_mam.erl:1245 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4180
+#: src/mod_mam.erl:855 src/mod_mam.erl:873 src/mod_mam.erl:903
+#: src/mod_mam.erl:1246 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
-#: src/mod_roster.erl:436 src/mod_offline.erl:339 src/mod_offline.erl:730
+#: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
 #: src/mod_register.erl:406 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
-#: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
+#: src/mod_blocking.erl:261 src/mod_muc.erl:796 src/mod_muc.erl:1108
 #: src/mod_mix.erl:652 src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "Falha no banco de dados"
@@ -563,7 +563,7 @@ msgstr "Abilitar push sem o atributo 'node' não é suportado"
 msgid "End User Session"
 msgstr "Terminar Sessão do Usuário"
 
-#: src/mod_muc.erl:1084
+#: src/mod_muc.erl:1083
 msgid "Enter nickname you want to register"
 msgstr "Introduza o apelido que quer registrar"
 
@@ -806,7 +806,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr "CAPTCHA submetido incorretamente"
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1132
+#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1131
 msgid "Incorrect data form"
 msgstr "Formulário dos dados incorreto"
 
@@ -838,7 +838,7 @@ msgstr "Instalar"
 msgid "Installed Modules:"
 msgstr "Módulos instalados:"
 
-#: src/mod_privilege.erl:243
+#: src/mod_privilege.erl:244
 msgid "Insufficient privilege"
 msgstr "Privilégio insuficiente"
 
@@ -846,7 +846,7 @@ msgstr "Privilégio insuficiente"
 msgid "Internal server error"
 msgstr "Erro interno do servidor"
 
-#: src/mod_privilege.erl:529
+#: src/mod_privilege.erl:539
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr "Atributo 'from' inválido na mensagem reenviada"
 
@@ -886,7 +886,7 @@ msgstr "Normalização JID negada por causa da política de serviços"
 msgid "JID normalization failed"
 msgstr "A normalização JID falhou"
 
-#: src/mod_muc_admin.erl:982 src/mod_vcard_sql.erl:241
+#: src/mod_muc_admin.erl:1107 src/mod_vcard_sql.erl:241
 #: src/mod_muc_room.erl:4944 src/mod_muc_room.erl:5012
 #: src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
@@ -916,7 +916,7 @@ msgstr "Julho"
 msgid "June"
 msgstr "Junho"
 
-#: src/mod_muc_admin.erl:988
+#: src/mod_muc_admin.erl:1113
 msgid "Just created"
 msgstr "Acabou de ser criado"
 
@@ -928,7 +928,7 @@ msgstr "Última atividade"
 msgid "Last login"
 msgstr "Último login"
 
-#: src/mod_muc_admin.erl:984
+#: src/mod_muc_admin.erl:1109
 msgid "Last message"
 msgstr "Última mensagem"
 
@@ -959,11 +959,11 @@ msgstr "Lista os usuários com chapéus"
 msgid "Logged Out"
 msgstr "Desconectado"
 
-#: src/mod_muc_admin.erl:987
+#: src/mod_muc_admin.erl:1112
 msgid "Logging"
 msgstr "Registrando no log"
 
-#: src/mod_mam.erl:858
+#: src/mod_mam.erl:859
 msgid "MAM preference modification denied by service policy"
 msgstr ""
 "Modificação de preferência MAM negada por causa da política de serviços"
@@ -1069,7 +1069,7 @@ msgstr "Mera disponibilidade no XMPP (Sem valor para ser exibido)"
 msgid "Message body"
 msgstr "Corpo da mensagem"
 
-#: src/mod_privilege.erl:534
+#: src/mod_privilege.erl:544
 msgid "Message not found in forwarded payload"
 msgstr "Mensagem não encontrada em conteúdo encaminhado"
 
@@ -1121,8 +1121,8 @@ msgstr "Módulo falhou ao processar a consulta"
 msgid "Monday"
 msgstr "Segunda"
 
-#: src/mod_muc_admin.erl:615 src/mod_muc_admin.erl:618
-#: src/mod_muc_admin.erl:624 src/mod_muc_admin.erl:632
+#: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742
+#: src/mod_muc_admin.erl:748 src/mod_muc_admin.erl:756
 msgid "Multi-User Chat"
 msgstr "Chat multi-usuário"
 
@@ -1174,7 +1174,7 @@ msgstr "Nova Senha:"
 msgid "Nickname"
 msgstr "Apelido"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1082
 msgid "Nickname Registration at "
 msgstr "Registro do apelido em "
 
@@ -1213,11 +1213,11 @@ msgstr "'path' não foi encontrado em formulário de dados"
 msgid "No 'to' attribute found in the invitation"
 msgstr "Atributo 'to' não foi encontrado no convite"
 
-#: src/mod_privilege.erl:543
+#: src/mod_privilege.erl:553
 msgid "No <forwarded/> element found"
 msgstr "Nenhum elemento <forwarded/> foi encontrado"
 
-#: src/mod_privilege.erl:570
+#: src/mod_privilege.erl:584
 msgid "No <privileged_iq/> element found"
 msgstr "Nenhum elemento <privileged_iq/> foi encontrado"
 
@@ -1249,7 +1249,7 @@ msgstr "Nenhum elemento filho foi encontrado"
 msgid "No data form found"
 msgstr "Nenhum formulário de dados foi encontrado"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:629
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
 msgid "No features available"
 msgstr "Nenhuma funcionalidade disponível"
 
@@ -1271,11 +1271,11 @@ msgid "No limit"
 msgstr "Ilimitado"
 
 #: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:351
+#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
 #: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:248 src/mod_muc.erl:674
+#: src/mod_muc.erl:749 src/mod_muc.erl:769 src/mod_muc.erl:800
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr "Nenhum módulo está processando esta consulta"
@@ -1318,7 +1318,7 @@ msgstr "Não foram encontradas estatísticas para este item"
 msgid "Nobody"
 msgstr "Ninguém"
 
-#: src/mod_muc_admin.erl:990
+#: src/mod_muc_admin.erl:1115
 msgid "Node"
 msgstr "Nó"
 
@@ -1339,8 +1339,8 @@ msgstr "O índice do nó não foi encontrado"
 #: src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
 #: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648
 #: src/mod_muc_room.erl:4652 src/ejabberd_web_admin.erl:633
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1021
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:747
+#: src/mod_muc.erl:1020
 msgid "Node not found"
 msgstr "Nó não encontrado"
 
@@ -1474,7 +1474,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Somente enviar notificações aos usuários disponíveis"
 
-#: src/mod_mam.erl:590
+#: src/mod_mam.erl:591
 msgid "Only members may query archives of this room"
 msgstr "Somente os membros podem procurar nos arquivos desta sala"
 
@@ -1512,7 +1512,7 @@ msgstr "Somente os ocupantes podem enviar consultas à sala de conferência"
 msgid "Only publishers may publish"
 msgstr "Apenas os editores podem publicar"
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:238
 msgid "Only service administrators are allowed to send service messages"
 msgstr ""
 "Apenas administradores possuem permissão para enviar mensagens de serviço"
@@ -1614,7 +1614,7 @@ msgstr "Período: "
 msgid "Persist items to storage"
 msgstr "Persistir elementos ao armazenar"
 
-#: src/mod_muc_admin.erl:986
+#: src/mod_muc_admin.erl:1111
 msgid "Persistent"
 msgstr "Persistente"
 
@@ -1676,7 +1676,7 @@ msgstr "A sessão anterior expirou"
 msgid "PubSub subscriber request"
 msgstr "PubSub requisição de assinante"
 
-#: src/mod_muc_admin.erl:985
+#: src/mod_muc_admin.erl:1110
 msgid "Public"
 msgstr "Público"
 
@@ -1684,7 +1684,7 @@ msgstr "Público"
 msgid "Publish model"
 msgstr "Publicar o modelo"
 
-#: src/mod_pubsub.erl:4329
+#: src/mod_pubsub.erl:4327
 msgid "Publish-Subscribe"
 msgstr "Publicação de Tópico"
 
@@ -1703,7 +1703,7 @@ msgstr "Nesta sala de conferência, consultas aos membros não são permitidas"
 
 #: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
 #: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
-#: src/mod_roster.erl:133 src/mod_offline.erl:318 src/mod_blocking.erl:74
+#: src/mod_roster.erl:133 src/mod_offline.erl:323 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr "Consultar a outro usuário é proibido"
 
@@ -1831,7 +1831,7 @@ msgstr "Configuração de salas"
 msgid "Room Occupants"
 msgstr "Ocupantes do quarto"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
 msgstr "Sala não pode ser criada devido à política do serviço"
 
@@ -1845,7 +1845,7 @@ msgstr "Descrição da Sala"
 msgid "Room terminates"
 msgstr "Terminação da sala"
 
-#: src/mod_muc_admin.erl:989 src/mod_muc_log.erl:843
+#: src/mod_muc_admin.erl:1114 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Título da sala"
@@ -1933,7 +1933,7 @@ msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
 "Definir mensagem do dia em todos os hosts e enviar para os usuários online"
 
-#: src/mod_shared_roster.erl:872 src/mod_shared_roster.erl:880
+#: src/mod_shared_roster.erl:886 src/mod_shared_roster.erl:894
 msgid "Shared Roster Groups"
 msgstr "Grupos Shared Roster"
 
@@ -2072,7 +2072,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr "O apelido (nick) já está sendo utilizado"
 
 #: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360
-#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1105
 msgid "That nickname is registered by another person"
 msgstr "O apelido já está registrado por outra pessoa"
 
@@ -2444,7 +2444,7 @@ msgstr "Deletar registro"
 msgid "Unregister an XMPP account"
 msgstr "Excluir uma conta XMPP"
 
-#: src/mod_mam.erl:890
+#: src/mod_mam.erl:891
 msgid "Unsupported <index/> element"
 msgstr "Elemento <index/> não suportado"
 
@@ -2553,9 +2553,9 @@ msgstr "Valor 'get' não permitido para atributo 'type'"
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
 #: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
-#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:671
+#: src/mod_muc.erl:709 src/mod_muc.erl:754 src/mod_muc.erl:774
+#: src/mod_muc.erl:784 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2744,7 +2744,7 @@ msgstr "Você foi banido desta sala"
 msgid "You have joined too many conferences"
 msgstr "Você entrou em um número excessivo de salas de conferência"
 
-#: src/mod_muc.erl:1137
+#: src/mod_muc.erl:1136
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Você deve completar o campo \"Apelido\" no formulário"
 
@@ -2754,7 +2754,7 @@ msgstr ""
 "Você precisa de um cliente com suporte de x:data para poder registrar o "
 "apelido"
 
-#: src/mod_muc.erl:1092
+#: src/mod_muc.erl:1091
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
 "Você precisa de um cliente com suporte a x:data para registrar o seu apelido"
@@ -2775,11 +2775,11 @@ msgstr "A sua conta XMPP foi registrada com sucesso."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Sua conta XMPP foi excluída com sucesso."
 
-#: src/ejabberd_c2s.erl:774 src/ejabberd_c2s.erl:928
+#: src/ejabberd_c2s.erl:789 src/ejabberd_c2s.erl:943
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr "Sua lista de privacidade ativa negou o roteamento desta instância."
 
-#: src/mod_offline.erl:726
+#: src/mod_offline.erl:731
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr "A fila de contatos offline esta cheia. A sua mensagem foi descartada."
@@ -2799,7 +2799,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "serviço HTTP de upload ejabberd"
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:665
 msgid "ejabberd MUC module"
 msgstr "Módulo de MUC para ejabberd"
 
@@ -2872,11 +2872,11 @@ msgstr "Busca de Usuário vCard"
 msgid "~s invites you to the room ~s"
 msgstr "~s convidaram você para a sala ~s"
 
-#: src/mod_mam.erl:1695
+#: src/mod_mam.erl:1709
 msgid "~ts's MAM Archive"
 msgstr "Arquivo ~ts's MAM"
 
-#: src/mod_offline.erl:763
+#: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
 msgstr "~s's Fila de Mensagens Offline"
 

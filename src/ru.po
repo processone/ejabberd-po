@@ -28,7 +28,7 @@ msgstr " (Добавьте * в конец поля для поиска подс
 msgid " has set the subject to: "
 msgstr " установил(а) тему: "
 
-#: src/mod_muc_admin.erl:983
+#: src/mod_muc_admin.erl:1108
 #, fuzzy
 msgid "# participants"
 msgstr "Сделать пользователей участниками по умолчанию"
@@ -59,12 +59,12 @@ msgstr "Принять"
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:492 src/ejabberd_c2s.erl:762
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:507 src/ejabberd_c2s.erl:777
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:283 src/mod_register.erl:394
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:347 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
+#: src/mod_stun_disco.erl:504 src/mod_muc.erl:218 src/mod_muc.erl:702
 #: src/mod_configure.erl:159 src/mod_configure.erl:278
 #: src/mod_configure.erl:404 src/mod_configure.erl:694
 #: src/mod_configure.erl:1453 src/mod_proxy65_service.erl:197
@@ -381,7 +381,7 @@ msgstr "Комната запущена"
 msgid "Chatroom is stopped"
 msgstr "Комната остановлена"
 
-#: src/mod_muc_admin.erl:1004 src/mod_muc.erl:1367
+#: src/mod_muc_admin.erl:1129 src/mod_muc.erl:1366
 msgid "Chatrooms"
 msgstr "Комнаты"
 
@@ -412,8 +412,8 @@ msgstr "Клиент подтвердил больше сообщений чем
 msgid "Commands"
 msgstr "Команды"
 
-#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:620
+#: src/mod_muc.erl:644
 msgid "Conference room does not exist"
 msgstr "Конференция не существует"
 
@@ -450,16 +450,16 @@ msgstr "Конфигурация таблиц базы данных на "
 
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
-#: src/mod_mam.erl:854 src/mod_mam.erl:872 src/mod_mam.erl:902
-#: src/mod_mam.erl:1245 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4180
+#: src/mod_mam.erl:855 src/mod_mam.erl:873 src/mod_mam.erl:903
+#: src/mod_mam.erl:1246 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
-#: src/mod_roster.erl:436 src/mod_offline.erl:339 src/mod_offline.erl:730
+#: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
 #: src/mod_register.erl:406 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
-#: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
+#: src/mod_blocking.erl:261 src/mod_muc.erl:796 src/mod_muc.erl:1108
 #: src/mod_mix.erl:652 src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "Ошибка базы данных"
@@ -565,7 +565,7 @@ msgstr "Включение push-режима без атрибута 'node' не
 msgid "End User Session"
 msgstr "Завершить сеанс пользователя"
 
-#: src/mod_muc.erl:1084
+#: src/mod_muc.erl:1083
 msgid "Enter nickname you want to register"
 msgstr "Введите псевдоним, который Вы хотели бы зарегистрировать"
 
@@ -816,7 +816,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr "Неверный ввод капчи"
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1132
+#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1131
 msgid "Incorrect data form"
 msgstr "Некорректная форма данных"
 
@@ -849,7 +849,7 @@ msgstr ""
 msgid "Installed Modules:"
 msgstr "Запуск модулей"
 
-#: src/mod_privilege.erl:243
+#: src/mod_privilege.erl:244
 msgid "Insufficient privilege"
 msgstr "Недостаточно прав"
 
@@ -857,7 +857,7 @@ msgstr "Недостаточно прав"
 msgid "Internal server error"
 msgstr "Внутренняя ошибка сервера"
 
-#: src/mod_privilege.erl:529
+#: src/mod_privilege.erl:539
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr "Некорректный атрибут 'from' в пересланном сообщении"
 
@@ -898,7 +898,7 @@ msgstr "Cоздавать конференцию запрещено полити
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_muc_admin.erl:982 src/mod_vcard_sql.erl:241
+#: src/mod_muc_admin.erl:1107 src/mod_vcard_sql.erl:241
 #: src/mod_muc_room.erl:4944 src/mod_muc_room.erl:5012
 #: src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
@@ -930,7 +930,7 @@ msgstr "июля"
 msgid "June"
 msgstr "июня"
 
-#: src/mod_muc_admin.erl:988
+#: src/mod_muc_admin.erl:1113
 msgid "Just created"
 msgstr ""
 
@@ -942,7 +942,7 @@ msgstr "Последнее подключение"
 msgid "Last login"
 msgstr "Время последнего подключения"
 
-#: src/mod_muc_admin.erl:984
+#: src/mod_muc_admin.erl:1109
 #, fuzzy
 msgid "Last message"
 msgstr "За последний год"
@@ -973,11 +973,11 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:987
+#: src/mod_muc_admin.erl:1112
 msgid "Logging"
 msgstr ""
 
-#: src/mod_mam.erl:858
+#: src/mod_mam.erl:859
 msgid "MAM preference modification denied by service policy"
 msgstr "Изменение настроек архива сообщений запрещено политикой службы"
 
@@ -1081,7 +1081,7 @@ msgstr ""
 msgid "Message body"
 msgstr "Тело сообщения"
 
-#: src/mod_privilege.erl:534
+#: src/mod_privilege.erl:544
 msgid "Message not found in forwarded payload"
 msgstr "Сообщение не найдено в пересылаемом вложении"
 
@@ -1135,8 +1135,8 @@ msgstr "Ошибка модуля при обработке запроса"
 msgid "Monday"
 msgstr "Понедельник"
 
-#: src/mod_muc_admin.erl:615 src/mod_muc_admin.erl:618
-#: src/mod_muc_admin.erl:624 src/mod_muc_admin.erl:632
+#: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742
+#: src/mod_muc_admin.erl:748 src/mod_muc_admin.erl:756
 msgid "Multi-User Chat"
 msgstr "Конференция"
 
@@ -1189,7 +1189,7 @@ msgstr "Новый пароль:"
 msgid "Nickname"
 msgstr "Псевдоним"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1082
 msgid "Nickname Registration at "
 msgstr "Регистрация псевдонима на "
 
@@ -1228,11 +1228,11 @@ msgstr "Не найден 'path' в форме данных"
 msgid "No 'to' attribute found in the invitation"
 msgstr "Не найден атрибут 'to' в этом приглашении"
 
-#: src/mod_privilege.erl:543
+#: src/mod_privilege.erl:553
 msgid "No <forwarded/> element found"
 msgstr "Не найден элемент <forwarded/>"
 
-#: src/mod_privilege.erl:570
+#: src/mod_privilege.erl:584
 #, fuzzy
 msgid "No <privileged_iq/> element found"
 msgstr "Не найден элемент <forwarded/>"
@@ -1265,7 +1265,7 @@ msgstr "Нет дочерних элементов"
 msgid "No data form found"
 msgstr "Форма данных не найдена"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:629
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
 msgid "No features available"
 msgstr "Свойства недоступны"
 
@@ -1287,11 +1287,11 @@ msgid "No limit"
 msgstr "Не ограничено"
 
 #: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:351
+#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
 #: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:248 src/mod_muc.erl:674
+#: src/mod_muc.erl:749 src/mod_muc.erl:769 src/mod_muc.erl:800
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr "Нет модуля который бы обработал этот запрос"
@@ -1335,7 +1335,7 @@ msgstr "Не найдено статистики для этого элемен�
 msgid "Nobody"
 msgstr "никто"
 
-#: src/mod_muc_admin.erl:990
+#: src/mod_muc_admin.erl:1115
 #, fuzzy
 msgid "Node"
 msgstr "Узлы"
@@ -1357,8 +1357,8 @@ msgstr "Индекс узла не найден"
 #: src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
 #: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648
 #: src/mod_muc_room.erl:4652 src/ejabberd_web_admin.erl:633
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1021
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:747
+#: src/mod_muc.erl:1020
 msgid "Node not found"
 msgstr "Узел не найден"
 
@@ -1493,7 +1493,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Доставлять уведомления только доступным пользователям"
 
-#: src/mod_mam.erl:590
+#: src/mod_mam.erl:591
 msgid "Only members may query archives of this room"
 msgstr "Только члены могут запрашивать архивы этой комнаты"
 
@@ -1530,7 +1530,7 @@ msgstr "Только присутствующим разрешается пос�
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:238
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Только администратор службы может посылать служебные сообщения"
 
@@ -1629,7 +1629,7 @@ msgstr "Период"
 msgid "Persist items to storage"
 msgstr "Сохранять публикации в хранилище"
 
-#: src/mod_muc_admin.erl:986
+#: src/mod_muc_admin.erl:1111
 #, fuzzy
 msgid "Persistent"
 msgstr "Сделать комнату постоянной"
@@ -1695,7 +1695,7 @@ msgstr "Предыдущая сессия не отвечает"
 msgid "PubSub subscriber request"
 msgstr "Запрос подписчика PubSub"
 
-#: src/mod_muc_admin.erl:985
+#: src/mod_muc_admin.erl:1110
 msgid "Public"
 msgstr ""
 
@@ -1704,7 +1704,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "Условия публикации"
 
-#: src/mod_pubsub.erl:4329
+#: src/mod_pubsub.erl:4327
 msgid "Publish-Subscribe"
 msgstr "Публикация-Подписка"
 
@@ -1723,7 +1723,7 @@ msgstr "Запросы к пользователям в этой конфере�
 
 #: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
 #: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
-#: src/mod_roster.erl:133 src/mod_offline.erl:318 src/mod_blocking.erl:74
+#: src/mod_roster.erl:133 src/mod_offline.erl:323 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr "Запрос к другим пользователям запрещён"
 
@@ -1855,7 +1855,7 @@ msgstr "Конфигурация комнаты"
 msgid "Room Occupants"
 msgstr "Участники комнаты"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
 msgstr "Cоздавать конференцию запрещено политикой службы"
 
@@ -1869,7 +1869,7 @@ msgstr "Описание комнаты"
 msgid "Room terminates"
 msgstr "Комната остановлена"
 
-#: src/mod_muc_admin.erl:989 src/mod_muc_log.erl:843
+#: src/mod_muc_admin.erl:1114 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Название комнаты"
@@ -1961,7 +1961,7 @@ msgstr ""
 "Установить сообщение дня на всех виртуальных серверах и разослать его "
 "подключённым пользователям"
 
-#: src/mod_shared_roster.erl:872 src/mod_shared_roster.erl:880
+#: src/mod_shared_roster.erl:886 src/mod_shared_roster.erl:894
 msgid "Shared Roster Groups"
 msgstr "Группы общих контактов"
 
@@ -2100,7 +2100,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr "Этот псевдоним уже занят другим участником"
 
 #: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360
-#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1105
 msgid "That nickname is registered by another person"
 msgstr "Этот псевдоним зарегистрирован кем-то другим"
 
@@ -2470,7 +2470,7 @@ msgstr "Удалить"
 msgid "Unregister an XMPP account"
 msgstr "Удалить XMPP-аккаунт"
 
-#: src/mod_mam.erl:890
+#: src/mod_mam.erl:891
 msgid "Unsupported <index/> element"
 msgstr "Элемент <index/> не поддерживается"
 
@@ -2576,9 +2576,9 @@ msgstr "Значение 'get' атрибута 'type' недопустимо"
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
 #: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
-#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:671
+#: src/mod_muc.erl:709 src/mod_muc.erl:754 src/mod_muc.erl:774
+#: src/mod_muc.erl:784 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2764,7 +2764,7 @@ msgstr "Вам запрещено входить в эту конференци�
 msgid "You have joined too many conferences"
 msgstr "Вы присоединены к слишком большому количеству конференций"
 
-#: src/mod_muc.erl:1137
+#: src/mod_muc.erl:1136
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Вы должны заполнить поле \"Псевдоним\" в форме"
 
@@ -2772,7 +2772,7 @@ msgstr "Вы должны заполнить поле \"Псевдоним\" в 
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Чтобы зарегистрироваться, требуется x:data-совместимый клиент"
 
-#: src/mod_muc.erl:1092
+#: src/mod_muc.erl:1091
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "Чтобы зарегистрировать псевдоним, требуется x:data-совместимый клиент"
 
@@ -2794,12 +2794,12 @@ msgstr "Ваш XMPP-аккаунт был успешно удален."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Ваш XMPP-аккаунт был успешно удален."
 
-#: src/ejabberd_c2s.erl:774 src/ejabberd_c2s.erl:928
+#: src/ejabberd_c2s.erl:789 src/ejabberd_c2s.erl:943
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr ""
 "Маршрутизация этой строфы запрещена вашим активным списком приватности."
 
-#: src/mod_offline.erl:726
+#: src/mod_offline.erl:731
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr ""
@@ -2823,7 +2823,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd Multicast сервис"
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:665
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC модуль"
 
@@ -2896,11 +2896,11 @@ msgstr "Поиск пользователей по vCard"
 msgid "~s invites you to the room ~s"
 msgstr "~s приглашает вас в комнату ~s"
 
-#: src/mod_mam.erl:1695
+#: src/mod_mam.erl:1709
 msgid "~ts's MAM Archive"
 msgstr ""
 
-#: src/mod_offline.erl:763
+#: src/mod_offline.erl:768
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "Oчередь офлайновых сообщений ~s"

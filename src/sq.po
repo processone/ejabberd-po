@@ -24,7 +24,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " ka caktuar si subjekt: "
 
-#: src/mod_muc_admin.erl:983
+#: src/mod_muc_admin.erl:1108
 msgid "# participants"
 msgstr "# pjesëmarrës"
 
@@ -53,12 +53,12 @@ msgstr "Pranoje"
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:492 src/ejabberd_c2s.erl:762
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:507 src/ejabberd_c2s.erl:777
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:283 src/mod_register.erl:394
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:347 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:504 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
+#: src/mod_stun_disco.erl:504 src/mod_muc.erl:218 src/mod_muc.erl:702
 #: src/mod_configure.erl:159 src/mod_configure.erl:278
 #: src/mod_configure.erl:404 src/mod_configure.erl:694
 #: src/mod_configure.erl:1453 src/mod_proxy65_service.erl:197
@@ -369,7 +369,7 @@ msgstr "Dhoma e fjalosjes u nis"
 msgid "Chatroom is stopped"
 msgstr "Dhoma e fjalosjes u ndal"
 
-#: src/mod_muc_admin.erl:1004 src/mod_muc.erl:1367
+#: src/mod_muc_admin.erl:1129 src/mod_muc.erl:1366
 msgid "Chatrooms"
 msgstr "Dhoma fjalosjeje"
 
@@ -402,8 +402,8 @@ msgstr ""
 msgid "Commands"
 msgstr "Urdhra"
 
-#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:620
+#: src/mod_muc.erl:644
 msgid "Conference room does not exist"
 msgstr "Dhoma e konferencës s’ekziston"
 
@@ -440,16 +440,16 @@ msgstr "Formësim Tabelash Baze të Dhënash te "
 
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4182
-#: src/mod_mam.erl:854 src/mod_mam.erl:872 src/mod_mam.erl:902
-#: src/mod_mam.erl:1245 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4180
+#: src/mod_mam.erl:855 src/mod_mam.erl:873 src/mod_mam.erl:903
+#: src/mod_mam.erl:1246 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
-#: src/mod_roster.erl:436 src/mod_offline.erl:339 src/mod_offline.erl:730
+#: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
 #: src/mod_register.erl:406 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:125 src/nodetree_tree_sql.erl:139
 #: src/nodetree_tree_sql.erl:309 src/mod_push.erl:306 src/mod_push.erl:321
-#: src/mod_blocking.erl:261 src/mod_muc.erl:797 src/mod_muc.erl:1109
+#: src/mod_blocking.erl:261 src/mod_muc.erl:796 src/mod_muc.erl:1108
 #: src/mod_mix.erl:652 src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "Dështim baze të dhënash"
@@ -553,7 +553,7 @@ msgstr ""
 msgid "End User Session"
 msgstr ""
 
-#: src/mod_muc.erl:1084
+#: src/mod_muc.erl:1083
 msgid "Enter nickname you want to register"
 msgstr ""
 
@@ -794,7 +794,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr "Parashtim Captcha-je të pasaktë"
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1132
+#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1131
 msgid "Incorrect data form"
 msgstr ""
 
@@ -826,7 +826,7 @@ msgstr ""
 msgid "Installed Modules:"
 msgstr ""
 
-#: src/mod_privilege.erl:243
+#: src/mod_privilege.erl:244
 msgid "Insufficient privilege"
 msgstr "Privilegj i pamjaftueshëm"
 
@@ -834,7 +834,7 @@ msgstr "Privilegj i pamjaftueshëm"
 msgid "Internal server error"
 msgstr "Gabim i brendshëm shërbyesi"
 
-#: src/mod_privilege.erl:529
+#: src/mod_privilege.erl:539
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr ""
 
@@ -872,7 +872,7 @@ msgstr ""
 msgid "JID normalization failed"
 msgstr "Normalizimi JID dështoi"
 
-#: src/mod_muc_admin.erl:982 src/mod_vcard_sql.erl:241
+#: src/mod_muc_admin.erl:1107 src/mod_vcard_sql.erl:241
 #: src/mod_muc_room.erl:4944 src/mod_muc_room.erl:5012
 #: src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
 #: src/mod_configure.erl:974 src/mod_configure.erl:991
@@ -902,7 +902,7 @@ msgstr "Korrik"
 msgid "June"
 msgstr "Qershor"
 
-#: src/mod_muc_admin.erl:988
+#: src/mod_muc_admin.erl:1113
 msgid "Just created"
 msgstr "Të sapokrijuara"
 
@@ -914,7 +914,7 @@ msgstr "Veprimtaria e Fundit"
 msgid "Last login"
 msgstr "Hyrja e fundit"
 
-#: src/mod_muc_admin.erl:984
+#: src/mod_muc_admin.erl:1109
 msgid "Last message"
 msgstr "Mesazhi i fundit"
 
@@ -943,11 +943,11 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:987
+#: src/mod_muc_admin.erl:1112
 msgid "Logging"
 msgstr "Regjistrim"
 
-#: src/mod_mam.erl:858
+#: src/mod_mam.erl:859
 msgid "MAM preference modification denied by service policy"
 msgstr ""
 
@@ -1046,7 +1046,7 @@ msgstr ""
 msgid "Message body"
 msgstr "Lëndë mesazhi"
 
-#: src/mod_privilege.erl:534
+#: src/mod_privilege.erl:544
 msgid "Message not found in forwarded payload"
 msgstr ""
 
@@ -1098,8 +1098,8 @@ msgstr "Moduli s’arrii të trajtonte kërkesën"
 msgid "Monday"
 msgstr "E hënë"
 
-#: src/mod_muc_admin.erl:615 src/mod_muc_admin.erl:618
-#: src/mod_muc_admin.erl:624 src/mod_muc_admin.erl:632
+#: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742
+#: src/mod_muc_admin.erl:748 src/mod_muc_admin.erl:756
 msgid "Multi-User Chat"
 msgstr "Fjalosje Me Shumë Përdorues Njëherësh"
 
@@ -1151,7 +1151,7 @@ msgstr "Fjalëkalim i Ri:"
 msgid "Nickname"
 msgstr "Nofkë"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1082
 msgid "Nickname Registration at "
 msgstr "Regjistrim Nofke te "
 
@@ -1190,11 +1190,11 @@ msgstr ""
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
-#: src/mod_privilege.erl:543
+#: src/mod_privilege.erl:553
 msgid "No <forwarded/> element found"
 msgstr ""
 
-#: src/mod_privilege.erl:570
+#: src/mod_privilege.erl:584
 msgid "No <privileged_iq/> element found"
 msgstr "S’u gjetën elementë <privileged_iq/>"
 
@@ -1226,7 +1226,7 @@ msgstr "S’u gjetën elementë pjella"
 msgid "No data form found"
 msgstr ""
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:629
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
 msgid "No features available"
 msgstr ""
 
@@ -1248,11 +1248,11 @@ msgid "No limit"
 msgstr "Pa kufi"
 
 #: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:351
+#: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
 #: src/mod_blocking.erl:81 src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:248 src/mod_muc.erl:674
+#: src/mod_muc.erl:749 src/mod_muc.erl:769 src/mod_muc.erl:800
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr ""
@@ -1295,7 +1295,7 @@ msgstr "S’u gjetën statistika për këtë objekt"
 msgid "Nobody"
 msgstr "Askush"
 
-#: src/mod_muc_admin.erl:990
+#: src/mod_muc_admin.erl:1115
 msgid "Node"
 msgstr "Nyjë"
 
@@ -1316,8 +1316,8 @@ msgstr "S’u gjet tregues nyje"
 #: src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
 #: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648
 #: src/mod_muc_room.erl:4652 src/ejabberd_web_admin.erl:633
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1021
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:747
+#: src/mod_muc.erl:1020
 msgid "Node not found"
 msgstr "S’u gjet nyjë"
 
@@ -1447,7 +1447,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Dorëzo njoftime vetëm te përdoruesit e pranishëm"
 
-#: src/mod_mam.erl:590
+#: src/mod_mam.erl:591
 msgid "Only members may query archives of this room"
 msgstr ""
 
@@ -1483,7 +1483,7 @@ msgstr ""
 msgid "Only publishers may publish"
 msgstr "Vetëm botuesit mund të botojnë"
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:238
 msgid "Only service administrators are allowed to send service messages"
 msgstr ""
 
@@ -1580,7 +1580,7 @@ msgstr "Periudhë: "
 msgid "Persist items to storage"
 msgstr ""
 
-#: src/mod_muc_admin.erl:986
+#: src/mod_muc_admin.erl:1111
 msgid "Persistent"
 msgstr ""
 
@@ -1639,7 +1639,7 @@ msgstr "Sesionit të mëparshëm i mbaroi koha"
 msgid "PubSub subscriber request"
 msgstr ""
 
-#: src/mod_muc_admin.erl:985
+#: src/mod_muc_admin.erl:1110
 msgid "Public"
 msgstr ""
 
@@ -1647,7 +1647,7 @@ msgstr ""
 msgid "Publish model"
 msgstr ""
 
-#: src/mod_pubsub.erl:4329
+#: src/mod_pubsub.erl:4327
 msgid "Publish-Subscribe"
 msgstr ""
 
@@ -1666,7 +1666,7 @@ msgstr ""
 
 #: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
 #: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
-#: src/mod_roster.erl:133 src/mod_offline.erl:318 src/mod_blocking.erl:74
+#: src/mod_roster.erl:133 src/mod_offline.erl:323 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr ""
 
@@ -1792,7 +1792,7 @@ msgstr "Formësim Dhome"
 msgid "Room Occupants"
 msgstr "Të pranishëm Në Dhomë"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:638
 msgid "Room creation is denied by service policy"
 msgstr ""
 
@@ -1806,7 +1806,7 @@ msgstr "Përshkrim i dhomës"
 msgid "Room terminates"
 msgstr ""
 
-#: src/mod_muc_admin.erl:989 src/mod_muc_log.erl:843
+#: src/mod_muc_admin.erl:1114 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Titull dhome"
@@ -1893,7 +1893,7 @@ msgstr ""
 msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
 
-#: src/mod_shared_roster.erl:872 src/mod_shared_roster.erl:880
+#: src/mod_shared_roster.erl:886 src/mod_shared_roster.erl:894
 msgid "Shared Roster Groups"
 msgstr ""
 
@@ -2028,7 +2028,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr ""
 
 #: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360
-#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1106
+#: src/mod_muc_room.erl:4746 src/mod_muc.erl:1105
 msgid "That nickname is registered by another person"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Çregjistrohuni"
 msgid "Unregister an XMPP account"
 msgstr "Çregjistroni një llogari XMPP"
 
-#: src/mod_mam.erl:890
+#: src/mod_mam.erl:891
 msgid "Unsupported <index/> element"
 msgstr ""
 
@@ -2481,9 +2481,9 @@ msgstr ""
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
 #: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
-#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:671
+#: src/mod_muc.erl:709 src/mod_muc.erl:754 src/mod_muc.erl:774
+#: src/mod_muc.erl:784 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2662,7 +2662,7 @@ msgstr "Jeni dëbuar prej kësaj dhome"
 msgid "You have joined too many conferences"
 msgstr "Keni hyrë në shumë konferenca"
 
-#: src/mod_muc.erl:1137
+#: src/mod_muc.erl:1136
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr ""
 
@@ -2670,7 +2670,7 @@ msgstr ""
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 
-#: src/mod_muc.erl:1092
+#: src/mod_muc.erl:1091
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
 
@@ -2690,11 +2690,11 @@ msgstr "Llogaria juaj XMPP u regjistrua me sukses."
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Llogaria juaj XMPP u çregjistrua me sukses."
 
-#: src/ejabberd_c2s.erl:774 src/ejabberd_c2s.erl:928
+#: src/ejabberd_c2s.erl:789 src/ejabberd_c2s.erl:943
 msgid "Your active privacy list has denied the routing of this stanza."
 msgstr ""
 
-#: src/mod_offline.erl:726
+#: src/mod_offline.erl:731
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
 msgstr ""
@@ -2713,7 +2713,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:665
 msgid "ejabberd MUC module"
 msgstr ""
 
@@ -2785,11 +2785,11 @@ msgstr ""
 msgid "~s invites you to the room ~s"
 msgstr ""
 
-#: src/mod_mam.erl:1695
+#: src/mod_mam.erl:1709
 msgid "~ts's MAM Archive"
 msgstr ""
 
-#: src/mod_offline.erl:763
+#: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
 msgstr ""
 
