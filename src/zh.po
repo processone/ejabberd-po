@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-30 13:01+0000\n"
-"Last-Translator: Sketch6580 <Sketch6580@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-01-20 18:19+0000\n"
+"Last-Translator: Sketch6580 <sketch6580@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/ejabberd/ejabberd-po/zh_Hans/>\n"
 "Language: zh\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Language: Chinese (中文)\n"
 "X-Additional-Translator: Mike Wang\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -47,7 +47,7 @@ msgstr "节点的易记名称"
 
 #: src/mod_muc_room.erl:2399
 msgid "A password is required to enter this room"
-msgstr "进入此群聊需要密码"
+msgstr "需要密码才能进入此群聊"
 
 #: src/ejabberd_oauth.erl:554
 msgid "Accept"
@@ -116,7 +116,7 @@ msgstr "允许订阅"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:380
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
-msgstr "允许此 Jabber ID 订阅此 pubsub 节点？"
+msgstr "允许此 XMPP 地址订阅此 pubsub 节点？"
 
 #: _build/translations/lib/xmpp/src/muc_register.erl:465
 msgid "Allow this person to register with the room?"
@@ -144,21 +144,21 @@ msgstr "允许用户发送私信"
 #: src/mod_muc_log.erl:873
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1787
 msgid "Allow visitors to change nickname"
-msgstr "允许访客更改昵称"
+msgstr "允许参观者更改昵称"
 
 #: src/mod_muc_log.erl:866
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1752
 msgid "Allow visitors to send private messages to"
-msgstr "允许访客发送私信至"
+msgstr "允许参观者发送私信至"
 
 #: src/mod_muc_log.erl:875
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1768
 msgid "Allow visitors to send status text in presence updates"
-msgstr "允许访客在在线状态更新中发送状态文本"
+msgstr "允许参观者在在线状态更新中发送状态文本"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1803
 msgid "Allow visitors to send voice requests"
-msgstr "允许访客发送发言请求"
+msgstr "允许参观者发送发言请求"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:999
 msgid ""
@@ -335,7 +335,7 @@ msgstr "不允许更改角色/从属关系"
 
 #: src/mod_mix_pam.erl:507
 msgid "Channel JID"
-msgstr "频道 JID"
+msgstr "频道 XMPP 地址"
 
 #: src/mod_mix.erl:657
 msgid "Channel already exists"
@@ -420,7 +420,7 @@ msgstr "群聊 ~s 的配置"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:952
 msgid "Contact Addresses (normally, room owner or owners)"
-msgstr "联系人地址（通常为群聊所有者）"
+msgstr "联系地址（通常为群聊所有者）"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
@@ -496,7 +496,7 @@ msgstr "仅磁盘副本"
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
-msgstr "不要将密码告诉任何人，甚至是 XMPP 服务的管理员。"
+msgstr "不要将密码告诉任何人，甚至是 XMPP 服务器的管理员。"
 
 #: src/mod_configure.erl:859
 msgid "Dump Backup to Text File at "
@@ -544,7 +544,7 @@ msgstr "启用日志记录"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2268
 msgid "Enable message archiving"
-msgstr "启用消息存档"
+msgstr "启用消息归档"
 
 #: src/mod_push.erl:294
 msgid "Enabling push without 'node' attribute is not supported"
@@ -586,7 +586,7 @@ msgstr "Erlang XMPP 服务器"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1868
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
-msgstr "从验证码挑战中排除 Jabber ID"
+msgstr "从验证码挑战中排除 XMPP 地址"
 
 #: src/ejabberd_web_admin.erl:1200
 msgid "Export all tables as SQL queries to a file:"
@@ -614,19 +614,19 @@ msgstr "常见问题解答"
 
 #: src/mod_proxy65_service.erl:229
 msgid "Failed to activate bytestream"
-msgstr "激活字节流失败"
+msgstr "无法激活字节流"
 
 #: src/mod_muc_room.erl:1306
 msgid "Failed to extract JID from your voice request approval"
-msgstr "无法从发言请求批准中提取 JID"
+msgstr "无法从发言请求批准中提取 XMPP 地址"
 
 #: src/mod_delegation.erl:332
 msgid "Failed to map delegated namespace to external component"
-msgstr "未能将委托命名空间映射到外部组件"
+msgstr "无法将委托命名空间映射到外部组件"
 
 #: src/mod_http_upload.erl:861
 msgid "Failed to parse HTTP response"
-msgstr "HTTP 响应解析失败"
+msgstr "无法解析 HTTP 响应"
 
 #: src/mod_muc_room.erl:3956
 msgid "Failed to process option '~s'"
@@ -661,11 +661,11 @@ msgstr "来自 ~ts"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2170
 msgid "Full List of Room Admins"
-msgstr "群聊管理员完整列表"
+msgstr "群聊管理员的完整列表"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2213
 msgid "Full List of Room Owners"
-msgstr "群聊所有者完整列表"
+msgstr "群聊所有者的完整列表"
 
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_sql.erl:228 src/mod_vcard_sql.erl:242
@@ -882,7 +882,7 @@ msgstr "JID 规范化失败"
 #: src/mod_configure.erl:1025 src/mod_configure.erl:1034
 #: src/mod_configure.erl:1349 src/mod_configure.erl:1374
 msgid "Jabber ID"
-msgstr "Jabber ID"
+msgstr "XMPP 地址"
 
 #: src/mod_muc_log.erl:491
 msgid "January"
@@ -935,11 +935,11 @@ msgstr "文本的 SHA-256 哈希的最低有效位应等于十六进制标签"
 
 #: src/mod_muc_room.erl:5075
 msgid "List of users with hats"
-msgstr "有头衔用户的列表"
+msgstr "有头衔的用户列表"
 
 #: src/mod_muc_room.erl:4523 src/mod_muc_room.erl:4631
 msgid "List users with hats"
-msgstr "有头衔用户列表"
+msgstr "列出有头衔的用户"
 
 #: src/ejabberd_web_admin.erl:164
 msgid "Logged Out"
@@ -1013,12 +1013,12 @@ msgstr "最大有效负载大小（字节）"
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:870
 msgid "Maximum Number of History Messages Returned by Room"
-msgstr "群聊返回的聊天记录消息的最大值"
+msgstr "群聊返回的最大历史消息数"
 
 #: src/mod_muc_log.erl:883
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
-msgstr "最大参与者人数"
+msgstr "最大参与人数"
 
 #: _build/translations/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
@@ -1107,7 +1107,7 @@ msgstr "周一"
 #: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742
 #: src/mod_muc_admin.erl:748 src/mod_muc_admin.erl:756
 msgid "Multi-User Chat"
-msgstr "多用户聊天"
+msgstr "群聊"
 
 #: src/mod_multicast.erl:1017
 msgid "Multicast"
@@ -1206,35 +1206,35 @@ msgstr "未找到 <privileged_iq/> 元素"
 
 #: src/ejabberd_web_admin.erl:1076
 msgid "No Data"
-msgstr "没有数据"
+msgstr "无数据"
 
 #: src/mod_multicast.erl:310
 msgid "No address elements found"
-msgstr "找不到地址元素"
+msgstr "未找到地址元素"
 
 #: src/mod_multicast.erl:307
 msgid "No addresses element found"
-msgstr "找不到地址元素"
+msgstr "未找到地址元素"
 
 #: src/ejabberd_local.erl:103
 msgid "No available resource found"
-msgstr "找不到可用资源"
+msgstr "未找到可用资源"
 
 #: src/mod_announce.erl:576
 msgid "No body provided for announce message"
-msgstr "没有为公告消息提供正文"
+msgstr "未提供公告消息正文"
 
 #: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1330
 msgid "No child elements found"
-msgstr "没有找到子元素"
+msgstr "未找到子元素"
 
 #: src/mod_pubsub.erl:1244
 msgid "No data form found"
-msgstr "没有找到数据表单"
+msgstr "未找到数据表单"
 
 #: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
 msgid "No features available"
-msgstr "没有可用功能"
+msgstr "无可用功能"
 
 #: src/mod_adhoc.erl:197
 msgid "No hook has processed this command"
@@ -1251,7 +1251,7 @@ msgstr "在此查询中找不到任何项目"
 #: src/mod_muc_room.erl:3826
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
-msgstr "没有限制"
+msgstr "无限制"
 
 #: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
@@ -1285,7 +1285,7 @@ msgstr "在此查询中找不到专用数据"
 #: src/mod_configure.erl:1186 src/mod_configure.erl:1218
 #: src/mod_configure.erl:1238
 msgid "No running node found"
-msgstr "找不到正在运行的节点"
+msgstr "未找到正在运行的节点"
 
 #: src/mod_disco.erl:196 src/mod_vcard.erl:286
 msgid "No services available"
@@ -1315,7 +1315,7 @@ msgstr "节点已存在"
 
 #: src/nodetree_tree_sql.erl:97
 msgid "Node index not found"
-msgstr "没有找到节点索引"
+msgstr "未找到节点索引"
 
 #: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141
 #: src/mod_muc_room.erl:4472 src/mod_muc_room.erl:4490
@@ -1325,7 +1325,7 @@ msgstr "没有找到节点索引"
 #: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:747
 #: src/mod_muc.erl:1020
 msgid "Node not found"
-msgstr "没有找到节点"
+msgstr "未找到节点"
 
 #: src/ejabberd_web_admin.erl:1140 src/ejabberd_web_admin.erl:1146
 msgid "Node ~p"
@@ -1345,7 +1345,7 @@ msgstr "无"
 
 #: src/ejabberd_web_admin.erl:615
 msgid "Not Found"
-msgstr "没有找到"
+msgstr "未找到"
 
 #: src/mod_register.erl:402
 msgid "Not allowed"
@@ -1376,7 +1376,7 @@ msgstr "十一月"
 
 #: _build/translations/lib/xmpp/src/flex_offline.erl:261
 msgid "Number of Offline Messages"
-msgstr "离线消息数量"
+msgstr "离线消息数"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:777
 msgid "Number of answers required"
@@ -1384,7 +1384,7 @@ msgstr "所需答案数量"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1048
 msgid "Number of occupants"
-msgstr "参与者人数"
+msgstr "参与人数"
 
 #: src/mod_configure.erl:1075
 msgid "Number of online users"
@@ -1411,11 +1411,11 @@ msgstr "参与者可以更改话题"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:887
 msgid "Occupants are allowed to invite others"
-msgstr "允许参与者邀请别人"
+msgstr "允许参与者邀请他人"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:904
 msgid "Occupants are allowed to query others"
-msgstr "允许参与者查询别人"
+msgstr "允许参与者查询他人"
 
 #: src/mod_muc_log.erl:500
 msgid "October"
@@ -1455,17 +1455,17 @@ msgstr "仅向在线用户发送通知"
 
 #: src/mod_mam.erl:591
 msgid "Only members may query archives of this room"
-msgstr "只有成员才能查询此群聊的存档"
+msgstr "只有成员才能查询此群聊的归档"
 
 #: src/mod_muc_room.erl:1117
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
-msgstr "只允许主持人和参与者在此群聊更改话题"
+msgstr "只允许主持人和参与者更改此群聊的话题"
 
 #: src/mod_muc_room.erl:1122
 msgid "Only moderators are allowed to change the subject in this room"
-msgstr "只允许主持人在此群聊更改话题"
+msgstr "只允许主持人更改此群聊的话题"
 
 #: src/mod_muc_room.erl:5188
 msgid "Only moderators are allowed to retract messages"
@@ -1621,7 +1621,7 @@ msgstr "按照 RFC6121， 不允许有“ask”属性"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2253
 msgid "Present real Jabber IDs to"
-msgstr "将用户真实 JID 显示给"
+msgstr "将真实 XMPP 地址显示给"
 
 #: src/mod_stream_mgmt.erl:840
 msgid "Previous session PID has been killed"
@@ -1637,7 +1637,7 @@ msgstr "上一个会话 PID 已失效"
 
 #: src/mod_stream_mgmt.erl:832
 msgid "Previous session not found"
-msgstr "上一个会话未找到"
+msgstr "未找到上一个会话"
 
 #: src/mod_stream_mgmt.erl:834
 msgid "Previous session timed out"
@@ -1666,7 +1666,7 @@ msgstr "相关发布者离线后清除所有项目"
 
 #: src/mod_push.erl:324
 msgid "Push record not found"
-msgstr "推送记录未找到"
+msgstr "未找到推送记录"
 
 #: src/mod_muc_room.erl:697
 msgid "Queries to the conference members are not allowed in this room"
@@ -1777,7 +1777,7 @@ msgstr "立即恢复二进制备份："
 
 #: src/ejabberd_web_admin.erl:1186
 msgid "Restore plain text backup immediately:"
-msgstr "立即恢复明文备份："
+msgstr "立即恢复纯文本备份："
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1951
 msgid "Roles and Affiliations that May Retrieve Member List"
@@ -1972,7 +1972,7 @@ msgstr "存储二进制备份："
 
 #: src/ejabberd_web_admin.erl:1184
 msgid "Store plain text backup:"
-msgstr "存储明文备份："
+msgstr "存储纯文本备份："
 
 #: src/mod_stream_mgmt.erl:401
 msgid "Stream management is already enabled"
@@ -2223,7 +2223,7 @@ msgstr "查询不能包含 <item/> 元素"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1079
 msgid "The room subject can be modified by participants"
-msgstr "群聊话题可由参与者修改"
+msgstr "参与者可以修改群聊话题"
 
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
@@ -2268,9 +2268,8 @@ msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
-msgstr ""
-"本页面允许在此服务器中注册 XMPP 账号，您的 JID（Jabber ID）的格式为：用户名@"
-"服务器。请仔细阅读说明以正确填写字段。"
+msgstr "本页面允许在此服务器中注册 XMPP 账号，您的 XMPP "
+"地址的格式为：用户名@服务器。请仔细阅读说明以正确填写字段。"
 
 #: src/mod_register_web.erl:494
 msgid "This page allows to unregister an XMPP account in this XMPP server."
@@ -2312,9 +2311,8 @@ msgstr "令牌 TTL"
 msgid ""
 "Too many (~p) failed authentications from this IP address (~s). The address "
 "will be unblocked at ~s UTC"
-msgstr ""
-"有太多 (~p) 失败的身份验证来自此 IP 地址 (~s)，将在 UTC 时间 ~s 解除对该地址"
-"的屏蔽"
+msgstr "有太多 (~p) 失败的身份验证来自此 IP 地址 (~s)，将在 UTC 时间 ~s "
+"取消对该地址的屏蔽"
 
 #: src/mod_muc_room.erl:3070 src/mod_muc_room.erl:3710
 msgid "Too many <item/> elements"
@@ -2359,7 +2357,7 @@ msgstr "周二"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1019
 msgid "URL for Archived Discussion Logs"
-msgstr "存档讨论日志的 URL"
+msgstr "已归档的讨论日志 URL"
 
 #: src/mod_register.erl:254 src/mod_block_strangers.erl:138
 #: src/mod_muc_room.erl:2439
@@ -2460,7 +2458,7 @@ msgstr "用户已移除"
 
 #: src/mod_sic.erl:86 src/ejabberd_sm.erl:223 src/mod_push.erl:309
 msgid "User session not found"
-msgstr "用户会话未找到"
+msgstr "未找到用户会话"
 
 #: src/mod_stream_mgmt.erl:666 src/mod_stream_mgmt.erl:689
 msgid "User session terminated"
@@ -2530,15 +2528,15 @@ msgstr "虚拟主机"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2112
 msgid "Visitor"
-msgstr "访客"
+msgstr "参观者"
 
 #: src/mod_muc_room.erl:1423
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr "不允许访客在此群聊中更改其昵称"
+msgstr "不允许参观者在此群聊中更改其昵称"
 
 #: src/mod_muc_room.erl:1129
 msgid "Visitors are not allowed to send messages to all occupants"
-msgstr "不允许访客向所有参与者发送消息"
+msgstr "不允许参观者向所有参与者发送消息"
 
 #: src/mod_muc_room.erl:5232
 msgid "Voice request"
@@ -2721,8 +2719,7 @@ msgstr "您的联系人离线消息队列已满。消息已被丢弃。"
 msgid ""
 "Your subscription request and/or messages to ~s have been blocked. To "
 "unblock your subscription request, visit ~s"
-msgstr ""
-"您对 ~s 的订阅请求和/或消息已被屏蔽。若要解除屏蔽您的订阅请求，请访问 ~s"
+msgstr "您发给 ~s 的订阅请求和/或消息已被屏蔽。若要取消屏蔽您的订阅请求，请访问 ~s"
 
 #: src/mod_disco.erl:403
 msgid "ejabberd"
@@ -2774,7 +2771,7 @@ msgstr "由于从属关系的更改而被踢出"
 
 #: src/mod_muc_log.erl:418
 msgid "has been kicked because the room has been changed to members-only"
-msgstr "被踢出，因为群聊已更改为仅成员进入"
+msgstr "被踢出，因为群聊已更改为仅成员"
 
 #: src/mod_muc_log.erl:428
 msgid "is now known as"
@@ -2806,7 +2803,7 @@ msgstr "~s 邀请您加入群聊 ~s"
 
 #: src/mod_mam.erl:1709
 msgid "~ts's MAM Archive"
-msgstr "~ts 的 MAM 存档"
+msgstr "~ts 的 MAM 归档"
 
 #: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
