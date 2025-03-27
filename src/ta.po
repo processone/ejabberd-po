@@ -24,7 +24,7 @@ msgstr " (அடி மூலக்கூறுடன் பொருந்த�
 msgid " has set the subject to: "
 msgstr " இதற்கு பொருள் அமைத்துள்ளது: "
 
-#: src/mod_muc_admin.erl:1108
+#: src/mod_muc_admin.erl:1109
 msgid "# participants"
 msgstr "# பங்கேற்பாளர்கள்"
 
@@ -32,17 +32,25 @@ msgstr "# பங்கேற்பாளர்கள்"
 msgid "A Web Page"
 msgstr "ஒரு வலைப்பக்கம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1775 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1775
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 msgid "A description of the node"
 msgstr "முனையின் விளக்கம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 msgid "A friendly name for the node"
 msgstr "முனைக்கு ஒரு நட்பு பெயர்"
 
-#: src/mod_muc_room.erl:2399
+#: src/mod_muc_room.erl:2403
 msgid "A password is required to enter this room"
 msgstr "இந்த அறைக்குள் நுழைய கடவுச்சொல் தேவை"
+
+#: src/mod_adhoc_api.erl:157 src/mod_adhoc_api.erl:282
+#, fuzzy
+msgid "API Commands"
+msgstr "கட்டளைகள்"
 
 #: src/ejabberd_oauth.erl:554
 msgid "Accept"
@@ -50,13 +58,16 @@ msgstr "ஏற்றுக்கொள்"
 
 #: src/mod_multicast.erl:304 src/mod_announce.erl:242 src/mod_announce.erl:257
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
-#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:507 src/ejabberd_c2s.erl:777
-#: src/ejabberd_service.erl:232 src/mod_register.erl:118 src/mod_register.erl:283
-#: src/mod_register.erl:394 src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
-#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796 src/mod_stun_disco.erl:504
-#: src/mod_muc.erl:218 src/mod_muc.erl:702 src/mod_configure.erl:159
-#: src/mod_configure.erl:278 src/mod_configure.erl:404 src/mod_configure.erl:694
-#: src/mod_configure.erl:1453 src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
+#: src/mod_roster.erl:164 src/ejabberd_c2s.erl:539 src/ejabberd_c2s.erl:823
+#: src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_register.erl:283 src/mod_register.erl:394
+#: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
+#: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
+#: src/mod_stun_disco.erl:506 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/mod_configure.erl:164 src/mod_configure.erl:283
+#: src/mod_configure.erl:410 src/mod_configure.erl:700
+#: src/mod_configure.erl:1459 src/mod_proxy65_service.erl:197
+#: src/mod_proxy65_service.erl:246
 msgid "Access denied by service policy"
 msgstr "பணி கொள்கையால் மறுக்கப்பட்டது"
 
@@ -68,15 +79,17 @@ msgstr "அணுகல் மாதிரி"
 msgid "Account doesn't exist"
 msgstr "கணக்கு இல்லை"
 
-#: src/mod_configure.erl:1487
+#: src/mod_configure.erl:1493
 msgid "Action on user"
 msgstr "பயனரின் செயல்"
 
-#: src/mod_configure.erl:131 src/mod_configure.erl:482 src/mod_configure.erl:970
+#: src/mod_configure.erl:136 src/mod_configure.erl:488
+#: src/mod_configure.erl:976
 msgid "Add User"
 msgstr "பயனரைச் சேர்க்கவும்"
 
-#: src/mod_muc_room.erl:4487 src/mod_muc_room.erl:4623 src/mod_muc_room.erl:4939
+#: src/mod_muc_room.erl:4491 src/mod_muc_room.erl:4631
+#: src/mod_muc_room.erl:4947
 msgid "Add a hat to a user"
 msgstr "ஒரு பயனருக்கு ஒரு தொப்பியைச் சேர்க்கவும்"
 
@@ -84,15 +97,15 @@ msgstr "ஒரு பயனருக்கு ஒரு தொப்பியை
 msgid "Administration"
 msgstr "நிர்வாகம்"
 
-#: src/mod_configure.erl:1482
+#: src/mod_configure.erl:1488
 msgid "Administration of "
 msgstr "நிர்வாகம் "
 
-#: src/mod_muc_room.erl:3093
+#: src/mod_muc_room.erl:3097
 msgid "Administrator privileges required"
 msgstr "நிர்வாகி சலுகைகள் தேவை"
 
-#: src/mod_configure.erl:472
+#: src/mod_configure.erl:478
 msgid "All Users"
 msgstr "அனைத்து பயனர்களும்"
 
@@ -112,15 +125,18 @@ msgstr "இந்த பப்சப் முனைக்கு குழுச
 msgid "Allow this person to register with the room?"
 msgstr "இந்த நபரை அறையில் பதிவு செய்ய அனுமதிக்கவா?"
 
-#: src/mod_muc_log.erl:862 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1915
+#: src/mod_muc_log.erl:862
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1915
 msgid "Allow users to change the subject"
 msgstr "இந்த விசயத்தை மாற்ற பயனர்களை அனுமதிக்கவும்"
 
-#: src/mod_muc_log.erl:868 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1884
+#: src/mod_muc_log.erl:868
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1884
 msgid "Allow users to query other users"
 msgstr "பயனர்களை மற்ற பயனர்களை வினவ அனுமதிக்கவும்"
 
-#: src/mod_muc_log.erl:870 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1899
+#: src/mod_muc_log.erl:870
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1899
 msgid "Allow users to send invites"
 msgstr "அழைப்புகளை அனுப்ப பயனர்களை அனுமதிக்கவும்"
 
@@ -128,25 +144,30 @@ msgstr "அழைப்புகளை அனுப்ப பயனர்கள�
 msgid "Allow users to send private messages"
 msgstr "தனிப்பட்ட செய்திகளை அனுப்ப பயனர்களை அனுமதிக்கவும்"
 
-#: src/mod_muc_log.erl:873 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1787
+#: src/mod_muc_log.erl:873
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1787
 msgid "Allow visitors to change nickname"
 msgstr "பார்வையாளர்களை புனைப்பெயரை மாற்ற அனுமதிக்கவும்"
 
-#: src/mod_muc_log.erl:866 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1752
+#: src/mod_muc_log.erl:866
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1752
 msgid "Allow visitors to send private messages to"
 msgstr "தனிப்பட்ட செய்திகளை அனுப்ப பார்வையாளர்களை அனுமதிக்கவும்"
 
-#: src/mod_muc_log.erl:875 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1768
+#: src/mod_muc_log.erl:875
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1768
 msgid "Allow visitors to send status text in presence updates"
-msgstr ""
-"முன்னிலையில் புதுப்பிப்புகளில் நிலை உரையை அனுப்ப பார்வையாளர்களை அனுமதிக்கவும்"
+msgstr "முன்னிலையில் புதுப்பிப்புகளில் நிலை உரையை அனுப்ப பார்வையாளர்களை அனுமதிக்கவும்"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1803
 msgid "Allow visitors to send voice requests"
 msgstr "குரல் கோரிக்கைகளை அனுப்ப பார்வையாளர்களை அனுமதிக்கவும்"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:999
-msgid "An associated LDAP group that defines room membership; this should be an LDAP Distinguished Name according to an implementation-specific or deployment-specific definition of a group."
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1043
+msgid ""
+"An associated LDAP group that defines room membership; this should be an "
+"LDAP Distinguished Name according to an implementation-specific or "
+"deployment-specific definition of a group."
 msgstr ""
 "அறை உறுப்பினர்களை வரையறுக்கும் தொடர்புடைய எல்.டி.ஏ.பி குழு; இது ஒரு குழுவின் "
 "செயல்படுத்தல்-குறிப்பிட்ட அல்லது வரிசைப்படுத்தல்-குறிப்பிட்ட வரையறையின்படி எல்.டி.ஏ.பி "
@@ -172,35 +193,50 @@ msgstr "பேச்சுடன் தொடர்புடைய பதில�
 msgid "Answer to a question"
 msgstr "ஒரு கேள்விக்கு பதில்"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:916
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:960
 msgid "Anyone"
 msgstr "யாரும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1539 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:906 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
-msgid "Anyone in the specified roster group(s) may subscribe and retrieve items"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1539
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:906
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
+msgid ""
+"Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
 "குறிப்பிட்ட ரோச்டர் குழு (கள்) இல் உள்ள எவரும் உருப்படிகளை குழுசேரலாம் மற்றும் "
 "மீட்டெடுக்கலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1593 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1593
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
 msgid "Anyone may associate leaf nodes with the collection"
 msgstr "எவரும் இலை முனைகளை சேகரிப்புடன் தொடர்புபடுத்தலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2068 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:944 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2068
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:944
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
 msgid "Anyone may publish"
 msgstr "எவரும் வெளியிடலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1529 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:896 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1529
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:896
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
 msgid "Anyone may subscribe and retrieve items"
 msgstr "எவரும் பொருட்களை குழுசேர் மற்றும் மீட்டெடுக்கலாம்"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682 _build/translations/lib/xmpp/src/muc_roominfo.erl:919
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:963
 msgid "Anyone with Voice"
 msgstr "குரல் உள்ள எவரும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1533 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:900 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
-msgid "Anyone with a presence subscription of both or from may subscribe and retrieve items"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1533
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:900
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
+msgid ""
+"Anyone with a presence subscription of both or from may subscribe and "
+"retrieve items"
 msgstr ""
 "அல்லது இரண்டின் இருப்பு சந்தா உள்ள எவரும் உருப்படிகளை குழுசேர் மற்றும் மீட்டெடுக்கலாம்"
 
@@ -208,7 +244,12 @@ msgstr ""
 msgid "April"
 msgstr "ப-சித்திரை"
 
-#: src/mod_mix_pam.erl:369
+#: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:470
+#, fuzzy
+msgid "Arguments"
+msgstr "அறிவிப்புகள்"
+
+#: src/mod_mix_pam.erl:362
 msgid "Attribute 'channel' is required for this request"
 msgstr "இந்த கோரிக்கைக்கு 'சேனல்' என்ற பண்புக்கூறு தேவை"
 
@@ -216,11 +257,11 @@ msgstr "இந்த கோரிக்கைக்கு 'சேனல்' எ�
 msgid "Attribute 'id' is mandatory for MIX messages"
 msgstr "கலவை செய்திகளுக்கு 'ஐடி' கட்டாயமாகும்"
 
-#: src/mod_pubsub.erl:1181
+#: src/mod_pubsub.erl:1178
 msgid "Attribute 'jid' is not allowed here"
 msgstr "'சிட்' என்ற பண்புக்கூறு இங்கே அனுமதிக்கப்படவில்லை"
 
-#: src/mod_pubsub.erl:1184
+#: src/mod_pubsub.erl:1181
 msgid "Attribute 'node' is not allowed here"
 msgstr "'முனை' என்ற பண்புக்கூறு இங்கே அனுமதிக்கப்படவில்லை"
 
@@ -232,15 +273,15 @@ msgstr "சவாலைத் தூண்டும் சரணத்தின�
 msgid "August"
 msgstr "ஆ-ஆவணி"
 
-#: src/mod_pubsub.erl:1926
+#: src/mod_pubsub.erl:1923
 msgid "Automatic node creation is not enabled"
 msgstr "தானியங்கி முனை உருவாக்கம் இயக்கப்படவில்லை"
 
-#: src/mod_configure.erl:113 src/mod_configure.erl:561
+#: src/mod_configure.erl:118 src/mod_configure.erl:567
 msgid "Backup"
 msgstr "காப்புப்பிரதி"
 
-#: src/mod_configure.erl:545
+#: src/mod_configure.erl:551
 msgid "Backup Management"
 msgstr "காப்பு மேலாண்மை"
 
@@ -248,7 +289,7 @@ msgstr "காப்பு மேலாண்மை"
 msgid "Backup of ~p"
 msgstr "~p இன் காப்புப்பிரதி"
 
-#: src/mod_configure.erl:836
+#: src/mod_configure.erl:842
 msgid "Backup to File at "
 msgstr "தாக்கல் செய்ய காப்புப்பிரதி "
 
@@ -256,8 +297,9 @@ msgstr "தாக்கல் செய்ய காப்புப்பிர�
 msgid "Bad format"
 msgstr "மோசமான வடிவம்"
 
-#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351 src/mod_vcard_sql.erl:233
-#: src/mod_vcard_sql.erl:247 src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
+#: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
+#: src/mod_vcard_sql.erl:233 src/mod_vcard_sql.erl:247
+#: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 msgid "Birthday"
 msgstr "பிறந்த நாள்"
 
@@ -285,12 +327,13 @@ msgstr "இயல்புநிலை பட்டியலை அகற்ற 
 msgid "Challenge ID"
 msgstr "அறைகூவல் ஐடி"
 
-#: src/mod_register_web.erl:204 src/mod_register_web.erl:376 src/mod_register_web.erl:384
-#: src/mod_register_web.erl:409
+#: src/mod_register_web.erl:204 src/mod_register_web.erl:376
+#: src/mod_register_web.erl:384 src/mod_register_web.erl:409
 msgid "Change Password"
 msgstr "கடவுச்சொல்லை மாற்றவும்"
 
-#: src/mod_configure.erl:137 src/mod_configure.erl:487 src/mod_configure.erl:1007
+#: src/mod_configure.erl:142 src/mod_configure.erl:493
+#: src/mod_configure.erl:1013
 msgid "Change User Password"
 msgstr "பயனர் கடவுச்சொல்லை மாற்றவும்"
 
@@ -298,11 +341,11 @@ msgstr "பயனர் கடவுச்சொல்லை மாற்றவ�
 msgid "Changing password is not allowed"
 msgstr "கடவுச்சொல்லை மாற்ற அனுமதிக்கப்படவில்லை"
 
-#: src/mod_muc_room.erl:3360
+#: src/mod_muc_room.erl:3364
 msgid "Changing role/affiliation is not allowed"
 msgstr "பங்கு/இணைப்பை மாற்ற அனுமதிக்கப்படவில்லை"
 
-#: src/mod_mix_pam.erl:507
+#: src/mod_mix_pam.erl:500
 msgid "Channel JID"
 msgstr "சேனல் சிட்"
 
@@ -342,25 +385,25 @@ msgstr "அரட்டை அறை தொடங்கப்பட்டது"
 msgid "Chatroom is stopped"
 msgstr "அரட்டை அறை நிறுத்தப்பட்டது"
 
-#: src/mod_muc_admin.erl:1129 src/mod_muc.erl:1366
+#: src/mod_muc_admin.erl:1130 src/mod_muc.erl:1390
 msgid "Chatrooms"
 msgstr "அரட்டை அறைகள்"
 
 #: src/mod_register.erl:216
 msgid "Choose a username and password to register with this server"
-msgstr ""
-"இந்த சேவையகத்துடன் பதிவு செய்ய பயனர்பெயர் மற்றும் கடவுச்சொல்லைத் தேர்வுசெய்க"
+msgstr "இந்த சேவையகத்துடன் பதிவு செய்ய பயனர்பெயர் மற்றும் கடவுச்சொல்லைத் தேர்வுசெய்க"
 
-#: src/mod_configure.erl:809
+#: src/mod_configure.erl:815
 msgid "Choose storage type of tables"
 msgstr "அட்டவணைகளின் சேமிப்பக வகை என்பதைத் தேர்வுசெய்க"
 
-#: src/mod_pubsub.erl:1398
+#: src/mod_pubsub.erl:1395
 msgid "Choose whether to approve this entity's subscription."
 msgstr "இந்த நிறுவனத்தின் சந்தாவை அங்கீகரிக்க வேண்டுமா என்பதைத் தேர்வுசெய்க."
 
-#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353 src/mod_vcard_sql.erl:235
-#: src/mod_vcard_sql.erl:249 src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
+#: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
+#: src/mod_vcard_sql.erl:235 src/mod_vcard_sql.erl:249
+#: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 msgid "City"
 msgstr "நகரம்"
 
@@ -368,58 +411,65 @@ msgstr "நகரம்"
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr "சேவையகத்தால் அனுப்பப்பட்டதை விட கிளையன்ட் அதிக சரணத்தை ஒப்புக் கொண்டார்"
 
-#: src/mod_muc_room.erl:4470 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_adhoc_api.erl:438
+msgid "Clustering"
+msgstr ""
+
+#: src/mod_muc_room.erl:4474 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "கட்டளைகள்"
 
-#: src/mod_muc_room.erl:238 src/mod_muc_room.erl:249 src/mod_muc.erl:620
-#: src/mod_muc.erl:644
+#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:621
+#: src/mod_muc.erl:645
 msgid "Conference room does not exist"
 msgstr "மாநாட்டு அறை இல்லை"
 
-#: src/mod_configure.erl:99 src/mod_configure.erl:250 src/mod_configure.erl:271
-#: src/mod_configure.erl:469
+#: src/mod_configure.erl:104 src/mod_configure.erl:255
+#: src/mod_configure.erl:276 src/mod_configure.erl:475
 msgid "Configuration"
 msgstr "உள்ளமைவு"
 
-#: src/mod_muc_room.erl:3808
+#: src/mod_muc_room.erl:3812
 msgid "Configuration of room ~s"
 msgstr "அறையின் உள்ளமைவு ~s"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:952
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:996
 msgid "Contact Addresses (normally, room owner or owners)"
 msgstr "தொடர்பு முகவரிகள் (பொதுவாக, அறை உரிமையாளர் அல்லது உரிமையாளர்கள்)"
 
-#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352 src/mod_vcard_sql.erl:234
-#: src/mod_vcard_sql.erl:248 src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
+#: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
+#: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
+#: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 msgid "Country"
 msgstr "நாடு"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1063
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1107
 msgid "Current Discussion Topic"
 msgstr "தற்போதைய கலந்துரையாடல் தலைப்பு"
 
-#: src/mod_configure.erl:110 src/mod_configure.erl:543
+#: src/mod_configure.erl:115 src/mod_configure.erl:549
 msgid "Database"
 msgstr "தரவுத்தளம்"
 
-#: src/mod_configure.erl:807
+#: src/mod_configure.erl:813
 msgid "Database Tables Configuration at "
 msgstr "தரவுத்தள அட்டவணைகள் உள்ளமைவு "
 
-#: src/mod_last.erl:185 src/mod_mix_pam.erl:384 src/node_flat_sql.erl:804
-#: src/mod_vcard.erl:248 src/mod_pubsub.erl:3811 src/mod_pubsub.erl:3855
-#: src/mod_pubsub.erl:3877 src/mod_pubsub.erl:3961 src/mod_pubsub.erl:4180
-#: src/mod_mam.erl:855 src/mod_mam.erl:873 src/mod_mam.erl:903
-#: src/mod_mam.erl:1246 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_last.erl:185 src/mod_mix_pam.erl:377 src/node_flat_sql.erl:804
+#: src/mod_vcard.erl:248 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
+#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3958 src/mod_pubsub.erl:4177
+#: src/mod_mam.erl:850 src/mod_mam.erl:868 src/mod_mam.erl:898
+#: src/mod_mam.erl:1241 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
-#: src/mod_privacy.erl:343 src/mod_private.erl:196 src/mod_private.erl:203
+#: src/mod_privacy.erl:343 src/mod_private.erl:191 src/mod_private.erl:198
 #: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
-#: src/mod_register.erl:406 src/mod_carboncopy.erl:93 src/nodetree_tree_sql.erl:125
-#: src/nodetree_tree_sql.erl:139 src/nodetree_tree_sql.erl:309 src/mod_push.erl:306
-#: src/mod_push.erl:321 src/mod_blocking.erl:261 src/mod_muc.erl:796
-#: src/mod_muc.erl:1108 src/mod_mix.erl:652 src/mod_proxy65_service.erl:242
+#: src/mod_register.erl:406 src/mod_carboncopy.erl:93
+#: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
+#: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
+#: src/mod_push.erl:301 src/mod_push.erl:316 src/mod_blocking.erl:261
+#: src/mod_muc.erl:797 src/mod_muc.erl:1132 src/mod_mix.erl:652
+#: src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "தரவுத்தள தோல்வி"
 
@@ -427,11 +477,13 @@ msgstr "தரவுத்தள தோல்வி"
 msgid "December"
 msgstr "கா-மார்கழி"
 
-#: src/mod_muc_log.erl:860 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2062
+#: src/mod_muc_log.erl:860
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2062
 msgid "Default users as participants"
 msgstr "பங்கேற்பாளர்களாக இயல்புநிலை பயனர்கள்"
 
-#: src/mod_configure.erl:133 src/mod_configure.erl:483 src/mod_configure.erl:987
+#: src/mod_configure.erl:138 src/mod_configure.erl:489
+#: src/mod_configure.erl:993
 msgid "Delete User"
 msgstr "பயனரை நீக்கு"
 
@@ -443,28 +495,32 @@ msgstr "அன்றைய செய்தியை நீக்கு"
 msgid "Delete message of the day on all hosts"
 msgstr "அனைத்து புரவலர்களிலும் அன்றைய செய்தியை நீக்கு"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1744 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1742
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1744
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1742
 msgid "Deliver event notifications"
 msgstr "நிகழ்வு அறிவிப்புகளை வழங்கவும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1760 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1758
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1760
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1758
 msgid "Deliver payloads with event notifications"
 msgstr "நிகழ்வு அறிவிப்புகளுடன் பேலோடுகளை வழங்கவும்"
 
-#: src/mod_configure.erl:785
+#: src/mod_configure.erl:791
 msgid "Disc only copy"
 msgstr "வட்டு மட்டுமே நகலெடுக்கவும்"
 
 #: src/mod_register_web.erl:271
-msgid "Don't tell your password to anybody, not even the administrators of the XMPP server."
+msgid ""
+"Don't tell your password to anybody, not even the administrators of the XMPP "
+"server."
 msgstr ""
 "உங்கள் கடவுச்சொல்லை யாரிடமும் சொல்லாதீர்கள், எக்ச்எம்பி.பி சேவையகத்தின் நிர்வாகிகள் கூட இல்லை."
 
-#: src/mod_configure.erl:859
+#: src/mod_configure.erl:865
 msgid "Dump Backup to Text File at "
 msgstr "உரை கோப்பில் காப்புப்பிரதியை டம்ப் செய்யுங்கள் "
 
-#: src/mod_configure.erl:119 src/mod_configure.erl:565
+#: src/mod_configure.erl:124 src/mod_configure.erl:571
 msgid "Dump to Text File"
 msgstr "உரை கோப்பில் டம்ப் செய்யுங்கள்"
 
@@ -472,20 +528,22 @@ msgstr "உரை கோப்பில் டம்ப் செய்யுங
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "நகல் குழுக்கள் RFC6121 ஆல் அனுமதிக்கப்படவில்லை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1812 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1812
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr "உருப்படி வெளியீட்டாளரின் பதிலை மாறும் வகையில் குறிப்பிடவும்"
 
-#: src/mod_configure.erl:1491
+#: src/mod_configure.erl:1497
 msgid "Edit Properties"
 msgstr "பண்புகளைத் திருத்து"
 
-#: src/mod_muc_room.erl:5234
+#: src/mod_muc_room.erl:5242
 msgid "Either approve or decline the voice request."
 msgstr "குரல் கோரிக்கையை அங்கீகரிக்கவும் அல்லது நிராகரிக்கவும்."
 
-#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354 src/mod_vcard_sql.erl:236
-#: src/mod_vcard_sql.erl:250 src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
+#: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
+#: src/mod_vcard_sql.erl:236 src/mod_vcard_sql.erl:250
+#: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 msgid "Email"
 msgstr "மின்னஞ்சல்"
 
@@ -497,7 +555,8 @@ msgstr "மின்னஞ்சல் முகவரி"
 msgid "Enable hats"
 msgstr "தொப்பிகளை இயக்கவும்"
 
-#: src/mod_muc_log.erl:871 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1929
+#: src/mod_muc_log.erl:871
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1929
 msgid "Enable logging"
 msgstr "பதிவை இயக்கவும்"
 
@@ -505,35 +564,37 @@ msgstr "பதிவை இயக்கவும்"
 msgid "Enable message archiving"
 msgstr "செய்தி காப்பகத்தை இயக்கவும்"
 
-#: src/mod_push.erl:294
+#: src/mod_push.erl:289
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr "'முனை' பண்புக்கூறு இல்லாமல் உந்துதலை இயக்குவது ஆதரிக்கப்படவில்லை"
 
-#: src/mod_configure.erl:135 src/mod_configure.erl:485 src/mod_configure.erl:997
+#: src/mod_configure.erl:140 src/mod_configure.erl:491
+#: src/mod_configure.erl:1003
 msgid "End User Session"
 msgstr "இறுதி பயனர் அமர்வு"
 
-#: src/mod_muc.erl:1083
+#: src/mod_muc.erl:1107
 msgid "Enter nickname you want to register"
 msgstr "நீங்கள் பதிவு செய்ய விரும்பும் புனைப்பெயரை உள்ளிடவும்"
 
-#: src/mod_configure.erl:838 src/mod_configure.erl:850
+#: src/mod_configure.erl:844 src/mod_configure.erl:856
 msgid "Enter path to backup file"
 msgstr "காப்புப்பிரதி கோப்பிற்கு பாதையை உள்ளிடவும்"
 
-#: src/mod_configure.erl:884
+#: src/mod_configure.erl:890
 msgid "Enter path to jabberd14 spool dir"
 msgstr "Jabberd14 Spool அடைவு க்கு பாதையை உள்ளிடவும்"
 
-#: src/mod_configure.erl:873
+#: src/mod_configure.erl:879
 msgid "Enter path to jabberd14 spool file"
 msgstr "சாபர்ட் 14 ச்பூல் கோப்புக்கு பாதையை உள்ளிடவும்"
 
-#: src/mod_configure.erl:862
+#: src/mod_configure.erl:868
 msgid "Enter path to text file"
 msgstr "உரை கோப்புக்கு பாதையை உள்ளிடவும்"
 
-#: src/ejabberd_captcha.erl:73 _build/translations/lib/xmpp/src/captcha_form.erl:837
+#: src/ejabberd_captcha.erl:73
+#: _build/translations/lib/xmpp/src/captcha_form.erl:837
 msgid "Enter the text you see"
 msgstr "நீங்கள் பார்க்கும் உரையை உள்ளிடவும்"
 
@@ -547,8 +608,7 @@ msgstr "கேப்ட்சா சேலஞ்சில் இருந்த�
 
 #: src/ejabberd_web_admin.erl:1200
 msgid "Export all tables as SQL queries to a file:"
-msgstr ""
-"அனைத்து அட்டவணைகளையும் கவிமொ வினவல்களாக ஒரு கோப்பில் ஏற்றுமதி செய்யுங்கள்:"
+msgstr "அனைத்து அட்டவணைகளையும் கவிமொ வினவல்களாக ஒரு கோப்பில் ஏற்றுமதி செய்யுங்கள்:"
 
 #: src/ejabberd_web_admin.erl:1193
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
@@ -558,8 +618,7 @@ msgstr ""
 
 #: src/ejabberd_web_admin.erl:1195
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
-msgstr ""
-"ஓச்டில் பயனர்களின் தரவை Piefxis கோப்புகளுக்கு ஏற்றுமதி செய்யுங்கள் (XEP-0227):"
+msgstr "ஓச்டில் பயனர்களின் தரவை Piefxis கோப்புகளுக்கு ஏற்றுமதி செய்யுங்கள் (XEP-0227):"
 
 #: src/mod_delegation.erl:351
 msgid "External component failure"
@@ -577,25 +636,25 @@ msgstr "கேள்விகள் நுழைவு"
 msgid "Failed to activate bytestream"
 msgstr "பைட்டெச்ட்ரீமை செயல்படுத்தத் தவறிவிட்டது"
 
-#: src/mod_muc_room.erl:1306
+#: src/mod_muc_room.erl:1310
 msgid "Failed to extract JID from your voice request approval"
 msgstr "உங்கள் குரல் கோரிக்கை ஒப்புதலிலிருந்து சிட் பிரித்தெடுப்பதில் தோல்வி"
 
 #: src/mod_delegation.erl:332
 msgid "Failed to map delegated namespace to external component"
-msgstr ""
-"வெளிப்புற கூறுகளுக்கு பிரதிநிதித்துவ பெயர்வெளியை வரைபடமாக்குவதில் தோல்வி"
+msgstr "வெளிப்புற கூறுகளுக்கு பிரதிநிதித்துவ பெயர்வெளியை வரைபடமாக்குவதில் தோல்வி"
 
 #: src/mod_http_upload.erl:861
 msgid "Failed to parse HTTP response"
 msgstr "HTTP பதிலை அலசத் தவறிவிட்டது"
 
-#: src/mod_muc_room.erl:3956
+#: src/mod_muc_room.erl:3960
 msgid "Failed to process option '~s'"
 msgstr "விருப்பத்தை '~s' செயலாக்குவதில் தோல்வி"
 
-#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349 src/mod_vcard_sql.erl:231
-#: src/mod_vcard_sql.erl:245 src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
+#: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
+#: src/mod_vcard_sql.erl:231 src/mod_vcard_sql.erl:245
+#: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: _build/translations/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "குடும்ப பெயர்"
@@ -616,7 +675,7 @@ msgstr "பொருந்தக்கூடிய எக்ச்எம்ப�
 msgid "Friday"
 msgstr "வெள்ளிக்கிழமை"
 
-#: src/mod_configure.erl:657
+#: src/mod_configure.erl:663
 msgid "From ~ts"
 msgstr "~ts இலிருந்து"
 
@@ -628,40 +687,44 @@ msgstr "அறை நிர்வாகிகளின் முழு பட்
 msgid "Full List of Room Owners"
 msgstr "அறை உரிமையாளர்களின் முழு பட்டியல்"
 
-#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346 src/mod_vcard_sql.erl:228
-#: src/mod_vcard_sql.erl:242 src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
+#: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
+#: src/mod_vcard_sql.erl:228 src/mod_vcard_sql.erl:242
+#: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 msgid "Full Name"
 msgstr "முழு பெயர்"
 
-#: src/mod_configure.erl:149 src/mod_configure.erl:497
+#: src/mod_configure.erl:154 src/mod_configure.erl:503
 msgid "Get List of Online Users"
 msgstr "நிகழ்நிலை பயனர்களின் பட்டியலைப் பெறுங்கள்"
 
-#: src/mod_configure.erl:143 src/mod_configure.erl:493
+#: src/mod_configure.erl:148 src/mod_configure.erl:499
 msgid "Get List of Registered Users"
 msgstr "பதிவுசெய்யப்பட்ட பயனர்களின் பட்டியலைப் பெறுங்கள்"
 
-#: src/mod_configure.erl:151 src/mod_configure.erl:499
+#: src/mod_configure.erl:156 src/mod_configure.erl:505
 msgid "Get Number of Online Users"
 msgstr "நிகழ்நிலை பயனர்களின் எண்ணிக்கையைப் பெறுங்கள்"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:495
+#: src/mod_configure.erl:151 src/mod_configure.erl:501
 msgid "Get Number of Registered Users"
 msgstr "பதிவுசெய்யப்பட்ட பயனர்களின் எண்ணிக்கையைப் பெறுங்கள்"
 
-#: src/mod_pubsub.erl:1044
+#: src/mod_pubsub.erl:1041
 msgid "Get Pending"
 msgstr "நிலுவையில் செல்லுங்கள்"
 
-#: src/mod_configure.erl:139 src/mod_configure.erl:489 src/mod_configure.erl:1021
+#: src/mod_configure.erl:144 src/mod_configure.erl:495
+#: src/mod_configure.erl:1027
 msgid "Get User Last Login Time"
 msgstr "பயனர் கடைசி உள்நுழைவு நேரத்தைப் பெறுங்கள்"
 
-#: src/mod_configure.erl:141 src/mod_configure.erl:491 src/mod_configure.erl:1030
+#: src/mod_configure.erl:146 src/mod_configure.erl:497
+#: src/mod_configure.erl:1036
 msgid "Get User Statistics"
 msgstr "பயனர் புள்ளிவிவரங்களைப் பெறுங்கள்"
 
-#: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347 _build/translations/lib/xmpp/src/muc_register.erl:508
+#: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
+#: _build/translations/lib/xmpp/src/muc_register.erl:508
 msgid "Given Name"
 msgstr "கொடுக்கப்பட்ட பெயர்"
 
@@ -673,19 +736,20 @@ msgstr "இந்த நபருக்கு குரல் கொடுக்
 msgid "HTTP File Upload"
 msgstr "HTTP கோப்பு பதிவேற்றம்"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1129
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1190
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr "இந்த அறையின் vcard-temp அவதாரத்தின் ஆச்"
 
-#: src/mod_muc_room.erl:4953 src/mod_muc_room.erl:5017 src/mod_muc_room.erl:5085
+#: src/mod_muc_room.erl:4961 src/mod_muc_room.erl:5025
+#: src/mod_muc_room.erl:5093
 msgid "Hat URI"
 msgstr "தொப்பி யூரி"
 
-#: src/mod_muc_room.erl:4949 src/mod_muc_room.erl:5082
+#: src/mod_muc_room.erl:4957 src/mod_muc_room.erl:5090
 msgid "Hat title"
 msgstr "தொப்பி தலைப்பு"
 
-#: src/mod_muc_room.erl:4992
+#: src/mod_muc_room.erl:5000
 msgid "Hats limit exceeded"
 msgstr "தொப்பிகள் வரம்பு மீறியது"
 
@@ -693,7 +757,7 @@ msgstr "தொப்பிகள் வரம்பு மீறியது"
 msgid "Host unknown"
 msgstr "புரவலன் தெரியவில்லை"
 
-#: src/mod_configure.erl:1378
+#: src/mod_configure.erl:1384
 msgid "IP addresses"
 msgstr "ஐபி முகவரிகள்"
 
@@ -703,26 +767,25 @@ msgstr "செயலற்ற இணைப்பு"
 
 #: src/ejabberd_captcha.erl:125
 msgid "If you don't see the CAPTCHA image here, visit the web page."
-msgstr ""
-"நீங்கள் இங்கே கேப்ட்சா படத்தைக் காணவில்லை என்றால், வலைப்பக்கத்தைப் பார்வையிடவும்."
+msgstr "நீங்கள் இங்கே கேப்ட்சா படத்தைக் காணவில்லை என்றால், வலைப்பக்கத்தைப் பார்வையிடவும்."
 
-#: src/mod_configure.erl:125 src/mod_configure.erl:578
+#: src/mod_configure.erl:130 src/mod_configure.erl:584
 msgid "Import Directory"
 msgstr "இறக்குமதி அடைவு"
 
-#: src/mod_configure.erl:122 src/mod_configure.erl:576
+#: src/mod_configure.erl:127 src/mod_configure.erl:582
 msgid "Import File"
 msgstr "கோப்பு இறக்குமதி"
 
-#: src/mod_configure.erl:870
+#: src/mod_configure.erl:876
 msgid "Import User from File at "
 msgstr "கோப்பிலிருந்து பயனரை இறக்குமதி செய்யுங்கள் "
 
-#: src/mod_configure.erl:547
+#: src/mod_configure.erl:553
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "சாபர்ட் 14 ச்பூல் கோப்புகளிலிருந்து பயனர்களை இறக்குமதி செய்யுங்கள்"
 
-#: src/mod_configure.erl:881
+#: src/mod_configure.erl:887
 msgid "Import Users from Dir at "
 msgstr "அடைவு இலிருந்து பயனர்களை இறக்குமதி செய்யுங்கள் "
 
@@ -732,54 +795,55 @@ msgstr "சாபர்ட் 14 ச்பூல் கோப்பிலிர�
 
 #: src/ejabberd_web_admin.erl:1191
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
-msgstr ""
-"PIEFXIS கோப்பிலிருந்து (XEP-0227) பயனர்களின் தரவை இறக்குமதி செய்யுங்கள்:"
+msgstr "PIEFXIS கோப்பிலிருந்து (XEP-0227) பயனர்களின் தரவை இறக்குமதி செய்யுங்கள்:"
 
 #: src/ejabberd_web_admin.erl:1212
 msgid "Import users data from jabberd14 spool directory:"
-msgstr ""
-"சாபர்ட் 14 ச்பூல் கோப்பகத்திலிருந்து பயனர்களின் தரவை இறக்குமதி செய்யுங்கள்:"
+msgstr "சாபர்ட் 14 ச்பூல் கோப்பகத்திலிருந்து பயனர்களின் தரவை இறக்குமதி செய்யுங்கள்:"
 
 #: src/ejabberd_service.erl:219
 msgid "Improper domain part of 'from' attribute"
 msgstr "'ஃப்ரம்' பண்புக்கூறின் முறையற்ற டொமைன் பகுதி"
 
-#: src/mod_muc_room.erl:457
+#: src/mod_muc_room.erl:461
 msgid "Improper message type"
 msgstr "முறையற்ற செய்தி வகை"
 
-#: src/mod_register.erl:192 src/mod_muc_room.erl:4665 src/ejabberd_captcha.erl:221
+#: src/mod_register.erl:192 src/mod_muc_room.erl:4673
+#: src/ejabberd_captcha.erl:221
 msgid "Incorrect CAPTCHA submit"
 msgstr "தவறான கேப்ட்சா சமர்ப்பிக்கவும்"
 
-#: src/mod_vcard.erl:277 src/mod_pubsub.erl:1255 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3681 src/mod_muc.erl:1131
+#: src/mod_vcard.erl:277 src/mod_pubsub.erl:1252 src/mod_register.erl:188
+#: src/mod_muc_room.erl:3685 src/mod_muc.erl:1155
 msgid "Incorrect data form"
 msgstr "தவறான தரவு வடிவம்"
 
-#: src/mod_register.erl:143 src/mod_register_web.erl:593 src/mod_muc_room.erl:2449
+#: src/mod_register.erl:143 src/mod_register_web.erl:593
+#: src/mod_muc_room.erl:2453
 msgid "Incorrect password"
 msgstr "தவறான கடவுச்சொல்"
 
-#: src/mod_muc_room.erl:5001 src/mod_muc_room.erl:5055 src/mod_muc_room.erl:5095
-#: src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5009 src/mod_muc_room.erl:5063
+#: src/mod_muc_room.erl:5103 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "'செயல்' பண்புக்கூறின் தவறான மதிப்பு"
 
-#: src/mod_configure.erl:1523
+#: src/mod_configure.erl:1529
 msgid "Incorrect value of 'action' in data form"
 msgstr "தரவு வடிவத்தில் 'செயல்' இன் தவறான மதிப்பு"
 
-#: src/mod_configure.erl:1143 src/mod_configure.erl:1176 src/mod_configure.erl:1209
-#: src/mod_configure.erl:1229 src/mod_configure.erl:1249
+#: src/mod_configure.erl:1149 src/mod_configure.erl:1182
+#: src/mod_configure.erl:1215 src/mod_configure.erl:1235
+#: src/mod_configure.erl:1255
 msgid "Incorrect value of 'path' in data form"
 msgstr "தரவு வடிவத்தில் 'பாதை' இன் தவறான மதிப்பு"
 
-#: src/ext_mod.erl:1296
+#: src/ext_mod.erl:1302
 msgid "Install"
 msgstr "நிறுவவும்"
 
-#: src/ext_mod.erl:1372
+#: src/ext_mod.erl:1378
 msgid "Installed Modules:"
 msgstr "நிறுவப்பட்ட தொகுதிகள்:"
 
@@ -791,7 +855,7 @@ msgstr "போதிய சலுகை"
 msgid "Internal server error"
 msgstr "உள் சேவையக பிழை"
 
-#: src/mod_privilege.erl:539
+#: src/mod_privilege.erl:538
 msgid "Invalid 'from' attribute in forwarded message"
 msgstr "அனுப்பப்பட்ட செய்தியில் 'இலிருந்து' பண்புக்கூறு"
 
@@ -799,25 +863,27 @@ msgstr "அனுப்பப்பட்ட செய்தியில் 'இ
 msgid "Invalid 'previd' value"
 msgstr "தவறான 'முந்தைய' மதிப்பு"
 
-#: src/mod_muc_room.erl:4541
+#: src/mod_muc_room.erl:4545
 msgid "Invalid node name"
 msgstr "தவறான முனை பெயர்"
 
-#: src/mod_muc_room.erl:5279
+#: src/mod_muc_room.erl:5287
 msgid "Invitations are not allowed in this conference"
 msgstr "இந்த மாநாட்டில் அழைப்புகள் அனுமதிக்கப்படவில்லை"
 
-#: src/mod_muc_room.erl:430 src/mod_muc_room.erl:593 src/mod_muc_room.erl:1490
-msgid "It is not allowed to send error messages to the room. The participant (~s) has sent an error message (~s) and got kicked from the room"
+#: src/mod_muc_room.erl:434 src/mod_muc_room.erl:597 src/mod_muc_room.erl:1494
+msgid ""
+"It is not allowed to send error messages to the room. The participant (~s) "
+"has sent an error message (~s) and got kicked from the room"
 msgstr ""
 "பிழை செய்திகளை அறைக்கு அனுப்ப அனுமதிக்கப்படவில்லை. பங்கேற்பாளர் (~s) ஒரு பிழை செய்தியை "
 "(~s) அனுப்பி அறையிலிருந்து உதைத்துள்ளார்"
 
-#: src/mod_muc_room.erl:607
+#: src/mod_muc_room.erl:611
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "\"குரூப்சாட்\" என்ற வகை தனிப்பட்ட செய்திகளை அனுப்ப அனுமதிக்கப்படவில்லை"
 
-#: src/mod_muc_room.erl:441
+#: src/mod_muc_room.erl:445
 msgid "It is not allowed to send private messages to the conference"
 msgstr "தனிப்பட்ட செய்திகளை மாநாட்டிற்கு அனுப்ப அனுமதிக்கப்படவில்லை"
 
@@ -829,11 +895,13 @@ msgstr "பணி கொள்கையால் மறுக்கப்பட�
 msgid "JID normalization failed"
 msgstr "சிட் இயல்பாக்கம் தோல்வியடைந்தது"
 
-#: src/mod_muc_admin.erl:1107 src/mod_vcard_sql.erl:241 src/mod_muc_room.erl:4944
-#: src/mod_muc_room.erl:5012 src/mod_muc_room.erl:5079 src/mod_vcard_mnesia.erl:113
-#: src/mod_configure.erl:974 src/mod_configure.erl:991 src/mod_configure.erl:1001
-#: src/mod_configure.erl:1011 src/mod_configure.erl:1025 src/mod_configure.erl:1034
-#: src/mod_configure.erl:1349 src/mod_configure.erl:1374
+#: src/mod_muc_admin.erl:1108 src/mod_vcard_sql.erl:241
+#: src/mod_muc_room.erl:4952 src/mod_muc_room.erl:5020
+#: src/mod_muc_room.erl:5087 src/mod_vcard_mnesia.erl:113
+#: src/mod_configure.erl:980 src/mod_configure.erl:997
+#: src/mod_configure.erl:1007 src/mod_configure.erl:1017
+#: src/mod_configure.erl:1031 src/mod_configure.erl:1040
+#: src/mod_configure.erl:1355 src/mod_configure.erl:1380
 msgid "Jabber ID"
 msgstr "சாபர் ஐடி"
 
@@ -841,11 +909,11 @@ msgstr "சாபர் ஐடி"
 msgid "January"
 msgstr "மா-தை"
 
-#: src/mod_mix_pam.erl:517
+#: src/mod_mix_pam.erl:510
 msgid "Joined MIX channels of ~ts"
 msgstr "~ts இன் கலவை சேனல்களில் சேர்ந்தது"
 
-#: src/mod_mix_pam.erl:482
+#: src/mod_mix_pam.erl:475
 msgid "Joined MIX channels:"
 msgstr "இணைந்த கலவை சேனல்கள்:"
 
@@ -857,7 +925,7 @@ msgstr "ஆ-ஆடி"
 msgid "June"
 msgstr "வை-ஆனி"
 
-#: src/mod_muc_admin.erl:1113
+#: src/mod_muc_admin.erl:1114
 msgid "Just created"
 msgstr "இப்போது உருவாக்கப்பட்டது"
 
@@ -865,11 +933,11 @@ msgstr "இப்போது உருவாக்கப்பட்டது"
 msgid "Last Activity"
 msgstr "கடைசி செயல்பாடு"
 
-#: src/mod_configure.erl:1351
+#: src/mod_configure.erl:1357
 msgid "Last login"
 msgstr "கடைசி உள்நுழைவு"
 
-#: src/mod_muc_admin.erl:1109
+#: src/mod_muc_admin.erl:1110
 msgid "Last message"
 msgstr "கடைசி செய்தி"
 
@@ -882,16 +950,17 @@ msgid "Last year"
 msgstr "கடந்த ஆண்டு"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:898
-msgid "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
+msgid ""
+"Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 "உரையின் SHA-256 ஆசின் குறைந்த குறிப்பிடத்தக்க பிட்கள் எக்சாடெசிமல் சிட்டை சமமாக இருக்க "
 "வேண்டும்"
 
-#: src/mod_muc_room.erl:5075
+#: src/mod_muc_room.erl:5083
 msgid "List of users with hats"
 msgstr "தொப்பிகளைக் கொண்ட பயனர்களின் பட்டியல்"
 
-#: src/mod_muc_room.erl:4523 src/mod_muc_room.erl:4631
+#: src/mod_muc_room.erl:4527 src/mod_muc_room.erl:4639
 msgid "List users with hats"
 msgstr "தொப்பிகளுடன் பயனர்களை பட்டியலிடுங்கள்"
 
@@ -899,39 +968,46 @@ msgstr "தொப்பிகளுடன் பயனர்களை பட்�
 msgid "Logged Out"
 msgstr "வெளியேறியது"
 
-#: src/mod_muc_admin.erl:1112
+#: src/mod_muc_admin.erl:1113
 msgid "Logging"
 msgstr "பதிவு"
 
-#: src/mod_mam.erl:859
+#: src/mod_mam.erl:854
 msgid "MAM preference modification denied by service policy"
 msgstr "பணி கொள்கையால் மறுக்கப்பட்ட மாம் விருப்பத்தேர்வு மாற்றம்"
 
-#: src/mod_muc_log.erl:849 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2155
+#: src/mod_muc_log.erl:849
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2155
 msgid "Make participants list public"
 msgstr "பங்கேற்பாளர்கள் பட்டியலிடுங்கள்"
 
-#: src/mod_muc_log.erl:877 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1852
+#: src/mod_muc_log.erl:877
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1852
 msgid "Make room CAPTCHA protected"
 msgstr "அறை கேப்ட்சா பாதுகாக்கவும்"
 
-#: src/mod_muc_log.erl:856 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2033
+#: src/mod_muc_log.erl:856
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2033
 msgid "Make room members-only"
 msgstr "அறை உறுப்பினர்களை மட்டும் செய்யுங்கள்"
 
-#: src/mod_muc_log.erl:858 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2047
+#: src/mod_muc_log.erl:858
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2047
 msgid "Make room moderated"
 msgstr "அறை மிதமானதாக்குங்கள்"
 
-#: src/mod_muc_log.erl:851 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2079
+#: src/mod_muc_log.erl:851
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2079
 msgid "Make room password protected"
 msgstr "அறை கடவுச்சொல்லைப் பாதுகாக்கவும்"
 
-#: src/mod_muc_log.erl:845 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2093
+#: src/mod_muc_log.erl:845
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2093
 msgid "Make room persistent"
 msgstr "அறையை தொடர்ந்து செய்யுங்கள்"
 
-#: src/mod_muc_log.erl:847 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2140
+#: src/mod_muc_log.erl:847
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2140
 msgid "Make room public searchable"
 msgstr "அறையை பொதுவில் தேடலாம்"
 
@@ -943,21 +1019,27 @@ msgstr "தவறான பயனர்பெயர்"
 msgid "March"
 msgstr "மா-பங்குனி"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1864 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1862
-msgid "Max # of items to persist, or `max` for no specific limit other than a server imposed maximum"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1864
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1862
+msgid ""
+"Max # of items to persist, or `max` for no specific limit other than a "
+"server imposed maximum"
 msgstr ""
 "அதிகபட்சம் # தொடர்ச்சியாக இருக்க வேண்டும், அல்லது அதிகபட்சமாக விதிக்கப்பட்ட சேவையகத்தைத் "
 "தவிர வேறு எந்த குறிப்பிட்ட வரம்பும் இல்லாமல் `அதிகபட்சம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1882 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1882
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
 msgstr "பைட்டுகளில் அதிகபட்ச பேலோட் அளவு"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666 _build/translations/lib/xmpp/src/muc_roominfo.erl:870
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:914
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr "அறையால் திரும்பிய அதிகபட்ச வரலாற்று செய்திகளின் எண்ணிக்கை"
 
-#: src/mod_muc_log.erl:883 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2019
+#: src/mod_muc_log.erl:883
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2019
 msgid "Maximum Number of Occupants"
 msgstr "அதிகபட்ச குடியிருப்பாளர்களின் எண்ணிக்கை"
 
@@ -973,12 +1055,14 @@ msgstr "தொடர்ந்து அதிகபட்ச உருப்ப�
 msgid "May"
 msgstr "சி-வைகாசி"
 
-#: src/mod_muc_room.erl:2336
+#: src/mod_muc_room.erl:2340
 msgid "Membership is required to enter this room"
 msgstr "இந்த அறைக்குள் நுழைய உறுப்பினர் தேவை"
 
 #: src/mod_register_web.erl:282
-msgid "Memorize your password, or write it in a paper placed in a safe place. In XMPP there isn't an automated way to recover your password if you forget it."
+msgid ""
+"Memorize your password, or write it in a paper placed in a safe place. In "
+"XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 "உங்கள் கடவுச்சொல்லை மனப்பாடம் செய்யுங்கள், அல்லது பாதுகாப்பான இடத்தில் வைக்கப்பட்டுள்ள ஒரு "
 "காகிதத்தில் எழுதுங்கள். உங்கள் கடவுச்சொல்லை மறந்துவிட்டால் அதை மீட்டெடுக்க எக்ச்எம்பிபியில் "
@@ -988,11 +1072,11 @@ msgstr ""
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr "எக்ச்எம்பிபியில் வெறும் கிடைக்கும் (காட்சி மதிப்பு இல்லை)"
 
-#: src/mod_announce.erl:525 src/mod_configure.erl:927 src/mod_configure.erl:967
+#: src/mod_announce.erl:525 src/mod_configure.erl:933 src/mod_configure.erl:973
 msgid "Message body"
 msgstr "செய்தி உடல்"
 
-#: src/mod_privilege.erl:544
+#: src/mod_privilege.erl:543
 msgid "Message not found in forwarded payload"
 msgstr "அனுப்பப்பட்ட பேலோடில் செய்தி காணப்படவில்லை"
 
@@ -1000,16 +1084,19 @@ msgstr "அனுப்பப்பட்ட பேலோடில் செய�
 msgid "Messages from strangers are rejected"
 msgstr "அந்நியர்களிடமிருந்து செய்திகள் நிராகரிக்கப்படுகின்றன"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1933 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1933
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
 msgid "Messages of type headline"
 msgstr "வகை தலைப்பின் செய்திகள்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1929 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1929
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
 msgid "Messages of type normal"
 msgstr "வகை இயல்பான செய்திகள்"
 
-#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348 src/mod_vcard_sql.erl:230
-#: src/mod_vcard_sql.erl:244 src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
+#: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
+#: src/mod_vcard_sql.erl:230 src/mod_vcard_sql.erl:244
+#: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 msgid "Middle Name"
 msgstr "நடுத்தர பெயர்"
 
@@ -1021,13 +1108,15 @@ msgstr "குரல் கோரிக்கைகளுக்கு இடை�
 msgid "Moderator"
 msgstr "மதிப்பீட்டாளர்"
 
-#: src/mod_muc_room.erl:3101 src/mod_muc_room.erl:4719 src/mod_muc_room.erl:4775
-#: src/mod_muc_room.erl:4833
+#: src/mod_muc_room.erl:3105 src/mod_muc_room.erl:4727
+#: src/mod_muc_room.erl:4783 src/mod_muc_room.erl:4841
 msgid "Moderator privileges required"
 msgstr "மதிப்பீட்டாளர் சலுகைகள் தேவை"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1685 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:922
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1685
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
 msgid "Moderators Only"
 msgstr "மதிப்பீட்டாளர்கள் மட்டுமே"
 
@@ -1039,8 +1128,8 @@ msgstr "தொகுதி வினவலைக் கையாளத் தவ
 msgid "Monday"
 msgstr "திங்கள்"
 
-#: src/mod_muc_admin.erl:739 src/mod_muc_admin.erl:742 src/mod_muc_admin.erl:748
-#: src/mod_muc_admin.erl:756
+#: src/mod_muc_admin.erl:740 src/mod_muc_admin.erl:743
+#: src/mod_muc_admin.erl:749 src/mod_muc_admin.erl:757
 msgid "Multi-User Chat"
 msgstr "பல பயனர் அரட்டை"
 
@@ -1052,28 +1141,31 @@ msgstr "மல்டிகாச்ட்"
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "பல <உருப்படி/> கூறுகள் RFC6121 ஆல் அனுமதிக்கப்படாது"
 
-#: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243 src/mod_vcard_mnesia.erl:101
-#: src/mod_vcard_mnesia.erl:115
+#: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
+#: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 msgid "Name"
 msgstr "பெயர்"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968 _build/translations/lib/xmpp/src/muc_roominfo.erl:983
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1027
 msgid "Natural Language for Room Discussions"
 msgstr "அறை விவாதங்களுக்கு இயற்கை மொழி"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1034
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1078
 msgid "Natural-Language Room Name"
 msgstr "இயற்கை மொழி அறை பெயர்"
 
-#: src/mod_muc_room.erl:3287
+#: src/mod_muc_room.erl:3291
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "'சிட்' அல்லது 'நிக்' பண்புக்கூறு இல்லை"
 
-#: src/mod_muc_room.erl:3083 src/mod_muc_room.erl:3292
+#: src/mod_muc_room.erl:3087 src/mod_muc_room.erl:3296
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "'பங்கு' அல்லது 'இணைப்பு' பண்புக்கூறு இல்லை"
 
-#: src/mod_configure.erl:1334 _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2134 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
+#: src/mod_configure.erl:1340
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2134
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "ஒருபோதும்"
 
@@ -1081,33 +1173,36 @@ msgstr "ஒருபோதும்"
 msgid "New Password:"
 msgstr "புதிய கடவுச்சொல்:"
 
-#: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350 src/mod_vcard_sql.erl:232
-#: src/mod_vcard_sql.erl:246 src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: _build/translations/lib/xmpp/src/muc_request.erl:405 _build/translations/lib/xmpp/src/muc_register.erl:536
+#: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
+#: src/mod_vcard_sql.erl:232 src/mod_vcard_sql.erl:246
+#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
+#: _build/translations/lib/xmpp/src/muc_request.erl:405
+#: _build/translations/lib/xmpp/src/muc_register.erl:536
 msgid "Nickname"
 msgstr "புனைப்பெயர்"
 
-#: src/mod_muc.erl:1082
+#: src/mod_muc.erl:1106
 msgid "Nickname Registration at "
 msgstr "இல் புனைப்பெயர் பதிவு "
 
-#: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2357 src/mod_muc_room.erl:4742
+#: src/mod_muc_room.erl:1443 src/mod_muc_room.erl:2361
+#: src/mod_muc_room.erl:4750
 msgid "Nickname can't be empty"
 msgstr "புனைப்பெயர் காலியாக இருக்க முடியாது"
 
-#: src/mod_muc_room.erl:3304
+#: src/mod_muc_room.erl:3308
 msgid "Nickname ~s does not exist in the room"
 msgstr "அறையில் ~s புனைப்பெயர் இல்லை"
 
-#: src/mod_muc_room.erl:3704
+#: src/mod_muc_room.erl:3708
 msgid "No 'affiliation' attribute found"
 msgstr "'இணைப்பு' பண்புக்கூறு இல்லை"
 
-#: src/mod_muc_room.erl:3065
+#: src/mod_muc_room.erl:3069
 msgid "No 'item' element found"
 msgstr "'உருப்படி' உறுப்பு இல்லை"
 
-#: src/mod_configure.erl:1516
+#: src/mod_configure.erl:1522
 msgid "No 'password' found in data form"
 msgstr "தரவு வடிவத்தில் 'கடவுச்சொல்' காணப்படவில்லை"
 
@@ -1115,22 +1210,19 @@ msgstr "தரவு வடிவத்தில் 'கடவுச்சொல
 msgid "No 'password' found in this query"
 msgstr "இந்த வினவலில் 'கடவுச்சொல்' இல்லை"
 
-#: src/mod_configure.erl:1125 src/mod_configure.erl:1158 src/mod_configure.erl:1191
-#: src/mod_configure.erl:1223 src/mod_configure.erl:1243
+#: src/mod_configure.erl:1131 src/mod_configure.erl:1164
+#: src/mod_configure.erl:1197 src/mod_configure.erl:1229
+#: src/mod_configure.erl:1249
 msgid "No 'path' found in data form"
 msgstr "தரவு வடிவத்தில் 'பாதை' இல்லை"
 
-#: src/mod_muc_room.erl:5275
+#: src/mod_muc_room.erl:5283
 msgid "No 'to' attribute found in the invitation"
 msgstr "அழைப்பில் காணப்படும் 'to' பண்புக்கூறு"
 
-#: src/mod_privilege.erl:553
+#: src/mod_privilege.erl:552
 msgid "No <forwarded/> element found"
 msgstr "இல்லை <முன்னோக்கி/> உறுப்பு காணப்பட்டது"
-
-#: src/mod_privilege.erl:584
-msgid "No <privileged_iq/> element found"
-msgstr "இல்லை <சலுகை_இக்/> உறுப்பு காணப்படுகிறது"
 
 #: src/ejabberd_web_admin.erl:1076
 msgid "No Data"
@@ -1152,15 +1244,15 @@ msgstr "கிடைக்கக்கூடிய வளங்கள் எத�
 msgid "No body provided for announce message"
 msgstr "அறிவிப்பு செய்திக்கு எந்த உடலும் வழங்கப்படவில்லை"
 
-#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1330
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1334
 msgid "No child elements found"
 msgstr "குழந்தை கூறுகள் எதுவும் கிடைக்கவில்லை"
 
-#: src/mod_pubsub.erl:1244
+#: src/mod_pubsub.erl:1241
 msgid "No data form found"
 msgstr "தரவு படிவம் எதுவும் கிடைக்கவில்லை"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:630
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:625
 msgid "No features available"
 msgstr "நற்பொருத்தங்கள் எதுவும் கிடைக்கவில்லை"
 
@@ -1176,24 +1268,27 @@ msgstr "கடைசி செயல்பாட்டைப் பற்றி�
 msgid "No items found in this query"
 msgstr "இந்த வினவலில் எந்த உருப்படிகளும் காணப்படவில்லை"
 
-#: src/mod_muc_room.erl:3826 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
+#: src/mod_muc_room.erl:3830
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "வரம்பு இல்லை"
 
-#: src/mod_mix_pam.erl:379 src/mod_privacy.erl:147 src/mod_privacy.erl:264
+#: src/mod_mix_pam.erl:372 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
-#: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231 src/mod_blocking.erl:81
-#: src/mod_blocking.erl:99 src/mod_http_upload.erl:766 src/mod_stun_disco.erl:482
-#: src/mod_muc.erl:248 src/mod_muc.erl:674 src/mod_muc.erl:749
-#: src/mod_muc.erl:769 src/mod_muc.erl:800 src/mod_mix.erl:672
+#: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
+#: src/mod_matrix_gw.erl:910 src/mod_matrix_gw.erl:924 src/mod_blocking.erl:81
+#: src/mod_blocking.erl:99 src/mod_http_upload.erl:766
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
+#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr "இந்த வினவலை எந்த தொகுதியும் கையாளவில்லை"
 
-#: src/mod_pubsub.erl:1610
+#: src/mod_pubsub.erl:1607
 msgid "No node specified"
 msgstr "எந்த முனையும் குறிப்பிடப்படவில்லை"
 
-#: src/mod_pubsub.erl:1487
+#: src/mod_pubsub.erl:1484
 msgid "No pending subscriptions found"
 msgstr "நிலுவையில் உள்ள சந்தாக்கள் எதுவும் கிடைக்கவில்லை"
 
@@ -1202,13 +1297,14 @@ msgstr "நிலுவையில் உள்ள சந்தாக்கள�
 msgid "No privacy list with this name found"
 msgstr "இந்த பெயருடன் தனியுரிமை பட்டியல் எதுவும் இல்லை"
 
-#: src/mod_private.erl:187
+#: src/mod_private.erl:182
 msgid "No private data found in this query"
 msgstr "இந்த வினவலில் தனிப்பட்ட தரவு எதுவும் காணப்படவில்லை"
 
-#: src/mod_stats.erl:92 src/mod_configure.erl:797 src/mod_configure.erl:1087
-#: src/mod_configure.erl:1120 src/mod_configure.erl:1153 src/mod_configure.erl:1186
-#: src/mod_configure.erl:1218 src/mod_configure.erl:1238
+#: src/mod_stats.erl:92 src/mod_configure.erl:803 src/mod_configure.erl:1093
+#: src/mod_configure.erl:1126 src/mod_configure.erl:1159
+#: src/mod_configure.erl:1192 src/mod_configure.erl:1224
+#: src/mod_configure.erl:1244
 msgid "No running node found"
 msgstr "இயங்கும் முனை எதுவும் கிடைக்கவில்லை"
 
@@ -1220,11 +1316,13 @@ msgstr "சேவைகள் எதுவும் கிடைக்கவி�
 msgid "No statistics found for this item"
 msgstr "இந்த உருப்படிக்கு புள்ளிவிவரங்கள் எதுவும் கிடைக்கவில்லை"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687 _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734 _build/translations/lib/xmpp/src/muc_roominfo.erl:924
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:968
 msgid "Nobody"
 msgstr "யாரும்"
 
-#: src/mod_muc_admin.erl:1115
+#: src/mod_muc_admin.erl:1116
 msgid "Node"
 msgstr "கணு"
 
@@ -1232,19 +1330,22 @@ msgstr "கணு"
 msgid "Node ID"
 msgstr "முனை ஐடி"
 
-#: src/nodetree_tree_sql.erl:307 src/nodetree_tree.erl:236
+#: src/nodetree_tree_sql.erl:312 src/nodetree_tree.erl:236
 msgid "Node already exists"
 msgstr "முனை ஏற்கனவே உள்ளது"
 
-#: src/nodetree_tree_sql.erl:97
+#: src/nodetree_tree_sql.erl:102
 msgid "Node index not found"
 msgstr "முனை குறியீடு கிடைக்கவில்லை"
 
-#: src/nodetree_tree_sql.erl:127 src/nodetree_tree_sql.erl:141 src/mod_muc_room.erl:4472
-#: src/mod_muc_room.erl:4490 src/mod_muc_room.erl:4508 src/mod_muc_room.erl:4526
-#: src/mod_muc_room.erl:4633 src/mod_muc_room.erl:4648 src/mod_muc_room.erl:4652
-#: src/ejabberd_web_admin.erl:633 src/nodetree_tree.erl:77 src/nodetree_tree.erl:83
-#: src/mod_muc.erl:747 src/mod_muc.erl:1020
+#: src/nodetree_tree_sql.erl:132 src/nodetree_tree_sql.erl:146
+#: src/mod_muc_room.erl:4476 src/mod_muc_room.erl:4494
+#: src/mod_muc_room.erl:4512 src/mod_muc_room.erl:4530
+#: src/mod_muc_room.erl:4641 src/mod_muc_room.erl:4656
+#: src/mod_muc_room.erl:4660 src/mod_matrix_gw.erl:908
+#: src/mod_matrix_gw.erl:922 src/ejabberd_web_admin.erl:633
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
+#: src/mod_muc.erl:1044
 msgid "Node not found"
 msgstr "முனை கிடைக்கவில்லை"
 
@@ -1260,7 +1361,7 @@ msgstr "நோடெப்ரெப் தோல்வியுற்றது"
 msgid "Nodes"
 msgstr "முனைகள்"
 
-#: src/mod_mix_pam.erl:505
+#: src/mod_mix_pam.erl:498
 msgid "None"
 msgstr "எதுவுமில்லை"
 
@@ -1276,16 +1377,18 @@ msgstr "அனுமதிக்கப்படவில்லை"
 msgid "Not subscribed"
 msgstr "குழுசேரவில்லை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1994 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1992
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1994
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1992
 msgid "Notify subscribers when items are removed from the node"
-msgstr ""
-"முனையிலிருந்து உருப்படிகள் அகற்றப்படும்போது சந்தாதாரர்களுக்கு அறிவிக்கவும்"
+msgstr "முனையிலிருந்து உருப்படிகள் அகற்றப்படும்போது சந்தாதாரர்களுக்கு அறிவிக்கவும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1960 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1958
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1960
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1958
 msgid "Notify subscribers when the node configuration changes"
 msgstr "முனை உள்ளமைவு மாறும்போது சந்தாதாரர்களுக்கு அறிவிக்கவும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1977 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1975
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1977
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1975
 msgid "Notify subscribers when the node is deleted"
 msgstr "முனை நீக்கப்படும் போது சந்தாதாரர்களுக்கு அறிவிக்கவும்"
 
@@ -1301,20 +1404,23 @@ msgstr "இணைப்பில்லாத செய்திகளின் �
 msgid "Number of answers required"
 msgstr "தேவையான பதில்களின் எண்ணிக்கை"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1048
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1092
 msgid "Number of occupants"
 msgstr "குடியிருப்பாளர்களின் எண்ணிக்கை"
 
-#: src/mod_configure.erl:1075
+#: src/mod_configure.erl:1081
 msgid "Number of online users"
 msgstr "நிகழ்நிலை பயனர்களின் எண்ணிக்கை"
 
-#: src/mod_configure.erl:1054
+#: src/mod_configure.erl:1060
 msgid "Number of registered users"
 msgstr "பதிவுசெய்யப்பட்ட பயனர்களின் எண்ணிக்கை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1791 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1789
-msgid "Number of seconds after which to automatically purge items, or `max` for no specific limit other than a server imposed maximum"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1791
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1789
+msgid ""
+"Number of seconds after which to automatically purge items, or `max` for no "
+"specific limit other than a server imposed maximum"
 msgstr ""
 "உருப்படிகளை தானாக தூய்மைப்படுத்துவதற்கான விநாடிகளின் எண்ணிக்கை, அல்லது அதிகபட்சம் "
 "விதிக்கப்பட்ட சேவையகத்தைத் தவிர வேறு எந்த குறிப்பிட்ட வரம்பையும் `அதிகபட்சம்`"
@@ -1323,15 +1429,15 @@ msgstr ""
 msgid "OK"
 msgstr "சரி"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1113
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1174
 msgid "Occupants May Change the Subject"
 msgstr "குடியிருப்பாளர்கள் இந்த விசயத்தை மாற்றலாம்"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:887
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:931
 msgid "Occupants are allowed to invite others"
 msgstr "குடியிருப்பாளர்கள் மற்றவர்களை அழைக்க அனுமதிக்கப்படுகிறார்கள்"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:904
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:948
 msgid "Occupants are allowed to query others"
 msgstr "குடியிருப்பாளர்கள் மற்றவர்களை வினவ அனுமதிக்கப்படுகிறார்கள்"
 
@@ -1343,11 +1449,12 @@ msgstr "பு-ஐப்பசி"
 msgid "Old Password:"
 msgstr "பழைய கடவுச்சொல்:"
 
-#: src/mod_configure.erl:1344
+#: src/mod_configure.erl:1350
 msgid "Online"
 msgstr "ஆன்லைனில்"
 
-#: src/ejabberd_web_admin.erl:592 src/ejabberd_web_admin.erl:1529 src/mod_configure.erl:471
+#: src/ejabberd_web_admin.erl:592 src/ejabberd_web_admin.erl:1529
+#: src/mod_configure.erl:477
 msgid "Online Users"
 msgstr "நிகழ்நிலை பயனர்கள்"
 
@@ -1359,90 +1466,96 @@ msgstr "<anafice/> அல்லது <முடக்கு/> குறிச�
 msgid "Only <list/> element is allowed in this query"
 msgstr "இந்த வினவலில் <பட்டியல்/> உறுப்பு மட்டுமே அனுமதிக்கப்படுகிறது"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1598 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1596
-msgid "Only collection node owners may associate leaf nodes with the collection"
-msgstr ""
-"சேகரிப்பு முனை உரிமையாளர்கள் மட்டுமே இலை முனைகளை சேகரிப்புடன் தொடர்புபடுத்தலாம்"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1598
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1596
+msgid ""
+"Only collection node owners may associate leaf nodes with the collection"
+msgstr "சேகரிப்பு முனை உரிமையாளர்கள் மட்டுமே இலை முனைகளை சேகரிப்புடன் தொடர்புபடுத்தலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2045 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2045
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
 msgid "Only deliver notifications to available users"
 msgstr "கிடைக்கக்கூடிய பயனர்களுக்கு மட்டுமே அறிவிப்புகளை வழங்கவும்"
 
-#: src/mod_mam.erl:591
+#: src/mod_mam.erl:586
 msgid "Only members may query archives of this room"
 msgstr "உறுப்பினர்கள் மட்டுமே இந்த அறையின் காப்பகங்களை வினவலாம்"
 
-#: src/mod_muc_room.erl:1117
-msgid "Only moderators and participants are allowed to change the subject in this room"
+#: src/mod_muc_room.erl:1121
+msgid ""
+"Only moderators and participants are allowed to change the subject in this "
+"room"
 msgstr ""
 "இந்த அறையில் உள்ள விசயத்தை மாற்ற மதிப்பீட்டாளர்கள் மற்றும் பங்கேற்பாளர்கள் மட்டுமே "
 "அனுமதிக்கப்படுகிறார்கள்"
 
-#: src/mod_muc_room.erl:1122
+#: src/mod_muc_room.erl:1126
 msgid "Only moderators are allowed to change the subject in this room"
-msgstr ""
-"இந்த அறையில் உள்ள விசயத்தை மாற்ற மதிப்பீட்டாளர்கள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
+msgstr "இந்த அறையில் உள்ள விசயத்தை மாற்ற மதிப்பீட்டாளர்கள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
 
-#: src/mod_muc_room.erl:5188
+#: src/mod_muc_room.erl:5196
 msgid "Only moderators are allowed to retract messages"
-msgstr ""
-"மதிப்பீட்டாளர்கள் மட்டுமே செய்திகளைத் திரும்பப் பெற அனுமதிக்கப்படுகிறார்கள்"
+msgstr "மதிப்பீட்டாளர்கள் மட்டுமே செய்திகளைத் திரும்பப் பெற அனுமதிக்கப்படுகிறார்கள்"
 
-#: src/mod_muc_room.erl:1313
+#: src/mod_muc_room.erl:1317
 msgid "Only moderators can approve voice requests"
 msgstr "மதிப்பீட்டாளர்கள் மட்டுமே குரல் கோரிக்கைகளை அங்கீகரிக்க முடியும்"
 
-#: src/mod_muc_room.erl:652 src/mod_muc_room.erl:1136 src/mod_muc_room.erl:5344
+#: src/mod_muc_room.erl:656 src/mod_muc_room.erl:1140 src/mod_muc_room.erl:5352
 msgid "Only occupants are allowed to send messages to the conference"
-msgstr ""
-"குடியிருப்பாளர்கள் மட்டுமே மாநாட்டிற்கு செய்திகளை அனுப்ப அனுமதிக்கப்படுகிறார்கள்"
+msgstr "குடியிருப்பாளர்கள் மட்டுமே மாநாட்டிற்கு செய்திகளை அனுப்ப அனுமதிக்கப்படுகிறார்கள்"
 
-#: src/mod_muc_room.erl:702
+#: src/mod_muc_room.erl:706
 msgid "Only occupants are allowed to send queries to the conference"
-msgstr ""
-"மாநாட்டிற்கு வினவல்களை அனுப்ப குடியிருப்பாளர்கள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
+msgstr "மாநாட்டிற்கு வினவல்களை அனுப்ப குடியிருப்பாளர்கள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2061 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:937 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2059
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2061
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:937
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2059
 msgid "Only publishers may publish"
 msgstr "வெளியீட்டாளர்கள் மட்டுமே வெளியிடலாம்"
 
-#: src/mod_muc.erl:238
+#: src/mod_muc.erl:239
 msgid "Only service administrators are allowed to send service messages"
 msgstr "பணி செய்திகளை அனுப்ப பணி நிர்வாகிகள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1603 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1601
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1603
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
-msgstr ""
-"அனுமதிப்பட்டியலில் இருப்பவர்கள் மட்டுமே இலை முனைகளை சேகரிப்புடன் தொடர்புபடுத்தலாம்"
+msgstr "அனுமதிப்பட்டியலில் இருப்பவர்கள் மட்டுமே இலை முனைகளை சேகரிப்புடன் தொடர்புபடுத்தலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1544 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:911 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1544
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:911
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
 "அனுமதிப்பட்டியலில் இருப்பவர்கள் மட்டுமே உருப்படிகளை குழுசேரலாம் மற்றும் மீட்டெடுக்கலாம்"
 
-#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355 src/mod_vcard_sql.erl:237
-#: src/mod_vcard_sql.erl:251 src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
+#: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
+#: src/mod_vcard_sql.erl:237 src/mod_vcard_sql.erl:251
+#: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 msgid "Organization Name"
 msgstr "அமைப்பு பெயர்"
 
-#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356 src/mod_vcard_sql.erl:238
-#: src/mod_vcard_sql.erl:252 src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
+#: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
+#: src/mod_vcard_sql.erl:238 src/mod_vcard_sql.erl:252
+#: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 msgid "Organization Unit"
 msgstr "அமைப்பு பிரிவு"
 
-#: src/ext_mod.erl:1376
+#: src/ext_mod.erl:1382
 msgid "Other Modules Available:"
 msgstr "பிற தொகுதிகள் கிடைக்கின்றன:"
 
-#: src/mod_configure.erl:473
+#: src/mod_configure.erl:479
 msgid "Outgoing s2s Connections"
 msgstr "வெளிச்செல்லும் எச் 2 எச் இணைப்புகள்"
 
-#: src/mod_pubsub.erl:1363 src/mod_pubsub.erl:1458 src/mod_pubsub.erl:1632
-#: src/mod_pubsub.erl:2241 src/mod_pubsub.erl:2319 src/mod_pubsub.erl:2529
-#: src/mod_pubsub.erl:2623 src/mod_pubsub.erl:3331 src/mod_pubsub.erl:3498
-#: src/mod_muc_room.erl:3651 src/mod_muc_room.erl:3696 src/mod_muc_room.erl:4695
-#: src/mod_mix.erl:677
+#: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
+#: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
+#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3328 src/mod_pubsub.erl:3495
+#: src/mod_muc_room.erl:3655 src/mod_muc_room.erl:3700
+#: src/mod_muc_room.erl:4703 src/mod_mix.erl:677
 msgid "Owner privileges required"
 msgstr "உரிமையாளர் சலுகைகள் தேவை"
 
@@ -1450,21 +1563,23 @@ msgstr "உரிமையாளர் சலுகைகள் தேவை"
 msgid "Packet relay is denied by service policy"
 msgstr "பணி கொள்கையால் பாக்கெட் ரிலே மறுக்கப்படுகிறது"
 
-#: _build/translations/lib/xmpp/src/muc_request.erl:367 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2110
+#: _build/translations/lib/xmpp/src/muc_request.erl:367
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2110
 msgid "Participant"
 msgstr "பங்கேற்பாளர்"
 
-#: src/mod_mix_pam.erl:508
+#: src/mod_mix_pam.erl:501
 msgid "Participant ID"
 msgstr "பங்கேற்பாளர் ஐடி"
 
 #: src/mod_muc_log.erl:852 src/ejabberd_oauth.erl:537 src/mod_register.erl:233
-#: src/mod_configure.erl:978 src/mod_configure.erl:1015 src/mod_configure.erl:1496
+#: src/mod_configure.erl:984 src/mod_configure.erl:1021
+#: src/mod_configure.erl:1502
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "கடவுச்சொல்"
 
-#: src/mod_configure.erl:982
+#: src/mod_configure.erl:988
 msgid "Password Verification"
 msgstr "கடவுச்சொல் சரிபார்ப்பு"
 
@@ -1476,12 +1591,12 @@ msgstr "கடவுச்சொல் சரிபார்ப்பு:"
 msgid "Password:"
 msgstr "கடவுச்சொல்:"
 
-#: src/mod_configure.erl:886
+#: src/mod_configure.erl:892
 msgid "Path to Dir"
 msgstr "அடைவு க்கு பாதை"
 
-#: src/mod_configure.erl:840 src/mod_configure.erl:852 src/mod_configure.erl:864
-#: src/mod_configure.erl:875
+#: src/mod_configure.erl:846 src/mod_configure.erl:858
+#: src/mod_configure.erl:870 src/mod_configure.erl:881
 msgid "Path to File"
 msgstr "தாக்கல் செய்வதற்கான பாதை"
 
@@ -1493,11 +1608,12 @@ msgstr "பேலோட் சொற்பொருள் வகை செய்
 msgid "Period: "
 msgstr "காலம்: "
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2027 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2027
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "சேமிப்பகத்திற்கு உருப்படிகளைத் தொடருங்கள்"
 
-#: src/mod_muc_admin.erl:1111
+#: src/mod_muc_admin.erl:1112
 msgid "Persistent"
 msgstr "விடாமுயற்சி"
 
@@ -1510,16 +1626,18 @@ msgid "Ping query is incorrect"
 msgstr "பிங் வினவல் தவறானது"
 
 #: src/ejabberd_web_admin.erl:1165
-msgid "Please note that these options will only backup the builtin Mnesia database. If you are using the ODBC module, you also need to backup your SQL database separately."
+msgid ""
+"Please note that these options will only backup the builtin Mnesia database. "
+"If you are using the ODBC module, you also need to backup your SQL database "
+"separately."
 msgstr ""
 "இந்த விருப்பங்கள் பில்டின் மென்சியா தரவுத்தளத்தை மட்டுமே காப்புப் பிரதி எடுக்கும் என்பதை "
 "நினைவில் கொள்க. நீங்கள் ODBC தொகுதியைப் பயன்படுத்துகிறீர்கள் என்றால், உங்கள் கவிமொ "
 "தரவுத்தளத்தையும் தனித்தனியாக காப்புப் பிரதி எடுக்க வேண்டும்."
 
-#: src/mod_muc_room.erl:1274
+#: src/mod_muc_room.erl:1278
 msgid "Please, wait for a while before sending new voice request"
-msgstr ""
-"தயவுசெய்து, புதிய குரல் கோரிக்கையை அனுப்புவதற்கு முன் சிறிது நேரம் காத்திருங்கள்"
+msgstr "தயவுசெய்து, புதிய குரல் கோரிக்கையை அனுப்புவதற்கு முன் சிறிது நேரம் காத்திருங்கள்"
 
 #: src/mod_adhoc.erl:231
 msgid "Pong"
@@ -1553,11 +1671,11 @@ msgstr "முந்தைய அமர்வு காணப்படவில�
 msgid "Previous session timed out"
 msgstr "முந்தைய அமர்வு நேரம் முடிந்தது"
 
-#: src/mod_pubsub.erl:1395
+#: src/mod_pubsub.erl:1392
 msgid "PubSub subscriber request"
 msgstr "பப்சப் சந்தாதாரர் கோரிக்கை"
 
-#: src/mod_muc_admin.erl:1110
+#: src/mod_muc_admin.erl:1111
 msgid "Public"
 msgstr "பொது"
 
@@ -1565,34 +1683,35 @@ msgstr "பொது"
 msgid "Publish model"
 msgstr "மாதிரி வெளியிடு"
 
-#: src/mod_pubsub.erl:4327
+#: src/mod_pubsub.erl:4324
 msgid "Publish-Subscribe"
 msgstr "வெளியீட்டு-சந்தா"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2095 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2093
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2095
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr ""
 "தொடர்புடைய வெளியீட்டாளர் ஆஃப்லைனில் செல்லும்போது எல்லா பொருட்களையும் தூய்மைப்படுத்துங்கள்"
 
-#: src/mod_push.erl:324
+#: src/mod_push.erl:319
 msgid "Push record not found"
 msgstr "புச் பதிவு கிடைக்கவில்லை"
 
-#: src/mod_muc_room.erl:697
+#: src/mod_muc_room.erl:701
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "இந்த அறையில் மாநாட்டு உறுப்பினர்களுக்கு வினவல்கள் அனுமதிக்கப்படவில்லை"
 
-#: src/mod_mix_pam.erl:374 src/mod_sic.erl:70 src/mod_disco.erl:269
-#: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:211
+#: src/mod_mix_pam.erl:367 src/mod_sic.erl:70 src/mod_disco.erl:269
+#: src/mod_disco.erl:326 src/mod_privacy.erl:125 src/mod_private.erl:206
 #: src/mod_roster.erl:133 src/mod_offline.erl:323 src/mod_blocking.erl:74
 msgid "Query to another users is forbidden"
 msgstr "மற்றொரு பயனர்களுக்கு வினவல் தடைசெய்யப்பட்டுள்ளது"
 
-#: src/mod_configure.erl:783
+#: src/mod_configure.erl:789
 msgid "RAM and disc copy"
 msgstr "ராம் மற்றும் வட்டு நகல்"
 
-#: src/mod_configure.erl:781
+#: src/mod_configure.erl:787
 msgid "RAM copy"
 msgstr "ரேம் நகல்"
 
@@ -1616,7 +1735,7 @@ msgstr "புதிய பொருட்களின் அறிவிப்�
 msgid "Receive notification of new nodes only"
 msgstr "புதிய முனைகளின் அறிவிப்பைப் பெறுங்கள்"
 
-#: src/mod_muc_room.erl:614 src/mod_muc_room.erl:670
+#: src/mod_muc_room.erl:618 src/mod_muc_room.erl:674
 msgid "Recipient is not in the conference room"
 msgstr "பெறுநர் மாநாட்டு அறையில் இல்லை"
 
@@ -1624,19 +1743,21 @@ msgstr "பெறுநர் மாநாட்டு அறையில் இ
 msgid "Register"
 msgstr "பதிவு செய்யுங்கள்"
 
-#: src/mod_register_web.erl:202 src/mod_register_web.erl:230 src/mod_register_web.erl:238
+#: src/mod_register_web.erl:202 src/mod_register_web.erl:230
+#: src/mod_register_web.erl:238
 msgid "Register an XMPP account"
 msgstr "எக்ச்எம்பி.பி கணக்கை பதிவு செய்யுங்கள்"
 
-#: src/mod_configure.erl:787
+#: src/mod_configure.erl:793
 msgid "Remote copy"
 msgstr "தொலை நகல்"
 
-#: src/mod_configure.erl:1494
+#: src/mod_configure.erl:1500
 msgid "Remove User"
 msgstr "பயனரை அகற்று"
 
-#: src/mod_muc_room.erl:4505 src/mod_muc_room.erl:4627 src/mod_muc_room.erl:5007
+#: src/mod_muc_room.erl:4509 src/mod_muc_room.erl:4635
+#: src/mod_muc_room.erl:5015
 msgid "Remove a hat from a user"
 msgstr "ஒரு பயனரிடமிருந்து ஒரு தொப்பியை அகற்றவும்"
 
@@ -1644,12 +1765,12 @@ msgstr "ஒரு பயனரிடமிருந்து ஒரு தொப
 msgid "Replaced by new connection"
 msgstr "புதிய இணைப்பு மூலம் மாற்றப்பட்டது"
 
-#: src/mod_mix_pam.erl:355 src/mod_muc_room.erl:236 src/mod_muc_room.erl:245
-#: src/mod_muc_room.erl:962
+#: src/mod_mix_pam.erl:348 src/mod_muc_room.erl:240 src/mod_muc_room.erl:249
+#: src/mod_muc_room.erl:966
 msgid "Request has timed out"
 msgstr "கோரிக்கை நேரம் முடிந்துவிட்டது"
 
-#: src/mod_muc_room.erl:848 src/mod_muc_room.erl:863
+#: src/mod_muc_room.erl:852 src/mod_muc_room.erl:867
 msgid "Request is ignored"
 msgstr "கோரிக்கை புறக்கணிக்கப்படுகிறது"
 
@@ -1657,24 +1778,26 @@ msgstr "கோரிக்கை புறக்கணிக்கப்பட�
 msgid "Requested role"
 msgstr "கோரப்பட்ட பங்கு"
 
-#: src/mod_configure.erl:1380
+#: src/mod_configure.erl:1386
 msgid "Resources"
 msgstr "வளங்கள்"
 
-#: src/mod_configure.erl:127 src/mod_configure.erl:549 src/mod_configure.erl:897
+#: src/mod_configure.erl:132 src/mod_configure.erl:555
+#: src/mod_configure.erl:903
 msgid "Restart Service"
 msgstr "சேவையை மறுதொடக்கம் செய்யுங்கள்"
 
-#: src/mod_configure.erl:116 src/mod_configure.erl:563
+#: src/mod_configure.erl:121 src/mod_configure.erl:569
 msgid "Restore"
 msgstr "மீட்டமை"
 
-#: src/mod_configure.erl:847
+#: src/mod_configure.erl:853
 msgid "Restore Backup from File at "
 msgstr "கோப்பிலிருந்து காப்புப்பிரதியை மீட்டெடுக்கவும் "
 
 #: src/ejabberd_web_admin.erl:1178
-msgid "Restore binary backup after next ejabberd restart (requires less memory):"
+msgid ""
+"Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "அடுத்த EJABBERD மறுதொடக்கத்திற்குப் பிறகு பைனரி காப்புப்பிரதியை மீட்டமைக்கவும் (குறைவான "
 "நினைவகம் தேவை):"
@@ -1687,6 +1810,10 @@ msgstr "பைனரி காப்புப்பிரதியை உடன�
 msgid "Restore plain text backup immediately:"
 msgstr "எளிய உரை காப்புப்பிரதியை உடனடியாக மீட்டெடுக்கவும்:"
 
+#: src/mod_adhoc_api.erl:508
+msgid "Result"
+msgstr ""
+
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1951
 msgid "Roles and Affiliations that May Retrieve Member List"
 msgstr "உறுப்பினர் பட்டியலை மீட்டெடுக்கக்கூடிய பாத்திரங்கள் மற்றும் இணைப்புகள்"
@@ -1695,7 +1822,8 @@ msgstr "உறுப்பினர் பட்டியலை மீட்ட�
 msgid "Roles for which Presence is Broadcasted"
 msgstr "இருப்பு ஒளிபரப்பப்படும் பாத்திரங்கள்"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699 _build/translations/lib/xmpp/src/muc_roominfo.erl:936
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:980
 msgid "Roles that May Send Private Messages"
 msgstr "தனிப்பட்ட செய்திகளை அனுப்பக்கூடிய பாத்திரங்கள்"
 
@@ -1707,31 +1835,35 @@ msgstr "அறை உள்ளமைவு"
 msgid "Room Occupants"
 msgstr "அறை குடியிருப்பாளர்கள்"
 
-#: src/mod_muc.erl:638
+#: src/mod_muc.erl:639
 msgid "Room creation is denied by service policy"
 msgstr "பணி கொள்கையால் அறை உருவாக்கம் மறுக்கப்படுகிறது"
 
-#: src/mod_muc_log.erl:879 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184 _build/translations/lib/xmpp/src/muc_roominfo.erl:967
+#: src/mod_muc_log.erl:879
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1011
 msgid "Room description"
 msgstr "அறை விளக்கம்"
 
-#: src/mod_muc_room.erl:989
+#: src/mod_muc_room.erl:993
 msgid "Room terminates"
 msgstr "அறை முடிவடைகிறது"
 
-#: src/mod_muc_admin.erl:1114 src/mod_muc_log.erl:843 _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
+#: src/mod_muc_admin.erl:1115 src/mod_muc_log.erl:843
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "அறை தலைப்பு"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2118 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2116
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2118
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2116
 msgid "Roster groups allowed to subscribe"
 msgstr "பட்டியல் குழுக்கள் குழுசேர அனுமதிக்கப்பட்டன"
 
-#: src/mod_configure.erl:1376
+#: src/mod_configure.erl:1382
 msgid "Roster size"
 msgstr "பட்டியல் அளவு"
 
-#: src/mod_configure.erl:475
+#: src/mod_configure.erl:481
 msgid "Running Nodes"
 msgstr "இயங்கும் முனைகள்"
 
@@ -1767,10 +1899,9 @@ msgstr "பயனர்களைத் தேடுங்கள் "
 msgid "Send announcement to all online users"
 msgstr "அனைத்து நிகழ்நிலை பயனர்களுக்கும் அறிவிப்பை அனுப்பவும்"
 
-#: src/mod_announce.erl:612 src/mod_configure.erl:920 src/mod_configure.erl:960
+#: src/mod_announce.erl:612 src/mod_configure.erl:926 src/mod_configure.erl:966
 msgid "Send announcement to all online users on all hosts"
-msgstr ""
-"அனைத்து ஓச்ட்களிலும் அனைத்து நிகழ்நிலை பயனர்களுக்கும் அறிவிப்பை அனுப்பவும்"
+msgstr "அனைத்து ஓச்ட்களிலும் அனைத்து நிகழ்நிலை பயனர்களுக்கும் அறிவிப்பை அனுப்பவும்"
 
 #: src/mod_announce.erl:606
 msgid "Send announcement to all users"
@@ -1784,11 +1915,12 @@ msgstr "அனைத்து ஓச்ட்களிலும் உள்ள 
 msgid "September"
 msgstr "ஆ-புரட்டாசி"
 
-#: src/mod_register_web.erl:262 src/mod_register_web.erl:393 src/mod_register_web.erl:504
+#: src/mod_register_web.erl:262 src/mod_register_web.erl:393
+#: src/mod_register_web.erl:504
 msgid "Server:"
 msgstr "சேவையகம்:"
 
-#: src/mod_stun_disco.erl:497
+#: src/mod_stun_disco.erl:499
 msgid "Service list retrieval timed out"
 msgstr "பணி பட்டியல் மீட்டெடுப்பு நேரம் முடிந்தது"
 
@@ -1802,10 +1934,9 @@ msgstr "அன்றைய செய்தியை அமைத்து நி
 
 #: src/mod_announce.erl:616
 msgid "Set message of the day on all hosts and send to online users"
-msgstr ""
-"அனைத்து ஓச்ட்களிலும் அன்றைய செய்தியை அமைத்து நிகழ்நிலை பயனர்களுக்கு அனுப்பவும்"
+msgstr "அனைத்து ஓச்ட்களிலும் அன்றைய செய்தியை அமைத்து நிகழ்நிலை பயனர்களுக்கு அனுப்பவும்"
 
-#: src/mod_shared_roster.erl:886 src/mod_shared_roster.erl:894
+#: src/mod_shared_roster.erl:885 src/mod_shared_roster.erl:893
 msgid "Shared Roster Groups"
 msgstr "பகிரப்பட்ட பட்டியல் குழுக்கள்"
 
@@ -1821,29 +1952,35 @@ msgstr "காட்டு குடியிருப்பாளர்கள�
 msgid "Show Ordinary Table"
 msgstr "சாதாரண அட்டவணையைக் காட்டு"
 
-#: src/mod_configure.erl:129 src/mod_configure.erl:551 src/mod_configure.erl:937
+#: src/mod_configure.erl:134 src/mod_configure.erl:557
+#: src/mod_configure.erl:943
 msgid "Shut Down Service"
 msgstr "சேவையை மூடு"
 
 #: src/mod_register_web.erl:278
-msgid "Some XMPP clients can store your password in the computer, but you should do this only in your personal computer for safety reasons."
+msgid ""
+"Some XMPP clients can store your password in the computer, but you should do "
+"this only in your personal computer for safety reasons."
 msgstr ""
 "சில எக்ச்எம்பிபி வாடிக்கையாளர்கள் உங்கள் கடவுச்சொல்லை கணினியில் சேமிக்க முடியும், ஆனால் "
 "பாதுகாப்பு காரணங்களுக்காக இதை உங்கள் தனிப்பட்ட கணினியில் மட்டுமே செய்ய வேண்டும்."
 
-#: src/ext_mod.erl:1365
+#: src/ext_mod.erl:1371
 msgid "Sources Specs:"
 msgstr "ஆதார விவரக்குறிப்புகள்:"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "அணுகல் மாதிரியைக் குறிப்பிடவும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1944 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1942
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1944
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1942
 msgid "Specify the event message type"
 msgstr "நிகழ்வு செய்தி வகையைக் குறிப்பிடவும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2079 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2077
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2079
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
 msgstr "வெளியீட்டாளர் மாதிரியைக் குறிப்பிடவும்"
 
@@ -1851,15 +1988,16 @@ msgstr "வெளியீட்டாளர் மாதிரியைக் �
 msgid "Stanza ID"
 msgstr "முடிப்பு"
 
-#: src/mod_muc_room.erl:5223
+#: src/mod_muc_room.erl:5231
 msgid "Stanza id is not valid"
 msgstr "முடிப்பு ஐடி செல்லுபடியாகாது"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr "முனை உரிமையாளரின் (கள்) ஒரு பதிலை நிலையான முறையில் குறிப்பிடவும்"
 
-#: src/mod_configure.erl:476
+#: src/mod_configure.erl:482
 msgid "Stopped Nodes"
 msgstr "நிறுத்தப்பட்ட முனைகள்"
 
@@ -1879,11 +2017,11 @@ msgstr "ச்ட்ரீம் மேலாண்மை ஏற்கனவே 
 msgid "Stream management is not enabled"
 msgstr "ச்ட்ரீம் மேலாண்மை இயக்கப்படவில்லை"
 
-#: src/mod_announce.erl:521 src/mod_configure.erl:924 src/mod_configure.erl:964
+#: src/mod_announce.erl:521 src/mod_configure.erl:930 src/mod_configure.erl:970
 msgid "Subject"
 msgstr "பொருள்"
 
-#: src/ext_mod.erl:1107 src/ejabberd_web_admin.erl:1023
+#: src/ext_mod.erl:1113 src/ejabberd_web_admin.erl:1023
 msgid "Submitted"
 msgstr "சமர்ப்பிக்கப்பட்டது"
 
@@ -1891,17 +2029,23 @@ msgstr "சமர்ப்பிக்கப்பட்டது"
 msgid "Subscriber Address"
 msgstr "சந்தாதாரர் முகவரி"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2065 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:941 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2063
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2065
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:941
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2063
 msgid "Subscribers may publish"
 msgstr "சந்தாதாரர்கள் வெளியிடலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1524 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:891 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
-msgid "Subscription requests must be approved and only subscribers may retrieve items"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1524
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:891
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
+msgid ""
+"Subscription requests must be approved and only subscribers may retrieve "
+"items"
 msgstr ""
-"சந்தா கோரிக்கைகள் அங்கீகரிக்கப்பட வேண்டும் மற்றும் சந்தாதாரர்கள் மட்டுமே உருப்படிகளை மீட்டெடுக்"
-"க முடியும்"
+"சந்தா கோரிக்கைகள் அங்கீகரிக்கப்பட வேண்டும் மற்றும் சந்தாதாரர்கள் மட்டுமே உருப்படிகளை "
+"மீட்டெடுக்க முடியும்"
 
-#: src/mod_muc_room.erl:4706
+#: src/mod_muc_room.erl:4714
 msgid "Subscriptions are not allowed"
 msgstr "சந்தாக்கள் அனுமதிக்கப்படவில்லை"
 
@@ -1925,12 +2069,13 @@ msgstr "வீடியோவுடன் தொடர்புடைய உர�
 msgid "Text associated with speech"
 msgstr "பேச்சுடன் தொடர்புடைய உரை"
 
-#: src/mod_muc_room.erl:1430 src/mod_muc_room.erl:2346 src/mod_muc_room.erl:4732
+#: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2350
+#: src/mod_muc_room.erl:4740
 msgid "That nickname is already in use by another occupant"
 msgstr "அந்த புனைப்பெயர் ஏற்கனவே மற்றொரு குடியிருப்பாளரால் பயன்பாட்டில் உள்ளது"
 
-#: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2360 src/mod_muc_room.erl:4746
-#: src/mod_muc.erl:1105
+#: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2364
+#: src/mod_muc_room.erl:4754 src/mod_muc.erl:1129
 msgid "That nickname is registered by another person"
 msgstr "அந்த புனைப்பெயர் மற்றொரு நபரால் பதிவு செய்யப்பட்டுள்ளது"
 
@@ -1938,8 +2083,9 @@ msgstr "அந்த புனைப்பெயர் மற்றொரு ந
 msgid "The CAPTCHA is valid."
 msgstr "கேப்ட்சா செல்லுபடியாகும்."
 
-#: src/mod_register.erl:195 src/mod_block_strangers.erl:157 src/mod_muc_room.erl:941
-#: src/mod_muc_room.erl:4668 src/ejabberd_captcha.erl:224
+#: src/mod_register.erl:195 src/mod_block_strangers.erl:157
+#: src/mod_muc_room.erl:945 src/mod_muc_room.erl:4676
+#: src/ejabberd_captcha.erl:224
 msgid "The CAPTCHA verification has failed"
 msgstr "கேப்ட்சா சரிபார்ப்பு தோல்வியுற்றது"
 
@@ -1951,7 +2097,9 @@ msgstr "குத்தகைக்கு விடப்பட்ட சந்�
 msgid "The JID of the node creator"
 msgstr "முனை படைப்பாளரின் சிட்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1707 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:712 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1707
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:712
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
 msgid "The JIDs of those to contact with questions"
 msgstr "கேள்விகளுடன் தொடர்பு கொள்ளுபவர்களின் குழந்தைகள்"
 
@@ -1967,14 +2115,21 @@ msgstr "வெளியீட்டாளரின் இணைப்பு உ�
 msgid "The NodeID of the relevant node"
 msgstr "தொடர்புடைய முனையின் நோடிட்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1572 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
-msgid "The URL of an XSL transformation which can be applied to payloads in order to generate an appropriate message body element."
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1572
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
+msgid ""
+"The URL of an XSL transformation which can be applied to payloads in order "
+"to generate an appropriate message body element."
 msgstr ""
-"பொருத்தமான செய்தி உடல் உறுப்பை உருவாக்குவதற்காக பேலோடுகளுக்கு பயன்படுத்தக்கூடிய எக்ச்எச்எல்"
-" மாற்றத்தின் முகவரி."
+"பொருத்தமான செய்தி உடல் உறுப்பை உருவாக்குவதற்காக பேலோடுகளுக்கு பயன்படுத்தக்கூடிய "
+"எக்ச்எச்எல் மாற்றத்தின் முகவரி."
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1723 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
-msgid "The URL of an XSL transformation which can be applied to the payload format in order to generate a valid Data Forms result that the client could display using a generic Data Forms rendering engine"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1723
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
+msgid ""
+"The URL of an XSL transformation which can be applied to the payload format "
+"in order to generate a valid Data Forms result that the client could display "
+"using a generic Data Forms rendering engine"
 msgstr ""
 "செல்லுபடியாகும் தரவு படிவங்களை உருவாக்குவதற்காக பேலோட் வடிவத்தில் பயன்படுத்தக்கூடிய ஒரு "
 "எக்ச்எச்எல் உருமாற்றத்தின் முகவரி, கிளையன்ட் பொதுவான தரவு படிவங்கள் வழங்குதல் எஞ்சின் "
@@ -1996,11 +2151,13 @@ msgstr "கடைசியாக பெறப்பட்ட செய்தி�
 msgid "The captcha you entered is wrong"
 msgstr "நீங்கள் உள்ளிட்ட கேப்ட்சா தவறு"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr "சேகரிப்புடன் தொடர்புடைய குழந்தை முனைகள் (இலை அல்லது சேகரிப்பு)"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1690 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1690
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
 msgstr "ஒரு முனை இணைக்கப்பட்ட தொகுப்புகள்"
 
@@ -2008,34 +2165,42 @@ msgstr "ஒரு முனை இணைக்கப்பட்ட தொகு
 msgid "The datetime when the node was created"
 msgstr "முனை உருவாக்கப்பட்ட தேதிநேரம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1848 _build/translations/lib/xmpp/src/pubsub_meta_data.erl:780 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1848
+#: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:780
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
 msgid "The default language of the node"
 msgstr "முனையின் இயல்புநிலை மொழி"
 
-#: src/mod_muc_room.erl:515 src/mod_muc_room.erl:520
+#: src/mod_muc_room.erl:519 src/mod_muc_room.erl:524
 msgid "The feature requested is not supported by the conference"
 msgstr "கோரப்பட்ட நற்பொருத்தம் மாநாட்டால் ஆதரிக்கப்படவில்லை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1637 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1637
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr "இலை முனைகளை ஒரு தொகுப்போடு தொடர்புபடுத்தக்கூடிய JIDS இன் பட்டியல்"
 
-#: src/mod_configure.erl:1065
+#: src/mod_configure.erl:1071
 msgid "The list of all online users"
 msgstr "அனைத்து நிகழ்நிலை பயனர்களின் பட்டியல்"
 
-#: src/mod_configure.erl:1044
+#: src/mod_configure.erl:1050
 msgid "The list of all users"
 msgstr "அனைத்து பயனர்களின் பட்டியல்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1671 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
-msgid "The maximum number of child nodes that can be associated with a collection, or `max` for no specific limit other than a server imposed maximum"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1671
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
+msgid ""
+"The maximum number of child nodes that can be associated with a collection, "
+"or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
 "ஒரு சேகரிப்புடன் தொடர்புடைய அதிகபட்ச குழந்தை முனைகளின் எண்ணிக்கை, அல்லது அதிகபட்சமாக "
 "விதிக்கப்பட்ட சேவையகத்தைத் தவிர வேறு எந்த குறிப்பிட்ட வரம்பும் இல்லாமல் `அதிகபட்சம் '"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:581
-msgid "The minimum number of milliseconds between sending any two notification digests"
+msgid ""
+"The minimum number of milliseconds between sending any two notification "
+"digests"
 msgstr ""
 "இரண்டு அறிவிப்பு செரிமானங்களையும் அனுப்புவதற்கு இடையில் குறைந்தபட்ச மில்லி விநாடிகளின் "
 "எண்ணிக்கை"
@@ -2044,11 +2209,13 @@ msgstr ""
 msgid "The name of the node"
 msgstr "முனையின் பெயர்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1900 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1900
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
 msgstr "முனை ஒரு சேகரிப்பு முனை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1896 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1896
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
 msgstr "முனை ஒரு இலை முனை (இயல்புநிலை)"
 
@@ -2096,12 +2263,15 @@ msgstr "வினவல் உள்ளக பயனர்களிடமிர�
 msgid "The query must not contain <item/> elements"
 msgstr "வினவலில் <பொருள்/> கூறுகள் இருக்கக்கூடாது"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1079
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1123
 msgid "The room subject can be modified by participants"
 msgstr "அறை பொருள் பங்கேற்பாளர்களால் மாற்றப்படலாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
-msgid "The semantic type information of data in the node, usually specified by the namespace of the payload (if any)"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
+msgid ""
+"The semantic type information of data in the node, usually specified by the "
+"namespace of the payload (if any)"
 msgstr ""
 "முனையில் உள்ள தரவின் சொற்பொருள் வகை செய்தி, பொதுவாக பேலோடின் பெயர்வெளியால் "
 "குறிப்பிடப்படுகிறது (ஏதேனும் இருந்தால்)"
@@ -2111,7 +2281,9 @@ msgid "The sender of the last received message"
 msgstr "கடைசியாக பெறப்பட்ட செய்தியை அனுப்பு"
 
 #: src/mod_privacy.erl:259
-msgid "The stanza MUST contain only one <active/> element, one <default/> element, or one <list/> element"
+msgid ""
+"The stanza MUST contain only one <active/> element, one <default/> element, "
+"or one <list/> element"
 msgstr ""
 "ச்டான்சாவில் ஒரே <செயலில்/> உறுப்பு, ஒரு <இயல்புநிலை/> உறுப்பு அல்லது ஒரு <பட்டியல்/> "
 "உறுப்பு மட்டுமே இருக்க வேண்டும்"
@@ -2137,10 +2309,13 @@ msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr "இது வழக்கு உணர்வற்றது: மாக்பெத் மற்றும் மாக்பெத் தான்."
 
 #: src/mod_register_web.erl:240
-msgid "This page allows to register an XMPP account in this XMPP server. Your JID (Jabber ID) will be of the form: username@server. Please read carefully the instructions to fill correctly the fields."
+msgid ""
+"This page allows to register an XMPP account in this XMPP server. Your JID "
+"(Jabber ID) will be of the form: username@server. Please read carefully the "
+"instructions to fill correctly the fields."
 msgstr ""
-"இந்த XMPP சேவையகத்தில் ஒரு XMPP கணக்கை பதிவு செய்ய இந்த பக்கம் அனுமதிக்கிறது. உங்கள் சிட்"
-" (சாபர் ஐடி) படிவமாக இருக்கும்: பயனர்பெயர்@சேவையகம். புலங்களை சரியாக நிரப்ப "
+"இந்த XMPP சேவையகத்தில் ஒரு XMPP கணக்கை பதிவு செய்ய இந்த பக்கம் அனுமதிக்கிறது. உங்கள் "
+"சிட் (சாபர் ஐடி) படிவமாக இருக்கும்: பயனர்பெயர்@சேவையகம். புலங்களை சரியாக நிரப்ப "
 "வழிமுறைகளை கவனமாகப் படியுங்கள்."
 
 #: src/mod_register_web.erl:494
@@ -2160,7 +2335,7 @@ msgstr "இந்த பணி முகவரியை செயலாக்க
 msgid "Thursday"
 msgstr "வியாழக்கிழமை"
 
-#: src/mod_configure.erl:902 src/mod_configure.erl:942
+#: src/mod_configure.erl:908 src/mod_configure.erl:948
 msgid "Time delay"
 msgstr "நேர நேரந்தவறுகை"
 
@@ -2172,7 +2347,7 @@ msgstr "ச்ட்ரீம் மறுதொடக்கத்திற்�
 msgid "To register, visit ~s"
 msgstr "பதிவு செய்ய, ~s பார்வையிடவும்"
 
-#: src/mod_configure.erl:645
+#: src/mod_configure.erl:651
 msgid "To ~ts"
 msgstr "~ts K"
 
@@ -2180,13 +2355,15 @@ msgstr "~ts K"
 msgid "Token TTL"
 msgstr "கிள்ளாக்கு டி.டி.எல்"
 
-#: src/mod_fail2ban.erl:219
-msgid "Too many (~p) failed authentications from this IP address (~s). The address will be unblocked at ~s UTC"
+#: src/mod_fail2ban.erl:214
+msgid ""
+"Too many (~p) failed authentications from this IP address (~s). The address "
+"will be unblocked at ~s UTC"
 msgstr ""
 "இந்த ஐபி முகவரியிலிருந்து (~p) பல (~s) தோல்வியுற்ற அங்கீகாரங்கள் ~s. முகவரி UTC இல் "
 "தடைசெய்யப்படும்"
 
-#: src/mod_muc_room.erl:3070 src/mod_muc_room.erl:3710
+#: src/mod_muc_room.erl:3074 src/mod_muc_room.erl:3714
 msgid "Too many <item/> elements"
 msgstr "பல <உருப்படி/> கூறுகள்"
 
@@ -2194,7 +2371,8 @@ msgstr "பல <உருப்படி/> கூறுகள்"
 msgid "Too many <list/> elements"
 msgstr "பல <பட்டியல்/> கூறுகள்"
 
-#: src/mod_register.erl:250 src/mod_block_strangers.erl:134 src/mod_muc_room.erl:2430
+#: src/mod_register.erl:250 src/mod_block_strangers.erl:134
+#: src/mod_muc_room.erl:2434
 msgid "Too many CAPTCHA requests"
 msgstr "பல கேப்ட்சா கோரிக்கைகள்"
 
@@ -2202,7 +2380,7 @@ msgstr "பல கேப்ட்சா கோரிக்கைகள்"
 msgid "Too many active bytestreams"
 msgstr "பல செயலில் உள்ள பைட்டிரீம்கள்"
 
-#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1332
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1336
 msgid "Too many child elements"
 msgstr "பல குழந்தை கூறுகள்"
 
@@ -2214,11 +2392,11 @@ msgstr "அதிகமான ரிசீவர் புலங்கள் க
 msgid "Too many unacked stanzas"
 msgstr "பல அறியப்படாத சரணங்கள்"
 
-#: src/mod_muc_room.erl:2305
+#: src/mod_muc_room.erl:2309
 msgid "Too many users in this conference"
 msgstr "இந்த மாநாட்டில் அதிகமான பயனர்கள்"
 
-#: src/mod_muc_room.erl:370
+#: src/mod_muc_room.erl:374
 msgid "Traffic rate limit is exceeded"
 msgstr "போக்குவரத்து வீத வரம்பு மீறப்பட்டது"
 
@@ -2226,11 +2404,12 @@ msgstr "போக்குவரத்து வீத வரம்பு மீ
 msgid "Tuesday"
 msgstr "செவ்வாய்க்கிழமை"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1019
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1063
 msgid "URL for Archived Discussion Logs"
 msgstr "காப்பகப்படுத்தப்பட்ட கலந்துரையாடல் பதிவுகளுக்கான முகவரி"
 
-#: src/mod_register.erl:254 src/mod_block_strangers.erl:138 src/mod_muc_room.erl:2439
+#: src/mod_register.erl:254 src/mod_block_strangers.erl:138
+#: src/mod_muc_room.erl:2443
 msgid "Unable to generate a CAPTCHA"
 msgstr "கேப்ட்சாவை உருவாக்க முடியவில்லை"
 
@@ -2242,7 +2421,8 @@ msgstr "தற்போதுள்ள உள்ளக களத்தில் 
 msgid "Unauthorized"
 msgstr "அங்கீகரிக்கப்படாதது"
 
-#: src/mod_announce.erl:493 src/mod_configure.erl:755 src/mod_configure.erl:1471
+#: src/mod_announce.erl:493 src/mod_adhoc_api.erl:350 src/mod_configure.erl:761
+#: src/mod_configure.erl:1477
 msgid "Unexpected action"
 msgstr "எதிர்பாராத நடவடிக்கை"
 
@@ -2250,7 +2430,7 @@ msgstr "எதிர்பாராத நடவடிக்கை"
 msgid "Unexpected error condition: ~p"
 msgstr "எதிர்பாராத பிழை நிலை: ~p"
 
-#: src/ext_mod.erl:1278
+#: src/ext_mod.erl:1284
 msgid "Uninstall"
 msgstr "நிறுவல் நீக்க"
 
@@ -2258,11 +2438,12 @@ msgstr "நிறுவல் நீக்க"
 msgid "Unregister"
 msgstr "பதிவு செய்யப்படாதது"
 
-#: src/mod_register_web.erl:207 src/mod_register_web.erl:484 src/mod_register_web.erl:492
+#: src/mod_register_web.erl:207 src/mod_register_web.erl:484
+#: src/mod_register_web.erl:492
 msgid "Unregister an XMPP account"
 msgstr "ஒரு எக்ச்எம்பிபி கணக்கை பதிவு செய்யவும்"
 
-#: src/mod_mam.erl:891
+#: src/mod_mam.erl:886
 msgid "Unsupported <index/> element"
 msgstr "ஆதரிக்கப்படாத <குறியீட்டு/> உறுப்பு"
 
@@ -2270,7 +2451,7 @@ msgstr "ஆதரிக்கப்படாத <குறியீட்டு/
 msgid "Unsupported version"
 msgstr "ஆதரிக்கப்படாத பதிப்பு"
 
-#: src/ext_mod.erl:1370
+#: src/ext_mod.erl:1376
 msgid "Update Specs"
 msgstr "விவரக்குறிப்புகளைப் புதுப்பிக்கவும்"
 
@@ -2282,7 +2463,7 @@ msgstr "அன்றைய செய்தியைப் புதுப்ப�
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "எல்லா ஓச்ட்களிலும் அன்றைய செய்தியைப் புதுப்பிக்கவும் (அனுப்ப வேண்டாம்)"
 
-#: src/ext_mod.erl:1360
+#: src/ext_mod.erl:1366
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 "தொகுதிகள் மூலத்தைப் பெற விவரக்குறிப்புகளைப் புதுப்பிக்கவும், பின்னர் விரும்பியவற்றை "
@@ -2292,12 +2473,12 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr "VCARD ஐப் புதுப்பிப்பது VCARD சேமிப்பக பின்தளத்தில் ஆதரிக்கப்படவில்லை"
 
-#: src/ext_mod.erl:1281
+#: src/ext_mod.erl:1287
 msgid "Upgrade"
 msgstr "மேம்படுத்தல்"
 
-#: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227 src/mod_register.erl:229
-#: src/mod_vcard_mnesia.erl:99
+#: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
+#: src/mod_register.erl:229 src/mod_vcard_mnesia.erl:99
 msgid "User"
 msgstr "பயனர்"
 
@@ -2305,11 +2486,12 @@ msgstr "பயனர்"
 msgid "User (jid)"
 msgstr "பயனர் (சிட்)"
 
-#: _build/translations/lib/xmpp/src/muc_request.erl:391 _build/translations/lib/xmpp/src/mam_query.erl:348
+#: _build/translations/lib/xmpp/src/muc_request.erl:391
+#: _build/translations/lib/xmpp/src/mam_query.erl:348
 msgid "User JID"
 msgstr "பயனர் சிட்"
 
-#: src/mod_configure.erl:273 src/mod_configure.erl:470
+#: src/mod_configure.erl:278 src/mod_configure.erl:476
 msgid "User Management"
 msgstr "பயனர் மேலாண்மை"
 
@@ -2325,7 +2507,7 @@ msgstr "மற்றொரு பயனரின் VCARD இல் IQ தொக
 msgid "User removed"
 msgstr "பயனர் அகற்றப்பட்டார்"
 
-#: src/mod_sic.erl:86 src/ejabberd_sm.erl:223 src/mod_push.erl:309
+#: src/mod_sic.erl:86 src/ejabberd_sm.erl:223 src/mod_push.erl:304
 msgid "User session not found"
 msgstr "பயனர் அமர்வு காணப்படவில்லை"
 
@@ -2337,12 +2519,13 @@ msgstr "பயனர் அமர்வு நிறுத்தப்பட்�
 msgid "User ~ts"
 msgstr "பயனர் ~ts"
 
-#: src/mod_register_web.erl:250 src/mod_register_web.erl:389 src/mod_register_web.erl:500
+#: src/mod_register_web.erl:250 src/mod_register_web.erl:389
+#: src/mod_register_web.erl:500
 msgid "Username:"
 msgstr "பயனர்பெயர்:"
 
-#: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577 src/ejabberd_web_admin.erl:583
-#: src/ejabberd_web_admin.erl:1528
+#: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577
+#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1528
 msgid "Users"
 msgstr "பயனர்கள்"
 
@@ -2354,8 +2537,8 @@ msgstr "பயனர்கள் கடைசி செயல்பாடு"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "பயனர்கள் கணக்குகளை விரைவாக பதிவு செய்ய அனுமதிக்கப்படுவதில்லை"
 
-#: src/mod_pubsub.erl:907 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4658
-#: src/mod_muc_room.erl:4837 src/ejabberd_captcha.erl:228 src/mod_push.erl:291
+#: src/mod_pubsub.erl:904 src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4666
+#: src/mod_muc_room.erl:4845 src/ejabberd_captcha.erl:228 src/mod_push.erl:286
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "'வகை' பண்புக்கூறின் மதிப்பு 'பெறுதல்' அனுமதிக்கப்படவில்லை"
 
@@ -2363,12 +2546,14 @@ msgstr "'வகை' பண்புக்கூறின் மதிப்ப�
 #: src/mod_sic.erl:61 src/mod_sic.erl:73 src/mod_stats.erl:54
 #: src/mod_time.erl:53 src/mod_disco.erl:101 src/mod_disco.erl:117
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
-#: src/mod_vcard.erl:258 src/mod_pubsub.erl:831 src/mod_pubsub.erl:850
-#: src/mod_pubsub.erl:889 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4450
-#: src/mod_muc_room.erl:4593 src/mod_stun_disco.erl:479 src/mod_muc.erl:671
-#: src/mod_muc.erl:709 src/mod_muc.erl:754 src/mod_muc.erl:774
-#: src/mod_muc.erl:784 src/mod_mix.erl:156 src/mod_mix.erl:204
-#: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165 src/mod_proxy65_service.erl:172
+#: src/mod_vcard.erl:258 src/mod_pubsub.erl:828 src/mod_pubsub.erl:847
+#: src/mod_pubsub.erl:886 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4454
+#: src/mod_muc_room.erl:4601 src/mod_matrix_gw.erl:896
+#: src/mod_matrix_gw.erl:915 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
+#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
+#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
+#: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "'வகை' பண்புக்கூறின் 'தொகுப்பு' மதிப்பு அனுமதிக்கப்படவில்லை"
 
@@ -2380,12 +2565,12 @@ msgstr "'~s' மதிப்பு பூலியனாக இருக்க �
 msgid "Value of '~s' should be datetime string"
 msgstr "'~s' இன் மதிப்பு தேதிநேர சரமாக இருக்க வேண்டும்"
 
-#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227 src/pubsub_subscription_sql.erl:174
-#: src/pubsub_subscription_sql.erl:192
+#: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
+#: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 msgid "Value of '~s' should be integer"
 msgstr "'~s' இன் மதிப்பு முழு எண்ணாக இருக்க வேண்டும்"
 
-#: src/mod_mix_pam.erl:480
+#: src/mod_mix_pam.erl:473
 msgid "View joined MIX channels"
 msgstr "கலப்பு சேனல்களில் சேர்ந்தார்"
 
@@ -2397,76 +2582,90 @@ msgstr "மெய்நிகர் ஓச்ட்கள்"
 msgid "Visitor"
 msgstr "பார்வையாளர்"
 
-#: src/mod_muc_room.erl:1423
+#: src/mod_muc_room.erl:1427
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr ""
-"இந்த அறையில் பார்வையாளர்கள் தங்கள் புனைப்பெயர்களை மாற்ற அனுமதிக்கப்படுவதில்லை"
+msgstr "இந்த அறையில் பார்வையாளர்கள் தங்கள் புனைப்பெயர்களை மாற்ற அனுமதிக்கப்படுவதில்லை"
 
-#: src/mod_muc_room.erl:1129
+#: src/mod_muc_room.erl:1133
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "பார்வையாளர்கள் அனைத்து குடியிருப்பாளர்களுக்கும் செய்திகளை அனுப்ப அனுமதிக்கப்படுவதில்லை"
 
-#: src/mod_muc_room.erl:5232
+#: src/mod_muc_room.erl:5240
 msgid "Voice request"
 msgstr "குரல் கோரிக்கை"
 
-#: src/mod_muc_room.erl:1281
+#: src/mod_muc_room.erl:1285
 msgid "Voice requests are disabled in this conference"
 msgstr "இந்த மாநாட்டில் குரல் கோரிக்கைகள் முடக்கப்பட்டுள்ளன"
+
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1140
+msgid "Web client which allows to join the room anonymously"
+msgstr ""
 
 #: src/mod_muc_log.erl:483
 msgid "Wednesday"
 msgstr "புதன்கிழமை"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2138 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2138
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
 msgid "When a new subscription is processed"
 msgstr "புதிய சந்தா செயலாக்கப்படும் போது"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2142 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
-msgid "When a new subscription is processed and whenever a subscriber comes online"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2142
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
+msgid ""
+"When a new subscription is processed and whenever a subscriber comes online"
 msgstr "புதிய சந்தா செயலாக்கப்படும் போது, சந்தாதாரர் ஆன்லைனில் வரும்போதெல்லாம்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2156 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2156
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
 msgstr "கடைசியாக வெளியிடப்பட்ட உருப்படியை எப்போது அனுப்ப வேண்டும்"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:615
-msgid "Whether an entity wants to receive an XMPP message body in addition to the payload format"
+msgid ""
+"Whether an entity wants to receive an XMPP message body in addition to the "
+"payload format"
 msgstr ""
 "ஒரு நிறுவனம் பேலோட் வடிவமைப்பிற்கு கூடுதலாக ஒரு எக்ச்எம்பிபி செய்தி உடலைப் பெற "
 "விரும்புகிறதா என்பதை"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:563
-msgid "Whether an entity wants to receive digests (aggregations) of notifications or all notifications individually"
+msgid ""
+"Whether an entity wants to receive digests (aggregations) of notifications "
+"or all notifications individually"
 msgstr ""
-"ஒரு நிறுவனம் அறிவிப்புகளின் செரிமானங்களை (திரட்டல்கள்) பெற விரும்புகிறதா அல்லது அனைத்து"
-" அறிவிப்புகளையும் தனித்தனியாகப் பெற விரும்புகிறதா"
+"ஒரு நிறுவனம் அறிவிப்புகளின் செரிமானங்களை (திரட்டல்கள்) பெற விரும்புகிறதா அல்லது "
+"அனைத்து அறிவிப்புகளையும் தனித்தனியாகப் பெற விரும்புகிறதா"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
-"ஒரு நிறுவனம் அறிவிப்புகளைப் பெற விரும்புகிறதா அல்லது முடக்க விரும்புகிறதா"
+msgstr "ஒரு நிறுவனம் அறிவிப்புகளைப் பெற விரும்புகிறதா அல்லது முடக்க விரும்புகிறதா"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1826 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1826
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
-msgstr ""
-"உரிமையாளர்கள் அல்லது வெளியீட்டாளர் உருப்படிகளுக்கான பதில்களைப் பெற வேண்டுமா"
+msgstr "உரிமையாளர்கள் அல்லது வெளியீட்டாளர் உருப்படிகளுக்கான பதில்களைப் பெற வேண்டுமா"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1912 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1912
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
 msgstr "முனை ஒரு இலை (இயல்புநிலை) அல்லது தொகுப்பாக இருந்தாலும் சரி"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2188 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2188
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
 msgstr "சந்தாக்களை அனுமதிக்க வேண்டுமா"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2172 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
-msgid "Whether to make all subscriptions temporary, based on subscriber presence"
-msgstr ""
-"அனைத்து சந்தாக்களையும் தற்காலிகமாக மாற்றலாமா, சந்தாதாரர் இருப்பின் அடிப்படையில்"
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2172
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
+msgid ""
+"Whether to make all subscriptions temporary, based on subscriber presence"
+msgstr "அனைத்து சந்தாக்களையும் தற்காலிகமாக மாற்றலாமா, சந்தாதாரர் இருப்பின் அடிப்படையில்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2011 _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2011
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 "புதிய சந்தாதாரர்கள் மற்றும் குழுவிலகங்களைப் பற்றி உரிமையாளர்களுக்கு அறிவிக்க வேண்டுமா"
@@ -2475,7 +2674,8 @@ msgstr ""
 msgid "Who can send private messages"
 msgstr "தனிப்பட்ட செய்திகளை யார் அனுப்ப முடியும்"
 
-#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1617 _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
+#: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1617
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
 msgstr "இலை முனைகளை யார் சேகரிப்புடன் தொடர்புபடுத்தலாம்"
 
@@ -2505,22 +2705,22 @@ msgstr "எக்ச்எம்பிபி அரட்டையின் ம�
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:640
 msgid "XMPP Show Value of DND (Do Not Disturb)"
-msgstr ""
-"எக்ச்எம்பிபி டி.என்.டி யின் மதிப்பைக் காட்டுகிறது (தொந்தரவு செய்யாதீர்கள்)"
+msgstr "எக்ச்எம்பிபி டி.என்.டி யின் மதிப்பைக் காட்டுகிறது (தொந்தரவு செய்யாதீர்கள்)"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:648
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr "XMPP XA இன் மதிப்பைக் காட்டுகிறது (நீட்டிக்கப்பட்டது)"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984 _build/translations/lib/xmpp/src/muc_roominfo.erl:1096
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1157
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "அசோசியேட்டட் பப்ளிச்-சப்ச்கிரிப்ட் முனையின் எக்ச்எம்பிபி யுஆர்ஐ"
 
-#: src/mod_muc_room.erl:987
+#: src/mod_muc_room.erl:991
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "கணினி பணிநிறுத்தம் காரணமாக நீங்கள் அறையிலிருந்து அகற்றப்படுகிறீர்கள்"
 
-#: src/mod_muc_room.erl:646 src/mod_muc_room.erl:657
+#: src/mod_muc_room.erl:650 src/mod_muc_room.erl:661
 msgid "You are not allowed to send private messages"
 msgstr "தனிப்பட்ட செய்திகளை அனுப்ப உங்களுக்கு இசைவு இல்லை"
 
@@ -2530,18 +2730,17 @@ msgstr "நீங்கள் சேனலுடன் சேரவில்ல�
 
 #: src/mod_register_web.erl:275
 msgid "You can later change your password using an XMPP client."
-msgstr ""
-"எக்ச்எம்பிபி கிளையண்டைப் பயன்படுத்தி உங்கள் கடவுச்சொல்லை பின்னர் மாற்றலாம்."
+msgstr "எக்ச்எம்பிபி கிளையண்டைப் பயன்படுத்தி உங்கள் கடவுச்சொல்லை பின்னர் மாற்றலாம்."
 
-#: src/mod_muc_room.erl:2333 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2337 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "இந்த அறையிலிருந்து நீங்கள் தடை செய்யப்பட்டுள்ளீர்கள்"
 
-#: src/mod_muc_room.erl:2314
+#: src/mod_muc_room.erl:2318
 msgid "You have joined too many conferences"
 msgstr "நீங்கள் பல மாநாடுகளில் சேர்ந்துள்ளீர்கள்"
 
-#: src/mod_muc.erl:1136
+#: src/mod_muc.erl:1160
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "நீங்கள் வடிவத்தில் புலம் \"புனைப்பெயரை\" நிரப்ப வேண்டும்"
 
@@ -2549,7 +2748,7 @@ msgstr "நீங்கள் வடிவத்தில் புலம் \"�
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "எக்ச்: தரவு மற்றும் கேப்ட்சா பதிவு செய்ய உங்களுக்கு ஒரு வாங்கி தேவை"
 
-#: src/mod_muc.erl:1091
+#: src/mod_muc.erl:1115
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "புனைப்பெயரை பதிவு செய்ய எக்ச்: தரவை ஆதரிக்கும் வாங்கி உங்களுக்குத் தேவை"
 
@@ -2557,7 +2756,7 @@ msgstr "புனைப்பெயரை பதிவு செய்ய எக
 msgid "You need an x:data capable client to search"
 msgstr "தேட உங்களுக்கு ஒரு ஃச் தேவை: தேட தரவு திறன் கொண்ட வாங்கி"
 
-#: src/mod_pubsub.erl:1571
+#: src/mod_pubsub.erl:1568
 msgid "You're not allowed to create nodes"
 msgstr "முனைகளை உருவாக்க உங்களுக்கு இசைவு இல்லை"
 
@@ -2569,18 +2768,20 @@ msgstr "உங்கள் எக்ச்எம்பிபி கணக்க�
 msgid "Your XMPP account was successfully unregistered."
 msgstr "உங்கள் எக்ச்எம்பிபி கணக்கு வெற்றிகரமாக பதிவு செய்யப்படவில்லை."
 
-#: src/ejabberd_c2s.erl:789 src/ejabberd_c2s.erl:943
+#: src/ejabberd_c2s.erl:835 src/ejabberd_c2s.erl:989
 msgid "Your active privacy list has denied the routing of this stanza."
-msgstr ""
-"உங்கள் செயலில் உள்ள தனியுரிமை பட்டியல் இந்த சரணத்தை வழிநடத்துவதை மறுத்துள்ளது."
+msgstr "உங்கள் செயலில் உள்ள தனியுரிமை பட்டியல் இந்த சரணத்தை வழிநடத்துவதை மறுத்துள்ளது."
 
 #: src/mod_offline.erl:731
-msgid "Your contact offline message queue is full. The message has been discarded."
+msgid ""
+"Your contact offline message queue is full. The message has been discarded."
 msgstr ""
 "உங்கள் தொடர்பு இணைப்பில்லாத செய்தி வரிசை நிரம்பியுள்ளது. செய்தி நிராகரிக்கப்பட்டுள்ளது."
 
 #: src/ejabberd_captcha.erl:103
-msgid "Your subscription request and/or messages to ~s have been blocked. To unblock your subscription request, visit ~s"
+msgid ""
+"Your subscription request and/or messages to ~s have been blocked. To "
+"unblock your subscription request, visit ~s"
 msgstr ""
 "உங்கள் சந்தா கோரிக்கை மற்றும்/அல்லது செய்திகளுக்கான செய்திகள் தடுக்கப்பட்டுள்ளன ~s. உங்கள் "
 "சந்தா கோரிக்கையைத் தடுக்க, ~s கள் பார்வையிடவும்"
@@ -2593,7 +2794,7 @@ msgstr "எசாபர்ட்"
 msgid "ejabberd HTTP Upload service"
 msgstr "EJABBERD HTTP பதிவேற்ற பணி"
 
-#: src/mod_muc.erl:665
+#: src/mod_muc.erl:666
 msgid "ejabberd MUC module"
 msgstr "EJABBERD MUC தொகுதி"
 
@@ -2601,7 +2802,7 @@ msgstr "EJABBERD MUC தொகுதி"
 msgid "ejabberd Multicast service"
 msgstr "எசாபர்ட் மல்டிகாச்ட் பணி"
 
-#: src/mod_pubsub.erl:1115
+#: src/mod_pubsub.erl:1112
 msgid "ejabberd Publish-Subscribe module"
 msgstr "EJABBERD வெளியீட்டு-சந்தா தொகுதி"
 
@@ -2649,11 +2850,11 @@ msgstr "அறையில் இணைகிறது"
 msgid "leaves the room"
 msgstr "அறையை விட்டு வெளியேறுகிறது"
 
-#: src/mod_muc_room.erl:4892
+#: src/mod_muc_room.erl:4900
 msgid "private, "
 msgstr "தனிப்பட்ட, "
 
-#: src/mod_muc_room.erl:5308
+#: src/mod_muc_room.erl:5316
 msgid "the password is"
 msgstr "கடவுச்சொல்"
 
@@ -2661,14 +2862,17 @@ msgstr "கடவுச்சொல்"
 msgid "vCard User Search"
 msgstr "VCARD பயனர் தேடல்"
 
-#: src/mod_muc_room.erl:5301
+#: src/mod_muc_room.erl:5309
 msgid "~s invites you to the room ~s"
 msgstr "~s எச் உங்களை அறைக்கு அழைக்கிறது ~s கள்"
 
-#: src/mod_mam.erl:1709
+#: src/mod_mam.erl:1704
 msgid "~ts's MAM Archive"
 msgstr "~ts இன் மாம் காப்பகம்"
 
 #: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
 msgstr "~ts இன் இணைப்பில்லாத செய்திகள் வரிசை"
+
+#~ msgid "No <privileged_iq/> element found"
+#~ msgstr "இல்லை <சலுகை_இக்/> உறுப்பு காணப்படுகிறது"
