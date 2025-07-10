@@ -66,10 +66,10 @@ msgstr "Godta"
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
 #: src/mod_roster.erl:164 src/ejabberd_c2s.erl:539 src/ejabberd_c2s.erl:823
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:283 src/mod_register.erl:394
+#: src/mod_register.erl:286 src/mod_register.erl:397
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
 #: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:506 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/mod_stun_disco.erl:506 src/mod_muc.erl:220 src/mod_muc.erl:704
 #: src/mod_configure.erl:164 src/mod_configure.erl:283
 #: src/mod_configure.erl:410 src/mod_configure.erl:700
 #: src/mod_configure.erl:1459 src/mod_proxy65_service.erl:197
@@ -352,7 +352,7 @@ msgstr "Endre passord"
 msgid "Change User Password"
 msgstr "Endre brukerpassord"
 
-#: src/mod_register.erl:309
+#: src/mod_register.erl:312
 #, fuzzy
 msgid "Changing password is not allowed"
 msgstr "Ikke godtatte tegn:"
@@ -404,7 +404,7 @@ msgstr "Samtalerom startet"
 msgid "Chatroom is stopped"
 msgstr "Samtalerom stoppet"
 
-#: src/mod_muc_admin.erl:1130 src/mod_muc.erl:1390
+#: src/mod_muc_admin.erl:1130 src/mod_muc.erl:1391
 msgid "Chatrooms"
 msgstr "Samtalerom"
 
@@ -440,8 +440,8 @@ msgstr ""
 msgid "Commands"
 msgstr "Kommandoer"
 
-#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:622
+#: src/mod_muc.erl:646
 msgid "Conference room does not exist"
 msgstr "Konferanserommet finnes ikke"
 
@@ -480,16 +480,16 @@ msgstr "Database-tabelloppsett på "
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:377 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
 #: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3958 src/mod_pubsub.erl:4177
-#: src/mod_mam.erl:851 src/mod_mam.erl:869 src/mod_mam.erl:899
-#: src/mod_mam.erl:1242 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
+#: src/mod_mam.erl:1253 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:191 src/mod_private.erl:198
 #: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
-#: src/mod_register.erl:406 src/mod_carboncopy.erl:93
+#: src/mod_register.erl:409 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_push.erl:301 src/mod_push.erl:316 src/mod_blocking.erl:261
-#: src/mod_muc.erl:797 src/mod_muc.erl:1132 src/mod_mix.erl:652
+#: src/mod_muc.erl:798 src/mod_muc.erl:1133 src/mod_mix.erl:652
 #: src/mod_proxy65_service.erl:242
 #, fuzzy
 msgid "Database failure"
@@ -600,7 +600,7 @@ msgstr "Å skru på dytting uten «node»-attributt støttes ikke"
 msgid "End User Session"
 msgstr "Avslutt brukerøkt"
 
-#: src/mod_muc.erl:1107
+#: src/mod_muc.erl:1108
 msgid "Enter nickname you want to register"
 msgstr "Skriv inn kallenavnet du ønsker å registrere"
 
@@ -860,7 +860,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr "Feilaktig CAPTCHA-innsendelse"
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1252 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3685 src/mod_muc.erl:1155
+#: src/mod_muc_room.erl:3685 src/mod_muc.erl:1156
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Feil passord"
@@ -885,11 +885,11 @@ msgstr ""
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/ext_mod.erl:1302
+#: src/ext_mod.erl:1314
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1378
+#: src/ext_mod.erl:1390
 #, fuzzy
 msgid "Installed Modules:"
 msgstr "Start Moduler"
@@ -1027,7 +1027,7 @@ msgstr ""
 msgid "Logging"
 msgstr "Loggføring"
 
-#: src/mod_mam.erl:855
+#: src/mod_mam.erl:866
 #, fuzzy
 msgid "MAM preference modification denied by service policy"
 msgstr "Oppretting av rom nektes av en tjenste regel"
@@ -1069,7 +1069,7 @@ msgstr "Gjør rommet vedvarende"
 msgid "Make room public searchable"
 msgstr "Gjør rommet offentlig søkbart"
 
-#: src/mod_register.erl:392
+#: src/mod_register.erl:395
 #, fuzzy
 msgid "Malformed username"
 msgstr "IRC brukernavn"
@@ -1246,7 +1246,7 @@ msgstr "Nytt passord:"
 msgid "Nickname"
 msgstr "Kallenavn"
 
-#: src/mod_muc.erl:1106
+#: src/mod_muc.erl:1107
 msgid "Nickname Registration at "
 msgstr "Registrer kallenavn på "
 
@@ -1323,7 +1323,7 @@ msgstr "Noden finnes ikke"
 msgid "No data form found"
 msgstr "Noden finnes ikke"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:626
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:637
 msgid "No features available"
 msgstr "Ingen tilgjengelige funksjoner"
 
@@ -1347,10 +1347,10 @@ msgstr "Ingen grense"
 #: src/mod_mix_pam.erl:372 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
-#: src/mod_matrix_gw.erl:910 src/mod_matrix_gw.erl:924 src/mod_blocking.erl:81
+#: src/mod_matrix_gw.erl:945 src/mod_matrix_gw.erl:959 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:250 src/mod_muc.erl:676
+#: src/mod_muc.erl:751 src/mod_muc.erl:771 src/mod_muc.erl:802
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr ""
@@ -1417,10 +1417,10 @@ msgstr "Noden finnes ikke"
 #: src/mod_muc_room.erl:4476 src/mod_muc_room.erl:4494
 #: src/mod_muc_room.erl:4512 src/mod_muc_room.erl:4530
 #: src/mod_muc_room.erl:4641 src/mod_muc_room.erl:4656
-#: src/mod_muc_room.erl:4660 src/mod_matrix_gw.erl:908
-#: src/mod_matrix_gw.erl:922 src/ejabberd_web_admin.erl:638
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1044
+#: src/mod_muc_room.erl:4660 src/mod_matrix_gw.erl:943
+#: src/mod_matrix_gw.erl:957 src/ejabberd_web_admin.erl:638
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:749
+#: src/mod_muc.erl:1045
 msgid "Node not found"
 msgstr "Noden finnes ikke"
 
@@ -1445,7 +1445,7 @@ msgstr "Ingen"
 msgid "Not Found"
 msgstr "Finnes ikke"
 
-#: src/mod_register.erl:402
+#: src/mod_register.erl:405
 #, fuzzy
 msgid "Not allowed"
 msgstr "Finnes Ikke"
@@ -1561,7 +1561,7 @@ msgstr ""
 msgid "Only deliver notifications to available users"
 msgstr "Kun send kunngjøringer til tilgjengelige brukere"
 
-#: src/mod_mam.erl:587
+#: src/mod_mam.erl:588
 #, fuzzy
 msgid "Only members may query archives of this room"
 msgstr "Bare ordstyrer tillates å endre emnet i dette rommet"
@@ -1602,7 +1602,7 @@ msgstr "Kun deltakere tillates å sende forespørsler til konferansen"
 msgid "Only publishers may publish"
 msgstr "Kun publiserere kan publisere"
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:240
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Bare tjenesteadministratorer tillates å sende tjenestemeldinger"
 
@@ -1629,7 +1629,7 @@ msgstr "Organisasjonsnavn"
 msgid "Organization Unit"
 msgstr "Organisasjonsenhet"
 
-#: src/ext_mod.erl:1382
+#: src/ext_mod.erl:1394
 msgid "Other Modules Available:"
 msgstr ""
 
@@ -1935,7 +1935,7 @@ msgstr "Rom-oppsett"
 msgid "Room Occupants"
 msgstr "Samtaleromsdeltagere"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:640
 msgid "Room creation is denied by service policy"
 msgstr "Oppretting av rom nektes av en tjensteregel"
 
@@ -2073,7 +2073,7 @@ msgstr ""
 "Noen XMPP klienter kan lagre passordet på datamaskinen. Bruk bare den "
 "funksjonen dersom du er sikker på at maskinen er trygg."
 
-#: src/ext_mod.erl:1371
+#: src/ext_mod.erl:1383
 msgid "Sources Specs:"
 msgstr ""
 
@@ -2130,7 +2130,7 @@ msgstr ""
 msgid "Subject"
 msgstr "Emne"
 
-#: src/ext_mod.erl:1113 src/ejabberd_web_admin.erl:1028
+#: src/ext_mod.erl:1125 src/ejabberd_web_admin.erl:1028
 msgid "Submitted"
 msgstr "Innsendt"
 
@@ -2182,7 +2182,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr "Det kallenavnet er allerede i bruk av en annen deltaker"
 
 #: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2364
-#: src/mod_muc_room.erl:4754 src/mod_muc.erl:1129
+#: src/mod_muc_room.erl:4754 src/mod_muc.erl:1130
 msgid "That nickname is registered by another person"
 msgstr "Det kallenavnet er registrert av en annen person"
 
@@ -2334,11 +2334,11 @@ msgstr "Tillat denne Jabber ID å abonnere på denne pubsub "
 msgid "The number of unread or undelivered messages"
 msgstr "Antallet uleste eller uleverte meldinger"
 
-#: src/mod_register.erl:400
+#: src/mod_register.erl:403
 msgid "The password contains unacceptable characters"
 msgstr "Passordet inneholder ulovlige tegn"
 
-#: src/mod_register.erl:398
+#: src/mod_register.erl:401
 msgid "The password is too weak"
 msgstr "Passordet er for svakt"
 
@@ -2533,11 +2533,11 @@ msgstr "Uautorisert"
 msgid "Unexpected action"
 msgstr ""
 
-#: src/mod_register.erl:408
+#: src/mod_register.erl:411
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
-#: src/ext_mod.erl:1284
+#: src/ext_mod.erl:1296
 msgid "Uninstall"
 msgstr ""
 
@@ -2551,7 +2551,7 @@ msgstr "Avregistrer"
 msgid "Unregister an XMPP account"
 msgstr "Avregistrer en XMPP konto"
 
-#: src/mod_mam.erl:887
+#: src/mod_mam.erl:898
 msgid "Unsupported <index/> element"
 msgstr "Ustøttet <index/>-element"
 
@@ -2559,7 +2559,7 @@ msgstr "Ustøttet <index/>-element"
 msgid "Unsupported version"
 msgstr "Ustøttet versjon"
 
-#: src/ext_mod.erl:1376
+#: src/ext_mod.erl:1388
 #, fuzzy
 msgid "Update Specs"
 msgstr "Oppdater ~p"
@@ -2572,7 +2572,7 @@ msgstr "Oppdater melding for dagen (ikke send)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Oppdater melding for dagen på alle verter (ikke send)"
 
-#: src/ext_mod.erl:1366
+#: src/ext_mod.erl:1378
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
@@ -2580,7 +2580,7 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 
-#: src/ext_mod.erl:1287
+#: src/ext_mod.erl:1299
 msgid "Upgrade"
 msgstr ""
 
@@ -2604,7 +2604,7 @@ msgstr "Bruker-JID"
 msgid "User Management"
 msgstr "Brukerhåndtering"
 
-#: src/mod_register.erl:404
+#: src/mod_register.erl:407
 msgid "User already exists"
 msgstr "Brukeren finnes allerede"
 
@@ -2643,7 +2643,7 @@ msgstr "Brukere"
 msgid "Users Last Activity"
 msgstr "Brukers siste aktivitet"
 
-#: src/mod_register.erl:396
+#: src/mod_register.erl:399
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Brukere har ikke lov til registrere kontoer så fort"
 
@@ -2658,10 +2658,10 @@ msgstr ""
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:828 src/mod_pubsub.erl:847
 #: src/mod_pubsub.erl:886 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4454
-#: src/mod_muc_room.erl:4601 src/mod_matrix_gw.erl:896
-#: src/mod_matrix_gw.erl:915 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4601 src/mod_matrix_gw.erl:931
+#: src/mod_matrix_gw.erl:950 src/mod_stun_disco.erl:479 src/mod_muc.erl:673
+#: src/mod_muc.erl:711 src/mod_muc.erl:756 src/mod_muc.erl:776
+#: src/mod_muc.erl:786 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2859,7 +2859,7 @@ msgstr "Du har blitt bannlyst fra dette rommet."
 msgid "You have joined too many conferences"
 msgstr "Du har tilknyttet deg for mange konferanser"
 
-#: src/mod_muc.erl:1160
+#: src/mod_muc.erl:1161
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Du må fylle inn feltet «Kallenavn» i skjemaet"
 
@@ -2867,7 +2867,7 @@ msgstr "Du må fylle inn feltet «Kallenavn» i skjemaet"
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Du trenger en klient som støtter x:data og CAPTCHA for registrering"
 
-#: src/mod_muc.erl:1115
+#: src/mod_muc.erl:1116
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "Du trenger en klient som støtter x:data for å registrere kallenavnet"
 
@@ -2917,7 +2917,7 @@ msgstr "ejabberd Web Admin"
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd-HTTP-opplastingstjeneste"
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:667
 msgid "ejabberd MUC module"
 msgstr "ejabberd-MUC-modul"
 
@@ -2995,7 +2995,7 @@ msgstr "vCard-brukersøk"
 msgid "~s invites you to the room ~s"
 msgstr "~s inviterer deg til rommet ~s"
 
-#: src/mod_mam.erl:1705
+#: src/mod_mam.erl:1716
 msgid "~ts's MAM Archive"
 msgstr ""
 

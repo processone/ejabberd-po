@@ -4,8 +4,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "PO-Revision-Date: 2025-07-03 07:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/ejabberd/"
-"ejabberd-po/ta/>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
+"po/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,10 +59,10 @@ msgstr "ஏற்றுக்கொள்"
 #: src/mod_announce.erl:308 src/mod_announce.erl:422 src/mod_announce.erl:841
 #: src/mod_roster.erl:164 src/ejabberd_c2s.erl:539 src/ejabberd_c2s.erl:823
 #: src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:283 src/mod_register.erl:394
+#: src/mod_register.erl:286 src/mod_register.erl:397
 #: src/mod_legacy_auth.erl:146 src/mod_s2s_dialback.erl:331
 #: src/ejabberd_s2s.erl:345 src/mod_http_upload.erl:796
-#: src/mod_stun_disco.erl:506 src/mod_muc.erl:219 src/mod_muc.erl:703
+#: src/mod_stun_disco.erl:506 src/mod_muc.erl:220 src/mod_muc.erl:704
 #: src/mod_configure.erl:164 src/mod_configure.erl:283
 #: src/mod_configure.erl:410 src/mod_configure.erl:700
 #: src/mod_configure.erl:1459 src/mod_proxy65_service.erl:197
@@ -335,7 +335,7 @@ msgstr "கடவுச்சொல்லை மாற்றவும்"
 msgid "Change User Password"
 msgstr "பயனர் கடவுச்சொல்லை மாற்றவும்"
 
-#: src/mod_register.erl:309
+#: src/mod_register.erl:312
 msgid "Changing password is not allowed"
 msgstr "கடவுச்சொல்லை மாற்ற அனுமதிக்கப்படவில்லை"
 
@@ -383,7 +383,7 @@ msgstr "அரட்டை அறை தொடங்கப்பட்டது"
 msgid "Chatroom is stopped"
 msgstr "அரட்டை அறை நிறுத்தப்பட்டது"
 
-#: src/mod_muc_admin.erl:1130 src/mod_muc.erl:1390
+#: src/mod_muc_admin.erl:1130 src/mod_muc.erl:1391
 msgid "Chatrooms"
 msgstr "அரட்டை அறைகள்"
 
@@ -418,8 +418,8 @@ msgstr "கிளச்டரிங்"
 msgid "Commands"
 msgstr "கட்டளைகள்"
 
-#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:621
-#: src/mod_muc.erl:645
+#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:622
+#: src/mod_muc.erl:646
 msgid "Conference room does not exist"
 msgstr "மாநாட்டு அறை இல்லை"
 
@@ -457,16 +457,16 @@ msgstr "தரவுத்தள அட்டவணைகள் உள்ளம�
 #: src/mod_last.erl:185 src/mod_mix_pam.erl:377 src/node_flat_sql.erl:804
 #: src/mod_vcard.erl:248 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
 #: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3958 src/mod_pubsub.erl:4177
-#: src/mod_mam.erl:851 src/mod_mam.erl:869 src/mod_mam.erl:899
-#: src/mod_mam.erl:1242 src/mod_privacy.erl:165 src/mod_privacy.erl:183
+#: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
+#: src/mod_mam.erl:1253 src/mod_privacy.erl:165 src/mod_privacy.erl:183
 #: src/mod_privacy.erl:277 src/mod_privacy.erl:293 src/mod_privacy.erl:326
 #: src/mod_privacy.erl:343 src/mod_private.erl:191 src/mod_private.erl:198
 #: src/mod_roster.erl:436 src/mod_offline.erl:344 src/mod_offline.erl:735
-#: src/mod_register.erl:406 src/mod_carboncopy.erl:93
+#: src/mod_register.erl:409 src/mod_carboncopy.erl:93
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_push.erl:301 src/mod_push.erl:316 src/mod_blocking.erl:261
-#: src/mod_muc.erl:797 src/mod_muc.erl:1132 src/mod_mix.erl:652
+#: src/mod_muc.erl:798 src/mod_muc.erl:1133 src/mod_mix.erl:652
 #: src/mod_proxy65_service.erl:242
 msgid "Database failure"
 msgstr "தரவுத்தள தோல்வி"
@@ -571,7 +571,7 @@ msgstr "'முனை' பண்புக்கூறு இல்லாமல�
 msgid "End User Session"
 msgstr "இறுதி பயனர் அமர்வு"
 
-#: src/mod_muc.erl:1107
+#: src/mod_muc.erl:1108
 msgid "Enter nickname you want to register"
 msgstr "நீங்கள் பதிவு செய்ய விரும்பும் புனைப்பெயரை உள்ளிடவும்"
 
@@ -813,7 +813,7 @@ msgid "Incorrect CAPTCHA submit"
 msgstr "தவறான கேப்ட்சா சமர்ப்பிக்கவும்"
 
 #: src/mod_vcard.erl:277 src/mod_pubsub.erl:1252 src/mod_register.erl:188
-#: src/mod_muc_room.erl:3685 src/mod_muc.erl:1155
+#: src/mod_muc_room.erl:3685 src/mod_muc.erl:1156
 msgid "Incorrect data form"
 msgstr "தவறான தரவு வடிவம்"
 
@@ -837,11 +837,11 @@ msgstr "தரவு வடிவத்தில் 'செயல்' இன் 
 msgid "Incorrect value of 'path' in data form"
 msgstr "தரவு வடிவத்தில் 'பாதை' இன் தவறான மதிப்பு"
 
-#: src/ext_mod.erl:1302
+#: src/ext_mod.erl:1314
 msgid "Install"
 msgstr "நிறுவவும்"
 
-#: src/ext_mod.erl:1378
+#: src/ext_mod.erl:1390
 msgid "Installed Modules:"
 msgstr "நிறுவப்பட்ட தொகுதிகள்:"
 
@@ -970,7 +970,7 @@ msgstr "வெளியேறியது"
 msgid "Logging"
 msgstr "பதிவு"
 
-#: src/mod_mam.erl:855
+#: src/mod_mam.erl:866
 msgid "MAM preference modification denied by service policy"
 msgstr "பணி கொள்கையால் மறுக்கப்பட்ட மாம் விருப்பத்தேர்வு மாற்றம்"
 
@@ -1009,7 +1009,7 @@ msgstr "அறையை தொடர்ந்து செய்யுங்க�
 msgid "Make room public searchable"
 msgstr "அறையை பொதுவில் தேடலாம்"
 
-#: src/mod_register.erl:392
+#: src/mod_register.erl:395
 msgid "Malformed username"
 msgstr "தவறான பயனர்பெயர்"
 
@@ -1179,7 +1179,7 @@ msgstr "புதிய கடவுச்சொல்:"
 msgid "Nickname"
 msgstr "புனைப்பெயர்"
 
-#: src/mod_muc.erl:1106
+#: src/mod_muc.erl:1107
 msgid "Nickname Registration at "
 msgstr "இல் புனைப்பெயர் பதிவு "
 
@@ -1250,7 +1250,7 @@ msgstr "குழந்தை கூறுகள் எதுவும் கி
 msgid "No data form found"
 msgstr "தரவு படிவம் எதுவும் கிடைக்கவில்லை"
 
-#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:626
+#: src/mod_disco.erl:168 src/mod_vcard.erl:303 src/mod_mam.erl:637
 msgid "No features available"
 msgstr "நற்பொருத்தங்கள் எதுவும் கிடைக்கவில்லை"
 
@@ -1274,10 +1274,10 @@ msgstr "வரம்பு இல்லை"
 #: src/mod_mix_pam.erl:372 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_jidprep.erl:141 src/mod_roster.erl:184 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/ejabberd_captcha.erl:231
-#: src/mod_matrix_gw.erl:910 src/mod_matrix_gw.erl:924 src/mod_blocking.erl:81
+#: src/mod_matrix_gw.erl:945 src/mod_matrix_gw.erl:959 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_http_upload.erl:766
-#: src/mod_stun_disco.erl:482 src/mod_muc.erl:249 src/mod_muc.erl:675
-#: src/mod_muc.erl:750 src/mod_muc.erl:770 src/mod_muc.erl:801
+#: src/mod_stun_disco.erl:482 src/mod_muc.erl:250 src/mod_muc.erl:676
+#: src/mod_muc.erl:751 src/mod_muc.erl:771 src/mod_muc.erl:802
 #: src/mod_mix.erl:672
 msgid "No module is handling this query"
 msgstr "இந்த வினவலை எந்த தொகுதியும் கையாளவில்லை"
@@ -1340,10 +1340,10 @@ msgstr "முனை குறியீடு கிடைக்கவில்�
 #: src/mod_muc_room.erl:4476 src/mod_muc_room.erl:4494
 #: src/mod_muc_room.erl:4512 src/mod_muc_room.erl:4530
 #: src/mod_muc_room.erl:4641 src/mod_muc_room.erl:4656
-#: src/mod_muc_room.erl:4660 src/mod_matrix_gw.erl:908
-#: src/mod_matrix_gw.erl:922 src/ejabberd_web_admin.erl:638
-#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:748
-#: src/mod_muc.erl:1044
+#: src/mod_muc_room.erl:4660 src/mod_matrix_gw.erl:943
+#: src/mod_matrix_gw.erl:957 src/ejabberd_web_admin.erl:638
+#: src/nodetree_tree.erl:77 src/nodetree_tree.erl:83 src/mod_muc.erl:749
+#: src/mod_muc.erl:1045
 msgid "Node not found"
 msgstr "முனை கிடைக்கவில்லை"
 
@@ -1367,7 +1367,7 @@ msgstr "எதுவுமில்லை"
 msgid "Not Found"
 msgstr "கண்டுபிடிக்கப்படவில்லை"
 
-#: src/mod_register.erl:402
+#: src/mod_register.erl:405
 msgid "Not allowed"
 msgstr "அனுமதிக்கப்படவில்லை"
 
@@ -1475,7 +1475,7 @@ msgstr "சேகரிப்பு முனை உரிமையாளர்�
 msgid "Only deliver notifications to available users"
 msgstr "கிடைக்கக்கூடிய பயனர்களுக்கு மட்டுமே அறிவிப்புகளை வழங்கவும்"
 
-#: src/mod_mam.erl:587
+#: src/mod_mam.erl:588
 msgid "Only members may query archives of this room"
 msgstr "உறுப்பினர்கள் மட்டுமே இந்த அறையின் காப்பகங்களை வினவலாம்"
 
@@ -1513,7 +1513,7 @@ msgstr "மாநாட்டிற்கு வினவல்களை அன�
 msgid "Only publishers may publish"
 msgstr "வெளியீட்டாளர்கள் மட்டுமே வெளியிடலாம்"
 
-#: src/mod_muc.erl:239
+#: src/mod_muc.erl:240
 msgid "Only service administrators are allowed to send service messages"
 msgstr "பணி செய்திகளை அனுப்ப பணி நிர்வாகிகள் மட்டுமே அனுமதிக்கப்படுகிறார்கள்"
 
@@ -1541,7 +1541,7 @@ msgstr "அமைப்பு பெயர்"
 msgid "Organization Unit"
 msgstr "அமைப்பு பிரிவு"
 
-#: src/ext_mod.erl:1382
+#: src/ext_mod.erl:1394
 msgid "Other Modules Available:"
 msgstr "பிற தொகுதிகள் கிடைக்கின்றன:"
 
@@ -1833,7 +1833,7 @@ msgstr "அறை உள்ளமைவு"
 msgid "Room Occupants"
 msgstr "அறை குடியிருப்பாளர்கள்"
 
-#: src/mod_muc.erl:639
+#: src/mod_muc.erl:640
 msgid "Room creation is denied by service policy"
 msgstr "பணி கொள்கையால் அறை உருவாக்கம் மறுக்கப்படுகிறது"
 
@@ -1963,7 +1963,7 @@ msgstr ""
 "சில எக்ச்எம்பிபி வாடிக்கையாளர்கள் உங்கள் கடவுச்சொல்லை கணினியில் சேமிக்க முடியும், ஆனால் "
 "பாதுகாப்பு காரணங்களுக்காக இதை உங்கள் தனிப்பட்ட கணினியில் மட்டுமே செய்ய வேண்டும்."
 
-#: src/ext_mod.erl:1371
+#: src/ext_mod.erl:1383
 msgid "Sources Specs:"
 msgstr "ஆதார விவரக்குறிப்புகள்:"
 
@@ -2019,7 +2019,7 @@ msgstr "ச்ட்ரீம் மேலாண்மை இயக்கப்�
 msgid "Subject"
 msgstr "பொருள்"
 
-#: src/ext_mod.erl:1113 src/ejabberd_web_admin.erl:1028
+#: src/ext_mod.erl:1125 src/ejabberd_web_admin.erl:1028
 msgid "Submitted"
 msgstr "சமர்ப்பிக்கப்பட்டது"
 
@@ -2073,7 +2073,7 @@ msgid "That nickname is already in use by another occupant"
 msgstr "அந்த புனைப்பெயர் ஏற்கனவே மற்றொரு குடியிருப்பாளரால் பயன்பாட்டில் உள்ளது"
 
 #: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2364
-#: src/mod_muc_room.erl:4754 src/mod_muc.erl:1129
+#: src/mod_muc_room.erl:4754 src/mod_muc.erl:1130
 msgid "That nickname is registered by another person"
 msgstr "அந்த புனைப்பெயர் மற்றொரு நபரால் பதிவு செய்யப்பட்டுள்ளது"
 
@@ -2229,11 +2229,11 @@ msgstr "முனைக்கு சந்தாதாரர்களின் �
 msgid "The number of unread or undelivered messages"
 msgstr "படிக்காத அல்லது வழங்கப்படாத செய்திகளின் எண்ணிக்கை"
 
-#: src/mod_register.erl:400
+#: src/mod_register.erl:403
 msgid "The password contains unacceptable characters"
 msgstr "கடவுச்சொல்லில் ஏற்றுக்கொள்ள முடியாத எழுத்துக்கள் உள்ளன"
 
-#: src/mod_register.erl:398
+#: src/mod_register.erl:401
 msgid "The password is too weak"
 msgstr "கடவுச்சொல் மிகவும் பலவீனமாக உள்ளது"
 
@@ -2424,11 +2424,11 @@ msgstr "அங்கீகரிக்கப்படாதது"
 msgid "Unexpected action"
 msgstr "எதிர்பாராத நடவடிக்கை"
 
-#: src/mod_register.erl:408
+#: src/mod_register.erl:411
 msgid "Unexpected error condition: ~p"
 msgstr "எதிர்பாராத பிழை நிலை: ~p"
 
-#: src/ext_mod.erl:1284
+#: src/ext_mod.erl:1296
 msgid "Uninstall"
 msgstr "நிறுவல் நீக்க"
 
@@ -2441,7 +2441,7 @@ msgstr "பதிவு செய்யப்படாதது"
 msgid "Unregister an XMPP account"
 msgstr "ஒரு எக்ச்எம்பிபி கணக்கை பதிவு செய்யவும்"
 
-#: src/mod_mam.erl:887
+#: src/mod_mam.erl:898
 msgid "Unsupported <index/> element"
 msgstr "ஆதரிக்கப்படாத <index/> உறுப்பு"
 
@@ -2449,7 +2449,7 @@ msgstr "ஆதரிக்கப்படாத <index/> உறுப்பு"
 msgid "Unsupported version"
 msgstr "ஆதரிக்கப்படாத பதிப்பு"
 
-#: src/ext_mod.erl:1376
+#: src/ext_mod.erl:1388
 msgid "Update Specs"
 msgstr "விவரக்குறிப்புகளைப் புதுப்பிக்கவும்"
 
@@ -2461,7 +2461,7 @@ msgstr "அன்றைய செய்தியைப் புதுப்ப�
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "எல்லா ஓச்ட்களிலும் அன்றைய செய்தியைப் புதுப்பிக்கவும் (அனுப்ப வேண்டாம்)"
 
-#: src/ext_mod.erl:1366
+#: src/ext_mod.erl:1378
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 "தொகுதிகள் மூலத்தைப் பெற விவரக்குறிப்புகளைப் புதுப்பிக்கவும், பின்னர் விரும்பியவற்றை "
@@ -2471,7 +2471,7 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr "VCARD ஐப் புதுப்பிப்பது VCARD சேமிப்பக பின்தளத்தில் ஆதரிக்கப்படவில்லை"
 
-#: src/ext_mod.erl:1287
+#: src/ext_mod.erl:1299
 msgid "Upgrade"
 msgstr "மேம்படுத்தல்"
 
@@ -2493,7 +2493,7 @@ msgstr "பயனர் சிட்"
 msgid "User Management"
 msgstr "பயனர் மேலாண்மை"
 
-#: src/mod_register.erl:404
+#: src/mod_register.erl:407
 msgid "User already exists"
 msgstr "பயனர் ஏற்கனவே உள்ளது"
 
@@ -2531,7 +2531,7 @@ msgstr "பயனர்கள்"
 msgid "Users Last Activity"
 msgstr "பயனர்கள் கடைசி செயல்பாடு"
 
-#: src/mod_register.erl:396
+#: src/mod_register.erl:399
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "பயனர்கள் கணக்குகளை விரைவாக பதிவு செய்ய அனுமதிக்கப்படுவதில்லை"
 
@@ -2546,10 +2546,10 @@ msgstr "'வகை' பண்புக்கூறின் மதிப்ப�
 #: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_vcard.erl:215
 #: src/mod_vcard.erl:258 src/mod_pubsub.erl:828 src/mod_pubsub.erl:847
 #: src/mod_pubsub.erl:886 src/mod_jidprep.erl:114 src/mod_muc_room.erl:4454
-#: src/mod_muc_room.erl:4601 src/mod_matrix_gw.erl:896
-#: src/mod_matrix_gw.erl:915 src/mod_stun_disco.erl:479 src/mod_muc.erl:672
-#: src/mod_muc.erl:710 src/mod_muc.erl:755 src/mod_muc.erl:775
-#: src/mod_muc.erl:785 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_muc_room.erl:4601 src/mod_matrix_gw.erl:931
+#: src/mod_matrix_gw.erl:950 src/mod_stun_disco.erl:479 src/mod_muc.erl:673
+#: src/mod_muc.erl:711 src/mod_muc.erl:756 src/mod_muc.erl:776
+#: src/mod_muc.erl:786 src/mod_mix.erl:156 src/mod_mix.erl:204
 #: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
 #: src/mod_proxy65_service.erl:172
 msgid "Value 'set' of 'type' attribute is not allowed"
@@ -2738,7 +2738,7 @@ msgstr "இந்த அறையிலிருந்து நீங்கள�
 msgid "You have joined too many conferences"
 msgstr "நீங்கள் பல மாநாடுகளில் சேர்ந்துள்ளீர்கள்"
 
-#: src/mod_muc.erl:1160
+#: src/mod_muc.erl:1161
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "நீங்கள் வடிவத்தில் புலம் \"புனைப்பெயரை\" நிரப்ப வேண்டும்"
 
@@ -2746,7 +2746,7 @@ msgstr "நீங்கள் வடிவத்தில் புலம் \"�
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "எக்ச்: தரவு மற்றும் கேப்ட்சா பதிவு செய்ய உங்களுக்கு ஒரு வாங்கி தேவை"
 
-#: src/mod_muc.erl:1115
+#: src/mod_muc.erl:1116
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "புனைப்பெயரை பதிவு செய்ய எக்ச்: தரவை ஆதரிக்கும் வாங்கி உங்களுக்குத் தேவை"
 
@@ -2792,7 +2792,7 @@ msgstr "எசாபர்ட்"
 msgid "ejabberd HTTP Upload service"
 msgstr "EJABBERD HTTP பதிவேற்ற பணி"
 
-#: src/mod_muc.erl:666
+#: src/mod_muc.erl:667
 msgid "ejabberd MUC module"
 msgstr "EJABBERD MUC தொகுதி"
 
@@ -2864,7 +2864,7 @@ msgstr "VCARD பயனர் தேடல்"
 msgid "~s invites you to the room ~s"
 msgstr "~s எச் உங்களை அறைக்கு அழைக்கிறது ~s கள்"
 
-#: src/mod_mam.erl:1705
+#: src/mod_mam.erl:1716
 msgid "~ts's MAM Archive"
 msgstr "~ts இன் மாம் காப்பகம்"
 
