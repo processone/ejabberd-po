@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-05-20 06:16+0000\n"
-"Last-Translator: AHOHNMYC <lqwh2h2cwa@protonmail.com>\n"
+"PO-Revision-Date: 2025-08-29 14:01+0000\n"
+"Last-Translator: Yurt Page <yurtpage+weblate@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 "X-Language: Russian (русский)\n"
 "X-Additional-Translator: Sergei Golovan\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -29,9 +29,8 @@ msgid " has set the subject to: "
 msgstr " установил(а) тему: "
 
 #: src/mod_muc_admin.erl:1109
-#, fuzzy
 msgid "# participants"
-msgstr "Сделать пользователей участниками по умолчанию"
+msgstr "# участников"
 
 #: _build/translations/lib/xmpp/src/muc_register.erl:550
 msgid "A Web Page"
@@ -40,9 +39,8 @@ msgstr "Веб-страница"
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1775
-#, fuzzy
 msgid "A description of the node"
-msgstr "Легко запоминаемое имя для узла"
+msgstr "Описание узла"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203
@@ -54,9 +52,8 @@ msgid "A password is required to enter this room"
 msgstr "Чтобы войти в эту конференцию, нужен пароль"
 
 #: src/mod_adhoc_api.erl:157 src/mod_adhoc_api.erl:282
-#, fuzzy
 msgid "API Commands"
-msgstr "Команды"
+msgstr "Команды API"
 
 #: src/ejabberd_oauth.erl:554
 msgid "Accept"
@@ -77,7 +74,6 @@ msgid "Access denied by service policy"
 msgstr "Доступ запрещён политикой службы"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:922
-#, fuzzy
 msgid "Access model"
 msgstr "Правила доступа"
 
@@ -96,7 +92,6 @@ msgstr "Добавить пользователя"
 
 #: src/mod_muc_room.erl:4517 src/mod_muc_room.erl:4657
 #: src/mod_muc_room.erl:4973
-#, fuzzy
 msgid "Add a hat to a user"
 msgstr "Добавить пользователю шляпу"
 
@@ -121,9 +116,8 @@ msgid "All activity"
 msgstr "Вся статистика"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1817
-#, fuzzy
 msgid "Allow subscription"
-msgstr "Подписка"
+msgstr "Разрешить подписку"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:380
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
@@ -178,6 +172,9 @@ msgid ""
 "LDAP Distinguished Name according to an implementation-specific or "
 "deployment-specific definition of a group."
 msgstr ""
+"Связанная группа LDAP, которая определяет членство в комнате; это должно "
+"быть уникальное имя LDAP в соответствии с определением группы, зависящим от "
+"реализации или развертывания."
 
 #: src/mod_announce.erl:604
 msgid "Announcements"
@@ -185,56 +182,55 @@ msgstr "Объявления"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:853
 msgid "Answer associated with a picture"
-msgstr ""
+msgstr "Ответ, связанный с изображением"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:957
 msgid "Answer associated with a video"
-msgstr ""
+msgstr "Ответ, связанный с видео"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:927
 msgid "Answer associated with speech"
-msgstr ""
+msgstr "Ответ, связанный с речью"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:882
 msgid "Answer to a question"
-msgstr ""
+msgstr "Ответ на вопрос"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:960
-#, fuzzy
 msgid "Anyone"
-msgstr "всем участникам"
+msgstr "Любой"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:906
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1539
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
-msgstr ""
+msgstr "Любой из указанных групп списка может подписываться и получать элементы"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1593
 msgid "Anyone may associate leaf nodes with the collection"
-msgstr ""
+msgstr "Любой может связывать конечные узлы с коллекцией"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:944
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2068
 msgid "Anyone may publish"
-msgstr ""
+msgstr "Любой может публиковать"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:896
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1529
 msgid "Anyone may subscribe and retrieve items"
-msgstr ""
+msgstr "Любой может подписываться и получать элементы"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:963
 msgid "Anyone with Voice"
-msgstr ""
+msgstr "Любой с голосовым доступом"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:900
@@ -243,15 +239,15 @@ msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
 msgstr ""
+"Любой с подпиской присутствия (или с) может подписываться и получать элементы"
 
 #: src/mod_muc_log.erl:494
 msgid "April"
 msgstr "апреля"
 
 #: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:470
-#, fuzzy
 msgid "Arguments"
-msgstr "Объявления"
+msgstr "Аргументы"
 
 #: src/mod_mix_pam.erl:362
 msgid "Attribute 'channel' is required for this request"
@@ -271,7 +267,7 @@ msgstr "Атрибут 'node' здесь недопустим"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:822
 msgid "Attribute 'to' of stanza that triggered challenge"
-msgstr ""
+msgstr "Атрибут «кому» строфы, запросившей проверку"
 
 #: src/mod_muc_log.erl:498
 msgid "August"
@@ -329,7 +325,7 @@ msgstr "Невозможно удалить список по умолчанию
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:806
 msgid "Challenge ID"
-msgstr ""
+msgstr "ИД проверки"
 
 #: src/mod_register_web.erl:204 src/mod_register_web.erl:376
 #: src/mod_register_web.erl:384 src/mod_register_web.erl:409
@@ -350,9 +346,8 @@ msgid "Changing role/affiliation is not allowed"
 msgstr "Изменение роли/ранга не разрешено"
 
 #: src/mod_mix_pam.erl:500
-#, fuzzy
 msgid "Channel JID"
-msgstr "Каналы"
+msgstr "JID канала"
 
 #: src/mod_mix.erl:657
 msgid "Channel already exists"
@@ -418,7 +413,7 @@ msgstr "Клиент подтвердил больше сообщений чем
 
 #: src/mod_adhoc_api.erl:438
 msgid "Clustering"
-msgstr ""
+msgstr "Кластеризация"
 
 #: src/mod_muc_room.erl:4500 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
@@ -441,7 +436,7 @@ msgstr "Конфигурация комнаты ~s"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:996
 msgid "Contact Addresses (normally, room owner or owners)"
-msgstr ""
+msgstr "Контактные адреса (обычно владелец или владельцы комнаты)"
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
@@ -451,7 +446,7 @@ msgstr "Страна"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1107
 msgid "Current Discussion Topic"
-msgstr ""
+msgstr "Текущая тема обсуждения"
 
 #: src/mod_configure.erl:115 src/mod_configure.erl:549
 msgid "Database"
@@ -515,7 +510,6 @@ msgid "Disc only copy"
 msgstr "только диск"
 
 #: src/mod_register_web.erl:271
-#, fuzzy
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
@@ -530,14 +524,13 @@ msgid "Dump to Text File"
 msgstr "Копирование в текстовый файл"
 
 #: src/mod_roster.erl:151
-#, fuzzy
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Группы с одинаковыми названиями запрещены стандартом RFC6121"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1812
 msgid "Dynamically specify a replyto of the item publisher"
-msgstr ""
+msgstr "Динамическое указание кому ответить (replyto) издателя элемента"
 
 #: src/mod_configure.erl:1497
 msgid "Edit Properties"
@@ -555,11 +548,11 @@ msgstr "Электронная почта"
 
 #: _build/translations/lib/xmpp/src/muc_register.erl:480
 msgid "Email Address"
-msgstr ""
+msgstr "Адрес электронной почты"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2282
 msgid "Enable hats"
-msgstr ""
+msgstr "Включить шляпы"
 
 #: src/mod_muc_log.erl:871
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1929
@@ -605,9 +598,8 @@ msgid "Enter the text you see"
 msgstr "Введите увиденный текст"
 
 #: src/mod_vcard.erl:223
-#, fuzzy
 msgid "Erlang XMPP Server"
-msgstr "Erlang XMPP Server"
+msgstr "Сервер XMPP на Erlang"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1868
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
@@ -637,7 +629,7 @@ msgstr "Таймаут внешнего сервиса"
 
 #: _build/translations/lib/xmpp/src/muc_register.erl:494
 msgid "FAQ Entry"
-msgstr ""
+msgstr "Часто задаваемые вопросы"
 
 #: src/mod_proxy65_service.erl:229
 msgid "Failed to activate bytestream"
@@ -675,28 +667,24 @@ msgid "File larger than ~w bytes"
 msgstr "Файл больше ~w байт"
 
 #: src/mod_vcard.erl:482
-#, fuzzy
 msgid "Fill in the form to search for any matching XMPP User"
-msgstr "Заполните форму для поиска пользователя XMPP"
+msgstr "Заполните форму для поиска совпадающих пользователей XMPP"
 
 #: src/mod_muc_log.erl:485
 msgid "Friday"
 msgstr "Пятница"
 
 #: src/mod_configure.erl:663
-#, fuzzy
 msgid "From ~ts"
-msgstr "От ~s"
+msgstr "От ~ts"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2170
-#, fuzzy
 msgid "Full List of Room Admins"
-msgstr "Список комнат"
+msgstr "Полный список админов комнаты"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2213
-#, fuzzy
 msgid "Full List of Room Owners"
-msgstr "Список комнат"
+msgstr "Полный список владельцев комнаты"
 
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_sql.erl:228 src/mod_vcard_sql.erl:242
@@ -705,14 +693,12 @@ msgid "Full Name"
 msgstr "Полное имя"
 
 #: src/mod_configure.erl:154 src/mod_configure.erl:503
-#, fuzzy
 msgid "Get List of Online Users"
-msgstr "Получить количество подключённых пользователей"
+msgstr "Получить список подключённых пользователей"
 
 #: src/mod_configure.erl:148 src/mod_configure.erl:499
-#, fuzzy
 msgid "Get List of Registered Users"
-msgstr "Получить количество зарегистрированных пользователей"
+msgstr "Получить список зарегистрированных пользователей"
 
 #: src/mod_configure.erl:156 src/mod_configure.erl:505
 msgid "Get Number of Online Users"
@@ -751,22 +737,20 @@ msgstr "Передача файлов по HTTP"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1190
 msgid "Hash of the vCard-temp avatar of this room"
-msgstr ""
+msgstr "Хэш временного аватара vCard этой комнаты"
 
 #: src/mod_muc_room.erl:4987 src/mod_muc_room.erl:5051
 #: src/mod_muc_room.erl:5119
 msgid "Hat URI"
-msgstr ""
+msgstr "URI шляпы"
 
 #: src/mod_muc_room.erl:4983 src/mod_muc_room.erl:5116
-#, fuzzy
 msgid "Hat title"
-msgstr "Название комнаты"
+msgstr "Название шляпы"
 
 #: src/mod_muc_room.erl:5026
-#, fuzzy
 msgid "Hats limit exceeded"
-msgstr "Превышен лимит скорости посылки информации"
+msgstr "Превышено ограничение шляп"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:595
 msgid "Host unknown"
@@ -856,12 +840,11 @@ msgstr "Некорректное значение 'path' в форме данн�
 
 #: src/ext_mod.erl:1332
 msgid "Install"
-msgstr ""
+msgstr "Установить"
 
 #: src/ext_mod.erl:1408
-#, fuzzy
 msgid "Installed Modules:"
-msgstr "Запуск модулей"
+msgstr "Установленные модули:"
 
 #: src/mod_privilege.erl:244
 msgid "Insufficient privilege"
@@ -904,13 +887,12 @@ msgid "It is not allowed to send private messages to the conference"
 msgstr "Не разрешается посылать частные сообщения прямо в конференцию"
 
 #: src/mod_jidprep.erl:137
-#, fuzzy
 msgid "JID normalization denied by service policy"
-msgstr "Cоздавать конференцию запрещено политикой службы"
+msgstr "Нормализация JID запрещена правилами службы"
 
 #: src/mod_jidprep.erl:131
 msgid "JID normalization failed"
-msgstr ""
+msgstr "Ошибка нормализации JID"
 
 #: src/mod_muc_room.erl:4978 src/mod_muc_room.erl:5046
 #: src/mod_muc_room.erl:5113 src/mod_configure.erl:980
@@ -927,14 +909,12 @@ msgid "January"
 msgstr "января"
 
 #: src/mod_mix_pam.erl:510
-#, fuzzy
 msgid "Joined MIX channels of ~ts"
-msgstr "Присоединиться к каналу IRC"
+msgstr "Присоединился к MIX каналам ~ts"
 
 #: src/mod_mix_pam.erl:475
-#, fuzzy
 msgid "Joined MIX channels:"
-msgstr "Присоединиться к каналу IRC"
+msgstr "Присоединился к MIX каналам:"
 
 #: src/mod_muc_log.erl:497
 msgid "July"
@@ -946,7 +926,7 @@ msgstr "июня"
 
 #: src/mod_muc_admin.erl:1114
 msgid "Just created"
-msgstr ""
+msgstr "Только что создано"
 
 #: src/ejabberd_web_admin.erl:948
 msgid "Last Activity"
@@ -957,9 +937,8 @@ msgid "Last login"
 msgstr "Время последнего подключения"
 
 #: src/mod_muc_admin.erl:1110
-#, fuzzy
 msgid "Last message"
-msgstr "За последний год"
+msgstr "Последнее сообщение"
 
 #: src/ejabberd_web_admin.erl:992
 msgid "Last month"
@@ -973,23 +952,24 @@ msgstr "За последний год"
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
+"Младшие значимые биты хэша SHA-256 текста должны быть равны "
+"шестнадцатеричной метке"
 
 #: src/mod_muc_room.erl:5109
-#, fuzzy
 msgid "List of users with hats"
-msgstr "Список запускаемых модулей"
+msgstr "Список пользователей со шляпами"
 
 #: src/mod_muc_room.erl:4553 src/mod_muc_room.erl:4665
 msgid "List users with hats"
-msgstr ""
+msgstr "Список пользователей с шляпами"
 
 #: src/ejabberd_web_admin.erl:164
 msgid "Logged Out"
-msgstr ""
+msgstr "Вышел"
 
 #: src/mod_muc_admin.erl:1113
 msgid "Logging"
-msgstr ""
+msgstr "Ведение журнала"
 
 #: src/mod_mam.erl:866
 msgid "MAM preference modification denied by service policy"
@@ -1044,6 +1024,8 @@ msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
 msgstr ""
+"Максимальное количество сохраняемых элементов или `max` для отсутствия "
+"ограничений, кроме установленных сервером ограничений"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1882
@@ -1053,7 +1035,7 @@ msgstr "Максимальный размер полезной нагрузки 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:914
 msgid "Maximum Number of History Messages Returned by Room"
-msgstr ""
+msgstr "Максимальное количество сообщений истории, возвращаемых комнатой"
 
 #: src/mod_muc_log.erl:883
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2019
@@ -1062,10 +1044,9 @@ msgstr "Максимальное количество участников"
 
 #: _build/translations/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
-msgstr ""
+msgstr "Максимальный размер файла"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
-#, fuzzy
 msgid "Maximum number of items to persist"
 msgstr "Максимальное число сохраняемых публикаций"
 
@@ -1078,18 +1059,17 @@ msgid "Membership is required to enter this room"
 msgstr "В эту конференцию могут входить только её члены"
 
 #: src/mod_register_web.erl:282
-#, fuzzy
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
 "Запомните пароль или запишите его на бумаге, которую сохраните в безопасном "
 "месте. В XMPP'е нет автоматизированного средства восстановления пароля в том "
-"случае, если Вы его забудете."
+"случае, если вы его забудете."
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:644
 msgid "Mere Availability in XMPP (No Show Value)"
-msgstr ""
+msgstr "Простая доступность в XMPP (значение «No Show»)"
 
 #: src/mod_announce.erl:525 src/mod_configure.erl:933 src/mod_configure.erl:973
 msgid "Message body"
@@ -1106,12 +1086,12 @@ msgstr "Сообщения от незнакомцев запрещены"
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1933
 msgid "Messages of type headline"
-msgstr ""
+msgstr "Сообщения типа «заголовок»"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1929
 msgid "Messages of type normal"
-msgstr ""
+msgstr "Сообщения типа «обычный»"
 
 #: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 #: src/mod_vcard_sql.erl:230 src/mod_vcard_sql.erl:244
@@ -1124,9 +1104,8 @@ msgid "Minimum interval between voice requests (in seconds)"
 msgstr "Минимальный интервал между запросами на право голоса"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2107
-#, fuzzy
 msgid "Moderator"
-msgstr "только модераторам"
+msgstr "Модератор"
 
 #: src/mod_muc_room.erl:3105 src/mod_muc_room.erl:4753
 #: src/mod_muc_room.erl:4809 src/mod_muc_room.erl:4867
@@ -1137,9 +1116,8 @@ msgstr "Требуются права модератора"
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-#, fuzzy
 msgid "Moderators Only"
-msgstr "только модераторам"
+msgstr "Только модераторам"
 
 #: src/gen_iq_handler.erl:119
 msgid "Module failed to handle the query"
@@ -1159,7 +1137,6 @@ msgid "Multicast"
 msgstr "Мультикаст"
 
 #: src/mod_roster.erl:172
-#, fuzzy
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Множественные элементы <item/> запрещены стандартом RFC6121"
 
@@ -1171,11 +1148,11 @@ msgstr "Название"
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1027
 msgid "Natural Language for Room Discussions"
-msgstr ""
+msgstr "Естественный язык для обсуждений комнаты"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1078
 msgid "Natural-Language Room Name"
-msgstr ""
+msgstr "Имя комнаты на естественном языке"
 
 #: src/mod_muc_room.erl:3317
 msgid "Neither 'jid' nor 'nick' attribute found"
@@ -1341,14 +1318,12 @@ msgstr "Не найдено статистики для этого элемен�
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:968
-#, fuzzy
 msgid "Nobody"
-msgstr "никто"
+msgstr "Никто"
 
 #: src/mod_muc_admin.erl:1116
-#, fuzzy
 msgid "Node"
-msgstr "Узлы"
+msgstr "Узел"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:395
 msgid "Node ID"
@@ -1421,14 +1396,12 @@ msgid "November"
 msgstr "ноября"
 
 #: _build/translations/lib/xmpp/src/flex_offline.erl:261
-#, fuzzy
 msgid "Number of Offline Messages"
-msgstr "Офлайновые сообщения"
+msgstr "Количество недоставленных сообщений"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:777
-#, fuzzy
 msgid "Number of answers required"
-msgstr "Количество подключённых пользователей"
+msgstr "Количество требуемых ответов"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1092
 msgid "Number of occupants"
@@ -1448,25 +1421,25 @@ msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
 msgstr ""
+"Количество секунд, по истечении которых элементы автоматически удаляются, "
+"или `max` для отсутствия ограничений, кроме установленных сервером "
+"ограничений"
 
 #: src/ejabberd_captcha.erl:182
 msgid "OK"
 msgstr "Продолжить"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1174
-#, fuzzy
 msgid "Occupants May Change the Subject"
-msgstr "Разрешить пользователям изменять тему"
+msgstr "Разрешить участникам изменять тему"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:931
-#, fuzzy
 msgid "Occupants are allowed to invite others"
-msgstr "Только присутствующим разрешается посылать запросы в конференцию"
+msgstr "Участникам разрешается приглашать других"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:948
-#, fuzzy
 msgid "Occupants are allowed to query others"
-msgstr "Только присутствующим разрешается посылать запросы в конференцию"
+msgstr "Участникам разрешено видеть друг друга"
 
 #: src/mod_muc_log.erl:500
 msgid "October"
@@ -1498,6 +1471,7 @@ msgstr "Только элемент <list/> допустим в этом зап�
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
+"Только владельцы узлов коллекции могут связывать конечные узлы с коллекцией"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2045
@@ -1519,9 +1493,8 @@ msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Только модераторы могут изменять тему в этой комнате"
 
 #: src/mod_muc_room.erl:5222
-#, fuzzy
 msgid "Only moderators are allowed to retract messages"
-msgstr "Только администратор службы может посылать служебные сообщения"
+msgstr "Только модераторы могут удалять сообщения"
 
 #: src/mod_muc_room.erl:1317
 msgid "Only moderators can approve voice requests"
@@ -1539,7 +1512,7 @@ msgstr "Только присутствующим разрешается пос�
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:937
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2061
 msgid "Only publishers may publish"
-msgstr ""
+msgstr "Только издатели могут публиковать"
 
 #: src/mod_muc.erl:240
 msgid "Only service administrators are allowed to send service messages"
@@ -1549,12 +1522,14 @@ msgstr "Только администратор службы может посы
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1603
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
+"Только участники из белого списка могут связывать конечные узлы с коллекцией"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:911
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1544
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
+"Только участники из белого списка могут подписываться и получать элементы"
 
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_sql.erl:237 src/mod_vcard_sql.erl:251
@@ -1569,9 +1544,8 @@ msgid "Organization Unit"
 msgstr "Отдел организации"
 
 #: src/ext_mod.erl:1412
-#, fuzzy
 msgid "Other Modules Available:"
-msgstr "Ошибка модуля roster"
+msgstr "Другие доступные модули:"
 
 #: src/mod_configure.erl:479
 msgid "Outgoing s2s Connections"
@@ -1592,12 +1566,11 @@ msgstr "Пересылка пакетов запрещена политикой 
 #: _build/translations/lib/xmpp/src/muc_request.erl:367
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2110
 msgid "Participant"
-msgstr ""
+msgstr "Участник"
 
 #: src/mod_mix_pam.erl:501
-#, fuzzy
 msgid "Participant ID"
-msgstr "Сделать пользователей участниками по умолчанию"
+msgstr "ИД участника"
 
 #: src/ejabberd_oauth.erl:537 src/mod_configure.erl:984
 #: src/mod_configure.erl:1021 src/mod_configure.erl:1502
@@ -1629,11 +1602,11 @@ msgstr "Путь к файлу"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
-msgstr ""
+msgstr "Информация о семантическом типе полезной нагрузки"
 
 #: src/ejabberd_web_admin.erl:979
 msgid "Period: "
-msgstr "Период"
+msgstr "Период: "
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2027
@@ -1641,9 +1614,8 @@ msgid "Persist items to storage"
 msgstr "Сохранять публикации в хранилище"
 
 #: src/mod_muc_admin.erl:1112
-#, fuzzy
 msgid "Persistent"
-msgstr "Сделать комнату постоянной"
+msgstr "Постоянно"
 
 #: src/mod_adhoc.erl:126 src/mod_adhoc.erl:216
 msgid "Ping"
@@ -1674,9 +1646,8 @@ msgid "Pong"
 msgstr "Понг"
 
 #: src/mod_roster.erl:144
-#, fuzzy
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
-msgstr "Включение атрибута 'ask' запрещено стандартом RFC6121"
+msgstr "Наявность атрибута 'ask' запрещено стандартом RFC6121"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2253
 msgid "Present real Jabber IDs to"
@@ -1708,12 +1679,11 @@ msgstr "Запрос подписчика PubSub"
 
 #: src/mod_muc_admin.erl:1111
 msgid "Public"
-msgstr ""
+msgstr "Публичная"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:954
-#, fuzzy
 msgid "Publish model"
-msgstr "Условия публикации"
+msgstr "Модель публикации"
 
 #: src/mod_pubsub.erl:4324
 msgid "Publish-Subscribe"
@@ -1752,19 +1722,19 @@ msgstr "Действительно удалить сообщение дня?"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:712
 msgid "Receive notification from all descendent nodes"
-msgstr ""
+msgstr "Получать уведомления от всех дочерних узлов"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:707
 msgid "Receive notification from direct child nodes only"
-msgstr ""
+msgstr "Получать уведомления только от прямых дочерних узлов"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:677
 msgid "Receive notification of new items only"
-msgstr ""
+msgstr "Получать уведомления только о новых элементах"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:681
 msgid "Receive notification of new nodes only"
-msgstr ""
+msgstr "Получать уведомления только о новых узлах"
 
 #: src/mod_muc_room.erl:618 src/mod_muc_room.erl:674
 msgid "Recipient is not in the conference room"
@@ -1776,9 +1746,8 @@ msgstr "Зарегистрировать"
 
 #: src/mod_register_web.erl:202 src/mod_register_web.erl:230
 #: src/mod_register_web.erl:238
-#, fuzzy
 msgid "Register an XMPP account"
-msgstr "Зарегистрировать XMPP-аккаунт"
+msgstr "Зарегистрировать учётную запись XMPP"
 
 #: src/mod_configure.erl:793
 msgid "Remote copy"
@@ -1791,7 +1760,7 @@ msgstr "Удалить пользователя"
 #: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4661
 #: src/mod_muc_room.erl:5041
 msgid "Remove a hat from a user"
-msgstr ""
+msgstr "Снять шляпу с Пользователь"
 
 #: src/ejabberd_sm.erl:475 src/ejabberd_sm.erl:480
 msgid "Replaced by new connection"
@@ -1803,14 +1772,12 @@ msgid "Request has timed out"
 msgstr "Истекло время ожидания запроса"
 
 #: src/mod_muc_room.erl:852 src/mod_muc_room.erl:867
-#, fuzzy
 msgid "Request is ignored"
-msgstr "Истекло время ожидания запроса"
+msgstr "Запрос игнорируется"
 
 #: _build/translations/lib/xmpp/src/muc_request.erl:377
-#, fuzzy
 msgid "Requested role"
-msgstr "Истекло время ожидания запроса"
+msgstr "Запрошенная роль"
 
 #: src/mod_configure.erl:1386
 msgid "Resources"
@@ -1846,21 +1813,20 @@ msgstr "Восстановить из текстовой резервной ко
 
 #: src/mod_adhoc_api.erl:508
 msgid "Result"
-msgstr ""
+msgstr "Результат"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1951
 msgid "Roles and Affiliations that May Retrieve Member List"
-msgstr ""
+msgstr "Роли которые могут получать список участников"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2125
 msgid "Roles for which Presence is Broadcasted"
-msgstr ""
+msgstr "Роли которые видят присутствие"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:980
-#, fuzzy
 msgid "Roles that May Send Private Messages"
-msgstr "Разрешить приватные сообщения"
+msgstr "Роли которым можно посылать личные сообщения"
 
 #: src/mod_muc_log.erl:653
 msgid "Room Configuration"
@@ -1916,15 +1882,15 @@ msgstr "Результаты поиска в "
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:362
 msgid "Search from the date"
-msgstr ""
+msgstr "Поиск с даты"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:390
 msgid "Search the text"
-msgstr ""
+msgstr "Поиск по тексту"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
-msgstr ""
+msgstr "Поиск до даты"
 
 #: src/mod_vcard.erl:464
 msgid "Search users in "
@@ -1958,9 +1924,8 @@ msgid "Server:"
 msgstr "Сервер:"
 
 #: src/mod_stun_disco.erl:499
-#, fuzzy
 msgid "Service list retrieval timed out"
-msgstr "Истекло время ожидания запроса"
+msgstr "Истекло время ожидания запроса списка служб"
 
 #: src/mod_stream_mgmt.erl:842
 msgid "Session state copying timed out"
@@ -1986,7 +1951,7 @@ msgstr "Показать интегральную таблицу"
 
 #: src/mod_muc_log.erl:685
 msgid "Show Occupants Join/Leave"
-msgstr ""
+msgstr "Показать присоединение/выход участников"
 
 #: src/ejabberd_web_admin.erl:998
 msgid "Show Ordinary Table"
@@ -1998,17 +1963,16 @@ msgid "Shut Down Service"
 msgstr "Остановить службу"
 
 #: src/mod_register_web.erl:278
-#, fuzzy
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
 msgstr ""
-"Некоторые XMPP-клиенты могут сохранять пароль на Вашем компьютере. "
-"Используйте эту функцию только в том случае, если считаете это безопасным."
+"Некоторые XMPP-клиенты могут сохранять пароль на вашем компьютере, поэтому "
+"делайте это только на личном компьютере."
 
 #: src/ext_mod.erl:1401
 msgid "Sources Specs:"
-msgstr ""
+msgstr "Характеристики источников:"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556
@@ -2027,17 +1991,16 @@ msgstr "Условия публикации"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:912
 msgid "Stanza ID"
-msgstr ""
+msgstr "ИД строфы"
 
 #: src/mod_muc_room.erl:5257
-#, fuzzy
 msgid "Stanza id is not valid"
-msgstr "Недопустимое имя пользователя"
+msgstr "Строфа неправильная"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
 msgid "Statically specify a replyto of the node owner(s)"
-msgstr ""
+msgstr "Статически указать кому отчечать (replyto) владельца(ев) узла"
 
 #: src/mod_configure.erl:482
 msgid "Stopped Nodes"
@@ -2075,7 +2038,7 @@ msgstr "Адрес подписчика"
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:941
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2065
 msgid "Subscribers may publish"
-msgstr ""
+msgstr "Подписчики могут публиковать"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:891
@@ -2084,6 +2047,8 @@ msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
 msgstr ""
+"Запросы на подписку должны быть одобрены, и только подписчики могут получать "
+"элементы"
 
 #: src/mod_muc_room.erl:4740
 msgid "Subscriptions are not allowed"
@@ -2095,19 +2060,19 @@ msgstr "Воскресенье"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:868
 msgid "Text associated with a picture"
-msgstr ""
+msgstr "Текст, связанный с изображением"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:792
 msgid "Text associated with a sound"
-msgstr ""
+msgstr "Текст, связанный со звуком"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:972
 msgid "Text associated with a video"
-msgstr ""
+msgstr "Текст, связанный с видео"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:942
 msgid "Text associated with speech"
-msgstr ""
+msgstr "Текст, связанный с речью"
 
 #: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2350
 #: src/mod_muc_room.erl:4766
@@ -2130,29 +2095,29 @@ msgstr "Проверка капчи не пройдена"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:598
 msgid "The DateTime at which a leased subscription will end or has ended"
-msgstr ""
+msgstr "Дата и время окончания арендованной подписки"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:744
 msgid "The JID of the node creator"
-msgstr ""
+msgstr "JID создателя узла"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:712
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1707
 msgid "The JIDs of those to contact with questions"
-msgstr ""
+msgstr "JID тех, к кому можно обратиться с вопросами"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:813
 msgid "The JIDs of those with an affiliation of owner"
-msgstr ""
+msgstr "JID тех, кто связан с владельцем"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:830
 msgid "The JIDs of those with an affiliation of publisher"
-msgstr ""
+msgstr "JID тех, кто связан с издателем"
 
 #: _build/translations/lib/xmpp/src/pubsub_get_pending.erl:272
 msgid "The NodeID of the relevant node"
-msgstr ""
+msgstr "NodeID соответствующего узла"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1572
@@ -2160,6 +2125,8 @@ msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
 msgstr ""
+"URL XSL-преобразования, которое можно применить к полезным данным для "
+"создания соответствующего элемента тела сообщения."
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1723
@@ -2168,19 +2135,21 @@ msgid ""
 "in order to generate a valid Data Forms result that the client could display "
 "using a generic Data Forms rendering engine"
 msgstr ""
+"URL-адрес XSL-преобразования, которое можно применить к формату текста для "
+"генерации правильные формы данных, которые клиент может отобразить с помощью "
+"универсального механизма отображения Форм данных"
 
 #: src/mod_register_web.erl:591
 msgid "The account already exists"
 msgstr "Учётная запись уже существует"
 
 #: src/mod_register_web.erl:599
-#, fuzzy
 msgid "The account was not unregistered"
-msgstr "Аккаунт не был удален"
+msgstr "Учётная запись не была удалёна"
 
 #: _build/translations/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
-msgstr ""
+msgstr "Текст последнего полученного сообщения"
 
 #: src/mod_register_web.erl:589
 msgid "The captcha you entered is wrong"
@@ -2189,7 +2158,7 @@ msgstr "Неправильно введённое значение капчи"
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654
 msgid "The child nodes (leaf or collection) associated with a collection"
-msgstr ""
+msgstr "Дочерние узлы (листья или коллекция), связанные с коллекцией"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1690
@@ -2198,14 +2167,13 @@ msgstr "Имя коллекции, в которую входит узел"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:729
 msgid "The datetime when the node was created"
-msgstr ""
+msgstr "Дата и время создания узла"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:780
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1848
-#, fuzzy
 msgid "The default language of the node"
-msgstr "Легко запоминаемое имя для узла"
+msgstr "Язык узла по умолчанию"
 
 #: src/mod_muc_room.erl:519 src/mod_muc_room.erl:524
 msgid "The feature requested is not supported by the conference"
@@ -2214,16 +2182,15 @@ msgstr "Запрашиваемое свойство не поддерживае�
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1637
 msgid "The list of JIDs that may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Список JID, которые могут связывать листовые узлы с коллекцией"
 
 #: src/mod_configure.erl:1071
-#, fuzzy
 msgid "The list of all online users"
-msgstr "Количество подключённых пользователей"
+msgstr "Список всех подключённых пользователей"
 
 #: src/mod_configure.erl:1050
 msgid "The list of all users"
-msgstr ""
+msgstr "Список всех пользователей"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1671
@@ -2231,40 +2198,44 @@ msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
 msgstr ""
+"Максимальное количество дочерних узлов, которые можно связать с коллекцией, "
+"или `max` для отсутствия ограничений, кроме установленных сервером"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:581
 msgid ""
 "The minimum number of milliseconds between sending any two notification "
 "digests"
 msgstr ""
+"Минимальное время в миллисекундах между отправкой любых двух сводок "
+"уведомлений"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:845
-#, fuzzy
 msgid "The name of the node"
-msgstr "Легко запоминаемое имя для узла"
+msgstr "Название узла"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1900
 msgid "The node is a collection node"
-msgstr ""
+msgstr "Узел является узлом коллекции"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1896
 msgid "The node is a leaf node (default)"
-msgstr ""
+msgstr "Узел является листовым узлом (по умолчанию)"
 
 #: _build/translations/lib/xmpp/src/push_summary.erl:398
 msgid "The number of pending incoming presence subscription requests"
 msgstr ""
+"Количество ожидающих входящих запросов на подписку на уведомления о "
+"присутствии"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:797
-#, fuzzy
 msgid "The number of subscribers to the node"
-msgstr "Разрешить этому Jabber ID подписаться на данный узел?"
+msgstr "Количество подписчиков на узел"
 
 #: _build/translations/lib/xmpp/src/push_summary.erl:378
 msgid "The number of unread or undelivered messages"
-msgstr ""
+msgstr "Количество непрочитанных или недоставленных сообщений"
 
 #: src/mod_register.erl:403
 msgid "The password contains unacceptable characters"
@@ -2275,9 +2246,8 @@ msgid "The password is too weak"
 msgstr "Слишком слабый пароль"
 
 #: src/mod_register_web.erl:134
-#, fuzzy
 msgid "The password of your XMPP account was successfully changed."
-msgstr "Пароль Вашего XMPP-аккаунта был успешно изменен."
+msgstr "Пароль вашей учётной записи XMPP был успешно изменён."
 
 #: src/mod_register_web.erl:601
 msgid "The password was not changed"
@@ -2289,7 +2259,7 @@ msgstr "Пароли не совпадают"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:660
 msgid "The presence states for which an entity wants to receive notifications"
-msgstr ""
+msgstr "Состояния присутствия, для которых сущность хочет получать уведомления"
 
 #: src/mod_register.erl:160 src/mod_vcard.erl:241
 msgid "The query is only allowed from local users"
@@ -2301,7 +2271,7 @@ msgstr "Запрос не должен содержать элементов <it
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1123
 msgid "The room subject can be modified by participants"
-msgstr ""
+msgstr "Тема комнаты может быть изменена участниками"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219
@@ -2309,10 +2279,12 @@ msgid ""
 "The semantic type information of data in the node, usually specified by the "
 "namespace of the payload (if any)"
 msgstr ""
+"Семантическая информация о типе данных в узле, обычно определяемая "
+"пространством имён нагрузки (если таковое имеется)"
 
 #: _build/translations/lib/xmpp/src/push_summary.erl:416
 msgid "The sender of the last received message"
-msgstr ""
+msgstr "Отправитель последнего полученного сообщения"
 
 #: src/mod_privacy.erl:259
 msgid ""
@@ -2324,43 +2296,39 @@ msgstr ""
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_authorization.erl:425
 msgid "The subscription identifier associated with the subscription request"
-msgstr ""
+msgstr "Идентификатор подписки, связанный с запросом на подписку"
 
 #: src/mod_register_web.erl:138
-#, fuzzy
 msgid "There was an error changing the password: "
-msgstr "Ошибка при создании аккаунта:"
+msgstr "Ошибка при изменении пароля: "
 
 #: src/mod_register_web.erl:110
 msgid "There was an error creating the account: "
-msgstr "Ошибка при создании аккаунта:"
+msgstr "Ошибка при создании учётной записи: "
 
 #: src/mod_register_web.erl:123
 msgid "There was an error deleting the account: "
-msgstr "Ошибка при удалении аккаунта:"
+msgstr "Ошибка при удалении учётной записи: "
 
 #: src/mod_register_web.erl:256
-#, fuzzy
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 "Регистр не имеет значения: \"маша\" и \"МАША\" будет считаться одним и тем "
 "же именем."
 
 #: src/mod_register_web.erl:240
-#, fuzzy
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
 "instructions to fill correctly the fields."
 msgstr ""
-"Здесь Вы можете создать XMPP-аккаунт на этом XMPP-сервере. Ваш JID (Jabber-"
-"идентификатор) будет в виде: \"пользователь@сервер\". Пожалуйста, "
+"Здесь вы можете завести учётную запись XMPP на этом сервере. Ваш адрес JID "
+"(Jabber-идентификатор) будет в виде: \"пользователь@сервер\". Пожалуйста, "
 "внимательно читайте инструкции для правильного заполнения полей."
 
 #: src/mod_register_web.erl:494
-#, fuzzy
 msgid "This page allows to unregister an XMPP account in this XMPP server."
-msgstr "Здесь Вы можете удалить XMPP-аккаунт с этого сервера."
+msgstr "Здесь вы можете удалить учётную запись XMPP с этого сервера."
 
 #: src/mod_muc_log.erl:854
 msgid "This room is not anonymous"
@@ -2387,9 +2355,8 @@ msgid "To register, visit ~s"
 msgstr "Для регистрации посетите ~s"
 
 #: src/mod_configure.erl:651
-#, fuzzy
 msgid "To ~ts"
-msgstr "К ~s"
+msgstr "Ко ~s"
 
 #: src/ejabberd_oauth.erl:545
 msgid "Token TTL"
@@ -2446,7 +2413,7 @@ msgstr "Вторник"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1063
 msgid "URL for Archived Discussion Logs"
-msgstr ""
+msgstr "URL для архивных журналов обсуждений"
 
 #: src/mod_muc_room.erl:2443 src/mod_register.erl:254
 #: src/mod_block_strangers.erl:138
@@ -2472,7 +2439,7 @@ msgstr "Неожиданная ошибка: ~p"
 
 #: src/ext_mod.erl:1314
 msgid "Uninstall"
-msgstr ""
+msgstr "Удалить"
 
 #: src/mod_register_web.erl:512
 msgid "Unregister"
@@ -2480,9 +2447,8 @@ msgstr "Удалить"
 
 #: src/mod_register_web.erl:207 src/mod_register_web.erl:484
 #: src/mod_register_web.erl:492
-#, fuzzy
 msgid "Unregister an XMPP account"
-msgstr "Удалить XMPP-аккаунт"
+msgstr "Удалить учётную запись XMPP"
 
 #: src/mod_mam.erl:898
 msgid "Unsupported <index/> element"
@@ -2493,9 +2459,8 @@ msgid "Unsupported version"
 msgstr "Неподдерживаемая версия"
 
 #: src/ext_mod.erl:1406
-#, fuzzy
 msgid "Update Specs"
-msgstr "Обновление ~p"
+msgstr "Обновить характеристики"
 
 #: src/mod_announce.erl:618
 msgid "Update message of the day (don't send)"
@@ -2508,15 +2473,16 @@ msgstr "Обновить сообщение дня на всех виртуал�
 #: src/ext_mod.erl:1396
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
+"Обновите спецификации, чтобы получить исходный код модулей, а затем "
+"установите необходимые."
 
 #: src/mod_vcard.erl:417
-#, fuzzy
 msgid "Updating the vCard is not supported by the vCard storage backend"
-msgstr "Запрашиваемое свойство не поддерживается этой конференцией"
+msgstr "Обновление vCard не поддерживается сервером"
 
 #: src/ext_mod.erl:1317
 msgid "Upgrade"
-msgstr ""
+msgstr "Обновить"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
 #: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
@@ -2542,7 +2508,7 @@ msgstr "Пользователь уже существует"
 
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
-msgstr ""
+msgstr "Пользователю запрещено изменять vCard другого пользователя."
 
 #: src/ejabberd_sm.erl:236
 msgid "User removed"
@@ -2557,9 +2523,8 @@ msgid "User session terminated"
 msgstr "Сессия пользователя завершена"
 
 #: src/ejabberd_web_admin.erl:1024
-#, fuzzy
 msgid "User ~ts"
-msgstr "Пользователь ~s"
+msgstr "Пользователь ~ts"
 
 #: src/mod_register_web.erl:250 src/mod_register_web.erl:389
 #: src/mod_register_web.erl:500
@@ -2613,9 +2578,8 @@ msgid "Value of '~s' should be integer"
 msgstr "Значение '~s' должно быть целочисленным"
 
 #: src/mod_mix_pam.erl:473
-#, fuzzy
 msgid "View joined MIX channels"
-msgstr "Присоединиться к каналу IRC"
+msgstr "Просмотреть присоединённые каналы MIX"
 
 #: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1559
 msgid "Virtual Hosts"
@@ -2623,7 +2587,7 @@ msgstr "Виртуальные хосты"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2112
 msgid "Visitor"
-msgstr ""
+msgstr "Посетитель"
 
 #: src/mod_muc_room.erl:1427
 msgid "Visitors are not allowed to change their nicknames in this room"
@@ -2643,7 +2607,7 @@ msgstr "Запросы на право голоса отключены в это
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1140
 msgid "Web client which allows to join the room anonymously"
-msgstr ""
+msgstr "Веб-клиент, позволяющий анонимно присоединиться к комнате"
 
 #: src/mod_muc_log.erl:483
 msgid "Wednesday"
@@ -2651,15 +2615,14 @@ msgstr "Среда"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2138
-#, fuzzy
 msgid "When a new subscription is processed"
-msgstr "Разрешить подписку"
+msgstr "При обработке новой подписки"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2142
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
-msgstr ""
+msgstr "При обработке новой подписки и при каждом появлении подписчика в сети"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2156
@@ -2671,52 +2634,54 @@ msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
+"Хочет ли сущность получать тело сообщения XMPP в дополнение к формату текста"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:563
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
+"Хочет ли сущность получать сводки (агрегации) уведомлений или все "
+"уведомления по отдельности"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:546
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr ""
+msgstr "Хочет ли сущность получать или отключать уведомления"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1826
 msgid "Whether owners or publisher should receive replies to items"
-msgstr ""
+msgstr "Должны ли владельцы или издатель получать ответы на элементы"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1912
 msgid "Whether the node is a leaf (default) or a collection"
-msgstr ""
+msgstr "Является ли узел листовым (по умолчанию) или коллекцией"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2188
 msgid "Whether to allow subscriptions"
-msgstr "Разрешить подписку"
+msgstr "Разрешить ли подписку"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2172
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
-msgstr ""
+msgstr "Сделать все подписки временными в зависимости от присутствия подписчика"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2011
 msgid "Whether to notify owners about new subscribers and unsubscribes"
-msgstr ""
+msgstr "Уведомлять ли владельцев о новых подписчиках и отписках"
 
 #: src/mod_muc_log.erl:864
-#, fuzzy
 msgid "Who can send private messages"
-msgstr "Разрешить приватные сообщения"
+msgstr "Кому можно отправлять личные сообщения"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1617
 msgid "Who may associate leaf nodes with a collection"
-msgstr ""
+msgstr "Кто может связывать листовые узлы с коллекцией"
 
 #: src/mod_register_web.erl:605
 msgid "Wrong parameters in the web formulary"
@@ -2727,53 +2692,49 @@ msgid "Wrong xmlns"
 msgstr "Неправильный xmlns"
 
 #: src/mod_register_web.erl:191 src/mod_register_web.erl:199
-#, fuzzy
 msgid "XMPP Account Registration"
-msgstr "Регистрация XMPP-аккаунта"
+msgstr "Регистрация учётной записи XMPP"
 
 #: src/ejabberd_web_admin.erl:556
 msgid "XMPP Domains"
-msgstr ""
+msgstr "Домены XMPP"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:632
 msgid "XMPP Show Value of Away"
-msgstr ""
+msgstr "XMPP: Отображение значения «Отошёл»"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:636
 msgid "XMPP Show Value of Chat"
-msgstr ""
+msgstr "XMPP: Отображение значения «Хочу пообщаться»"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:640
 msgid "XMPP Show Value of DND (Do Not Disturb)"
-msgstr ""
+msgstr "XMPP: Отображение значения «Не беспокоить» (DND)"
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:648
 msgid "XMPP Show Value of XA (Extended Away)"
-msgstr ""
+msgstr "XMPP: Отображение значения «Не доступен» (XA)"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1157
-#, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
-msgstr "Модуль ejabberd Публикации-Подписки"
+msgstr "XMPP URI-адрес ассоциированного узла публикаций-подписок"
 
 #: src/mod_muc_room.erl:991
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "Вы покинули комнату из-за останова системы"
 
 #: src/mod_muc_room.erl:650 src/mod_muc_room.erl:661
-#, fuzzy
 msgid "You are not allowed to send private messages"
-msgstr "Запрещено посылать приватные сообщения"
+msgstr "Вам запрещено посылать личные сообщения"
 
 #: src/mod_mix.erl:667
 msgid "You are not joined to the channel"
 msgstr "Вы не присоединены к каналу"
 
 #: src/mod_register_web.erl:275
-#, fuzzy
 msgid "You can later change your password using an XMPP client."
-msgstr "Позже Вы можете изменить пароль через XMPP-клиент."
+msgstr "Позже вы сможете изменить пароль через XMPP-клиент."
 
 #: src/mod_muc_room.erl:2337 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
@@ -2804,14 +2765,12 @@ msgid "You're not allowed to create nodes"
 msgstr "Вам не разрешается создавать узлы"
 
 #: src/mod_register_web.erl:106
-#, fuzzy
 msgid "Your XMPP account was successfully registered."
-msgstr "Ваш XMPP-аккаунт был успешно удален."
+msgstr "Ваша учётная запись XMPP была успешно добавлена."
 
 #: src/mod_register_web.erl:119
-#, fuzzy
 msgid "Your XMPP account was successfully unregistered."
-msgstr "Ваш XMPP-аккаунт был успешно удален."
+msgstr "Ваша учётная запись XMPP была успешно удалена."
 
 #: src/ejabberd_c2s.erl:846 src/ejabberd_c2s.erl:1000
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -2838,9 +2797,8 @@ msgid "ejabberd"
 msgstr "ejabberd"
 
 #: src/mod_http_upload.erl:752
-#, fuzzy
 msgid "ejabberd HTTP Upload service"
-msgstr "ejabberd Multicast сервис"
+msgstr "Служба закачки файлов по HTTP ejabberd"
 
 #: src/mod_muc.erl:664
 msgid "ejabberd MUC module"
@@ -2904,25 +2862,23 @@ msgstr "приватная, "
 
 #: src/mod_muc_room.erl:5342
 msgid "the password is"
-msgstr "пароль:"
+msgstr "пароль это"
 
 #: src/mod_vcard.erl:661
 msgid "vCard User Search"
 msgstr "Поиск пользователей по vCard"
 
 #: src/mod_muc_room.erl:5335
-#, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s приглашает вас в комнату ~s"
 
 #: src/mod_mam.erl:1716
 msgid "~ts's MAM Archive"
-msgstr ""
+msgstr "История сообщений ~ts"
 
 #: src/mod_offline.erl:768
-#, fuzzy
 msgid "~ts's Offline Messages Queue"
-msgstr "Oчередь офлайновых сообщений ~s"
+msgstr "Oчередь офлайновых сообщений ~ts"
 
 #, fuzzy
 #~ msgid "No <privileged_iq/> element found"
