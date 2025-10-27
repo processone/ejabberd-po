@@ -25,7 +25,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr "zmenil(a) tému na: "
 
-#: src/mod_muc_admin.erl:1109
+#: src/mod_muc_admin.erl:1159
 #, fuzzy
 msgid "# participants"
 msgstr "Užívatelia sú implicitne členmi"
@@ -46,7 +46,7 @@ msgstr "Prístupný názov pre uzol"
 msgid "A friendly name for the node"
 msgstr "Prístupný názov pre uzol"
 
-#: src/mod_muc_room.erl:2403
+#: src/mod_muc_room.erl:2408
 msgid "A password is required to enter this room"
 msgstr "Pre vstup do miestnosti je potrebné heslo"
 
@@ -59,13 +59,13 @@ msgstr "Príkazy"
 msgid "Accept"
 msgstr ""
 
-#: src/mod_http_upload.erl:800 src/mod_announce.erl:242
-#: src/mod_announce.erl:257 src/mod_announce.erl:308 src/mod_announce.erl:422
-#: src/mod_announce.erl:841 src/mod_configure.erl:164 src/mod_configure.erl:283
-#: src/mod_configure.erl:410 src/mod_configure.erl:700
-#: src/mod_configure.erl:1459 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:220
-#: src/mod_muc.erl:701 src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_http_upload.erl:800 src/mod_announce.erl:282
+#: src/mod_announce.erl:297 src/mod_announce.erl:350 src/mod_announce.erl:467
+#: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
+#: src/mod_configure.erl:456 src/mod_configure.erl:791
+#: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
+#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:223
+#: src/mod_muc.erl:711 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
 #: src/mod_proxy65_service.erl:246 src/ejabberd_c2s.erl:550
@@ -83,33 +83,28 @@ msgstr "Prístupové pravidlá"
 msgid "Account doesn't exist"
 msgstr "Diskusná miestnosť neexistuje"
 
-#: src/mod_configure.erl:1493
+#: src/mod_configure.erl:1753
 msgid "Action on user"
 msgstr "Operácia aplikovaná na užívateľa"
 
-#: src/mod_configure.erl:136 src/mod_configure.erl:488
-#: src/mod_configure.erl:976
+#: src/mod_configure.erl:136 src/mod_configure.erl:556
+#: src/mod_configure.erl:1067
 msgid "Add User"
 msgstr "Pridať používateľa"
-
-#: src/mod_muc_room.erl:4517 src/mod_muc_room.erl:4657
-#: src/mod_muc_room.erl:4973
-msgid "Add a hat to a user"
-msgstr ""
 
 #: src/ejabberd_web_admin.erl:477
 msgid "Administration"
 msgstr "Administrácia"
 
-#: src/mod_configure.erl:1488
+#: src/mod_configure.erl:1748
 msgid "Administration of "
 msgstr "Administrácia "
 
-#: src/mod_muc_room.erl:3097
+#: src/mod_muc_room.erl:3106
 msgid "Administrator privileges required"
 msgstr "Sú potrebné práva administrátora"
 
-#: src/mod_configure.erl:478
+#: src/mod_configure.erl:546
 msgid "All Users"
 msgstr "Všetci užívatelia"
 
@@ -168,14 +163,14 @@ msgstr "Návštevníci môžu posielať textové informácie v stavových správ
 msgid "Allow visitors to send voice requests"
 msgstr "Povoliť používateľom posielanie pozvánok"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1043
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1078
 msgid ""
 "An associated LDAP group that defines room membership; this should be an "
 "LDAP Distinguished Name according to an implementation-specific or "
 "deployment-specific definition of a group."
 msgstr ""
 
-#: src/mod_announce.erl:604
+#: src/mod_announce.erl:652 src/mod_announce.erl:1004 src/mod_announce.erl:1012
 msgid "Announcements"
 msgstr "Oznámenia"
 
@@ -198,7 +193,7 @@ msgstr ""
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:960
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:995
 #, fuzzy
 msgid "Anyone"
 msgstr "všetkým"
@@ -228,7 +223,7 @@ msgid "Anyone may subscribe and retrieve items"
 msgstr ""
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:963
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:998
 msgid "Anyone with Voice"
 msgstr ""
 
@@ -244,16 +239,21 @@ msgstr ""
 msgid "April"
 msgstr "Apríl"
 
-#: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:470
+#: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:480
 #, fuzzy
 msgid "Arguments"
 msgstr "Oznámenia"
+
+#: src/mod_muc_room.erl:4532 src/mod_muc_room.erl:4670
+#: src/mod_muc_room.erl:5099
+msgid "Assign a hat to a user"
+msgstr ""
 
 #: src/mod_mix_pam.erl:362
 msgid "Attribute 'channel' is required for this request"
 msgstr ""
 
-#: src/mod_mix.erl:145
+#: src/mod_mix.erl:146
 msgid "Attribute 'id' is mandatory for MIX messages"
 msgstr ""
 
@@ -277,11 +277,11 @@ msgstr "August"
 msgid "Automatic node creation is not enabled"
 msgstr ""
 
-#: src/mod_configure.erl:118 src/mod_configure.erl:567
+#: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
 msgstr "Zálohovať"
 
-#: src/mod_configure.erl:551
+#: src/mod_configure.erl:638
 msgid "Backup Management"
 msgstr "Správa zálohovania"
 
@@ -290,7 +290,7 @@ msgstr "Správa zálohovania"
 msgid "Backup of ~p"
 msgstr "Záloha "
 
-#: src/mod_configure.erl:842
+#: src/mod_configure.erl:933
 msgid "Backup to File at "
 msgstr "Záloha do súboru na "
 
@@ -333,8 +333,8 @@ msgstr ""
 msgid "Change Password"
 msgstr "Zmeniť heslo"
 
-#: src/mod_configure.erl:142 src/mod_configure.erl:493
-#: src/mod_configure.erl:1013
+#: src/mod_configure.erl:146 src/mod_configure.erl:565
+#: src/mod_configure.erl:1122
 msgid "Change User Password"
 msgstr "Zmeniť heslo užívateľa"
 
@@ -343,7 +343,7 @@ msgstr "Zmeniť heslo užívateľa"
 msgid "Changing password is not allowed"
 msgstr "Nepovolené znaky:"
 
-#: src/mod_muc_room.erl:3390
+#: src/mod_muc_room.erl:3400
 #, fuzzy
 msgid "Changing role/affiliation is not allowed"
 msgstr "Nepovolené znaky:"
@@ -352,16 +352,16 @@ msgstr "Nepovolené znaky:"
 msgid "Channel JID"
 msgstr ""
 
-#: src/mod_mix.erl:657
+#: src/mod_mix.erl:658
 msgid "Channel already exists"
 msgstr ""
 
-#: src/mod_mix.erl:662
+#: src/mod_mix.erl:663
 #, fuzzy
 msgid "Channel does not exist"
 msgstr "Diskusná miestnosť neexistuje"
 
-#: src/mod_mix.erl:97
+#: src/mod_mix.erl:98
 msgid "Channels"
 msgstr ""
 
@@ -389,7 +389,7 @@ msgstr "Diskusná miestnosť je obnovená"
 msgid "Chatroom is stopped"
 msgstr "Diskusná miestnosť je pozastavená"
 
-#: src/mod_muc.erl:1390 src/mod_muc_admin.erl:1130
+#: src/mod_muc.erl:1435 src/mod_muc_admin.erl:1180
 msgid "Chatrooms"
 msgstr "Diskusné miestnosti"
 
@@ -397,7 +397,7 @@ msgstr "Diskusné miestnosti"
 msgid "Choose a username and password to register with this server"
 msgstr "Zvolte meno užívateľa a heslo pre registráciu na tomto servere"
 
-#: src/mod_configure.erl:815
+#: src/mod_configure.erl:906
 msgid "Choose storage type of tables"
 msgstr "Vyberte typ úložiska pre tabuľky"
 
@@ -419,27 +419,31 @@ msgstr ""
 msgid "Clustering"
 msgstr ""
 
-#: src/mod_muc_room.erl:4500 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4513 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Príkazy"
 
-#: src/mod_muc_room.erl:242 src/mod_muc_room.erl:253 src/mod_muc.erl:619
-#: src/mod_muc.erl:643
+#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:629
+#: src/mod_muc.erl:653
 msgid "Conference room does not exist"
 msgstr "Diskusná miestnosť neexistuje"
 
-#: src/mod_configure.erl:104 src/mod_configure.erl:255
-#: src/mod_configure.erl:276 src/mod_configure.erl:475
+#: src/mod_configure.erl:104 src/mod_configure.erl:301
+#: src/mod_configure.erl:322 src/mod_configure.erl:543
 msgid "Configuration"
 msgstr "Konfigurácia"
 
-#: src/mod_muc_room.erl:3838
+#: src/mod_muc_room.erl:3848
 msgid "Configuration of room ~s"
 msgstr "Konfigurácia miestnosti ~s"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:996
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1031
 msgid "Contact Addresses (normally, room owner or owners)"
+msgstr ""
+
+#: src/mod_configure.erl:1577
+msgid "Contacts"
 msgstr ""
 
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
@@ -448,26 +452,31 @@ msgstr ""
 msgid "Country"
 msgstr "Krajina"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1107
+#: src/mod_muc_room.erl:4529 src/mod_muc_room.erl:4658
+#: src/mod_muc_room.erl:5068
+msgid "Create a Hat"
+msgstr ""
+
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1142
 msgid "Current Discussion Topic"
 msgstr ""
 
-#: src/mod_configure.erl:115 src/mod_configure.erl:549
+#: src/mod_configure.erl:115 src/mod_configure.erl:636
 msgid "Database"
 msgstr "Databáza"
 
-#: src/mod_configure.erl:813
+#: src/mod_configure.erl:904
 msgid "Database Tables Configuration at "
 msgstr "Konfigurácia databázových tabuliek "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1253 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
-#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3958 src/mod_pubsub.erl:4177
-#: src/mod_carboncopy.erl:93 src/mod_private.erl:191 src/mod_private.erl:198
+#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
+#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3960 src/mod_pubsub.erl:4179
+#: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
-#: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:652
-#: src/mod_last.erl:185 src/mod_muc.erl:795 src/mod_muc.erl:1132
+#: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
+#: src/mod_last.erl:185 src/mod_muc.erl:805 src/mod_muc.erl:1155
 #: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
@@ -487,16 +496,16 @@ msgstr "December"
 msgid "Default users as participants"
 msgstr "Užívatelia sú implicitne členmi"
 
-#: src/mod_configure.erl:138 src/mod_configure.erl:489
-#: src/mod_configure.erl:993
+#: src/mod_configure.erl:138 src/mod_configure.erl:557
+#: src/mod_configure.erl:1084
 msgid "Delete User"
 msgstr "Vymazať užívateľa"
 
-#: src/mod_announce.erl:622
+#: src/mod_announce.erl:670
 msgid "Delete message of the day"
 msgstr "Zmazať správu dňa"
 
-#: src/mod_announce.erl:624
+#: src/mod_announce.erl:672
 msgid "Delete message of the day on all hosts"
 msgstr "Zmazať správu dňa na všetkých serveroch"
 
@@ -510,7 +519,18 @@ msgstr "Doručiť oznamy o udalosti"
 msgid "Deliver payloads with event notifications"
 msgstr "Doručiť náklad s upozornením na udalosť"
 
-#: src/mod_configure.erl:791
+#: src/mod_muc_room.erl:4530 src/mod_muc_room.erl:4662
+#: src/mod_muc_room.erl:5085
+msgid "Destroy a Hat"
+msgstr ""
+
+#: src/mod_configure.erl:140 src/mod_configure.erl:559
+#: src/mod_configure.erl:1093
+#, fuzzy
+msgid "Disable User"
+msgstr "Vymazať užívateľa"
+
+#: src/mod_configure.erl:882
 msgid "Disc only copy"
 msgstr "Len kópia disku"
 
@@ -521,11 +541,11 @@ msgid ""
 "server."
 msgstr "Nevyzrádzajte heslo nikomu, ani administrátorom tohoto XMPP servera."
 
-#: src/mod_configure.erl:865
+#: src/mod_configure.erl:956
 msgid "Dump Backup to Text File at "
 msgstr "Uložiť zálohu do textového súboru na "
 
-#: src/mod_configure.erl:124 src/mod_configure.erl:571
+#: src/mod_configure.erl:124 src/mod_configure.erl:662
 msgid "Dump to Text File"
 msgstr "Uložiť do textového súboru"
 
@@ -538,11 +558,11 @@ msgstr ""
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
 
-#: src/mod_configure.erl:1497
+#: src/mod_configure.erl:1757
 msgid "Edit Properties"
 msgstr "Editovať vlastnosti"
 
-#: src/mod_muc_room.erl:5268
+#: src/mod_muc_room.erl:5450
 msgid "Either approve or decline the voice request."
 msgstr "Povolte alebo zamietnite žiadosť o Voice."
 
@@ -573,28 +593,28 @@ msgstr ""
 msgid "Enabling push without 'node' attribute is not supported"
 msgstr ""
 
-#: src/mod_configure.erl:140 src/mod_configure.erl:491
-#: src/mod_configure.erl:1003
+#: src/mod_configure.erl:144 src/mod_configure.erl:563
+#: src/mod_configure.erl:1112
 msgid "End User Session"
 msgstr "Ukončiť reláciu užívateľa"
 
-#: src/mod_muc.erl:1107
+#: src/mod_muc.erl:1130
 msgid "Enter nickname you want to register"
 msgstr "Zadajte prezývku, ktorú chcete registrovať"
 
-#: src/mod_configure.erl:844 src/mod_configure.erl:856
+#: src/mod_configure.erl:935 src/mod_configure.erl:947
 msgid "Enter path to backup file"
 msgstr "Zadajte cestu k súboru so zálohou"
 
-#: src/mod_configure.erl:890
+#: src/mod_configure.erl:981
 msgid "Enter path to jabberd14 spool dir"
 msgstr "Zadajte cestu k jabberd14 spool adresáru"
 
-#: src/mod_configure.erl:879
+#: src/mod_configure.erl:970
 msgid "Enter path to jabberd14 spool file"
 msgstr "Zadajte cestu k spool súboru jabberd14"
 
-#: src/mod_configure.erl:868
+#: src/mod_configure.erl:959
 msgid "Enter path to text file"
 msgstr "Zadajte cestu k textovému súboru"
 
@@ -642,7 +662,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1310
+#: src/mod_muc_room.erl:1315
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Nepodarilo sa nájsť JID v súhlase o Voice."
 
@@ -654,7 +674,7 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr ""
 
-#: src/mod_muc_room.erl:3986
+#: src/mod_muc_room.erl:3996
 msgid "Failed to process option '~s'"
 msgstr ""
 
@@ -682,7 +702,7 @@ msgstr "Vyplnte políčka pre vyhľadávanie XMPP užívateľa"
 msgid "Friday"
 msgstr "Piatok"
 
-#: src/mod_configure.erl:663
+#: src/mod_configure.erl:754
 #, fuzzy
 msgid "From ~ts"
 msgstr "Od ~s"
@@ -701,21 +721,51 @@ msgstr ""
 msgid "Full Name"
 msgstr "Celé meno: "
 
-#: src/mod_configure.erl:154 src/mod_configure.erl:503
+#: src/mod_configure.erl:174 src/mod_configure.erl:589
+#, fuzzy
+msgid "Get List of Active Users"
+msgstr "Zobraziť počet pripojených užívateľov"
+
+#: src/mod_configure.erl:169 src/mod_configure.erl:585
+#, fuzzy
+msgid "Get List of Disabled Users"
+msgstr "Zobraziť počet registrovaných užívateľov"
+
+#: src/mod_configure.erl:176 src/mod_configure.erl:591
+#, fuzzy
+msgid "Get List of Idle Users"
+msgstr "Zobraziť počet pripojených užívateľov"
+
+#: src/mod_configure.erl:172 src/mod_configure.erl:587
 #, fuzzy
 msgid "Get List of Online Users"
 msgstr "Zobraziť počet pripojených užívateľov"
 
-#: src/mod_configure.erl:148 src/mod_configure.erl:499
+#: src/mod_configure.erl:166 src/mod_configure.erl:583
 #, fuzzy
 msgid "Get List of Registered Users"
 msgstr "Zobraziť počet registrovaných užívateľov"
 
-#: src/mod_configure.erl:156 src/mod_configure.erl:505
+#: src/mod_configure.erl:162 src/mod_configure.erl:579
+#, fuzzy
+msgid "Get Number of Active Users"
+msgstr "Zobraziť počet pripojených užívateľov"
+
+#: src/mod_configure.erl:157 src/mod_configure.erl:575
+#, fuzzy
+msgid "Get Number of Disabled Users"
+msgstr "Zobraziť počet registrovaných užívateľov"
+
+#: src/mod_configure.erl:164 src/mod_configure.erl:581
+#, fuzzy
+msgid "Get Number of Idle Users"
+msgstr "Zobraziť počet pripojených užívateľov"
+
+#: src/mod_configure.erl:160 src/mod_configure.erl:577
 msgid "Get Number of Online Users"
 msgstr "Zobraziť počet pripojených užívateľov"
 
-#: src/mod_configure.erl:151 src/mod_configure.erl:501
+#: src/mod_configure.erl:154 src/mod_configure.erl:573
 msgid "Get Number of Registered Users"
 msgstr "Zobraziť počet registrovaných užívateľov"
 
@@ -724,13 +774,19 @@ msgstr "Zobraziť počet registrovaných užívateľov"
 msgid "Get Pending"
 msgstr "Čakajúce"
 
-#: src/mod_configure.erl:144 src/mod_configure.erl:495
-#: src/mod_configure.erl:1027
+#: src/mod_configure.erl:150 src/mod_configure.erl:569
+#: src/mod_configure.erl:1146
 msgid "Get User Last Login Time"
 msgstr "Zobraziť čas posledného prihlásenia"
 
-#: src/mod_configure.erl:146 src/mod_configure.erl:497
-#: src/mod_configure.erl:1036
+#: src/mod_configure.erl:148 src/mod_configure.erl:567
+#: src/mod_configure.erl:1136
+#, fuzzy
+msgid "Get User Roster"
+msgstr "Zobraziť heslo užívateľa"
+
+#: src/mod_configure.erl:152 src/mod_configure.erl:571
+#: src/mod_configure.erl:1155
 msgid "Get User Statistics"
 msgstr "Zobraziť štatistiku užívateľa"
 
@@ -748,21 +804,32 @@ msgstr "Prideltiť Voice tejto osobe?"
 msgid "HTTP File Upload"
 msgstr ""
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1190
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1242
+msgid "Hash computed from the list of hats available in a room"
+msgstr ""
+
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1225
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
-#: src/mod_muc_room.erl:4987 src/mod_muc_room.erl:5051
-#: src/mod_muc_room.erl:5119
+#: src/mod_muc_room.erl:5058 src/mod_muc_room.erl:5072
+#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5146
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:4983 src/mod_muc_room.erl:5116
+#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5080
+#: src/mod_muc_room.erl:5150
+#, fuzzy
+msgid "Hat hue"
+msgstr "Názov miestnosti"
+
+#: src/mod_muc_room.erl:5060 src/mod_muc_room.erl:5076
+#: src/mod_muc_room.erl:5148
 #, fuzzy
 msgid "Hat title"
 msgstr "Názov miestnosti"
 
-#: src/mod_muc_room.erl:5026
+#: src/mod_muc_room.erl:5222
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Bol prekročený prenosový limit"
@@ -771,7 +838,7 @@ msgstr "Bol prekročený prenosový limit"
 msgid "Host unknown"
 msgstr ""
 
-#: src/mod_configure.erl:1384
+#: src/mod_configure.erl:1636
 msgid "IP addresses"
 msgstr "IP adresa"
 
@@ -784,23 +851,23 @@ msgstr "Nahradené novým spojením"
 msgid "If you don't see the CAPTCHA image here, visit the web page."
 msgstr "Pokiaľ nevidíte obrázok CAPTCHA, navštívte webovú stránku."
 
-#: src/mod_configure.erl:130 src/mod_configure.erl:584
+#: src/mod_configure.erl:130 src/mod_configure.erl:675
 msgid "Import Directory"
 msgstr "Import adresára"
 
-#: src/mod_configure.erl:127 src/mod_configure.erl:582
+#: src/mod_configure.erl:127 src/mod_configure.erl:673
 msgid "Import File"
 msgstr "Import súboru"
 
-#: src/mod_configure.erl:876
+#: src/mod_configure.erl:967
 msgid "Import User from File at "
 msgstr "Importovať užívateľa zo súboru na "
 
-#: src/mod_configure.erl:553
+#: src/mod_configure.erl:640
 msgid "Import Users From jabberd14 Spool Files"
 msgstr "Importovať užívateľov z jabberd14 spool súborov"
 
-#: src/mod_configure.erl:887
+#: src/mod_configure.erl:978
 msgid "Import Users from Dir at "
 msgstr "Importovať užívateľov z adresára na "
 
@@ -820,46 +887,45 @@ msgstr "Importovať dáta užívateľov z jabberd14 spool adresára:"
 msgid "Improper domain part of 'from' attribute"
 msgstr ""
 
-#: src/mod_muc_room.erl:461
+#: src/mod_muc_room.erl:466
 msgid "Improper message type"
 msgstr "Nesprávny typ správy"
 
-#: src/mod_muc_room.erl:4699 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4715 src/mod_register.erl:192
 #: src/ejabberd_captcha.erl:221
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3711 src/mod_muc.erl:1155
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3721 src/mod_muc.erl:1178
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Nesprávne heslo"
 
-#: src/mod_muc_room.erl:2453 src/mod_register_web.erl:593
+#: src/mod_muc_room.erl:2458 src/mod_register_web.erl:593
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "Nesprávne heslo"
 
-#: src/mod_muc_room.erl:5035 src/mod_muc_room.erl:5089
-#: src/mod_muc_room.erl:5129 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5036 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
-#: src/mod_configure.erl:1529
+#: src/mod_configure.erl:1789
 msgid "Incorrect value of 'action' in data form"
 msgstr ""
 
-#: src/mod_configure.erl:1149 src/mod_configure.erl:1182
-#: src/mod_configure.erl:1215 src/mod_configure.erl:1235
-#: src/mod_configure.erl:1255
+#: src/mod_configure.erl:1340 src/mod_configure.erl:1373
+#: src/mod_configure.erl:1406 src/mod_configure.erl:1426
+#: src/mod_configure.erl:1446
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/ext_mod.erl:1332
+#: src/ext_mod.erl:1342
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1408
+#: src/ext_mod.erl:1418
 #, fuzzy
 msgid "Installed Modules:"
 msgstr "Spustiť moduly"
@@ -881,27 +947,27 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "Neplatná rola: ~s"
 
-#: src/mod_muc_room.erl:4571
+#: src/mod_muc_room.erl:4565
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Neplatná rola: ~s"
 
-#: src/mod_muc_room.erl:5313
+#: src/mod_muc_room.erl:5495
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "Žiadosti o Voice nie sú povolené v tejto konferencii"
 
-#: src/mod_muc_room.erl:434 src/mod_muc_room.erl:597 src/mod_muc_room.erl:1494
+#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1499
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
 
-#: src/mod_muc_room.erl:611
+#: src/mod_muc_room.erl:616
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr "Nie je dovolené odoslanie súkromnej správy typu \"Skupinová správa\" "
 
-#: src/mod_muc_room.erl:445
+#: src/mod_muc_room.erl:450
 msgid "It is not allowed to send private messages to the conference"
 msgstr "Nie je povolené odosielať súkromné správy do konferencie"
 
@@ -914,13 +980,15 @@ msgstr "Vytváranie miestnosti nie je povolené"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_muc_room.erl:4978 src/mod_muc_room.erl:5046
-#: src/mod_muc_room.erl:5113 src/mod_configure.erl:980
-#: src/mod_configure.erl:997 src/mod_configure.erl:1007
-#: src/mod_configure.erl:1017 src/mod_configure.erl:1031
-#: src/mod_configure.erl:1040 src/mod_configure.erl:1355
-#: src/mod_configure.erl:1380 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1108
+#: src/mod_muc_room.erl:5103 src/mod_muc_room.erl:5121
+#: src/mod_muc_room.erl:5144 src/mod_configure.erl:1071
+#: src/mod_configure.erl:1088 src/mod_configure.erl:1097
+#: src/mod_configure.erl:1106 src/mod_configure.erl:1116
+#: src/mod_configure.erl:1126 src/mod_configure.erl:1140
+#: src/mod_configure.erl:1150 src/mod_configure.erl:1159
+#: src/mod_configure.erl:1575 src/mod_configure.erl:1607
+#: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1158
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -946,7 +1014,7 @@ msgstr "Júl"
 msgid "June"
 msgstr "Jún"
 
-#: src/mod_muc_admin.erl:1114
+#: src/mod_muc_admin.erl:1164
 msgid "Just created"
 msgstr ""
 
@@ -954,11 +1022,11 @@ msgstr ""
 msgid "Last Activity"
 msgstr "Posledná aktivita"
 
-#: src/mod_configure.erl:1357
+#: src/mod_configure.erl:1609
 msgid "Last login"
 msgstr "Posledné prihlásenie"
 
-#: src/mod_muc_admin.erl:1110
+#: src/mod_muc_admin.erl:1160
 #, fuzzy
 msgid "Last message"
 msgstr "Posledný rok"
@@ -976,12 +1044,14 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_room.erl:5109
+#: src/mod_muc_room.erl:4531 src/mod_muc_room.erl:4666
+#: src/mod_muc_room.erl:5055
 #, fuzzy
-msgid "List of users with hats"
-msgstr "Zoznam modulov, ktoré majú byť spustené"
+msgid "List of Hats"
+msgstr "Otvorené portov"
 
-#: src/mod_muc_room.erl:4553 src/mod_muc_room.erl:4665
+#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4678
+#: src/mod_muc_room.erl:5141
 msgid "List users with hats"
 msgstr ""
 
@@ -989,7 +1059,7 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:1113
+#: src/mod_muc_admin.erl:1163
 msgid "Logging"
 msgstr ""
 
@@ -1055,7 +1125,7 @@ msgid "Max payload size in bytes"
 msgstr "Maximálny náklad v bajtoch"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:914
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:949
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr ""
 
@@ -1077,7 +1147,7 @@ msgstr "Maximálny počet položiek, ktoré je možné natrvalo uložiť"
 msgid "May"
 msgstr "Máj"
 
-#: src/mod_muc_room.erl:2340
+#: src/mod_muc_room.erl:2345
 msgid "Membership is required to enter this room"
 msgstr "Pre vstup do miestnosti je potrebné byť členom"
 
@@ -1094,7 +1164,8 @@ msgstr ""
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr ""
 
-#: src/mod_announce.erl:525 src/mod_configure.erl:933 src/mod_configure.erl:973
+#: src/mod_announce.erl:573 src/mod_configure.erl:1024
+#: src/mod_configure.erl:1064
 msgid "Message body"
 msgstr "Telo správy"
 
@@ -1131,15 +1202,15 @@ msgstr "Minimum interval between voice requests (in seconds)"
 msgid "Moderator"
 msgstr "moderátorom"
 
-#: src/mod_muc_room.erl:3105 src/mod_muc_room.erl:4753
-#: src/mod_muc_room.erl:4809 src/mod_muc_room.erl:4867
+#: src/mod_muc_room.erl:3114 src/mod_muc_room.erl:4769
+#: src/mod_muc_room.erl:4825 src/mod_muc_room.erl:4883
 msgid "Moderator privileges required"
 msgstr "Sú potrebné práva moderátora"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1685
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1001
 #, fuzzy
 msgid "Moderators Only"
 msgstr "moderátorom"
@@ -1152,8 +1223,8 @@ msgstr ""
 msgid "Monday"
 msgstr "Pondelok"
 
-#: src/mod_muc_admin.erl:740 src/mod_muc_admin.erl:743
-#: src/mod_muc_admin.erl:749 src/mod_muc_admin.erl:757
+#: src/mod_muc_admin.erl:777 src/mod_muc_admin.erl:780
+#: src/mod_muc_admin.erl:786 src/mod_muc_admin.erl:794
 msgid "Multi-User Chat"
 msgstr ""
 
@@ -1171,23 +1242,23 @@ msgid "Name"
 msgstr "Meno"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1027
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1062
 msgid "Natural Language for Room Discussions"
 msgstr ""
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1078
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1113
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:3317
+#: src/mod_muc_room.erl:3327
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3087 src/mod_muc_room.erl:3322
+#: src/mod_muc_room.erl:3096 src/mod_muc_room.erl:3332
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_configure.erl:1340
+#: src/mod_configure.erl:1592
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2134
 msgid "Never"
@@ -1205,29 +1276,29 @@ msgstr "Nové heslo:"
 msgid "Nickname"
 msgstr "Prezývka"
 
-#: src/mod_muc.erl:1106
+#: src/mod_muc.erl:1129
 msgid "Nickname Registration at "
 msgstr "Registrácia prezývky na "
 
-#: src/mod_muc_room.erl:1443 src/mod_muc_room.erl:2361
-#: src/mod_muc_room.erl:4776
+#: src/mod_muc_room.erl:1448 src/mod_muc_room.erl:2366
+#: src/mod_muc_room.erl:4792
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3334
+#: src/mod_muc_room.erl:3344
 msgid "Nickname ~s does not exist in the room"
 msgstr "Prezývka ~s v miestnosti neexistuje"
 
-#: src/mod_muc_room.erl:3734
+#: src/mod_muc_room.erl:3744
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3069
+#: src/mod_muc_room.erl:3078
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "Uzol nenájdený"
 
-#: src/mod_configure.erl:1522
+#: src/mod_configure.erl:1782
 msgid "No 'password' found in data form"
 msgstr ""
 
@@ -1235,13 +1306,13 @@ msgstr ""
 msgid "No 'password' found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:1131 src/mod_configure.erl:1164
-#: src/mod_configure.erl:1197 src/mod_configure.erl:1229
-#: src/mod_configure.erl:1249
+#: src/mod_configure.erl:1322 src/mod_configure.erl:1355
+#: src/mod_configure.erl:1388 src/mod_configure.erl:1420
+#: src/mod_configure.erl:1440
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5309
+#: src/mod_muc_room.erl:5491
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1268,11 +1339,11 @@ msgstr "Uzol nenájdený"
 msgid "No available resource found"
 msgstr ""
 
-#: src/mod_announce.erl:576
+#: src/mod_announce.erl:624
 msgid "No body provided for announce message"
 msgstr "Správa neobsahuje text"
 
-#: src/mod_muc_room.erl:1334 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:89
 #, fuzzy
 msgid "No child elements found"
 msgstr "Uzol nenájdený"
@@ -1298,7 +1369,7 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3856
+#: src/mod_muc_room.erl:3866
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Bez limitu"
@@ -1306,9 +1377,9 @@ msgstr "Bez limitu"
 #: src/mod_matrix_gw.erl:953 src/mod_matrix_gw.erl:967
 #: src/mod_http_upload.erl:770 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_mix.erl:672 src/mod_jidprep.erl:141 src/mod_muc.erl:250
-#: src/mod_muc.erl:673 src/mod_muc.erl:748 src/mod_muc.erl:768
-#: src/mod_muc.erl:799 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:253
+#: src/mod_muc.erl:683 src/mod_muc.erl:758 src/mod_muc.erl:778
+#: src/mod_muc.erl:809 src/mod_roster.erl:184 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1327,14 +1398,14 @@ msgstr ""
 msgid "No privacy list with this name found"
 msgstr ""
 
-#: src/mod_private.erl:182
+#: src/mod_private.erl:186
 msgid "No private data found in this query"
 msgstr ""
 
-#: src/mod_configure.erl:803 src/mod_configure.erl:1093
-#: src/mod_configure.erl:1126 src/mod_configure.erl:1159
-#: src/mod_configure.erl:1192 src/mod_configure.erl:1224
-#: src/mod_configure.erl:1244 src/mod_stats.erl:92
+#: src/mod_configure.erl:894 src/mod_configure.erl:1284
+#: src/mod_configure.erl:1317 src/mod_configure.erl:1350
+#: src/mod_configure.erl:1383 src/mod_configure.erl:1415
+#: src/mod_configure.erl:1435 src/mod_stats.erl:92
 #, fuzzy
 msgid "No running node found"
 msgstr "Uzol nenájdený"
@@ -1349,12 +1420,12 @@ msgstr ""
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:968
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1003
 #, fuzzy
 msgid "Nobody"
 msgstr "nikto"
 
-#: src/mod_muc_admin.erl:1116
+#: src/mod_muc_admin.erl:1166
 #, fuzzy
 msgid "Node"
 msgstr "Uzly"
@@ -1373,10 +1444,9 @@ msgid "Node index not found"
 msgstr "Uzol nenájdený"
 
 #: src/mod_matrix_gw.erl:951 src/mod_matrix_gw.erl:965
-#: src/mod_muc_room.erl:4502 src/mod_muc_room.erl:4520
-#: src/mod_muc_room.erl:4538 src/mod_muc_room.erl:4556
-#: src/mod_muc_room.erl:4667 src/mod_muc_room.erl:4682
-#: src/mod_muc_room.erl:4686 src/mod_muc.erl:746 src/mod_muc.erl:1044
+#: src/mod_muc_room.erl:4515 src/mod_muc_room.erl:4549
+#: src/mod_muc_room.erl:4680 src/mod_muc_room.erl:4698
+#: src/mod_muc_room.erl:4702 src/mod_muc.erl:756 src/mod_muc.erl:1057
 #: src/ejabberd_web_admin.erl:638 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
@@ -1437,20 +1507,35 @@ msgstr "November"
 msgid "Number of Offline Messages"
 msgstr "Offline správy"
 
+#: src/mod_configure.erl:1201
+#, fuzzy
+msgid "Number of active users"
+msgstr "Počet online užívateľov"
+
 #: _build/translations/lib/xmpp/src/captcha_form.erl:777
 #, fuzzy
 msgid "Number of answers required"
 msgstr "Počet online užívateľov"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1092
+#: src/mod_configure.erl:1179
+#, fuzzy
+msgid "Number of disabled users"
+msgstr "Počet registrovaných užívateľov"
+
+#: src/mod_configure.erl:1212
+#, fuzzy
+msgid "Number of idle users"
+msgstr "Počet online užívateľov"
+
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1127
 msgid "Number of occupants"
 msgstr "Počet zúčastnených"
 
-#: src/mod_configure.erl:1081
+#: src/mod_configure.erl:1189
 msgid "Number of online users"
 msgstr "Počet online užívateľov"
 
-#: src/mod_configure.erl:1060
+#: src/mod_configure.erl:1169
 msgid "Number of registered users"
 msgstr "Počet registrovaných užívateľov"
 
@@ -1465,17 +1550,17 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1174
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1209
 #, fuzzy
 msgid "Occupants May Change the Subject"
 msgstr "Povoliť užívateľom meniť tému"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:931
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
 #, fuzzy
 msgid "Occupants are allowed to invite others"
 msgstr "Len členovia majú povolené dotazovať sa o konferencii"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:948
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:983
 #, fuzzy
 msgid "Occupants are allowed to query others"
 msgstr "Len členovia majú povolené dotazovať sa o konferencii"
@@ -1488,11 +1573,11 @@ msgstr "Október"
 msgid "Old Password:"
 msgstr "Staré heslo:"
 
-#: src/mod_configure.erl:1350
+#: src/mod_configure.erl:1602
 msgid "Online"
 msgstr "Online"
 
-#: src/mod_configure.erl:477 src/ejabberd_web_admin.erl:597
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:597
 #: src/ejabberd_web_admin.erl:1534
 msgid "Online Users"
 msgstr "Online užívatelia"
@@ -1521,30 +1606,30 @@ msgstr "Doručovať upozornenia len aktuálne prihláseným používateľom"
 msgid "Only members may query archives of this room"
 msgstr "Len moderátori majú povolené meniť tému miestnosti"
 
-#: src/mod_muc_room.erl:1121
+#: src/mod_muc_room.erl:1126
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "Len moderátori a zúčastnený majú povolené meniť tému tejto miestnosti"
 
-#: src/mod_muc_room.erl:1126
+#: src/mod_muc_room.erl:1131
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Len moderátori majú povolené meniť tému miestnosti"
 
-#: src/mod_muc_room.erl:5222
+#: src/mod_muc_room.erl:5404
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "Iba správcovia služby majú povolené odosielanie servisných správ"
 
-#: src/mod_muc_room.erl:1317
+#: src/mod_muc_room.erl:1322
 msgid "Only moderators can approve voice requests"
 msgstr "Len moderátori môžu schváliť žiadosť o Voice"
 
-#: src/mod_muc_room.erl:656 src/mod_muc_room.erl:1140 src/mod_muc_room.erl:5378
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1145 src/mod_muc_room.erl:5560
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Len členovia majú povolené zasielať správy do konferencie"
 
-#: src/mod_muc_room.erl:706
+#: src/mod_muc_room.erl:711
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Len členovia majú povolené dotazovať sa o konferencii"
 
@@ -1554,7 +1639,7 @@ msgstr "Len členovia majú povolené dotazovať sa o konferencii"
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:240
+#: src/mod_muc.erl:243
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Iba správcovia služby majú povolené odosielanie servisných správ"
 
@@ -1581,19 +1666,19 @@ msgstr "Meno organizácie: "
 msgid "Organization Unit"
 msgstr "Organizačná jednotka: "
 
-#: src/ext_mod.erl:1412
+#: src/ext_mod.erl:1422
 msgid "Other Modules Available:"
 msgstr ""
 
-#: src/mod_configure.erl:479
+#: src/mod_configure.erl:547
 msgid "Outgoing s2s Connections"
 msgstr "Odchádzajúce s2s spojenia"
 
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
 #: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3328 src/mod_pubsub.erl:3495
-#: src/mod_muc_room.erl:3681 src/mod_muc_room.erl:3726
-#: src/mod_muc_room.erl:4729 src/mod_mix.erl:677
+#: src/mod_muc_room.erl:3691 src/mod_muc_room.erl:3736
+#: src/mod_muc_room.erl:4745 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Sú vyžadované práva vlastníka"
 
@@ -1612,14 +1697,14 @@ msgstr ""
 msgid "Participant ID"
 msgstr "Užívatelia sú implicitne členmi"
 
-#: src/ejabberd_oauth.erl:537 src/mod_configure.erl:984
-#: src/mod_configure.erl:1021 src/mod_configure.erl:1502
+#: src/ejabberd_oauth.erl:537 src/mod_configure.erl:1075
+#: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:233
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 msgid "Password"
 msgstr "Heslo"
 
-#: src/mod_configure.erl:988
+#: src/mod_configure.erl:1079
 msgid "Password Verification"
 msgstr "Overenie hesla"
 
@@ -1631,12 +1716,12 @@ msgstr "Overenie hesla"
 msgid "Password:"
 msgstr "Heslo:"
 
-#: src/mod_configure.erl:892
+#: src/mod_configure.erl:983
 msgid "Path to Dir"
 msgstr "Cesta k adresáru"
 
-#: src/mod_configure.erl:846 src/mod_configure.erl:858
-#: src/mod_configure.erl:870 src/mod_configure.erl:881
+#: src/mod_configure.erl:937 src/mod_configure.erl:949
+#: src/mod_configure.erl:961 src/mod_configure.erl:972
 msgid "Path to File"
 msgstr "Cesta k súboru"
 
@@ -1653,7 +1738,7 @@ msgstr "Čas:"
 msgid "Persist items to storage"
 msgstr "Uložiť položky natrvalo do úložiska"
 
-#: src/mod_muc_admin.erl:1112
+#: src/mod_muc_admin.erl:1162
 #, fuzzy
 msgid "Persistent"
 msgstr "Nastaviť miestnosť ako trvalú"
@@ -1676,7 +1761,7 @@ msgstr ""
 "Mnesia databázu. Ak používate ODBC modul, musíte zálohovať vašu SQL databázu "
 "separátne."
 
-#: src/mod_muc_room.erl:1278
+#: src/mod_muc_room.erl:1283
 msgid "Please, wait for a while before sending new voice request"
 msgstr "Prosím počkate, predtým než pošlete novú žiadosť o Voice"
 
@@ -1717,7 +1802,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "Žiadosť odberateľa PubSub"
 
-#: src/mod_muc_admin.erl:1111
+#: src/mod_muc_admin.erl:1161
 msgid "Public"
 msgstr ""
 
@@ -1726,7 +1811,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "Špecifikovať model publikovania"
 
-#: src/mod_pubsub.erl:4324
+#: src/mod_pubsub.erl:4326
 msgid "Publish-Subscribe"
 msgstr "Publish-Subscribe"
 
@@ -1741,25 +1826,31 @@ msgstr ""
 msgid "Push record not found"
 msgstr "Uzol nenájdený"
 
-#: src/mod_muc_room.erl:701
+#: src/mod_muc_room.erl:706
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "Dotazovať sa o členoch nie je v tejto miestnosti povolené"
 
-#: src/mod_private.erl:206 src/mod_offline.erl:323 src/mod_privacy.erl:125
+#: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
 #: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr ""
 
-#: src/mod_configure.erl:789
+#: src/mod_configure.erl:880
 msgid "RAM and disc copy"
 msgstr "Kópia RAM a disku"
 
-#: src/mod_configure.erl:787
+#: src/mod_configure.erl:878
 msgid "RAM copy"
 msgstr "Kópia RAM"
 
-#: src/mod_announce.erl:516
+#: src/mod_configure.erl:142 src/mod_configure.erl:561
+#: src/mod_configure.erl:1102
+#, fuzzy
+msgid "Re-Enable User"
+msgstr "Vymazať užívateľa"
+
+#: src/mod_announce.erl:564
 msgid "Really delete message of the day?"
 msgstr "Skutočne zmazať správu dňa?"
 
@@ -1779,7 +1870,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:618 src/mod_muc_room.erl:674
+#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:679
 msgid "Recipient is not in the conference room"
 msgstr "Príjemca sa nenachádza v konferenčnej miestnosti"
 
@@ -1793,29 +1884,29 @@ msgstr "Zoznam kontaktov"
 msgid "Register an XMPP account"
 msgstr "Zaregistrovať XMPP účet"
 
-#: src/mod_configure.erl:793
+#: src/mod_configure.erl:884
 msgid "Remote copy"
 msgstr "Vzdialená kópia"
 
-#: src/mod_configure.erl:1500
+#: src/mod_configure.erl:1760
 msgid "Remove User"
 msgstr "Odstrániť užívateľa"
 
-#: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4661
-#: src/mod_muc_room.erl:5041
+#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4674
+#: src/mod_muc_room.erl:5117
 msgid "Remove a hat from a user"
 msgstr ""
 
-#: src/ejabberd_sm.erl:475 src/ejabberd_sm.erl:480
+#: src/ejabberd_sm.erl:476 src/ejabberd_sm.erl:481
 msgid "Replaced by new connection"
 msgstr "Nahradené novým spojením"
 
-#: src/mod_muc_room.erl:240 src/mod_muc_room.erl:249 src/mod_muc_room.erl:966
+#: src/mod_muc_room.erl:245 src/mod_muc_room.erl:254 src/mod_muc_room.erl:971
 #: src/mod_mix_pam.erl:348
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:852 src/mod_muc_room.erl:867
+#: src/mod_muc_room.erl:857 src/mod_muc_room.erl:872
 msgid "Request is ignored"
 msgstr ""
 
@@ -1823,20 +1914,21 @@ msgstr ""
 msgid "Requested role"
 msgstr ""
 
-#: src/mod_configure.erl:1386
+#: src/mod_configure.erl:1638
 msgid "Resources"
 msgstr "Zdroje"
 
-#: src/mod_configure.erl:132 src/mod_configure.erl:555
-#: src/mod_configure.erl:903
+#: src/mod_configure.erl:132 src/mod_configure.erl:178
+#: src/mod_configure.erl:642 src/mod_configure.erl:646
+#: src/mod_configure.erl:994
 msgid "Restart Service"
 msgstr "Reštartovať službu"
 
-#: src/mod_configure.erl:121 src/mod_configure.erl:569
+#: src/mod_configure.erl:121 src/mod_configure.erl:660
 msgid "Restore"
 msgstr "Obnoviť"
 
-#: src/mod_configure.erl:853
+#: src/mod_configure.erl:944
 msgid "Restore Backup from File at "
 msgstr "Obnoviť zálohu zo súboru na "
 
@@ -1855,7 +1947,7 @@ msgstr "Okamžite obnoviť binárnu zálohu:"
 msgid "Restore plain text backup immediately:"
 msgstr "Okamžite obnoviť zálohu z textového súboru:"
 
-#: src/mod_adhoc_api.erl:508
+#: src/mod_adhoc_api.erl:519
 msgid "Result"
 msgstr ""
 
@@ -1868,7 +1960,7 @@ msgid "Roles for which Presence is Broadcasted"
 msgstr ""
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:980
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1015
 #, fuzzy
 msgid "Roles that May Send Private Messages"
 msgstr "Povoliť užívateľom odosielať súkromné správy"
@@ -1881,22 +1973,22 @@ msgstr "Nastavenia miestnosti"
 msgid "Room Occupants"
 msgstr "Ľudí v miestnosti"
 
-#: src/mod_muc.erl:637
+#: src/mod_muc.erl:647
 msgid "Room creation is denied by service policy"
 msgstr "Vytváranie miestnosti nie je povolené"
 
 #: src/mod_muc_log.erl:879
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1011
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1046
 msgid "Room description"
 msgstr "Popis miestnosti"
 
-#: src/mod_muc_room.erl:993
+#: src/mod_muc_room.erl:998
 #, fuzzy
 msgid "Room terminates"
 msgstr "Názov miestnosti"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1115
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1165
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Názov miestnosti"
@@ -1906,11 +1998,11 @@ msgstr "Názov miestnosti"
 msgid "Roster groups allowed to subscribe"
 msgstr "Skupiny kontaktov, ktoré môžu odoberať"
 
-#: src/mod_configure.erl:1382
+#: src/mod_configure.erl:1634
 msgid "Roster size"
 msgstr "Počet kontaktov v zozname"
 
-#: src/mod_configure.erl:481
+#: src/mod_configure.erl:549
 msgid "Running Nodes"
 msgstr "Bežiace uzly"
 
@@ -1943,19 +2035,20 @@ msgstr ""
 msgid "Search users in "
 msgstr "Hľadať užívateľov v "
 
-#: src/mod_announce.erl:610
+#: src/mod_announce.erl:658
 msgid "Send announcement to all online users"
 msgstr "Odoslať zoznam všetkým online používateľom"
 
-#: src/mod_announce.erl:612 src/mod_configure.erl:926 src/mod_configure.erl:966
+#: src/mod_announce.erl:660 src/mod_configure.erl:1017
+#: src/mod_configure.erl:1057
 msgid "Send announcement to all online users on all hosts"
 msgstr "Odoslať oznam všetkým online používateľom na všetkých serveroch"
 
-#: src/mod_announce.erl:606
+#: src/mod_announce.erl:654
 msgid "Send announcement to all users"
 msgstr "Odoslať oznam všetkým používateľom"
 
-#: src/mod_announce.erl:608
+#: src/mod_announce.erl:656
 msgid "Send announcement to all users on all hosts"
 msgstr "Poslať oznámenie všetkým užívateľom na všetkých serveroch"
 
@@ -1977,11 +2070,11 @@ msgstr ""
 msgid "Session state copying timed out"
 msgstr ""
 
-#: src/mod_announce.erl:614
+#: src/mod_announce.erl:662
 msgid "Set message of the day and send to online users"
 msgstr "Nastaviť správu dňa a odoslať ju online používateľom"
 
-#: src/mod_announce.erl:616
+#: src/mod_announce.erl:664
 msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
 "Nastaviť správu dňa na všetkých serveroch a poslať ju online užívateľom"
@@ -2002,8 +2095,9 @@ msgstr ""
 msgid "Show Ordinary Table"
 msgstr "Zobraziť bežnú tabuľku"
 
-#: src/mod_configure.erl:134 src/mod_configure.erl:557
-#: src/mod_configure.erl:943
+#: src/mod_configure.erl:134 src/mod_configure.erl:180
+#: src/mod_configure.erl:644 src/mod_configure.erl:648
+#: src/mod_configure.erl:1034
 msgid "Shut Down Service"
 msgstr "Vypnúť službu"
 
@@ -2016,7 +2110,7 @@ msgstr ""
 "Niektorí XMPP klenti môžu ukladať heslá v počítači. Používajte túto funkciu "
 "len ak veríte, že sú tam v bezpečí.  "
 
-#: src/ext_mod.erl:1401
+#: src/ext_mod.erl:1411
 msgid "Sources Specs:"
 msgstr ""
 
@@ -2039,7 +2133,7 @@ msgstr "Špecifikovať model publikovania"
 msgid "Stanza ID"
 msgstr ""
 
-#: src/mod_muc_room.erl:5257
+#: src/mod_muc_room.erl:5439
 msgid "Stanza id is not valid"
 msgstr ""
 
@@ -2048,7 +2142,7 @@ msgstr ""
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr ""
 
-#: src/mod_configure.erl:482
+#: src/mod_configure.erl:550
 msgid "Stopped Nodes"
 msgstr "Zastavené uzly"
 
@@ -2068,11 +2162,12 @@ msgstr ""
 msgid "Stream management is not enabled"
 msgstr ""
 
-#: src/mod_announce.erl:521 src/mod_configure.erl:930 src/mod_configure.erl:970
+#: src/mod_announce.erl:569 src/mod_configure.erl:1021
+#: src/mod_configure.erl:1061
 msgid "Subject"
 msgstr "Predmet"
 
-#: src/ejabberd_web_admin.erl:1028 src/ext_mod.erl:1143
+#: src/ejabberd_web_admin.erl:1028 src/ext_mod.erl:1153
 msgid "Submitted"
 msgstr "Odoslané"
 
@@ -2094,7 +2189,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4740
+#: src/mod_muc_room.erl:4756
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2118,13 +2213,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2350
-#: src/mod_muc_room.erl:4766
+#: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2355
+#: src/mod_muc_room.erl:4782
 msgid "That nickname is already in use by another occupant"
 msgstr "Prezývka je už používaná iným členom"
 
-#: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2364
-#: src/mod_muc_room.erl:4780 src/mod_muc.erl:1129
+#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
+#: src/mod_muc_room.erl:4796 src/mod_muc.erl:1152
 msgid "That nickname is registered by another person"
 msgstr "Prezývka je už zaregistrovaná inou osobou"
 
@@ -2132,7 +2227,7 @@ msgstr "Prezývka je už zaregistrovaná inou osobou"
 msgid "The CAPTCHA is valid."
 msgstr "Platná CAPTCHA."
 
-#: src/mod_muc_room.erl:945 src/mod_muc_room.erl:4702 src/mod_register.erl:195
+#: src/mod_muc_room.erl:950 src/mod_muc_room.erl:4718 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
 msgid "The CAPTCHA verification has failed"
 msgstr "Overenie pomocou CAPTCHA zlihalo"
@@ -2216,7 +2311,7 @@ msgstr ""
 msgid "The default language of the node"
 msgstr "Prístupný názov pre uzol"
 
-#: src/mod_muc_room.erl:519 src/mod_muc_room.erl:524
+#: src/mod_muc_room.erl:524 src/mod_muc_room.erl:529
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
@@ -2225,12 +2320,27 @@ msgstr ""
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_configure.erl:1071
+#: src/mod_configure.erl:1254
+#, fuzzy
+msgid "The list of all active users"
+msgstr "Počet online užívateľov"
+
+#: src/mod_configure.erl:1231
+#, fuzzy
+msgid "The list of all disabled users"
+msgstr "Počet online užívateľov"
+
+#: src/mod_configure.erl:1266
+#, fuzzy
+msgid "The list of all idle users"
+msgstr "Počet online užívateľov"
+
+#: src/mod_configure.erl:1242
 #, fuzzy
 msgid "The list of all online users"
 msgstr "Počet online užívateľov"
 
-#: src/mod_configure.erl:1050
+#: src/mod_configure.erl:1222
 msgid "The list of all users"
 msgstr ""
 
@@ -2310,7 +2420,11 @@ msgstr ""
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1123
+#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+msgid "The role"
+msgstr ""
+
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1158
 msgid "The room subject can be modified by participants"
 msgstr ""
 
@@ -2384,7 +2498,7 @@ msgstr ""
 msgid "Thursday"
 msgstr "Štvrtok"
 
-#: src/mod_configure.erl:908 src/mod_configure.erl:948
+#: src/mod_configure.erl:999 src/mod_configure.erl:1039
 msgid "Time delay"
 msgstr "Časový posun"
 
@@ -2396,7 +2510,7 @@ msgstr ""
 msgid "To register, visit ~s"
 msgstr ""
 
-#: src/mod_configure.erl:651
+#: src/mod_configure.erl:742
 #, fuzzy
 msgid "To ~ts"
 msgstr "Pre ~s"
@@ -2411,7 +2525,7 @@ msgid ""
 "will be unblocked at ~s UTC"
 msgstr ""
 
-#: src/mod_muc_room.erl:3074 src/mod_muc_room.erl:3740
+#: src/mod_muc_room.erl:3083 src/mod_muc_room.erl:3750
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2419,7 +2533,7 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_muc_room.erl:2434 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2439 src/mod_register.erl:250
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Príliš veľa žiadostí o CAPTCHA"
@@ -2428,7 +2542,7 @@ msgstr "Príliš veľa žiadostí o CAPTCHA"
 msgid "Too many active bytestreams"
 msgstr ""
 
-#: src/mod_muc_room.erl:1336 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1341 src/gen_iq_handler.erl:90
 msgid "Too many child elements"
 msgstr ""
 
@@ -2440,12 +2554,12 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr ""
 
-#: src/mod_muc_room.erl:2309
+#: src/mod_muc_room.erl:2314
 #, fuzzy
 msgid "Too many users in this conference"
 msgstr "Žiadosti o Voice nie sú povolené v tejto konferencii"
 
-#: src/mod_muc_room.erl:374
+#: src/mod_muc_room.erl:379
 msgid "Traffic rate limit is exceeded"
 msgstr "Bol prekročený prenosový limit"
 
@@ -2453,11 +2567,11 @@ msgstr "Bol prekročený prenosový limit"
 msgid "Tuesday"
 msgstr "Utorok"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1063
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1098
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2443 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2448 src/mod_register.erl:254
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Nepodarilo sa vygenerovat CAPTCHA"
@@ -2470,8 +2584,8 @@ msgstr ""
 msgid "Unauthorized"
 msgstr "Neautorizovaný"
 
-#: src/mod_adhoc_api.erl:350 src/mod_announce.erl:493 src/mod_configure.erl:761
-#: src/mod_configure.erl:1477
+#: src/mod_adhoc_api.erl:350 src/mod_announce.erl:538 src/mod_configure.erl:852
+#: src/mod_configure.erl:1737
 msgid "Unexpected action"
 msgstr ""
 
@@ -2479,7 +2593,7 @@ msgstr ""
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
-#: src/ext_mod.erl:1314
+#: src/ext_mod.erl:1324
 msgid "Uninstall"
 msgstr ""
 
@@ -2501,20 +2615,20 @@ msgstr ""
 msgid "Unsupported version"
 msgstr ""
 
-#: src/ext_mod.erl:1406
+#: src/ext_mod.erl:1416
 #, fuzzy
 msgid "Update Specs"
 msgstr "Aktualizovať "
 
-#: src/mod_announce.erl:618
+#: src/mod_announce.erl:666
 msgid "Update message of the day (don't send)"
 msgstr "Aktualizovať správu dňa (neodosielať)"
 
-#: src/mod_announce.erl:620
+#: src/mod_announce.erl:668
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Upraviť správu dňa na všetkých serveroch"
 
-#: src/ext_mod.erl:1396
+#: src/ext_mod.erl:1406
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
@@ -2522,7 +2636,7 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 
-#: src/ext_mod.erl:1317
+#: src/ext_mod.erl:1327
 msgid "Upgrade"
 msgstr ""
 
@@ -2541,7 +2655,7 @@ msgstr "Používateľ "
 msgid "User JID"
 msgstr "Používateľ "
 
-#: src/mod_configure.erl:278 src/mod_configure.erl:476
+#: src/mod_configure.erl:324 src/mod_configure.erl:544
 msgid "User Management"
 msgstr "Správa užívateľov"
 
@@ -2553,11 +2667,11 @@ msgstr ""
 msgid "User not allowed to perform an IQ set on another user's vCard."
 msgstr ""
 
-#: src/ejabberd_sm.erl:236
+#: src/ejabberd_sm.erl:237
 msgid "User removed"
 msgstr ""
 
-#: src/ejabberd_sm.erl:224 src/mod_sic.erl:86 src/mod_push.erl:304
+#: src/ejabberd_sm.erl:225 src/mod_sic.erl:86 src/mod_push.erl:304
 #, fuzzy
 msgid "User session not found"
 msgstr "Uzol nenájdený"
@@ -2589,17 +2703,17 @@ msgstr "Posledná aktivita používateľa"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Nieje dovolené vytvárať účty tak rýchlo po sebe"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4692 src/mod_muc_room.erl:4871
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4708 src/mod_muc_room.erl:4887
 #: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
 #: src/mod_matrix_gw.erl:939 src/mod_matrix_gw.erl:958 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4480
-#: src/mod_muc_room.erl:4627 src/mod_mix.erl:156 src/mod_mix.erl:204
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4492
+#: src/mod_muc_room.erl:4628 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
-#: src/mod_muc.erl:670 src/mod_muc.erl:708 src/mod_muc.erl:753
-#: src/mod_muc.erl:773 src/mod_muc.erl:783 src/mod_disco.erl:101
+#: src/mod_muc.erl:680 src/mod_muc.erl:718 src/mod_muc.erl:763
+#: src/mod_muc.erl:783 src/mod_muc.erl:793 src/mod_disco.erl:101
 #: src/mod_disco.erl:117 src/mod_disco.erl:223 src/mod_disco.erl:275
 #: src/mod_time.erl:53 src/mod_sic.erl:61 src/mod_sic.erl:73
 #: src/mod_vcard.erl:215 src/mod_vcard.erl:258 src/mod_version.erl:53
@@ -2635,25 +2749,25 @@ msgstr "Virtuálne servery"
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1427
+#: src/mod_muc_room.erl:1432
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "V tejto miestnosti nieje povolené meniť prezývky"
 
-#: src/mod_muc_room.erl:1133
+#: src/mod_muc_room.erl:1138
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "Návštevníci nemajú povolené zasielať správy všetkým prihláseným do "
 "konferencie"
 
-#: src/mod_muc_room.erl:5266
+#: src/mod_muc_room.erl:5448
 msgid "Voice request"
 msgstr "Žiadosť o Voice"
 
-#: src/mod_muc_room.erl:1285
+#: src/mod_muc_room.erl:1290
 msgid "Voice requests are disabled in this conference"
 msgstr "Žiadosti o Voice nie sú povolené v tejto konferencii"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1140
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1175
 msgid "Web client which allows to join the room anonymously"
 msgstr ""
 
@@ -2764,22 +2878,22 @@ msgid "XMPP Show Value of XA (Extended Away)"
 msgstr ""
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1157
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1192
 #, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd Publish-Subscribe modul"
 
-#: src/mod_muc_room.erl:991
+#: src/mod_muc_room.erl:996
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "bol vyhodený(á) kvôli reštartu systému"
 
-#: src/mod_muc_room.erl:650 src/mod_muc_room.erl:661
+#: src/mod_muc_room.erl:655 src/mod_muc_room.erl:666
 #, fuzzy
 msgid "You are not allowed to send private messages"
 msgstr "Nieje povolené posielať súkromné správy"
 
-#: src/mod_mix.erl:667
+#: src/mod_mix.erl:668
 #, fuzzy
 msgid "You are not joined to the channel"
 msgstr "Nieje povolené posielať súkromné správy"
@@ -2789,15 +2903,15 @@ msgstr "Nieje povolené posielať súkromné správy"
 msgid "You can later change your password using an XMPP client."
 msgstr "Neskôr si heslo môžete zmeniť pomocou XMPP klienta."
 
-#: src/mod_muc_room.erl:2337 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2342 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Boli ste vylúčený z tejto miestnosti"
 
-#: src/mod_muc_room.erl:2318
+#: src/mod_muc_room.erl:2323
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1160
+#: src/mod_muc.erl:1183
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Musíte vyplniť políčko \"Prezývka\" vo formulári"
 
@@ -2805,7 +2919,7 @@ msgstr "Musíte vyplniť políčko \"Prezývka\" vo formulári"
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Na registráciu prezývky potrebujete klienta podporujúceho z x:data"
 
-#: src/mod_muc.erl:1115
+#: src/mod_muc.erl:1138
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "Na registráciu prezývky potrebujete klienta podporujúceho z x:data"
 
@@ -2852,7 +2966,7 @@ msgstr "ejabberd Web Admin"
 msgid "ejabberd HTTP Upload service"
 msgstr ""
 
-#: src/mod_muc.erl:664
+#: src/mod_muc.erl:674
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC modul"
 
@@ -2880,7 +2994,7 @@ msgstr "ejabberd vCard modul"
 msgid "has been banned"
 msgstr "bol(a) zablokovaný(á)"
 
-#: src/ejabberd_sm.erl:485 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
+#: src/ejabberd_sm.erl:486 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
 msgid "has been kicked"
 msgstr "bol(a) vyhodený(á) z miestnosti"
 
@@ -2908,11 +3022,11 @@ msgstr "vstúpil(a) do miestnosti"
 msgid "leaves the room"
 msgstr "odišiel(a) z miestnosti"
 
-#: src/mod_muc_room.erl:4926
+#: src/mod_muc_room.erl:4942
 msgid "private, "
 msgstr "súkromná, "
 
-#: src/mod_muc_room.erl:5342
+#: src/mod_muc_room.erl:5524
 msgid "the password is"
 msgstr "heslo je"
 
@@ -2920,12 +3034,12 @@ msgstr "heslo je"
 msgid "vCard User Search"
 msgstr "Hľadať užívateľov vo vCard"
 
-#: src/mod_muc_room.erl:5335
+#: src/mod_muc_room.erl:5517
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s Vás pozýva do miestnosti ~s"
 
-#: src/mod_mam.erl:1716
+#: src/mod_mam.erl:1748
 msgid "~ts's MAM Archive"
 msgstr ""
 
@@ -2933,6 +3047,26 @@ msgstr ""
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "~s Offline správy"
+
+#, fuzzy
+#~ msgid "List of users with hats"
+#~ msgstr "Zoznam modulov, ktoré majú byť spustené"
+
+#, fuzzy
+#~ msgid "List users and their hats"
+#~ msgstr "Zoznam modulov, ktoré majú byť spustené"
+
+#, fuzzy
+#~ msgid "Add User 22"
+#~ msgstr "Pridať používateľa"
+
+#, fuzzy
+#~ msgid "List hats"
+#~ msgstr "Otvorené portov"
+
+#, fuzzy
+#~ msgid "Remove a Hat from a User"
+#~ msgstr "Odstrániť užívateľa"
 
 #, fuzzy
 #~ msgid "No <privileged_iq/> element found"
@@ -2984,9 +3118,6 @@ msgstr "~s Offline správy"
 
 #~ msgid "From"
 #~ msgstr "Od"
-
-#~ msgid "Get User Password"
-#~ msgstr "Zobraziť heslo užívateľa"
 
 #~ msgid "Group"
 #~ msgstr "Skupina"
@@ -3206,9 +3337,6 @@ msgstr "~s Offline správy"
 
 #~ msgid "IP"
 #~ msgstr "IP"
-
-#~ msgid "Listened Ports"
-#~ msgstr "Otvorené portov"
 
 #~ msgid "Listened Ports at "
 #~ msgstr "Otvorené porty na "
