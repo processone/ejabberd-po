@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-09 09:46+0000\n"
+"PO-Revision-Date: 2025-12-05 11:08+0100\n"
 "Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
 "po/de/>\n"
@@ -36,14 +36,14 @@ msgstr "# Teilnehmer"
 msgid "A Web Page"
 msgstr "Eine Webseite"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:759
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1775
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1773
 msgid "A description of the node"
 msgstr "Eine Beschreibung des Knotens"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2203
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2201
 msgid "A friendly name for the node"
 msgstr "Ein benutzerfreundlicher Name für den Knoten"
 
@@ -55,21 +55,22 @@ msgstr "Ein Passwort ist erforderlich um diesen Raum zu betreten"
 msgid "API Commands"
 msgstr "API Befehle"
 
-#: src/ejabberd_oauth.erl:554
+#: src/ejabberd_oauth.erl:557
 msgid "Accept"
 msgstr "Akzeptieren"
 
-#: src/mod_http_upload.erl:800 src/mod_announce.erl:282
-#: src/mod_announce.erl:297 src/mod_announce.erl:350 src/mod_announce.erl:467
-#: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
-#: src/mod_configure.erl:456 src/mod_configure.erl:791
-#: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:223
-#: src/mod_muc.erl:711 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
-#: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/ejabberd_c2s.erl:550
-#: src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
+#: src/mod_roster.erl:164 src/mod_http_upload.erl:800
+#: src/mod_stun_disco.erl:506 src/mod_configure.erl:188
+#: src/mod_configure.erl:329 src/mod_configure.erl:456
+#: src/mod_configure.erl:791 src/mod_configure.erl:1719
+#: src/mod_multicast.erl:304 src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834
+#: src/mod_register.erl:118 src/mod_register.erl:286 src/mod_register.erl:397
+#: src/mod_legacy_auth.erl:146 src/ejabberd_service.erl:232
+#: src/mod_proxy65_service.erl:197 src/mod_proxy65_service.erl:246
+#: src/mod_s2s_dialback.erl:331 src/ejabberd_s2s.erl:345
+#: src/mod_announce.erl:282 src/mod_announce.erl:297 src/mod_announce.erl:350
+#: src/mod_announce.erl:467 src/mod_announce.erl:890 src/mod_muc.erl:223
+#: src/mod_muc.erl:712
 msgid "Access denied by service policy"
 msgstr "Zugriff aufgrund der Dienstrichtlinien verweigert"
 
@@ -77,7 +78,7 @@ msgstr "Zugriff aufgrund der Dienstrichtlinien verweigert"
 msgid "Access model"
 msgstr "Zugriffsmodell"
 
-#: src/mod_register_web.erl:597
+#: src/mod_register_web.erl:598
 msgid "Account doesn't exist"
 msgstr "Konto existiert nicht"
 
@@ -90,7 +91,7 @@ msgstr "Aktion auf Benutzer"
 msgid "Add User"
 msgstr "Benutzer hinzufügen"
 
-#: src/ejabberd_web_admin.erl:477
+#: src/ejabberd_web_admin.erl:478
 msgid "Administration"
 msgstr "Verwaltung"
 
@@ -106,7 +107,7 @@ msgstr "Administratorrechte erforderlich"
 msgid "All Users"
 msgstr "Alle Benutzer"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:996
 msgid "All activity"
 msgstr "Alle Aktivitäten"
 
@@ -170,7 +171,7 @@ msgstr ""
 "ein 'LDAP Distinguished Name' gemäß einer implementierungs- oder "
 "bereitstellungsspezifischen Definition einer Gruppe sein."
 
-#: src/mod_announce.erl:652 src/mod_announce.erl:1004 src/mod_announce.erl:1012
+#: src/mod_announce.erl:652 src/mod_announce.erl:1007 src/mod_announce.erl:1015
 msgid "Announcements"
 msgstr "Ankündigungen"
 
@@ -190,47 +191,47 @@ msgstr "Antwort verbunden mit Sprache"
 msgid "Answer to a question"
 msgstr "Antwort auf eine Frage"
 
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:995
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1679
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1739
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2242
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:995
 msgid "Anyone"
 msgstr "Jeder"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:906
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1539
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1537
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
 "Jeder in der/den angeführten Kontaktlistengruppe(n) darf Items abonnieren "
 "und abrufen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1593
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1591
 msgid "Anyone may associate leaf nodes with the collection"
 msgstr "Jeder darf Blattknoten mit der Sammlung verknüpfen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:944
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2068
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2066
 msgid "Anyone may publish"
 msgstr "Jeder darf veröffentlichen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:896
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1529
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1527
 msgid "Anyone may subscribe and retrieve items"
 msgstr "Jeder darf Items abonnieren und abrufen"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:998
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1682
 msgid "Anyone with Voice"
 msgstr "Jeder mit Stimme"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:900
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1533
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1531
 msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
@@ -246,8 +247,8 @@ msgstr "April"
 msgid "Arguments"
 msgstr "Argumente"
 
-#: src/mod_muc_room.erl:4532 src/mod_muc_room.erl:4670
-#: src/mod_muc_room.erl:5099
+#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4671
+#: src/mod_muc_room.erl:5100
 #, fuzzy
 msgid "Assign a hat to a user"
 msgstr "Funktion zu einem Benutzer hinzufügen"
@@ -280,6 +281,10 @@ msgstr "August"
 msgid "Automatic node creation is not enabled"
 msgstr "Automatische Knotenerstellung ist nicht aktiviert"
 
+#: src/mod_invites_http.erl:46
+msgid "BAD REQUEST"
+msgstr ""
+
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
 msgstr "Backup"
@@ -288,7 +293,7 @@ msgstr "Backup"
 msgid "Backup Management"
 msgstr "Backupverwaltung"
 
-#: src/ejabberd_web_admin.erl:1168
+#: src/ejabberd_web_admin.erl:1169
 msgid "Backup of ~p"
 msgstr "Backup von ~p"
 
@@ -296,13 +301,13 @@ msgstr "Backup von ~p"
 msgid "Backup to File at "
 msgstr "Backup in Datei bei "
 
-#: src/ejabberd_web_admin.erl:1029
+#: src/ejabberd_web_admin.erl:1030
 msgid "Bad format"
 msgstr "Ungültiges Format"
 
+#: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_ldap.erl:338 src/mod_vcard_ldap.erl:351
 #: src/mod_vcard_sql.erl:233 src/mod_vcard_sql.erl:247
-#: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 msgid "Birthday"
 msgstr "Geburtsdatum"
 
@@ -330,8 +335,8 @@ msgstr "Kann Standardliste nicht entfernen"
 msgid "Challenge ID"
 msgstr "Herausforderungs-ID"
 
-#: src/mod_register_web.erl:204 src/mod_register_web.erl:376
-#: src/mod_register_web.erl:384 src/mod_register_web.erl:409
+#: src/mod_register_web.erl:205 src/mod_register_web.erl:377
+#: src/mod_register_web.erl:385 src/mod_register_web.erl:410
 msgid "Change Password"
 msgstr "Passwort ändern"
 
@@ -364,7 +369,7 @@ msgstr "Kanal existiert nicht"
 msgid "Channels"
 msgstr "Kanäle"
 
-#: src/mod_register_web.erl:259
+#: src/mod_register_web.erl:260
 msgid "Characters not allowed:"
 msgstr "Nicht erlaubte Zeichen:"
 
@@ -388,7 +393,7 @@ msgstr "Chatraum ist gestartet"
 msgid "Chatroom is stopped"
 msgstr "Chatraum ist beendet"
 
-#: src/mod_muc.erl:1435 src/mod_muc_admin.erl:1180
+#: src/mod_muc_admin.erl:1180 src/mod_muc.erl:1465
 msgid "Chatrooms"
 msgstr "Chaträume"
 
@@ -406,9 +411,9 @@ msgstr "Wähle Speichertyp der Tabellen"
 msgid "Choose whether to approve this entity's subscription."
 msgstr "Wählen Sie, ob das Abonnement dieser Entität genehmigt werden soll."
 
+#: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_ldap.erl:340 src/mod_vcard_ldap.erl:353
 #: src/mod_vcard_sql.erl:235 src/mod_vcard_sql.erl:249
-#: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 msgid "City"
 msgstr "Stadt"
 
@@ -420,13 +425,13 @@ msgstr "Client bestätigte mehr Stanzas als vom Server gesendet"
 msgid "Clustering"
 msgstr ""
 
-#: src/mod_muc_room.erl:4513 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4514 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Befehle"
 
-#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:629
-#: src/mod_muc.erl:653
+#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:630
+#: src/mod_muc.erl:654
 msgid "Conference room does not exist"
 msgstr "Konferenzraum existiert nicht"
 
@@ -447,14 +452,18 @@ msgstr "Kontaktadresse (normalerweise Raumbesitzer)"
 msgid "Contacts"
 msgstr ""
 
+#: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
 #: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
-#: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 msgid "Country"
 msgstr "Land"
 
-#: src/mod_muc_room.erl:4529 src/mod_muc_room.erl:4658
-#: src/mod_muc_room.erl:5068
+#: src/mod_invites.erl:350
+msgid "Create Account"
+msgstr "Konto anlegen"
+
+#: src/mod_muc_room.erl:4530 src/mod_muc_room.erl:4659
+#: src/mod_muc_room.erl:5069
 msgid "Create a Hat"
 msgstr ""
 
@@ -470,20 +479,20 @@ msgstr "Datenbank"
 msgid "Database Tables Configuration at "
 msgstr "Datenbanktabellen-Konfiguration bei "
 
-#: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
-#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3960 src/mod_pubsub.erl:4179
-#: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
-#: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
-#: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
-#: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
-#: src/mod_last.erl:185 src/mod_muc.erl:805 src/mod_muc.erl:1155
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
-#: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
-#: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
-#: src/mod_blocking.erl:261 src/mod_vcard.erl:248
-#: src/mod_proxy65_service.erl:242 src/mod_mix_pam.erl:377 src/mod_push.erl:301
-#: src/mod_push.erl:316
+#: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_pubsub.erl:3813
+#: src/mod_pubsub.erl:3857 src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965
+#: src/mod_pubsub.erl:4184 src/mod_roster.erl:436 src/mod_mam.erl:862
+#: src/mod_mam.erl:880 src/mod_mam.erl:910 src/mod_mam.erl:1285
+#: src/mod_vcard.erl:248 src/nodetree_tree_sql.erl:100
+#: src/nodetree_tree_sql.erl:130 src/nodetree_tree_sql.erl:144
+#: src/nodetree_tree_sql.erl:314 src/node_flat_sql.erl:804
+#: src/mod_carboncopy.erl:93 src/mod_blocking.erl:261 src/mod_register.erl:409
+#: src/mod_mix.erl:653 src/mod_mix_pam.erl:377 src/mod_proxy65_service.erl:242
+#: src/mod_last.erl:185 src/mod_push.erl:301 src/mod_push.erl:316
+#: src/mod_privacy.erl:165 src/mod_privacy.erl:183 src/mod_privacy.erl:277
+#: src/mod_privacy.erl:293 src/mod_privacy.erl:326 src/mod_privacy.erl:343
+#: src/mod_private.erl:195 src/mod_private.erl:202 src/mod_muc.erl:807
+#: src/mod_muc.erl:1180
 msgid "Database failure"
 msgstr "Datenbankfehler"
 
@@ -509,18 +518,18 @@ msgstr "Lösche Nachricht des Tages"
 msgid "Delete message of the day on all hosts"
 msgstr "Lösche Nachricht des Tages auf allen Hosts"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1742
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1744
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1742
 msgid "Deliver event notifications"
 msgstr "Ereignisbenachrichtigungen zustellen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1758
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1760
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1758
 msgid "Deliver payloads with event notifications"
 msgstr "Nutzdaten mit Ereignisbenachrichtigungen zustellen"
 
-#: src/mod_muc_room.erl:4530 src/mod_muc_room.erl:4662
-#: src/mod_muc_room.erl:5085
+#: src/mod_muc_room.erl:4531 src/mod_muc_room.erl:4663
+#: src/mod_muc_room.erl:5086
 msgid "Destroy a Hat"
 msgstr ""
 
@@ -534,7 +543,7 @@ msgstr "Benutzer löschen"
 msgid "Disc only copy"
 msgstr "Nur auf Festplatte"
 
-#: src/mod_register_web.erl:271
+#: src/mod_register_web.erl:272
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
@@ -554,8 +563,8 @@ msgstr "Ausgabe in Textdatei"
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Doppelte Gruppen sind laut RFC6121 nicht erlaubt"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1812
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1810
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr "Dynamisch ein 'replyto' des Item-Veröffentlichers angeben"
 
@@ -563,13 +572,13 @@ msgstr "Dynamisch ein 'replyto' des Item-Veröffentlichers angeben"
 msgid "Edit Properties"
 msgstr "Eigenschaften ändern"
 
-#: src/mod_muc_room.erl:5450
+#: src/mod_muc_room.erl:5451
 msgid "Either approve or decline the voice request."
 msgstr "Sprachrecht-Anforderung entweder genehmigen oder ablehnen."
 
+#: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_ldap.erl:341 src/mod_vcard_ldap.erl:354
 #: src/mod_vcard_sql.erl:236 src/mod_vcard_sql.erl:250
-#: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 msgid "Email"
 msgstr "E-Mail"
 
@@ -599,7 +608,7 @@ msgstr "push ohne 'node'-Attribut zu aktivieren wird nicht unterstützt"
 msgid "End User Session"
 msgstr "Benutzersitzung beenden"
 
-#: src/mod_muc.erl:1130
+#: src/mod_muc.erl:1132
 msgid "Enter nickname you want to register"
 msgstr "Geben Sie den Spitznamen ein den Sie registrieren wollen"
 
@@ -632,16 +641,16 @@ msgstr "Erlang XMPP-Server"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Jabber-IDs von CAPTCHA-Herausforderung ausschließen"
 
-#: src/ejabberd_web_admin.erl:1205
+#: src/ejabberd_web_admin.erl:1206
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Alle Tabellen als SQL-Abfragen in eine Datei exportieren:"
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1199
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Alle Benutzerdaten des Servers in PIEFXIS-Dateien (XEP-0227) exportieren:"
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1201
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Alle Benutzerdaten des Hosts in PIEFXIS-Dateien (XEP-0227) exportieren:"
@@ -680,9 +689,9 @@ msgstr "Konnte HTTP-Antwort nicht parsen"
 msgid "Failed to process option '~s'"
 msgstr "Konnte Option '~s' nicht verarbeiten"
 
+#: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 #: src/mod_vcard_sql.erl:231 src/mod_vcard_sql.erl:245
-#: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: _build/translations/lib/xmpp/src/muc_register.erl:522
 msgid "Family Name"
 msgstr "Nachname"
@@ -717,9 +726,9 @@ msgstr "Vollständige Liste der Raumadmins"
 msgid "Full List of Room Owners"
 msgstr "Vollständige Liste der Raumbesitzer"
 
+#: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 #: src/mod_vcard_sql.erl:228 src/mod_vcard_sql.erl:242
-#: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
@@ -810,29 +819,34 @@ msgstr ""
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr "Hash des vCard-temp Avatars dieses Raums"
 
-#: src/mod_muc_room.erl:5058 src/mod_muc_room.erl:5072
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:5059 src/mod_muc_room.erl:5073
+#: src/mod_muc_room.erl:5090 src/mod_muc_room.erl:5147
 msgid "Hat URI"
 msgstr "Funktions-URI"
 
-#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5080
-#: src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5063 src/mod_muc_room.erl:5081
+#: src/mod_muc_room.erl:5151
 #, fuzzy
 msgid "Hat hue"
 msgstr "Funktionstitel"
 
-#: src/mod_muc_room.erl:5060 src/mod_muc_room.erl:5076
-#: src/mod_muc_room.erl:5148
+#: src/mod_muc_room.erl:5061 src/mod_muc_room.erl:5077
+#: src/mod_muc_room.erl:5149
 msgid "Hat title"
 msgstr "Funktionstitel"
 
-#: src/mod_muc_room.erl:5222
+#: src/mod_muc_room.erl:5223
 msgid "Hats limit exceeded"
 msgstr "Funktionslimit wurde überschritten"
 
-#: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:595
+#: src/mod_register_web.erl:596 src/mod_invites.erl:770
+#: src/mod_s2s_dialback.erl:333
 msgid "Host unknown"
 msgstr "Host unbekannt"
+
+#: src/mod_invites.erl:772
+msgid "Hostname invalid"
+msgstr "Hostname unbekannt"
 
 #: src/mod_configure.erl:1636
 msgid "IP addresses"
@@ -866,15 +880,15 @@ msgstr "Importiere Benutzer aus jabberd14-Spooldateien"
 msgid "Import Users from Dir at "
 msgstr "Benutzer importieren aus Verzeichnis bei "
 
-#: src/ejabberd_web_admin.erl:1215
+#: src/ejabberd_web_admin.erl:1216
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Importiere Benutzer von jabberd14-Spooldatei:"
 
-#: src/ejabberd_web_admin.erl:1196
+#: src/ejabberd_web_admin.erl:1197
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Benutzerdaten von einer PIEFXIS-Datei (XEP-0227) importieren:"
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1218
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Importiere Benutzer von jabberd14-Spoolverzeichnis:"
 
@@ -886,22 +900,23 @@ msgstr "Falscher Domänenteil des 'from'-Attributs"
 msgid "Improper message type"
 msgstr "Unzulässiger Nachrichtentyp"
 
-#: src/mod_muc_room.erl:4715 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221
+#: src/ejabberd_captcha.erl:221 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4716 src/mod_invites_register.erl:227
 msgid "Incorrect CAPTCHA submit"
 msgstr "Falsche CAPTCHA-Eingabe"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3721 src/mod_muc.erl:1178
-#: src/mod_register.erl:188 src/mod_vcard.erl:277
+#: src/mod_pubsub.erl:1252 src/mod_vcard.erl:277 src/mod_register.erl:188
+#: src/mod_muc_room.erl:3721 src/mod_invites_register.erl:223
+#: src/mod_muc.erl:1203
 msgid "Incorrect data form"
 msgstr "Falsches Datenformular"
 
-#: src/mod_muc_room.erl:2458 src/mod_register_web.erl:593
-#: src/mod_register.erl:143
+#: src/mod_register.erl:143 src/mod_muc_room.erl:2458
+#: src/mod_register_web.erl:594
 msgid "Incorrect password"
 msgstr "Falsches Passwort"
 
-#: src/mod_muc_room.erl:5036 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5037 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Falscher Wert des 'action'-Attributs"
 
@@ -915,11 +930,11 @@ msgstr "Falscher Wert von 'action' in Datenformular"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Falscher Wert von 'path' in Datenformular"
 
-#: src/ext_mod.erl:1342
+#: src/mod_invites_http.erl:206 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "Installieren"
 
-#: src/ext_mod.erl:1418
+#: src/ext_mod.erl:1381
 msgid "Installed Modules:"
 msgstr "Installierte Module:"
 
@@ -939,13 +954,17 @@ msgstr "Ungültiges 'from'-Attribut in weitergeleiteter Nachricht"
 msgid "Invalid 'previd' value"
 msgstr "Ungültiger 'previd'-Wert"
 
-#: src/mod_muc_room.erl:4565
+#: src/mod_muc_room.erl:4566
 msgid "Invalid node name"
 msgstr "Ungültiger Knotenname"
 
-#: src/mod_muc_room.erl:5495
+#: src/mod_muc_room.erl:5496
 msgid "Invitations are not allowed in this conference"
 msgstr "Einladungen sind in dieser Konferenz nicht erlaubt"
+
+#: src/mod_invites.erl:346
+msgid "Invite User"
+msgstr "Person einladen"
 
 #: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1499
 msgid ""
@@ -972,15 +991,15 @@ msgstr "JID-Normalisierung aufgrund der Dienstrichtlinien verweigert"
 msgid "JID normalization failed"
 msgstr "JID-Normalisierung fehlgeschlagen"
 
-#: src/mod_muc_room.erl:5103 src/mod_muc_room.erl:5121
-#: src/mod_muc_room.erl:5144 src/mod_configure.erl:1071
-#: src/mod_configure.erl:1088 src/mod_configure.erl:1097
-#: src/mod_configure.erl:1106 src/mod_configure.erl:1116
-#: src/mod_configure.erl:1126 src/mod_configure.erl:1140
-#: src/mod_configure.erl:1150 src/mod_configure.erl:1159
-#: src/mod_configure.erl:1575 src/mod_configure.erl:1607
-#: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
+#: src/mod_configure.erl:1071 src/mod_configure.erl:1088
+#: src/mod_configure.erl:1097 src/mod_configure.erl:1106
+#: src/mod_configure.erl:1116 src/mod_configure.erl:1126
+#: src/mod_configure.erl:1140 src/mod_configure.erl:1150
+#: src/mod_configure.erl:1159 src/mod_configure.erl:1575
+#: src/mod_configure.erl:1607 src/mod_configure.erl:1632
 #: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1158
+#: src/mod_muc_room.erl:5104 src/mod_muc_room.erl:5122
+#: src/mod_muc_room.erl:5145 src/mod_vcard_sql.erl:241
 msgid "Jabber ID"
 msgstr "Jabber-ID"
 
@@ -1008,7 +1027,7 @@ msgstr "Juni"
 msgid "Just created"
 msgstr "Gerade erstellt"
 
-#: src/ejabberd_web_admin.erl:948
+#: src/ejabberd_web_admin.erl:949
 msgid "Last Activity"
 msgstr "Letzte Aktivität"
 
@@ -1020,11 +1039,11 @@ msgstr "Letzte Anmeldung"
 msgid "Last message"
 msgstr "Letzte Nachricht"
 
-#: src/ejabberd_web_admin.erl:992
+#: src/ejabberd_web_admin.erl:993
 msgid "Last month"
 msgstr "Letzter Monat"
 
-#: src/ejabberd_web_admin.erl:993
+#: src/ejabberd_web_admin.erl:994
 msgid "Last year"
 msgstr "Letztes Jahr"
 
@@ -1035,18 +1054,18 @@ msgstr ""
 "Niederwertigstes Bit des SHA-256-Hashes des Textes sollte hexadezimalem "
 "Label gleichen"
 
-#: src/mod_muc_room.erl:4531 src/mod_muc_room.erl:4666
-#: src/mod_muc_room.erl:5055
+#: src/mod_muc_room.erl:4532 src/mod_muc_room.erl:4667
+#: src/mod_muc_room.erl:5056
 #, fuzzy
 msgid "List of Hats"
 msgstr "Aktive Ports"
 
-#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4678
-#: src/mod_muc_room.erl:5141
+#: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4679
+#: src/mod_muc_room.erl:5142
 msgid "List users with hats"
 msgstr "Benutzer mit Funktionen auflisten"
 
-#: src/ejabberd_web_admin.erl:164
+#: src/ejabberd_web_admin.erl:165
 msgid "Logged Out"
 msgstr "Abgemeldet"
 
@@ -1102,8 +1121,8 @@ msgstr "Ungültiger Benutzername"
 msgid "March"
 msgstr "März"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1862
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1864
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1862
 msgid ""
 "Max # of items to persist, or `max` for no specific limit other than a "
 "server imposed maximum"
@@ -1111,13 +1130,13 @@ msgstr ""
 "Maximale Anzahl der aufzubewahrenden Elemente oder `max`, wenn es keine "
 "spezifische Begrenzung gibt, außer einer vom Server festgelegten Höchstzahl"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1882
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1880
 msgid "Max payload size in bytes"
 msgstr "Maximale Nutzdatengröße in Bytes"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:949
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1666
 msgid "Maximum Number of History Messages Returned by Room"
 msgstr "Maximale Anzahl der vom Raum zurückgegebenen History-Nachrichten"
 
@@ -1129,6 +1148,10 @@ msgstr "Maximale Anzahl der Teilnehmer"
 #: _build/translations/lib/xmpp/src/http_upload.erl:261
 msgid "Maximum file size"
 msgstr "Maximale Dateigröße"
+
+#: src/mod_invites.erl:774
+msgid "Maximum number of invites reached"
+msgstr "Maximale Anzahl all Einladungen erreicht"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
@@ -1142,7 +1165,7 @@ msgstr "Mai"
 msgid "Membership is required to enter this room"
 msgstr "Mitgliedschaft ist erforderlich um diesen Raum zu betreten"
 
-#: src/mod_register_web.erl:282
+#: src/mod_register_web.erl:283
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
@@ -1155,8 +1178,8 @@ msgstr ""
 msgid "Mere Availability in XMPP (No Show Value)"
 msgstr "Bloße Verfügbarkeit in XMPP (kein Anzeigewert)"
 
-#: src/mod_announce.erl:573 src/mod_configure.erl:1024
-#: src/mod_configure.erl:1064
+#: src/mod_configure.erl:1024 src/mod_configure.erl:1064
+#: src/mod_announce.erl:573
 msgid "Message body"
 msgstr "Nachrichtentext"
 
@@ -1168,19 +1191,19 @@ msgstr "Nachricht nicht in weitergeleiteten Nutzdaten gefunden"
 msgid "Messages from strangers are rejected"
 msgstr "Nachrichten von Fremden werden zurückgewiesen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1933
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1931
 msgid "Messages of type headline"
 msgstr "Nachrichten vom Typ 'headline'"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1929
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1927
 msgid "Messages of type normal"
 msgstr "Nachrichten vom Typ 'normal'"
 
+#: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 #: src/mod_vcard_sql.erl:230 src/mod_vcard_sql.erl:244
-#: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 msgid "Middle Name"
 msgstr "Zweiter Vorname"
 
@@ -1192,15 +1215,15 @@ msgstr "Mindestdauer zwischen Sprachrecht-Anforderung (in Sekunden)"
 msgid "Moderator"
 msgstr "Moderator"
 
-#: src/mod_muc_room.erl:3114 src/mod_muc_room.erl:4769
-#: src/mod_muc_room.erl:4825 src/mod_muc_room.erl:4883
+#: src/mod_muc_room.erl:3114 src/mod_muc_room.erl:4770
+#: src/mod_muc_room.erl:4826 src/mod_muc_room.erl:4884
 msgid "Moderator privileges required"
 msgstr "Moderatorrechte erforderlich"
 
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1001
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1685
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1737
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2240
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1001
 msgid "Moderators Only"
 msgstr "nur Moderatoren"
 
@@ -1225,13 +1248,17 @@ msgstr "Multicast"
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Mehrere <item/>-Elemente sind laut RFC6121 nicht erlaubt"
 
-#: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
+#: src/mod_invites_http.erl:44
+msgid "NOT FOUND"
+msgstr ""
+
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
+#: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 msgid "Name"
 msgstr "Vorname"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1062
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1968
 msgid "Natural Language for Room Discussions"
 msgstr "Natürliche Sprache für Raumdiskussionen"
 
@@ -1248,29 +1275,29 @@ msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Weder 'role'- noch 'affiliation'-Attribut gefunden"
 
 #: src/mod_configure.erl:1592
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2134
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2132
 msgid "Never"
 msgstr "Nie"
 
-#: src/mod_register_web.erl:400
+#: src/mod_register_web.erl:401
 msgid "New Password:"
 msgstr "Neues Passwort:"
 
+#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
 #: src/mod_vcard_sql.erl:232 src/mod_vcard_sql.erl:246
-#: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
-#: _build/translations/lib/xmpp/src/muc_request.erl:405
 #: _build/translations/lib/xmpp/src/muc_register.erl:536
+#: _build/translations/lib/xmpp/src/muc_request.erl:405
 msgid "Nickname"
 msgstr "Spitzname"
 
-#: src/mod_muc.erl:1129
+#: src/mod_muc.erl:1131
 msgid "Nickname Registration at "
 msgstr "Registrieren des Spitznamens auf "
 
 #: src/mod_muc_room.erl:1448 src/mod_muc_room.erl:2366
-#: src/mod_muc_room.erl:4792
+#: src/mod_muc_room.erl:4793
 msgid "Nickname can't be empty"
 msgstr "Spitzname darf nicht leer sein"
 
@@ -1300,7 +1327,7 @@ msgstr "Kein 'password' in dieser Anfrage gefunden"
 msgid "No 'path' found in data form"
 msgstr "Kein 'path' im Datenformular gefunden"
 
-#: src/mod_muc_room.erl:5491
+#: src/mod_muc_room.erl:5492
 msgid "No 'to' attribute found in the invitation"
 msgstr "Kein 'to'-Attribut in der Einladung gefunden"
 
@@ -1308,7 +1335,7 @@ msgstr "Kein 'to'-Attribut in der Einladung gefunden"
 msgid "No <forwarded/> element found"
 msgstr "Kein <forwarded/>-Element gefunden"
 
-#: src/ejabberd_web_admin.erl:1081
+#: src/ejabberd_web_admin.erl:1082
 msgid "No Data"
 msgstr "Keine Daten"
 
@@ -1328,7 +1355,7 @@ msgstr "Keine verfügbare Ressource gefunden"
 msgid "No body provided for announce message"
 msgstr "Kein Text für die Ankündigungsnachricht angegeben"
 
-#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:89
+#: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1339
 msgid "No child elements found"
 msgstr "Keine 'child'-Elemente gefunden"
 
@@ -1357,14 +1384,13 @@ msgstr "Keine Items in dieser Anfrage gefunden"
 msgid "No limit"
 msgstr "Keine Begrenzung"
 
-#: src/mod_matrix_gw.erl:953 src/mod_matrix_gw.erl:967
-#: src/mod_http_upload.erl:770 src/mod_offline.erl:356
-#: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:253
-#: src/mod_muc.erl:683 src/mod_muc.erl:758 src/mod_muc.erl:778
-#: src/mod_muc.erl:809 src/mod_roster.erl:184 src/mod_blocking.erl:81
-#: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
-#: src/ejabberd_captcha.erl:231
+#: src/mod_offline.erl:356 src/mod_roster.erl:184 src/mod_http_upload.erl:770
+#: src/mod_stun_disco.erl:482 src/gen_iq_handler.erl:82
+#: src/ejabberd_captcha.erl:231 src/mod_jidprep.erl:141 src/mod_blocking.erl:81
+#: src/mod_blocking.erl:99 src/mod_matrix_gw.erl:952 src/mod_matrix_gw.erl:966
+#: src/mod_mix.erl:673 src/mod_mix_pam.erl:372 src/mod_privacy.erl:147
+#: src/mod_privacy.erl:264 src/mod_muc.erl:253 src/mod_muc.erl:684
+#: src/mod_muc.erl:760 src/mod_muc.erl:780 src/mod_muc.erl:811
 msgid "No module is handling this query"
 msgstr "Kein Modul verarbeitet diese Anfrage"
 
@@ -1400,9 +1426,9 @@ msgstr "Keine Dienste verfügbar"
 msgid "No statistics found for this item"
 msgstr "Keine Statistiken für dieses Item gefunden"
 
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1003
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1687
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1734
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:1003
 msgid "Nobody"
 msgstr "Niemand"
 
@@ -1422,17 +1448,16 @@ msgstr "Knoten existiert bereits"
 msgid "Node index not found"
 msgstr "Knotenindex nicht gefunden"
 
-#: src/mod_matrix_gw.erl:951 src/mod_matrix_gw.erl:965
-#: src/mod_muc_room.erl:4515 src/mod_muc_room.erl:4549
-#: src/mod_muc_room.erl:4680 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4702 src/mod_muc.erl:756 src/mod_muc.erl:1057
-#: src/ejabberd_web_admin.erl:638 src/nodetree_tree_sql.erl:132
-#: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
-#: src/nodetree_tree.erl:83
+#: src/nodetree_tree_sql.erl:132 src/nodetree_tree_sql.erl:146
+#: src/mod_muc_room.erl:4516 src/mod_muc_room.erl:4550
+#: src/mod_muc_room.erl:4681 src/mod_muc_room.erl:4699
+#: src/mod_muc_room.erl:4703 src/ejabberd_web_admin.erl:639
+#: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964 src/nodetree_tree.erl:77
+#: src/nodetree_tree.erl:83 src/mod_muc.erl:758 src/mod_muc.erl:1059
 msgid "Node not found"
 msgstr "Knoten nicht gefunden"
 
-#: src/ejabberd_web_admin.erl:1145 src/ejabberd_web_admin.erl:1151
+#: src/ejabberd_web_admin.erl:1146 src/ejabberd_web_admin.erl:1152
 msgid "Node ~p"
 msgstr "Knoten ~p"
 
@@ -1440,7 +1465,7 @@ msgstr "Knoten ~p"
 msgid "Nodeprep has failed"
 msgstr "Nodeprep fehlgeschlagen"
 
-#: src/ejabberd_web_admin.erl:1537 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1538 src/ejabberd_web_admin.erl:1561
 msgid "Nodes"
 msgstr "Knoten"
 
@@ -1448,7 +1473,7 @@ msgstr "Knoten"
 msgid "None"
 msgstr "Keine"
 
-#: src/ejabberd_web_admin.erl:620
+#: src/ejabberd_web_admin.erl:621
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
@@ -1456,22 +1481,22 @@ msgstr "Nicht gefunden"
 msgid "Not allowed"
 msgstr "Nicht erlaubt"
 
-#: src/mod_last.erl:128 src/mod_disco.erl:240 src/mod_disco.erl:299
+#: src/mod_disco.erl:240 src/mod_disco.erl:299 src/mod_last.erl:128
 msgid "Not subscribed"
 msgstr "Nicht abonniert"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1992
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1994
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1992
 msgid "Notify subscribers when items are removed from the node"
 msgstr "Abonnenten benachrichtigen, wenn Items vom Knoten entfernt werden"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1958
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1960
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1958
 msgid "Notify subscribers when the node configuration changes"
 msgstr "Abonnenten benachrichtigen, wenn sich die Knotenkonfiguration ändert"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1975
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1977
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1975
 msgid "Notify subscribers when the node is deleted"
 msgstr "Abonnenten benachrichtigen, wenn der Knoten gelöscht wird"
 
@@ -1514,8 +1539,8 @@ msgstr "Anzahl der angemeldeten Benutzer"
 msgid "Number of registered users"
 msgstr "Anzahl der registrierten Benutzer"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1789
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1791
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1789
 msgid ""
 "Number of seconds after which to automatically purge items, or `max` for no "
 "specific limit other than a server imposed maximum"
@@ -1544,7 +1569,7 @@ msgstr "Teilnehmer dürfen andere abfragen"
 msgid "October"
 msgstr "Oktober"
 
-#: src/mod_register_web.erl:396
+#: src/mod_register_web.erl:397
 msgid "Old Password:"
 msgstr "Altes Passwort:"
 
@@ -1552,8 +1577,8 @@ msgstr "Altes Passwort:"
 msgid "Online"
 msgstr "Angemeldet"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:597
-#: src/ejabberd_web_admin.erl:1534
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:598
+#: src/ejabberd_web_admin.erl:1535
 msgid "Online Users"
 msgstr "Angemeldete Benutzer"
 
@@ -1565,15 +1590,15 @@ msgstr "Nur <enable/>- oder <disable/>-Tags sind erlaubt"
 msgid "Only <list/> element is allowed in this query"
 msgstr "Nur <list/>-Elemente sind in dieser Anfrage erlaubt"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1596
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1598
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1596
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
 "Nur Sammlungsknoten-Besitzer dürfen Blattknoten mit der Sammlung verknüpfen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2045
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2043
 msgid "Only deliver notifications to available users"
 msgstr "Benachrichtigungen nur an verfügbare Benutzer schicken"
 
@@ -1591,7 +1616,7 @@ msgstr "Nur Moderatoren und Teilnehmer dürfen das Thema in diesem Raum ändern"
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Nur Moderatoren dürfen das Thema in diesem Raum ändern"
 
-#: src/mod_muc_room.erl:5404
+#: src/mod_muc_room.erl:5405
 msgid "Only moderators are allowed to retract messages"
 msgstr "Nur Moderatoren dürfen Nachrichten zurückziehen"
 
@@ -1599,7 +1624,7 @@ msgstr "Nur Moderatoren dürfen Nachrichten zurückziehen"
 msgid "Only moderators can approve voice requests"
 msgstr "Nur Moderatoren können Sprachrecht-Anforderungen genehmigen"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1145 src/mod_muc_room.erl:5560
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1145 src/mod_muc_room.erl:5561
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Nur Teilnehmer dürfen Nachrichten an die Konferenz senden"
 
@@ -1607,9 +1632,9 @@ msgstr "Nur Teilnehmer dürfen Nachrichten an die Konferenz senden"
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Nur Teilnehmer dürfen Anfragen an die Konferenz senden"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2059
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:937
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2061
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2059
 msgid "Only publishers may publish"
 msgstr "Nur Veröffentlicher dürfen veröffentlichen"
 
@@ -1617,31 +1642,31 @@ msgstr "Nur Veröffentlicher dürfen veröffentlichen"
 msgid "Only service administrators are allowed to send service messages"
 msgstr "Nur Service-Administratoren dürfen Servicenachrichten senden"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1601
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1603
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1601
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
 "Nur jemand auf einer Whitelist darf Blattknoten mit der Sammlung verknüpfen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:911
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1544
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1542
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr "Nur jemand auf einer Whitelist darf Items abonnieren und abrufen"
 
+#: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_ldap.erl:342 src/mod_vcard_ldap.erl:355
 #: src/mod_vcard_sql.erl:237 src/mod_vcard_sql.erl:251
-#: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 msgid "Organization Name"
 msgstr "Name der Organisation"
 
+#: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_ldap.erl:343 src/mod_vcard_ldap.erl:356
 #: src/mod_vcard_sql.erl:238 src/mod_vcard_sql.erl:252
-#: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 msgid "Organization Unit"
 msgstr "Abteilung"
 
-#: src/ext_mod.erl:1422
+#: src/ext_mod.erl:1385
 msgid "Other Modules Available:"
 msgstr "Andere Module verfügbar:"
 
@@ -1651,9 +1676,9 @@ msgstr "Ausgehende s2s-Verbindungen"
 
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
-#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3328 src/mod_pubsub.erl:3495
+#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
 #: src/mod_muc_room.erl:3691 src/mod_muc_room.erl:3736
-#: src/mod_muc_room.erl:4745 src/mod_mix.erl:678
+#: src/mod_muc_room.erl:4746 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Besitzerrechte erforderlich"
 
@@ -1661,8 +1686,8 @@ msgstr "Besitzerrechte erforderlich"
 msgid "Packet relay is denied by service policy"
 msgstr "Paket-Relay aufgrund der Dienstrichtlinien verweigert"
 
-#: _build/translations/lib/xmpp/src/muc_request.erl:367
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2110
+#: _build/translations/lib/xmpp/src/muc_request.erl:367
 msgid "Participant"
 msgstr "Teilnehmer"
 
@@ -1670,10 +1695,11 @@ msgstr "Teilnehmer"
 msgid "Participant ID"
 msgstr "Teilnehmer-ID"
 
-#: src/ejabberd_oauth.erl:537 src/mod_configure.erl:1075
-#: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_configure.erl:1075 src/mod_configure.erl:1130
+#: src/mod_configure.erl:1762 src/mod_register.erl:233
+#: src/ejabberd_oauth.erl:540 src/mod_muc_log.erl:852
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
+#: priv/mod_invites/register.html:50 priv/mod_invites/register_success.html:85
 msgid "Password"
 msgstr "Passwort"
 
@@ -1681,11 +1707,11 @@ msgstr "Passwort"
 msgid "Password Verification"
 msgstr "Passwort bestätigen"
 
-#: src/mod_register_web.erl:288 src/mod_register_web.erl:404
+#: src/mod_register_web.erl:289 src/mod_register_web.erl:405
 msgid "Password Verification:"
 msgstr "Passwort bestätigen:"
 
-#: src/mod_register_web.erl:265 src/mod_register_web.erl:507
+#: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
 msgstr "Passwort:"
 
@@ -1702,12 +1728,12 @@ msgstr "Pfad zur Datei"
 msgid "Payload semantic type information"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:979
+#: src/ejabberd_web_admin.erl:980
 msgid "Period: "
 msgstr "Zeitraum: "
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2027
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2025
 msgid "Persist items to storage"
 msgstr "Items dauerhaft speichern"
 
@@ -1723,7 +1749,7 @@ msgstr "Ping"
 msgid "Ping query is incorrect"
 msgstr "Ping-Anfrage ist falsch"
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1171
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1783,12 +1809,12 @@ msgstr "Öffentlich"
 msgid "Publish model"
 msgstr "Veröffentlichungsmodell"
 
-#: src/mod_pubsub.erl:4326
+#: src/mod_pubsub.erl:4331
 msgid "Publish-Subscribe"
 msgstr "Publish-Subscribe"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2093
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2095
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2093
 msgid "Purge all items when the relevant publisher goes offline"
 msgstr "Alle Items löschen, wenn der relevante Veröffentlicher offline geht"
 
@@ -1800,9 +1826,9 @@ msgstr "Push-Eintrag nicht gefunden"
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "Anfragen an die Konferenzteilnehmer sind in diesem Raum nicht erlaubt"
 
-#: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
-#: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
+#: src/mod_offline.erl:323 src/mod_roster.erl:133 src/mod_disco.erl:269
+#: src/mod_disco.erl:326 src/mod_sic.erl:70 src/mod_blocking.erl:74
+#: src/mod_mix_pam.erl:367 src/mod_privacy.erl:125 src/mod_private.erl:210
 msgid "Query to another users is forbidden"
 msgstr "Anfrage an andere Benutzer ist verboten"
 
@@ -1844,12 +1870,12 @@ msgstr "Benachrichtigung nur von neuen Knoten erhalten"
 msgid "Recipient is not in the conference room"
 msgstr "Empfänger ist nicht im Konferenzraum"
 
-#: src/mod_register_web.erl:295
+#: src/mod_register_web.erl:296
 msgid "Register"
 msgstr "Anmelden"
 
-#: src/mod_register_web.erl:202 src/mod_register_web.erl:230
-#: src/mod_register_web.erl:238
+#: src/mod_register_web.erl:203 src/mod_register_web.erl:231
+#: src/mod_register_web.erl:239
 msgid "Register an XMPP account"
 msgstr "Ein XMPP-Konto registrieren"
 
@@ -1861,8 +1887,8 @@ msgstr "Fernkopie"
 msgid "Remove User"
 msgstr "Benutzer löschen"
 
-#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4674
-#: src/mod_muc_room.erl:5117
+#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4675
+#: src/mod_muc_room.erl:5118
 msgid "Remove a hat from a user"
 msgstr "Eine Funktion bei einem Benutzer entfernen"
 
@@ -1901,18 +1927,18 @@ msgstr "Wiederherstellung"
 msgid "Restore Backup from File at "
 msgstr "Backup wiederherstellen aus Datei bei "
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1184
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "Stelle binäres Backup beim nächsten ejabberd-Neustart wieder her (benötigt "
 "weniger Speicher):"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1182
 msgid "Restore binary backup immediately:"
 msgstr "Stelle binäres Backup sofort wieder her:"
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1192
 msgid "Restore plain text backup immediately:"
 msgstr "Stelle Klartext-Backup sofort wieder her:"
 
@@ -1928,8 +1954,8 @@ msgstr "Rollen und Zugehörigkeiten die Mitgliederliste abrufen dürfen"
 msgid "Roles for which Presence is Broadcasted"
 msgstr "Rollen für welche die Präsenz übertragen wird"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1015
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
 msgid "Roles that May Send Private Messages"
 msgstr "Rollen die Privatnachrichten senden dürfen"
 
@@ -1941,13 +1967,13 @@ msgstr "Raumkonfiguration"
 msgid "Room Occupants"
 msgstr "Raumteilnehmer"
 
-#: src/mod_muc.erl:647
+#: src/mod_muc.erl:648
 msgid "Room creation is denied by service policy"
 msgstr "Anlegen des Raumes aufgrund der Dienstrichtlinien verweigert"
 
 #: src/mod_muc_log.erl:879
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1046
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2184
 msgid "Room description"
 msgstr "Raumbeschreibung"
 
@@ -1955,13 +1981,13 @@ msgstr "Raumbeschreibung"
 msgid "Room terminates"
 msgstr "Raum wird beendet"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1165
+#: src/mod_muc_admin.erl:1165 src/mod_muc_log.erl:843
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Raumname"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2116
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2118
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2116
 msgid "Roster groups allowed to subscribe"
 msgstr "Kontaktlistengruppen die abonnieren dürfen"
 
@@ -2005,8 +2031,8 @@ msgstr "Suche Benutzer in "
 msgid "Send announcement to all online users"
 msgstr "Ankündigung an alle angemeldeten Benutzer senden"
 
-#: src/mod_announce.erl:660 src/mod_configure.erl:1017
-#: src/mod_configure.erl:1057
+#: src/mod_configure.erl:1017 src/mod_configure.erl:1057
+#: src/mod_announce.erl:660
 msgid "Send announcement to all online users on all hosts"
 msgstr "Ankündigung an alle angemeldeten Benutzer auf allen Hosts senden"
 
@@ -2022,8 +2048,8 @@ msgstr "Ankündigung an alle Benutzer auf allen Hosts senden"
 msgid "September"
 msgstr "September"
 
-#: src/mod_register_web.erl:262 src/mod_register_web.erl:393
-#: src/mod_register_web.erl:504
+#: src/mod_register_web.erl:263 src/mod_register_web.erl:394
+#: src/mod_register_web.erl:505
 msgid "Server:"
 msgstr "Server:"
 
@@ -2049,7 +2075,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Gruppen der gemeinsamen Kontaktliste"
 
-#: src/ejabberd_web_admin.erl:1001
+#: src/ejabberd_web_admin.erl:1002
 msgid "Show Integral Table"
 msgstr "Integral-Tabelle anzeigen"
 
@@ -2057,7 +2083,7 @@ msgstr "Integral-Tabelle anzeigen"
 msgid "Show Occupants Join/Leave"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:998
+#: src/ejabberd_web_admin.erl:999
 msgid "Show Ordinary Table"
 msgstr "Gewöhnliche Tabelle anzeigen"
 
@@ -2067,7 +2093,7 @@ msgstr "Gewöhnliche Tabelle anzeigen"
 msgid "Shut Down Service"
 msgstr "Dienst herunterfahren"
 
-#: src/mod_register_web.erl:278
+#: src/mod_register_web.erl:279
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
@@ -2075,22 +2101,22 @@ msgstr ""
 "Einige XMPP-Clients speichern Ihr Passwort auf dem Computer. Aus "
 "Sicherheitsgründen sollten Sie das nur auf Ihrem persönlichen Computer tun."
 
-#: src/ext_mod.erl:1411
+#: src/ext_mod.erl:1374
 msgid "Sources Specs:"
 msgstr "Quellenspezifikationen:"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 msgid "Specify the access model"
 msgstr "Geben Sie das Zugangsmodell an"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1942
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1944
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1942
 msgid "Specify the event message type"
 msgstr "Geben Sie den Ereignisnachrichtentyp an"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2077
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2079
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2077
 msgid "Specify the publisher model"
 msgstr "Geben Sie das Veröffentlichermodell an"
 
@@ -2098,12 +2124,12 @@ msgstr "Geben Sie das Veröffentlichermodell an"
 msgid "Stanza ID"
 msgstr "Stanza-ID"
 
-#: src/mod_muc_room.erl:5439
+#: src/mod_muc_room.erl:5440
 msgid "Stanza id is not valid"
 msgstr "Stanza-ID ist ungültig"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 msgid "Statically specify a replyto of the node owner(s)"
 msgstr "Ein 'replyto' des/der Nodebesitzer(s) statisch angeben"
 
@@ -2111,11 +2137,11 @@ msgstr "Ein 'replyto' des/der Nodebesitzer(s) statisch angeben"
 msgid "Stopped Nodes"
 msgstr "Angehaltene Knoten"
 
-#: src/ejabberd_web_admin.erl:1179
+#: src/ejabberd_web_admin.erl:1180
 msgid "Store binary backup:"
 msgstr "Speichere binäres Backup:"
 
-#: src/ejabberd_web_admin.erl:1189
+#: src/ejabberd_web_admin.erl:1190
 msgid "Store plain text backup:"
 msgstr "Speichere Klartext-Backup:"
 
@@ -2127,12 +2153,12 @@ msgstr "Stream-Verwaltung ist bereits aktiviert"
 msgid "Stream management is not enabled"
 msgstr "Stream-Verwaltung ist nicht aktiviert"
 
-#: src/mod_announce.erl:569 src/mod_configure.erl:1021
-#: src/mod_configure.erl:1061
+#: src/mod_configure.erl:1021 src/mod_configure.erl:1061
+#: src/mod_announce.erl:569
 msgid "Subject"
 msgstr "Betreff"
 
-#: src/ejabberd_web_admin.erl:1028 src/ext_mod.erl:1153
+#: src/ext_mod.erl:1124 src/ejabberd_web_admin.erl:1029
 msgid "Submitted"
 msgstr "Gesendet"
 
@@ -2140,15 +2166,15 @@ msgstr "Gesendet"
 msgid "Subscriber Address"
 msgstr "Abonnenten-Adresse"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2063
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:941
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2065
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2063
 msgid "Subscribers may publish"
 msgstr "Abonnenten dürfen veröffentlichen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:891
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1524
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1522
 msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
@@ -2156,7 +2182,7 @@ msgstr ""
 "Abonnement-Anforderungen müssen genehmigt werden und nur Abonnenten dürfen "
 "Items abrufen"
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4757
 msgid "Subscriptions are not allowed"
 msgstr "Abonnements sind nicht erlaubt"
 
@@ -2181,12 +2207,12 @@ msgid "Text associated with speech"
 msgstr "Text verbunden mit Sprache"
 
 #: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2355
-#: src/mod_muc_room.erl:4782
+#: src/mod_muc_room.erl:4783
 msgid "That nickname is already in use by another occupant"
 msgstr "Dieser Spitzname wird bereits von einem anderen Teilnehmer verwendet"
 
 #: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
-#: src/mod_muc_room.erl:4796 src/mod_muc.erl:1152
+#: src/mod_muc_room.erl:4797 src/mod_muc.erl:1177
 msgid "That nickname is registered by another person"
 msgstr "Dieser Spitzname wurde von jemand anderem registriert"
 
@@ -2194,8 +2220,9 @@ msgstr "Dieser Spitzname wurde von jemand anderem registriert"
 msgid "The CAPTCHA is valid."
 msgstr "Das CAPTCHA ist gültig."
 
-#: src/mod_muc_room.erl:950 src/mod_muc_room.erl:4718 src/mod_register.erl:195
-#: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
+#: src/ejabberd_captcha.erl:224 src/mod_block_strangers.erl:157
+#: src/mod_register.erl:195 src/mod_muc_room.erl:950 src/mod_muc_room.erl:4719
+#: src/mod_invites_register.erl:230
 msgid "The CAPTCHA verification has failed"
 msgstr "Die CAPTCHA-Verifizierung ist fehlgeschlagen"
 
@@ -2208,9 +2235,9 @@ msgstr ""
 msgid "The JID of the node creator"
 msgstr "Die JID des Nodeerstellers"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:712
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1707
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1705
 msgid "The JIDs of those to contact with questions"
 msgstr "Die JIDs jener, die bei Fragen zu kontaktieren sind"
 
@@ -2226,8 +2253,8 @@ msgstr "Die JIDs jener mit einer Zugehörigkeit von Veröffentlicher"
 msgid "The NodeID of the relevant node"
 msgstr "Die NodeID des relevanten Knotens"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1572
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1570
 msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
@@ -2235,8 +2262,8 @@ msgstr ""
 "Die URL einer XSL-Transformation welche auf Nutzdaten angewendet werden "
 "kann, um ein geeignetes Nachrichtenkörper-Element zu generieren."
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1723
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1721
 msgid ""
 "The URL of an XSL transformation which can be applied to the payload format "
 "in order to generate a valid Data Forms result that the client could display "
@@ -2247,11 +2274,11 @@ msgstr ""
 "Client mit Hilfe einer generischen Data Forms-Rendering-Engine anzeigen "
 "könnte"
 
-#: src/mod_register_web.erl:591
+#: src/mod_register_web.erl:592
 msgid "The account already exists"
 msgstr "Das Konto existiert bereits"
 
-#: src/mod_register_web.erl:599
+#: src/mod_register_web.erl:600
 msgid "The account was not unregistered"
 msgstr "Das Konto wurde nicht entfernt"
 
@@ -2259,17 +2286,17 @@ msgstr "Das Konto wurde nicht entfernt"
 msgid "The body text of the last received message"
 msgstr "Der Nachrichtenkörper der letzten erhaltenen Nachricht"
 
-#: src/mod_register_web.erl:589
+#: src/mod_register_web.erl:590
 msgid "The captcha you entered is wrong"
 msgstr "Das CAPTCHA das Sie eingegeben haben ist falsch"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1654
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1652
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr "Die mit einer Sammlung verknüpften Kindknoten (Blatt oder Sammlung)"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1690
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1688
 msgid "The collections with which a node is affiliated"
 msgstr "Sammlungen, mit welchen ein Knoten in Verbindung steht"
 
@@ -2277,9 +2304,9 @@ msgstr "Sammlungen, mit welchen ein Knoten in Verbindung steht"
 msgid "The datetime when the node was created"
 msgstr "Das DateTime an welchem der Knoten erstellt wurde"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:780
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1848
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1846
 msgid "The default language of the node"
 msgstr "Die voreingestellte Sprache des Knotens"
 
@@ -2287,8 +2314,8 @@ msgstr "Die voreingestellte Sprache des Knotens"
 msgid "The feature requested is not supported by the conference"
 msgstr "Die angeforderte Eigenschaft wird von der Konferenz nicht unterstützt"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1637
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1635
 msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr ""
 "Die Liste der JIDs die Blattknoten mit einer Sammlung verknüpfen dürfen"
@@ -2316,8 +2343,8 @@ msgstr "Die Liste aller angemeldeter Benutzer"
 msgid "The list of all users"
 msgstr "Die Liste aller Benutzer"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1671
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1669
 msgid ""
 "The maximum number of child nodes that can be associated with a collection, "
 "or `max` for no specific limit other than a server imposed maximum"
@@ -2338,13 +2365,13 @@ msgstr ""
 msgid "The name of the node"
 msgstr "Der Name des Knotens"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1900
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1898
 msgid "The node is a collection node"
 msgstr "Der Knoten ist ein Sammlungsknoten"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1896
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1894
 msgid "The node is a leaf node (default)"
 msgstr "Der Knoten ist ein Blattknoten (Voreinstellung)"
 
@@ -2369,15 +2396,15 @@ msgstr "Das Passwort enthält ungültige Zeichen"
 msgid "The password is too weak"
 msgstr "Das Passwort ist zu schwach"
 
-#: src/mod_register_web.erl:134
+#: src/mod_register_web.erl:135
 msgid "The password of your XMPP account was successfully changed."
 msgstr "Das Passwort Ihres XMPP-Kontos wurde erfolgreich geändert."
 
-#: src/mod_register_web.erl:601
+#: src/mod_register_web.erl:602
 msgid "The password was not changed"
 msgstr "Das Passwort wurde nicht geändert"
 
-#: src/mod_register_web.erl:603
+#: src/mod_register_web.erl:604
 msgid "The passwords are different"
 msgstr "Die Passwörter sind unterschiedlich"
 
@@ -2386,7 +2413,7 @@ msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 "Die Präsenzzustände für welche eine Entität Benachrichtigungen erhalten will"
 
-#: src/mod_register.erl:160 src/mod_vcard.erl:241
+#: src/mod_vcard.erl:241 src/mod_register.erl:160
 msgid "The query is only allowed from local users"
 msgstr "Die Anfrage ist nur von lokalen Benutzern erlaubt"
 
@@ -2394,7 +2421,7 @@ msgstr "Die Anfrage ist nur von lokalen Benutzern erlaubt"
 msgid "The query must not contain <item/> elements"
 msgstr "Die Anfrage darf keine <item/>-Elemente enthalten"
 
-#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+#: src/mod_muc_room.erl:5108 src/mod_muc_room.erl:5126
 msgid "The role"
 msgstr ""
 
@@ -2402,8 +2429,8 @@ msgstr ""
 msgid "The room subject can be modified by participants"
 msgstr "Das Raum-Thema kann von Teilnehmern geändert werden"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2219
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2217
 #, fuzzy
 msgid ""
 "The semantic type information of data in the node, usually specified by the "
@@ -2428,24 +2455,28 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "Die mit der Abonnement-Anforderung verknüpfte Abonnement-Bezeichnung"
 
-#: src/mod_register_web.erl:138
+#: src/mod_invites_register.erl:188
+msgid "The token provided is either invalid or expired."
+msgstr "Der Einladungscode ist entweder ungültig oder abgelaufen"
+
+#: src/mod_register_web.erl:139
 msgid "There was an error changing the password: "
 msgstr "Es trat ein Fehler beim Ändern des Passwortes auf: "
 
-#: src/mod_register_web.erl:110
+#: src/mod_register_web.erl:111
 msgid "There was an error creating the account: "
 msgstr "Es trat ein Fehler beim Erstellen des Kontos auf: "
 
-#: src/mod_register_web.erl:123
+#: src/mod_register_web.erl:124
 msgid "There was an error deleting the account: "
 msgstr "Es trat ein Fehler beim Löschen des Kontos auf: "
 
-#: src/mod_register_web.erl:256
+#: src/mod_register_web.erl:257
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 "Dies ist schreibungsunabhängig: macbeth ist gleich MacBeth und Macbeth."
 
-#: src/mod_register_web.erl:240
+#: src/mod_register_web.erl:241
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
@@ -2455,7 +2486,7 @@ msgstr ""
 "Ihre JID (Jabber-ID) wird diese Form aufweisen: benutzername@server. Bitte "
 "lesen Sie die Anweisungen genau durch, um die Felder korrekt auszufüllen."
 
-#: src/mod_register_web.erl:494
+#: src/mod_register_web.erl:495
 msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr ""
 "Diese Seite erlaubt es, ein XMPP-Konto von diesem XMPP-Server zu entfernen."
@@ -2488,7 +2519,7 @@ msgstr "Um sich zu registrieren, besuchen Sie ~s"
 msgid "To ~ts"
 msgstr "An ~ts"
 
-#: src/ejabberd_oauth.erl:545
+#: src/ejabberd_oauth.erl:548
 msgid "Token TTL"
 msgstr "Token-TTL"
 
@@ -2508,8 +2539,8 @@ msgstr "Zu viele <item/>-Elemente"
 msgid "Too many <list/> elements"
 msgstr "Zu viele <list/>-Elemente"
 
-#: src/mod_muc_room.erl:2439 src/mod_register.erl:250
-#: src/mod_block_strangers.erl:134
+#: src/mod_block_strangers.erl:134 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2439
 msgid "Too many CAPTCHA requests"
 msgstr "Zu viele CAPTCHA-Anforderungen"
 
@@ -2517,7 +2548,7 @@ msgstr "Zu viele CAPTCHA-Anforderungen"
 msgid "Too many active bytestreams"
 msgstr "Zu viele aktive Bytestreams"
 
-#: src/mod_muc_room.erl:1341 src/gen_iq_handler.erl:90
+#: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1341
 msgid "Too many child elements"
 msgstr "Zu viele 'child'-Elemente"
 
@@ -2545,8 +2576,8 @@ msgstr "Dienstag"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL für archivierte Diskussionsprotokolle"
 
-#: src/mod_muc_room.erl:2448 src/mod_register.erl:254
-#: src/mod_block_strangers.erl:138
+#: src/mod_block_strangers.erl:138 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2448
 msgid "Unable to generate a CAPTCHA"
 msgstr "Konnte kein CAPTCHA erstellen"
 
@@ -2554,12 +2585,12 @@ msgstr "Konnte kein CAPTCHA erstellen"
 msgid "Unable to register route on existing local domain"
 msgstr "Konnte Route auf existierender lokaler Domäne nicht registrieren"
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:232
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:233
 msgid "Unauthorized"
 msgstr "Nicht autorisiert"
 
-#: src/mod_adhoc_api.erl:350 src/mod_announce.erl:538 src/mod_configure.erl:852
-#: src/mod_configure.erl:1737
+#: src/mod_adhoc_api.erl:350 src/mod_configure.erl:852
+#: src/mod_configure.erl:1737 src/mod_announce.erl:538
 msgid "Unexpected action"
 msgstr "Unerwartete Aktion"
 
@@ -2567,16 +2598,16 @@ msgstr "Unerwartete Aktion"
 msgid "Unexpected error condition: ~p"
 msgstr "Unerwarteter Fehlerzustand: ~p"
 
-#: src/ext_mod.erl:1324
+#: src/ext_mod.erl:1287
 msgid "Uninstall"
 msgstr "Deinstallieren"
 
-#: src/mod_register_web.erl:512
+#: src/mod_register_web.erl:513
 msgid "Unregister"
 msgstr "Deregistrieren"
 
-#: src/mod_register_web.erl:207 src/mod_register_web.erl:484
-#: src/mod_register_web.erl:492
+#: src/mod_register_web.erl:208 src/mod_register_web.erl:485
+#: src/mod_register_web.erl:493
 msgid "Unregister an XMPP account"
 msgstr "Ein XMPP-Konto entfernen"
 
@@ -2588,7 +2619,7 @@ msgstr "Nicht unterstütztes <index/>-Element"
 msgid "Unsupported version"
 msgstr "Nicht unterstützte Version"
 
-#: src/ext_mod.erl:1416
+#: src/ext_mod.erl:1379
 msgid "Update Specs"
 msgstr "Spezifikationen aktualisieren"
 
@@ -2600,7 +2631,7 @@ msgstr "Aktualisiere Nachricht des Tages (nicht senden)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Aktualisiere Nachricht des Tages auf allen Hosts (nicht senden)"
 
-#: src/ext_mod.erl:1406
+#: src/ext_mod.erl:1369
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 "Aktualisieren Sie die Spezifikationen, um den Quellcode der Module zu "
@@ -2611,16 +2642,16 @@ msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 "Aktualisierung der vCard wird vom vCard-Speicher-Backend nicht unterstützt"
 
-#: src/ext_mod.erl:1327
+#: src/ext_mod.erl:1290
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_vcard_ldap.erl:332
+#: src/mod_register.erl:229 src/mod_vcard_sql.erl:227
 msgid "User"
 msgstr "Benutzer"
 
-#: src/ejabberd_oauth.erl:534
+#: src/ejabberd_oauth.erl:537
 msgid "User (jid)"
 msgstr "Benutzer (JID)"
 
@@ -2633,7 +2664,7 @@ msgstr "Benutzer-JID"
 msgid "User Management"
 msgstr "Benutzerverwaltung"
 
-#: src/mod_register.erl:407
+#: src/mod_register.erl:407 src/mod_invites.erl:778
 msgid "User already exists"
 msgstr "Benutzer existiert bereits"
 
@@ -2645,7 +2676,7 @@ msgstr ""
 msgid "User removed"
 msgstr "Benutzer entfernt"
 
-#: src/ejabberd_sm.erl:225 src/mod_sic.erl:86 src/mod_push.erl:304
+#: src/mod_sic.erl:86 src/ejabberd_sm.erl:225 src/mod_push.erl:304
 msgid "User session not found"
 msgstr "Benutzersitzung nicht gefunden"
 
@@ -2653,21 +2684,29 @@ msgstr "Benutzersitzung nicht gefunden"
 msgid "User session terminated"
 msgstr "Benutzersitzung beendet"
 
-#: src/ejabberd_web_admin.erl:1024
+#: src/ejabberd_web_admin.erl:1025
 msgid "User ~ts"
 msgstr "Benutzer ~ts"
 
-#: src/mod_register_web.erl:250 src/mod_register_web.erl:389
-#: src/mod_register_web.erl:500
+#: src/mod_invites.erl:768
+msgid "Username invalid"
+msgstr "Benutzername ungültig"
+
+#: src/mod_invites.erl:776
+msgid "Username is reserved"
+msgstr "Benutzername ist reserviert"
+
+#: src/mod_register_web.erl:251 src/mod_register_web.erl:390
+#: src/mod_register_web.erl:501
 msgid "Username:"
 msgstr "Benutzername:"
 
-#: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577
-#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1533
+#: src/ejabberd_web_admin.erl:570 src/ejabberd_web_admin.erl:578
+#: src/ejabberd_web_admin.erl:584 src/ejabberd_web_admin.erl:1534
 msgid "Users"
 msgstr "Benutzer"
 
-#: src/ejabberd_web_admin.erl:606
+#: src/ejabberd_web_admin.erl:607
 msgid "Users Last Activity"
 msgstr "Letzte Benutzeraktivität"
 
@@ -2675,36 +2714,37 @@ msgstr "Letzte Benutzeraktivität"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Benutzer dürfen Konten nicht so schnell registrieren"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4708 src/mod_muc_room.erl:4887
-#: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
+#: src/mod_pubsub.erl:904 src/ejabberd_captcha.erl:228
+#: src/mod_carboncopy.erl:100 src/mod_muc_room.erl:4709
+#: src/mod_muc_room.erl:4888 src/mod_push.erl:286
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "Wert 'get' des 'type'-Attributs ist nicht erlaubt"
 
-#: src/mod_matrix_gw.erl:939 src/mod_matrix_gw.erl:958 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4492
-#: src/mod_muc_room.erl:4628 src/mod_mix.erl:157 src/mod_mix.erl:205
-#: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
-#: src/mod_muc.erl:680 src/mod_muc.erl:718 src/mod_muc.erl:763
-#: src/mod_muc.erl:783 src/mod_muc.erl:793 src/mod_disco.erl:101
-#: src/mod_disco.erl:117 src/mod_disco.erl:223 src/mod_disco.erl:275
-#: src/mod_time.erl:53 src/mod_sic.erl:61 src/mod_sic.erl:73
-#: src/mod_vcard.erl:215 src/mod_vcard.erl:258 src/mod_version.erl:53
-#: src/mod_proxy65_service.erl:148 src/mod_proxy65_service.erl:165
-#: src/mod_proxy65_service.erl:172 src/mod_stun_disco.erl:479
-#: src/mod_stats.erl:54
+#: src/mod_pubsub.erl:828 src/mod_pubsub.erl:847 src/mod_pubsub.erl:886
+#: src/mod_stun_disco.erl:479 src/mod_disco.erl:101 src/mod_disco.erl:117
+#: src/mod_disco.erl:223 src/mod_disco.erl:275 src/mod_sic.erl:61
+#: src/mod_sic.erl:73 src/mod_vcard.erl:215 src/mod_vcard.erl:258
+#: src/mod_stats.erl:54 src/mod_jidprep.erl:114 src/mod_time.erl:53
+#: src/mod_muc_room.erl:4493 src/mod_muc_room.erl:4629
+#: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_mix.erl:157
+#: src/mod_mix.erl:205 src/mod_proxy65_service.erl:148
+#: src/mod_proxy65_service.erl:165 src/mod_proxy65_service.erl:172
+#: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_version.erl:53
+#: src/mod_muc.erl:681 src/mod_muc.erl:719 src/mod_muc.erl:765
+#: src/mod_muc.erl:785 src/mod_muc.erl:795
 msgid "Value 'set' of 'type' attribute is not allowed"
 msgstr "Wert 'set' des 'type'-Attributs ist nicht erlaubt"
 
-#: src/pubsub_subscription_sql.erl:202 src/pubsub_subscription.erl:237
+#: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
 msgid "Value of '~s' should be boolean"
 msgstr "Wert von '~s' sollte boolesch sein"
 
-#: src/pubsub_subscription_sql.erl:180 src/pubsub_subscription.erl:215
+#: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
 msgid "Value of '~s' should be datetime string"
 msgstr "Wert von '~s' sollte DateTime-Zeichenkette sein"
 
-#: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
+#: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 msgid "Value of '~s' should be integer"
 msgstr "Wert von '~s' sollte eine Ganzzahl sein"
 
@@ -2712,7 +2752,7 @@ msgstr "Wert von '~s' sollte eine Ganzzahl sein"
 msgid "View joined MIX channels"
 msgstr "Beitretene MIX-Channel ansehen"
 
-#: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:555 src/ejabberd_web_admin.erl:1560
 msgid "Virtual Hosts"
 msgstr "Virtuelle Hosts"
 
@@ -2728,7 +2768,7 @@ msgstr "Besucher dürfen in diesem Raum ihren Spitznamen nicht ändern"
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Besucher dürfen nicht an alle Teilnehmer Nachrichten versenden"
 
-#: src/mod_muc_room.erl:5448
+#: src/mod_muc_room.erl:5449
 msgid "Voice request"
 msgstr "Sprachrecht-Anforderung"
 
@@ -2744,21 +2784,21 @@ msgstr "Web-Client, der es ermöglicht, dem Raum anonym beizutreten"
 msgid "Wednesday"
 msgstr "Mittwoch"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2138
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2136
 msgid "When a new subscription is processed"
 msgstr "Sobald ein neues Abonnement verarbeitet wird"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2142
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2140
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
 "Sobald ein neues Abonnement verarbeitet wird und wann immer ein Abonnent "
 "sich anmeldet"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2156
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2154
 msgid "When to send the last published item"
 msgstr "Wann das letzte veröffentlichte Item gesendet werden soll"
 
@@ -2782,31 +2822,31 @@ msgstr ""
 msgid "Whether an entity wants to receive or disable notifications"
 msgstr "Ob eine Entität Benachrichtigungen erhalten oder deaktivieren will"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1826
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1824
 msgid "Whether owners or publisher should receive replies to items"
 msgstr "Ob Besitzer oder Veröffentlicher Antworten auf Items erhalten sollen"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1912
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1910
 msgid "Whether the node is a leaf (default) or a collection"
 msgstr "Ob der Knoten ein Blatt (Voreinstellung) oder eine Sammlung ist"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2188
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2186
 msgid "Whether to allow subscriptions"
 msgstr "Ob Abonnements erlaubt sind"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2172
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2170
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
 "Ob alle Abonnements temporär gemacht werden sollen, basierend auf der "
 "Abonnentenpräsenz"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:2011
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:2009
 msgid "Whether to notify owners about new subscribers and unsubscribes"
 msgstr ""
 "Ob Besitzer über neue Abonnenten und Abbestellungen benachrichtigt werden "
@@ -2816,12 +2856,12 @@ msgstr ""
 msgid "Who can send private messages"
 msgstr "Wer kann private Nachrichten senden"
 
-#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1617
+#: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1615
 msgid "Who may associate leaf nodes with a collection"
 msgstr "Wer Blattknoten mit einer Sammlung verknüpfen darf"
 
-#: src/mod_register_web.erl:605
+#: src/mod_register_web.erl:606
 msgid "Wrong parameters in the web formulary"
 msgstr "Falsche Parameter im Webformular"
 
@@ -2829,11 +2869,11 @@ msgstr "Falsche Parameter im Webformular"
 msgid "Wrong xmlns"
 msgstr "Falscher xmlns"
 
-#: src/mod_register_web.erl:191 src/mod_register_web.erl:199
+#: src/mod_register_web.erl:192 src/mod_register_web.erl:200
 msgid "XMPP Account Registration"
 msgstr "XMPP-Konto-Registrierung"
 
-#: src/ejabberd_web_admin.erl:556
+#: src/ejabberd_web_admin.erl:557
 msgid "XMPP Domains"
 msgstr "XMPP-Domänen"
 
@@ -2853,8 +2893,8 @@ msgstr "XMPP-Anzeigewert von DND (Do Not Disturb/Bitte nicht stören)"
 msgid "XMPP Show Value of XA (Extended Away)"
 msgstr "XMPP-Anzeigewert von XA (Extended Away/für längere Zeit abwesend)"
 
-#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1192
+#: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1984
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "XMPP-URI des verknüpften Publish-Subscribe-Knotens"
 
@@ -2870,11 +2910,11 @@ msgstr "Sie dürfen keine privaten Nachrichten senden"
 msgid "You are not joined to the channel"
 msgstr "Sie sind dem Raum nicht beigetreten"
 
-#: src/mod_register_web.erl:275
+#: src/mod_register_web.erl:276
 msgid "You can later change your password using an XMPP client."
 msgstr "Sie können Ihr Passwort später mit einem XMPP-Client ändern."
 
-#: src/mod_muc_room.erl:2342 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_rtbl.erl:191 src/mod_muc_room.erl:2342
 msgid "You have been banned from this room"
 msgstr "Sie wurden aus diesem Raum verbannt"
 
@@ -2882,7 +2922,7 @@ msgstr "Sie wurden aus diesem Raum verbannt"
 msgid "You have joined too many conferences"
 msgstr "Sie sind zu vielen Konferenzen beigetreten"
 
-#: src/mod_muc.erl:1183
+#: src/mod_muc.erl:1208
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Sie müssen das Feld \"Spitzname\" im Formular ausfüllen"
 
@@ -2892,7 +2932,7 @@ msgstr ""
 "Sie benötigen einen Client der x:data und CAPTCHA unterstützt, um sich zu "
 "registrieren"
 
-#: src/mod_muc.erl:1138
+#: src/mod_muc.erl:1140
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
 "Sie benötigen einen Client der x:data unterstützt, um Ihren Spitznamen zu "
@@ -2906,11 +2946,11 @@ msgstr "Sie benötigen einen Client der x:data unterstützt, um zu suchen"
 msgid "You're not allowed to create nodes"
 msgstr "Sie dürfen keine Knoten erstellen"
 
-#: src/mod_register_web.erl:106
+#: src/mod_register_web.erl:107
 msgid "Your XMPP account was successfully registered."
 msgstr "Ihr XMPP-Konto wurde erfolgreich registriert."
 
-#: src/mod_register_web.erl:119
+#: src/mod_register_web.erl:120
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Ihr XMPP-Konto wurde erfolgreich entfernt."
 
@@ -2941,7 +2981,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd HTTP Upload-Dienst"
 
-#: src/mod_muc.erl:674
+#: src/mod_muc.erl:675
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC-Modul"
 
@@ -2957,7 +2997,7 @@ msgstr "ejabberd Publish-Subscribe-Modul"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "ejabberd SOCKS5-Bytestreams-Modul"
 
-#: src/ejabberd_web_admin.erl:316
+#: src/ejabberd_web_admin.erl:317
 msgid "ejabberd Web Admin"
 msgstr "ejabberd Web-Admin"
 
@@ -2969,7 +3009,7 @@ msgstr "ejabberd vCard-Modul"
 msgid "has been banned"
 msgstr "wurde gebannt"
 
-#: src/ejabberd_sm.erl:486 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
+#: src/mod_muc_log.erl:405 src/mod_muc_log.erl:408 src/ejabberd_sm.erl:486
 msgid "has been kicked"
 msgstr "wurde hinausgeworfen"
 
@@ -2997,11 +3037,11 @@ msgstr "betritt den Raum"
 msgid "leaves the room"
 msgstr "verlässt den Raum"
 
-#: src/mod_muc_room.erl:4942
+#: src/mod_muc_room.erl:4943
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:5524
+#: src/mod_muc_room.erl:5525
 msgid "the password is"
 msgstr "das Passwort lautet"
 
@@ -3009,7 +3049,7 @@ msgstr "das Passwort lautet"
 msgid "vCard User Search"
 msgstr "vCard-Benutzer-Suche"
 
-#: src/mod_muc_room.erl:5517
+#: src/mod_muc_room.erl:5518
 msgid "~s invites you to the room ~s"
 msgstr "~s lädt Sie in den Raum ~s ein"
 
@@ -3020,6 +3060,479 @@ msgstr "~ts's MAM Archiv"
 #: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
 msgstr "Offline-Nachrichten-Warteschlange von ~ts"
+
+#: priv/mod_invites/client.html:4
+msgid "Join {{ site_name }} with {{ app_name }}"
+msgstr "Konto auf {{ site_name }} mittels {{ app_name }} anlegen"
+
+#: priv/mod_invites/invite_invalid.html:8
+msgid "Sad person holding empty box"
+msgstr "Eine traurige Person mit einer leeren Schachtel"
+
+#: priv/mod_invites/apps.html:25
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
+"a>"
+msgstr ""
+"Wir zeigen dir nur Apps für <span class=\"platform-name\">deine aktuelle "
+"Platform</span> an. Du kannst dir gerne auch <a href=\"#\" id=\"show-all-"
+"clients-button\">sämtliche Apps anzeigen lassen</a>."
+
+#: priv/mod_invites/apps.json:129
+msgid "Download Gajim"
+msgstr "Gajim herunterladen"
+
+#: priv/mod_invites/invite_invalid.html:6
+msgid "Sorry, it looks like this invite code has expired!"
+msgstr "Entschuldigung, es sieht so aus als wäre diese Einladung abgelaufen!"
+
+#: priv/mod_invites/client.html:53
+msgid ""
+"After successfully installing {{ app_name }}, come back to this page and "
+"<strong>continue with Step 2</strong>."
+msgstr ""
+"Nachdem du {{ app_name }} erfolgreich installiert hast, komme zu dieser "
+"Seite zurück und <strong>fahre mit Schritt 2 fort</strong>!"
+
+#: priv/mod_invites/register.html:35
+msgid "Username"
+msgstr "Benutzername"
+
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:50
+msgid "Download and install {{ app_name }} below:"
+msgstr "Herunterladen und Installieren von {{ app_name }}:"
+
+#: priv/mod_invites/apps.json:141
+msgid "A fully-featured desktop chat client for Windows and Linux."
+msgstr "Ein funktionsreicher Desktop-Client für Windows und Linux."
+
+#: priv/mod_invites/roster.html:8
+msgid ""
+"This is an invite from <strong>{{ inviter }}</strong> to connect and chat on "
+"the XMPP network. If you already have an XMPP client installed just press "
+"the button below!"
+msgstr ""
+"Die ist eine Kontakt-Einladung von <strong>{{ inviter }}</strong> um "
+"miteinander über XMPP zu chatten. Solltest du bereits einen XMPP-Client "
+"haben, so drücke einfach auf den Button hier unten!"
+
+#: priv/mod_invites/register.html:20
+msgid "Open the app"
+msgstr "App öffnen"
+
+#: priv/mod_invites/register_success.html:26
+msgid "You have created an account on <strong>{{ site_name }}</strong>."
+msgstr "Du hast ein Konto auf <strong>{{ site_name }}</strong> angelegt."
+
+#: priv/mod_invites/client.html:9
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"{{ site_name }}, part of the XMPP secure and decentralized messaging network."
+msgstr ""
+"Du wurdest von <strong>{{ inviter }}</strong> auf {{ site_name }} zum Chat "
+"eingeladen. {{ site_name }} ist Teil des sicheren und dezentralen XMPP-"
+"Sofortnachrichten-Netzwerkes."
+
+#: priv/mod_invites/register_error.html:4
+msgid "Registration error"
+msgstr "Fehler beim Registrieren"
+
+#: priv/mod_invites/register_success.html:69
+msgid "Step 2: Connect {{ app_name }} to your new account"
+msgstr "Schritt 2: Verbinde {{ app_name }} mit deinem neuen Konto"
+
+#: priv/mod_invites/invite.html:7
+msgid ""
+"You have been invited to chat on <strong>{{ site_name }}</strong>, part of "
+"the XMPP secure and decentralized messaging network."
+msgstr ""
+"Du wurdest auf <strong>{{ site_name }}</strong> zum Chat eingeladen. "
+"<strong>{{ site_name }}</strong> ist Teil des sicheren und dezentralen XMPP-"
+"Sofortnachrichten-Netzwerkes."
+
+#: priv/mod_invites/register_success.html:74
+msgid "As a final reminder, your account details are shown below:"
+msgstr "Zur Erinnerung hier nochmal deine Kontodetails:"
+
+#: priv/mod_invites/client.html:15
+msgid ""
+"You can start chatting right away with {{ app_name }}. Let's get started!"
+msgstr ""
+"Mittels {{ app_name }} kannst du direkt mit dem Chatten loslegen. Auf geht's!"
+
+#: priv/mod_invites/client.html:57
+msgid ""
+"Installed ok? Great! <strong>Click or tap the button below</strong> to "
+"accept your invite and continue with your account setup:"
+msgstr ""
+"Fertig mit der Installation? Prima! <strong>Drück auf den Button unten</"
+"strong> um deine Einaldung anzunehmen und mit der Einrichtung deines Kontos "
+"fortzufahren:"
+
+#: priv/mod_invites/invite.html:10
+msgid "Get started"
+msgstr "Leg los!"
+
+#: priv/mod_invites/register_success.html:24
+msgid "Congratulations!"
+msgstr "Gratuliere!"
+
+#: priv/mod_invites/base.html:13
+msgid "Scan with mobile device"
+msgstr "Mit Mobilgerät einscannen"
+
+#: priv/mod_invites/register_success.html:46
+msgid "You can now set up {{ app_name }} and connect it to your new account."
+msgstr ""
+"Jetzt kannst du {{ app_name }} einrichten und mit deinem neuen Konto "
+"verknüpfen."
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with <strong>{{ inviter }}</"
+"strong> and other people on <strong>{{ site_name }}</strong> and other "
+"services on the XMPP network."
+msgstr ""
+"Ein Konto erlaubt es dir mit <strong>{{ inviter }}</strong> und anderen "
+"Leuten auf <strong>{{ site_name }}</strong> und anderen Diensten des XMPP-"
+"Netwerkes zu kommunizieren."
+
+#: priv/mod_invites/register_success.html:13
+msgid "Hide"
+msgstr "Verbergen"
+
+#: priv/mod_invites/client.html:63
+msgid ""
+"After clicking the button you will be taken to {{ app_name }} to finish "
+"setting up your new {{ site_name }} account."
+msgstr ""
+"Nach dem Drücken des Buttons wirst du nach {{ app_name }} umgeleitet um dort "
+"die Einrichtung deines neuen Kontos auf {{ site_name }} fertigzustellen."
+
+#: priv/mod_invites/roster.html:10
+msgid "Add {{ inviter }} to your contact list"
+msgstr "Füge {{ inviter }} zu deiner Kontaktliste hinzu"
+
+#: priv/mod_invites/invite.html:12
+msgid "To get started, you need to install an app for your platform:"
+msgstr "Um loszulegen musst du eine App für deine Platform installieren:"
+
+#: priv/mod_invites/apps.json:82
+msgid ""
+"A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
+"easy way to talk and share moments with your friends."
+msgstr ""
+"Ein schlanker aber funktionsreicher XMPP-Client für iPhone und iPad. Ein "
+"einfacher Weg um mit Deinen Freunden zu kommunizieren und Erinnerungen zu "
+"teilen."
+
+#: priv/mod_invites/register_success.html:48
+msgid "Step 1: Download and install {{ app_name }}"
+msgstr "Schritt 1: {{ app_name }} herunterladen und installieren"
+
+#: priv/mod_invites/base.html:31
+msgid ""
+"Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
+msgstr ""
+"Benutze einen <em>QR-Code</em> Scanner auf deinem mobilen Endgerät um den "
+"Code hier unten zu scannen:"
+
+#: priv/mod_invites/base_min.html:22 priv/mod_invites/base_min.html:6
+msgid "Invite to {{ site_name }}"
+msgstr "Einladung für {{ site_name }}"
+
+#: priv/mod_invites/invite.html:16
+msgid "Other software"
+msgstr "Andere Software"
+
+#: priv/mod_invites/register.html:27
+msgid "Create an account"
+msgstr "Konto anlegen"
+
+#: priv/mod_invites/register_success.html:78
+msgid "Chat address (JID)"
+msgstr "Chat-Adresse (JID)"
+
+#: priv/mod_invites/base.html:36
+msgid "Close"
+msgstr "Schließen"
+
+#: priv/mod_invites/base.html:12
+msgid "QR code icon"
+msgstr "QR-Code Icon"
+
+#: priv/mod_invites/apps.json:25
+msgid ""
+"Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
+"been optimized to provide a unique mobile experience."
+msgstr ""
+"Conversations ist ein Jabber/XMPP-Client für Android 6.0+, der für mobile "
+"Endgeräte optimiert wurde."
+
+#: priv/mod_invites/register.html:17
+msgid "{{ app_name }} already installed?"
+msgstr "{{ app_name }} bereits installiert?"
+
+#: priv/mod_invites/register_success.html:35
+msgid ""
+"<strong>No suitable software installed right now?</strong> You can also log "
+"in to your account through our online web chat!"
+msgstr ""
+"<strong>Du hast keine passende Software zur Hand im Moment?</strong> Du "
+"kannst dich auch mit unserem online Webchat anmelden!"
+
+#: priv/mod_invites/register.html:21
+msgid "This button works only if you have the app installed already!"
+msgstr ""
+"Dieser Button funktioniert nur, wenn du die App bereits installiert hast!"
+
+#: priv/mod_invites/apps.json:122
+msgid ""
+"A modern open-source chat client for the desktop. It focuses on providing a "
+"clean and reliable Jabber/XMPP experience while having your privacy in mind."
+msgstr ""
+"Ein moderner open-source Jabber/XMPP Chatclient für den Desktop mit Fokus "
+"auf Einfachheit und Zuverlässigkeit, aber auch Schutz deiner Privatsphäre."
+
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
+msgid "Register on {{ site_name }}"
+msgstr "Registriere dich auf {{ site_name }}"
+
+#: priv/mod_invites/apps.json:44
+msgid ""
+"A modern open-source chat client for iPhone and iPad. It is easy to use and "
+"has a clean user interface."
+msgstr ""
+"Ein moderner open-source Chatclient für iPhone und iPad mit einfacher und "
+"übersichtlicher Benutzeroberfläche."
+
+#: priv/mod_invites/apps.json:63
+msgid ""
+"A modern open-source chat client for Mac. It is easy to use and has a clean "
+"user interface."
+msgstr ""
+"Ein moderner open-source Chatclient für Mac mit einfacher und "
+"übersichtlicher Benutzeroberfläche."
+
+#: priv/mod_invites/register_success.html:71
+msgid "Launch {{ app_name }} and sign in using your account credentials."
+msgstr "Starte {{ app_name }} und logge dich mit deinen Anmeldedaten ein."
+
+#: priv/mod_invites/client.html:11
+msgid ""
+"You have been invited to chat on {{ site_name }}, part of the XMPP secure "
+"and decentralized messaging network."
+msgstr ""
+"Du wurdest auf <strong>{{ site_name }}</strong> zum Chat eingeladen, Teil "
+"des sicheren und dezentralen XMPP-Sofortnachrichten-Netzwerkes."
+
+#: priv/mod_invites/base.html:10
+msgid "Send this invite to your device"
+msgstr "Sende diese Einladung auf dein Gerät"
+
+#: priv/mod_invites/client.html:55
+msgid "Step 2: Activate your account"
+msgstr "Konto aktivieren"
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
+"you need to first register an account."
+msgstr ""
+"<strong>{{ site_name }}</strong> ist Teil von XMPP, ein sicheres und "
+"dezentrales Sofortnachrichten-Netzwerk. Um mittels <strong>{{ app_name }}</"
+"strong> chatten zu können musst du zunächst ein Konto anlegen."
+
+#: priv/mod_invites/roster.html:4 priv/mod_invites/roster.html:3
+msgid "{{ inviter }} has invited you to connect!"
+msgstr "{{ inviter }} will sich mit dir verbinden!"
+
+#: priv/mod_invites/apps.json:110
+msgid "Download Dino for Linux"
+msgstr "Dino für Linux herunterladen"
+
+#: priv/mod_invites/client.html:60
+msgid "Accept invite using {{ app_name }}"
+msgstr "Einladung mittels {{ app_name }} annehmen!"
+
+#: priv/mod_invites/apps.json:103
+msgid ""
+"Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
+"macOS."
+msgstr ""
+"Beagle IM von Tigase Inc. ist eine schlanker aber funktionsreicher XMPP-"
+"Client für macOS."
+
+#: priv/mod_invites/register_success.html:90
+#: priv/mod_invites/register_success.html:17
+msgid "Show"
+msgstr "Anzeigen"
+
+#: priv/mod_invites/register.html:55
+msgid "Enter a secure password that you do not use anywhere else."
+msgstr "Gib bitte ein sicheres Passwort ein, das du nirgends sonst verwendest!"
+
+#: priv/mod_invites/register_error.html:6
+msgid "Sorry, there was a problem registering your account."
+msgstr "Es trat leider ein Fehler beim Erstellen des Kontos auf."
+
+#: priv/mod_invites/base.html:9
+msgid ""
+"<strong>Tip:</strong> You can open this invite on your mobile device by "
+"scanning a barcode with your camera."
+msgstr ""
+"<strong>Tipp:</strong> du kannst diese Einladung auf deinem mobilen Endgerät "
+"öffnen indem du einen Barcode mit deiner Kamera scannst."
+
+#: priv/mod_invites/apps.json:148
+msgid "Download Renga for Haiku"
+msgstr "Renga für Haiku herunterladen"
+
+#: priv/mod_invites/invite.html:5
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
+"messaging network."
+msgstr ""
+"Du wurdest von <strong>{{ inviter }}</strong> auf {{ site_name }} zum Chat "
+"eingeladen. {{ site_name }} ist Teil des sicheren und dezentralen XMPP-"
+"Sofortnachrichten-Netzwerkes."
+
+#: priv/mod_invites/invite_invalid.html:4
+msgid "Invite expired"
+msgstr "Die Einladung ist abgelaufen"
+
+#: priv/mod_invites/register.html:61
+msgid "Submit"
+msgstr "Senden"
+
+#: priv/mod_invites/apps.html:16
+msgid "Select"
+msgstr "Auswählen"
+
+#: priv/mod_invites/register.html:46
+msgid ""
+"Choose a username, this will become the first part of your new chat address."
+msgstr ""
+"Wähle eine Benutzernamen! Dies wird zum ersten Teil deiner neuen Chat-"
+"Adresse."
+
+#: priv/mod_invites/base.html:23
+msgid "Scan invite code"
+msgstr "Einladungscode einscannen"
+
+#: priv/mod_invites/apps.json:159
+msgid "XMPP client for Haiku"
+msgstr "XMPP-Client für Haiku."
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting you need to first register an account."
+msgstr ""
+"<strong>{{ site_name }}</strong> is Teil von XMPP, ein sicheres und "
+"dezentrales Sofortnachrichten-Netzwerk. Um chatten zu können musst du "
+"zunächst ein Konto anlegen."
+
+#: priv/mod_invites/register_success.html:38
+msgid "Log in via web"
+msgstr "Via Web anmelden"
+
+#: priv/mod_invites/register_success.html:99
+msgid ""
+"Your password is stored encrypted on the server and will not be accessible "
+"after you close this page. Keep it safe and never share it with anyone."
+msgstr ""
+"Dein Passwort wird verschlüsselt auf dem Server gespeichert und wird nicht "
+"mehr im Klartext verfügbar sein nachdem du diese Seite geschlossen hast. "
+"Verwahre es an einem sicheren Ort und teile es mit niemandem!"
+
+#: priv/mod_invites/register_success.html:28
+msgid ""
+"To start chatting, you need to enter your new account credentials into your "
+"chosen XMPP software."
+msgstr ""
+"Um mit dem Chatten zu beginnen, musst du deine neuen Anmeldedaten in der "
+"XMPP Software deiner Wahl eintragen."
+
+#: priv/mod_invites/client.html:34
+msgid "Step 1: Install {{ app_name }}"
+msgstr "Schritt 1: Installiere {{ app_name }}"
+
+#: priv/mod_invites/apps.json:114
+msgid ""
+"Click the button to open the Dino website where you can download and install "
+"it on your PC."
+msgstr ""
+"Klicke auf den Button um Dino's Webseite zu öffnen, wo du ihn für deinen PC "
+"herunterladen und installieren kannst."
+
+#: priv/mod_invites/register.html:15
+msgid ""
+"If you already have {{ app_name }} installed, we recommend that you continue "
+"the account creation process using the app by clicking on the button below:"
+msgstr ""
+"Solltest du {{ app_name }} bereits installiert haben, empfehlen wir dir die "
+"Einrichtung des Kontos mittels dieser App durchzuführen indem du auf den "
+"Button unten klickst:"
+
+#: priv/mod_invites/roster.html:14
+msgid ""
+"If you don't have an XMPP client installed yet, here's a list of suitable "
+"clients for your platform."
+msgstr ""
+"Solltest du noch keinen XMPP-Client installiert haben, haben wir hier eine "
+"Liste geegineter Clients für deine Platform."
+
+#: priv/mod_invites/apps.json:89
+msgid "Download from Mac App Store"
+msgstr "Vom Mac App Store herunterladen"
+
+#: priv/mod_invites/base.html:29
+msgid ""
+"You can transfer this invite to your mobile device by scanning a code with "
+"your camera."
+msgstr ""
+"Du kannst diese Einladung auf dein Mobilgerät übertragen indem du den Code "
+"mit Deiner Kamera einscannst."
+
+#: priv/mod_invites/invite.html:17
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\">register an account manually</a>."
+msgstr ""
+"Du kannst dich mit {{ site_name }} über jede XMPP-kompatible Software "
+"verbinden. Sollte deine gewünschte Software hier oben nicht aufgeführt sein, "
+"so kannst du zumindest <a href=\"{{ registration_url }}\">einen Account "
+"manuell anlegen</a>."
+
+#: priv/mod_invites/apps.json:101
+msgid ""
+"Launch Beagle IM, and select 'Yes' to add a new account. Click the '+' "
+"button under the empty account list and then enter your credentials."
+msgstr ""
+"Starte Beagle IM und wähle 'Yes' um ein neues Konto hinzuzufügen. Drücke auf "
+"das '+' unter der leeren Account-Liste und gib dann deine Anmeldedaten ein!"
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with other people on "
+"<strong>{{ site_name }}</strong> and other services on the XMPP network."
+msgstr ""
+"Ein Konto erlaubt es dir mit anderen Leuten auf <strong>{{ site_name }}</"
+"strong> und anderen Diensten des XMPP-Netwerkes zu kommunizieren."
+
+#~ msgid ""
+#~ "A lean Jabber/XMPP client for Android. It aims at usability, low overhead "
+#~ "and security, and works on low-end Android devices starting with Android "
+#~ "4.0."
+#~ msgstr ""
+#~ "Ein schlanker Jabber/XMPP-Client für Android mit Fokus "
+#~ "Benutzerfreundlichkeit und Sicherheit. Er funktioniert auch mit "
+#~ "langsameren Android-Geräten mit Android 4.0 oder neuer."
 
 #~ msgid "List of users with hats"
 #~ msgstr "Liste der Benutzer mit Funktionen"
@@ -3171,9 +3684,6 @@ msgstr "Offline-Nachrichten-Warteschlange von ~ts"
 #~ msgid "Remove All Offline Messages"
 #~ msgstr "Alle Offline-Nachrichten löschen"
 
-#~ msgid "Restart"
-#~ msgstr "Neustart"
-
 #~ msgid "Roster of ~ts"
 #~ msgstr "Kontaktliste von ~ts"
 
@@ -3182,9 +3692,6 @@ msgstr "Offline-Nachrichten-Warteschlange von ~ts"
 
 #~ msgid "Script check"
 #~ msgstr "Script-Überprüfung"
-
-#~ msgid "Select All"
-#~ msgstr "Alles auswählen"
 
 #~ msgid "Statistics"
 #~ msgstr "Statistiken"
@@ -3197,9 +3704,6 @@ msgstr "Offline-Nachrichten-Warteschlange von ~ts"
 
 #~ msgid "Storage Type"
 #~ msgstr "Speichertyp"
-
-#~ msgid "Submit"
-#~ msgstr "Senden"
 
 #~ msgid "Subscription"
 #~ msgstr "Abonnement"
@@ -3506,12 +4010,6 @@ msgstr "Offline-Nachrichten-Warteschlange von ~ts"
 
 #~ msgid "Port ~b"
 #~ msgstr "Port ~b"
-
-#~ msgid "Registered nicknames"
-#~ msgstr "Registrierte Benutzernamen"
-
-#~ msgid "Registration in mod_irc for "
-#~ msgstr "Registrierung in mod_irc für "
 
 #~ msgid "SASL negotiation is not allowed in this state"
 #~ msgstr "SASL-Verhandlung ist in diesem Zustand nicht erlaubt"
