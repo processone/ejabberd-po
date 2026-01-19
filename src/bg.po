@@ -24,7 +24,7 @@ msgstr " (Добавете * в края на полето, за да съотв
 msgid " has set the subject to: "
 msgstr " е задал темата на: "
 
-#: src/mod_muc_admin.erl:1159
+#: src/mod_muc_admin.erl:1178
 msgid "# participants"
 msgstr "# участници"
 
@@ -43,7 +43,7 @@ msgstr "Описание на нода"
 msgid "A friendly name for the node"
 msgstr "Удобно име на нода"
 
-#: src/mod_muc_room.erl:2408
+#: src/mod_muc_room.erl:2411
 msgid "A password is required to enter this room"
 msgstr "Необходима е парола за влизане в тази стая"
 
@@ -51,21 +51,21 @@ msgstr "Необходима е парола за влизане в тази с�
 msgid "API Commands"
 msgstr "API Команди"
 
-#: src/ejabberd_oauth.erl:554
+#: src/ejabberd_oauth.erl:562
 msgid "Accept"
 msgstr "Приемам"
 
-#: src/mod_http_upload.erl:800 src/mod_announce.erl:282
+#: src/mod_http_upload.erl:787 src/mod_announce.erl:282
 #: src/mod_announce.erl:297 src/mod_announce.erl:350 src/mod_announce.erl:467
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:223
-#: src/mod_muc.erl:711 src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/ejabberd_c2s.erl:550
-#: src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Достъпът е отказан спрямо политиката на услугата"
 
@@ -73,7 +73,7 @@ msgstr "Достъпът е отказан спрямо политиката н�
 msgid "Access model"
 msgstr "Модел на достъп"
 
-#: src/mod_register_web.erl:597
+#: src/mod_register_web.erl:598
 msgid "Account doesn't exist"
 msgstr "Профилът не съществува"
 
@@ -86,7 +86,7 @@ msgstr "Действие върху потребител"
 msgid "Add User"
 msgstr "Добави потребител"
 
-#: src/ejabberd_web_admin.erl:477
+#: src/ejabberd_web_admin.erl:479
 msgid "Administration"
 msgstr "Администриране"
 
@@ -94,7 +94,7 @@ msgstr "Администриране"
 msgid "Administration of "
 msgstr "Администриране на "
 
-#: src/mod_muc_room.erl:3106
+#: src/mod_muc_room.erl:3109
 msgid "Administrator privileges required"
 msgstr "Изискватт се администраторски права"
 
@@ -102,7 +102,7 @@ msgstr "Изискватт се администраторски права"
 msgid "All Users"
 msgstr "Всички потребители"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:997
 msgid "All activity"
 msgstr "Цялата статистика"
 
@@ -168,7 +168,7 @@ msgstr ""
 "LDAP отличително име според специфично за изпълнението/внедряването "
 "определение на група."
 
-#: src/mod_announce.erl:652 src/mod_announce.erl:1004 src/mod_announce.erl:1012
+#: src/mod_announce.erl:652 src/mod_announce.erl:1007 src/mod_announce.erl:1015
 msgid "Announcements"
 msgstr "Съобщения"
 
@@ -240,12 +240,12 @@ msgstr ""
 msgid "April"
 msgstr "Април"
 
-#: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:480
+#: src/mod_adhoc_api.erl:413 src/mod_adhoc_api.erl:481
 msgid "Arguments"
 msgstr "Аргументи"
 
-#: src/mod_muc_room.erl:4532 src/mod_muc_room.erl:4670
-#: src/mod_muc_room.erl:5099
+#: src/mod_muc_room.erl:4536 src/mod_muc_room.erl:4674
+#: src/mod_muc_room.erl:5103
 msgid "Assign a hat to a user"
 msgstr "Присвои шапка към потребител"
 
@@ -277,6 +277,10 @@ msgstr "Август"
 msgid "Automatic node creation is not enabled"
 msgstr "Автоматичното създаване на нод не е включено"
 
+#: src/mod_invites_http.erl:48
+msgid "BAD REQUEST"
+msgstr ""
+
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
 msgstr "Резервно копие"
@@ -285,7 +289,7 @@ msgstr "Резервно копие"
 msgid "Backup Management"
 msgstr "Управление на архивирането"
 
-#: src/ejabberd_web_admin.erl:1168
+#: src/ejabberd_web_admin.erl:1170
 msgid "Backup of ~p"
 msgstr "Резервно копие на ~p"
 
@@ -293,7 +297,7 @@ msgstr "Резервно копие на ~p"
 msgid "Backup to File at "
 msgstr "Архивиране във файл на "
 
-#: src/ejabberd_web_admin.erl:1029
+#: src/ejabberd_web_admin.erl:1031
 msgid "Bad format"
 msgstr "Лош формат"
 
@@ -327,8 +331,8 @@ msgstr "Не можете да премахнете списъка по подр
 msgid "Challenge ID"
 msgstr "ID на предизвикателството"
 
-#: src/mod_register_web.erl:204 src/mod_register_web.erl:376
-#: src/mod_register_web.erl:384 src/mod_register_web.erl:409
+#: src/mod_register_web.erl:205 src/mod_register_web.erl:377
+#: src/mod_register_web.erl:385 src/mod_register_web.erl:410
 msgid "Change Password"
 msgstr "Смяна на парола"
 
@@ -341,7 +345,7 @@ msgstr "Смяна на потребителска парола"
 msgid "Changing password is not allowed"
 msgstr "Смяната на парола не е разрешена"
 
-#: src/mod_muc_room.erl:3400
+#: src/mod_muc_room.erl:3403
 msgid "Changing role/affiliation is not allowed"
 msgstr "Смяната на роля/принадлежност не е разрешена"
 
@@ -361,7 +365,7 @@ msgstr "Каналът не съществува"
 msgid "Channels"
 msgstr "Канали"
 
-#: src/mod_register_web.erl:259
+#: src/mod_register_web.erl:260
 msgid "Characters not allowed:"
 msgstr "Неразрешени символи:"
 
@@ -385,7 +389,7 @@ msgstr "Стаята за чат е стартирана"
 msgid "Chatroom is stopped"
 msgstr "Стаята за чат е спряна"
 
-#: src/mod_muc.erl:1435 src/mod_muc_admin.erl:1180
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
 msgid "Chatrooms"
 msgstr "Чат стаи"
 
@@ -412,17 +416,17 @@ msgstr "Град"
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr "Клиентът потвърди повече строфи от изпратените от сървъра"
 
-#: src/mod_adhoc_api.erl:438
+#: src/mod_adhoc_api.erl:439
 msgid "Clustering"
 msgstr "Клъстеризация"
 
-#: src/mod_muc_room.erl:4513 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4517 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Команди"
 
-#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:629
-#: src/mod_muc.erl:653
+#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:630
+#: src/mod_muc.erl:654
 msgid "Conference room does not exist"
 msgstr "Конферентната стая не съществува"
 
@@ -431,7 +435,7 @@ msgstr "Конферентната стая не съществува"
 msgid "Configuration"
 msgstr "Конфигурация"
 
-#: src/mod_muc_room.erl:3848
+#: src/mod_muc_room.erl:3851
 msgid "Configuration of room ~s"
 msgstr "Конфигурация на стая ~s"
 
@@ -449,8 +453,13 @@ msgstr "Контакти"
 msgid "Country"
 msgstr "Държава"
 
-#: src/mod_muc_room.erl:4529 src/mod_muc_room.erl:4658
-#: src/mod_muc_room.erl:5068
+#: src/mod_invites.erl:456 src/mod_invites.erl:654
+#, fuzzy
+msgid "Create Account"
+msgstr "Създай Шапка"
+
+#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4662
+#: src/mod_muc_room.erl:5072
 msgid "Create a Hat"
 msgstr "Създай Шапка"
 
@@ -467,13 +476,13 @@ msgid "Database Tables Configuration at "
 msgstr "Конфигурация на таблиците в базата данни при "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
-#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3960 src/mod_pubsub.erl:4179
+#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
+#: src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965 src/mod_pubsub.erl:4184
 #: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
-#: src/mod_last.erl:185 src/mod_muc.erl:805 src/mod_muc.erl:1155
+#: src/mod_last.erl:185 src/mod_muc.erl:807 src/mod_muc.erl:1180
 #: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
@@ -515,8 +524,8 @@ msgstr "Достави известията за събития"
 msgid "Deliver payloads with event notifications"
 msgstr "Достави прикачените обекти с известията за събития"
 
-#: src/mod_muc_room.erl:4530 src/mod_muc_room.erl:4662
-#: src/mod_muc_room.erl:5085
+#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4666
+#: src/mod_muc_room.erl:5089
 msgid "Destroy a Hat"
 msgstr "Разруши Шапка"
 
@@ -529,7 +538,7 @@ msgstr "Деактивирай потребителя"
 msgid "Disc only copy"
 msgstr "Копие само на диска"
 
-#: src/mod_register_web.erl:271
+#: src/mod_register_web.erl:272
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
@@ -557,7 +566,7 @@ msgstr "Динамично задаване на отговор към публ�
 msgid "Edit Properties"
 msgstr "Редактиране на свойства"
 
-#: src/mod_muc_room.erl:5450
+#: src/mod_muc_room.erl:5449
 msgid "Either approve or decline the voice request."
 msgstr "Одобрете или отхвърлете заявката за гласова връзка."
 
@@ -593,7 +602,7 @@ msgstr "Активиране на известията без атрибут 'н
 msgid "End User Session"
 msgstr "Прекрати сесията на потребителя"
 
-#: src/mod_muc.erl:1130
+#: src/mod_muc.erl:1132
 msgid "Enter nickname you want to register"
 msgstr "Въведете псевдонима, който желаете да регистрирате"
 
@@ -626,17 +635,17 @@ msgstr "Erlang XMPP сървър"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Изключи CAPTCHA предизвикателство за следните Jabber ID-та"
 
-#: src/ejabberd_web_admin.erl:1205
+#: src/ejabberd_web_admin.erl:1207
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Експортирай всички таблици като SQL заявки във файл:"
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1200
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Експортирай данните за всички потребители на сървъра в PIEFXIS файлове "
 "(XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1202
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Експортирай данните за потребителите на този хост в PIEFXIS файлове "
@@ -658,7 +667,7 @@ msgstr "Въвеждане на ЧЗВ"
 msgid "Failed to activate bytestream"
 msgstr "Неуспешно активиране на bytestream"
 
-#: src/mod_muc_room.erl:1315
+#: src/mod_muc_room.erl:1318
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Неуспешно извличане на JID от одобрението за гласова заявка"
 
@@ -667,11 +676,11 @@ msgid "Failed to map delegated namespace to external component"
 msgstr ""
 "Неуспешно съпоставяне на делегирано пространство от имена с външен компонент"
 
-#: src/mod_http_upload.erl:865
+#: src/mod_http_upload.erl:852
 msgid "Failed to parse HTTP response"
 msgstr "Неуспешно анализиран HTTP отговор"
 
-#: src/mod_muc_room.erl:3996
+#: src/mod_muc_room.erl:3999
 msgid "Failed to process option '~s'"
 msgstr "Неуспешо обработена опция '~s'"
 
@@ -686,7 +695,7 @@ msgstr "Фамилно име"
 msgid "February"
 msgstr "Февруари"
 
-#: src/mod_http_upload.erl:811
+#: src/mod_http_upload.erl:798
 msgid "File larger than ~w bytes"
 msgstr "Файлът е по-голям от ~w байта"
 
@@ -784,7 +793,7 @@ msgstr "Наименование"
 msgid "Grant voice to this person?"
 msgstr "Предоставяне на глас за потребителя?"
 
-#: src/mod_http_upload.erl:210
+#: src/mod_http_upload.erl:188
 msgid "HTTP File Upload"
 msgstr "Качване на файл по HTTP"
 
@@ -796,28 +805,33 @@ msgstr "Хеш стойност на листа от шапки налични �
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr "Хеш на временния vCard аватар на тази стая"
 
-#: src/mod_muc_room.erl:5058 src/mod_muc_room.erl:5072
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5076
+#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5157
 msgid "Hat URI"
 msgstr "URI адрес за шапка"
 
-#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5080
-#: src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5066 src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:5161
 msgid "Hat hue"
 msgstr "Цвят на шапката"
 
-#: src/mod_muc_room.erl:5060 src/mod_muc_room.erl:5076
-#: src/mod_muc_room.erl:5148
+#: src/mod_muc_room.erl:5064 src/mod_muc_room.erl:5080
+#: src/mod_muc_room.erl:5159
 msgid "Hat title"
 msgstr "Заглавие на шапката"
 
-#: src/mod_muc_room.erl:5222
+#: src/mod_muc_room.erl:5217
 msgid "Hats limit exceeded"
 msgstr "Превишен е лимитът за шапка"
 
-#: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:595
+#: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
+#: src/mod_invites.erl:970
 msgid "Host unknown"
 msgstr "Неизвестен хост"
+
+#: src/mod_invites.erl:972
+msgid "Hostname invalid"
+msgstr ""
 
 #: src/mod_configure.erl:1636
 msgid "IP addresses"
@@ -851,15 +865,15 @@ msgstr "Импорт на потребители от jabberd14 Spool файло
 msgid "Import Users from Dir at "
 msgstr "Импорт на потребители от директория на "
 
-#: src/ejabberd_web_admin.erl:1215
+#: src/ejabberd_web_admin.erl:1217
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Импорт на потребители от jabberd14 Spool файл:"
 
-#: src/ejabberd_web_admin.erl:1196
+#: src/ejabberd_web_admin.erl:1198
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Импорт на потребителски данни от PIEFXIS файл (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1219
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Импорт на потребители от jabberd14 Spool директория:"
 
@@ -871,22 +885,23 @@ msgstr "Неправилна част за домейн в атрибута 'fro
 msgid "Improper message type"
 msgstr "Неправилен тип съобщение"
 
-#: src/mod_muc_room.erl:4715 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221
+#: src/mod_muc_room.erl:4719 src/mod_register.erl:192
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:254
 msgid "Incorrect CAPTCHA submit"
 msgstr "Неправилно CAPTCHA въвеждане"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3721 src/mod_muc.erl:1178
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3724 src/mod_muc.erl:1203
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
+#: src/mod_invites_register.erl:250
 msgid "Incorrect data form"
 msgstr "Неправилна форма на данните"
 
-#: src/mod_muc_room.erl:2458 src/mod_register_web.erl:593
+#: src/mod_muc_room.erl:2461 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "Грешна парола"
 
-#: src/mod_muc_room.erl:5036 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5040 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Неправилна стойност на атрибута 'action'"
 
@@ -900,11 +915,11 @@ msgstr "Неправилна стойност на 'action' във формат�
 msgid "Incorrect value of 'path' in data form"
 msgstr "Неправилна стойност на 'path' във формата за данни"
 
-#: src/ext_mod.erl:1342
+#: src/mod_invites_http.erl:233 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "Инсталирай"
 
-#: src/ext_mod.erl:1418
+#: src/ext_mod.erl:1381
 msgid "Installed Modules:"
 msgstr "Инсталирани модули:"
 
@@ -924,15 +939,20 @@ msgstr "Невалиден атрибут 'from' в препратеното с�
 msgid "Invalid 'previd' value"
 msgstr "Невалидна стойност на 'previd'"
 
-#: src/mod_muc_room.erl:4565
+#: src/mod_muc_room.erl:4569
 msgid "Invalid node name"
 msgstr "Невалидно име на нода"
 
-#: src/mod_muc_room.erl:5495
+#: src/mod_muc_room.erl:5494
 msgid "Invitations are not allowed in this conference"
 msgstr "Поканите не са разрешени в тази конференция"
 
-#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1499
+#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#, fuzzy
+msgid "Invite User"
+msgstr "Онлайн потребители"
+
+#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1502
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -956,15 +976,15 @@ msgstr "Политиката на услугата не допуска норм�
 msgid "JID normalization failed"
 msgstr "Нормализирането на JID е неуспешно"
 
-#: src/mod_muc_room.erl:5103 src/mod_muc_room.erl:5121
-#: src/mod_muc_room.erl:5144 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+#: src/mod_muc_room.erl:5155 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1158
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -988,11 +1008,11 @@ msgstr "Юли"
 msgid "June"
 msgstr "Юни"
 
-#: src/mod_muc_admin.erl:1164
+#: src/mod_muc_admin.erl:1183
 msgid "Just created"
 msgstr "Току що създаден"
 
-#: src/ejabberd_web_admin.erl:948
+#: src/ejabberd_web_admin.erl:950
 msgid "Last Activity"
 msgstr "Последна активност"
 
@@ -1000,15 +1020,15 @@ msgstr "Последна активност"
 msgid "Last login"
 msgstr "Последно влизане"
 
-#: src/mod_muc_admin.erl:1160
+#: src/mod_muc_admin.erl:1179
 msgid "Last message"
 msgstr "Последно съобщение"
 
-#: src/ejabberd_web_admin.erl:992
+#: src/ejabberd_web_admin.erl:994
 msgid "Last month"
 msgstr "Миналия месец"
 
-#: src/ejabberd_web_admin.erl:993
+#: src/ejabberd_web_admin.erl:995
 msgid "Last year"
 msgstr "Миналата година"
 
@@ -1019,21 +1039,21 @@ msgstr ""
 "Най-малко значимите битове SHA-256 хеш на текст трябва да са равни на "
 "шестнайсетичния етикет"
 
-#: src/mod_muc_room.erl:4531 src/mod_muc_room.erl:4666
-#: src/mod_muc_room.erl:5055
+#: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4670
+#: src/mod_muc_room.erl:5059
 msgid "List of Hats"
 msgstr "Списък с шапки"
 
-#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4678
-#: src/mod_muc_room.erl:5141
+#: src/mod_muc_room.erl:4538 src/mod_muc_room.erl:4682
+#: src/mod_muc_room.erl:5152
 msgid "List users with hats"
 msgstr "Избройте потребителите с шапки"
 
-#: src/ejabberd_web_admin.erl:164
+#: src/ejabberd_web_admin.erl:166
 msgid "Logged Out"
 msgstr "Излязъл"
 
-#: src/mod_muc_admin.erl:1163
+#: src/mod_muc_admin.erl:1182
 msgid "Logging"
 msgstr "Регистриране на събития"
 
@@ -1113,6 +1133,11 @@ msgstr "Максимален брой участници"
 msgid "Maximum file size"
 msgstr "Максимален размер на файла"
 
+#: src/mod_invites.erl:974
+#, fuzzy
+msgid "Maximum number of invites reached"
+msgstr "Максимален брой елементи за запазване"
+
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
 msgstr "Максимален брой елементи за запазване"
@@ -1121,11 +1146,16 @@ msgstr "Максимален брой елементи за запазване"
 msgid "May"
 msgstr "Май"
 
-#: src/mod_muc_room.erl:2345
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
+#, fuzzy
+msgid "Members are allowed to invite others"
+msgstr "На участниците е позволено да канят други"
+
+#: src/mod_muc_room.erl:2348
 msgid "Membership is required to enter this room"
 msgstr "Изисква се членство, за вход в тази стая"
 
-#: src/mod_register_web.erl:282
+#: src/mod_register_web.erl:283
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
@@ -1175,8 +1205,8 @@ msgstr "Минимален интервал между заявките за г�
 msgid "Moderator"
 msgstr "Модератор"
 
-#: src/mod_muc_room.erl:3114 src/mod_muc_room.erl:4769
-#: src/mod_muc_room.erl:4825 src/mod_muc_room.erl:4883
+#: src/mod_muc_room.erl:3117 src/mod_muc_room.erl:4773
+#: src/mod_muc_room.erl:4829 src/mod_muc_room.erl:4887
 msgid "Moderator privileges required"
 msgstr "Изискват се права на модератор"
 
@@ -1195,8 +1225,8 @@ msgstr "Модулът не успя да обработи заявката"
 msgid "Monday"
 msgstr "Понеделник"
 
-#: src/mod_muc_admin.erl:777 src/mod_muc_admin.erl:780
-#: src/mod_muc_admin.erl:786 src/mod_muc_admin.erl:794
+#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
+#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
 msgid "Multi-User Chat"
 msgstr "Групов чат (MUC)"
 
@@ -1207,6 +1237,10 @@ msgstr "Мултикаст"
 #: src/mod_roster.erl:172
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Повече от един <item/> елемента не се разрешават от RFC6121"
+
+#: src/mod_invites_http.erl:46
+msgid "NOT FOUND"
+msgstr ""
 
 #: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1222,11 +1256,11 @@ msgstr "Език за дискусии в стаята"
 msgid "Natural-Language Room Name"
 msgstr "Име на стаята на предпочитания език"
 
-#: src/mod_muc_room.erl:3327
+#: src/mod_muc_room.erl:3330
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "Атрибутите 'jid' и 'nick' не са намерени"
 
-#: src/mod_muc_room.erl:3096 src/mod_muc_room.erl:3332
+#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:3335
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Атрибути 'role' или 'affiliation' не са намерени"
 
@@ -1236,7 +1270,7 @@ msgstr "Атрибути 'role' или 'affiliation' не са намерени"
 msgid "Never"
 msgstr "Никога"
 
-#: src/mod_register_web.erl:400
+#: src/mod_register_web.erl:401
 msgid "New Password:"
 msgstr "Нова парола:"
 
@@ -1248,24 +1282,24 @@ msgstr "Нова парола:"
 msgid "Nickname"
 msgstr "Псевдоним"
 
-#: src/mod_muc.erl:1129
+#: src/mod_muc.erl:1131
 msgid "Nickname Registration at "
 msgstr "Регистрация на псевдоним в "
 
-#: src/mod_muc_room.erl:1448 src/mod_muc_room.erl:2366
-#: src/mod_muc_room.erl:4792
+#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
+#: src/mod_muc_room.erl:4796
 msgid "Nickname can't be empty"
 msgstr "Псевдонимът не може да бъде празен"
 
-#: src/mod_muc_room.erl:3344
+#: src/mod_muc_room.erl:3347
 msgid "Nickname ~s does not exist in the room"
 msgstr "Псевдонимът ~s не присъства в стаята"
 
-#: src/mod_muc_room.erl:3744
+#: src/mod_muc_room.erl:3747
 msgid "No 'affiliation' attribute found"
 msgstr "Атрибут 'affiliation' не е намерен"
 
-#: src/mod_muc_room.erl:3078
+#: src/mod_muc_room.erl:3081
 msgid "No 'item' element found"
 msgstr "Елементът 'item' не е намерен"
 
@@ -1283,7 +1317,7 @@ msgstr "В заявката не е намерен 'password'"
 msgid "No 'path' found in data form"
 msgstr "Не е намерен 'path' във формата за данни"
 
-#: src/mod_muc_room.erl:5491
+#: src/mod_muc_room.erl:5490
 msgid "No 'to' attribute found in the invitation"
 msgstr "Атрибутът 'to' не е намерен в поканата"
 
@@ -1291,7 +1325,7 @@ msgstr "Атрибутът 'to' не е намерен в поканата"
 msgid "No <forwarded/> element found"
 msgstr "Елементът <forwarded/> не е намерен"
 
-#: src/ejabberd_web_admin.erl:1081
+#: src/ejabberd_web_admin.erl:1083
 msgid "No Data"
 msgstr "Няма данни"
 
@@ -1311,7 +1345,7 @@ msgstr "Не е намерен наличен ресурс"
 msgid "No body provided for announce message"
 msgstr "Не е предоставен текст за съобщение тип обява"
 
-#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1342 src/gen_iq_handler.erl:89
 msgid "No child elements found"
 msgstr "Не са открити подчинени елементи"
 
@@ -1335,17 +1369,17 @@ msgstr "Няма информация за последна активновт"
 msgid "No items found in this query"
 msgstr "Няма намерени елементи в тази заявка"
 
-#: src/mod_muc_room.erl:3866
+#: src/mod_muc_room.erl:3869
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Няма ограничение"
 
-#: src/mod_matrix_gw.erl:953 src/mod_matrix_gw.erl:967
-#: src/mod_http_upload.erl:770 src/mod_offline.erl:356
+#: src/mod_matrix_gw.erl:952 src/mod_matrix_gw.erl:966
+#: src/mod_http_upload.erl:757 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:253
-#: src/mod_muc.erl:683 src/mod_muc.erl:758 src/mod_muc.erl:778
-#: src/mod_muc.erl:809 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:684 src/mod_muc.erl:760 src/mod_muc.erl:780
+#: src/mod_muc.erl:811 src/mod_roster.erl:184 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1389,7 +1423,7 @@ msgstr "Не е налична статистика за този елемент
 msgid "Nobody"
 msgstr "Никой"
 
-#: src/mod_muc_admin.erl:1166
+#: src/mod_muc_admin.erl:1185
 msgid "Node"
 msgstr "Нод"
 
@@ -1405,17 +1439,17 @@ msgstr "Нодът вече съществува"
 msgid "Node index not found"
 msgstr "Индексът на нода не е намерен"
 
-#: src/mod_matrix_gw.erl:951 src/mod_matrix_gw.erl:965
-#: src/mod_muc_room.erl:4515 src/mod_muc_room.erl:4549
-#: src/mod_muc_room.erl:4680 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4702 src/mod_muc.erl:756 src/mod_muc.erl:1057
-#: src/ejabberd_web_admin.erl:638 src/nodetree_tree_sql.erl:132
+#: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
+#: src/mod_muc_room.erl:4519 src/mod_muc_room.erl:4553
+#: src/mod_muc_room.erl:4684 src/mod_muc_room.erl:4702
+#: src/mod_muc_room.erl:4706 src/mod_muc.erl:758 src/mod_muc.erl:1059
+#: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Нодът не е намерен"
 
-#: src/ejabberd_web_admin.erl:1145 src/ejabberd_web_admin.erl:1151
+#: src/ejabberd_web_admin.erl:1147 src/ejabberd_web_admin.erl:1153
 msgid "Node ~p"
 msgstr "Нод ~p"
 
@@ -1423,7 +1457,7 @@ msgstr "Нод ~p"
 msgid "Nodeprep has failed"
 msgstr "Nodeprep е неуспешен"
 
-#: src/ejabberd_web_admin.erl:1537 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1539 src/ejabberd_web_admin.erl:1562
 msgid "Nodes"
 msgstr "Нодове"
 
@@ -1431,7 +1465,7 @@ msgstr "Нодове"
 msgid "None"
 msgstr "Нито един"
 
-#: src/ejabberd_web_admin.erl:620
+#: src/ejabberd_web_admin.erl:622
 msgid "Not Found"
 msgstr "Не е намерен"
 
@@ -1511,10 +1545,6 @@ msgstr "ДОБРЕ"
 msgid "Occupants May Change the Subject"
 msgstr "Участниците могат да променят темата"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-msgid "Occupants are allowed to invite others"
-msgstr "На участниците е позволено да канят други"
-
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:983
 msgid "Occupants are allowed to query others"
 msgstr "Участниците могат да отправят заявки към други лица"
@@ -1523,7 +1553,7 @@ msgstr "Участниците могат да отправят заявки к�
 msgid "October"
 msgstr "Октомври"
 
-#: src/mod_register_web.erl:396
+#: src/mod_register_web.erl:397
 msgid "Old Password:"
 msgstr "Стара парола:"
 
@@ -1531,8 +1561,8 @@ msgstr "Стара парола:"
 msgid "Online"
 msgstr "Онлайн"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:597
-#: src/ejabberd_web_admin.erl:1534
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:599
+#: src/ejabberd_web_admin.erl:1536
 msgid "Online Users"
 msgstr "Онлайн потребители"
 
@@ -1561,29 +1591,29 @@ msgstr "Доставяне на известия само до наличнит�
 msgid "Only members may query archives of this room"
 msgstr "Само членовете могат да търсят архиви на тази стая"
 
-#: src/mod_muc_room.erl:1126
+#: src/mod_muc_room.erl:1129
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "Само модератори и участници имат право да променят темата в тази стая"
 
-#: src/mod_muc_room.erl:1131
+#: src/mod_muc_room.erl:1134
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Само модераторите имат право да сменят темата в тази стая"
 
-#: src/mod_muc_room.erl:5404
+#: src/mod_muc_room.erl:5403
 msgid "Only moderators are allowed to retract messages"
 msgstr "Само модераторите имат право да оттеглят съобщения"
 
-#: src/mod_muc_room.erl:1322
+#: src/mod_muc_room.erl:1325
 msgid "Only moderators can approve voice requests"
 msgstr "Само модераторите могат да одобряват гласови заявки"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1145 src/mod_muc_room.erl:5560
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1148 src/mod_muc_room.erl:5559
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Само участници имат право да изпращат съобщения до конференцията"
 
-#: src/mod_muc_room.erl:711
+#: src/mod_muc_room.erl:714
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Само участници имат право да изпращат запитвания до конференцията"
 
@@ -1624,7 +1654,7 @@ msgstr "Име на организацията"
 msgid "Organization Unit"
 msgstr "Отдел"
 
-#: src/ext_mod.erl:1422
+#: src/ext_mod.erl:1385
 msgid "Other Modules Available:"
 msgstr "Други налични модули:"
 
@@ -1634,9 +1664,9 @@ msgstr "Изходящи s2s връзки"
 
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
-#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3328 src/mod_pubsub.erl:3495
-#: src/mod_muc_room.erl:3691 src/mod_muc_room.erl:3736
-#: src/mod_muc_room.erl:4745 src/mod_mix.erl:678
+#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
+#: src/mod_muc_room.erl:3694 src/mod_muc_room.erl:3739
+#: src/mod_muc_room.erl:4749 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Изискват се привилегии на собственик"
 
@@ -1653,10 +1683,11 @@ msgstr "Участник"
 msgid "Participant ID"
 msgstr "ID на участник"
 
-#: src/ejabberd_oauth.erl:537 src/mod_configure.erl:1075
+#: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:233
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
+#: priv/mod_invites/register.html:50 priv/mod_invites/register_success.html:85
 msgid "Password"
 msgstr "Парола"
 
@@ -1664,11 +1695,11 @@ msgstr "Парола"
 msgid "Password Verification"
 msgstr "Проверка на паролата"
 
-#: src/mod_register_web.erl:288 src/mod_register_web.erl:404
+#: src/mod_register_web.erl:289 src/mod_register_web.erl:405
 msgid "Password Verification:"
 msgstr "Проверка на паролата:"
 
-#: src/mod_register_web.erl:265 src/mod_register_web.erl:507
+#: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
 msgstr "Парола:"
 
@@ -1685,7 +1716,7 @@ msgstr "Път до файл"
 msgid "Payload semantic type information"
 msgstr "Информация за семантичен тип полезен товар"
 
-#: src/ejabberd_web_admin.erl:979
+#: src/ejabberd_web_admin.erl:981
 msgid "Period: "
 msgstr "Период: "
 
@@ -1694,7 +1725,7 @@ msgstr "Период: "
 msgid "Persist items to storage"
 msgstr "Запазване на елементите в хранилището"
 
-#: src/mod_muc_admin.erl:1162
+#: src/mod_muc_admin.erl:1181
 msgid "Persistent"
 msgstr "Постоянен"
 
@@ -1706,7 +1737,7 @@ msgstr "Пинг"
 msgid "Ping query is incorrect"
 msgstr "Заявката за пинг е неправилна"
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1172
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1716,7 +1747,7 @@ msgstr ""
 "вградената (Mnesia) база данни. Ако използвате модула ODBC, трябва да "
 "направите резервно копие на SQL базата данни отделно."
 
-#: src/mod_muc_room.erl:1283
+#: src/mod_muc_room.erl:1286
 msgid "Please, wait for a while before sending new voice request"
 msgstr ""
 "Моля, изчакайте известно време, преди да изпратите нова заявка за гласова "
@@ -1758,7 +1789,7 @@ msgstr "Времето на предишната сесия изтече"
 msgid "PubSub subscriber request"
 msgstr "Заявка от абонат за PubSub"
 
-#: src/mod_muc_admin.erl:1161
+#: src/mod_muc_admin.erl:1180
 msgid "Public"
 msgstr "Публичен"
 
@@ -1766,7 +1797,7 @@ msgstr "Публичен"
 msgid "Publish model"
 msgstr "Модел за публикуване"
 
-#: src/mod_pubsub.erl:4326
+#: src/mod_pubsub.erl:4331
 msgid "Publish-Subscribe"
 msgstr "Публикуване-Абониране"
 
@@ -1780,7 +1811,7 @@ msgstr ""
 msgid "Push record not found"
 msgstr "Push записът не е намерен"
 
-#: src/mod_muc_room.erl:706
+#: src/mod_muc_room.erl:709
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "В тази стая не се допускат запитвания към членовете на конференцията"
 
@@ -1823,16 +1854,16 @@ msgstr "Получаване на известия само за нови еле
 msgid "Receive notification of new nodes only"
 msgstr "Получаване на известия само за нови нодове"
 
-#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:679
+#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:682
 msgid "Recipient is not in the conference room"
 msgstr "Получателят не е в конферентната стая"
 
-#: src/mod_register_web.erl:295
+#: src/mod_register_web.erl:296
 msgid "Register"
 msgstr "Регистрирай"
 
-#: src/mod_register_web.erl:202 src/mod_register_web.erl:230
-#: src/mod_register_web.erl:238
+#: src/mod_register_web.erl:203 src/mod_register_web.erl:231
+#: src/mod_register_web.erl:239
 msgid "Register an XMPP account"
 msgstr "Регистрирай XMPP акаунт"
 
@@ -1844,8 +1875,8 @@ msgstr "Отдалечено копие"
 msgid "Remove User"
 msgstr "Премахни потребител"
 
-#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4674
-#: src/mod_muc_room.erl:5117
+#: src/mod_muc_room.erl:4537 src/mod_muc_room.erl:4678
+#: src/mod_muc_room.erl:5121
 msgid "Remove a hat from a user"
 msgstr "Премахни шапка от потребител"
 
@@ -1853,12 +1884,12 @@ msgstr "Премахни шапка от потребител"
 msgid "Replaced by new connection"
 msgstr "Заменен от нова връзка"
 
-#: src/mod_muc_room.erl:245 src/mod_muc_room.erl:254 src/mod_muc_room.erl:971
+#: src/mod_muc_room.erl:245 src/mod_muc_room.erl:254 src/mod_muc_room.erl:974
 #: src/mod_mix_pam.erl:348
 msgid "Request has timed out"
 msgstr "Времето за заявка изтече"
 
-#: src/mod_muc_room.erl:857 src/mod_muc_room.erl:872
+#: src/mod_muc_room.erl:860 src/mod_muc_room.erl:875
 msgid "Request is ignored"
 msgstr "Заявката е игнорирано"
 
@@ -1884,22 +1915,22 @@ msgstr "Възстанови"
 msgid "Restore Backup from File at "
 msgstr "Възстанови резервно копие от файл в "
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1185
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "Възстановяване на бинарно копие след следващото рестартиране на ejabberd "
 "(изисква по-малко памет):"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1183
 msgid "Restore binary backup immediately:"
 msgstr "Възстанови незабавно двоично копие:"
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1193
 msgid "Restore plain text backup immediately:"
 msgstr "Възстановете незабавно копие от обикновен текст:"
 
-#: src/mod_adhoc_api.erl:519
+#: src/mod_adhoc_api.erl:520
 msgid "Result"
 msgstr "Резултат"
 
@@ -1924,7 +1955,7 @@ msgstr "Конфигурация на стаята"
 msgid "Room Occupants"
 msgstr "Участници в стаята"
 
-#: src/mod_muc.erl:647
+#: src/mod_muc.erl:648
 msgid "Room creation is denied by service policy"
 msgstr "Създаването на стая е отказано поради политика на услугата"
 
@@ -1934,11 +1965,11 @@ msgstr "Създаването на стая е отказано поради п
 msgid "Room description"
 msgstr "Описание на стаята"
 
-#: src/mod_muc_room.erl:998
+#: src/mod_muc_room.erl:1001
 msgid "Room terminates"
 msgstr "Стаята се прекратява"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1165
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Заглавие на стаята"
@@ -2005,8 +2036,8 @@ msgstr "Изпрати съобщение до всички потребител
 msgid "September"
 msgstr "Септември"
 
-#: src/mod_register_web.erl:262 src/mod_register_web.erl:393
-#: src/mod_register_web.erl:504
+#: src/mod_register_web.erl:263 src/mod_register_web.erl:394
+#: src/mod_register_web.erl:505
 msgid "Server:"
 msgstr "Сървър:"
 
@@ -2031,7 +2062,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Споделени групи от списъци с контакти"
 
-#: src/ejabberd_web_admin.erl:1001
+#: src/ejabberd_web_admin.erl:1003
 msgid "Show Integral Table"
 msgstr "Покажи интегрална таблица"
 
@@ -2039,7 +2070,7 @@ msgstr "Покажи интегрална таблица"
 msgid "Show Occupants Join/Leave"
 msgstr "Покажи участници Влязъл/Напускнал"
 
-#: src/ejabberd_web_admin.erl:998
+#: src/ejabberd_web_admin.erl:1000
 msgid "Show Ordinary Table"
 msgstr "Покажи обикновена таблица"
 
@@ -2049,7 +2080,7 @@ msgstr "Покажи обикновена таблица"
 msgid "Shut Down Service"
 msgstr "Изключи услугата"
 
-#: src/mod_register_web.erl:278
+#: src/mod_register_web.erl:279
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
 "this only in your personal computer for safety reasons."
@@ -2057,7 +2088,7 @@ msgstr ""
 "Някои XMPP клиенти могат да съхраняват паролата Ви в компютъра, но от "
 "съображения за сигурност трябва да го правите само на личния си компютър."
 
-#: src/ext_mod.erl:1411
+#: src/ext_mod.erl:1374
 msgid "Sources Specs:"
 msgstr "Спецификации на източниците:"
 
@@ -2080,7 +2111,7 @@ msgstr "Задайте модела на публикуващия"
 msgid "Stanza ID"
 msgstr "ID на строфа"
 
-#: src/mod_muc_room.erl:5439
+#: src/mod_muc_room.erl:5438
 msgid "Stanza id is not valid"
 msgstr "Невалидно ID на строфата"
 
@@ -2093,11 +2124,11 @@ msgstr "Статично задаване на replyto на собственик
 msgid "Stopped Nodes"
 msgstr "Спрени нодове"
 
-#: src/ejabberd_web_admin.erl:1179
+#: src/ejabberd_web_admin.erl:1181
 msgid "Store binary backup:"
 msgstr "Запази бинарен архив:"
 
-#: src/ejabberd_web_admin.erl:1189
+#: src/ejabberd_web_admin.erl:1191
 msgid "Store plain text backup:"
 msgstr "Запази архив като обикновен текст:"
 
@@ -2114,7 +2145,7 @@ msgstr "Управлението на потока не е активирано"
 msgid "Subject"
 msgstr "Тема"
 
-#: src/ejabberd_web_admin.erl:1028 src/ext_mod.erl:1153
+#: src/ejabberd_web_admin.erl:1030 src/ext_mod.erl:1124
 msgid "Submitted"
 msgstr "Изпратено"
 
@@ -2138,7 +2169,7 @@ msgstr ""
 "Заявките за абонамент трябва да бъдат одобрени и само абонатите могат да "
 "извличат елементи"
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4760
 msgid "Subscriptions are not allowed"
 msgstr "Абонаментите не са разрешени"
 
@@ -2162,13 +2193,13 @@ msgstr "Текст, свързан с видео"
 msgid "Text associated with speech"
 msgstr "Текст, свързан с реч"
 
-#: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2355
-#: src/mod_muc_room.erl:4782
+#: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2358
+#: src/mod_muc_room.erl:4786
 msgid "That nickname is already in use by another occupant"
 msgstr "Този псевдоним вече се използва от друг участник"
 
-#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
-#: src/mod_muc_room.erl:4796 src/mod_muc.erl:1152
+#: src/mod_muc_room.erl:1454 src/mod_muc_room.erl:2372
+#: src/mod_muc_room.erl:4800 src/mod_muc.erl:1177
 msgid "That nickname is registered by another person"
 msgstr "Този псевдоним е регистриран от друго лице"
 
@@ -2176,8 +2207,9 @@ msgstr "Този псевдоним е регистриран от друго л
 msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA предизвикателството е валидно."
 
-#: src/mod_muc_room.erl:950 src/mod_muc_room.erl:4718 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4722 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
+#: src/mod_invites_register.erl:257
 msgid "The CAPTCHA verification has failed"
 msgstr "Проверката на CAPTCHA предизвикателството е неуспешна"
 
@@ -2228,11 +2260,11 @@ msgstr ""
 "клиентът може да покаже с помощта на общ механизъм за визуализация на Data "
 "Forms"
 
-#: src/mod_register_web.erl:591
+#: src/mod_register_web.erl:592
 msgid "The account already exists"
 msgstr "Профилът вече съществува"
 
-#: src/mod_register_web.erl:599
+#: src/mod_register_web.erl:600
 msgid "The account was not unregistered"
 msgstr "Профилът не е дерегистриран"
 
@@ -2240,7 +2272,7 @@ msgstr "Профилът не е дерегистриран"
 msgid "The body text of the last received message"
 msgstr "Текстът на последното получено съобщение"
 
-#: src/mod_register_web.erl:589
+#: src/mod_register_web.erl:590
 msgid "The captcha you entered is wrong"
 msgstr "Въведеният captcha код е грешен"
 
@@ -2344,15 +2376,15 @@ msgstr "Паролата съдържа недопустими символи"
 msgid "The password is too weak"
 msgstr "Паролата е твърде слаба"
 
-#: src/mod_register_web.erl:134
+#: src/mod_register_web.erl:135
 msgid "The password of your XMPP account was successfully changed."
 msgstr "Паролата на вашия XMPP профил беше успешно променена."
 
-#: src/mod_register_web.erl:601
+#: src/mod_register_web.erl:602
 msgid "The password was not changed"
 msgstr "Паролата не е променена"
 
-#: src/mod_register_web.erl:603
+#: src/mod_register_web.erl:604
 msgid "The passwords are different"
 msgstr "Паролите са различни"
 
@@ -2369,7 +2401,7 @@ msgstr "Заявката е разрешена само за локални по
 msgid "The query must not contain <item/> elements"
 msgstr "Заявката не може да съдържа елементи <item/>"
 
-#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+#: src/mod_muc_room.erl:5111 src/mod_muc_room.erl:5129
 msgid "The role"
 msgstr "Ролята"
 
@@ -2402,25 +2434,29 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "Идентификаторът на абонамента, свързан със заявката за абонамент"
 
-#: src/mod_register_web.erl:138
+#: src/mod_invites_register.erl:206
+msgid "The token provided is either invalid or expired."
+msgstr ""
+
+#: src/mod_register_web.erl:139
 msgid "There was an error changing the password: "
 msgstr "Възникна грешка при промяна на паролата: "
 
-#: src/mod_register_web.erl:110
+#: src/mod_register_web.erl:111
 msgid "There was an error creating the account: "
 msgstr "Възникна грешка при създаването на профила: "
 
-#: src/mod_register_web.erl:123
+#: src/mod_register_web.erl:124
 msgid "There was an error deleting the account: "
 msgstr "Възникна грешка при изтриването на профила: "
 
-#: src/mod_register_web.erl:256
+#: src/mod_register_web.erl:257
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr ""
 "Не е чувствително към регистъра (главни и малки букви): \"macbeth\"е същото "
 "като \"MacBeth\"и \"Macbeth\"."
 
-#: src/mod_register_web.erl:240
+#: src/mod_register_web.erl:241
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
 "(Jabber ID) will be of the form: username@server. Please read carefully the "
@@ -2430,7 +2466,7 @@ msgstr ""
 "JID (Jabber ID) ще бъде във формата: username@server. Моля, прочетете "
 "внимателно инструкциите, за да попълните правилно полетата."
 
-#: src/mod_register_web.erl:494
+#: src/mod_register_web.erl:495
 msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr "Тази страница позволява премахване на XMPP профил от този сървър."
 
@@ -2462,7 +2498,7 @@ msgstr "За да се регистрирате, посетете ~s"
 msgid "To ~ts"
 msgstr "До ~ts"
 
-#: src/ejabberd_oauth.erl:545
+#: src/ejabberd_oauth.erl:553
 msgid "Token TTL"
 msgstr "Токен TTL"
 
@@ -2474,7 +2510,7 @@ msgstr ""
 "Твърде много (~p) неуспешни опити за удостоверявания от този IP адрес (~s). "
 "Адресът ще бъде деблокиран в ~s UTC"
 
-#: src/mod_muc_room.erl:3083 src/mod_muc_room.erl:3750
+#: src/mod_muc_room.erl:3086 src/mod_muc_room.erl:3753
 msgid "Too many <item/> elements"
 msgstr "Твърде много <item/> елементи"
 
@@ -2482,7 +2518,7 @@ msgstr "Твърде много <item/> елементи"
 msgid "Too many <list/> elements"
 msgstr "Твърде много <list/> елементи"
 
-#: src/mod_muc_room.erl:2439 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2442 src/mod_register.erl:250
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Твърде много CAPTCHA заявки"
@@ -2491,7 +2527,7 @@ msgstr "Твърде много CAPTCHA заявки"
 msgid "Too many active bytestreams"
 msgstr "Твърде много активни \"bytestreams\" потоци"
 
-#: src/mod_muc_room.erl:1341 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1344 src/gen_iq_handler.erl:90
 msgid "Too many child elements"
 msgstr "Твърде много дъщерни елементи"
 
@@ -2503,7 +2539,7 @@ msgstr "Посочени са твърде много полета за полу
 msgid "Too many unacked stanzas"
 msgstr "Твърде много непотвърдени строфи"
 
-#: src/mod_muc_room.erl:2314
+#: src/mod_muc_room.erl:2317
 msgid "Too many users in this conference"
 msgstr "Твърде много потребители в тази конференция"
 
@@ -2519,7 +2555,7 @@ msgstr "Вторник"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL адрес за дневници на архивирани дискусии"
 
-#: src/mod_muc_room.erl:2448 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2451 src/mod_register.erl:254
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Не може да се генерира CAPTCHA"
@@ -2528,11 +2564,11 @@ msgstr "Не може да се генерира CAPTCHA"
 msgid "Unable to register route on existing local domain"
 msgstr "Не може да се регистрира маршрут в съществуващ локален домейн"
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:232
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:234
 msgid "Unauthorized"
 msgstr "Неоторизиран"
 
-#: src/mod_adhoc_api.erl:350 src/mod_announce.erl:538 src/mod_configure.erl:852
+#: src/mod_adhoc_api.erl:351 src/mod_announce.erl:538 src/mod_configure.erl:852
 #: src/mod_configure.erl:1737
 msgid "Unexpected action"
 msgstr "Неочаквано действие"
@@ -2541,16 +2577,16 @@ msgstr "Неочаквано действие"
 msgid "Unexpected error condition: ~p"
 msgstr "Неочаквано състояние на грешка: ~p"
 
-#: src/ext_mod.erl:1324
+#: src/ext_mod.erl:1287
 msgid "Uninstall"
 msgstr "Деинсталирай"
 
-#: src/mod_register_web.erl:512
+#: src/mod_register_web.erl:513
 msgid "Unregister"
 msgstr "Дерегистрирай"
 
-#: src/mod_register_web.erl:207 src/mod_register_web.erl:484
-#: src/mod_register_web.erl:492
+#: src/mod_register_web.erl:208 src/mod_register_web.erl:485
+#: src/mod_register_web.erl:493
 msgid "Unregister an XMPP account"
 msgstr "Дерегистрирай XMPP профил"
 
@@ -2562,7 +2598,7 @@ msgstr "Неподдържан елемент <index/>"
 msgid "Unsupported version"
 msgstr "Неподдържана версия"
 
-#: src/ext_mod.erl:1416
+#: src/ext_mod.erl:1379
 msgid "Update Specs"
 msgstr "Актуализирай спецификациите"
 
@@ -2574,7 +2610,7 @@ msgstr "Актуализирай съобщението на деня (не из
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Актуализирай съобщението на деня на всички хостове (не изпращай)"
 
-#: src/ext_mod.erl:1406
+#: src/ext_mod.erl:1369
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 "Актуализирайте спецификациите, за да получите източник на модули, след което "
@@ -2585,7 +2621,7 @@ msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 "Актуализирането на vCard не се поддържа от настройката за съхранение на vCard"
 
-#: src/ext_mod.erl:1327
+#: src/ext_mod.erl:1290
 msgid "Upgrade"
 msgstr "Обнови"
 
@@ -2594,7 +2630,7 @@ msgstr "Обнови"
 msgid "User"
 msgstr "Потребител"
 
-#: src/ejabberd_oauth.erl:534
+#: src/ejabberd_oauth.erl:542
 msgid "User (jid)"
 msgstr "Потребител (jid)"
 
@@ -2607,7 +2643,7 @@ msgstr "Потребител JID"
 msgid "User Management"
 msgstr "Управление на потребители"
 
-#: src/mod_register.erl:407
+#: src/mod_register.erl:407 src/mod_invites.erl:978
 msgid "User already exists"
 msgstr "Потребителят вече съществува"
 
@@ -2628,21 +2664,31 @@ msgstr "Потребителската сесия не е намерена"
 msgid "User session terminated"
 msgstr "Потребителската сесия е прекратена"
 
-#: src/ejabberd_web_admin.erl:1024
+#: src/ejabberd_web_admin.erl:1026
 msgid "User ~ts"
 msgstr "Потребител ~ts"
 
-#: src/mod_register_web.erl:250 src/mod_register_web.erl:389
-#: src/mod_register_web.erl:500
+#: src/mod_invites.erl:968
+#, fuzzy
+msgid "Username invalid"
+msgstr "Потребителско име:"
+
+#: src/mod_invites.erl:976
+#, fuzzy
+msgid "Username is reserved"
+msgstr "Потребителят е премахнат"
+
+#: src/mod_register_web.erl:251 src/mod_register_web.erl:390
+#: src/mod_register_web.erl:501
 msgid "Username:"
 msgstr "Потребителско име:"
 
-#: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577
-#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1533
+#: src/ejabberd_web_admin.erl:571 src/ejabberd_web_admin.erl:579
+#: src/ejabberd_web_admin.erl:585 src/ejabberd_web_admin.erl:1535
 msgid "Users"
 msgstr "Потребители"
 
-#: src/ejabberd_web_admin.erl:606
+#: src/ejabberd_web_admin.erl:608
 msgid "Users Last Activity"
 msgstr "Последна активност на потребителите"
 
@@ -2650,17 +2696,17 @@ msgstr "Последна активност на потребителите"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Не е разрешено потребителите да регистрират профили толкова бързо"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4708 src/mod_muc_room.erl:4887
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4712 src/mod_muc_room.erl:4891
 #: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "Стойността 'get' на атрибут 'type' не е разрешена"
 
-#: src/mod_matrix_gw.erl:939 src/mod_matrix_gw.erl:958 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4492
-#: src/mod_muc_room.erl:4628 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4496
+#: src/mod_muc_room.erl:4632 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
-#: src/mod_muc.erl:680 src/mod_muc.erl:718 src/mod_muc.erl:763
-#: src/mod_muc.erl:783 src/mod_muc.erl:793 src/mod_disco.erl:101
+#: src/mod_muc.erl:681 src/mod_muc.erl:719 src/mod_muc.erl:765
+#: src/mod_muc.erl:785 src/mod_muc.erl:795 src/mod_disco.erl:101
 #: src/mod_disco.erl:117 src/mod_disco.erl:223 src/mod_disco.erl:275
 #: src/mod_time.erl:53 src/mod_sic.erl:61 src/mod_sic.erl:73
 #: src/mod_vcard.erl:215 src/mod_vcard.erl:258 src/mod_version.erl:53
@@ -2687,7 +2733,7 @@ msgstr "Стойността на '~s' трябва да бъде цяло чи�
 msgid "View joined MIX channels"
 msgstr "Вижте присъединените MIX канали"
 
-#: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:556 src/ejabberd_web_admin.erl:1561
 msgid "Virtual Hosts"
 msgstr "Виртуални хостове"
 
@@ -2695,20 +2741,20 @@ msgstr "Виртуални хостове"
 msgid "Visitor"
 msgstr "Посетител"
 
-#: src/mod_muc_room.erl:1432
+#: src/mod_muc_room.erl:1435
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Посетителите нямат право да променят псевдонимите си в тази стая"
 
-#: src/mod_muc_room.erl:1138
+#: src/mod_muc_room.erl:1141
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "На посетителите не е разрешено да изпращат съобщения до всички участници"
 
-#: src/mod_muc_room.erl:5448
+#: src/mod_muc_room.erl:5447
 msgid "Voice request"
 msgstr "Заявка за гласово обаждане"
 
-#: src/mod_muc_room.erl:1290
+#: src/mod_muc_room.erl:1293
 msgid "Voice requests are disabled in this conference"
 msgstr "Гласовите обаждания са деактивирани в тази конференция"
 
@@ -2795,7 +2841,7 @@ msgstr "Кой може да изпраща лични съобщения"
 msgid "Who may associate leaf nodes with a collection"
 msgstr "Кой може да асоциира листови нодове с колекция"
 
-#: src/mod_register_web.erl:605
+#: src/mod_register_web.erl:606
 msgid "Wrong parameters in the web formulary"
 msgstr "Грешни параметри в уеб формуляра"
 
@@ -2803,11 +2849,11 @@ msgstr "Грешни параметри в уеб формуляра"
 msgid "Wrong xmlns"
 msgstr "Грешен xmlns"
 
-#: src/mod_register_web.erl:191 src/mod_register_web.erl:199
+#: src/mod_register_web.erl:192 src/mod_register_web.erl:200
 msgid "XMPP Account Registration"
 msgstr "Регистриране на XMPP профил"
 
-#: src/ejabberd_web_admin.erl:556
+#: src/ejabberd_web_admin.erl:558
 msgid "XMPP Domains"
 msgstr "XMPP домейни"
 
@@ -2832,7 +2878,7 @@ msgstr "XMPP покажи стойност на Продължително от�
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "XMPP URI на асоцииран Publish-Subscribe нод"
 
-#: src/mod_muc_room.erl:996
+#: src/mod_muc_room.erl:999
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "Премахнати сте от стаята поради изключване на системата"
 
@@ -2844,19 +2890,19 @@ msgstr "Нямате право да изпращате лични съобще�
 msgid "You are not joined to the channel"
 msgstr "Не сте присъединени към канала"
 
-#: src/mod_register_web.erl:275
+#: src/mod_register_web.erl:276
 msgid "You can later change your password using an XMPP client."
 msgstr "По-късно можете да промените паролата си с помощта на XMPP клиент."
 
-#: src/mod_muc_room.erl:2342 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2345 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Достъпът ви до тази стая е забранен"
 
-#: src/mod_muc_room.erl:2323
+#: src/mod_muc_room.erl:2326
 msgid "You have joined too many conferences"
 msgstr "Присъединили сте се към твърде много конференции"
 
-#: src/mod_muc.erl:1183
+#: src/mod_muc.erl:1208
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Трябва да попълните полето \"Псевдоним\" във формата"
 
@@ -2865,7 +2911,7 @@ msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 "За да се регистрирате Ви е нужен клиент, който поддържа x:data и CAPTCHA"
 
-#: src/mod_muc.erl:1138
+#: src/mod_muc.erl:1140
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
 "За да регистрирате псевдонима, Ви е необходим клиент, който поддържа x:data"
@@ -2878,11 +2924,11 @@ msgstr "За да търсите, Ви е нужен клиент, който п
 msgid "You're not allowed to create nodes"
 msgstr "Нямате право да създавате нодове"
 
-#: src/mod_register_web.erl:106
+#: src/mod_register_web.erl:107
 msgid "Your XMPP account was successfully registered."
 msgstr "Вашият XMPP акаунт, беше регистриран успешно."
 
-#: src/mod_register_web.erl:119
+#: src/mod_register_web.erl:120
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Вашият XMPP акаунт, беше успешно дерегистриран."
 
@@ -2911,11 +2957,11 @@ msgstr ""
 msgid "ejabberd"
 msgstr "ejabberd"
 
-#: src/mod_http_upload.erl:752
+#: src/mod_http_upload.erl:739
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd HTTP Upload услуга"
 
-#: src/mod_muc.erl:674
+#: src/mod_muc.erl:675
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC модул"
 
@@ -2931,7 +2977,7 @@ msgstr "ejabberd Publish-Subscribe модул"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "ejabberd SOCKS5 Bytestreams модул"
 
-#: src/ejabberd_web_admin.erl:316
+#: src/ejabberd_web_admin.erl:318
 msgid "ejabberd Web Admin"
 msgstr "Уеб администрация на ejabberd"
 
@@ -2943,7 +2989,7 @@ msgstr "ejabberd vCard модул"
 msgid "has been banned"
 msgstr "е със забранен достъп"
 
-#: src/ejabberd_sm.erl:486 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
+#: src/ejabberd_sm.erl:489 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
 msgid "has been kicked"
 msgstr "е отстранен"
 
@@ -2971,11 +3017,11 @@ msgstr "се присъединява към стаята"
 msgid "leaves the room"
 msgstr "напуска стаята"
 
-#: src/mod_muc_room.erl:4942
+#: src/mod_muc_room.erl:4946
 msgid "private, "
 msgstr "частна, "
 
-#: src/mod_muc_room.erl:5524
+#: src/mod_muc_room.erl:5523
 msgid "the password is"
 msgstr "паролата е"
 
@@ -2983,7 +3029,7 @@ msgstr "паролата е"
 msgid "vCard User Search"
 msgstr "vCard търсене на потребител"
 
-#: src/mod_muc_room.erl:5517
+#: src/mod_muc_room.erl:5516
 msgid "~s invites you to the room ~s"
 msgstr "~s ви кани в стая ~s"
 
@@ -2994,6 +3040,398 @@ msgstr "~ts's MAM архив"
 #: src/mod_offline.erl:768
 msgid "~ts's Offline Messages Queue"
 msgstr "Офлайн съобщения на ~ts"
+
+#: priv/mod_invites/client.html:4
+msgid "Join {{ site_name }} with {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:8
+msgid "Sad person holding empty box"
+msgstr ""
+
+#: priv/mod_invites/apps.html:25
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
+"a>"
+msgstr ""
+
+#: priv/mod_invites/apps.json:129
+msgid "Download Gajim"
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:6
+msgid "Sorry, it looks like this invite code has expired!"
+msgstr ""
+
+#: priv/mod_invites/client.html:53
+msgid ""
+"After successfully installing {{ app_name }}, come back to this page and "
+"<strong>continue with Step 2</strong>."
+msgstr ""
+
+#: priv/mod_invites/register.html:35
+#, fuzzy
+msgid "Username"
+msgstr "Потребителско име:"
+
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:50
+msgid "Download and install {{ app_name }} below:"
+msgstr ""
+
+#: priv/mod_invites/apps.json:142
+msgid "A fully-featured desktop chat client for Windows and Linux."
+msgstr ""
+
+#: priv/mod_invites/roster.html:8
+msgid ""
+"This is an invite from <strong>{{ inviter }}</strong> to connect and chat on "
+"the XMPP network. If you already have an XMPP client installed just press "
+"the button below!"
+msgstr ""
+
+#: priv/mod_invites/register.html:20
+msgid "Open the app"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:26
+msgid "You have created an account on <strong>{{ site_name }}</strong>."
+msgstr ""
+
+#: priv/mod_invites/client.html:9
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"{{ site_name }}, part of the XMPP secure and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/register_error.html:4
+#, fuzzy
+msgid "Registration error"
+msgstr "Регистрирай"
+
+#: priv/mod_invites/register_success.html:69
+msgid "Step 2: Connect {{ app_name }} to your new account"
+msgstr ""
+
+#: priv/mod_invites/invite.html:7
+msgid ""
+"You have been invited to chat on <strong>{{ site_name }}</strong>, part of "
+"the XMPP secure and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:74
+msgid "As a final reminder, your account details are shown below:"
+msgstr ""
+
+#: priv/mod_invites/client.html:15
+msgid ""
+"You can start chatting right away with {{ app_name }}. Let's get started!"
+msgstr ""
+
+#: priv/mod_invites/client.html:57
+msgid ""
+"Installed ok? Great! <strong>Click or tap the button below</strong> to "
+"accept your invite and continue with your account setup:"
+msgstr ""
+
+#: priv/mod_invites/invite.html:10
+#, fuzzy
+msgid "Get started"
+msgstr "Рестартирай"
+
+#: priv/mod_invites/register_success.html:24
+#, fuzzy
+msgid "Congratulations!"
+msgstr "Конфигурация"
+
+#: priv/mod_invites/base.html:13
+msgid "Scan with mobile device"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:46
+msgid "You can now set up {{ app_name }} and connect it to your new account."
+msgstr ""
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with <strong>{{ inviter }}</"
+"strong> and other people on <strong>{{ site_name }}</strong> and other "
+"services on the XMPP network."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:13
+msgid "Hide"
+msgstr ""
+
+#: priv/mod_invites/client.html:63
+msgid ""
+"After clicking the button you will be taken to {{ app_name }} to finish "
+"setting up your new {{ site_name }} account."
+msgstr ""
+
+#: priv/mod_invites/roster.html:10
+msgid "Add {{ inviter }} to your contact list"
+msgstr ""
+
+#: priv/mod_invites/invite.html:12
+msgid "To get started, you need to install an app for your platform:"
+msgstr ""
+
+#: priv/mod_invites/apps.json:82
+msgid ""
+"A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
+"easy way to talk and share moments with your friends."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:48
+msgid "Step 1: Download and install {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/base.html:31
+msgid ""
+"Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
+msgstr ""
+
+#: priv/mod_invites/base_min.html:22 priv/mod_invites/base_min.html:6
+msgid "Invite to {{ site_name }}"
+msgstr ""
+
+#: priv/mod_invites/invite.html:16
+msgid "Other software"
+msgstr ""
+
+#: priv/mod_invites/register.html:27
+#, fuzzy
+msgid "Create an account"
+msgstr "Създай Шапка"
+
+#: priv/mod_invites/register_success.html:78
+msgid "Chat address (JID)"
+msgstr ""
+
+#: priv/mod_invites/base.html:36
+msgid "Close"
+msgstr ""
+
+#: priv/mod_invites/base.html:12
+msgid "QR code icon"
+msgstr ""
+
+#: priv/mod_invites/apps.json:25
+msgid ""
+"Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
+"been optimized to provide a unique mobile experience."
+msgstr ""
+
+#: priv/mod_invites/register.html:17
+#, fuzzy
+msgid "{{ app_name }} already installed?"
+msgstr "Управлението на потока вече е активирано"
+
+#: priv/mod_invites/register_success.html:35
+msgid ""
+"<strong>No suitable software installed right now?</strong> You can also log "
+"in to your account through our online web chat!"
+msgstr ""
+
+#: priv/mod_invites/register.html:21
+msgid "This button works only if you have the app installed already!"
+msgstr ""
+
+#: priv/mod_invites/apps.json:122
+msgid ""
+"A modern open-source chat client for the desktop. It focuses on providing a "
+"clean and reliable Jabber/XMPP experience while having your privacy in mind."
+msgstr ""
+
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
+msgid "Register on {{ site_name }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:44
+msgid ""
+"A modern open-source chat client for iPhone and iPad. It is easy to use and "
+"has a clean user interface."
+msgstr ""
+
+#: priv/mod_invites/apps.json:63
+msgid ""
+"A modern open-source chat client for Mac. It is easy to use and has a clean "
+"user interface."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:71
+msgid "Launch {{ app_name }} and sign in using your account credentials."
+msgstr ""
+
+#: priv/mod_invites/client.html:11
+msgid ""
+"You have been invited to chat on {{ site_name }}, part of the XMPP secure "
+"and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/base.html:10
+msgid "Send this invite to your device"
+msgstr ""
+
+#: priv/mod_invites/client.html:55
+msgid "Step 2: Activate your account"
+msgstr ""
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
+"you need to first register an account."
+msgstr ""
+
+#: priv/mod_invites/roster.html:4 priv/mod_invites/roster.html:3
+msgid "{{ inviter }} has invited you to connect!"
+msgstr ""
+
+#: priv/mod_invites/apps.json:110
+msgid "Download Dino for Linux"
+msgstr ""
+
+#: priv/mod_invites/client.html:60
+msgid "Accept invite using {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:103
+msgid ""
+"Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
+"macOS."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:90
+#: priv/mod_invites/register_success.html:17
+msgid "Show"
+msgstr ""
+
+#: priv/mod_invites/register.html:55
+msgid "Enter a secure password that you do not use anywhere else."
+msgstr ""
+
+#: priv/mod_invites/register_error.html:6
+#, fuzzy
+msgid "Sorry, there was a problem registering your account."
+msgstr "Възникна грешка при създаването на профила: "
+
+#: priv/mod_invites/base.html:9
+msgid ""
+"<strong>Tip:</strong> You can open this invite on your mobile device by "
+"scanning a barcode with your camera."
+msgstr ""
+
+#: priv/mod_invites/apps.json:149
+msgid "Download Renga for Haiku"
+msgstr ""
+
+#: priv/mod_invites/invite.html:5
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
+"messaging network."
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:4
+msgid "Invite expired"
+msgstr ""
+
+#: priv/mod_invites/register.html:61
+msgid "Submit"
+msgstr "Изпрати"
+
+#: priv/mod_invites/apps.html:16
+#, fuzzy
+msgid "Select"
+msgstr "Избери всички"
+
+#: priv/mod_invites/register.html:46
+msgid ""
+"Choose a username, this will become the first part of your new chat address."
+msgstr ""
+
+#: priv/mod_invites/base.html:23
+msgid "Scan invite code"
+msgstr ""
+
+#: priv/mod_invites/apps.json:160
+msgid "XMPP client for Haiku"
+msgstr ""
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting you need to first register an account."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:38
+msgid "Log in via web"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:99
+msgid ""
+"Your password is stored encrypted on the server and will not be accessible "
+"after you close this page. Keep it safe and never share it with anyone."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:28
+msgid ""
+"To start chatting, you need to enter your new account credentials into your "
+"chosen XMPP software."
+msgstr ""
+
+#: priv/mod_invites/client.html:34
+msgid "Step 1: Install {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:114
+msgid ""
+"Click the button to open the Dino website where you can download and install "
+"it on your PC."
+msgstr ""
+
+#: priv/mod_invites/register.html:15
+msgid ""
+"If you already have {{ app_name }} installed, we recommend that you continue "
+"the account creation process using the app by clicking on the button below:"
+msgstr ""
+
+#: priv/mod_invites/roster.html:14
+msgid ""
+"If you don't have an XMPP client installed yet, here's a list of suitable "
+"clients for your platform."
+msgstr ""
+
+#: priv/mod_invites/apps.json:89
+msgid "Download from Mac App Store"
+msgstr ""
+
+#: priv/mod_invites/base.html:29
+msgid ""
+"You can transfer this invite to your mobile device by scanning a code with "
+"your camera."
+msgstr ""
+
+#: priv/mod_invites/invite.html:17
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\">register an account manually</a>."
+msgstr ""
+
+#: priv/mod_invites/apps.json:101
+msgid ""
+"Launch Beagle IM, and select 'Yes' to add a new account. Click the '+' "
+"button under the empty account list and then enter your credentials."
+msgstr ""
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with other people on "
+"<strong>{{ site_name }}</strong> and other services on the XMPP network."
+msgstr ""
 
 #~ msgid "List of users with hats"
 #~ msgstr "Списък на потребителите с шапки"
@@ -3149,9 +3587,6 @@ msgstr "Офлайн съобщения на ~ts"
 #~ msgid "Remove All Offline Messages"
 #~ msgstr "Премахни всички офлайн съобщения"
 
-#~ msgid "Restart"
-#~ msgstr "Рестартирай"
-
 #~ msgid "Roster of ~ts"
 #~ msgstr "Списък с контакти на ~ts"
 
@@ -3160,9 +3595,6 @@ msgstr "Офлайн съобщения на ~ts"
 
 #~ msgid "Script check"
 #~ msgstr "Проверка на скрипт"
-
-#~ msgid "Select All"
-#~ msgstr "Избери всички"
 
 #~ msgid "Statistics"
 #~ msgstr "Статистики"
@@ -3175,9 +3607,6 @@ msgstr "Офлайн съобщения на ~ts"
 
 #~ msgid "Storage Type"
 #~ msgstr "Тип хранилище"
-
-#~ msgid "Submit"
-#~ msgstr "Изпрати"
 
 #~ msgid "Subscription"
 #~ msgstr "Абонамент"

@@ -25,7 +25,7 @@ msgstr " (Aldonu * al la fino de la kampo por kongruigi subĉenon)"
 msgid " has set the subject to: "
 msgstr " ŝanĝis la temon al: "
 
-#: src/mod_muc_admin.erl:1159
+#: src/mod_muc_admin.erl:1178
 msgid "# participants"
 msgstr "Nombro de partoprenantoj"
 
@@ -44,7 +44,7 @@ msgstr "Priskribo de la nodo"
 msgid "A friendly name for the node"
 msgstr "Kromnomo de la nodo"
 
-#: src/mod_muc_room.erl:2408
+#: src/mod_muc_room.erl:2411
 msgid "A password is required to enter this room"
 msgstr "Pasvorto estas bezonata por eniri ĉi tiun babilejon"
 
@@ -53,21 +53,21 @@ msgstr "Pasvorto estas bezonata por eniri ĉi tiun babilejon"
 msgid "API Commands"
 msgstr "Ordonoj"
 
-#: src/ejabberd_oauth.erl:554
+#: src/ejabberd_oauth.erl:562
 msgid "Accept"
 msgstr "Akcepti"
 
-#: src/mod_http_upload.erl:800 src/mod_announce.erl:282
+#: src/mod_http_upload.erl:787 src/mod_announce.erl:282
 #: src/mod_announce.erl:297 src/mod_announce.erl:350 src/mod_announce.erl:467
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:223
-#: src/mod_muc.erl:711 src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/ejabberd_c2s.erl:550
-#: src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Atingo rifuzita de serv-politiko"
 
@@ -75,7 +75,7 @@ msgstr "Atingo rifuzita de serv-politiko"
 msgid "Access model"
 msgstr "Atingomodelo"
 
-#: src/mod_register_web.erl:597
+#: src/mod_register_web.erl:598
 msgid "Account doesn't exist"
 msgstr "Konto ne ekzistas"
 
@@ -88,7 +88,7 @@ msgstr "Ago je uzanto"
 msgid "Add User"
 msgstr "Aldonu Uzanton"
 
-#: src/ejabberd_web_admin.erl:477
+#: src/ejabberd_web_admin.erl:479
 msgid "Administration"
 msgstr "Administro"
 
@@ -96,7 +96,7 @@ msgstr "Administro"
 msgid "Administration of "
 msgstr "Mastrumado de "
 
-#: src/mod_muc_room.erl:3106
+#: src/mod_muc_room.erl:3109
 msgid "Administrator privileges required"
 msgstr "Administrantaj rajtoj bezonata"
 
@@ -104,7 +104,7 @@ msgstr "Administrantaj rajtoj bezonata"
 msgid "All Users"
 msgstr "Ĉiuj Uzantoj"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:997
 msgid "All activity"
 msgstr "Ĉiu aktiveco"
 
@@ -165,7 +165,7 @@ msgid ""
 "deployment-specific definition of a group."
 msgstr ""
 
-#: src/mod_announce.erl:652 src/mod_announce.erl:1004 src/mod_announce.erl:1012
+#: src/mod_announce.erl:652 src/mod_announce.erl:1007 src/mod_announce.erl:1015
 msgid "Announcements"
 msgstr "Anoncoj"
 
@@ -233,13 +233,13 @@ msgstr ""
 msgid "April"
 msgstr "Aprilo"
 
-#: src/mod_adhoc_api.erl:412 src/mod_adhoc_api.erl:480
+#: src/mod_adhoc_api.erl:413 src/mod_adhoc_api.erl:481
 #, fuzzy
 msgid "Arguments"
 msgstr "Anoncoj"
 
-#: src/mod_muc_room.erl:4532 src/mod_muc_room.erl:4670
-#: src/mod_muc_room.erl:5099
+#: src/mod_muc_room.erl:4536 src/mod_muc_room.erl:4674
+#: src/mod_muc_room.erl:5103
 msgid "Assign a hat to a user"
 msgstr ""
 
@@ -271,6 +271,10 @@ msgstr "Aŭgusto"
 msgid "Automatic node creation is not enabled"
 msgstr ""
 
+#: src/mod_invites_http.erl:48
+msgid "BAD REQUEST"
+msgstr ""
+
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
 msgstr "Faru Sekurkopion"
@@ -279,7 +283,7 @@ msgstr "Faru Sekurkopion"
 msgid "Backup Management"
 msgstr "Mastrumado de sekurkopioj"
 
-#: src/ejabberd_web_admin.erl:1168
+#: src/ejabberd_web_admin.erl:1170
 msgid "Backup of ~p"
 msgstr "Sekurkopio de ~p"
 
@@ -287,7 +291,7 @@ msgstr "Sekurkopio de ~p"
 msgid "Backup to File at "
 msgstr "Faru sekurkopion je "
 
-#: src/ejabberd_web_admin.erl:1029
+#: src/ejabberd_web_admin.erl:1031
 msgid "Bad format"
 msgstr "Malĝusta formo"
 
@@ -321,8 +325,8 @@ msgstr ""
 msgid "Challenge ID"
 msgstr "Identigilo de Defio"
 
-#: src/mod_register_web.erl:204 src/mod_register_web.erl:376
-#: src/mod_register_web.erl:384 src/mod_register_web.erl:409
+#: src/mod_register_web.erl:205 src/mod_register_web.erl:377
+#: src/mod_register_web.erl:385 src/mod_register_web.erl:410
 msgid "Change Password"
 msgstr "Ŝanĝu pasvorton"
 
@@ -336,7 +340,7 @@ msgstr "Ŝanĝu pasvorton de uzanto"
 msgid "Changing password is not allowed"
 msgstr "Karaktroj ne permesata:"
 
-#: src/mod_muc_room.erl:3400
+#: src/mod_muc_room.erl:3403
 #, fuzzy
 msgid "Changing role/affiliation is not allowed"
 msgstr "Karaktroj ne permesata:"
@@ -358,7 +362,7 @@ msgstr "Kanalo ne ekzistas"
 msgid "Channels"
 msgstr "Kanaloj"
 
-#: src/mod_register_web.erl:259
+#: src/mod_register_web.erl:260
 msgid "Characters not allowed:"
 msgstr "Karaktroj ne permesata:"
 
@@ -382,7 +386,7 @@ msgstr "Babilejo lanĉita"
 msgid "Chatroom is stopped"
 msgstr "Babilejo haltita"
 
-#: src/mod_muc.erl:1435 src/mod_muc_admin.erl:1180
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
 msgid "Chatrooms"
 msgstr "Babilejoj"
 
@@ -408,17 +412,17 @@ msgstr "Urbo"
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
 
-#: src/mod_adhoc_api.erl:438
+#: src/mod_adhoc_api.erl:439
 msgid "Clustering"
 msgstr ""
 
-#: src/mod_muc_room.erl:4513 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4517 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Ordonoj"
 
-#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:629
-#: src/mod_muc.erl:653
+#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:630
+#: src/mod_muc.erl:654
 msgid "Conference room does not exist"
 msgstr "Babilejo ne ekzistas"
 
@@ -427,7 +431,7 @@ msgstr "Babilejo ne ekzistas"
 msgid "Configuration"
 msgstr "Agordo"
 
-#: src/mod_muc_room.erl:3848
+#: src/mod_muc_room.erl:3851
 msgid "Configuration of room ~s"
 msgstr "Agordo de babilejo ~s"
 
@@ -445,8 +449,12 @@ msgstr ""
 msgid "Country"
 msgstr "Lando"
 
-#: src/mod_muc_room.erl:4529 src/mod_muc_room.erl:4658
-#: src/mod_muc_room.erl:5068
+#: src/mod_invites.erl:456 src/mod_invites.erl:654
+msgid "Create Account"
+msgstr ""
+
+#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4662
+#: src/mod_muc_room.erl:5072
 msgid "Create a Hat"
 msgstr ""
 
@@ -463,13 +471,13 @@ msgid "Database Tables Configuration at "
 msgstr "Agordo de datumbaz-tabeloj je "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3852
-#: src/mod_pubsub.erl:3874 src/mod_pubsub.erl:3960 src/mod_pubsub.erl:4179
+#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
+#: src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965 src/mod_pubsub.erl:4184
 #: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
-#: src/mod_last.erl:185 src/mod_muc.erl:805 src/mod_muc.erl:1155
+#: src/mod_last.erl:185 src/mod_muc.erl:807 src/mod_muc.erl:1180
 #: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
@@ -512,8 +520,8 @@ msgstr "Liveru event-sciigojn"
 msgid "Deliver payloads with event notifications"
 msgstr "Liveru aĵojn de event-sciigoj"
 
-#: src/mod_muc_room.erl:4530 src/mod_muc_room.erl:4662
-#: src/mod_muc_room.erl:5085
+#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4666
+#: src/mod_muc_room.erl:5089
 msgid "Destroy a Hat"
 msgstr ""
 
@@ -527,7 +535,7 @@ msgstr "Forigu Uzanton"
 msgid "Disc only copy"
 msgstr "Nur disk-kopio"
 
-#: src/mod_register_web.erl:271
+#: src/mod_register_web.erl:272
 #, fuzzy
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
@@ -557,7 +565,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Redaktu atributojn"
 
-#: src/mod_muc_room.erl:5450
+#: src/mod_muc_room.erl:5449
 msgid "Either approve or decline the voice request."
 msgstr "Ĉu aprobu, aŭ malaprobu la voĉ-peton."
 
@@ -593,7 +601,7 @@ msgstr ""
 msgid "End User Session"
 msgstr "Haltigu Uzant-seancon"
 
-#: src/mod_muc.erl:1130
+#: src/mod_muc.erl:1132
 msgid "Enter nickname you want to register"
 msgstr "Enmetu kaŝnomon kiun vi volas registri"
 
@@ -627,16 +635,16 @@ msgstr "Erlang-a XMPP-Servilo"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Esceptu Ĵabber-identigilojn je CAPTCHA-defio"
 
-#: src/ejabberd_web_admin.erl:1205
+#: src/ejabberd_web_admin.erl:1207
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Eksportu ĉiuj tabeloj kiel SQL-informmendo al dosierujo:"
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1200
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Eksportu datumojn de ĉiuj uzantoj en servilo al PIEFXIS dosieroj (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1202
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr "Eksportu datumoj de uzantoj en gastigo al PIEFXIS dosieroj (XEP-0227):"
 
@@ -656,7 +664,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1315
+#: src/mod_muc_room.erl:1318
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Malsukcesis ekstrakti JID-on de via voĉ-pet-aprobo"
 
@@ -664,11 +672,11 @@ msgstr "Malsukcesis ekstrakti JID-on de via voĉ-pet-aprobo"
 msgid "Failed to map delegated namespace to external component"
 msgstr ""
 
-#: src/mod_http_upload.erl:865
+#: src/mod_http_upload.erl:852
 msgid "Failed to parse HTTP response"
 msgstr ""
 
-#: src/mod_muc_room.erl:3996
+#: src/mod_muc_room.erl:3999
 msgid "Failed to process option '~s'"
 msgstr ""
 
@@ -683,7 +691,7 @@ msgstr "Lasta Nomo"
 msgid "February"
 msgstr "Februaro"
 
-#: src/mod_http_upload.erl:811
+#: src/mod_http_upload.erl:798
 msgid "File larger than ~w bytes"
 msgstr "Dosiero pli granda ol ~w bajtoj"
 
@@ -795,7 +803,7 @@ msgstr "Persona Nomo"
 msgid "Grant voice to this person?"
 msgstr "Koncedu voĉon al ĉi-persono?"
 
-#: src/mod_http_upload.erl:210
+#: src/mod_http_upload.erl:188
 msgid "HTTP File Upload"
 msgstr ""
 
@@ -807,30 +815,35 @@ msgstr ""
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
-#: src/mod_muc_room.erl:5058 src/mod_muc_room.erl:5072
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5076
+#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5157
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5080
-#: src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5066 src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:5161
 #, fuzzy
 msgid "Hat hue"
 msgstr "Babilejo-nomo"
 
-#: src/mod_muc_room.erl:5060 src/mod_muc_room.erl:5076
-#: src/mod_muc_room.erl:5148
+#: src/mod_muc_room.erl:5064 src/mod_muc_room.erl:5080
+#: src/mod_muc_room.erl:5159
 #, fuzzy
 msgid "Hat title"
 msgstr "Babilejo-nomo"
 
-#: src/mod_muc_room.erl:5222
+#: src/mod_muc_room.erl:5217
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Trafikrapida limigo superita"
 
-#: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:595
+#: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
+#: src/mod_invites.erl:970
 msgid "Host unknown"
+msgstr ""
+
+#: src/mod_invites.erl:972
+msgid "Hostname invalid"
 msgstr ""
 
 #: src/mod_configure.erl:1636
@@ -866,15 +879,15 @@ msgstr "Importu uzantojn de jabberd14-uzantdosieroj"
 msgid "Import Users from Dir at "
 msgstr "Importu uzantojn de dosierujo ĉe "
 
-#: src/ejabberd_web_admin.erl:1215
+#: src/ejabberd_web_admin.erl:1217
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Importu uzantojn de jabberd14-uzantdosieroj"
 
-#: src/ejabberd_web_admin.erl:1196
+#: src/ejabberd_web_admin.erl:1198
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Importu uzanto-datumojn de PIEFXIS dosiero (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1219
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Importu uzantojn de jabberd14-uzantdosieroj"
 
@@ -886,23 +899,24 @@ msgstr ""
 msgid "Improper message type"
 msgstr "Malĝusta mesaĝo-tipo"
 
-#: src/mod_muc_room.erl:4715 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221
+#: src/mod_muc_room.erl:4719 src/mod_register.erl:192
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:254
 msgid "Incorrect CAPTCHA submit"
 msgstr "Neĝusta CAPTCHA-submeto"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3721 src/mod_muc.erl:1178
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3724 src/mod_muc.erl:1203
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
+#: src/mod_invites_register.erl:250
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Nekorekta pasvorto"
 
-#: src/mod_muc_room.erl:2458 src/mod_register_web.erl:593
+#: src/mod_muc_room.erl:2461 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "Nekorekta pasvorto"
 
-#: src/mod_muc_room.erl:5036 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5040 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
@@ -916,11 +930,11 @@ msgstr ""
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/ext_mod.erl:1342
+#: src/mod_invites_http.erl:233 src/ext_mod.erl:1305
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1418
+#: src/ext_mod.erl:1381
 #, fuzzy
 msgid "Installed Modules:"
 msgstr "Startu Modulojn"
@@ -942,17 +956,22 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "Nevalida rolo: ~s"
 
-#: src/mod_muc_room.erl:4565
+#: src/mod_muc_room.erl:4569
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Nevalida rolo: ~s"
 
-#: src/mod_muc_room.erl:5495
+#: src/mod_muc_room.erl:5494
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "Voĉ-petoj estas malebligita en jena babilejo"
 
-#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1499
+#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#, fuzzy
+msgid "Invite User"
+msgstr "Konektataj Uzantoj"
+
+#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1502
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -975,15 +994,15 @@ msgstr "Ĉi tiu serv-politiko ne permesas babilejo-kreadon"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_muc_room.erl:5103 src/mod_muc_room.erl:5121
-#: src/mod_muc_room.erl:5144 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+#: src/mod_muc_room.erl:5155 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1158
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1009,11 +1028,11 @@ msgstr "Julio"
 msgid "June"
 msgstr "Junio"
 
-#: src/mod_muc_admin.erl:1164
+#: src/mod_muc_admin.erl:1183
 msgid "Just created"
 msgstr "Ĵus kreita"
 
-#: src/ejabberd_web_admin.erl:948
+#: src/ejabberd_web_admin.erl:950
 msgid "Last Activity"
 msgstr "Lasta aktiveco"
 
@@ -1021,16 +1040,16 @@ msgstr "Lasta aktiveco"
 msgid "Last login"
 msgstr "Lasta ensaluto"
 
-#: src/mod_muc_admin.erl:1160
+#: src/mod_muc_admin.erl:1179
 #, fuzzy
 msgid "Last message"
 msgstr "Lasta jaro"
 
-#: src/ejabberd_web_admin.erl:992
+#: src/ejabberd_web_admin.erl:994
 msgid "Last month"
 msgstr "Lasta monato"
 
-#: src/ejabberd_web_admin.erl:993
+#: src/ejabberd_web_admin.erl:995
 msgid "Last year"
 msgstr "Lasta jaro"
 
@@ -1039,22 +1058,22 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_room.erl:4531 src/mod_muc_room.erl:4666
-#: src/mod_muc_room.erl:5055
+#: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4670
+#: src/mod_muc_room.erl:5059
 #, fuzzy
 msgid "List of Hats"
 msgstr "Atentataj pordoj"
 
-#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4678
-#: src/mod_muc_room.erl:5141
+#: src/mod_muc_room.erl:4538 src/mod_muc_room.erl:4682
+#: src/mod_muc_room.erl:5152
 msgid "List users with hats"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:164
+#: src/ejabberd_web_admin.erl:166
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:1163
+#: src/mod_muc_admin.erl:1182
 msgid "Logging"
 msgstr ""
 
@@ -1133,6 +1152,11 @@ msgstr "Limigo de nombro de partoprenantoj"
 msgid "Maximum file size"
 msgstr "Maksimuma grando de dosiero"
 
+#: src/mod_invites.erl:974
+#, fuzzy
+msgid "Maximum number of invites reached"
+msgstr "Maksimuma kiomo de eroj en konservado"
+
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 #, fuzzy
 msgid "Maximum number of items to persist"
@@ -1142,11 +1166,16 @@ msgstr "Maksimuma kiomo de eroj en konservado"
 msgid "May"
 msgstr "Majo"
 
-#: src/mod_muc_room.erl:2345
+#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
+#, fuzzy
+msgid "Members are allowed to invite others"
+msgstr "Nur partoprenantoj rajtas sendi informmendojn al la babilejoj"
+
+#: src/mod_muc_room.erl:2348
 msgid "Membership is required to enter this room"
 msgstr "Membreco estas bezonata por eniri ĉi tiun babilejon"
 
-#: src/mod_register_web.erl:282
+#: src/mod_register_web.erl:283
 #, fuzzy
 msgid ""
 "Memorize your password, or write it in a paper placed in a safe place. In "
@@ -1198,8 +1227,8 @@ msgstr "Minimuma intervalo inter voĉ-petoj (je sekundoj)"
 msgid "Moderator"
 msgstr "moderantoj sole"
 
-#: src/mod_muc_room.erl:3114 src/mod_muc_room.erl:4769
-#: src/mod_muc_room.erl:4825 src/mod_muc_room.erl:4883
+#: src/mod_muc_room.erl:3117 src/mod_muc_room.erl:4773
+#: src/mod_muc_room.erl:4829 src/mod_muc_room.erl:4887
 msgid "Moderator privileges required"
 msgstr "Moderantaj rajtoj bezonata"
 
@@ -1219,8 +1248,8 @@ msgstr "Modulo malsukcesis trakti la informpeton"
 msgid "Monday"
 msgstr "Lundo"
 
-#: src/mod_muc_admin.erl:777 src/mod_muc_admin.erl:780
-#: src/mod_muc_admin.erl:786 src/mod_muc_admin.erl:794
+#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
+#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
 msgid "Multi-User Chat"
 msgstr "Grupbabilado"
 
@@ -1231,6 +1260,10 @@ msgstr "Multicast"
 #: src/mod_roster.erl:172
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "RFC 6121 ne permesas plurajn <item/>-elementojn"
+
+#: src/mod_invites_http.erl:46
+msgid "NOT FOUND"
+msgstr ""
 
 #: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1246,11 +1279,11 @@ msgstr "Homa Lingvo por Diskutoj en Babilejo"
 msgid "Natural-Language Room Name"
 msgstr ""
 
-#: src/mod_muc_room.erl:3327
+#: src/mod_muc_room.erl:3330
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3096 src/mod_muc_room.erl:3332
+#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:3335
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
@@ -1260,7 +1293,7 @@ msgstr ""
 msgid "Never"
 msgstr "Neniam"
 
-#: src/mod_register_web.erl:400
+#: src/mod_register_web.erl:401
 msgid "New Password:"
 msgstr "Nova Pasvorto:"
 
@@ -1272,24 +1305,24 @@ msgstr "Nova Pasvorto:"
 msgid "Nickname"
 msgstr "Kaŝnomo"
 
-#: src/mod_muc.erl:1129
+#: src/mod_muc.erl:1131
 msgid "Nickname Registration at "
 msgstr "Kaŝnomo-registrado je "
 
-#: src/mod_muc_room.erl:1448 src/mod_muc_room.erl:2366
-#: src/mod_muc_room.erl:4792
+#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
+#: src/mod_muc_room.erl:4796
 msgid "Nickname can't be empty"
 msgstr ""
 
-#: src/mod_muc_room.erl:3344
+#: src/mod_muc_room.erl:3347
 msgid "Nickname ~s does not exist in the room"
 msgstr "Kaŝnomo ~s ne ekzistas en la babilejo"
 
-#: src/mod_muc_room.erl:3744
+#: src/mod_muc_room.erl:3747
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3078
+#: src/mod_muc_room.erl:3081
 #, fuzzy
 msgid "No 'item' element found"
 msgstr "Nodo ne trovita"
@@ -1308,7 +1341,7 @@ msgstr "Neniu pasvorto trovita en ĉi tiu informpeto"
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5491
+#: src/mod_muc_room.erl:5490
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1316,7 +1349,7 @@ msgstr ""
 msgid "No <forwarded/> element found"
 msgstr "Elemento <forwarded/> ne trovita"
 
-#: src/ejabberd_web_admin.erl:1081
+#: src/ejabberd_web_admin.erl:1083
 msgid "No Data"
 msgstr "Neniu datumo"
 
@@ -1336,7 +1369,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "Neniu teksto donita por anonc-mesaĝo"
 
-#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1342 src/gen_iq_handler.erl:89
 msgid "No child elements found"
 msgstr "Ida elemento ne trovita"
 
@@ -1361,17 +1394,17 @@ msgstr ""
 msgid "No items found in this query"
 msgstr "Neniu elemento <item/> trovita en ĉi tiu informpeto"
 
-#: src/mod_muc_room.erl:3866
+#: src/mod_muc_room.erl:3869
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Neniu limigo"
 
-#: src/mod_matrix_gw.erl:953 src/mod_matrix_gw.erl:967
-#: src/mod_http_upload.erl:770 src/mod_offline.erl:356
+#: src/mod_matrix_gw.erl:952 src/mod_matrix_gw.erl:966
+#: src/mod_http_upload.erl:757 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:253
-#: src/mod_muc.erl:683 src/mod_muc.erl:758 src/mod_muc.erl:778
-#: src/mod_muc.erl:809 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:684 src/mod_muc.erl:760 src/mod_muc.erl:780
+#: src/mod_muc.erl:811 src/mod_roster.erl:184 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1417,7 +1450,7 @@ msgstr ""
 msgid "Nobody"
 msgstr "neniu"
 
-#: src/mod_muc_admin.erl:1166
+#: src/mod_muc_admin.erl:1185
 #, fuzzy
 msgid "Node"
 msgstr "Nodoj"
@@ -1435,17 +1468,17 @@ msgstr ""
 msgid "Node index not found"
 msgstr "Nodo ne trovita"
 
-#: src/mod_matrix_gw.erl:951 src/mod_matrix_gw.erl:965
-#: src/mod_muc_room.erl:4515 src/mod_muc_room.erl:4549
-#: src/mod_muc_room.erl:4680 src/mod_muc_room.erl:4698
-#: src/mod_muc_room.erl:4702 src/mod_muc.erl:756 src/mod_muc.erl:1057
-#: src/ejabberd_web_admin.erl:638 src/nodetree_tree_sql.erl:132
+#: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
+#: src/mod_muc_room.erl:4519 src/mod_muc_room.erl:4553
+#: src/mod_muc_room.erl:4684 src/mod_muc_room.erl:4702
+#: src/mod_muc_room.erl:4706 src/mod_muc.erl:758 src/mod_muc.erl:1059
+#: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Nodo ne trovita"
 
-#: src/ejabberd_web_admin.erl:1145 src/ejabberd_web_admin.erl:1151
+#: src/ejabberd_web_admin.erl:1147 src/ejabberd_web_admin.erl:1153
 msgid "Node ~p"
 msgstr "Nodo ~p"
 
@@ -1453,7 +1486,7 @@ msgstr "Nodo ~p"
 msgid "Nodeprep has failed"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1537 src/ejabberd_web_admin.erl:1560
+#: src/ejabberd_web_admin.erl:1539 src/ejabberd_web_admin.erl:1562
 msgid "Nodes"
 msgstr "Nodoj"
 
@@ -1461,7 +1494,7 @@ msgstr "Nodoj"
 msgid "None"
 msgstr "Nenio"
 
-#: src/ejabberd_web_admin.erl:620
+#: src/ejabberd_web_admin.erl:622
 msgid "Not Found"
 msgstr "Ne trovita"
 
@@ -1546,11 +1579,6 @@ msgstr "Bone"
 msgid "Occupants May Change the Subject"
 msgstr "Permesu uzantojn ŝanĝi la temon"
 
-#: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-#, fuzzy
-msgid "Occupants are allowed to invite others"
-msgstr "Nur partoprenantoj rajtas sendi informmendojn al la babilejoj"
-
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:983
 #, fuzzy
 msgid "Occupants are allowed to query others"
@@ -1560,7 +1588,7 @@ msgstr "Nur partoprenantoj rajtas sendi informmendojn al la babilejoj"
 msgid "October"
 msgstr "Oktobro"
 
-#: src/mod_register_web.erl:396
+#: src/mod_register_web.erl:397
 msgid "Old Password:"
 msgstr "Malnova Pasvorto:"
 
@@ -1568,8 +1596,8 @@ msgstr "Malnova Pasvorto:"
 msgid "Online"
 msgstr "Konektata"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:597
-#: src/ejabberd_web_admin.erl:1534
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:599
+#: src/ejabberd_web_admin.erl:1536
 msgid "Online Users"
 msgstr "Konektataj Uzantoj"
 
@@ -1597,31 +1625,31 @@ msgstr "Nur liveru sciigojn al konektataj uzantoj"
 msgid "Only members may query archives of this room"
 msgstr "Nur moderigantoj rajtas ŝanĝi la temon en ĉi tiu babilejo"
 
-#: src/mod_muc_room.erl:1126
+#: src/mod_muc_room.erl:1129
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr ""
 "Nur moderigantoj kaj partoprenantoj rajtas ŝanĝi la temon en ĉi tiu babilejo"
 
-#: src/mod_muc_room.erl:1131
+#: src/mod_muc_room.erl:1134
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Nur moderigantoj rajtas ŝanĝi la temon en ĉi tiu babilejo"
 
-#: src/mod_muc_room.erl:5404
+#: src/mod_muc_room.erl:5403
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "Nur servo-administrantoj rajtas sendi serv-mesaĝojn"
 
-#: src/mod_muc_room.erl:1322
+#: src/mod_muc_room.erl:1325
 msgid "Only moderators can approve voice requests"
 msgstr "Nur moderigantoj povas aprobi voĉ-petojn"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1145 src/mod_muc_room.erl:5560
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1148 src/mod_muc_room.erl:5559
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Nur partoprenantoj rajtas sendi mesaĝojn al la babilejo"
 
-#: src/mod_muc_room.erl:711
+#: src/mod_muc_room.erl:714
 msgid "Only occupants are allowed to send queries to the conference"
 msgstr "Nur partoprenantoj rajtas sendi informmendojn al la babilejoj"
 
@@ -1658,7 +1686,7 @@ msgstr "Organiz-nomo"
 msgid "Organization Unit"
 msgstr "Organiz-parto"
 
-#: src/ext_mod.erl:1422
+#: src/ext_mod.erl:1385
 msgid "Other Modules Available:"
 msgstr ""
 
@@ -1668,9 +1696,9 @@ msgstr "Elirantaj s-al-s-konektoj"
 
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
-#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3328 src/mod_pubsub.erl:3495
-#: src/mod_muc_room.erl:3691 src/mod_muc_room.erl:3736
-#: src/mod_muc_room.erl:4745 src/mod_mix.erl:678
+#: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
+#: src/mod_muc_room.erl:3694 src/mod_muc_room.erl:3739
+#: src/mod_muc_room.erl:4749 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Mastraj rajtoj bezonata"
 
@@ -1689,10 +1717,11 @@ msgstr ""
 msgid "Participant ID"
 msgstr "Nombro de partoprenantoj"
 
-#: src/ejabberd_oauth.erl:537 src/mod_configure.erl:1075
+#: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:233
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
+#: priv/mod_invites/register.html:50 priv/mod_invites/register_success.html:85
 msgid "Password"
 msgstr "Pasvorto"
 
@@ -1700,11 +1729,11 @@ msgstr "Pasvorto"
 msgid "Password Verification"
 msgstr "Pasvortkontrolo"
 
-#: src/mod_register_web.erl:288 src/mod_register_web.erl:404
+#: src/mod_register_web.erl:289 src/mod_register_web.erl:405
 msgid "Password Verification:"
 msgstr "Pasvortkontrolo:"
 
-#: src/mod_register_web.erl:265 src/mod_register_web.erl:507
+#: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
 msgstr "Pasvorto:"
 
@@ -1721,7 +1750,7 @@ msgstr "Voje de dosiero"
 msgid "Payload semantic type information"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:979
+#: src/ejabberd_web_admin.erl:981
 msgid "Period: "
 msgstr "Periodo: "
 
@@ -1730,7 +1759,7 @@ msgstr "Periodo: "
 msgid "Persist items to storage"
 msgstr "Savu erojn en konservado"
 
-#: src/mod_muc_admin.erl:1162
+#: src/mod_muc_admin.erl:1181
 #, fuzzy
 msgid "Persistent"
 msgstr "Farigu babilejon daŭra"
@@ -1743,7 +1772,7 @@ msgstr "Sondaĵo"
 msgid "Ping query is incorrect"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1172
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1753,7 +1782,7 @@ msgstr ""
 "Se vi uzas la ODBC-modulon, vi ankaŭ devas sekurkopii tiujn SQL-datumbazoj "
 "aparte."
 
-#: src/mod_muc_room.erl:1283
+#: src/mod_muc_room.erl:1286
 msgid "Please, wait for a while before sending new voice request"
 msgstr "Bonvolu atendi iomete antaŭ ol sendi plian voĉ-peton"
 
@@ -1794,7 +1823,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "PubAbo abonpeto"
 
-#: src/mod_muc_admin.erl:1161
+#: src/mod_muc_admin.erl:1180
 msgid "Public"
 msgstr ""
 
@@ -1802,7 +1831,7 @@ msgstr ""
 msgid "Publish model"
 msgstr "Publici modelon"
 
-#: src/mod_pubsub.erl:4326
+#: src/mod_pubsub.erl:4331
 msgid "Publish-Subscribe"
 msgstr "Publici-Aboni"
 
@@ -1816,7 +1845,7 @@ msgstr "Forigu ĉiujn erojn kiam la rilata publicanto malkonektiĝas"
 msgid "Push record not found"
 msgstr "Nodo ne trovita"
 
-#: src/mod_muc_room.erl:706
+#: src/mod_muc_room.erl:709
 msgid "Queries to the conference members are not allowed in this room"
 msgstr "Malpermesas informmendoj al partoprenantoj en ĉi tiu babilejo"
 
@@ -1860,16 +1889,16 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:679
+#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:682
 msgid "Recipient is not in the conference room"
 msgstr "Ricevanto ne ĉeestas en la babilejo"
 
-#: src/mod_register_web.erl:295
+#: src/mod_register_web.erl:296
 msgid "Register"
 msgstr "Registru"
 
-#: src/mod_register_web.erl:202 src/mod_register_web.erl:230
-#: src/mod_register_web.erl:238
+#: src/mod_register_web.erl:203 src/mod_register_web.erl:231
+#: src/mod_register_web.erl:239
 #, fuzzy
 msgid "Register an XMPP account"
 msgstr "Registru XMPP-konton"
@@ -1882,8 +1911,8 @@ msgstr "Fora kopio"
 msgid "Remove User"
 msgstr "Forigu uzanton"
 
-#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4674
-#: src/mod_muc_room.erl:5117
+#: src/mod_muc_room.erl:4537 src/mod_muc_room.erl:4678
+#: src/mod_muc_room.erl:5121
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1891,12 +1920,12 @@ msgstr ""
 msgid "Replaced by new connection"
 msgstr "Anstataŭigita je nova konekto"
 
-#: src/mod_muc_room.erl:245 src/mod_muc_room.erl:254 src/mod_muc_room.erl:971
+#: src/mod_muc_room.erl:245 src/mod_muc_room.erl:254 src/mod_muc_room.erl:974
 #: src/mod_mix_pam.erl:348
 msgid "Request has timed out"
 msgstr ""
 
-#: src/mod_muc_room.erl:857 src/mod_muc_room.erl:872
+#: src/mod_muc_room.erl:860 src/mod_muc_room.erl:875
 msgid "Request is ignored"
 msgstr ""
 
@@ -1922,20 +1951,20 @@ msgstr "Restaŭru"
 msgid "Restore Backup from File at "
 msgstr "Restaŭrigu de dosiero el "
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1185
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr "Restaŭrigu duuman sekurkopion post sekvonta ejabberd-restarto"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1183
 msgid "Restore binary backup immediately:"
 msgstr "Restaŭrigu duuman sekurkopion tuj:"
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1193
 msgid "Restore plain text backup immediately:"
 msgstr "Restaŭrigu sekurkopion el plata tekstdosiero tuj"
 
-#: src/mod_adhoc_api.erl:519
+#: src/mod_adhoc_api.erl:520
 msgid "Result"
 msgstr ""
 
@@ -1961,7 +1990,7 @@ msgstr "Babilejo-agordo"
 msgid "Room Occupants"
 msgstr "Nombro de ĉeestantoj"
 
-#: src/mod_muc.erl:647
+#: src/mod_muc.erl:648
 msgid "Room creation is denied by service policy"
 msgstr "Ĉi tiu serv-politiko ne permesas babilejo-kreadon"
 
@@ -1971,12 +2000,12 @@ msgstr "Ĉi tiu serv-politiko ne permesas babilejo-kreadon"
 msgid "Room description"
 msgstr "Babilejo-priskribo"
 
-#: src/mod_muc_room.erl:998
+#: src/mod_muc_room.erl:1001
 #, fuzzy
 msgid "Room terminates"
 msgstr "Babilejo-nomo"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1165
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Babilejo-nomo"
@@ -2044,8 +2073,8 @@ msgstr "Sendu anoncon al ĉiu uzanto de ĉiu gastigo"
 msgid "September"
 msgstr "Septembro"
 
-#: src/mod_register_web.erl:262 src/mod_register_web.erl:393
-#: src/mod_register_web.erl:504
+#: src/mod_register_web.erl:263 src/mod_register_web.erl:394
+#: src/mod_register_web.erl:505
 msgid "Server:"
 msgstr "Servilo:"
 
@@ -2070,7 +2099,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Komuna Kontaktlist-grupo"
 
-#: src/ejabberd_web_admin.erl:1001
+#: src/ejabberd_web_admin.erl:1003
 msgid "Show Integral Table"
 msgstr "Montru integran tabelon"
 
@@ -2078,7 +2107,7 @@ msgstr "Montru integran tabelon"
 msgid "Show Occupants Join/Leave"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:998
+#: src/ejabberd_web_admin.erl:1000
 msgid "Show Ordinary Table"
 msgstr "Montru ordinaran tabelon"
 
@@ -2088,7 +2117,7 @@ msgstr "Montru ordinaran tabelon"
 msgid "Shut Down Service"
 msgstr "Haltigu Servon"
 
-#: src/mod_register_web.erl:278
+#: src/mod_register_web.erl:279
 #, fuzzy
 msgid ""
 "Some XMPP clients can store your password in the computer, but you should do "
@@ -2097,7 +2126,7 @@ msgstr ""
 "Kelkaj XMPP-klientoj povas memori vian pasvorton je via komputilo. Nur uzu "
 "tiun eblon se vi fidas ke via komputilo estas sekura."
 
-#: src/ext_mod.erl:1411
+#: src/ext_mod.erl:1374
 msgid "Sources Specs:"
 msgstr ""
 
@@ -2120,7 +2149,7 @@ msgstr "Enmetu publikadan modelon"
 msgid "Stanza ID"
 msgstr ""
 
-#: src/mod_muc_room.erl:5439
+#: src/mod_muc_room.erl:5438
 msgid "Stanza id is not valid"
 msgstr ""
 
@@ -2133,11 +2162,11 @@ msgstr ""
 msgid "Stopped Nodes"
 msgstr "Neaktivaj Nodoj"
 
-#: src/ejabberd_web_admin.erl:1179
+#: src/ejabberd_web_admin.erl:1181
 msgid "Store binary backup:"
 msgstr "Konservu duuman sekurkopion:"
 
-#: src/ejabberd_web_admin.erl:1189
+#: src/ejabberd_web_admin.erl:1191
 msgid "Store plain text backup:"
 msgstr "Skribu sekurkopion en plata tekstdosiero"
 
@@ -2154,7 +2183,7 @@ msgstr ""
 msgid "Subject"
 msgstr "Temo"
 
-#: src/ejabberd_web_admin.erl:1028 src/ext_mod.erl:1153
+#: src/ejabberd_web_admin.erl:1030 src/ext_mod.erl:1124
 msgid "Submitted"
 msgstr "Sendita"
 
@@ -2176,7 +2205,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4756
+#: src/mod_muc_room.erl:4760
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2200,13 +2229,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1439 src/mod_muc_room.erl:2355
-#: src/mod_muc_room.erl:4782
+#: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2358
+#: src/mod_muc_room.erl:4786
 msgid "That nickname is already in use by another occupant"
 msgstr "Tiu kaŝnomo jam estas uzata de alia partoprenanto"
 
-#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
-#: src/mod_muc_room.erl:4796 src/mod_muc.erl:1152
+#: src/mod_muc_room.erl:1454 src/mod_muc_room.erl:2372
+#: src/mod_muc_room.erl:4800 src/mod_muc.erl:1177
 msgid "That nickname is registered by another person"
 msgstr "Kaŝnomo estas registrita de alia persono"
 
@@ -2214,8 +2243,9 @@ msgstr "Kaŝnomo estas registrita de alia persono"
 msgid "The CAPTCHA is valid."
 msgstr "La CAPTCHA ĝustas."
 
-#: src/mod_muc_room.erl:950 src/mod_muc_room.erl:4718 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4722 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
+#: src/mod_invites_register.erl:257
 msgid "The CAPTCHA verification has failed"
 msgstr "La CAPTCHA-kontrolado malsukcesis"
 
@@ -2260,11 +2290,11 @@ msgid ""
 "using a generic Data Forms rendering engine"
 msgstr ""
 
-#: src/mod_register_web.erl:591
+#: src/mod_register_web.erl:592
 msgid "The account already exists"
 msgstr ""
 
-#: src/mod_register_web.erl:599
+#: src/mod_register_web.erl:600
 #, fuzzy
 msgid "The account was not unregistered"
 msgstr "Via Ĵabber-konto estas sukcese forigita."
@@ -2273,7 +2303,7 @@ msgstr "Via Ĵabber-konto estas sukcese forigita."
 msgid "The body text of the last received message"
 msgstr ""
 
-#: src/mod_register_web.erl:589
+#: src/mod_register_web.erl:590
 msgid "The captcha you entered is wrong"
 msgstr "La CAPTCHA enigita de vi malĝustas"
 
@@ -2380,17 +2410,17 @@ msgstr ""
 msgid "The password is too weak"
 msgstr "La pasvorto estas ne sufiĉe forta"
 
-#: src/mod_register_web.erl:134
+#: src/mod_register_web.erl:135
 #, fuzzy
 msgid "The password of your XMPP account was successfully changed."
 msgstr "La pasvorto de via XMPP-konto estas sukcese ŝanĝata."
 
-#: src/mod_register_web.erl:601
+#: src/mod_register_web.erl:602
 #, fuzzy
 msgid "The password was not changed"
 msgstr "La pasvorto estas ne sufiĉe forta"
 
-#: src/mod_register_web.erl:603
+#: src/mod_register_web.erl:604
 #, fuzzy
 msgid "The passwords are different"
 msgstr "La pasvorto estas ne sufiĉe forta"
@@ -2407,7 +2437,7 @@ msgstr "La informpeto estas permesita nur de lokaj uzantoj"
 msgid "The query must not contain <item/> elements"
 msgstr "La informpeto devas ne enhavi elementojn <item/>"
 
-#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
+#: src/mod_muc_room.erl:5111 src/mod_muc_room.erl:5129
 msgid "The role"
 msgstr ""
 
@@ -2436,25 +2466,29 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
-#: src/mod_register_web.erl:138
+#: src/mod_invites_register.erl:206
+msgid "The token provided is either invalid or expired."
+msgstr ""
+
+#: src/mod_register_web.erl:139
 #, fuzzy
 msgid "There was an error changing the password: "
 msgstr "Estis eraro dum kreado de la konto:"
 
-#: src/mod_register_web.erl:110
+#: src/mod_register_web.erl:111
 msgid "There was an error creating the account: "
 msgstr "Estis eraro dum kreado de la konto:"
 
-#: src/mod_register_web.erl:123
+#: src/mod_register_web.erl:124
 msgid "There was an error deleting the account: "
 msgstr "Estis eraro dum forigado de la konto:"
 
-#: src/mod_register_web.erl:256
+#: src/mod_register_web.erl:257
 #, fuzzy
 msgid "This is case insensitive: macbeth is the same that MacBeth and Macbeth."
 msgstr "Uskleco ne signifas: macbeth estas la sama ol MacBeth kaj Macbeth."
 
-#: src/mod_register_web.erl:240
+#: src/mod_register_web.erl:241
 #, fuzzy
 msgid ""
 "This page allows to register an XMPP account in this XMPP server. Your JID "
@@ -2465,7 +2499,7 @@ msgstr ""
 "IDentigilo) estos ĉi-tiel: uzantnomo@servilo. Bonvolu legu bone la "
 "instrukciojn por korekta enmetigo de la kampoj. "
 
-#: src/mod_register_web.erl:494
+#: src/mod_register_web.erl:495
 #, fuzzy
 msgid "This page allows to unregister an XMPP account in this XMPP server."
 msgstr "Jena pagxo ebligas malregistri Jxabber-konton je ĉi-servilo."
@@ -2499,7 +2533,7 @@ msgstr ""
 msgid "To ~ts"
 msgstr "Al ~s"
 
-#: src/ejabberd_oauth.erl:545
+#: src/ejabberd_oauth.erl:553
 msgid "Token TTL"
 msgstr ""
 
@@ -2511,7 +2545,7 @@ msgstr ""
 "Tro da malsukcesaj aŭtentprovoj (~p) de ĉi tiu IP-adreso (~s). La adreso "
 "estos malbarata je ~s UTC."
 
-#: src/mod_muc_room.erl:3083 src/mod_muc_room.erl:3750
+#: src/mod_muc_room.erl:3086 src/mod_muc_room.erl:3753
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2519,7 +2553,7 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_muc_room.erl:2439 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2442 src/mod_register.erl:250
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Tro multaj CAPTCHA-petoj"
@@ -2529,7 +2563,7 @@ msgstr "Tro multaj CAPTCHA-petoj"
 msgid "Too many active bytestreams"
 msgstr "Tro da neagnoskitaj stancoj"
 
-#: src/mod_muc_room.erl:1341 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1344 src/gen_iq_handler.erl:90
 #, fuzzy
 msgid "Too many child elements"
 msgstr "Tro da neagnoskitaj stancoj"
@@ -2542,7 +2576,7 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr "Tro da neagnoskitaj stancoj"
 
-#: src/mod_muc_room.erl:2314
+#: src/mod_muc_room.erl:2317
 #, fuzzy
 msgid "Too many users in this conference"
 msgstr "Voĉ-petoj estas malebligita en jena babilejo"
@@ -2559,7 +2593,7 @@ msgstr "Mardo"
 msgid "URL for Archived Discussion Logs"
 msgstr "Retpaĝa adreso de Enarkivigitaj Diskutprotokoloj"
 
-#: src/mod_muc_room.erl:2448 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2451 src/mod_register.erl:254
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Ne eblis krei CAPTCHA"
@@ -2568,11 +2602,11 @@ msgstr "Ne eblis krei CAPTCHA"
 msgid "Unable to register route on existing local domain"
 msgstr ""
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:232
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:234
 msgid "Unauthorized"
 msgstr "Nepermesita"
 
-#: src/mod_adhoc_api.erl:350 src/mod_announce.erl:538 src/mod_configure.erl:852
+#: src/mod_adhoc_api.erl:351 src/mod_announce.erl:538 src/mod_configure.erl:852
 #: src/mod_configure.erl:1737
 msgid "Unexpected action"
 msgstr ""
@@ -2581,16 +2615,16 @@ msgstr ""
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
-#: src/ext_mod.erl:1324
+#: src/ext_mod.erl:1287
 msgid "Uninstall"
 msgstr ""
 
-#: src/mod_register_web.erl:512
+#: src/mod_register_web.erl:513
 msgid "Unregister"
 msgstr "Malregistru"
 
-#: src/mod_register_web.erl:207 src/mod_register_web.erl:484
-#: src/mod_register_web.erl:492
+#: src/mod_register_web.erl:208 src/mod_register_web.erl:485
+#: src/mod_register_web.erl:493
 #, fuzzy
 msgid "Unregister an XMPP account"
 msgstr "Malregistru XMPP-konton"
@@ -2603,7 +2637,7 @@ msgstr ""
 msgid "Unsupported version"
 msgstr ""
 
-#: src/ext_mod.erl:1416
+#: src/ext_mod.erl:1379
 #, fuzzy
 msgid "Update Specs"
 msgstr "Ĝisdatigu ~p-n"
@@ -2616,7 +2650,7 @@ msgstr "Ŝanĝu mesaĝon de la tago (ne sendu)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Ŝanĝu mesaĝon de la tago je ĉiu gastigo (ne sendu)"
 
-#: src/ext_mod.erl:1406
+#: src/ext_mod.erl:1369
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
@@ -2624,7 +2658,7 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 
-#: src/ext_mod.erl:1327
+#: src/ext_mod.erl:1290
 msgid "Upgrade"
 msgstr ""
 
@@ -2633,7 +2667,7 @@ msgstr ""
 msgid "User"
 msgstr "Uzanto"
 
-#: src/ejabberd_oauth.erl:534
+#: src/ejabberd_oauth.erl:542
 #, fuzzy
 msgid "User (jid)"
 msgstr "Uzant-JID"
@@ -2647,7 +2681,7 @@ msgstr "Uzant-JID"
 msgid "User Management"
 msgstr "Uzanto-administrado"
 
-#: src/mod_register.erl:407
+#: src/mod_register.erl:407 src/mod_invites.erl:978
 msgid "User already exists"
 msgstr ""
 
@@ -2668,22 +2702,31 @@ msgstr "Nodo ne trovita"
 msgid "User session terminated"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:1024
+#: src/ejabberd_web_admin.erl:1026
 #, fuzzy
 msgid "User ~ts"
 msgstr "Uzanto ~s"
 
-#: src/mod_register_web.erl:250 src/mod_register_web.erl:389
-#: src/mod_register_web.erl:500
+#: src/mod_invites.erl:968
+#, fuzzy
+msgid "Username invalid"
+msgstr "Uzantnomo"
+
+#: src/mod_invites.erl:976
+msgid "Username is reserved"
+msgstr ""
+
+#: src/mod_register_web.erl:251 src/mod_register_web.erl:390
+#: src/mod_register_web.erl:501
 msgid "Username:"
 msgstr "Uzantnomo"
 
-#: src/ejabberd_web_admin.erl:569 src/ejabberd_web_admin.erl:577
-#: src/ejabberd_web_admin.erl:583 src/ejabberd_web_admin.erl:1533
+#: src/ejabberd_web_admin.erl:571 src/ejabberd_web_admin.erl:579
+#: src/ejabberd_web_admin.erl:585 src/ejabberd_web_admin.erl:1535
 msgid "Users"
 msgstr "Uzantoj"
 
-#: src/ejabberd_web_admin.erl:606
+#: src/ejabberd_web_admin.erl:608
 msgid "Users Last Activity"
 msgstr "Lasta aktiveco de uzanto"
 
@@ -2691,17 +2734,17 @@ msgstr "Lasta aktiveco de uzanto"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Ne estas permesata al uzantoj registri tiel rapide"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4708 src/mod_muc_room.erl:4887
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4712 src/mod_muc_room.erl:4891
 #: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
-#: src/mod_matrix_gw.erl:939 src/mod_matrix_gw.erl:958 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4492
-#: src/mod_muc_room.erl:4628 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4496
+#: src/mod_muc_room.erl:4632 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
-#: src/mod_muc.erl:680 src/mod_muc.erl:718 src/mod_muc.erl:763
-#: src/mod_muc.erl:783 src/mod_muc.erl:793 src/mod_disco.erl:101
+#: src/mod_muc.erl:681 src/mod_muc.erl:719 src/mod_muc.erl:765
+#: src/mod_muc.erl:785 src/mod_muc.erl:795 src/mod_disco.erl:101
 #: src/mod_disco.erl:117 src/mod_disco.erl:223 src/mod_disco.erl:275
 #: src/mod_time.erl:53 src/mod_sic.erl:61 src/mod_sic.erl:73
 #: src/mod_vcard.erl:215 src/mod_vcard.erl:258 src/mod_version.erl:53
@@ -2729,7 +2772,7 @@ msgstr ""
 msgid "View joined MIX channels"
 msgstr "Eniras IRC-babilejon"
 
-#: src/ejabberd_web_admin.erl:554 src/ejabberd_web_admin.erl:1559
+#: src/ejabberd_web_admin.erl:556 src/ejabberd_web_admin.erl:1561
 msgid "Virtual Hosts"
 msgstr "Virtual-gastigoj"
 
@@ -2737,20 +2780,20 @@ msgstr "Virtual-gastigoj"
 msgid "Visitor"
 msgstr ""
 
-#: src/mod_muc_room.erl:1432
+#: src/mod_muc_room.erl:1435
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr ""
 "Ne estas permesata al vizitantoj ŝanĝi siajn kaŝnomojn en ĉi tiu ĉambro"
 
-#: src/mod_muc_room.erl:1138
+#: src/mod_muc_room.erl:1141
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Vizitantoj ne rajtas sendi mesaĝojn al ĉiuj partoprenantoj"
 
-#: src/mod_muc_room.erl:5448
+#: src/mod_muc_room.erl:5447
 msgid "Voice request"
 msgstr "Voĉ-peto"
 
-#: src/mod_muc_room.erl:1290
+#: src/mod_muc_room.erl:1293
 msgid "Voice requests are disabled in this conference"
 msgstr "Voĉ-petoj estas malebligita en jena babilejo"
 
@@ -2831,7 +2874,7 @@ msgstr "Permesu uzantojn sendi privatajn mesaĝojn"
 msgid "Who may associate leaf nodes with a collection"
 msgstr ""
 
-#: src/mod_register_web.erl:605
+#: src/mod_register_web.erl:606
 msgid "Wrong parameters in the web formulary"
 msgstr ""
 
@@ -2839,11 +2882,11 @@ msgstr ""
 msgid "Wrong xmlns"
 msgstr "Malĝusta XML-nomspaco (xmlns)"
 
-#: src/mod_register_web.erl:191 src/mod_register_web.erl:199
+#: src/mod_register_web.erl:192 src/mod_register_web.erl:200
 msgid "XMPP Account Registration"
 msgstr "Registrado de XMPP-Konto"
 
-#: src/ejabberd_web_admin.erl:556
+#: src/ejabberd_web_admin.erl:558
 msgid "XMPP Domains"
 msgstr ""
 
@@ -2869,7 +2912,7 @@ msgstr ""
 msgid "XMPP URI of Associated Publish-Subscribe Node"
 msgstr "ejabberd Public-Abonada modulo"
 
-#: src/mod_muc_room.erl:996
+#: src/mod_muc_room.erl:999
 #, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
 msgstr "estas forpelita pro sistem-haltigo"
@@ -2884,20 +2927,20 @@ msgstr "Ne estas permesata sendi privatajn mesaĝojn"
 msgid "You are not joined to the channel"
 msgstr "Ne estas permesata sendi privatajn mesaĝojn"
 
-#: src/mod_register_web.erl:275
+#: src/mod_register_web.erl:276
 #, fuzzy
 msgid "You can later change your password using an XMPP client."
 msgstr "Poste vi povas ŝanĝi vian pasvorton per XMPP-kliento."
 
-#: src/mod_muc_room.erl:2342 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2345 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Vi estas malpermesata en ĉi tiu babilejo"
 
-#: src/mod_muc_room.erl:2323
+#: src/mod_muc_room.erl:2326
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1183
+#: src/mod_muc.erl:1208
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Vi devas kompletigi la \"Kaŝnomo\" kampon"
 
@@ -2907,7 +2950,7 @@ msgstr ""
 "Vi bezonas klienton subtenante x:data-funkcio kaj CAPTCHA por registri "
 "kaŝnomon"
 
-#: src/mod_muc.erl:1138
+#: src/mod_muc.erl:1140
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "Vi bezonas klienton subtenante x:data-funkcio por registri kaŝnomon"
 
@@ -2920,12 +2963,12 @@ msgstr "Vi bezonas klienton kun x:data-funkcio por serĉado"
 msgid "You're not allowed to create nodes"
 msgstr "Ne estas permesata sendi privatajn mesaĝojn"
 
-#: src/mod_register_web.erl:106
+#: src/mod_register_web.erl:107
 #, fuzzy
 msgid "Your XMPP account was successfully registered."
 msgstr "Via XMPP-konto estas sukcese forigita."
 
-#: src/mod_register_web.erl:119
+#: src/mod_register_web.erl:120
 #, fuzzy
 msgid "Your XMPP account was successfully unregistered."
 msgstr "Via XMPP-konto estas sukcese forigita."
@@ -2951,12 +2994,12 @@ msgstr "Viaj mesaĝoj al ~s estas blokata. Por malbloki ilin, iru al ~s"
 msgid "ejabberd"
 msgstr "ejabberd"
 
-#: src/mod_http_upload.erl:752
+#: src/mod_http_upload.erl:739
 #, fuzzy
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd Multicast-servo"
 
-#: src/mod_muc.erl:674
+#: src/mod_muc.erl:675
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUC-modulo"
 
@@ -2972,7 +3015,7 @@ msgstr "ejabberd Public-Abonada modulo"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "ejabberd SOCKS5 Bajtfluo modulo"
 
-#: src/ejabberd_web_admin.erl:316
+#: src/ejabberd_web_admin.erl:318
 msgid "ejabberd Web Admin"
 msgstr "ejabberd Teksaĵa Administro"
 
@@ -2984,7 +3027,7 @@ msgstr "ejabberd vCard-modulo"
 msgid "has been banned"
 msgstr "estas forbarita"
 
-#: src/ejabberd_sm.erl:486 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
+#: src/ejabberd_sm.erl:489 src/mod_muc_log.erl:405 src/mod_muc_log.erl:408
 msgid "has been kicked"
 msgstr "estas forpelita"
 
@@ -3012,11 +3055,11 @@ msgstr "eniras la babilejo"
 msgid "leaves the room"
 msgstr "eliras la babilejo"
 
-#: src/mod_muc_room.erl:4942
+#: src/mod_muc_room.erl:4946
 msgid "private, "
 msgstr "privata, "
 
-#: src/mod_muc_room.erl:5524
+#: src/mod_muc_room.erl:5523
 msgid "the password is"
 msgstr "la pasvorto estas"
 
@@ -3024,7 +3067,7 @@ msgstr "la pasvorto estas"
 msgid "vCard User Search"
 msgstr "Serĉado de vizitkartoj"
 
-#: src/mod_muc_room.erl:5517
+#: src/mod_muc_room.erl:5516
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s invitas vin al la babilejo ~s"
@@ -3037,6 +3080,397 @@ msgstr ""
 #, fuzzy
 msgid "~ts's Offline Messages Queue"
 msgstr "Mesaĝo-atendovico de ~s"
+
+#: priv/mod_invites/client.html:4
+msgid "Join {{ site_name }} with {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:8
+msgid "Sad person holding empty box"
+msgstr ""
+
+#: priv/mod_invites/apps.html:25
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
+"a>"
+msgstr ""
+
+#: priv/mod_invites/apps.json:129
+msgid "Download Gajim"
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:6
+msgid "Sorry, it looks like this invite code has expired!"
+msgstr ""
+
+#: priv/mod_invites/client.html:53
+msgid ""
+"After successfully installing {{ app_name }}, come back to this page and "
+"<strong>continue with Step 2</strong>."
+msgstr ""
+
+#: priv/mod_invites/register.html:35
+#, fuzzy
+msgid "Username"
+msgstr "Uzantnomo"
+
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:50
+msgid "Download and install {{ app_name }} below:"
+msgstr ""
+
+#: priv/mod_invites/apps.json:142
+msgid "A fully-featured desktop chat client for Windows and Linux."
+msgstr ""
+
+#: priv/mod_invites/roster.html:8
+msgid ""
+"This is an invite from <strong>{{ inviter }}</strong> to connect and chat on "
+"the XMPP network. If you already have an XMPP client installed just press "
+"the button below!"
+msgstr ""
+
+#: priv/mod_invites/register.html:20
+msgid "Open the app"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:26
+msgid "You have created an account on <strong>{{ site_name }}</strong>."
+msgstr ""
+
+#: priv/mod_invites/client.html:9
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"{{ site_name }}, part of the XMPP secure and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/register_error.html:4
+#, fuzzy
+msgid "Registration error"
+msgstr "Registraĵo en mod_irc de "
+
+#: priv/mod_invites/register_success.html:69
+msgid "Step 2: Connect {{ app_name }} to your new account"
+msgstr ""
+
+#: priv/mod_invites/invite.html:7
+msgid ""
+"You have been invited to chat on <strong>{{ site_name }}</strong>, part of "
+"the XMPP secure and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:74
+msgid "As a final reminder, your account details are shown below:"
+msgstr ""
+
+#: priv/mod_invites/client.html:15
+msgid ""
+"You can start chatting right away with {{ app_name }}. Let's get started!"
+msgstr ""
+
+#: priv/mod_invites/client.html:57
+msgid ""
+"Installed ok? Great! <strong>Click or tap the button below</strong> to "
+"accept your invite and continue with your account setup:"
+msgstr ""
+
+#: priv/mod_invites/invite.html:10
+#, fuzzy
+msgid "Get started"
+msgstr "Restartu"
+
+#: priv/mod_invites/register_success.html:24
+#, fuzzy
+msgid "Congratulations!"
+msgstr "Agordo"
+
+#: priv/mod_invites/base.html:13
+msgid "Scan with mobile device"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:46
+msgid "You can now set up {{ app_name }} and connect it to your new account."
+msgstr ""
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with <strong>{{ inviter }}</"
+"strong> and other people on <strong>{{ site_name }}</strong> and other "
+"services on the XMPP network."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:13
+msgid "Hide"
+msgstr ""
+
+#: priv/mod_invites/client.html:63
+msgid ""
+"After clicking the button you will be taken to {{ app_name }} to finish "
+"setting up your new {{ site_name }} account."
+msgstr ""
+
+#: priv/mod_invites/roster.html:10
+msgid "Add {{ inviter }} to your contact list"
+msgstr ""
+
+#: priv/mod_invites/invite.html:12
+msgid "To get started, you need to install an app for your platform:"
+msgstr ""
+
+#: priv/mod_invites/apps.json:82
+msgid ""
+"A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
+"easy way to talk and share moments with your friends."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:48
+msgid "Step 1: Download and install {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/base.html:31
+msgid ""
+"Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
+msgstr ""
+
+#: priv/mod_invites/base_min.html:22 priv/mod_invites/base_min.html:6
+msgid "Invite to {{ site_name }}"
+msgstr ""
+
+#: priv/mod_invites/invite.html:16
+msgid "Other software"
+msgstr ""
+
+#: priv/mod_invites/register.html:27
+#, fuzzy
+msgid "Create an account"
+msgstr "Malregistru XMPP-konton"
+
+#: priv/mod_invites/register_success.html:78
+msgid "Chat address (JID)"
+msgstr ""
+
+#: priv/mod_invites/base.html:36
+msgid "Close"
+msgstr ""
+
+#: priv/mod_invites/base.html:12
+msgid "QR code icon"
+msgstr ""
+
+#: priv/mod_invites/apps.json:25
+msgid ""
+"Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
+"been optimized to provide a unique mobile experience."
+msgstr ""
+
+#: priv/mod_invites/register.html:17
+msgid "{{ app_name }} already installed?"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:35
+msgid ""
+"<strong>No suitable software installed right now?</strong> You can also log "
+"in to your account through our online web chat!"
+msgstr ""
+
+#: priv/mod_invites/register.html:21
+msgid "This button works only if you have the app installed already!"
+msgstr ""
+
+#: priv/mod_invites/apps.json:122
+msgid ""
+"A modern open-source chat client for the desktop. It focuses on providing a "
+"clean and reliable Jabber/XMPP experience while having your privacy in mind."
+msgstr ""
+
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
+#, fuzzy
+msgid "Register on {{ site_name }}"
+msgstr "Registritaj uzantnomoj"
+
+#: priv/mod_invites/apps.json:44
+msgid ""
+"A modern open-source chat client for iPhone and iPad. It is easy to use and "
+"has a clean user interface."
+msgstr ""
+
+#: priv/mod_invites/apps.json:63
+msgid ""
+"A modern open-source chat client for Mac. It is easy to use and has a clean "
+"user interface."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:71
+msgid "Launch {{ app_name }} and sign in using your account credentials."
+msgstr ""
+
+#: priv/mod_invites/client.html:11
+msgid ""
+"You have been invited to chat on {{ site_name }}, part of the XMPP secure "
+"and decentralized messaging network."
+msgstr ""
+
+#: priv/mod_invites/base.html:10
+msgid "Send this invite to your device"
+msgstr ""
+
+#: priv/mod_invites/client.html:55
+msgid "Step 2: Activate your account"
+msgstr ""
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
+"you need to first register an account."
+msgstr ""
+
+#: priv/mod_invites/roster.html:4 priv/mod_invites/roster.html:3
+msgid "{{ inviter }} has invited you to connect!"
+msgstr ""
+
+#: priv/mod_invites/apps.json:110
+msgid "Download Dino for Linux"
+msgstr ""
+
+#: priv/mod_invites/client.html:60
+msgid "Accept invite using {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:103
+msgid ""
+"Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
+"macOS."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:90
+#: priv/mod_invites/register_success.html:17
+msgid "Show"
+msgstr ""
+
+#: priv/mod_invites/register.html:55
+msgid "Enter a secure password that you do not use anywhere else."
+msgstr ""
+
+#: priv/mod_invites/register_error.html:6
+#, fuzzy
+msgid "Sorry, there was a problem registering your account."
+msgstr "Estis eraro dum kreado de la konto:"
+
+#: priv/mod_invites/base.html:9
+msgid ""
+"<strong>Tip:</strong> You can open this invite on your mobile device by "
+"scanning a barcode with your camera."
+msgstr ""
+
+#: priv/mod_invites/apps.json:149
+msgid "Download Renga for Haiku"
+msgstr ""
+
+#: priv/mod_invites/invite.html:5
+msgid ""
+"You have been invited to chat with <strong>{{ inviter }}</strong> on "
+"<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
+"messaging network."
+msgstr ""
+
+#: priv/mod_invites/invite_invalid.html:4
+msgid "Invite expired"
+msgstr ""
+
+#: priv/mod_invites/register.html:61
+msgid "Submit"
+msgstr "Sendu"
+
+#: priv/mod_invites/apps.html:16
+msgid "Select"
+msgstr ""
+
+#: priv/mod_invites/register.html:46
+msgid ""
+"Choose a username, this will become the first part of your new chat address."
+msgstr ""
+
+#: priv/mod_invites/base.html:23
+msgid "Scan invite code"
+msgstr ""
+
+#: priv/mod_invites/apps.json:160
+msgid "XMPP client for Haiku"
+msgstr ""
+
+#: priv/mod_invites/register.html:9
+msgid ""
+"<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
+"messaging network. To begin chatting you need to first register an account."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:38
+msgid "Log in via web"
+msgstr ""
+
+#: priv/mod_invites/register_success.html:99
+msgid ""
+"Your password is stored encrypted on the server and will not be accessible "
+"after you close this page. Keep it safe and never share it with anyone."
+msgstr ""
+
+#: priv/mod_invites/register_success.html:28
+msgid ""
+"To start chatting, you need to enter your new account credentials into your "
+"chosen XMPP software."
+msgstr ""
+
+#: priv/mod_invites/client.html:34
+msgid "Step 1: Install {{ app_name }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:114
+msgid ""
+"Click the button to open the Dino website where you can download and install "
+"it on your PC."
+msgstr ""
+
+#: priv/mod_invites/register.html:15
+msgid ""
+"If you already have {{ app_name }} installed, we recommend that you continue "
+"the account creation process using the app by clicking on the button below:"
+msgstr ""
+
+#: priv/mod_invites/roster.html:14
+msgid ""
+"If you don't have an XMPP client installed yet, here's a list of suitable "
+"clients for your platform."
+msgstr ""
+
+#: priv/mod_invites/apps.json:89
+msgid "Download from Mac App Store"
+msgstr ""
+
+#: priv/mod_invites/base.html:29
+msgid ""
+"You can transfer this invite to your mobile device by scanning a code with "
+"your camera."
+msgstr ""
+
+#: priv/mod_invites/invite.html:17
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\">register an account manually</a>."
+msgstr ""
+
+#: priv/mod_invites/apps.json:101
+msgid ""
+"Launch Beagle IM, and select 'Yes' to add a new account. Click the '+' "
+"button under the empty account list and then enter your credentials."
+msgstr ""
+
+#: priv/mod_invites/register.html:11
+msgid ""
+"Creating an account will allow to communicate with other people on "
+"<strong>{{ site_name }}</strong> and other services on the XMPP network."
+msgstr ""
 
 #, fuzzy
 #~ msgid "List of users with hats"
@@ -3175,9 +3609,6 @@ msgstr "Mesaĝo-atendovico de ~s"
 #~ msgid "Remove All Offline Messages"
 #~ msgstr "Forigu ĉiujn liverontajn mesaĝojn"
 
-#~ msgid "Restart"
-#~ msgstr "Restartu"
-
 #, fuzzy
 #~ msgid "Roster of ~ts"
 #~ msgstr "Kontaktlisto de "
@@ -3200,9 +3631,6 @@ msgstr "Mesaĝo-atendovico de ~s"
 
 #~ msgid "Storage Type"
 #~ msgstr "Konserv-tipo"
-
-#~ msgid "Submit"
-#~ msgstr "Sendu"
 
 #~ msgid "Subscription"
 #~ msgstr "Abono"
@@ -3444,12 +3872,6 @@ msgstr "Mesaĝo-atendovico de ~s"
 
 #~ msgid "Port ~b"
 #~ msgstr "Pordo ~b"
-
-#~ msgid "Registered nicknames"
-#~ msgstr "Registritaj uzantnomoj"
-
-#~ msgid "Registration in mod_irc for "
-#~ msgstr "Registraĵo en mod_irc de "
 
 #~ msgid "Server ~b"
 #~ msgstr "Servilo ~b"
