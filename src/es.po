@@ -27,7 +27,7 @@ msgstr " (Añade * al final del campo para buscar subcadenas)"
 msgid " has set the subject to: "
 msgstr " ha puesto el asunto: "
 
-#: src/mod_muc_admin.erl:1178
+#: src/mod_muc_admin.erl:1179
 msgid "# participants"
 msgstr "# participantes"
 
@@ -67,7 +67,7 @@ msgstr "Aceptar"
 #: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:692
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Acceso denegado por la política del servicio"
@@ -392,7 +392,7 @@ msgstr "Se ha iniciado la sala"
 msgid "Chatroom is stopped"
 msgstr "Se ha detenido la sala"
 
-#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1200
 msgid "Chatrooms"
 msgstr "Salas de charla"
 
@@ -457,7 +457,7 @@ msgstr "Contactos"
 msgid "Country"
 msgstr "País"
 
-#: src/mod_invites.erl:456 src/mod_invites.erl:654
+#: src/mod_invites.erl:469 src/mod_invites.erl:667
 msgid "Create Account"
 msgstr "Crear Cuenta"
 
@@ -830,11 +830,11 @@ msgid "Hats limit exceeded"
 msgstr "Se ha excedido el límite de sombreros"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:970
+#: src/mod_invites.erl:983
 msgid "Host unknown"
 msgstr "Dominio desconocido"
 
-#: src/mod_invites.erl:972
+#: src/mod_invites.erl:985
 msgid "Hostname invalid"
 msgstr "Dominio no válido"
 
@@ -952,7 +952,7 @@ msgstr "Nombre de nodo no válido"
 msgid "Invitations are not allowed in this conference"
 msgstr "Las invitaciones no están permitidas en esta sala"
 
-#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#: src/mod_invites.erl:465 src/mod_invites.erl:669
 msgid "Invite User"
 msgstr "Invitar Usuario"
 
@@ -988,7 +988,7 @@ msgstr "Ha fallado la normalización del JID"
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1178
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -1012,7 +1012,7 @@ msgstr "Julio"
 msgid "June"
 msgstr "Junio"
 
-#: src/mod_muc_admin.erl:1183
+#: src/mod_muc_admin.erl:1184
 msgid "Just created"
 msgstr "Recién creada"
 
@@ -1024,7 +1024,7 @@ msgstr "Última actividad"
 msgid "Last login"
 msgstr "Última conexión"
 
-#: src/mod_muc_admin.erl:1179
+#: src/mod_muc_admin.erl:1180
 msgid "Last message"
 msgstr "Último mensaje"
 
@@ -1057,7 +1057,7 @@ msgstr "Listar usuarios con sombreros"
 msgid "Logged Out"
 msgstr "Desconectad@"
 
-#: src/mod_muc_admin.erl:1182
+#: src/mod_muc_admin.erl:1183
 msgid "Logging"
 msgstr "Histórico de mensajes"
 
@@ -1136,7 +1136,7 @@ msgstr "Número máximo de ocupantes"
 msgid "Maximum file size"
 msgstr "Tamaño máximo de fichero"
 
-#: src/mod_invites.erl:974
+#: src/mod_invites.erl:987
 msgid "Maximum number of invites reached"
 msgstr "Alcanzado el máximo número de invitaciones"
 
@@ -1225,8 +1225,8 @@ msgstr "El módulo falló al gestionar la petición"
 msgid "Monday"
 msgstr "Lunes"
 
-#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
-#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
+#: src/mod_muc_admin.erl:797 src/mod_muc_admin.erl:800
+#: src/mod_muc_admin.erl:806 src/mod_muc_admin.erl:814
 msgid "Multi-User Chat"
 msgstr "Salas de Charla"
 
@@ -1423,7 +1423,7 @@ msgstr "No se han encontrado estadísticas para este elemento"
 msgid "Nobody"
 msgstr "Nadie"
 
-#: src/mod_muc_admin.erl:1185
+#: src/mod_muc_admin.erl:1186
 msgid "Node"
 msgstr "Nodo"
 
@@ -1728,7 +1728,7 @@ msgstr "Periodo: "
 msgid "Persist items to storage"
 msgstr "Persistir elementos al almacenar"
 
-#: src/mod_muc_admin.erl:1181
+#: src/mod_muc_admin.erl:1182
 msgid "Persistent"
 msgstr "Permanente"
 
@@ -1790,7 +1790,7 @@ msgstr "La sesión previa ha caducado"
 msgid "PubSub subscriber request"
 msgstr "Petición de subscriptor de PubSub"
 
-#: src/mod_muc_admin.erl:1180
+#: src/mod_muc_admin.erl:1181
 msgid "Public"
 msgstr "Público"
 
@@ -1969,7 +1969,7 @@ msgstr "Descripción de la sala"
 msgid "Room terminates"
 msgstr "Cerrando la sala"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1185
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Título de la sala"
@@ -2650,7 +2650,7 @@ msgstr "Jabber ID del usuario"
 msgid "User Management"
 msgstr "Administración de usuarios"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:978
+#: src/mod_register.erl:407 src/mod_invites.erl:991
 msgid "User already exists"
 msgstr "El usuario ya existe"
 
@@ -2676,11 +2676,11 @@ msgstr "Sesión de usuario terminada"
 msgid "User ~ts"
 msgstr "Usuario ~ts"
 
-#: src/mod_invites.erl:968
+#: src/mod_invites.erl:981
 msgid "Username invalid"
 msgstr "Nombre de usuario no válido"
 
-#: src/mod_invites.erl:976
+#: src/mod_invites.erl:989
 msgid "Username is reserved"
 msgstr "El nombre de usuario está reservado"
 

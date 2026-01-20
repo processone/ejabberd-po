@@ -28,7 +28,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " הגדיר/ה את הנושא אל: "
 
-#: src/mod_muc_admin.erl:1178
+#: src/mod_muc_admin.erl:1179
 #, fuzzy
 msgid "# participants"
 msgstr "משתתף"
@@ -72,7 +72,7 @@ msgstr "קבל"
 #: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:692
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "גישה נדחתה על ידי פוליסת שירות"
@@ -397,7 +397,7 @@ msgstr "חדר שיחה מותחל כעת"
 msgid "Chatroom is stopped"
 msgstr "חדר שיחה הינו מופסק"
 
-#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1200
 msgid "Chatrooms"
 msgstr "חדרי שיחה"
 
@@ -461,7 +461,7 @@ msgstr ""
 msgid "Country"
 msgstr "ארץ"
 
-#: src/mod_invites.erl:456 src/mod_invites.erl:654
+#: src/mod_invites.erl:469 src/mod_invites.erl:667
 msgid "Create Account"
 msgstr ""
 
@@ -850,11 +850,11 @@ msgid "Hats limit exceeded"
 msgstr "מגבלת שיעור תעבורה נחצתה"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:970
+#: src/mod_invites.erl:983
 msgid "Host unknown"
 msgstr "מארח לא ידוע"
 
-#: src/mod_invites.erl:972
+#: src/mod_invites.erl:985
 msgid "Hostname invalid"
 msgstr ""
 
@@ -977,7 +977,7 @@ msgstr "תפקיד שגוי: ~s"
 msgid "Invitations are not allowed in this conference"
 msgstr "הזמנות אינן מותרות בועידה זו"
 
-#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#: src/mod_invites.erl:465 src/mod_invites.erl:669
 #, fuzzy
 msgid "Invite User"
 msgstr "משתמשים מקוונים"
@@ -1016,7 +1016,7 @@ msgstr ""
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1178
 msgid "Jabber ID"
 msgstr "מזהה Jabber"
 
@@ -1042,7 +1042,7 @@ msgstr "יולי"
 msgid "June"
 msgstr "יוני"
 
-#: src/mod_muc_admin.erl:1183
+#: src/mod_muc_admin.erl:1184
 msgid "Just created"
 msgstr ""
 
@@ -1054,7 +1054,7 @@ msgstr "פעילות אחרונה"
 msgid "Last login"
 msgstr "כניסה אחרונה"
 
-#: src/mod_muc_admin.erl:1179
+#: src/mod_muc_admin.erl:1180
 #, fuzzy
 msgid "Last message"
 msgstr "שנה אחרונה"
@@ -1087,7 +1087,7 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:1182
+#: src/mod_muc_admin.erl:1183
 msgid "Logging"
 msgstr ""
 
@@ -1166,7 +1166,7 @@ msgstr "מספר מרבי של נוכחים"
 msgid "Maximum file size"
 msgstr ""
 
-#: src/mod_invites.erl:974
+#: src/mod_invites.erl:987
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "מספר מרבי של פריטים לקיבוע"
@@ -1261,8 +1261,8 @@ msgstr "מודול נכשל לטפל בשאילתא"
 msgid "Monday"
 msgstr "יום שני"
 
-#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
-#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
+#: src/mod_muc_admin.erl:797 src/mod_muc_admin.erl:800
+#: src/mod_muc_admin.erl:806 src/mod_muc_admin.erl:814
 msgid "Multi-User Chat"
 msgstr "שיחה מרובת משתמשים"
 
@@ -1467,7 +1467,7 @@ msgstr "לא נמצאה סטטיסטיקה לגבי פריט זה"
 msgid "Nobody"
 msgstr "אף אחד"
 
-#: src/mod_muc_admin.erl:1185
+#: src/mod_muc_admin.erl:1186
 #, fuzzy
 msgid "Node"
 msgstr "צמתים"
@@ -1775,7 +1775,7 @@ msgstr "משך זמן: "
 msgid "Persist items to storage"
 msgstr "פריטים קבועים לאחסון"
 
-#: src/mod_muc_admin.erl:1181
+#: src/mod_muc_admin.erl:1182
 #, fuzzy
 msgid "Persistent"
 msgstr "הפוך חדר לחדר קבוע"
@@ -1840,7 +1840,7 @@ msgstr ""
 msgid "PubSub subscriber request"
 msgstr "בקשת מנוי PubSub"
 
-#: src/mod_muc_admin.erl:1180
+#: src/mod_muc_admin.erl:1181
 msgid "Public"
 msgstr ""
 
@@ -2026,7 +2026,7 @@ msgstr "תיאור חדר"
 msgid "Room terminates"
 msgstr "כותרת חדר"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1185
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "כותרת חדר"
@@ -2710,7 +2710,7 @@ msgstr "‏JID משתמש"
 msgid "User Management"
 msgstr "ניהול משתמשים"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:978
+#: src/mod_register.erl:407 src/mod_invites.erl:991
 msgid "User already exists"
 msgstr "משתמש כבר קיים"
 
@@ -2735,12 +2735,12 @@ msgstr "סשן משתמש הסתיים"
 msgid "User ~ts"
 msgstr "משתמש ~s"
 
-#: src/mod_invites.erl:968
+#: src/mod_invites.erl:981
 #, fuzzy
 msgid "Username invalid"
 msgstr "שם משתמש:"
 
-#: src/mod_invites.erl:976
+#: src/mod_invites.erl:989
 msgid "Username is reserved"
 msgstr ""
 

@@ -27,7 +27,7 @@ msgstr ""
 msgid " has set the subject to: "
 msgstr " har satt emnet til: "
 
-#: src/mod_muc_admin.erl:1178
+#: src/mod_muc_admin.erl:1179
 #, fuzzy
 msgid "# participants"
 msgstr "Standard brukere som deltakere"
@@ -71,7 +71,7 @@ msgstr "Godta"
 #: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:692
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Tilgang nektes på grunn av en tjenesteregel"
@@ -407,7 +407,7 @@ msgstr "Samtalerom startet"
 msgid "Chatroom is stopped"
 msgstr "Samtalerom stoppet"
 
-#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1200
 msgid "Chatrooms"
 msgstr "Samtalerom"
 
@@ -472,7 +472,7 @@ msgstr ""
 msgid "Country"
 msgstr "Land"
 
-#: src/mod_invites.erl:456 src/mod_invites.erl:654
+#: src/mod_invites.erl:469 src/mod_invites.erl:667
 msgid "Create Account"
 msgstr ""
 
@@ -868,11 +868,11 @@ msgid "Hats limit exceeded"
 msgstr "Grense for tillatt trafikkmengde overskredet"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:970
+#: src/mod_invites.erl:983
 msgid "Host unknown"
 msgstr "Ukjent vert"
 
-#: src/mod_invites.erl:972
+#: src/mod_invites.erl:985
 msgid "Hostname invalid"
 msgstr ""
 
@@ -1000,7 +1000,7 @@ msgstr "Ugyldig rolle: ~s"
 msgid "Invitations are not allowed in this conference"
 msgstr "Lyd forespørsler er blokkert i denne konferansen"
 
-#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#: src/mod_invites.erl:465 src/mod_invites.erl:669
 #, fuzzy
 msgid "Invite User"
 msgstr "Tilkoblede brukere"
@@ -1038,7 +1038,7 @@ msgstr "JID-normalisering mislyktes"
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1178
 msgid "Jabber ID"
 msgstr "Jabber-ID"
 
@@ -1064,7 +1064,7 @@ msgstr "juli"
 msgid "June"
 msgstr "juni"
 
-#: src/mod_muc_admin.erl:1183
+#: src/mod_muc_admin.erl:1184
 msgid "Just created"
 msgstr "Akkurat opprettet"
 
@@ -1076,7 +1076,7 @@ msgstr "Siste aktivitet"
 msgid "Last login"
 msgstr "Siste innlogging"
 
-#: src/mod_muc_admin.erl:1179
+#: src/mod_muc_admin.erl:1180
 #, fuzzy
 msgid "Last message"
 msgstr "Siste året"
@@ -1111,7 +1111,7 @@ msgstr ""
 msgid "Logged Out"
 msgstr ""
 
-#: src/mod_muc_admin.erl:1182
+#: src/mod_muc_admin.erl:1183
 msgid "Logging"
 msgstr "Loggføring"
 
@@ -1194,7 +1194,7 @@ msgstr "Maksimalt antall deltakere"
 msgid "Maximum file size"
 msgstr "Maksimal filstørrelse"
 
-#: src/mod_invites.erl:974
+#: src/mod_invites.erl:987
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "Høyeste # elementer som skal lagres"
@@ -1291,8 +1291,8 @@ msgstr "Modul kunne ikke håndtere spørringen"
 msgid "Monday"
 msgstr "mandag"
 
-#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
-#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
+#: src/mod_muc_admin.erl:797 src/mod_muc_admin.erl:800
+#: src/mod_muc_admin.erl:806 src/mod_muc_admin.erl:814
 msgid "Multi-User Chat"
 msgstr "Multibrukersludring"
 
@@ -1498,7 +1498,7 @@ msgstr ""
 msgid "Nobody"
 msgstr "ingen"
 
-#: src/mod_muc_admin.erl:1185
+#: src/mod_muc_admin.erl:1186
 #, fuzzy
 msgid "Node"
 msgstr "Noder"
@@ -1814,7 +1814,7 @@ msgstr "Periode: "
 msgid "Persist items to storage"
 msgstr "Vedvarende elementer til lagring"
 
-#: src/mod_muc_admin.erl:1181
+#: src/mod_muc_admin.erl:1182
 #, fuzzy
 msgid "Persistent"
 msgstr "Gjør rommet permanent"
@@ -1883,7 +1883,7 @@ msgstr "Tidsavbrudd for forrige økt"
 msgid "PubSub subscriber request"
 msgstr "PubSub-abonementsforespørsel"
 
-#: src/mod_muc_admin.erl:1180
+#: src/mod_muc_admin.erl:1181
 msgid "Public"
 msgstr "Offentlig"
 
@@ -2070,7 +2070,7 @@ msgstr "Rom-beskrivelse"
 msgid "Room terminates"
 msgstr "Romtittel"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1185
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "Rom-tittel"
@@ -2750,7 +2750,7 @@ msgstr "Bruker-JID"
 msgid "User Management"
 msgstr "Brukerhåndtering"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:978
+#: src/mod_register.erl:407 src/mod_invites.erl:991
 msgid "User already exists"
 msgstr "Brukeren finnes allerede"
 
@@ -2775,12 +2775,12 @@ msgstr ""
 msgid "User ~ts"
 msgstr "Bruker ~ts"
 
-#: src/mod_invites.erl:968
+#: src/mod_invites.erl:981
 #, fuzzy
 msgid "Username invalid"
 msgstr "Brukernavn:"
 
-#: src/mod_invites.erl:976
+#: src/mod_invites.erl:989
 #, fuzzy
 msgid "Username is reserved"
 msgstr "Fjernet bruker"

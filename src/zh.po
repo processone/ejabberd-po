@@ -26,7 +26,7 @@ msgstr " （在字段末尾添加 * 以匹配子字符串）"
 msgid " has set the subject to: "
 msgstr " 已将主题设置为： "
 
-#: src/mod_muc_admin.erl:1178
+#: src/mod_muc_admin.erl:1179
 msgid "# participants"
 msgstr "# 参与者"
 
@@ -66,7 +66,7 @@ msgstr "接受"
 #: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:679
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:692
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "服务策略拒绝访问"
@@ -384,7 +384,7 @@ msgstr "聊天室已启动"
 msgid "Chatroom is stopped"
 msgstr "聊天室已停止"
 
-#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1199
+#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1200
 msgid "Chatrooms"
 msgstr "聊天室"
 
@@ -447,7 +447,7 @@ msgstr "联系人"
 msgid "Country"
 msgstr "国家/地区"
 
-#: src/mod_invites.erl:456 src/mod_invites.erl:654
+#: src/mod_invites.erl:469 src/mod_invites.erl:667
 msgid "Create Account"
 msgstr "创建账号"
 
@@ -812,11 +812,11 @@ msgid "Hats limit exceeded"
 msgstr "已超过头衔限制"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:970
+#: src/mod_invites.erl:983
 msgid "Host unknown"
 msgstr "主机未知"
 
-#: src/mod_invites.erl:972
+#: src/mod_invites.erl:985
 msgid "Hostname invalid"
 msgstr "主机名无效"
 
@@ -934,7 +934,7 @@ msgstr "节点名称无效"
 msgid "Invitations are not allowed in this conference"
 msgstr "此会议不允许邀请"
 
-#: src/mod_invites.erl:452 src/mod_invites.erl:656
+#: src/mod_invites.erl:465 src/mod_invites.erl:669
 msgid "Invite User"
 msgstr "邀请用户"
 
@@ -969,7 +969,7 @@ msgstr "JID 规范化失败"
 #: src/mod_configure.erl:1150 src/mod_configure.erl:1159
 #: src/mod_configure.erl:1575 src/mod_configure.erl:1607
 #: src/mod_configure.erl:1632 src/mod_vcard_sql.erl:241
-#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1177
+#: src/mod_vcard_mnesia.erl:113 src/mod_muc_admin.erl:1178
 msgid "Jabber ID"
 msgstr "Jabber ID"
 
@@ -993,7 +993,7 @@ msgstr "七月"
 msgid "June"
 msgstr "六月"
 
-#: src/mod_muc_admin.erl:1183
+#: src/mod_muc_admin.erl:1184
 msgid "Just created"
 msgstr "刚刚创建"
 
@@ -1005,7 +1005,7 @@ msgstr "上次活动"
 msgid "Last login"
 msgstr "上次登录"
 
-#: src/mod_muc_admin.erl:1179
+#: src/mod_muc_admin.erl:1180
 msgid "Last message"
 msgstr "最后一条消息"
 
@@ -1036,7 +1036,7 @@ msgstr "列出有头衔的用户"
 msgid "Logged Out"
 msgstr "已登出"
 
-#: src/mod_muc_admin.erl:1182
+#: src/mod_muc_admin.erl:1183
 msgid "Logging"
 msgstr "日志记录"
 
@@ -1115,7 +1115,7 @@ msgstr "最大使用者数"
 msgid "Maximum file size"
 msgstr "最大文件大小"
 
-#: src/mod_invites.erl:974
+#: src/mod_invites.erl:987
 msgid "Maximum number of invites reached"
 msgstr "已达到最大邀请数"
 
@@ -1204,8 +1204,8 @@ msgstr "模块无法处理查询"
 msgid "Monday"
 msgstr "周一"
 
-#: src/mod_muc_admin.erl:796 src/mod_muc_admin.erl:799
-#: src/mod_muc_admin.erl:805 src/mod_muc_admin.erl:813
+#: src/mod_muc_admin.erl:797 src/mod_muc_admin.erl:800
+#: src/mod_muc_admin.erl:806 src/mod_muc_admin.erl:814
 msgid "Multi-User Chat"
 msgstr "多用户聊天"
 
@@ -1402,7 +1402,7 @@ msgstr "未找到此项目的统计数据"
 msgid "Nobody"
 msgstr "没有人"
 
-#: src/mod_muc_admin.erl:1185
+#: src/mod_muc_admin.erl:1186
 msgid "Node"
 msgstr "节点"
 
@@ -1697,7 +1697,7 @@ msgstr "时段： "
 msgid "Persist items to storage"
 msgstr "将项目保留到存储"
 
-#: src/mod_muc_admin.erl:1181
+#: src/mod_muc_admin.erl:1182
 msgid "Persistent"
 msgstr "持久"
 
@@ -1758,7 +1758,7 @@ msgstr "上一个会话超时"
 msgid "PubSub subscriber request"
 msgstr "PubSub 订阅者请求"
 
-#: src/mod_muc_admin.erl:1180
+#: src/mod_muc_admin.erl:1181
 msgid "Public"
 msgstr "公开"
 
@@ -1935,7 +1935,7 @@ msgstr "房间描述"
 msgid "Room terminates"
 msgstr "房间终止"
 
-#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1184
+#: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1185
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
 msgid "Room title"
 msgstr "房间标题"
@@ -2590,7 +2590,7 @@ msgstr "用户 JID"
 msgid "User Management"
 msgstr "用户管理"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:978
+#: src/mod_register.erl:407 src/mod_invites.erl:991
 msgid "User already exists"
 msgstr "用户已存在"
 
@@ -2614,11 +2614,11 @@ msgstr "用户会话已终止"
 msgid "User ~ts"
 msgstr "用户 ~ts"
 
-#: src/mod_invites.erl:968
+#: src/mod_invites.erl:981
 msgid "Username invalid"
 msgstr "用户名无效"
 
-#: src/mod_invites.erl:976
+#: src/mod_invites.erl:989
 msgid "Username is reserved"
 msgstr "用户名已被保留"
 
@@ -2878,7 +2878,8 @@ msgstr "您的联系人离线消息队列已满。消息已被丢弃。"
 msgid ""
 "Your subscription request and/or messages to ~s have been blocked. To "
 "unblock your subscription request, visit ~s"
-msgstr "您发给 ~s 的订阅请求和/或消息已被屏蔽。若要解除屏蔽您的订阅请求，请访问 ~s"
+msgstr ""
+"您发给 ~s 的订阅请求和/或消息已被屏蔽。若要解除屏蔽您的订阅请求，请访问 ~s"
 
 #: src/mod_disco.erl:403
 msgid "ejabberd"
@@ -2997,7 +2998,8 @@ msgstr "抱歉，此邀请码似乎已过期！"
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
-msgstr "成功安装 {{ app_name }} 后，请返回此页面并<strong>继续执行步骤 2</strong>。"
+msgstr ""
+"成功安装 {{ app_name }} 后，请返回此页面并<strong>继续执行步骤 2</strong>。"
 
 #: priv/mod_invites/register.html:35
 msgid "Username"
@@ -3017,8 +3019,8 @@ msgid ""
 "the XMPP network. If you already have an XMPP client installed just press "
 "the button below!"
 msgstr ""
-"这是来自 <strong>{{ inviter }}</strong> 的邀请，用于连接至 XMPP 网络进行聊天"
-"。如果您已安装 XMPP 客户端，请直接点击下方按钮！"
+"这是来自 <strong>{{ inviter }}</strong> 的邀请，用于连接至 XMPP 网络进行聊"
+"天。如果您已安装 XMPP 客户端，请直接点击下方按钮！"
 
 #: priv/mod_invites/register.html:20
 msgid "Open the app"
@@ -3065,7 +3067,8 @@ msgstr "您现在可以使用 {{ app_name }} 开始聊天。开始吧！"
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
-msgstr "安装完成？太棒了！<strong>点击下方按钮</strong>接受邀请并继续账号设置："
+msgstr ""
+"安装完成？太棒了！<strong>点击下方按钮</strong>接受邀请并继续账号设置："
 
 #: priv/mod_invites/invite.html:10
 msgid "Get started"
@@ -3156,8 +3159,8 @@ msgid ""
 "Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
 "been optimized to provide a unique mobile experience."
 msgstr ""
-"Conversations 是专为 Android 6.0 及更高版本智能手机优化的 Jabber/XMPP 客户端"
-"，提供独特的移动端体验。"
+"Conversations 是专为 Android 6.0 及更高版本智能手机优化的 Jabber/XMPP 客户"
+"端，提供独特的移动端体验。"
 
 #: priv/mod_invites/register.html:17
 msgid "{{ app_name }} already installed?"
@@ -3167,7 +3170,8 @@ msgstr "已安装 {{ app_name }}？"
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
-msgstr "<strong>暂未安装适用软件？</strong>您也可以通过我们的在线网页聊天登录账号！"
+msgstr ""
+"<strong>暂未安装适用软件？</strong>您也可以通过我们的在线网页聊天登录账号！"
 
 #: priv/mod_invites/register.html:21
 msgid "This button works only if you have the app installed already!"
@@ -3206,8 +3210,8 @@ msgid ""
 "You have been invited to chat on {{ site_name }}, part of the XMPP secure "
 "and decentralized messaging network."
 msgstr ""
-"您已受邀在 {{ site_name }} 上聊天，该服务属于安全去中心化的 XMPP 即时通讯网络"
-"。"
+"您已受邀在 {{ site_name }} 上聊天，该服务属于安全去中心化的 XMPP 即时通讯网"
+"络。"
 
 #: priv/mod_invites/base.html:10
 msgid "Send this invite to your device"
@@ -3242,7 +3246,8 @@ msgstr "使用 {{ app_name }} 接受邀请"
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
-msgstr "Beagle IM 由 Tigase, Inc. 开发，是适用于 macOS 的轻量高效 XMPP 客户端。"
+msgstr ""
+"Beagle IM 由 Tigase, Inc. 开发，是适用于 macOS 的轻量高效 XMPP 客户端。"
 
 #: priv/mod_invites/register_success.html:90
 #: priv/mod_invites/register_success.html:17
@@ -3261,7 +3266,8 @@ msgstr "抱歉，您的账号注册出现问题。"
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
-msgstr "<strong>提示：</strong>您可以使用手机相机扫描二维码，在移动设备上打开此邀请。"
+msgstr ""
+"<strong>提示：</strong>您可以使用手机相机扫描二维码，在移动设备上打开此邀请。"
 
 #: priv/mod_invites/apps.json:149
 msgid "Download Renga for Haiku"
