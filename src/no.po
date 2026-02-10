@@ -933,14 +933,14 @@ msgid "Improper message type"
 msgstr "Feilaktig meldingstype"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:254
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
 #, fuzzy
 msgid "Incorrect CAPTCHA submit"
 msgstr "Feilaktig CAPTCHA-innsendelse"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:250
+#: src/mod_invites_register.erl:254
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Feil passord"
@@ -964,7 +964,7 @@ msgstr ""
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/mod_invites_http.erl:233 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
 msgid "Install"
 msgstr ""
 
@@ -1776,7 +1776,7 @@ msgstr "Deltager"
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:233
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
-#: priv/mod_invites/register.html:50 priv/mod_invites/register_success.html:85
+#: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
 msgstr "Passord"
 
@@ -2315,7 +2315,7 @@ msgstr "CAPTCHA-en er gyldig."
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:257
+#: src/mod_invites_register.erl:261
 msgid "The CAPTCHA verification has failed"
 msgstr "CAPTCHA-godkjenning mislyktes"
 
@@ -3160,12 +3160,16 @@ msgstr ""
 msgid "~ts's Offline Messages Queue"
 msgstr "~ss kø for Frakoblede Meldinger"
 
-#: priv/mod_invites/client.html:4
+#: priv/mod_invites/client.html:3
 msgid "Join {{ site_name }} with {{ app_name }}"
 msgstr ""
 
 #: priv/mod_invites/invite_invalid.html:8
 msgid "Sad person holding empty box"
+msgstr ""
+
+#: priv/mod_invites/apps.json:84
+msgid "Siskin IM Logo"
 msgstr ""
 
 #: priv/mod_invites/apps.html:25
@@ -3175,30 +3179,39 @@ msgid ""
 "a>"
 msgstr ""
 
-#: priv/mod_invites/apps.json:129
+#: priv/mod_invites/apps.json:140
 msgid "Download Gajim"
+msgstr ""
+
+#: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
+#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+msgid "Previous"
 msgstr ""
 
 #: priv/mod_invites/invite_invalid.html:6
 msgid "Sorry, it looks like this invite code has expired!"
 msgstr ""
 
-#: priv/mod_invites/client.html:53
+#: priv/mod_invites/apps.json:7
+msgid "Google Play Store Logo"
+msgstr ""
+
+#: priv/mod_invites/client.html:50
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
 
-#: priv/mod_invites/register.html:35
+#: priv/mod_invites/register.html:29
 #, fuzzy
 msgid "Username"
 msgstr "Brukernavn:"
 
-#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:50
+#: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
 msgid "Download and install {{ app_name }} below:"
 msgstr ""
 
-#: priv/mod_invites/apps.json:142
+#: priv/mod_invites/apps.json:154
 msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr ""
 
@@ -3209,7 +3222,7 @@ msgid ""
 "the button below!"
 msgstr ""
 
-#: priv/mod_invites/register.html:20
+#: priv/mod_invites/register.html:19
 msgid "Open the app"
 msgstr ""
 
@@ -3217,7 +3230,16 @@ msgstr ""
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
 msgstr ""
 
-#: priv/mod_invites/client.html:9
+#: priv/mod_invites/register.html:4
+#, fuzzy
+msgid "Registration Error"
+msgstr "Registrering i mod_irc for "
+
+#: priv/mod_invites/apps.json:167
+msgid "Renga Logo"
+msgstr ""
+
+#: priv/mod_invites/client.html:7
 msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "{{ site_name }}, part of the XMPP secure and decentralized messaging network."
@@ -3242,18 +3264,18 @@ msgstr ""
 msgid "As a final reminder, your account details are shown below:"
 msgstr ""
 
-#: priv/mod_invites/client.html:15
+#: priv/mod_invites/client.html:12
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
 msgstr ""
 
-#: priv/mod_invites/client.html:57
+#: priv/mod_invites/client.html:54
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
 msgstr ""
 
-#: priv/mod_invites/invite.html:10
+#: priv/mod_invites/invite.html:9
 #, fuzzy
 msgid "Get started"
 msgstr "Start på ny"
@@ -3263,7 +3285,7 @@ msgstr "Start på ny"
 msgid "Congratulations!"
 msgstr "Oppsett"
 
-#: priv/mod_invites/base.html:13
+#: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
 msgstr ""
 
@@ -3271,7 +3293,7 @@ msgstr ""
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr ""
 
-#: priv/mod_invites/register.html:11
+#: priv/mod_invites/register.html:12
 msgid ""
 "Creating an account will allow to communicate with <strong>{{ inviter }}</"
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
@@ -3282,7 +3304,7 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: priv/mod_invites/client.html:63
+#: priv/mod_invites/client.html:60
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
@@ -3292,11 +3314,11 @@ msgstr ""
 msgid "Add {{ inviter }} to your contact list"
 msgstr ""
 
-#: priv/mod_invites/invite.html:12
+#: priv/mod_invites/invite.html:10
 msgid "To get started, you need to install an app for your platform:"
 msgstr ""
 
-#: priv/mod_invites/apps.json:82
+#: priv/mod_invites/apps.json:91
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
@@ -3306,37 +3328,56 @@ msgstr ""
 msgid "Step 1: Download and install {{ app_name }}"
 msgstr ""
 
-#: priv/mod_invites/base.html:31
+#: priv/mod_invites/apps.json:111
+msgid ""
+"Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
+"\\' button under the empty account list and then enter your credentials."
+msgstr ""
+
+#: priv/mod_invites/base.html:28
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
 
-#: priv/mod_invites/base_min.html:22 priv/mod_invites/base_min.html:6
+#: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
 msgid "Invite to {{ site_name }}"
 msgstr ""
 
-#: priv/mod_invites/invite.html:16
+#: priv/mod_invites/invite.html:14
 msgid "Other software"
 msgstr ""
 
-#: priv/mod_invites/register.html:27
+#: priv/mod_invites/register.html:25
 #, fuzzy
 msgid "Create an account"
 msgstr "Avregistrer en XMPP konto"
+
+#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
+#: priv/mod_invites/apps.json:35
+msgid "Apple Store Logo"
+msgstr ""
+
+#: priv/mod_invites/roster.html:3
+msgid "Add Contact"
+msgstr ""
+
+#: priv/mod_invites/apps.json:127
+msgid "Dino Logo"
+msgstr ""
 
 #: priv/mod_invites/register_success.html:78
 msgid "Chat address (JID)"
 msgstr ""
 
-#: priv/mod_invites/base.html:36
+#: priv/mod_invites/apps.json:104
+msgid "Beagle IM Logo"
+msgstr ""
+
+#: priv/mod_invites/base.html:33
 msgid "Close"
 msgstr ""
 
-#: priv/mod_invites/base.html:12
-msgid "QR code icon"
-msgstr ""
-
-#: priv/mod_invites/apps.json:25
+#: priv/mod_invites/apps.json:28
 msgid ""
 "Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
 "been optimized to provide a unique mobile experience."
@@ -3352,28 +3393,28 @@ msgid ""
 "in to your account through our online web chat!"
 msgstr ""
 
-#: priv/mod_invites/register.html:21
+#: priv/mod_invites/register.html:20
 msgid "This button works only if you have the app installed already!"
 msgstr ""
 
-#: priv/mod_invites/apps.json:122
+#: priv/mod_invites/apps.json:133
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
 msgstr ""
 
-#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
+#: priv/mod_invites/register.html:4
 #, fuzzy
 msgid "Register on {{ site_name }}"
 msgstr "Registrerte Brukere"
 
-#: priv/mod_invites/apps.json:44
+#: priv/mod_invites/apps.json:49
 msgid ""
 "A modern open-source chat client for iPhone and iPad. It is easy to use and "
 "has a clean user interface."
 msgstr ""
 
-#: priv/mod_invites/apps.json:63
+#: priv/mod_invites/apps.json:70
 msgid ""
 "A modern open-source chat client for Mac. It is easy to use and has a clean "
 "user interface."
@@ -3383,40 +3424,44 @@ msgstr ""
 msgid "Launch {{ app_name }} and sign in using your account credentials."
 msgstr ""
 
-#: priv/mod_invites/client.html:11
+#: priv/mod_invites/client.html:9
 msgid ""
 "You have been invited to chat on {{ site_name }}, part of the XMPP secure "
 "and decentralized messaging network."
 msgstr ""
 
-#: priv/mod_invites/base.html:10
+#: priv/mod_invites/apps.json:13
+msgid "F-Droid Store Logo"
+msgstr ""
+
+#: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
 msgstr ""
 
-#: priv/mod_invites/client.html:55
+#: priv/mod_invites/client.html:52
 msgid "Step 2: Activate your account"
 msgstr ""
 
-#: priv/mod_invites/register.html:9
+#: priv/mod_invites/register.html:10
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
 "you need to first register an account."
 msgstr ""
 
-#: priv/mod_invites/roster.html:4 priv/mod_invites/roster.html:3
+#: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
 msgstr ""
 
-#: priv/mod_invites/apps.json:110
+#: priv/mod_invites/apps.json:120
 msgid "Download Dino for Linux"
 msgstr ""
 
-#: priv/mod_invites/client.html:60
+#: priv/mod_invites/client.html:57
 msgid "Accept invite using {{ app_name }}"
 msgstr ""
 
-#: priv/mod_invites/apps.json:103
+#: priv/mod_invites/apps.json:113
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
@@ -3436,13 +3481,13 @@ msgstr ""
 msgid "Sorry, there was a problem registering your account."
 msgstr "En feil inntraff under oppretting av kontoen: "
 
-#: priv/mod_invites/base.html:9
+#: priv/mod_invites/base.html:7
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
 msgstr ""
 
-#: priv/mod_invites/apps.json:149
+#: priv/mod_invites/apps.json:161
 msgid "Download Renga for Haiku"
 msgstr ""
 
@@ -3451,6 +3496,10 @@ msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
 "messaging network."
+msgstr ""
+
+#: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
+msgid "Monal Logo"
 msgstr ""
 
 #: priv/mod_invites/invite_invalid.html:4
@@ -3466,20 +3515,24 @@ msgstr "Send"
 msgid "Select"
 msgstr "Velg alt"
 
-#: priv/mod_invites/register.html:46
+#: priv/mod_invites/register.html:43
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
 
-#: priv/mod_invites/base.html:23
+#: priv/mod_invites/base.html:20
 msgid "Scan invite code"
 msgstr ""
 
-#: priv/mod_invites/apps.json:160
+#: priv/mod_invites/apps.json:173
 msgid "XMPP client for Haiku"
 msgstr ""
 
-#: priv/mod_invites/register.html:9
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+msgid "Page navigation"
+msgstr ""
+
+#: priv/mod_invites/register.html:10
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
@@ -3501,52 +3554,63 @@ msgid ""
 "chosen XMPP software."
 msgstr ""
 
-#: priv/mod_invites/client.html:34
+#: priv/mod_invites/apps.json:146
+msgid "Gajim Logo"
+msgstr ""
+
+#: priv/mod_invites/register.html:53
+msgid "Please provide a password! Minimum length: {{ password_min_length }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:20
+#, fuzzy
+msgid "Conversations Logo"
+msgstr "Loggede transaksjoner:"
+
+#: priv/mod_invites/client.html:31
 msgid "Step 1: Install {{ app_name }}"
 msgstr ""
 
-#: priv/mod_invites/apps.json:114
+#: priv/mod_invites/apps.json:124
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
 msgstr ""
 
-#: priv/mod_invites/register.html:15
+#: priv/mod_invites/register.html:40
+msgid "Please provide a valid username!"
+msgstr ""
+
+#: priv/mod_invites/register.html:16
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
 msgstr ""
 
-#: priv/mod_invites/roster.html:14
+#: priv/mod_invites/roster.html:13
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
 msgstr ""
 
-#: priv/mod_invites/apps.json:89
+#: priv/mod_invites/apps.json:98
 msgid "Download from Mac App Store"
 msgstr ""
 
-#: priv/mod_invites/base.html:29
+#: priv/mod_invites/base.html:26
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
 msgstr ""
 
-#: priv/mod_invites/invite.html:17
+#: priv/mod_invites/invite.html:15
 msgid ""
 "You can connect to {{ site_name }} using any XMPP-compatible software. If "
 "your preferred software is not listed above, you may still <a "
 "href=\"{{ registration_url }}\">register an account manually</a>."
 msgstr ""
 
-#: priv/mod_invites/apps.json:101
-msgid ""
-"Launch Beagle IM, and select 'Yes' to add a new account. Click the '+' "
-"button under the empty account list and then enter your credentials."
-msgstr ""
-
-#: priv/mod_invites/register.html:11
+#: priv/mod_invites/register.html:12
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
@@ -3744,9 +3808,6 @@ msgstr ""
 
 #~ msgid "Transactions Committed:"
 #~ msgstr "Sendte transaksjoner:"
-
-#~ msgid "Transactions Logged:"
-#~ msgstr "Loggede transaksjoner:"
 
 #~ msgid "Transactions Restarted:"
 #~ msgstr "Omstartede transaksjoner:"

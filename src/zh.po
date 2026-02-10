@@ -873,13 +873,13 @@ msgid "Improper message type"
 msgstr "消息类型不正确"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:254
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
 msgid "Incorrect CAPTCHA submit"
 msgstr "提交的验证码不正确"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:250
+#: src/mod_invites_register.erl:254
 msgid "Incorrect data form"
 msgstr "数据表单不正确"
 
@@ -902,7 +902,7 @@ msgstr "数据表单中“action”的值不正确"
 msgid "Incorrect value of 'path' in data form"
 msgstr "数据表单中“path”的值不正确"
 
-#: src/mod_invites_http.erl:233 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "安装"
 
@@ -1659,7 +1659,7 @@ msgstr "参与者 ID"
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:233
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
-#: priv/mod_invites/register.html:50 priv/mod_invites/register_success.html:85
+#: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
 msgstr "密码"
 
@@ -2172,7 +2172,7 @@ msgstr "验证码有效。"
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:257
+#: src/mod_invites_register.erl:261
 msgid "The CAPTCHA verification has failed"
 msgstr "验证码验证失败"
 
@@ -2969,13 +2969,17 @@ msgstr "~ts 的 MAM 归档"
 msgid "~ts's Offline Messages Queue"
 msgstr "~ts 的离线消息队列"
 
-#: priv/mod_invites/client.html:4
+#: priv/mod_invites/client.html:3
 msgid "Join {{ site_name }} with {{ app_name }}"
 msgstr "加入 {{ site_name }} 使用 {{ app_name }}"
 
 #: priv/mod_invites/invite_invalid.html:8
 msgid "Sad person holding empty box"
 msgstr "悲伤的人手持空盒"
+
+#: priv/mod_invites/apps.json:84
+msgid "Siskin IM Logo"
+msgstr ""
 
 #: priv/mod_invites/apps.html:25
 msgid ""
@@ -2986,30 +2990,39 @@ msgstr ""
 "仅显示适用于<span class='platform-name'>您当前平台</span>的应用。您也可以<a "
 "href='#' id='show-all-clients-button'>查看所有应用。</a>"
 
-#: priv/mod_invites/apps.json:129
+#: priv/mod_invites/apps.json:140
 msgid "Download Gajim"
 msgstr "下载 Gajim"
+
+#: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
+#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+msgid "Previous"
+msgstr ""
 
 #: priv/mod_invites/invite_invalid.html:6
 msgid "Sorry, it looks like this invite code has expired!"
 msgstr "抱歉，此邀请码似乎已过期！"
 
-#: priv/mod_invites/client.html:53
+#: priv/mod_invites/apps.json:7
+msgid "Google Play Store Logo"
+msgstr ""
+
+#: priv/mod_invites/client.html:50
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
 "成功安装 {{ app_name }} 后，请返回此页面并<strong>继续执行步骤 2</strong>。"
 
-#: priv/mod_invites/register.html:35
+#: priv/mod_invites/register.html:29
 msgid "Username"
 msgstr "用户名"
 
-#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:50
+#: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
 msgid "Download and install {{ app_name }} below:"
 msgstr "请下载并安装下方 {{ app_name }}："
 
-#: priv/mod_invites/apps.json:142
+#: priv/mod_invites/apps.json:154
 msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr "功能齐全的 Windows 和 Linux 桌面聊天客户端。"
 
@@ -3022,7 +3035,7 @@ msgstr ""
 "这是来自 <strong>{{ inviter }}</strong> 的邀请，用于连接至 XMPP 网络进行聊"
 "天。如果您已安装 XMPP 客户端，请直接点击下方按钮！"
 
-#: priv/mod_invites/register.html:20
+#: priv/mod_invites/register.html:19
 msgid "Open the app"
 msgstr "打开应用"
 
@@ -3030,7 +3043,16 @@ msgstr "打开应用"
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
 msgstr "您已在 <strong>{{ site_name }}</strong> 创建账号。"
 
-#: priv/mod_invites/client.html:9
+#: priv/mod_invites/register.html:4
+#, fuzzy
+msgid "Registration Error"
+msgstr "注册错误"
+
+#: priv/mod_invites/apps.json:167
+msgid "Renga Logo"
+msgstr ""
+
+#: priv/mod_invites/client.html:7
 msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "{{ site_name }}, part of the XMPP secure and decentralized messaging network."
@@ -3058,19 +3080,19 @@ msgstr ""
 msgid "As a final reminder, your account details are shown below:"
 msgstr "最终提醒，您的账号详情如下所示："
 
-#: priv/mod_invites/client.html:15
+#: priv/mod_invites/client.html:12
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
 msgstr "您现在可以使用 {{ app_name }} 开始聊天。开始吧！"
 
-#: priv/mod_invites/client.html:57
+#: priv/mod_invites/client.html:54
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
 msgstr ""
 "安装完成？太棒了！<strong>点击下方按钮</strong>接受邀请并继续账号设置："
 
-#: priv/mod_invites/invite.html:10
+#: priv/mod_invites/invite.html:9
 msgid "Get started"
 msgstr "开始"
 
@@ -3078,7 +3100,7 @@ msgstr "开始"
 msgid "Congratulations!"
 msgstr "恭喜！"
 
-#: priv/mod_invites/base.html:13
+#: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
 msgstr "使用移动设备扫描"
 
@@ -3086,7 +3108,7 @@ msgstr "使用移动设备扫描"
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr "您现在可以设置 {{ app_name }} 并将其连接至您的新账号。"
 
-#: priv/mod_invites/register.html:11
+#: priv/mod_invites/register.html:12
 msgid ""
 "Creating an account will allow to communicate with <strong>{{ inviter }}</"
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
@@ -3099,7 +3121,7 @@ msgstr ""
 msgid "Hide"
 msgstr "隐藏"
 
-#: priv/mod_invites/client.html:63
+#: priv/mod_invites/client.html:60
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
@@ -3109,11 +3131,11 @@ msgstr "点击按钮将跳转到 {{ app_name }}， 完成新 {{ site_name }} 账
 msgid "Add {{ inviter }} to your contact list"
 msgstr "将 {{ inviter }} 添加到您的联系人列表"
 
-#: priv/mod_invites/invite.html:12
+#: priv/mod_invites/invite.html:10
 msgid "To get started, you need to install an app for your platform:"
 msgstr "开始前，请为您的设备平台安装应用："
 
-#: priv/mod_invites/apps.json:82
+#: priv/mod_invites/apps.json:91
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
@@ -3125,36 +3147,59 @@ msgstr ""
 msgid "Step 1: Download and install {{ app_name }}"
 msgstr "步骤 1：下载并安装 {{ app_name }}"
 
-#: priv/mod_invites/base.html:31
+#: priv/mod_invites/apps.json:111
+#, fuzzy
+msgid ""
+"Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
+"\\' button under the empty account list and then enter your credentials."
+msgstr ""
+"启动 Beagle IM，然后选择“是”添加新账号。点击空白账号列表下方的“+”按钮，然后输"
+"入您的凭据。"
+
+#: priv/mod_invites/base.html:28
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr "使用移动设备上的<em>二维码</em>扫描器扫描下方二维码："
 
-#: priv/mod_invites/base_min.html:22 priv/mod_invites/base_min.html:6
+#: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
 msgid "Invite to {{ site_name }}"
 msgstr "邀请加入 {{ site_name }}"
 
-#: priv/mod_invites/invite.html:16
+#: priv/mod_invites/invite.html:14
 msgid "Other software"
 msgstr "其他软件"
 
-#: priv/mod_invites/register.html:27
+#: priv/mod_invites/register.html:25
 msgid "Create an account"
 msgstr "创建账号"
+
+#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
+#: priv/mod_invites/apps.json:35
+msgid "Apple Store Logo"
+msgstr ""
+
+#: priv/mod_invites/roster.html:3
+#, fuzzy
+msgid "Add Contact"
+msgstr "联系人"
+
+#: priv/mod_invites/apps.json:127
+msgid "Dino Logo"
+msgstr ""
 
 #: priv/mod_invites/register_success.html:78
 msgid "Chat address (JID)"
 msgstr "聊天地址（JID）"
 
-#: priv/mod_invites/base.html:36
+#: priv/mod_invites/apps.json:104
+msgid "Beagle IM Logo"
+msgstr ""
+
+#: priv/mod_invites/base.html:33
 msgid "Close"
 msgstr "关闭"
 
-#: priv/mod_invites/base.html:12
-msgid "QR code icon"
-msgstr "二维码图标"
-
-#: priv/mod_invites/apps.json:25
+#: priv/mod_invites/apps.json:28
 msgid ""
 "Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
 "been optimized to provide a unique mobile experience."
@@ -3173,11 +3218,11 @@ msgid ""
 msgstr ""
 "<strong>暂未安装适用软件？</strong>您也可以通过我们的在线网页聊天登录账号！"
 
-#: priv/mod_invites/register.html:21
+#: priv/mod_invites/register.html:20
 msgid "This button works only if you have the app installed already!"
 msgstr "此按钮仅在已安装应用时生效！"
 
-#: priv/mod_invites/apps.json:122
+#: priv/mod_invites/apps.json:133
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
@@ -3185,17 +3230,17 @@ msgstr ""
 "适用于桌面的现代开源聊天客户端，专注于提供简洁可靠的 Jabber/XMPP 体验，同时注"
 "重您的隐私。"
 
-#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
+#: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
 msgstr "在 {{ site_name }} 注册"
 
-#: priv/mod_invites/apps.json:44
+#: priv/mod_invites/apps.json:49
 msgid ""
 "A modern open-source chat client for iPhone and iPad. It is easy to use and "
 "has a clean user interface."
 msgstr "适用于 iPhone 和 iPad 的现代开源聊天客户端，易于使用，界面简洁。"
 
-#: priv/mod_invites/apps.json:63
+#: priv/mod_invites/apps.json:70
 msgid ""
 "A modern open-source chat client for Mac. It is easy to use and has a clean "
 "user interface."
@@ -3205,7 +3250,7 @@ msgstr "适用于 Mac 的现代开源聊天客户端，易于使用，界面简�
 msgid "Launch {{ app_name }} and sign in using your account credentials."
 msgstr "启动 {{ app_name }} 并使用您的账号凭据登录。"
 
-#: priv/mod_invites/client.html:11
+#: priv/mod_invites/client.html:9
 msgid ""
 "You have been invited to chat on {{ site_name }}, part of the XMPP secure "
 "and decentralized messaging network."
@@ -3213,15 +3258,19 @@ msgstr ""
 "您已受邀在 {{ site_name }} 上聊天，该服务属于安全去中心化的 XMPP 即时通讯网"
 "络。"
 
-#: priv/mod_invites/base.html:10
+#: priv/mod_invites/apps.json:13
+msgid "F-Droid Store Logo"
+msgstr ""
+
+#: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
 msgstr "将此邀请发送至您的设备"
 
-#: priv/mod_invites/client.html:55
+#: priv/mod_invites/client.html:52
 msgid "Step 2: Activate your account"
 msgstr "步骤 2：启用您的账号"
 
-#: priv/mod_invites/register.html:9
+#: priv/mod_invites/register.html:10
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
@@ -3230,19 +3279,19 @@ msgstr ""
 "<strong>{{ site_name }}</strong> 属于安全去中心化的 XMPP 即时通讯网络。要开始"
 "使用 <strong>{{ app_name }}</strong> 聊天，您需要先注册账号。"
 
-#: priv/mod_invites/roster.html:4 priv/mod_invites/roster.html:3
+#: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
 msgstr "{{ inviter }} 邀请您建立联系！"
 
-#: priv/mod_invites/apps.json:110
+#: priv/mod_invites/apps.json:120
 msgid "Download Dino for Linux"
 msgstr "下载适用于 Linux 的 Dino"
 
-#: priv/mod_invites/client.html:60
+#: priv/mod_invites/client.html:57
 msgid "Accept invite using {{ app_name }}"
 msgstr "使用 {{ app_name }} 接受邀请"
 
-#: priv/mod_invites/apps.json:103
+#: priv/mod_invites/apps.json:113
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
@@ -3262,14 +3311,14 @@ msgstr "请输入一个您在其他任何地方都未使用的安全密码。"
 msgid "Sorry, there was a problem registering your account."
 msgstr "抱歉，您的账号注册出现问题。"
 
-#: priv/mod_invites/base.html:9
+#: priv/mod_invites/base.html:7
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
 msgstr ""
 "<strong>提示：</strong>您可以使用手机相机扫描二维码，在移动设备上打开此邀请。"
 
-#: priv/mod_invites/apps.json:149
+#: priv/mod_invites/apps.json:161
 msgid "Download Renga for Haiku"
 msgstr "下载适用于 Haiku 的 Renga"
 
@@ -3281,6 +3330,10 @@ msgid ""
 msgstr ""
 "您已受邀与 <strong>{{ inviter }}</strong> 在 <strong>{{ site_name }}</"
 "strong> 上聊天，该服务属于安全去中心化的 XMPP 即时通讯网络。"
+
+#: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
+msgid "Monal Logo"
+msgstr ""
 
 #: priv/mod_invites/invite_invalid.html:4
 msgid "Invite expired"
@@ -3294,20 +3347,24 @@ msgstr "提交"
 msgid "Select"
 msgstr "选择"
 
-#: priv/mod_invites/register.html:46
+#: priv/mod_invites/register.html:43
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr "选择一个用户名，这将成为您新聊天地址的第一部分。"
 
-#: priv/mod_invites/base.html:23
+#: priv/mod_invites/base.html:20
 msgid "Scan invite code"
 msgstr "扫描邀请码"
 
-#: priv/mod_invites/apps.json:160
+#: priv/mod_invites/apps.json:173
 msgid "XMPP client for Haiku"
 msgstr "适用于 Haiku 的 XMPP 客户端"
 
-#: priv/mod_invites/register.html:9
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+msgid "Page navigation"
+msgstr ""
+
+#: priv/mod_invites/register.html:10
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
@@ -3333,17 +3390,34 @@ msgid ""
 "chosen XMPP software."
 msgstr "要开始聊天，您需要在您选择的 XMPP 软件中输入您的新账号凭据。"
 
-#: priv/mod_invites/client.html:34
+#: priv/mod_invites/apps.json:146
+msgid "Gajim Logo"
+msgstr ""
+
+#: priv/mod_invites/register.html:53
+msgid "Please provide a password! Minimum length: {{ password_min_length }}"
+msgstr ""
+
+#: priv/mod_invites/apps.json:20
+#, fuzzy
+msgid "Conversations Logo"
+msgstr "事务已记录："
+
+#: priv/mod_invites/client.html:31
 msgid "Step 1: Install {{ app_name }}"
 msgstr "步骤 1：安装 {{ app_name }}"
 
-#: priv/mod_invites/apps.json:114
+#: priv/mod_invites/apps.json:124
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
 msgstr "点击按钮打开 Dino 网站，您可在电脑上下载并安装该应用。"
 
-#: priv/mod_invites/register.html:15
+#: priv/mod_invites/register.html:40
+msgid "Please provide a valid username!"
+msgstr ""
+
+#: priv/mod_invites/register.html:16
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
@@ -3351,23 +3425,23 @@ msgstr ""
 "如果您已安装 {{ app_name }}，我们推荐您点击下方按钮，使用该应用继续完成账号创"
 "建流程："
 
-#: priv/mod_invites/roster.html:14
+#: priv/mod_invites/roster.html:13
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
 msgstr "如果您尚未安装 XMPP 客户端，以下是适用于您平台的推荐客户端列表。"
 
-#: priv/mod_invites/apps.json:89
+#: priv/mod_invites/apps.json:98
 msgid "Download from Mac App Store"
 msgstr "从 Mac App Store 下载"
 
-#: priv/mod_invites/base.html:29
+#: priv/mod_invites/base.html:26
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
 msgstr "您可以使用相机扫描二维码，将此邀请转移至您的移动设备。"
 
-#: priv/mod_invites/invite.html:17
+#: priv/mod_invites/invite.html:15
 msgid ""
 "You can connect to {{ site_name }} using any XMPP-compatible software. If "
 "your preferred software is not listed above, you may still <a "
@@ -3376,21 +3450,16 @@ msgstr ""
 "您可以使用任意 XMPP 兼容软件连接至 {{ site_name }}。如果您常用的软件未在上方"
 "列出，您仍然可以<a href=\"{{ registration_url }}\">手动注册账号</a>。"
 
-#: priv/mod_invites/apps.json:101
-msgid ""
-"Launch Beagle IM, and select 'Yes' to add a new account. Click the '+' "
-"button under the empty account list and then enter your credentials."
-msgstr ""
-"启动 Beagle IM，然后选择“是”添加新账号。点击空白账号列表下方的“+”按钮，然后输"
-"入您的凭据。"
-
-#: priv/mod_invites/register.html:11
+#: priv/mod_invites/register.html:12
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
 msgstr ""
 "创建账号后，您即可与 <strong>{{ site_name }}</strong> 上的其他用户以及 XMPP "
 "网络中的其他服务进行通信。"
+
+#~ msgid "QR code icon"
+#~ msgstr "二维码图标"
 
 #~ msgid "List of users with hats"
 #~ msgstr "有头衔的用户列表"
@@ -3587,9 +3656,6 @@ msgstr ""
 
 #~ msgid "Transactions Committed:"
 #~ msgstr "事务已提交："
-
-#~ msgid "Transactions Logged:"
-#~ msgstr "事务已记录："
 
 #~ msgid "Transactions Restarted:"
 #~ msgstr "事务已重启："
