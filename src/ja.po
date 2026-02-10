@@ -45,7 +45,7 @@ msgstr "ノードの説明"
 msgid "A friendly name for the node"
 msgstr "ノードのフレンドリネーム"
 
-#: src/mod_muc_room.erl:2411
+#: src/mod_muc_room.erl:2439
 msgid "A password is required to enter this room"
 msgstr "このチャットルームに入るにはパスワードが必要です"
 
@@ -63,11 +63,11 @@ msgstr "許可"
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:223
-#: src/mod_muc.erl:712 src/ejabberd_service.erl:232 src/mod_register.erl:118
+#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
+#: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:692
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "サービスポリシーによってアクセスが禁止されました"
@@ -97,7 +97,7 @@ msgstr "管理"
 msgid "Administration of "
 msgstr "管理: "
 
-#: src/mod_muc_room.erl:3109
+#: src/mod_muc_room.erl:3135
 msgid "Administrator privileges required"
 msgstr "管理者権限が必要です"
 
@@ -239,8 +239,8 @@ msgstr "4月"
 msgid "Arguments"
 msgstr "アナウンス"
 
-#: src/mod_muc_room.erl:4536 src/mod_muc_room.erl:4674
-#: src/mod_muc_room.erl:5103
+#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4699
+#: src/mod_muc_room.erl:5128
 msgid "Assign a hat to a user"
 msgstr ""
 
@@ -340,7 +340,7 @@ msgstr "パスワードを変更"
 msgid "Changing password is not allowed"
 msgstr "パスワード変更の権限がありません"
 
-#: src/mod_muc_room.erl:3403
+#: src/mod_muc_room.erl:3429
 #, fuzzy
 msgid "Changing role/affiliation is not allowed"
 msgstr "使用できない文字:"
@@ -385,7 +385,7 @@ msgstr "チャットルームを開始しました"
 msgid "Chatroom is stopped"
 msgstr "チャットルームを停止しました"
 
-#: src/mod_muc.erl:1465 src/mod_muc_admin.erl:1200
+#: src/mod_muc.erl:1462 src/mod_muc_admin.erl:1200
 msgid "Chatrooms"
 msgstr "チャットルーム"
 
@@ -415,13 +415,13 @@ msgstr ""
 msgid "Clustering"
 msgstr ""
 
-#: src/mod_muc_room.erl:4517 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4542 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "コマンド"
 
-#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:630
-#: src/mod_muc.erl:654
+#: src/mod_muc_room.erl:247 src/mod_muc_room.erl:258 src/mod_muc.erl:631
+#: src/mod_muc.erl:655
 msgid "Conference room does not exist"
 msgstr "会議室は存在しません"
 
@@ -430,7 +430,7 @@ msgstr "会議室は存在しません"
 msgid "Configuration"
 msgstr "設定"
 
-#: src/mod_muc_room.erl:3851
+#: src/mod_muc_room.erl:3877
 msgid "Configuration of room ~s"
 msgstr "チャットルーム ~s の設定"
 
@@ -448,12 +448,12 @@ msgstr ""
 msgid "Country"
 msgstr "国"
 
-#: src/mod_invites.erl:469 src/mod_invites.erl:667
+#: src/mod_invites.erl:486 src/mod_invites.erl:684
 msgid "Create Account"
 msgstr ""
 
-#: src/mod_muc_room.erl:4533 src/mod_muc_room.erl:4662
-#: src/mod_muc_room.erl:5072
+#: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
+#: src/mod_muc_room.erl:5097
 msgid "Create a Hat"
 msgstr ""
 
@@ -476,7 +476,7 @@ msgstr "データーベーステーブル設定 "
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
-#: src/mod_last.erl:185 src/mod_muc.erl:807 src/mod_muc.erl:1180
+#: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
 #: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
@@ -518,8 +518,8 @@ msgstr "イベント通知を配送する"
 msgid "Deliver payloads with event notifications"
 msgstr "イベント通知と同時にペイロードを配送する"
 
-#: src/mod_muc_room.erl:4534 src/mod_muc_room.erl:4666
-#: src/mod_muc_room.erl:5089
+#: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4691
+#: src/mod_muc_room.erl:5114
 msgid "Destroy a Hat"
 msgstr ""
 
@@ -562,7 +562,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "プロパティを編集"
 
-#: src/mod_muc_room.erl:5449
+#: src/mod_muc_room.erl:5473
 msgid "Either approve or decline the voice request."
 msgstr "発言権の要求を承認または却下します。"
 
@@ -598,7 +598,7 @@ msgstr ""
 msgid "End User Session"
 msgstr "エンドユーザーセッション"
 
-#: src/mod_muc.erl:1132
+#: src/mod_muc.erl:1129
 msgid "Enter nickname you want to register"
 msgstr "登録するニックネームを入力してください"
 
@@ -661,7 +661,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr ""
 
-#: src/mod_muc_room.erl:1318
+#: src/mod_muc_room.erl:1314
 msgid "Failed to extract JID from your voice request approval"
 msgstr "発言権要求の承認から JID を取り出すことに失敗しました"
 
@@ -673,7 +673,7 @@ msgstr ""
 msgid "Failed to parse HTTP response"
 msgstr "HTTP 応答のパースに失敗しました"
 
-#: src/mod_muc_room.erl:3999
+#: src/mod_muc_room.erl:4025
 msgid "Failed to process option '~s'"
 msgstr "オプション '~s' の処理に失敗しました"
 
@@ -805,34 +805,34 @@ msgstr ""
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
-#: src/mod_muc_room.erl:5062 src/mod_muc_room.erl:5076
-#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5157
+#: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5101
+#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5182
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:5066 src/mod_muc_room.erl:5084
-#: src/mod_muc_room.erl:5161
+#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5109
+#: src/mod_muc_room.erl:5186
 #, fuzzy
 msgid "Hat hue"
 msgstr "チャットルームのタイトル"
 
-#: src/mod_muc_room.erl:5064 src/mod_muc_room.erl:5080
-#: src/mod_muc_room.erl:5159
+#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5105
+#: src/mod_muc_room.erl:5184
 #, fuzzy
 msgid "Hat title"
 msgstr "チャットルームのタイトル"
 
-#: src/mod_muc_room.erl:5217
+#: src/mod_muc_room.erl:5242
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "トラフィックレートの制限を超えました"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:983
+#: src/mod_invites.erl:1020
 msgid "Host unknown"
 msgstr "不明なホスト"
 
-#: src/mod_invites.erl:985
+#: src/mod_invites.erl:1022
 msgid "Hostname invalid"
 msgstr ""
 
@@ -886,27 +886,27 @@ msgstr "ユーザーデータを jabberd14 Spool ディレクトリからイン�
 msgid "Improper domain part of 'from' attribute"
 msgstr ""
 
-#: src/mod_muc_room.erl:466
+#: src/mod_muc_room.erl:468
 msgid "Improper message type"
 msgstr "誤ったメッセージタイプです"
 
-#: src/mod_muc_room.erl:4719 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4744 src/mod_register.erl:192
 #: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:254
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3724 src/mod_muc.erl:1203
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
 #: src/mod_invites_register.erl:250
 msgid "Incorrect data form"
 msgstr "データ形式が違います"
 
-#: src/mod_muc_room.erl:2461 src/mod_register_web.erl:594
+#: src/mod_muc_room.erl:2489 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "パスワードが違います"
 
-#: src/mod_muc_room.erl:5040 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5065 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr ""
 
@@ -944,20 +944,20 @@ msgstr ""
 msgid "Invalid 'previd' value"
 msgstr "無効な 'previd' の値です"
 
-#: src/mod_muc_room.erl:4569
+#: src/mod_muc_room.erl:4594
 msgid "Invalid node name"
 msgstr "無効なノード名です"
 
-#: src/mod_muc_room.erl:5494
+#: src/mod_muc_room.erl:5518
 msgid "Invitations are not allowed in this conference"
 msgstr "この会議では、招待はできません"
 
-#: src/mod_invites.erl:465 src/mod_invites.erl:669
+#: src/mod_invites.erl:482 src/mod_invites.erl:686
 #, fuzzy
 msgid "Invite User"
 msgstr "オンラインユーザー"
 
-#: src/mod_muc_room.erl:439 src/mod_muc_room.erl:602 src/mod_muc_room.erl:1502
+#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -965,12 +965,12 @@ msgstr ""
 "このルームにエラーメッセージを送ることは許可されていません。参加者(~s)はエ"
 "ラーメッセージを(~s)を送信してルームからキックされました。"
 
-#: src/mod_muc_room.erl:616
+#: src/mod_muc_room.erl:618
 msgid "It is not allowed to send private messages of type \"groupchat\""
 msgstr ""
 "種別が\"groupchat\" であるプライベートメッセージを送信することはできません"
 
-#: src/mod_muc_room.erl:450
+#: src/mod_muc_room.erl:452
 msgid "It is not allowed to send private messages to the conference"
 msgstr "この会議にプライベートメッセージを送信することはできません"
 
@@ -983,8 +983,8 @@ msgstr "サービスポリシーによってチャットルームの作成が禁
 msgid "JID normalization failed"
 msgstr "JID の正規化に失敗しました"
 
-#: src/mod_muc_room.erl:5107 src/mod_muc_room.erl:5125
-#: src/mod_muc_room.erl:5155 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -1046,14 +1046,14 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_room.erl:4535 src/mod_muc_room.erl:4670
-#: src/mod_muc_room.erl:5059
+#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4695
+#: src/mod_muc_room.erl:5084
 #, fuzzy
 msgid "List of Hats"
 msgstr "Listen ポート"
 
-#: src/mod_muc_room.erl:4538 src/mod_muc_room.erl:4682
-#: src/mod_muc_room.erl:5152
+#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4707
+#: src/mod_muc_room.erl:5177
 msgid "List users with hats"
 msgstr ""
 
@@ -1139,7 +1139,7 @@ msgstr "最大在室者数"
 msgid "Maximum file size"
 msgstr "最大ファイルサイズ"
 
-#: src/mod_invites.erl:987
+#: src/mod_invites.erl:1024
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "アイテムの最大保存数"
@@ -1158,7 +1158,7 @@ msgstr "5月"
 msgid "Members are allowed to invite others"
 msgstr "在室者は誰かを招待することができます"
 
-#: src/mod_muc_room.erl:2348
+#: src/mod_muc_room.erl:2376
 msgid "Membership is required to enter this room"
 msgstr "このチャットルームに入るにはメンバーでなければなりません"
 
@@ -1184,7 +1184,7 @@ msgstr "本文"
 msgid "Message not found in forwarded payload"
 msgstr ""
 
-#: src/mod_block_strangers.erl:184
+#: src/mod_block_strangers.erl:190
 msgid "Messages from strangers are rejected"
 msgstr ""
 
@@ -1212,8 +1212,8 @@ msgstr "発言権の要求の最小時間間隔 (秒)"
 msgid "Moderator"
 msgstr "モデレーター"
 
-#: src/mod_muc_room.erl:3117 src/mod_muc_room.erl:4773
-#: src/mod_muc_room.erl:4829 src/mod_muc_room.erl:4887
+#: src/mod_muc_room.erl:3143 src/mod_muc_room.erl:4798
+#: src/mod_muc_room.erl:4854 src/mod_muc_room.erl:4912
 msgid "Moderator privileges required"
 msgstr "モデレーター権限が必要です"
 
@@ -1264,11 +1264,11 @@ msgstr ""
 msgid "Natural-Language Room Name"
 msgstr "自然言語での会議室名"
 
-#: src/mod_muc_room.erl:3330
+#: src/mod_muc_room.erl:3356
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3099 src/mod_muc_room.erl:3335
+#: src/mod_muc_room.erl:3125 src/mod_muc_room.erl:3361
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr ""
 
@@ -1290,24 +1290,24 @@ msgstr "新しいパスワード:"
 msgid "Nickname"
 msgstr "ニックネーム"
 
-#: src/mod_muc.erl:1131
+#: src/mod_muc.erl:1128
 msgid "Nickname Registration at "
 msgstr "ニックネーム登録: "
 
-#: src/mod_muc_room.erl:1451 src/mod_muc_room.erl:2369
-#: src/mod_muc_room.erl:4796
+#: src/mod_muc_room.erl:1444 src/mod_muc_room.erl:2397
+#: src/mod_muc_room.erl:4821
 msgid "Nickname can't be empty"
 msgstr "ニックネームは空にできません"
 
-#: src/mod_muc_room.erl:3347
+#: src/mod_muc_room.erl:3373
 msgid "Nickname ~s does not exist in the room"
 msgstr "ニックネーム ~s はこのチャットルームにいません"
 
-#: src/mod_muc_room.erl:3747
+#: src/mod_muc_room.erl:3773
 msgid "No 'affiliation' attribute found"
 msgstr ""
 
-#: src/mod_muc_room.erl:3081
+#: src/mod_muc_room.erl:3107
 msgid "No 'item' element found"
 msgstr "'item' 要素が見つかりません"
 
@@ -1325,7 +1325,7 @@ msgstr "このクエリに 'password' が見つかりません"
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5490
+#: src/mod_muc_room.erl:5514
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1353,7 +1353,7 @@ msgstr ""
 msgid "No body provided for announce message"
 msgstr "アナウンスメッセージはありませんでした"
 
-#: src/mod_muc_room.erl:1342 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1338 src/gen_iq_handler.erl:89
 msgid "No child elements found"
 msgstr "子要素が見つかりません"
 
@@ -1378,7 +1378,7 @@ msgstr ""
 msgid "No items found in this query"
 msgstr ""
 
-#: src/mod_muc_room.erl:3869
+#: src/mod_muc_room.erl:3895
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "制限なし"
@@ -1386,9 +1386,9 @@ msgstr "制限なし"
 #: src/mod_matrix_gw.erl:952 src/mod_matrix_gw.erl:966
 #: src/mod_http_upload.erl:757 src/mod_offline.erl:356
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
-#: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:253
-#: src/mod_muc.erl:684 src/mod_muc.erl:760 src/mod_muc.erl:780
-#: src/mod_muc.erl:811 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
+#: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
+#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1452,9 +1452,9 @@ msgid "Node index not found"
 msgstr "ノードが見つかりません"
 
 #: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
-#: src/mod_muc_room.erl:4519 src/mod_muc_room.erl:4553
-#: src/mod_muc_room.erl:4684 src/mod_muc_room.erl:4702
-#: src/mod_muc_room.erl:4706 src/mod_muc.erl:758 src/mod_muc.erl:1059
+#: src/mod_muc_room.erl:4544 src/mod_muc_room.erl:4578
+#: src/mod_muc_room.erl:4709 src/mod_muc_room.erl:4727
+#: src/mod_muc_room.erl:4731 src/mod_muc.erl:755 src/mod_muc.erl:1056
 #: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
@@ -1605,26 +1605,26 @@ msgstr "有効なユーザーにのみ告知を送信する"
 msgid "Only members may query archives of this room"
 msgstr "メンバーのみがこのルームのアーカイブを取得できます"
 
-#: src/mod_muc_room.erl:1129
+#: src/mod_muc_room.erl:1125
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr "モデレーターと参加者のみがチャットルームの件名を変更できます"
 
-#: src/mod_muc_room.erl:1134
+#: src/mod_muc_room.erl:1130
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "モデレーターのみがチャットルームの件名を変更できます"
 
-#: src/mod_muc_room.erl:5403
+#: src/mod_muc_room.erl:5429
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "サービス管理者のみがサービスメッセージを送信できます"
 
-#: src/mod_muc_room.erl:1325
+#: src/mod_muc_room.erl:1321
 msgid "Only moderators can approve voice requests"
 msgstr "モデレーターだけが発言権の要求を承認できます"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1148 src/mod_muc_room.erl:5559
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "在室者のみがこの会議にメッセージを送ることができます"
 
@@ -1638,7 +1638,7 @@ msgstr "在室者のみが会議にクエリーを送信することができま
 msgid "Only publishers may publish"
 msgstr ""
 
-#: src/mod_muc.erl:243
+#: src/mod_muc.erl:244
 msgid "Only service administrators are allowed to send service messages"
 msgstr "サービス管理者のみがサービスメッセージを送信できます"
 
@@ -1676,8 +1676,8 @@ msgstr "外向き s2s コネクション"
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
 #: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
-#: src/mod_muc_room.erl:3694 src/mod_muc_room.erl:3739
-#: src/mod_muc_room.erl:4749 src/mod_mix.erl:678
+#: src/mod_muc_room.erl:3720 src/mod_muc_room.erl:3765
+#: src/mod_muc_room.erl:4774 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "主宰者の権限が必要です"
 
@@ -1759,7 +1759,7 @@ msgstr ""
 "ことに注意してください。もし ODBC モジュールを使用している場合は、SQL デー"
 "ターベースのバックアップを別に行う必要があります。"
 
-#: src/mod_muc_room.erl:1286
+#: src/mod_muc_room.erl:1282
 msgid "Please, wait for a while before sending new voice request"
 msgstr "新しい発言権の要求を送るまで少し間をおいてください"
 
@@ -1866,7 +1866,7 @@ msgstr ""
 msgid "Receive notification of new nodes only"
 msgstr ""
 
-#: src/mod_muc_room.erl:623 src/mod_muc_room.erl:682
+#: src/mod_muc_room.erl:625 src/mod_muc_room.erl:682
 msgid "Recipient is not in the conference room"
 msgstr "受信者はこの会議室にいません"
 
@@ -1887,8 +1887,8 @@ msgstr "リモートコピー"
 msgid "Remove User"
 msgstr "ユーザーを削除"
 
-#: src/mod_muc_room.erl:4537 src/mod_muc_room.erl:4678
-#: src/mod_muc_room.erl:5121
+#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4703
+#: src/mod_muc_room.erl:5146
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -1966,7 +1966,7 @@ msgstr "チャットルームの設定"
 msgid "Room Occupants"
 msgstr "在室者"
 
-#: src/mod_muc.erl:648
+#: src/mod_muc.erl:649
 msgid "Room creation is denied by service policy"
 msgstr "サービスポリシーによってチャットルームの作成が禁止されています"
 
@@ -2069,7 +2069,7 @@ msgstr "お知らせメッセージを設定し、オンラインユーザーに
 msgid "Set message of the day on all hosts and send to online users"
 msgstr "全ホストのお知らせメッセージを設定し、オンラインユーザーに送信"
 
-#: src/mod_shared_roster.erl:885 src/mod_shared_roster.erl:893
+#: src/mod_shared_roster.erl:878 src/mod_shared_roster.erl:886
 msgid "Shared Roster Groups"
 msgstr "共有名簿グループ"
 
@@ -2122,7 +2122,7 @@ msgstr "公開モデルを指定する"
 msgid "Stanza ID"
 msgstr "スタンザ ID"
 
-#: src/mod_muc_room.erl:5438
+#: src/mod_muc_room.erl:5462
 #, fuzzy
 msgid "Stanza id is not valid"
 msgstr "ユーザー名が正しくありません"
@@ -2179,7 +2179,7 @@ msgid ""
 "items"
 msgstr ""
 
-#: src/mod_muc_room.erl:4760
+#: src/mod_muc_room.erl:4785
 msgid "Subscriptions are not allowed"
 msgstr ""
 
@@ -2203,13 +2203,13 @@ msgstr ""
 msgid "Text associated with speech"
 msgstr ""
 
-#: src/mod_muc_room.erl:1442 src/mod_muc_room.erl:2358
-#: src/mod_muc_room.erl:4786
+#: src/mod_muc_room.erl:1435 src/mod_muc_room.erl:2386
+#: src/mod_muc_room.erl:4811
 msgid "That nickname is already in use by another occupant"
 msgstr "そのニックネームは既にほかの在室者によって使用されています"
 
-#: src/mod_muc_room.erl:1454 src/mod_muc_room.erl:2372
-#: src/mod_muc_room.erl:4800 src/mod_muc.erl:1177
+#: src/mod_muc_room.erl:1447 src/mod_muc_room.erl:2400
+#: src/mod_muc_room.erl:4825 src/mod_muc.erl:1174
 msgid "That nickname is registered by another person"
 msgstr "ニックネームはほかの人によって登録されています"
 
@@ -2217,7 +2217,7 @@ msgstr "ニックネームはほかの人によって登録されています"
 msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA は有効です。"
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4722 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
 #: src/mod_invites_register.erl:257
 msgid "The CAPTCHA verification has failed"
@@ -2300,7 +2300,7 @@ msgstr ""
 msgid "The default language of the node"
 msgstr "ノードのデフォルトの言語"
 
-#: src/mod_muc_room.erl:524 src/mod_muc_room.erl:529
+#: src/mod_muc_room.erl:526 src/mod_muc_room.erl:531
 msgid "The feature requested is not supported by the conference"
 msgstr ""
 
@@ -2405,7 +2405,7 @@ msgstr ""
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
-#: src/mod_muc_room.erl:5111 src/mod_muc_room.erl:5129
+#: src/mod_muc_room.erl:5136 src/mod_muc_room.erl:5154
 msgid "The role"
 msgstr ""
 
@@ -2510,7 +2510,7 @@ msgid ""
 msgstr ""
 "~p回の認証に失敗しました。このIPアドレス(~s)は~s UTCまでブロックされます。"
 
-#: src/mod_muc_room.erl:3086 src/mod_muc_room.erl:3753
+#: src/mod_muc_room.erl:3112 src/mod_muc_room.erl:3779
 msgid "Too many <item/> elements"
 msgstr ""
 
@@ -2518,7 +2518,7 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_muc_room.erl:2442 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "CAPTCHA 要求が多すぎます"
@@ -2528,7 +2528,7 @@ msgstr "CAPTCHA 要求が多すぎます"
 msgid "Too many active bytestreams"
 msgstr "多くのスタンザが応答していません"
 
-#: src/mod_muc_room.erl:1344 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1340 src/gen_iq_handler.erl:90
 #, fuzzy
 msgid "Too many child elements"
 msgstr "多くのスタンザが応答していません"
@@ -2541,11 +2541,11 @@ msgstr ""
 msgid "Too many unacked stanzas"
 msgstr "多くのスタンザが応答していません"
 
-#: src/mod_muc_room.erl:2317
+#: src/mod_muc_room.erl:2345
 msgid "Too many users in this conference"
 msgstr "この会議にはユーザーが多すぎます"
 
-#: src/mod_muc_room.erl:379
+#: src/mod_muc_room.erl:381
 msgid "Traffic rate limit is exceeded"
 msgstr "トラフィックレートの制限を超えました"
 
@@ -2557,7 +2557,7 @@ msgstr "火曜日"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2451 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "CAPTCHA を生成できません"
@@ -2643,7 +2643,7 @@ msgstr "ユーザー JID"
 msgid "User Management"
 msgstr "ユーザー管理"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:991
+#: src/mod_register.erl:407 src/mod_invites.erl:1028
 msgid "User already exists"
 msgstr "ユーザーは既に存在しています"
 
@@ -2667,12 +2667,12 @@ msgstr "ユーザーセッションが終了しました"
 msgid "User ~ts"
 msgstr "ユーザー ~ts"
 
-#: src/mod_invites.erl:981
+#: src/mod_invites.erl:1018
 #, fuzzy
 msgid "Username invalid"
 msgstr "ユーザー名:"
 
-#: src/mod_invites.erl:989
+#: src/mod_invites.erl:1026
 #, fuzzy
 msgid "Username is reserved"
 msgstr "ユーザーを削除しました"
@@ -2695,17 +2695,17 @@ msgstr "ユーザーの活動履歴"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "それほど速くアカウントを登録することはできません"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4712 src/mod_muc_room.erl:4891
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4737 src/mod_muc_room.erl:4916
 #: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr ""
 
 #: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4496
-#: src/mod_muc_room.erl:4632 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4521
+#: src/mod_muc_room.erl:4657 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
-#: src/mod_muc.erl:681 src/mod_muc.erl:719 src/mod_muc.erl:765
-#: src/mod_muc.erl:785 src/mod_muc.erl:795 src/mod_disco.erl:101
+#: src/mod_muc.erl:682 src/mod_muc.erl:720 src/mod_muc.erl:762
+#: src/mod_muc.erl:782 src/mod_muc.erl:792 src/mod_disco.erl:101
 #: src/mod_disco.erl:117 src/mod_disco.erl:223 src/mod_disco.erl:275
 #: src/mod_time.erl:53 src/mod_sic.erl:61 src/mod_sic.erl:73
 #: src/mod_vcard.erl:215 src/mod_vcard.erl:258 src/mod_version.erl:53
@@ -2741,19 +2741,19 @@ msgstr "バーチャルホスト"
 msgid "Visitor"
 msgstr "傍聴者"
 
-#: src/mod_muc_room.erl:1435
+#: src/mod_muc_room.erl:1428
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "傍聴者はこのチャットルームでニックネームを変更することはできません"
 
-#: src/mod_muc_room.erl:1141
+#: src/mod_muc_room.erl:1137
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "傍聴者はすべての在室者にメッセージを送信することはできません"
 
-#: src/mod_muc_room.erl:5447
+#: src/mod_muc_room.erl:5471
 msgid "Voice request"
 msgstr "発言権を要求"
 
-#: src/mod_muc_room.erl:1293
+#: src/mod_muc_room.erl:1289
 msgid "Voice requests are disabled in this conference"
 msgstr "この会議では、発言権の要求はできません"
 
@@ -2886,15 +2886,15 @@ msgstr "チャンネルに参加していません"
 msgid "You can later change your password using an XMPP client."
 msgstr "あなたは後で XMPP クライアントを使用してパスワードを変更できます。"
 
-#: src/mod_muc_room.erl:2345 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2373 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "あなたはこのチャットルームから締め出されています"
 
-#: src/mod_muc_room.erl:2326
+#: src/mod_muc_room.erl:2354
 msgid "You have joined too many conferences"
 msgstr ""
 
-#: src/mod_muc.erl:1208
+#: src/mod_muc.erl:1205
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "フォームの\"ニックネーム\"欄を入力する必要があります"
 
@@ -2902,7 +2902,7 @@ msgstr "フォームの\"ニックネーム\"欄を入力する必要があり�
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "登録を行うには x:data と CAPTCHA をサポートするクライアントが必要です"
 
-#: src/mod_muc.erl:1140
+#: src/mod_muc.erl:1137
 msgid "You need a client that supports x:data to register the nickname"
 msgstr "ニックネームを登録するには x:data をサポートするクライアントが必要です"
 
@@ -2947,7 +2947,7 @@ msgstr "ejabberd"
 msgid "ejabberd HTTP Upload service"
 msgstr "ejabberd HTTP ファイルアップロード"
 
-#: src/mod_muc.erl:675
+#: src/mod_muc.erl:676
 msgid "ejabberd MUC module"
 msgstr "ejabberd MUCモジュール"
 
@@ -3003,11 +3003,11 @@ msgstr "がチャットルームに参加しました"
 msgid "leaves the room"
 msgstr "がチャットルームから退出しました"
 
-#: src/mod_muc_room.erl:4946
+#: src/mod_muc_room.erl:4971
 msgid "private, "
 msgstr "プライベート、"
 
-#: src/mod_muc_room.erl:5523
+#: src/mod_muc_room.erl:5547
 msgid "the password is"
 msgstr "パスワードは"
 
@@ -3015,7 +3015,7 @@ msgstr "パスワードは"
 msgid "vCard User Search"
 msgstr "vCard検索"
 
-#: src/mod_muc_room.erl:5516
+#: src/mod_muc_room.erl:5540
 msgid "~s invites you to the room ~s"
 msgstr "~s はあなたをチャットルーム ~s に招待しています"
 
