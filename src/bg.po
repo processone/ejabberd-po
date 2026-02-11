@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2026-02-11 08:08+0000\n"
+"PO-Revision-Date: 2026-02-13 17:09+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -1861,7 +1861,7 @@ msgstr "Регистрирай"
 #: src/mod_register_web.erl:203 src/mod_register_web.erl:231
 #: src/mod_register_web.erl:239
 msgid "Register an XMPP account"
-msgstr "Регистрирай XMPP акаунт"
+msgstr "Регистрирай XMPP профил"
 
 #: src/mod_configure.erl:884
 msgid "Remote copy"
@@ -2920,11 +2920,11 @@ msgstr "Нямате право да създавате нодове"
 
 #: src/mod_register_web.erl:107
 msgid "Your XMPP account was successfully registered."
-msgstr "Вашият XMPP акаунт, беше регистриран успешно."
+msgstr "Вашият XMPP профил, беше регистриран успешно."
 
 #: src/mod_register_web.erl:120
 msgid "Your XMPP account was successfully unregistered."
-msgstr "Вашият XMPP акаунт, беше успешно дерегистриран."
+msgstr "Вашият XMPP профил, беше успешно премахнат."
 
 #: src/ejabberd_c2s.erl:846 src/ejabberd_c2s.erl:1000
 msgid "Your active privacy list has denied the routing of this stanza."
@@ -3125,54 +3125,59 @@ msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "{{ site_name }}, part of the XMPP secure and decentralized messaging network."
 msgstr ""
+"Поканени сте да чатите с <strong>{{ inviter }}</strong> на {{ site_name }}, "
+"част от защитената и децентрализирана мрежа за съобщения XMPP."
 
 #: priv/mod_invites/register_error.html:4
-#, fuzzy
 msgid "Registration error"
-msgstr "Регистрирай"
+msgstr "Грешка при регистриране"
 
 #: priv/mod_invites/register_success.html:69
 msgid "Step 2: Connect {{ app_name }} to your new account"
-msgstr ""
+msgstr "Стъпка 2: Свържете {{ app_name }} с новия си профил"
 
 #: priv/mod_invites/invite.html:7
 msgid ""
 "You have been invited to chat on <strong>{{ site_name }}</strong>, part of "
 "the XMPP secure and decentralized messaging network."
 msgstr ""
+"Поканени сте да чатите в <strong>{{ site_name }}</strong>, част от "
+"защитената и децентрализирана мрежа за съобщения XMPP."
 
 #: priv/mod_invites/register_success.html:74
 msgid "As a final reminder, your account details are shown below:"
-msgstr ""
+msgstr "Като последно напомняне, данните за вашия профил са показани по-долу:"
 
 #: priv/mod_invites/client.html:12
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
-msgstr ""
+msgstr "Можете да започнете да чатите веднага с {{ app_name }}. Да започваме!"
 
 #: priv/mod_invites/client.html:54
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
 msgstr ""
+"Инсталира ли се нормално? Чудесно! <strong>Кликнете или докоснете бутона по-"
+"долу</strong>, за да приемете поканата си и да продължите с настройката на "
+"вашия профил:"
 
 #: priv/mod_invites/invite.html:9
-#, fuzzy
 msgid "Get started"
-msgstr "Рестартирай"
+msgstr "Започнете"
 
 #: priv/mod_invites/register_success.html:24
-#, fuzzy
 msgid "Congratulations!"
-msgstr "Конфигурация"
+msgstr "Поздравления!"
 
 #: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
-msgstr ""
+msgstr "Сканиране с мобилно устройство"
 
 #: priv/mod_invites/register_success.html:46
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr ""
+"Вече можете да настроите {{ app_name }} и да го свържете с вашия нов профил."
 
 #: priv/mod_invites/register.html:12
 msgid ""
@@ -3180,149 +3185,171 @@ msgid ""
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
 "services on the XMPP network."
 msgstr ""
+"Създаването на профил, ще ви позволи да комуникирате с <strong>{{ inviter }}"
+"</strong>, други хора в <strong>{{ site_name }}</strong> и други услуги в "
+"мрежата XMPP."
 
 #: priv/mod_invites/register_success.html:13
 msgid "Hide"
-msgstr ""
+msgstr "Скрий"
 
 #: priv/mod_invites/client.html:60
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
 msgstr ""
+"След като щракнете върху бутона, ще бъдете пренасочени към {{ app_name }}, "
+"за да завършите настройката на новия вашия нов {{ site_name }} профил."
 
 #: priv/mod_invites/roster.html:10
 msgid "Add {{ inviter }} to your contact list"
-msgstr ""
+msgstr "Добавете {{ inviter }} към вашия списък с контакти"
 
 #: priv/mod_invites/invite.html:10
 msgid "To get started, you need to install an app for your platform:"
-msgstr ""
+msgstr "За да започнете, трябва да инсталирате приложение за вашата платформа:"
 
 #: priv/mod_invites/apps.json:91
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
 msgstr ""
+"Лек и мощен XMPP клиент за iPhone и iPad. Предоставя лесен начин да говорите "
+"и споделяте моменти с приятелите си."
 
 #: priv/mod_invites/register_success.html:48
 msgid "Step 1: Download and install {{ app_name }}"
-msgstr ""
+msgstr "Стъпка 1: Изтеглете и инсталирайте {{ app_name }}"
 
 #: priv/mod_invites/apps.json:111
 msgid ""
 "Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
 "\\' button under the empty account list and then enter your credentials."
 msgstr ""
+"Стартирайте Beagle IM и изберете \\'Да\\', за да добавите нов профил. "
+"Кликнете върху бутона \\'+\\' под празния списък с профили и след това "
+"въведете вашите идентификационни данни."
 
 #: priv/mod_invites/base.html:28
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
+"Използвайте скенер за <em>QR код</em> на вашето мобилно устройство, за да "
+"сканирате кода по-долу:"
 
 #: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
 msgid "Invite to {{ site_name }}"
-msgstr ""
+msgstr "Покани в {{ site_name }}"
 
 #: priv/mod_invites/invite.html:14
 msgid "Other software"
-msgstr ""
+msgstr "Друг софтуер"
 
 #: priv/mod_invites/register.html:25
-#, fuzzy
 msgid "Create an account"
-msgstr "Създай Шапка"
+msgstr "Създайте профил"
 
 #: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
 msgid "Apple Store Logo"
-msgstr ""
+msgstr "Apple Store лого"
 
 #: priv/mod_invites/roster.html:3
-#, fuzzy
 msgid "Add Contact"
-msgstr "Контакти"
+msgstr "Добавете контакти"
 
 #: priv/mod_invites/apps.json:127
 msgid "Dino Logo"
-msgstr ""
+msgstr "Dino лого"
 
 #: priv/mod_invites/register_success.html:78
 msgid "Chat address (JID)"
-msgstr ""
+msgstr "Чат адрес (JID)"
 
 #: priv/mod_invites/apps.json:104
 msgid "Beagle IM Logo"
-msgstr ""
+msgstr "Beagle IM лого"
 
 #: priv/mod_invites/base.html:33
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: priv/mod_invites/apps.json:28
 msgid ""
 "Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
 "been optimized to provide a unique mobile experience."
 msgstr ""
+"Conversations е Jabber/XMPP клиент за смартфони с Android 6.0+, оптимизиран "
+"да осигури уникално мобилно изживяване."
 
 #: priv/mod_invites/register.html:17
-#, fuzzy
 msgid "{{ app_name }} already installed?"
-msgstr "Управлението на потока вече е активирано"
+msgstr "{{ app_name }} инсталиран ли е?"
 
 #: priv/mod_invites/register_success.html:35
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
 msgstr ""
+"<strong>В момента нямате инсталиран подходящ софтуер?</strong> Можете, също "
+"да влезете в профила си чрез нашия онлайн уеб чат!"
 
 #: priv/mod_invites/register.html:20
 msgid "This button works only if you have the app installed already!"
-msgstr ""
+msgstr "Този бутон работи, само ако вече имате инсталирано приложението!"
 
 #: priv/mod_invites/apps.json:133
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
 msgstr ""
+"Модерен клиент за чат с отворен код за настолни компютри. Фокусира се върху "
+"предоставянето на чисто и надеждно Jabber/XMPP изживяване, като същевременно "
+"се грижи за вашата поверителност."
 
 #: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
-msgstr ""
+msgstr "Регистрирайте се на {{ site_name }}"
 
 #: priv/mod_invites/apps.json:49
 msgid ""
 "A modern open-source chat client for iPhone and iPad. It is easy to use and "
 "has a clean user interface."
 msgstr ""
+"Модерен чат клиент с отворен код за iPhone и iPad. Лесен за използване, с "
+"изчистен потребителски интерфейс."
 
 #: priv/mod_invites/apps.json:70
 msgid ""
 "A modern open-source chat client for Mac. It is easy to use and has a clean "
 "user interface."
 msgstr ""
+"Модерен чат клиент с отворен код за Mac. Лесен за използване, с изчистен "
+"потребителски интерфейс."
 
 #: priv/mod_invites/register_success.html:71
 msgid "Launch {{ app_name }} and sign in using your account credentials."
-msgstr ""
+msgstr "Стартирайте {{ app_name }} и влезте, използвайки данни за вашия профил."
 
 #: priv/mod_invites/client.html:9
 msgid ""
 "You have been invited to chat on {{ site_name }}, part of the XMPP secure "
 "and decentralized messaging network."
 msgstr ""
+"Поканени сте да чатите в {{ site_name }}, част от защитената и "
+"децентрализирана мрежа за съобщения XMPP."
 
 #: priv/mod_invites/apps.json:13
 msgid "F-Droid Store Logo"
-msgstr ""
+msgstr "F-Droid Store лого"
 
 #: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
-msgstr ""
+msgstr "Изпратете тази покана до вашето устройство"
 
 #: priv/mod_invites/client.html:52
 msgid "Step 2: Activate your account"
-msgstr ""
+msgstr "Стъпка 2: Активирайте профила си"
 
 #: priv/mod_invites/register.html:10
 msgid ""
@@ -3330,48 +3357,52 @@ msgid ""
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
 "you need to first register an account."
 msgstr ""
+"<strong>{{ site_name }}</strong> е част от XMPP, сигурна и децентрализирана "
+"мрежа за съобщения. За да започнете да чатите, използвайки <strong>{{ "
+"app_name }}</strong>, първо трябва да регистрирате профил."
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
-msgstr ""
+msgstr "{{ inviter }} ви покани да се свържете!"
 
 #: priv/mod_invites/apps.json:120
 msgid "Download Dino for Linux"
-msgstr ""
+msgstr "Свалете Dino за Linux"
 
 #: priv/mod_invites/client.html:57
 msgid "Accept invite using {{ app_name }}"
-msgstr ""
+msgstr "Приемете поканата, използвайки {{ app_name }}"
 
 #: priv/mod_invites/apps.json:113
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
-msgstr ""
+msgstr "Beagle IM от Tigase, Inc. е лек и мощен XMPP клиент за macOS."
 
 #: priv/mod_invites/register_success.html:90
 #: priv/mod_invites/register_success.html:17
 msgid "Show"
-msgstr ""
+msgstr "Покажи"
 
 #: priv/mod_invites/register.html:55
 msgid "Enter a secure password that you do not use anywhere else."
-msgstr ""
+msgstr "Въведете сигурна парола, която не използвате на друго място."
 
 #: priv/mod_invites/register_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem registering your account."
-msgstr "Възникна грешка при създаването на профила: "
+msgstr "За съжаление, възникна проблем с регистрацията на вашия профил."
 
 #: priv/mod_invites/base.html:7
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
 msgstr ""
+"<strong>Съвет:</strong> Можете да отворите тази покана на мобилното си "
+"устройство, като сканирате баркод с камерата."
 
 #: priv/mod_invites/apps.json:161
 msgid "Download Renga for Haiku"
-msgstr ""
+msgstr "Свалете Renga за Haiku"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3379,111 +3410,130 @@ msgid ""
 "<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
 "messaging network."
 msgstr ""
+"Поканени сте да чатите с <strong>{{ inviter }}</strong>на <strong>{{ "
+"site_name }}</strong>, част от защитената и децентрализирана мрежа за "
+"съобщения XMPP."
 
 #: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
 msgid "Monal Logo"
-msgstr ""
+msgstr "Monal лого"
 
 #: priv/mod_invites/invite_invalid.html:4
 msgid "Invite expired"
-msgstr ""
+msgstr "Поканата е изтекла"
 
 #: priv/mod_invites/register.html:61
 msgid "Submit"
 msgstr "Изпрати"
 
 #: priv/mod_invites/apps.html:16
-#, fuzzy
 msgid "Select"
-msgstr "Избери всички"
+msgstr "Избери"
 
 #: priv/mod_invites/register.html:43
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
+"Изберете потребителско име, то ще стане първата част от новия ви чат адрес."
 
 #: priv/mod_invites/base.html:20
 msgid "Scan invite code"
-msgstr ""
+msgstr "Сканирайте код за покана"
 
 #: priv/mod_invites/apps.json:173
 msgid "XMPP client for Haiku"
-msgstr ""
+msgstr "XMPP клиент за Haiku"
 
 #: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
 msgid "Page navigation"
-msgstr ""
+msgstr "Навигация по страниците"
 
 #: priv/mod_invites/register.html:10
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
 msgstr ""
+"<strong>{{ site_name }}</strong> е част от XMPP, сигурна и децентрализирана "
+"мрежа за съобщения. За да започнете да чатите, първо трябва да регистрирате "
+"профил."
 
 #: priv/mod_invites/register_success.html:38
 msgid "Log in via web"
-msgstr ""
+msgstr "Влезте през уеб"
 
 #: priv/mod_invites/register_success.html:99
 msgid ""
 "Your password is stored encrypted on the server and will not be accessible "
 "after you close this page. Keep it safe and never share it with anyone."
 msgstr ""
+"Вашата парола се съхранява криптирана на сървъра и няма да бъде достъпна, "
+"след като затворите тази страница. Пазете я в безопасност и не я споделяйте "
+"с никого."
 
 #: priv/mod_invites/register_success.html:28
 msgid ""
 "To start chatting, you need to enter your new account credentials into your "
 "chosen XMPP software."
 msgstr ""
+"За да започнете чат, трябва да въведете новите си идентификационни данни в "
+"избрания от вас XMPP софтуер."
 
 #: priv/mod_invites/apps.json:146
 msgid "Gajim Logo"
-msgstr ""
+msgstr "Gajim лого"
 
 #: priv/mod_invites/register.html:53
 msgid "Please provide a password! Minimum length: {{ password_min_length }}"
-msgstr ""
+msgstr "Моля, въведете парола! Минимална дължина: {{ password_min_length }}"
 
 #: priv/mod_invites/apps.json:20
-#, fuzzy
 msgid "Conversations Logo"
-msgstr "Регистрирани транзакции:"
+msgstr "Conversations лого"
 
 #: priv/mod_invites/client.html:31
 msgid "Step 1: Install {{ app_name }}"
-msgstr ""
+msgstr "Стъпка 1: Инсталирайте {{ app_name }}"
 
 #: priv/mod_invites/apps.json:124
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
 msgstr ""
+"Щракнете върху бутона, за да отворите уебсайта на Dino, където можете да го "
+"изтеглите и инсталирате на вашия компютър."
 
 #: priv/mod_invites/register.html:40
 msgid "Please provide a valid username!"
-msgstr ""
+msgstr "Моля, въведете валидно потребителско име!"
 
 #: priv/mod_invites/register.html:16
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
 msgstr ""
+"Ако вече сте инсталирали {{ app_name }}, препоръчваме Ви да продължите "
+"процеса на създаване на профил, използвайки приложението, като кликнете "
+"върху бутона по-долу:"
 
 #: priv/mod_invites/roster.html:13
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
 msgstr ""
+"Ако все още нямате инсталиран XMPP клиент, ето списък с подходящи клиенти за "
+"вашата платформа."
 
 #: priv/mod_invites/apps.json:98
 msgid "Download from Mac App Store"
-msgstr ""
+msgstr "Изтегляне от Mac App Store"
 
 #: priv/mod_invites/base.html:26
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
 msgstr ""
+"Можете да прехвърлите тази покана на мобилното си устройство, като сканирате "
+"код с камерата на вашето устройство."
 
 #: priv/mod_invites/invite.html:15
 msgid ""
@@ -3491,12 +3541,17 @@ msgid ""
 "your preferred software is not listed above, you may still <a "
 "href=\"{{ registration_url }}\">register an account manually</a>."
 msgstr ""
+"Можете да се свържете с {{ site_name }}, използвайки всеки XMPP-съвместим "
+"софтуер. Ако предпочитаният от вас софтуер не е посочен по-горе, все още "
+"можете <a href=\"{{ registration_url }}\">, ръчно да регистрирате профил</a>."
 
 #: priv/mod_invites/register.html:12
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
 msgstr ""
+"Създаването на профил, ще Ви позволи да комуникирате с други хора в <strong>{"
+"{ site_name }}</strong> и други услуги в мрежата XMPP."
 
 #~ msgid "List of users with hats"
 #~ msgstr "Списък на потребителите с шапки"
