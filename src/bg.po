@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2025-12-14 12:43+0000\n"
+"PO-Revision-Date: 2026-02-11 08:08+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -279,7 +279,7 @@ msgstr "Автоматичното създаване на нод не е вкл
 
 #: src/mod_invites_http.erl:48
 msgid "BAD REQUEST"
-msgstr ""
+msgstr "BAD REQUEST"
 
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
@@ -454,9 +454,8 @@ msgid "Country"
 msgstr "Държава"
 
 #: src/mod_invites.erl:486 src/mod_invites.erl:684
-#, fuzzy
 msgid "Create Account"
-msgstr "Създай Шапка"
+msgstr "Създай профил"
 
 #: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
 #: src/mod_muc_room.erl:5097
@@ -831,7 +830,7 @@ msgstr "Неизвестен хост"
 
 #: src/mod_invites.erl:1022
 msgid "Hostname invalid"
-msgstr ""
+msgstr "Невалидно име за хост"
 
 #: src/mod_configure.erl:1636
 msgid "IP addresses"
@@ -948,9 +947,8 @@ msgid "Invitations are not allowed in this conference"
 msgstr "Поканите не са разрешени в тази конференция"
 
 #: src/mod_invites.erl:482 src/mod_invites.erl:686
-#, fuzzy
 msgid "Invite User"
-msgstr "Онлайн потребители"
+msgstr "Покани потребител"
 
 #: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
 msgid ""
@@ -1134,9 +1132,8 @@ msgid "Maximum file size"
 msgstr "Максимален размер на файла"
 
 #: src/mod_invites.erl:1024
-#, fuzzy
 msgid "Maximum number of invites reached"
-msgstr "Максимален брой елементи за запазване"
+msgstr "Максималният брой покани е достигнат"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
@@ -1147,9 +1144,8 @@ msgid "May"
 msgstr "Май"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-#, fuzzy
 msgid "Members are allowed to invite others"
-msgstr "На участниците е позволено да канят други"
+msgstr "Участниците могат да канят други"
 
 #: src/mod_muc_room.erl:2376
 msgid "Membership is required to enter this room"
@@ -1240,7 +1236,7 @@ msgstr "Повече от един <item/> елемента не се разре
 
 #: src/mod_invites_http.erl:46
 msgid "NOT FOUND"
-msgstr ""
+msgstr "NOT FOUND"
 
 #: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -2436,7 +2432,7 @@ msgstr "Идентификаторът на абонамента, свързан
 
 #: src/mod_invites_register.erl:206
 msgid "The token provided is either invalid or expired."
-msgstr ""
+msgstr "Предоставеният токен код е невалиден или изтекъл."
 
 #: src/mod_register_web.erl:139
 msgid "There was an error changing the password: "
@@ -2669,14 +2665,12 @@ msgid "User ~ts"
 msgstr "Потребител ~ts"
 
 #: src/mod_invites.erl:1018
-#, fuzzy
 msgid "Username invalid"
-msgstr "Потребителско име:"
+msgstr "Невалидно потребителско име"
 
 #: src/mod_invites.erl:1026
-#, fuzzy
 msgid "Username is reserved"
-msgstr "Потребителят е премахнат"
+msgstr "Потребителското име е резервирано"
 
 #: src/mod_register_web.erl:251 src/mod_register_web.erl:390
 #: src/mod_register_web.erl:501
@@ -3043,15 +3037,15 @@ msgstr "Офлайн съобщения на ~ts"
 
 #: priv/mod_invites/client.html:3
 msgid "Join {{ site_name }} with {{ app_name }}"
-msgstr ""
+msgstr "Присъединете се към {{ site_name }} с {{ app_name }}"
 
 #: priv/mod_invites/invite_invalid.html:8
 msgid "Sad person holding empty box"
-msgstr ""
+msgstr "Тъжен човек, държащ празна кутия"
 
 #: priv/mod_invites/apps.json:84
 msgid "Siskin IM Logo"
-msgstr ""
+msgstr "Siskin IM лого"
 
 #: priv/mod_invites/apps.html:25
 msgid ""
@@ -3059,42 +3053,46 @@ msgid ""
 "only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
 "a>"
 msgstr ""
+"Показаните приложения са само за <span class='platform-name'>, което е "
+"текущата ви платформа</span>. Можете също да <a href='#' id='show-all-"
+"clients-button'>прегледате всички налични приложения.</a>"
 
 #: priv/mod_invites/apps.json:140
 msgid "Download Gajim"
-msgstr ""
+msgstr "Свалете Gajim"
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
 #: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
 msgid "Previous"
-msgstr ""
+msgstr "Предишен"
 
 #: priv/mod_invites/invite_invalid.html:6
 msgid "Sorry, it looks like this invite code has expired!"
-msgstr ""
+msgstr "Съжалявам, изглежда, че този код за покана е изтекъл!"
 
 #: priv/mod_invites/apps.json:7
 msgid "Google Play Store Logo"
-msgstr ""
+msgstr "Google Play Store лого"
 
 #: priv/mod_invites/client.html:50
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
+"След като инсталирате успешно {{ app_name }}, върнете се на тази страница и "
+"<strong>продължете със стъпка 2</strong>."
 
 #: priv/mod_invites/register.html:29
-#, fuzzy
 msgid "Username"
-msgstr "Потребителско име:"
+msgstr "Потребителско име"
 
 #: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
 msgid "Download and install {{ app_name }} below:"
-msgstr ""
+msgstr "Изтеглете и инсталирайте {{ app_name }} по-долу:"
 
 #: priv/mod_invites/apps.json:154
 msgid "A fully-featured desktop chat client for Windows and Linux."
-msgstr ""
+msgstr "Пълнофункционален чат клиент за Windows и Linux."
 
 #: priv/mod_invites/roster.html:8
 msgid ""
@@ -3102,23 +3100,25 @@ msgid ""
 "the XMPP network. If you already have an XMPP client installed just press "
 "the button below!"
 msgstr ""
+"Това е покана от <strong>{{ inviter }}</strong> за свързване и чат в XMPP "
+"мрежата. Ако вече имате инсталиран XMPP клиент, просто натиснете бутона по-"
+"долу!"
 
 #: priv/mod_invites/register.html:19
 msgid "Open the app"
-msgstr ""
+msgstr "Отворете приложението"
 
 #: priv/mod_invites/register_success.html:26
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
-msgstr ""
+msgstr "Създадохте профил в <strong>{{ site_name }}</strong>."
 
 #: priv/mod_invites/register.html:4
-#, fuzzy
 msgid "Registration Error"
-msgstr "Регистрирай"
+msgstr "Грешка при регистрация"
 
 #: priv/mod_invites/apps.json:167
 msgid "Renga Logo"
-msgstr ""
+msgstr "Renga лого"
 
 #: priv/mod_invites/client.html:7
 msgid ""
