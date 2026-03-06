@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-10-30 04:24+0000\n"
-"Last-Translator: Mickaël Rémond <mremond@process-one.net>\n"
+"PO-Revision-Date: 2026-02-27 13:09+0000\n"
+"Last-Translator: Dyxux <thomasclotg@murena.io>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
 "po/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "X-Language: French (française)\n"
 "X-Additional-Translator: Nicolas Vérité\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -280,7 +280,7 @@ msgstr "La creation implicite de nœud n'est pas disponible"
 
 #: src/mod_invites_http.erl:48
 msgid "BAD REQUEST"
-msgstr ""
+msgstr "MAUVAISE REQUÊTE"
 
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
@@ -456,9 +456,8 @@ msgid "Country"
 msgstr "Pays"
 
 #: src/mod_invites.erl:486 src/mod_invites.erl:684
-#, fuzzy
 msgid "Create Account"
-msgstr "Créer un badge"
+msgstr "Créer un Compte"
 
 #: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
 #: src/mod_muc_room.erl:5097
@@ -952,9 +951,8 @@ msgid "Invitations are not allowed in this conference"
 msgstr "Les invitations ne sont pas autorisées dans ce salon"
 
 #: src/mod_invites.erl:482 src/mod_invites.erl:686
-#, fuzzy
 msgid "Invite User"
-msgstr "Utilisateurs en ligne"
+msgstr "Inviter un Utilisateur"
 
 #: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
 msgid ""
@@ -979,7 +977,7 @@ msgstr ""
 
 #: src/mod_jidprep.erl:131
 msgid "JID normalization failed"
-msgstr ""
+msgstr "Échec de la normalisation JID"
 
 #: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
 #: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
@@ -1050,20 +1048,19 @@ msgstr "Liste des badges"
 #: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4707
 #: src/mod_muc_room.erl:5177
 msgid "List users with hats"
-msgstr ""
+msgstr "Liste des utilisateurs avec des chapeaux"
 
 #: src/ejabberd_web_admin.erl:166
 msgid "Logged Out"
-msgstr ""
+msgstr "Déconnecté"
 
 #: src/mod_muc_admin.erl:1183
 msgid "Logging"
 msgstr ""
 
 #: src/mod_mam.erl:866
-#, fuzzy
 msgid "MAM preference modification denied by service policy"
-msgstr "La création de salons est interdite par le service"
+msgstr "Modification des préférences MAM refusée par la politique de service"
 
 #: src/mod_muc_log.erl:849
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2155
@@ -1135,9 +1132,8 @@ msgid "Maximum file size"
 msgstr "Taille maximale du fichier"
 
 #: src/mod_invites.erl:1024
-#, fuzzy
 msgid "Maximum number of invites reached"
-msgstr "Nombre maximal d'éléments à conserver"
+msgstr "Nombre maximal d'invitations atteint"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
@@ -1148,9 +1144,8 @@ msgid "May"
 msgstr "Mai"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-#, fuzzy
 msgid "Members are allowed to invite others"
-msgstr "Les occupants sont autorisés à inviter d’autres personnes"
+msgstr "Les membres sont autorisés à inviter d'autres personnes."
 
 #: src/mod_muc_room.erl:2376
 msgid "Membership is required to enter this room"
@@ -1167,7 +1162,7 @@ msgstr ""
 
 #: _build/translations/lib/xmpp/src/pubsub_subscribe_options.erl:644
 msgid "Mere Availability in XMPP (No Show Value)"
-msgstr ""
+msgstr "Disponible sur XMPP (sans valeur affichée)"
 
 #: src/mod_announce.erl:573 src/mod_configure.erl:1024
 #: src/mod_configure.erl:1064
@@ -1241,7 +1236,7 @@ msgstr "Les multiples éléments <item/> ne sont pas autorisés avec RFC6121"
 
 #: src/mod_invites_http.erl:46
 msgid "NOT FOUND"
-msgstr ""
+msgstr "NON TROUVÉ"
 
 #: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1511,14 +1506,12 @@ msgid "Number of answers required"
 msgstr "Nombre de réponses requises"
 
 #: src/mod_configure.erl:1179
-#, fuzzy
 msgid "Number of disabled users"
-msgstr "Nombre d'utilisateurs enregistrés"
+msgstr "Nombre d'utilisateurs désactivés"
 
 #: src/mod_configure.erl:1212
-#, fuzzy
 msgid "Number of idle users"
-msgstr "Nombre d'utilisateurs en ligne"
+msgstr "Nombre d'utilisateurs inactifs"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1127
 msgid "Number of occupants"
@@ -1793,9 +1786,8 @@ msgid "Public"
 msgstr "Public"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:954
-#, fuzzy
 msgid "Publish model"
-msgstr "Publier le modèle"
+msgstr "Modèle de publication"
 
 #: src/mod_pubsub.erl:4331
 msgid "Publish-Subscribe"
@@ -1807,9 +1799,8 @@ msgid "Purge all items when the relevant publisher goes offline"
 msgstr "Purger tous les items lorsque publieur est hors-ligne"
 
 #: src/mod_push.erl:319
-#, fuzzy
 msgid "Push record not found"
-msgstr "Nœud non trouvé"
+msgstr "Enregistrement non trouvé"
 
 #: src/mod_muc_room.erl:709
 msgid "Queries to the conference members are not allowed in this room"
@@ -1833,9 +1824,8 @@ msgstr "Copie en mémoire vive (RAM)"
 
 #: src/mod_configure.erl:142 src/mod_configure.erl:561
 #: src/mod_configure.erl:1102
-#, fuzzy
 msgid "Re-Enable User"
-msgstr "Supprimer l'utilisateur"
+msgstr "Réactiver l'utilisateur"
 
 #: src/mod_announce.erl:564
 msgid "Really delete message of the day?"
@@ -1881,7 +1871,7 @@ msgstr "Supprimer l'utilisateur"
 #: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4703
 #: src/mod_muc_room.erl:5146
 msgid "Remove a hat from a user"
-msgstr ""
+msgstr "Retirer un chapeau d'un utilisateur"
 
 #: src/ejabberd_sm.erl:476 src/ejabberd_sm.erl:481
 msgid "Replaced by new connection"
@@ -1935,21 +1925,20 @@ msgstr "Restauration immédiate d'une sauvegarde texte :"
 
 #: src/mod_adhoc_api.erl:520
 msgid "Result"
-msgstr ""
+msgstr "Résultat"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1951
 msgid "Roles and Affiliations that May Retrieve Member List"
-msgstr ""
+msgstr "Rôles et Affiliations pouvant obtenir la liste des membres"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2125
 msgid "Roles for which Presence is Broadcasted"
-msgstr ""
+msgstr "Rôles pour lesquels la présence est diffusée"
 
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1699
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1015
-#, fuzzy
 msgid "Roles that May Send Private Messages"
-msgstr "Autoriser les utilisateurs à envoyer des messages privés"
+msgstr "Rôles pouvant envoyer des messages privés"
 
 #: src/mod_muc_log.erl:653
 msgid "Room Configuration"
@@ -1970,9 +1959,8 @@ msgid "Room description"
 msgstr "Description du salon"
 
 #: src/mod_muc_room.erl:1001
-#, fuzzy
 msgid "Room terminates"
-msgstr "Titre du salon"
+msgstr "Fermeture du salon"
 
 #: src/mod_muc_log.erl:843 src/mod_muc_admin.erl:1185
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2198
@@ -2006,7 +1994,7 @@ msgstr "Résultats de recherche pour "
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:362
 msgid "Search from the date"
-msgstr ""
+msgstr "Rechercher à partir de la date"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:390
 msgid "Search the text"
@@ -2053,7 +2041,7 @@ msgstr "La récupération de la liste des services a expiré"
 
 #: src/mod_stream_mgmt.erl:842
 msgid "Session state copying timed out"
-msgstr ""
+msgstr "Le délai d'attente pour la copie de l'état de la session a expiré"
 
 #: src/mod_announce.erl:662
 msgid "Set message of the day and send to online users"
@@ -2075,7 +2063,7 @@ msgstr "Montrer la table intégralement"
 
 #: src/mod_muc_log.erl:685
 msgid "Show Occupants Join/Leave"
-msgstr ""
+msgstr "Afficher les personnes qui rejoignent/quittent"
 
 #: src/ejabberd_web_admin.erl:1000
 msgid "Show Ordinary Table"
@@ -2098,7 +2086,7 @@ msgstr ""
 
 #: src/ext_mod.erl:1374
 msgid "Sources Specs:"
-msgstr ""
+msgstr "Spécifications du code source:"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1554
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1556
@@ -2121,12 +2109,12 @@ msgstr "Identifiant Stanza"
 
 #: src/mod_muc_room.erl:5462
 msgid "Stanza id is not valid"
-msgstr ""
+msgstr "L'identifiant de Stanza n'est pas valide."
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
 msgid "Statically specify a replyto of the node owner(s)"
-msgstr ""
+msgstr "Spécifier de manière statique une réponse au(x) propriétaire(s) du nœud"
 
 #: src/mod_configure.erl:550
 msgid "Stopped Nodes"
