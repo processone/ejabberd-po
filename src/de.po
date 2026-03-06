@@ -66,9 +66,9 @@ msgstr "Akzeptieren"
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
+#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Zugriff aufgrund der Dienstrichtlinien verweigert"
@@ -279,7 +279,7 @@ msgstr "August"
 msgid "Automatic node creation is not enabled"
 msgstr "Automatische Knotenerstellung ist nicht aktiviert"
 
-#: src/mod_invites_http.erl:48
+#: src/mod_invites_http.erl:49
 msgid "BAD REQUEST"
 msgstr "UNGÜLTIGE ANFRAGE"
 
@@ -343,7 +343,7 @@ msgstr "Passwort ändern"
 msgid "Change User Password"
 msgstr "Benutzerpasswort ändern"
 
-#: src/mod_register.erl:312
+#: src/mod_register.erl:313
 msgid "Changing password is not allowed"
 msgstr "Ändern des Passwortes ist nicht erlaubt"
 
@@ -456,7 +456,7 @@ msgstr "Kontakte"
 msgid "Country"
 msgstr "Land"
 
-#: src/mod_invites.erl:486 src/mod_invites.erl:684
+#: src/mod_invites.erl:501 src/mod_invites.erl:699
 msgid "Create Account"
 msgstr "Konto anlegen"
 
@@ -485,7 +485,7 @@ msgstr "Datenbanktabellen-Konfiguration bei "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
+#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -556,7 +556,7 @@ msgstr "Gib Backup in Textdatei aus bei "
 msgid "Dump to Text File"
 msgstr "Ausgabe in Textdatei"
 
-#: src/mod_roster.erl:151
+#: src/mod_roster.erl:155
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Doppelte Gruppen sind laut RFC6121 nicht erlaubt"
 
@@ -829,11 +829,11 @@ msgid "Hats limit exceeded"
 msgstr "Hütelimit wurde überschritten"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1020
+#: src/mod_invites.erl:1065
 msgid "Host unknown"
 msgstr "Host unbekannt"
 
-#: src/mod_invites.erl:1022
+#: src/mod_invites.erl:1067
 msgid "Hostname invalid"
 msgstr "Hostname unbekannt"
 
@@ -890,13 +890,13 @@ msgid "Improper message type"
 msgstr "Unzulässiger Nachrichtentyp"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
 msgid "Incorrect CAPTCHA submit"
 msgstr "Falsche CAPTCHA-Eingabe"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:254
+#: src/mod_invites_register.erl:257
 msgid "Incorrect data form"
 msgstr "Falsches Datenformular"
 
@@ -919,7 +919,7 @@ msgstr "Falscher Wert von 'action' in Datenformular"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Falscher Wert von 'path' in Datenformular"
 
-#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "Installieren"
 
@@ -951,7 +951,7 @@ msgstr "Ungültiger Knotenname"
 msgid "Invitations are not allowed in this conference"
 msgstr "Einladungen sind in dieser Konferenz nicht erlaubt"
 
-#: src/mod_invites.erl:482 src/mod_invites.erl:686
+#: src/mod_invites.erl:497 src/mod_invites.erl:701
 msgid "Invite User"
 msgstr "Person einladen"
 
@@ -1101,7 +1101,7 @@ msgstr "Raum persistent machen"
 msgid "Make room public searchable"
 msgstr "Raum öffentlich suchbar machen"
 
-#: src/mod_register.erl:395
+#: src/mod_register.erl:396
 msgid "Malformed username"
 msgstr "Ungültiger Benutzername"
 
@@ -1137,7 +1137,7 @@ msgstr "Maximale Anzahl der Teilnehmer"
 msgid "Maximum file size"
 msgstr "Maximale Dateigröße"
 
-#: src/mod_invites.erl:1024
+#: src/mod_invites.erl:1069
 msgid "Maximum number of invites reached"
 msgstr "Maximale Anzahl all Einladungen erreicht"
 
@@ -1236,11 +1236,11 @@ msgstr "Mehrbenutzer-Chat (MUC)"
 msgid "Multicast"
 msgstr "Multicast"
 
-#: src/mod_roster.erl:172
+#: src/mod_roster.erl:176
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Mehrere <item/>-Elemente sind laut RFC6121 nicht erlaubt"
 
-#: src/mod_invites_http.erl:46
+#: src/mod_invites_http.erl:47
 msgid "NOT FOUND"
 msgstr "NICHT GEFUNDEN"
 
@@ -1381,7 +1381,7 @@ msgstr "Keine Begrenzung"
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
 #: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
-#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:808 src/mod_roster.erl:188 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1471,7 +1471,7 @@ msgstr "Keine"
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
-#: src/mod_register.erl:405
+#: src/mod_register.erl:406
 msgid "Not allowed"
 msgstr "Nicht erlaubt"
 
@@ -1684,7 +1684,7 @@ msgstr "Teilnehmer-ID"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
@@ -1756,7 +1756,7 @@ msgstr ""
 msgid "Pong"
 msgstr "Pong"
 
-#: src/mod_roster.erl:144
+#: src/mod_roster.erl:148
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "Ein 'ask'-Attribut zu besitzen ist laut RFC6121 nicht erlaubt"
 
@@ -1814,7 +1814,7 @@ msgid "Queries to the conference members are not allowed in this room"
 msgstr "Anfragen an die Konferenzteilnehmer sind in diesem Raum nicht erlaubt"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
+#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr "Anfrage an andere Benutzer ist verboten"
@@ -2208,7 +2208,7 @@ msgstr "Das CAPTCHA ist gültig."
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:261
+#: src/mod_invites_register.erl:264
 msgid "The CAPTCHA verification has failed"
 msgstr "Die CAPTCHA-Verifizierung ist fehlgeschlagen"
 
@@ -2371,11 +2371,11 @@ msgstr "Die Anzahl der Abonnenten des Knotens"
 msgid "The number of unread or undelivered messages"
 msgstr "Die Anzahl der ungelesenen oder nicht zugestellten Nachrichten"
 
-#: src/mod_register.erl:403
+#: src/mod_register.erl:404
 msgid "The password contains unacceptable characters"
 msgstr "Das Passwort enthält ungültige Zeichen"
 
-#: src/mod_register.erl:401
+#: src/mod_register.erl:402
 msgid "The password is too weak"
 msgstr "Das Passwort ist zu schwach"
 
@@ -2400,7 +2400,7 @@ msgstr ""
 msgid "The query is only allowed from local users"
 msgstr "Die Anfrage ist nur von lokalen Benutzern erlaubt"
 
-#: src/mod_roster.erl:180
+#: src/mod_roster.erl:184
 msgid "The query must not contain <item/> elements"
 msgstr "Die Anfrage darf keine <item/>-Elemente enthalten"
 
@@ -2437,7 +2437,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "Die mit der Abonnement-Anforderung verknüpfte Abonnement-Bezeichnung"
 
-#: src/mod_invites_register.erl:206
+#: src/mod_invites_register.erl:209
 msgid "The token provided is either invalid or expired."
 msgstr "Der Einladungscode ist entweder ungültig oder abgelaufen."
 
@@ -2493,7 +2493,7 @@ msgstr "Zeitverzögerung"
 msgid "Timed out waiting for stream resumption"
 msgstr "Zeitüberschreitung beim Warten auf Streamfortsetzung"
 
-#: src/mod_register.erl:220
+#: src/mod_register.erl:221
 msgid "To register, visit ~s"
 msgstr "Um sich zu registrieren, besuchen Sie ~s"
 
@@ -2521,7 +2521,7 @@ msgstr "Zu viele <item/>-Elemente"
 msgid "Too many <list/> elements"
 msgstr "Zu viele <list/>-Elemente"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Zu viele CAPTCHA-Anforderungen"
@@ -2558,7 +2558,7 @@ msgstr "Dienstag"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL für archivierte Diskussionsprotokolle"
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Konnte kein CAPTCHA erstellen"
@@ -2576,7 +2576,7 @@ msgstr "Nicht autorisiert"
 msgid "Unexpected action"
 msgstr "Unerwartete Aktion"
 
-#: src/mod_register.erl:411
+#: src/mod_register.erl:412
 msgid "Unexpected error condition: ~p"
 msgstr "Unerwarteter Fehlerzustand: ~p"
 
@@ -2629,7 +2629,7 @@ msgid "Upgrade"
 msgstr "Upgrade"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
 msgid "User"
 msgstr "Benutzer"
 
@@ -2646,7 +2646,7 @@ msgstr "Benutzer-JID"
 msgid "User Management"
 msgstr "Benutzerverwaltung"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:1028
+#: src/mod_register.erl:408 src/mod_invites.erl:1073
 msgid "User already exists"
 msgstr "Benutzer existiert bereits"
 
@@ -2670,11 +2670,11 @@ msgstr "Benutzersitzung beendet"
 msgid "User ~ts"
 msgstr "Benutzer ~ts"
 
-#: src/mod_invites.erl:1018
+#: src/mod_invites.erl:1063
 msgid "Username invalid"
 msgstr "Benutzername ungültig"
 
-#: src/mod_invites.erl:1026
+#: src/mod_invites.erl:1071
 msgid "Username is reserved"
 msgstr "Benutzername ist reserviert"
 
@@ -2692,7 +2692,7 @@ msgstr "Benutzer"
 msgid "Users Last Activity"
 msgstr "Letzte Benutzeraktivität"
 
-#: src/mod_register.erl:399
+#: src/mod_register.erl:400
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Benutzer dürfen Konten nicht so schnell registrieren"
 
@@ -2907,7 +2907,7 @@ msgstr "Sie sind zu vielen Konferenzen beigetreten"
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Sie müssen das Feld \"Spitzname\" im Formular ausfüllen"
 
-#: src/mod_register.erl:226
+#: src/mod_register.erl:227
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 "Sie benötigen einen Client der x:data und CAPTCHA unterstützt, um sich zu "
@@ -3069,7 +3069,7 @@ msgid "Download Gajim"
 msgstr "Gajim herunterladen"
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
 msgid "Previous"
 msgstr "Zurück"
 
@@ -3436,7 +3436,7 @@ msgstr "Monal Logo"
 msgid "Invite expired"
 msgstr "Die Einladung ist abgelaufen"
 
-#: priv/mod_invites/register.html:61
+#: priv/mod_invites/register.html:62
 msgid "Submit"
 msgstr "Senden"
 
@@ -3459,7 +3459,7 @@ msgstr "Einladungscode einscannen"
 msgid "XMPP client for Haiku"
 msgstr "XMPP-Client für Haiku"
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
 msgid "Page navigation"
 msgstr "Seiten-Navigation"
 

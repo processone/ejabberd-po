@@ -62,9 +62,9 @@ msgstr "Приемам"
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
+#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Достъпът е отказан спрямо политиката на услугата"
@@ -277,7 +277,7 @@ msgstr "Август"
 msgid "Automatic node creation is not enabled"
 msgstr "Автоматичното създаване на нод не е включено"
 
-#: src/mod_invites_http.erl:48
+#: src/mod_invites_http.erl:49
 msgid "BAD REQUEST"
 msgstr "BAD REQUEST"
 
@@ -341,7 +341,7 @@ msgstr "Смяна на парола"
 msgid "Change User Password"
 msgstr "Смяна на потребителска парола"
 
-#: src/mod_register.erl:312
+#: src/mod_register.erl:313
 msgid "Changing password is not allowed"
 msgstr "Смяната на парола не е разрешена"
 
@@ -453,7 +453,7 @@ msgstr "Контакти"
 msgid "Country"
 msgstr "Държава"
 
-#: src/mod_invites.erl:486 src/mod_invites.erl:684
+#: src/mod_invites.erl:501 src/mod_invites.erl:699
 msgid "Create Account"
 msgstr "Създай профил"
 
@@ -482,7 +482,7 @@ msgstr "Конфигурация на таблиците в базата дан�
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
+#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -552,7 +552,7 @@ msgstr "Архивиране в текстов файл при "
 msgid "Dump to Text File"
 msgstr "Архивиране в текстов файл"
 
-#: src/mod_roster.erl:151
+#: src/mod_roster.erl:155
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Дублирани групи не са разрешени от RFC6121"
 
@@ -824,11 +824,11 @@ msgid "Hats limit exceeded"
 msgstr "Превишен е лимитът за шапка"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1020
+#: src/mod_invites.erl:1065
 msgid "Host unknown"
 msgstr "Неизвестен хост"
 
-#: src/mod_invites.erl:1022
+#: src/mod_invites.erl:1067
 msgid "Hostname invalid"
 msgstr "Невалидно име за хост"
 
@@ -885,13 +885,13 @@ msgid "Improper message type"
 msgstr "Неправилен тип съобщение"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
 msgid "Incorrect CAPTCHA submit"
 msgstr "Неправилно CAPTCHA въвеждане"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:254
+#: src/mod_invites_register.erl:257
 msgid "Incorrect data form"
 msgstr "Неправилна форма на данните"
 
@@ -914,7 +914,7 @@ msgstr "Неправилна стойност на 'action' във формат�
 msgid "Incorrect value of 'path' in data form"
 msgstr "Неправилна стойност на 'path' във формата за данни"
 
-#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "Инсталирай"
 
@@ -946,7 +946,7 @@ msgstr "Невалидно име на нода"
 msgid "Invitations are not allowed in this conference"
 msgstr "Поканите не са разрешени в тази конференция"
 
-#: src/mod_invites.erl:482 src/mod_invites.erl:686
+#: src/mod_invites.erl:497 src/mod_invites.erl:701
 msgid "Invite User"
 msgstr "Покани потребител"
 
@@ -1095,7 +1095,7 @@ msgstr "Направи стая постоянна"
 msgid "Make room public searchable"
 msgstr "Направи стаята да е публично търсена"
 
-#: src/mod_register.erl:395
+#: src/mod_register.erl:396
 msgid "Malformed username"
 msgstr "Неправилно формирано потребителско име"
 
@@ -1131,7 +1131,7 @@ msgstr "Максимален брой участници"
 msgid "Maximum file size"
 msgstr "Максимален размер на файла"
 
-#: src/mod_invites.erl:1024
+#: src/mod_invites.erl:1069
 msgid "Maximum number of invites reached"
 msgstr "Максималният брой покани е достигнат"
 
@@ -1230,11 +1230,11 @@ msgstr "Групов чат (MUC)"
 msgid "Multicast"
 msgstr "Мултикаст"
 
-#: src/mod_roster.erl:172
+#: src/mod_roster.erl:176
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Повече от един <item/> елемента не се разрешават от RFC6121"
 
-#: src/mod_invites_http.erl:46
+#: src/mod_invites_http.erl:47
 msgid "NOT FOUND"
 msgstr "NOT FOUND"
 
@@ -1375,7 +1375,7 @@ msgstr "Няма ограничение"
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
 #: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
-#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:808 src/mod_roster.erl:188 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1465,7 +1465,7 @@ msgstr "Нито един"
 msgid "Not Found"
 msgstr "Не е намерен"
 
-#: src/mod_register.erl:405
+#: src/mod_register.erl:406
 msgid "Not allowed"
 msgstr "Не е разрешено"
 
@@ -1681,7 +1681,7 @@ msgstr "ID на участник"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
@@ -1753,7 +1753,7 @@ msgstr ""
 msgid "Pong"
 msgstr "Понг"
 
-#: src/mod_roster.erl:144
+#: src/mod_roster.erl:148
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "Притежаването на атрибут 'ask' не е разрешено от RFC6121"
 
@@ -1812,7 +1812,7 @@ msgid "Queries to the conference members are not allowed in this room"
 msgstr "В тази стая не се допускат запитвания към членовете на конференцията"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
+#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr "Заявка към други потребители е забранена"
@@ -2205,7 +2205,7 @@ msgstr "CAPTCHA предизвикателството е валидно."
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:261
+#: src/mod_invites_register.erl:264
 msgid "The CAPTCHA verification has failed"
 msgstr "Проверката на CAPTCHA предизвикателството е неуспешна"
 
@@ -2364,11 +2364,11 @@ msgstr "Бротят абонати на нода"
 msgid "The number of unread or undelivered messages"
 msgstr "Броят непрочетени или недоставени съобщения"
 
-#: src/mod_register.erl:403
+#: src/mod_register.erl:404
 msgid "The password contains unacceptable characters"
 msgstr "Паролата съдържа недопустими символи"
 
-#: src/mod_register.erl:401
+#: src/mod_register.erl:402
 msgid "The password is too weak"
 msgstr "Паролата е твърде слаба"
 
@@ -2393,7 +2393,7 @@ msgstr ""
 msgid "The query is only allowed from local users"
 msgstr "Заявката е разрешена само за локални потребители"
 
-#: src/mod_roster.erl:180
+#: src/mod_roster.erl:184
 msgid "The query must not contain <item/> elements"
 msgstr "Заявката не може да съдържа елементи <item/>"
 
@@ -2430,7 +2430,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "Идентификаторът на абонамента, свързан със заявката за абонамент"
 
-#: src/mod_invites_register.erl:206
+#: src/mod_invites_register.erl:209
 msgid "The token provided is either invalid or expired."
 msgstr "Предоставеният токен код е невалиден или изтекъл."
 
@@ -2486,7 +2486,7 @@ msgstr "Закъснение"
 msgid "Timed out waiting for stream resumption"
 msgstr "Времето за изчакване за възобновяване на потока изтече"
 
-#: src/mod_register.erl:220
+#: src/mod_register.erl:221
 msgid "To register, visit ~s"
 msgstr "За да се регистрирате, посетете ~s"
 
@@ -2514,7 +2514,7 @@ msgstr "Твърде много <item/> елементи"
 msgid "Too many <list/> elements"
 msgstr "Твърде много <list/> елементи"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Твърде много CAPTCHA заявки"
@@ -2551,7 +2551,7 @@ msgstr "Вторник"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL адрес за дневници на архивирани дискусии"
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Не може да се генерира CAPTCHA"
@@ -2569,7 +2569,7 @@ msgstr "Неоторизиран"
 msgid "Unexpected action"
 msgstr "Неочаквано действие"
 
-#: src/mod_register.erl:411
+#: src/mod_register.erl:412
 msgid "Unexpected error condition: ~p"
 msgstr "Неочаквано състояние на грешка: ~p"
 
@@ -2622,7 +2622,7 @@ msgid "Upgrade"
 msgstr "Обнови"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
 msgid "User"
 msgstr "Потребител"
 
@@ -2639,7 +2639,7 @@ msgstr "Потребител JID"
 msgid "User Management"
 msgstr "Управление на потребители"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:1028
+#: src/mod_register.erl:408 src/mod_invites.erl:1073
 msgid "User already exists"
 msgstr "Потребителят вече съществува"
 
@@ -2664,11 +2664,11 @@ msgstr "Потребителската сесия е прекратена"
 msgid "User ~ts"
 msgstr "Потребител ~ts"
 
-#: src/mod_invites.erl:1018
+#: src/mod_invites.erl:1063
 msgid "Username invalid"
 msgstr "Невалидно потребителско име"
 
-#: src/mod_invites.erl:1026
+#: src/mod_invites.erl:1071
 msgid "Username is reserved"
 msgstr "Потребителското име е резервирано"
 
@@ -2686,7 +2686,7 @@ msgstr "Потребители"
 msgid "Users Last Activity"
 msgstr "Последна активност на потребителите"
 
-#: src/mod_register.erl:399
+#: src/mod_register.erl:400
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Не е разрешено потребителите да регистрират профили толкова бързо"
 
@@ -2900,7 +2900,7 @@ msgstr "Присъединили сте се към твърде много ко
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Трябва да попълните полето \"Псевдоним\" във формата"
 
-#: src/mod_register.erl:226
+#: src/mod_register.erl:227
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 "За да се регистрирате Ви е нужен клиент, който поддържа x:data и CAPTCHA"
@@ -3062,7 +3062,7 @@ msgid "Download Gajim"
 msgstr "Свалете Gajim"
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
 msgid "Previous"
 msgstr "Предишен"
 
@@ -3329,7 +3329,8 @@ msgstr ""
 
 #: priv/mod_invites/register_success.html:71
 msgid "Launch {{ app_name }} and sign in using your account credentials."
-msgstr "Стартирайте {{ app_name }} и влезте, използвайки данни за вашия профил."
+msgstr ""
+"Стартирайте {{ app_name }} и влезте, използвайки данни за вашия профил."
 
 #: priv/mod_invites/client.html:9
 msgid ""
@@ -3358,8 +3359,8 @@ msgid ""
 "you need to first register an account."
 msgstr ""
 "<strong>{{ site_name }}</strong> е част от XMPP, сигурна и децентрализирана "
-"мрежа за съобщения. За да започнете да чатите, използвайки <strong>{{ "
-"app_name }}</strong>, първо трябва да регистрирате профил."
+"мрежа за съобщения. За да започнете да чатите, използвайки "
+"<strong>{{ app_name }}</strong>, първо трябва да регистрирате профил."
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
@@ -3410,9 +3411,9 @@ msgid ""
 "<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
 "messaging network."
 msgstr ""
-"Поканени сте да чатите с <strong>{{ inviter }}</strong>на <strong>{{ "
-"site_name }}</strong>, част от защитената и децентрализирана мрежа за "
-"съобщения XMPP."
+"Поканени сте да чатите с <strong>{{ inviter }}</strong>на "
+"<strong>{{ site_name }}</strong>, част от защитената и децентрализирана "
+"мрежа за съобщения XMPP."
 
 #: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
 msgid "Monal Logo"
@@ -3422,7 +3423,7 @@ msgstr "Monal лого"
 msgid "Invite expired"
 msgstr "Поканата е изтекла"
 
-#: priv/mod_invites/register.html:61
+#: priv/mod_invites/register.html:62
 msgid "Submit"
 msgstr "Изпрати"
 
@@ -3444,7 +3445,7 @@ msgstr "Сканирайте код за покана"
 msgid "XMPP client for Haiku"
 msgstr "XMPP клиент за Haiku"
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
 msgid "Page navigation"
 msgstr "Навигация по страниците"
 
@@ -3550,8 +3551,8 @@ msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
 msgstr ""
-"Създаването на профил, ще Ви позволи да комуникирате с други хора в <strong>{"
-"{ site_name }}</strong> и други услуги в мрежата XMPP."
+"Създаването на профил, ще Ви позволи да комуникирате с други хора в "
+"<strong>{{ site_name }}</strong> и други услуги в мрежата XMPP."
 
 #~ msgid "List of users with hats"
 #~ msgstr "Списък на потребителите с шапки"

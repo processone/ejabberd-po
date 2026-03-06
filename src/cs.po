@@ -68,9 +68,9 @@ msgstr "Přijmout"
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
+#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Přístup byl zamítnut nastavením služby"
@@ -279,7 +279,7 @@ msgstr ". srpna"
 msgid "Automatic node creation is not enabled"
 msgstr "Automatické vytváření uzlů není povoleno"
 
-#: src/mod_invites_http.erl:48
+#: src/mod_invites_http.erl:49
 msgid "BAD REQUEST"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgstr "Změnit heslo"
 msgid "Change User Password"
 msgstr "Změnit heslo uživatele"
 
-#: src/mod_register.erl:312
+#: src/mod_register.erl:313
 msgid "Changing password is not allowed"
 msgstr "Změna hesla není povolena"
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "Country"
 msgstr "Země"
 
-#: src/mod_invites.erl:486 src/mod_invites.erl:684
+#: src/mod_invites.erl:501 src/mod_invites.erl:699
 msgid "Create Account"
 msgstr ""
 
@@ -485,7 +485,7 @@ msgstr "Konfigurace databázových tabulek "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
+#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -556,7 +556,7 @@ msgstr "Uložit zálohu do textového souboru na "
 msgid "Dump to Text File"
 msgstr "Uložit do textového souboru"
 
-#: src/mod_roster.erl:151
+#: src/mod_roster.erl:155
 #, fuzzy
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Duplicitní skupiny nejsou povoleny dle RFC6121"
@@ -842,11 +842,11 @@ msgid "Hats limit exceeded"
 msgstr "Byl překročen limit"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1020
+#: src/mod_invites.erl:1065
 msgid "Host unknown"
 msgstr "Neznámý hostitel"
 
-#: src/mod_invites.erl:1022
+#: src/mod_invites.erl:1067
 msgid "Hostname invalid"
 msgstr ""
 
@@ -904,13 +904,13 @@ msgid "Improper message type"
 msgstr "Nesprávný typ zprávy"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
 msgid "Incorrect CAPTCHA submit"
 msgstr "Nesprávné odeslání CAPTCHA"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:254
+#: src/mod_invites_register.erl:257
 msgid "Incorrect data form"
 msgstr "Nesprávný datový formulář"
 
@@ -933,7 +933,7 @@ msgstr "Nesprávná hodnota atributu 'action' v datovém formuláři"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Nesprávná hodnota atributu 'path' v datovém formuláři"
 
-#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
 msgid "Install"
 msgstr ""
 
@@ -967,7 +967,7 @@ msgstr "Neplatná role: ~s"
 msgid "Invitations are not allowed in this conference"
 msgstr "Pozvánky nejsou povoleny v této místnosti"
 
-#: src/mod_invites.erl:482 src/mod_invites.erl:686
+#: src/mod_invites.erl:497 src/mod_invites.erl:701
 #, fuzzy
 msgid "Invite User"
 msgstr "Připojení uživatelé"
@@ -1119,7 +1119,7 @@ msgstr "Nastavit místnost jako stálou"
 msgid "Make room public searchable"
 msgstr "Nastavit místnost jako veřejnou"
 
-#: src/mod_register.erl:395
+#: src/mod_register.erl:396
 msgid "Malformed username"
 msgstr "Chybně formátováné jméno uživatele"
 
@@ -1153,7 +1153,7 @@ msgstr "Maximální počet účastníků"
 msgid "Maximum file size"
 msgstr ""
 
-#: src/mod_invites.erl:1024
+#: src/mod_invites.erl:1069
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "Maximální počet položek, které je možné natrvalo uložit"
@@ -1256,12 +1256,12 @@ msgstr "Víceuživatelský chat"
 msgid "Multicast"
 msgstr "Multicast"
 
-#: src/mod_roster.erl:172
+#: src/mod_roster.erl:176
 #, fuzzy
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Vícenásobný element <item/> není povolen dle RFC6121"
 
-#: src/mod_invites_http.erl:46
+#: src/mod_invites_http.erl:47
 msgid "NOT FOUND"
 msgstr ""
 
@@ -1406,7 +1406,7 @@ msgstr "Bez limitu"
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
 #: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
-#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:808 src/mod_roster.erl:188 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1498,7 +1498,7 @@ msgstr "Nic"
 msgid "Not Found"
 msgstr "Nenalezeno"
 
-#: src/mod_register.erl:405
+#: src/mod_register.erl:406
 #, fuzzy
 msgid "Not allowed"
 msgstr "Nenalezeno"
@@ -1717,7 +1717,7 @@ msgstr "Účastník"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
@@ -1788,7 +1788,7 @@ msgstr "Prosím, počkejte chvíli před posláním nové žádosti o voice prá
 msgid "Pong"
 msgstr "Pong"
 
-#: src/mod_roster.erl:144
+#: src/mod_roster.erl:148
 #, fuzzy
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "Atribut 'ask' není povolen dle RFC6121"
@@ -1851,7 +1851,7 @@ msgstr ""
 "Požadavky (queries) na členy místnosti nejsou v této místnosti povolené"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
+#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr "Dotaz na jiné uživatele je zakázán"
@@ -2249,7 +2249,7 @@ msgstr "CAPTCHA souhlasí."
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:261
+#: src/mod_invites_register.erl:264
 msgid "The CAPTCHA verification has failed"
 msgstr "Ověření CAPTCHA se nezdařilo"
 
@@ -2405,11 +2405,11 @@ msgstr "Počet odběratelů uzlu"
 msgid "The number of unread or undelivered messages"
 msgstr ""
 
-#: src/mod_register.erl:403
+#: src/mod_register.erl:404
 msgid "The password contains unacceptable characters"
 msgstr "Heslo obsahuje nepovolené znaky"
 
-#: src/mod_register.erl:401
+#: src/mod_register.erl:402
 msgid "The password is too weak"
 msgstr "Heslo je příliš slabé"
 
@@ -2436,7 +2436,7 @@ msgstr ""
 msgid "The query is only allowed from local users"
 msgstr "Dotaz je povolen pouze pro místní uživatele"
 
-#: src/mod_roster.erl:180
+#: src/mod_roster.erl:184
 msgid "The query must not contain <item/> elements"
 msgstr "Dotaz nesmí obsahovat elementy <item/>"
 
@@ -2471,7 +2471,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
-#: src/mod_invites_register.erl:206
+#: src/mod_invites_register.erl:209
 msgid "The token provided is either invalid or expired."
 msgstr ""
 
@@ -2529,7 +2529,7 @@ msgstr "Časový posun"
 msgid "Timed out waiting for stream resumption"
 msgstr ""
 
-#: src/mod_register.erl:220
+#: src/mod_register.erl:221
 msgid "To register, visit ~s"
 msgstr "Pokud se chcete zaregistrovat, navštivte ~s"
 
@@ -2558,7 +2558,7 @@ msgstr "Příliš mnoho elementů <item/>"
 msgid "Too many <list/> elements"
 msgstr "Přilíš mnoho elementů <list/>"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Přiliš mnoho CAPTCHA žádostí"
@@ -2596,7 +2596,7 @@ msgstr "Úterý"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Nebylo možné vygenerovat CAPTCHA"
@@ -2614,7 +2614,7 @@ msgstr "Nemáte oprávnění"
 msgid "Unexpected action"
 msgstr "Neočekávaná akce"
 
-#: src/mod_register.erl:411
+#: src/mod_register.erl:412
 #, fuzzy
 msgid "Unexpected error condition: ~p"
 msgstr "Neočekávaná akce"
@@ -2669,7 +2669,7 @@ msgid "Upgrade"
 msgstr ""
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
 msgid "User"
 msgstr "Uživatel"
 
@@ -2686,7 +2686,7 @@ msgstr "Jabber ID uživatele"
 msgid "User Management"
 msgstr "Správa uživatelů"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:1028
+#: src/mod_register.erl:408 src/mod_invites.erl:1073
 msgid "User already exists"
 msgstr "Uživatel již existuje"
 
@@ -2711,12 +2711,12 @@ msgstr "Sezení uživatele bylo ukončeno"
 msgid "User ~ts"
 msgstr "Uživatel ~s"
 
-#: src/mod_invites.erl:1018
+#: src/mod_invites.erl:1063
 #, fuzzy
 msgid "Username invalid"
 msgstr "Uživatelské jméno:"
 
-#: src/mod_invites.erl:1026
+#: src/mod_invites.erl:1071
 msgid "Username is reserved"
 msgstr ""
 
@@ -2734,7 +2734,7 @@ msgstr "Uživatelé"
 msgid "Users Last Activity"
 msgstr "Poslední aktivita uživatele"
 
-#: src/mod_register.erl:399
+#: src/mod_register.erl:400
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Je zakázáno registrovat účty v tak rychlém sledu"
 
@@ -2949,7 +2949,7 @@ msgstr "Vstoupil jste do příliš velkého množství místností"
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Musíte vyplnit políčko \"Přezdívka\" ve formuláři"
 
-#: src/mod_register.erl:226
+#: src/mod_register.erl:227
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Pro registraci potřebujete klienta s podporou x:data a CAPTCHA"
 
@@ -3106,7 +3106,7 @@ msgid "Download Gajim"
 msgstr ""
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
 msgid "Previous"
 msgstr ""
 
@@ -3428,7 +3428,7 @@ msgstr ""
 msgid "Invite expired"
 msgstr ""
 
-#: priv/mod_invites/register.html:61
+#: priv/mod_invites/register.html:62
 msgid "Submit"
 msgstr "Odeslat"
 
@@ -3449,7 +3449,7 @@ msgstr ""
 msgid "XMPP client for Haiku"
 msgstr ""
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
 msgid "Page navigation"
 msgstr ""
 

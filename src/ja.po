@@ -65,9 +65,9 @@ msgstr "許可"
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
+#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "サービスポリシーによってアクセスが禁止されました"
@@ -272,7 +272,7 @@ msgstr "8月"
 msgid "Automatic node creation is not enabled"
 msgstr "ノードの自動作成は有効になっていません"
 
-#: src/mod_invites_http.erl:48
+#: src/mod_invites_http.erl:49
 msgid "BAD REQUEST"
 msgstr ""
 
@@ -336,7 +336,7 @@ msgstr "パスワードを変更"
 msgid "Change User Password"
 msgstr "パスワードを変更"
 
-#: src/mod_register.erl:312
+#: src/mod_register.erl:313
 msgid "Changing password is not allowed"
 msgstr "パスワード変更の権限がありません"
 
@@ -448,7 +448,7 @@ msgstr ""
 msgid "Country"
 msgstr "国"
 
-#: src/mod_invites.erl:486 src/mod_invites.erl:684
+#: src/mod_invites.erl:501 src/mod_invites.erl:699
 msgid "Create Account"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgstr "データーベーステーブル設定 "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
+#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -549,7 +549,7 @@ msgstr "テキストファイルにバックアップ: "
 msgid "Dump to Text File"
 msgstr "テキストファイルに出力"
 
-#: src/mod_roster.erl:151
+#: src/mod_roster.erl:155
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "RFC6121 によりグループの重複は許されません"
 
@@ -828,11 +828,11 @@ msgid "Hats limit exceeded"
 msgstr "トラフィックレートの制限を超えました"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1020
+#: src/mod_invites.erl:1065
 msgid "Host unknown"
 msgstr "不明なホスト"
 
-#: src/mod_invites.erl:1022
+#: src/mod_invites.erl:1067
 msgid "Hostname invalid"
 msgstr ""
 
@@ -891,13 +891,13 @@ msgid "Improper message type"
 msgstr "誤ったメッセージタイプです"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
 msgid "Incorrect CAPTCHA submit"
 msgstr ""
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:254
+#: src/mod_invites_register.erl:257
 msgid "Incorrect data form"
 msgstr "データ形式が違います"
 
@@ -920,7 +920,7 @@ msgstr ""
 msgid "Incorrect value of 'path' in data form"
 msgstr ""
 
-#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "インストール"
 
@@ -952,7 +952,7 @@ msgstr "無効なノード名です"
 msgid "Invitations are not allowed in this conference"
 msgstr "この会議では、招待はできません"
 
-#: src/mod_invites.erl:482 src/mod_invites.erl:686
+#: src/mod_invites.erl:497 src/mod_invites.erl:701
 #, fuzzy
 msgid "Invite User"
 msgstr "オンラインユーザー"
@@ -1105,7 +1105,7 @@ msgstr "チャットルームを永続化"
 msgid "Make room public searchable"
 msgstr "チャットルームを検索可"
 
-#: src/mod_register.erl:395
+#: src/mod_register.erl:396
 msgid "Malformed username"
 msgstr "不正な形式のユーザー名"
 
@@ -1139,7 +1139,7 @@ msgstr "最大在室者数"
 msgid "Maximum file size"
 msgstr "最大ファイルサイズ"
 
-#: src/mod_invites.erl:1024
+#: src/mod_invites.erl:1069
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "アイテムの最大保存数"
@@ -1242,11 +1242,11 @@ msgstr "マルチユーザーチャット"
 msgid "Multicast"
 msgstr "マルチキャスト"
 
-#: src/mod_roster.erl:172
+#: src/mod_roster.erl:176
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr ""
 
-#: src/mod_invites_http.erl:46
+#: src/mod_invites_http.erl:47
 msgid "NOT FOUND"
 msgstr ""
 
@@ -1388,7 +1388,7 @@ msgstr "制限なし"
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
 #: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
-#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:808 src/mod_roster.erl:188 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1481,7 +1481,7 @@ msgstr "なし"
 msgid "Not Found"
 msgstr "見つかりません"
 
-#: src/mod_register.erl:405
+#: src/mod_register.erl:406
 #, fuzzy
 msgid "Not allowed"
 msgstr "見つかりません"
@@ -1697,7 +1697,7 @@ msgstr "参加者 ID"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
@@ -1767,7 +1767,7 @@ msgstr "新しい発言権の要求を送るまで少し間をおいてくださ
 msgid "Pong"
 msgstr "Pong"
 
-#: src/mod_roster.erl:144
+#: src/mod_roster.erl:148
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr ""
 
@@ -1827,7 +1827,7 @@ msgid "Queries to the conference members are not allowed in this room"
 msgstr "このチャットルームでは、会議のメンバーへのクエリーは禁止されています"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
+#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr "他のユーザーへのクエリは禁止されています"
@@ -2219,7 +2219,7 @@ msgstr "CAPTCHA は有効です。"
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:261
+#: src/mod_invites_register.erl:264
 msgid "The CAPTCHA verification has failed"
 msgstr "CAPTCHA 検証は失敗しました"
 
@@ -2373,11 +2373,11 @@ msgstr "この Jabber ID に、この pubsubノードの購読を許可します
 msgid "The number of unread or undelivered messages"
 msgstr ""
 
-#: src/mod_register.erl:403
+#: src/mod_register.erl:404
 msgid "The password contains unacceptable characters"
 msgstr "パスワードに使用できない文字が含まれています"
 
-#: src/mod_register.erl:401
+#: src/mod_register.erl:402
 msgid "The password is too weak"
 msgstr "このパスワードは単純過ぎます"
 
@@ -2401,7 +2401,7 @@ msgstr ""
 msgid "The query is only allowed from local users"
 msgstr ""
 
-#: src/mod_roster.erl:180
+#: src/mod_roster.erl:184
 msgid "The query must not contain <item/> elements"
 msgstr ""
 
@@ -2434,7 +2434,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
 
-#: src/mod_invites_register.erl:206
+#: src/mod_invites_register.erl:209
 msgid "The token provided is either invalid or expired."
 msgstr ""
 
@@ -2490,7 +2490,7 @@ msgstr "遅延時間"
 msgid "Timed out waiting for stream resumption"
 msgstr ""
 
-#: src/mod_register.erl:220
+#: src/mod_register.erl:221
 msgid "To register, visit ~s"
 msgstr ""
 
@@ -2518,7 +2518,7 @@ msgstr ""
 msgid "Too many <list/> elements"
 msgstr ""
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "CAPTCHA 要求が多すぎます"
@@ -2557,7 +2557,7 @@ msgstr "火曜日"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "CAPTCHA を生成できません"
@@ -2575,7 +2575,7 @@ msgstr "認証されていません"
 msgid "Unexpected action"
 msgstr "予期しないアクション"
 
-#: src/mod_register.erl:411
+#: src/mod_register.erl:412
 msgid "Unexpected error condition: ~p"
 msgstr "予期しないエラー状態: ~p"
 
@@ -2626,7 +2626,7 @@ msgid "Upgrade"
 msgstr "アップグレード"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
 msgid "User"
 msgstr "ユーザー"
 
@@ -2643,7 +2643,7 @@ msgstr "ユーザー JID"
 msgid "User Management"
 msgstr "ユーザー管理"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:1028
+#: src/mod_register.erl:408 src/mod_invites.erl:1073
 msgid "User already exists"
 msgstr "ユーザーは既に存在しています"
 
@@ -2667,12 +2667,12 @@ msgstr "ユーザーセッションが終了しました"
 msgid "User ~ts"
 msgstr "ユーザー ~ts"
 
-#: src/mod_invites.erl:1018
+#: src/mod_invites.erl:1063
 #, fuzzy
 msgid "Username invalid"
 msgstr "ユーザー名:"
 
-#: src/mod_invites.erl:1026
+#: src/mod_invites.erl:1071
 #, fuzzy
 msgid "Username is reserved"
 msgstr "ユーザーを削除しました"
@@ -2691,7 +2691,7 @@ msgstr "ユーザー"
 msgid "Users Last Activity"
 msgstr "ユーザーの活動履歴"
 
-#: src/mod_register.erl:399
+#: src/mod_register.erl:400
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "それほど速くアカウントを登録することはできません"
 
@@ -2898,7 +2898,7 @@ msgstr ""
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "フォームの\"ニックネーム\"欄を入力する必要があります"
 
-#: src/mod_register.erl:226
+#: src/mod_register.erl:227
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "登録を行うには x:data と CAPTCHA をサポートするクライアントが必要です"
 
@@ -3051,7 +3051,7 @@ msgid "Download Gajim"
 msgstr ""
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
 msgid "Previous"
 msgstr ""
 
@@ -3373,7 +3373,7 @@ msgstr ""
 msgid "Invite expired"
 msgstr ""
 
-#: priv/mod_invites/register.html:61
+#: priv/mod_invites/register.html:62
 msgid "Submit"
 msgstr "送信"
 
@@ -3395,7 +3395,7 @@ msgstr ""
 msgid "XMPP client for Haiku"
 msgstr ""
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
 msgid "Page navigation"
 msgstr ""
 

@@ -64,9 +64,9 @@ msgstr "Accepter"
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:286 src/mod_register.erl:397 src/mod_roster.erl:164
+#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:709
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "L'accès au service est refusé"
@@ -278,7 +278,7 @@ msgstr "Août"
 msgid "Automatic node creation is not enabled"
 msgstr "La creation implicite de nœud n'est pas disponible"
 
-#: src/mod_invites_http.erl:48
+#: src/mod_invites_http.erl:49
 msgid "BAD REQUEST"
 msgstr "MAUVAISE REQUÊTE"
 
@@ -342,7 +342,7 @@ msgstr "Modifier le mot de passe"
 msgid "Change User Password"
 msgstr "Changer le mot de passe de l'utilisateur"
 
-#: src/mod_register.erl:312
+#: src/mod_register.erl:313
 msgid "Changing password is not allowed"
 msgstr "La modification du mot de passe n'est pas autorisée"
 
@@ -455,7 +455,7 @@ msgstr "Contacts"
 msgid "Country"
 msgstr "Pays"
 
-#: src/mod_invites.erl:486 src/mod_invites.erl:684
+#: src/mod_invites.erl:501 src/mod_invites.erl:699
 msgid "Create Account"
 msgstr "Créer un Compte"
 
@@ -484,7 +484,7 @@ msgstr "Configuration des tables de base de données sur "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:409 src/mod_roster.erl:436
+#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -555,7 +555,7 @@ msgstr "Enregistrer la sauvegarde dans un fichier texte sur "
 msgid "Dump to Text File"
 msgstr "Sauvegarder dans un fichier texte"
 
-#: src/mod_roster.erl:151
+#: src/mod_roster.erl:155
 msgid "Duplicated groups are not allowed by RFC6121"
 msgstr "Les groupes dupliqués ne sont pas autorisés par la RFC6121"
 
@@ -827,11 +827,11 @@ msgid "Hats limit exceeded"
 msgstr "La limite a été dépassée"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1020
+#: src/mod_invites.erl:1065
 msgid "Host unknown"
 msgstr "Serveur inconnu"
 
-#: src/mod_invites.erl:1022
+#: src/mod_invites.erl:1067
 msgid "Hostname invalid"
 msgstr ""
 
@@ -889,13 +889,13 @@ msgid "Improper message type"
 msgstr "Mauvais type de message"
 
 #: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:258
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
 msgid "Incorrect CAPTCHA submit"
 msgstr "Entrée CAPTCHA incorrecte"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:254
+#: src/mod_invites_register.erl:257
 msgid "Incorrect data form"
 msgstr "Formulaire incorrect"
 
@@ -918,7 +918,7 @@ msgstr "Valeur de l'attribut 'action' incorrecte dans le formulaire"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Valeur de l'attribut 'path' incorrecte dans le formulaire"
 
-#: src/mod_invites_http.erl:259 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
 msgid "Install"
 msgstr "Installer"
 
@@ -950,7 +950,7 @@ msgstr "Nom de nœud invalide"
 msgid "Invitations are not allowed in this conference"
 msgstr "Les invitations ne sont pas autorisées dans ce salon"
 
-#: src/mod_invites.erl:482 src/mod_invites.erl:686
+#: src/mod_invites.erl:497 src/mod_invites.erl:701
 msgid "Invite User"
 msgstr "Inviter un Utilisateur"
 
@@ -1097,7 +1097,7 @@ msgstr "Rendre le salon persistant"
 msgid "Make room public searchable"
 msgstr "Rendre le salon public"
 
-#: src/mod_register.erl:395
+#: src/mod_register.erl:396
 msgid "Malformed username"
 msgstr "Nom d'utilisateur invalide"
 
@@ -1131,7 +1131,7 @@ msgstr "Nombre maximal d'occupants"
 msgid "Maximum file size"
 msgstr "Taille maximale du fichier"
 
-#: src/mod_invites.erl:1024
+#: src/mod_invites.erl:1069
 msgid "Maximum number of invites reached"
 msgstr "Nombre maximal d'invitations atteint"
 
@@ -1230,11 +1230,11 @@ msgstr "Discussion de groupe"
 msgid "Multicast"
 msgstr "Multidiffusion"
 
-#: src/mod_roster.erl:172
+#: src/mod_roster.erl:176
 msgid "Multiple <item/> elements are not allowed by RFC6121"
 msgstr "Les multiples éléments <item/> ne sont pas autorisés avec RFC6121"
 
-#: src/mod_invites_http.erl:46
+#: src/mod_invites_http.erl:47
 msgid "NOT FOUND"
 msgstr "NON TROUVÉ"
 
@@ -1375,7 +1375,7 @@ msgstr "Pas de limite"
 #: src/gen_iq_handler.erl:82 src/mod_privacy.erl:147 src/mod_privacy.erl:264
 #: src/mod_mix.erl:673 src/mod_jidprep.erl:141 src/mod_muc.erl:254
 #: src/mod_muc.erl:685 src/mod_muc.erl:757 src/mod_muc.erl:777
-#: src/mod_muc.erl:808 src/mod_roster.erl:184 src/mod_blocking.erl:81
+#: src/mod_muc.erl:808 src/mod_roster.erl:188 src/mod_blocking.erl:81
 #: src/mod_blocking.erl:99 src/mod_mix_pam.erl:372 src/mod_stun_disco.erl:482
 #: src/ejabberd_captcha.erl:231
 msgid "No module is handling this query"
@@ -1465,7 +1465,7 @@ msgstr "Aucun"
 msgid "Not Found"
 msgstr "Nœud non trouvé"
 
-#: src/mod_register.erl:405
+#: src/mod_register.erl:406
 msgid "Not allowed"
 msgstr "Non autorisé"
 
@@ -1680,7 +1680,7 @@ msgstr "ID du participant"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:233
+#: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
 msgid "Password"
@@ -1749,7 +1749,7 @@ msgstr "Attendez un moment avant de re-lancer une requête de voix"
 msgid "Pong"
 msgstr "Pong"
 
-#: src/mod_roster.erl:144
+#: src/mod_roster.erl:148
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
 msgstr "L'appartenance de l'attribut 'ask' n'est pas autorisé avec RFC6121"
 
@@ -1809,7 +1809,7 @@ msgstr ""
 "salon"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
-#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:133
+#: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
 #: src/mod_sic.erl:70 src/mod_blocking.erl:74 src/mod_mix_pam.erl:367
 msgid "Query to another users is forbidden"
 msgstr "Requête vers un autre utilisateur interdite"
@@ -2114,7 +2114,8 @@ msgstr "L'identifiant de Stanza n'est pas valide."
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
 msgid "Statically specify a replyto of the node owner(s)"
-msgstr "Spécifier de manière statique une réponse au(x) propriétaire(s) du nœud"
+msgstr ""
+"Spécifier de manière statique une réponse au(x) propriétaire(s) du nœud"
 
 #: src/mod_configure.erl:550
 msgid "Stopped Nodes"
@@ -2203,7 +2204,7 @@ msgstr "Le CAPTCHA est valide."
 
 #: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:261
+#: src/mod_invites_register.erl:264
 msgid "The CAPTCHA verification has failed"
 msgstr "La vérification du CAPTCHA a échoué"
 
@@ -2355,11 +2356,11 @@ msgstr "Le nombre d’enregistrés au nœud"
 msgid "The number of unread or undelivered messages"
 msgstr "Le nombre de messages non lus ou non remis"
 
-#: src/mod_register.erl:403
+#: src/mod_register.erl:404
 msgid "The password contains unacceptable characters"
 msgstr "Le mot de passe contient des caractères non-acceptables"
 
-#: src/mod_register.erl:401
+#: src/mod_register.erl:402
 msgid "The password is too weak"
 msgstr "Le mot de passe est trop faible"
 
@@ -2383,7 +2384,7 @@ msgstr ""
 msgid "The query is only allowed from local users"
 msgstr "La requête n'est autorisé qu'aux utilisateurs locaux"
 
-#: src/mod_roster.erl:180
+#: src/mod_roster.erl:184
 msgid "The query must not contain <item/> elements"
 msgstr "La requête ne doit pas contenir d'élément <item/>"
 
@@ -2416,7 +2417,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "L’identificateur d’abonnement associé à la demande d’abonnement"
 
-#: src/mod_invites_register.erl:206
+#: src/mod_invites_register.erl:209
 msgid "The token provided is either invalid or expired."
 msgstr ""
 
@@ -2473,7 +2474,7 @@ msgstr "Délais"
 msgid "Timed out waiting for stream resumption"
 msgstr "Expiration du délai d’attente pour la reprise du flux"
 
-#: src/mod_register.erl:220
+#: src/mod_register.erl:221
 msgid "To register, visit ~s"
 msgstr "Pour vous enregistrer, visitez ~s"
 
@@ -2501,7 +2502,7 @@ msgstr "Trop d'éléments <item/>"
 msgid "Too many <list/> elements"
 msgstr "Trop d'éléments <list/>"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:250
+#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Trop de requêtes CAPTCHA"
@@ -2539,7 +2540,7 @@ msgstr "Mardi"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL des journaux de discussion archivés"
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:254
+#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Impossible de générer le CAPTCHA"
@@ -2557,7 +2558,7 @@ msgstr "Non autorisé"
 msgid "Unexpected action"
 msgstr "Action inattendu"
 
-#: src/mod_register.erl:411
+#: src/mod_register.erl:412
 msgid "Unexpected error condition: ~p"
 msgstr "Condition d’erreur inattendue : ~p"
 
@@ -2609,7 +2610,7 @@ msgid "Upgrade"
 msgstr "Mise à niveau"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:229
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
 msgid "User"
 msgstr "Utilisateur"
 
@@ -2626,7 +2627,7 @@ msgstr "JID de l'utilisateur"
 msgid "User Management"
 msgstr "Gestion des utilisateurs"
 
-#: src/mod_register.erl:407 src/mod_invites.erl:1028
+#: src/mod_register.erl:408 src/mod_invites.erl:1073
 msgid "User already exists"
 msgstr "L'utilisateur existe déjà"
 
@@ -2650,12 +2651,12 @@ msgstr "Session utilisateur terminée"
 msgid "User ~ts"
 msgstr "Utilisateur ~ts"
 
-#: src/mod_invites.erl:1018
+#: src/mod_invites.erl:1063
 #, fuzzy
 msgid "Username invalid"
 msgstr "Nom d'utilisateur :"
 
-#: src/mod_invites.erl:1026
+#: src/mod_invites.erl:1071
 #, fuzzy
 msgid "Username is reserved"
 msgstr "Utilisateur supprimé"
@@ -2674,7 +2675,7 @@ msgstr "Utilisateurs"
 msgid "Users Last Activity"
 msgstr "Dernière activité des utilisateurs"
 
-#: src/mod_register.erl:399
+#: src/mod_register.erl:400
 msgid "Users are not allowed to register accounts so quickly"
 msgstr ""
 "Les utilisateurs ne sont pas autorisés à enregistrer des comptes si "
@@ -2891,7 +2892,7 @@ msgstr "Vous avec rejoint trop de conférences"
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Vous devez préciser le champ \"pseudo\" dans le formulaire"
 
-#: src/mod_register.erl:226
+#: src/mod_register.erl:227
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 "Vous avez besoin d'un client prenant en charge x:data et CAPTCHA pour "
@@ -3052,7 +3053,7 @@ msgid "Download Gajim"
 msgstr ""
 
 #: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
+#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
 msgid "Previous"
 msgstr ""
 
@@ -3376,7 +3377,7 @@ msgstr ""
 msgid "Invite expired"
 msgstr ""
 
-#: priv/mod_invites/register.html:61
+#: priv/mod_invites/register.html:62
 msgid "Submit"
 msgstr "Soumettre"
 
@@ -3398,7 +3399,7 @@ msgstr ""
 msgid "XMPP client for Haiku"
 msgstr ""
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:64
+#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
 msgid "Page navigation"
 msgstr ""
 
