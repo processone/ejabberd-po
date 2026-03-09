@@ -46,7 +46,7 @@ msgstr "Una descripció del node"
 msgid "A friendly name for the node"
 msgstr "Un nom per al node"
 
-#: src/mod_muc_room.erl:2439
+#: src/mod_muc_room.erl:2440
 msgid "A password is required to enter this room"
 msgstr "Es necessita contrasenya per a entrar en aquesta sala"
 
@@ -63,11 +63,11 @@ msgstr "Acceptar"
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
+#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:346 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:723
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Accés denegat per la política del servei"
@@ -89,7 +89,7 @@ msgstr "Acció en l'usuari"
 msgid "Add User"
 msgstr "Afegir usuari"
 
-#: src/ejabberd_web_admin.erl:479
+#: src/ejabberd_web_admin.erl:480
 msgid "Administration"
 msgstr "Administració"
 
@@ -97,7 +97,7 @@ msgstr "Administració"
 msgid "Administration of "
 msgstr "Administració de "
 
-#: src/mod_muc_room.erl:3135
+#: src/mod_muc_room.erl:3136
 msgid "Administrator privileges required"
 msgstr "Es necessita tenir privilegis d'administrador"
 
@@ -105,7 +105,7 @@ msgstr "Es necessita tenir privilegis d'administrador"
 msgid "All Users"
 msgstr "Tots els usuaris"
 
-#: src/ejabberd_web_admin.erl:997
+#: src/ejabberd_web_admin.erl:998
 msgid "All activity"
 msgstr "Tota l'activitat"
 
@@ -248,8 +248,8 @@ msgstr "Abril"
 msgid "Arguments"
 msgstr "Arguments"
 
-#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4699
-#: src/mod_muc_room.erl:5128
+#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4701
+#: src/mod_muc_room.erl:5130
 msgid "Assign a hat to a user"
 msgstr "Asignar un barret a un usuari"
 
@@ -293,7 +293,7 @@ msgstr "Guardar còpia de seguretat"
 msgid "Backup Management"
 msgstr "Gestió de còpia de seguretat"
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1172
 msgid "Backup of ~p"
 msgstr "Còpia de seguretat de ~p"
 
@@ -301,7 +301,7 @@ msgstr "Còpia de seguretat de ~p"
 msgid "Backup to File at "
 msgstr "Desar còpia de seguretat a fitxer en "
 
-#: src/ejabberd_web_admin.erl:1031
+#: src/ejabberd_web_admin.erl:1032
 msgid "Bad format"
 msgstr "Format erroni"
 
@@ -349,7 +349,7 @@ msgstr "Canviar Contrasenya d'Usuari"
 msgid "Changing password is not allowed"
 msgstr "No està permès canviar la contrasenya"
 
-#: src/mod_muc_room.erl:3429
+#: src/mod_muc_room.erl:3431
 msgid "Changing role/affiliation is not allowed"
 msgstr "No està permès canviar el rol/afiliació"
 
@@ -423,7 +423,7 @@ msgstr "El client ha reconegut més paquets dels que ha enviat el servidor"
 msgid "Clustering"
 msgstr "Clustering"
 
-#: src/mod_muc_room.erl:4542 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4544 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Comandaments"
@@ -438,7 +438,7 @@ msgstr "La sala de conferències no existeix"
 msgid "Configuration"
 msgstr "Configuració"
 
-#: src/mod_muc_room.erl:3877
+#: src/mod_muc_room.erl:3879
 msgid "Configuration of room ~s"
 msgstr "Configuració de la sala ~s"
 
@@ -456,12 +456,13 @@ msgstr "Contactes"
 msgid "Country"
 msgstr "Pais"
 
-#: src/mod_invites.erl:501 src/mod_invites.erl:699
+#: src/mod_invites.erl:500 src/mod_invites.erl:698
+#: priv/mod_invites/client.html:2 priv/mod_invites/invite.html:2
 msgid "Create Account"
 msgstr "Crear un Compte"
 
-#: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
-#: src/mod_muc_room.erl:5097
+#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4689
+#: src/mod_muc_room.erl:5099
 msgid "Create a Hat"
 msgstr "Crear un barret"
 
@@ -478,9 +479,9 @@ msgid "Database Tables Configuration at "
 msgstr "Configuració de la base de dades en "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
+#: src/mod_mam.erl:1284 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
 #: src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965 src/mod_pubsub.erl:4184
-#: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
+#: src/mod_carboncopy.erl:94 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
@@ -526,8 +527,8 @@ msgstr "Entrega de notificacions d'events"
 msgid "Deliver payloads with event notifications"
 msgstr "Enviar payloads junt a les notificacions d'events"
 
-#: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4691
-#: src/mod_muc_room.erl:5114
+#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4693
+#: src/mod_muc_room.erl:5116
 msgid "Destroy a Hat"
 msgstr "Destruir un barret"
 
@@ -570,7 +571,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Editar propietats"
 
-#: src/mod_muc_room.erl:5473
+#: src/mod_muc_room.erl:5475
 msgid "Either approve or decline the voice request."
 msgstr "Aprova o denega la petició de veu."
 
@@ -639,16 +640,16 @@ msgstr "Servidor Erlang XMPP"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Excloure Jabber IDs de la comprovació CAPTCHA"
 
-#: src/ejabberd_web_admin.erl:1207
+#: src/ejabberd_web_admin.erl:1209
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Exporta totes les taules a un fitxer SQL:"
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1202
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Exportar dades de tots els usuaris del servidor a arxius PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1202
+#: src/ejabberd_web_admin.erl:1204
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr "Exportar dades d'usuaris d'un domini a arxius PIEFXIS (XEP-0227):"
 
@@ -668,7 +669,7 @@ msgstr "Entrada a la FAQ"
 msgid "Failed to activate bytestream"
 msgstr "Errada al activar bytestream"
 
-#: src/mod_muc_room.erl:1314
+#: src/mod_muc_room.erl:1313
 msgid "Failed to extract JID from your voice request approval"
 msgstr "No s'ha pogut extraure el JID de la teva aprovació de petició de veu"
 
@@ -680,7 +681,7 @@ msgstr "Ha fallat mapejar la delegació de l'espai de noms al component extern"
 msgid "Failed to parse HTTP response"
 msgstr "Ha fallat el processat de la resposta HTTP"
 
-#: src/mod_muc_room.erl:4025
+#: src/mod_muc_room.erl:4027
 msgid "Failed to process option '~s'"
 msgstr "Ha fallat el processat de la opció '~s'"
 
@@ -805,31 +806,31 @@ msgstr "Hash computat de la llista de barrets disponibles a una sala"
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr "Hash del avatar a vCard-temp d'esta sala"
 
-#: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5101
-#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5182
+#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5103
+#: src/mod_muc_room.erl:5120 src/mod_muc_room.erl:5184
 msgid "Hat URI"
 msgstr "URI del barret"
 
-#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5109
-#: src/mod_muc_room.erl:5186
+#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5111
+#: src/mod_muc_room.erl:5188
 msgid "Hat hue"
 msgstr "To de color del barret"
 
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5105
-#: src/mod_muc_room.erl:5184
+#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5107
+#: src/mod_muc_room.erl:5186
 msgid "Hat title"
 msgstr "Títol del barret"
 
-#: src/mod_muc_room.erl:5242
+#: src/mod_muc_room.erl:5244
 msgid "Hats limit exceeded"
 msgstr "El límit de tràfic ha sigut sobrepassat"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1065
+#: src/mod_invites.erl:1147
 msgid "Host unknown"
 msgstr "Domini desconegut"
 
-#: src/mod_invites.erl:1067
+#: src/mod_invites.erl:1149
 msgid "Hostname invalid"
 msgstr "Nom de domini no vàlid"
 
@@ -865,15 +866,15 @@ msgstr "Importar usuaris de jabberd14"
 msgid "Import Users from Dir at "
 msgstr "Importar usuaris des del directori en "
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1219
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Importar dades d'usuaris de l'arxiu de spool de jabberd14:"
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1200
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Importar dades d'usuaris des d'un arxiu PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1219
+#: src/ejabberd_web_admin.erl:1221
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Importar dades d'usuaris del directori de spool de jabberd14:"
 
@@ -885,23 +886,23 @@ msgstr "La part de domini de l'atribut 'from' es impròpia"
 msgid "Improper message type"
 msgstr "Tipus de missatge incorrecte"
 
-#: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
+#: src/mod_muc_room.erl:4746 src/mod_register.erl:192
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:273
 msgid "Incorrect CAPTCHA submit"
 msgstr "El CAPTCHA proporcionat és incorrecte"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3752 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:257
+#: src/mod_invites_register.erl:269
 msgid "Incorrect data form"
 msgstr "El formulari de dades és incorrecte"
 
-#: src/mod_muc_room.erl:2489 src/mod_register_web.erl:594
+#: src/mod_muc_room.erl:2490 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "Contrasenya incorrecta"
 
-#: src/mod_muc_room.erl:5065 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5067 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Valor incorrecte del atribut 'action'"
 
@@ -915,11 +916,11 @@ msgstr "Valor incorrecte de 'action' al formulari de dades"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Valor incorrecte de 'path' al formulari de dades"
 
-#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:306 src/ext_mod.erl:1306
 msgid "Install"
 msgstr "Instal·lar"
 
-#: src/ext_mod.erl:1381
+#: src/ext_mod.erl:1383
 msgid "Installed Modules:"
 msgstr "Mòduls instal·lats:"
 
@@ -939,19 +940,19 @@ msgstr "Atribut 'from' invàlid al missatge reenviat"
 msgid "Invalid 'previd' value"
 msgstr "Valor no vàlid de 'previd'"
 
-#: src/mod_muc_room.erl:4594
+#: src/mod_muc_room.erl:4596
 msgid "Invalid node name"
 msgstr "Nom de node no vàlid"
 
-#: src/mod_muc_room.erl:5518
+#: src/mod_muc_room.erl:5520
 msgid "Invitations are not allowed in this conference"
 msgstr "Les invitacions no estan permeses en aquesta sala de conferència"
 
-#: src/mod_invites.erl:497 src/mod_invites.erl:701
+#: src/mod_invites.erl:496 src/mod_invites.erl:700
 msgid "Invite User"
 msgstr "Invitar Usuari"
 
-#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
+#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1494
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -975,8 +976,8 @@ msgstr "S'ha denegat la normalització del JID per política del servei"
 msgid "JID normalization failed"
 msgstr "Ha fallat la normalització del JID"
 
-#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
-#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5134 src/mod_muc_room.erl:5152
+#: src/mod_muc_room.erl:5182 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -1011,7 +1012,7 @@ msgstr "Juny"
 msgid "Just created"
 msgstr "Creació recent"
 
-#: src/ejabberd_web_admin.erl:950
+#: src/ejabberd_web_admin.erl:951
 msgid "Last Activity"
 msgstr "Última activitat"
 
@@ -1023,11 +1024,11 @@ msgstr "Últim login"
 msgid "Last message"
 msgstr "Últim missatge"
 
-#: src/ejabberd_web_admin.erl:994
+#: src/ejabberd_web_admin.erl:995
 msgid "Last month"
 msgstr "Últim mes"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:996
 msgid "Last year"
 msgstr "Últim any"
 
@@ -1038,17 +1039,17 @@ msgstr ""
 "Els bits menys significants del hash SHA-256 del text deurien ser iguals a "
 "l'etiqueta hexadecimal"
 
-#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4695
-#: src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4697
+#: src/mod_muc_room.erl:5086
 msgid "List of Hats"
 msgstr "Llista de barrets"
 
-#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4707
-#: src/mod_muc_room.erl:5177
+#: src/mod_muc_room.erl:4565 src/mod_muc_room.erl:4709
+#: src/mod_muc_room.erl:5179
 msgid "List users with hats"
 msgstr "Llista d'usuaris amb barrets"
 
-#: src/ejabberd_web_admin.erl:166
+#: src/ejabberd_web_admin.erl:167
 msgid "Logged Out"
 msgstr "Desconectat"
 
@@ -1133,7 +1134,7 @@ msgstr "Número màxim d'ocupants"
 msgid "Maximum file size"
 msgstr "Mida màxima de fitxer"
 
-#: src/mod_invites.erl:1069
+#: src/mod_invites.erl:1151
 msgid "Maximum number of invites reached"
 msgstr "Ja has arribat al número màxim d'invitacions"
 
@@ -1149,7 +1150,7 @@ msgstr "Maig"
 msgid "Members are allowed to invite others"
 msgstr "Els membres poden invitar a altres"
 
-#: src/mod_muc_room.erl:2376
+#: src/mod_muc_room.erl:2377
 msgid "Membership is required to enter this room"
 msgstr "Necessites ser membre d'aquesta sala per a poder entrar"
 
@@ -1203,8 +1204,8 @@ msgstr "Interval mínim entre peticions de veu (en segons)"
 msgid "Moderator"
 msgstr "Moderador"
 
-#: src/mod_muc_room.erl:3143 src/mod_muc_room.erl:4798
-#: src/mod_muc_room.erl:4854 src/mod_muc_room.erl:4912
+#: src/mod_muc_room.erl:3144 src/mod_muc_room.erl:4800
+#: src/mod_muc_room.erl:4856 src/mod_muc_room.erl:4914
 msgid "Moderator privileges required"
 msgstr "Es necessita tenir privilegis de moderador"
 
@@ -1254,11 +1255,11 @@ msgstr "Llengua natural per a les discussions a les sales"
 msgid "Natural-Language Room Name"
 msgstr "Nom de la sala a la seua llengua natural"
 
-#: src/mod_muc_room.erl:3356
+#: src/mod_muc_room.erl:3358
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "No s'han trobat els atributs 'jid' ni 'nick'"
 
-#: src/mod_muc_room.erl:3125 src/mod_muc_room.erl:3361
+#: src/mod_muc_room.erl:3126 src/mod_muc_room.erl:3363
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "No s'han trobat els atributs 'role' ni 'affiliation'"
 
@@ -1284,20 +1285,20 @@ msgstr "Sobrenom"
 msgid "Nickname Registration at "
 msgstr "Registre del sobrenom en "
 
-#: src/mod_muc_room.erl:1444 src/mod_muc_room.erl:2397
-#: src/mod_muc_room.erl:4821
+#: src/mod_muc_room.erl:1443 src/mod_muc_room.erl:2398
+#: src/mod_muc_room.erl:4823
 msgid "Nickname can't be empty"
 msgstr "El sobrenom no pot estar buit"
 
-#: src/mod_muc_room.erl:3373
+#: src/mod_muc_room.erl:3375
 msgid "Nickname ~s does not exist in the room"
 msgstr "El sobrenom ~s no existeix a la sala"
 
-#: src/mod_muc_room.erl:3773
+#: src/mod_muc_room.erl:3775
 msgid "No 'affiliation' attribute found"
 msgstr "No s'ha trobat l'atribut 'affiliation'"
 
-#: src/mod_muc_room.erl:3107
+#: src/mod_muc_room.erl:3108
 msgid "No 'item' element found"
 msgstr "No s'ha trobat cap element 'item'"
 
@@ -1315,7 +1316,7 @@ msgstr "No s'ha trobat 'password' en esta petició"
 msgid "No 'path' found in data form"
 msgstr "No s'ha trobat 'path' en el formulari de dades"
 
-#: src/mod_muc_room.erl:5514
+#: src/mod_muc_room.erl:5516
 msgid "No 'to' attribute found in the invitation"
 msgstr "No s'ha trobat l'atribut 'to' en la invitació"
 
@@ -1343,7 +1344,7 @@ msgstr "No s'ha trobat un recurs disponible"
 msgid "No body provided for announce message"
 msgstr "No hi ha proveedor per al missatge anunci"
 
-#: src/mod_muc_room.erl:1338 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1337 src/gen_iq_handler.erl:89
 msgid "No child elements found"
 msgstr "No s'han trobat subelements"
 
@@ -1367,7 +1368,7 @@ msgstr "No s'ha trobat informació de l'ultima activitat"
 msgid "No items found in this query"
 msgstr "En aquesta petició no s'ha trobat cap element"
 
-#: src/mod_muc_room.erl:3895
+#: src/mod_muc_room.erl:3897
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Sense Llímit"
@@ -1438,16 +1439,16 @@ msgid "Node index not found"
 msgstr "Index de node no trobat"
 
 #: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
-#: src/mod_muc_room.erl:4544 src/mod_muc_room.erl:4578
-#: src/mod_muc_room.erl:4709 src/mod_muc_room.erl:4727
-#: src/mod_muc_room.erl:4731 src/mod_muc.erl:755 src/mod_muc.erl:1056
-#: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
+#: src/mod_muc_room.erl:4546 src/mod_muc_room.erl:4580
+#: src/mod_muc_room.erl:4711 src/mod_muc_room.erl:4729
+#: src/mod_muc_room.erl:4733 src/mod_muc.erl:755 src/mod_muc.erl:1056
+#: src/ejabberd_web_admin.erl:641 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Node no trobat"
 
-#: src/ejabberd_web_admin.erl:1147 src/ejabberd_web_admin.erl:1153
+#: src/ejabberd_web_admin.erl:1149 src/ejabberd_web_admin.erl:1155
 msgid "Node ~p"
 msgstr "Node ~p"
 
@@ -1455,7 +1456,7 @@ msgstr "Node ~p"
 msgid "Nodeprep has failed"
 msgstr "Ha fallat Nodeprep"
 
-#: src/ejabberd_web_admin.erl:1539 src/ejabberd_web_admin.erl:1562
+#: src/ejabberd_web_admin.erl:1541 src/ejabberd_web_admin.erl:1564
 msgid "Nodes"
 msgstr "Nodes"
 
@@ -1463,7 +1464,7 @@ msgstr "Nodes"
 msgid "None"
 msgstr "Cap"
 
-#: src/ejabberd_web_admin.erl:622
+#: src/ejabberd_web_admin.erl:623
 msgid "Not Found"
 msgstr "No Trobat"
 
@@ -1559,12 +1560,12 @@ msgstr "Antiga contrasenya:"
 msgid "Online"
 msgstr "Connectat"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:599
-#: src/ejabberd_web_admin.erl:1536
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:600
+#: src/ejabberd_web_admin.erl:1538
 msgid "Online Users"
 msgstr "Usuaris conectats"
 
-#: src/mod_carboncopy.erl:97
+#: src/mod_carboncopy.erl:98
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr "Només es permeten etiquetes <enable/> o <disable/>"
 
@@ -1600,15 +1601,15 @@ msgstr ""
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Només els moderadors poden canviar el tema d'aquesta sala"
 
-#: src/mod_muc_room.erl:5429
+#: src/mod_muc_room.erl:5431
 msgid "Only moderators are allowed to retract messages"
 msgstr "Només els moderadors tenen permís per a retractar missatges"
 
-#: src/mod_muc_room.erl:1321
+#: src/mod_muc_room.erl:1320
 msgid "Only moderators can approve voice requests"
 msgstr "Només els moderadors poden aprovar les peticions de veu"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5585
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Sols els ocupants poden enviar missatges a la sala"
 
@@ -1654,7 +1655,7 @@ msgstr "Nom de la organizació"
 msgid "Organization Unit"
 msgstr "Unitat de la organizació"
 
-#: src/ext_mod.erl:1385
+#: src/ext_mod.erl:1387
 msgid "Other Modules Available:"
 msgstr "Altres mòduls disponibles:"
 
@@ -1665,8 +1666,8 @@ msgstr "Connexions s2s d'eixida"
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
 #: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
-#: src/mod_muc_room.erl:3720 src/mod_muc_room.erl:3765
-#: src/mod_muc_room.erl:4774 src/mod_mix.erl:678
+#: src/mod_muc_room.erl:3722 src/mod_muc_room.erl:3767
+#: src/mod_muc_room.erl:4776 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Es requerixen privilegis de propietari de la sala"
 
@@ -1687,7 +1688,8 @@ msgstr "ID del Participant"
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
-#: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
+#: priv/mod_invites/register.html:46 priv/mod_invites/register_success.html:70
+#: priv/mod_invites/register_success.html:67
 msgid "Password"
 msgstr "Contrasenya"
 
@@ -1716,7 +1718,7 @@ msgstr "Ruta al fitxer"
 msgid "Payload semantic type information"
 msgstr "Informació sobre el tipus semàntic de la carrega útil"
 
-#: src/ejabberd_web_admin.erl:981
+#: src/ejabberd_web_admin.erl:982
 msgid "Period: "
 msgstr "Període: "
 
@@ -1737,7 +1739,7 @@ msgstr "Ping"
 msgid "Ping query is incorrect"
 msgstr "La petició de Ping es incorrecta"
 
-#: src/ejabberd_web_admin.erl:1172
+#: src/ejabberd_web_admin.erl:1174
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1872,8 +1874,8 @@ msgstr "Còpia remota"
 msgid "Remove User"
 msgstr "Eliminar usuari"
 
-#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4703
-#: src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:4564 src/mod_muc_room.erl:4705
+#: src/mod_muc_room.erl:5148
 msgid "Remove a hat from a user"
 msgstr "Eliminar un barret d'un usuari"
 
@@ -1912,18 +1914,18 @@ msgstr "Restaurar"
 msgid "Restore Backup from File at "
 msgstr "Restaura còpia de seguretat des del fitxer en "
 
-#: src/ejabberd_web_admin.erl:1185
+#: src/ejabberd_web_admin.erl:1187
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "Restaurar una còpia de seguretat binària després de reiniciar el ejabberd "
 "(requereix menys memòria:"
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1185
 msgid "Restore binary backup immediately:"
 msgstr "Restaurar una còpia de seguretat binària ara mateix:"
 
-#: src/ejabberd_web_admin.erl:1193
+#: src/ejabberd_web_admin.erl:1195
 msgid "Restore plain text backup immediately:"
 msgstr "Restaurar una còpia de seguretat en format de text pla ara mateix:"
 
@@ -2060,7 +2062,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Grups de contactes compartits"
 
-#: src/ejabberd_web_admin.erl:1003
+#: src/ejabberd_web_admin.erl:1004
 msgid "Show Integral Table"
 msgstr "Mostrar Taula Integral"
 
@@ -2068,7 +2070,7 @@ msgstr "Mostrar Taula Integral"
 msgid "Show Occupants Join/Leave"
 msgstr "Mostrar Entrades/Eixides dels Ocupants"
 
-#: src/ejabberd_web_admin.erl:1000
+#: src/ejabberd_web_admin.erl:1001
 msgid "Show Ordinary Table"
 msgstr "Mostrar Taula Ordinaria"
 
@@ -2087,7 +2089,7 @@ msgstr ""
 "però només hauries de fer això al teu ordinador personal, per raons de "
 "seguretat."
 
-#: src/ext_mod.erl:1374
+#: src/ext_mod.erl:1376
 msgid "Sources Specs:"
 msgstr "Especificacions de Codi Font:"
 
@@ -2110,7 +2112,7 @@ msgstr "Especificar el model del publicant"
 msgid "Stanza ID"
 msgstr "ID del paquet"
 
-#: src/mod_muc_room.erl:5462
+#: src/mod_muc_room.erl:5464
 msgid "Stanza id is not valid"
 msgstr "L'identificador del paquet no es vàlid"
 
@@ -2123,11 +2125,11 @@ msgstr "Especifica estaticament una adreça on respondre al propietari del node"
 msgid "Stopped Nodes"
 msgstr "Nodes parats"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1183
 msgid "Store binary backup:"
 msgstr "Guardar una còpia de seguretat binària:"
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1193
 msgid "Store plain text backup:"
 msgstr "Guardar una còpia de seguretat en format de text pla:"
 
@@ -2144,7 +2146,7 @@ msgstr "L'administració de la conexió (stream management) no està activada"
 msgid "Subject"
 msgstr "Tema"
 
-#: src/ejabberd_web_admin.erl:1030 src/ext_mod.erl:1124
+#: src/ejabberd_web_admin.erl:1031 src/ext_mod.erl:1125
 msgid "Submitted"
 msgstr "Enviat"
 
@@ -2168,7 +2170,7 @@ msgstr ""
 "Les peticiones de subscripció han de ser aprovades i només els subscriptors "
 "poden recuperar elements"
 
-#: src/mod_muc_room.erl:4785
+#: src/mod_muc_room.erl:4787
 msgid "Subscriptions are not allowed"
 msgstr "Les subscripcions no estan permeses"
 
@@ -2192,13 +2194,13 @@ msgstr "Text associat amb un vídeo"
 msgid "Text associated with speech"
 msgstr "Text associat amb una veu"
 
-#: src/mod_muc_room.erl:1435 src/mod_muc_room.erl:2386
-#: src/mod_muc_room.erl:4811
+#: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2387
+#: src/mod_muc_room.erl:4813
 msgid "That nickname is already in use by another occupant"
 msgstr "El sobrenom ja l'està utilitzant una altra persona"
 
-#: src/mod_muc_room.erl:1447 src/mod_muc_room.erl:2400
-#: src/mod_muc_room.erl:4825 src/mod_muc.erl:1174
+#: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2401
+#: src/mod_muc_room.erl:4827 src/mod_muc.erl:1174
 msgid "That nickname is registered by another person"
 msgstr "El sobrenom ja està registrat per una altra persona"
 
@@ -2206,9 +2208,9 @@ msgstr "El sobrenom ja està registrat per una altra persona"
 msgid "The CAPTCHA is valid."
 msgstr "El CAPTCHA es vàlid."
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4749 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:264
+#: src/mod_invites_register.erl:276
 msgid "The CAPTCHA verification has failed"
 msgstr "La verificació CAPTCHA ha fallat"
 
@@ -2401,7 +2403,7 @@ msgstr "La petició està permesa només d'usuaris locals"
 msgid "The query must not contain <item/> elements"
 msgstr "La petició no pot contenir elements <item/>"
 
-#: src/mod_muc_room.erl:5136 src/mod_muc_room.erl:5154
+#: src/mod_muc_room.erl:5138 src/mod_muc_room.erl:5156
 msgid "The role"
 msgstr "El rol"
 
@@ -2434,7 +2436,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "L'identificador de subscripció associat amb la petició de subscripció"
 
-#: src/mod_invites_register.erl:209
+#: src/mod_invites_register.erl:221
 msgid "The token provided is either invalid or expired."
 msgstr "El token proporcionat no es vàlid o ja ha expirat."
 
@@ -2511,7 +2513,7 @@ msgstr ""
 "Massa autenticacions (~p) han fallat des d'aquesta adreça IP (~s). L'adreça "
 "serà desbloquejada en ~s UTC"
 
-#: src/mod_muc_room.erl:3112 src/mod_muc_room.erl:3779
+#: src/mod_muc_room.erl:3113 src/mod_muc_room.erl:3781
 msgid "Too many <item/> elements"
 msgstr "N'hi ha massa elements <item/>"
 
@@ -2519,7 +2521,7 @@ msgstr "N'hi ha massa elements <item/>"
 msgid "Too many <list/> elements"
 msgstr "N'hi ha massa elements <list/>"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
+#: src/mod_muc_room.erl:2471 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Massa peticions de CAPTCHA"
@@ -2528,7 +2530,7 @@ msgstr "Massa peticions de CAPTCHA"
 msgid "Too many active bytestreams"
 msgstr "N'hi ha massa Bytestreams actius"
 
-#: src/mod_muc_room.erl:1340 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:90
 msgid "Too many child elements"
 msgstr "N'hi ha massa subelements"
 
@@ -2540,7 +2542,7 @@ msgstr "S'han especificat massa camps de receptors"
 msgid "Too many unacked stanzas"
 msgstr "Massa missatges sense haver reconegut la seva recepció"
 
-#: src/mod_muc_room.erl:2345
+#: src/mod_muc_room.erl:2346
 msgid "Too many users in this conference"
 msgstr "N'hi ha massa usuaris en esta sala de conferència"
 
@@ -2556,7 +2558,7 @@ msgstr "Dimarts"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL dels Arxius de Discussions"
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
+#: src/mod_muc_room.erl:2480 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "No s'ha pogut generar un CAPTCHA"
@@ -2565,7 +2567,7 @@ msgstr "No s'ha pogut generar un CAPTCHA"
 msgid "Unable to register route on existing local domain"
 msgstr "No s'ha pogut registrar la ruta al domini local existent"
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:234
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:235
 msgid "Unauthorized"
 msgstr "No autoritzat"
 
@@ -2578,7 +2580,7 @@ msgstr "Acció inesperada"
 msgid "Unexpected error condition: ~p"
 msgstr "Condició d'error inesperada: ~p"
 
-#: src/ext_mod.erl:1287
+#: src/ext_mod.erl:1288
 msgid "Uninstall"
 msgstr "Desinstal·lar"
 
@@ -2599,7 +2601,7 @@ msgstr "Element <index/> no soportat"
 msgid "Unsupported version"
 msgstr "Versió no suportada"
 
-#: src/ext_mod.erl:1379
+#: src/ext_mod.erl:1381
 msgid "Update Specs"
 msgstr "Actualitzar Especificacions"
 
@@ -2611,7 +2613,7 @@ msgstr "Actualitzar el missatge del dia (no enviar)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Actualitza el missatge del dia en tots els dominis (no enviar)"
 
-#: src/ext_mod.erl:1369
+#: src/ext_mod.erl:1371
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 "Actualitza les especificacions per obtindre el codi font dels mòduls, "
@@ -2622,7 +2624,7 @@ msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr ""
 "El sistema d'almacenament de vCard no te capacitat per a actualitzar la vCard"
 
-#: src/ext_mod.erl:1290
+#: src/ext_mod.erl:1291
 msgid "Upgrade"
 msgstr "Actualitza"
 
@@ -2644,7 +2646,7 @@ msgstr "JID del usuari"
 msgid "User Management"
 msgstr "Gestió d'Usuaris"
 
-#: src/mod_register.erl:408 src/mod_invites.erl:1073
+#: src/mod_register.erl:408 src/mod_invites.erl:1155
 msgid "User already exists"
 msgstr "El usuari ja existeix"
 
@@ -2664,15 +2666,15 @@ msgstr "Sessió d'usuari no trobada"
 msgid "User session terminated"
 msgstr "Sessió d'usuari terminada"
 
-#: src/ejabberd_web_admin.erl:1026
+#: src/ejabberd_web_admin.erl:1027
 msgid "User ~ts"
 msgstr "Usuari ~ts"
 
-#: src/mod_invites.erl:1063
+#: src/mod_invites.erl:1145
 msgid "Username invalid"
 msgstr "El nom d'usuari no es vàlid"
 
-#: src/mod_invites.erl:1071
+#: src/mod_invites.erl:1153
 msgid "Username is reserved"
 msgstr "El nom d'usuari està reservat"
 
@@ -2681,12 +2683,12 @@ msgstr "El nom d'usuari està reservat"
 msgid "Username:"
 msgstr "Nom d'usuari:"
 
-#: src/ejabberd_web_admin.erl:571 src/ejabberd_web_admin.erl:579
-#: src/ejabberd_web_admin.erl:585 src/ejabberd_web_admin.erl:1535
+#: src/ejabberd_web_admin.erl:572 src/ejabberd_web_admin.erl:580
+#: src/ejabberd_web_admin.erl:586 src/ejabberd_web_admin.erl:1537
 msgid "Users"
 msgstr "Usuaris"
 
-#: src/ejabberd_web_admin.erl:608
+#: src/ejabberd_web_admin.erl:609
 msgid "Users Last Activity"
 msgstr "Última activitat d'usuari"
 
@@ -2694,14 +2696,14 @@ msgstr "Última activitat d'usuari"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Els usuaris no tenen permís per a crear comptes tan depresa"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4737 src/mod_muc_room.erl:4916
-#: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4739 src/mod_muc_room.erl:4918
+#: src/mod_carboncopy.erl:101 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "El valor 'get' a l'atribut 'type' no és permès"
 
 #: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4521
-#: src/mod_muc_room.erl:4657 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4523
+#: src/mod_muc_room.erl:4659 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
 #: src/mod_muc.erl:682 src/mod_muc.erl:720 src/mod_muc.erl:762
 #: src/mod_muc.erl:782 src/mod_muc.erl:792 src/mod_disco.erl:101
@@ -2731,7 +2733,7 @@ msgstr "El valor de '~s' deuria ser un numero enter"
 msgid "View joined MIX channels"
 msgstr "Vore els canals MIX units"
 
-#: src/ejabberd_web_admin.erl:556 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:557 src/ejabberd_web_admin.erl:1563
 msgid "Virtual Hosts"
 msgstr "Dominis Virtuals"
 
@@ -2739,7 +2741,7 @@ msgstr "Dominis Virtuals"
 msgid "Visitor"
 msgstr "Visitant"
 
-#: src/mod_muc_room.erl:1428
+#: src/mod_muc_room.erl:1427
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Els visitants no tenen permés canviar el seus Nicknames en esta sala"
 
@@ -2747,7 +2749,7 @@ msgstr "Els visitants no tenen permés canviar el seus Nicknames en esta sala"
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Els visitants no poden enviar missatges a tots els ocupants"
 
-#: src/mod_muc_room.erl:5471
+#: src/mod_muc_room.erl:5473
 msgid "Voice request"
 msgstr "Petició de veu"
 
@@ -2848,7 +2850,7 @@ msgstr "El xmlns ès incorrecte"
 msgid "XMPP Account Registration"
 msgstr "Registre de compte XMPP"
 
-#: src/ejabberd_web_admin.erl:558
+#: src/ejabberd_web_admin.erl:559
 msgid "XMPP Domains"
 msgstr "Dominis XMPP"
 
@@ -2890,11 +2892,11 @@ msgid "You can later change your password using an XMPP client."
 msgstr ""
 "Podràs canviar la teva contrasenya més endavant utilitzant un client XMPP."
 
-#: src/mod_muc_room.erl:2373 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2374 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Has sigut bloquejat en aquesta sala"
 
-#: src/mod_muc_room.erl:2354
+#: src/mod_muc_room.erl:2355
 msgid "You have joined too many conferences"
 msgstr "Has entrat en massa sales de conferència"
 
@@ -2972,7 +2974,7 @@ msgstr "ejabberd - Mòdul Publicar-Subscriure"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "mòdul ejabberd SOCKS5 Bytestreams"
 
-#: src/ejabberd_web_admin.erl:318
+#: src/ejabberd_web_admin.erl:319
 msgid "ejabberd Web Admin"
 msgstr "ejabberd Web d'administració"
 
@@ -3012,11 +3014,11 @@ msgstr "entra a la sala"
 msgid "leaves the room"
 msgstr "surt de la sala"
 
-#: src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:4973
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:5547
+#: src/mod_muc_room.erl:5549
 msgid "the password is"
 msgstr "la contrasenya és"
 
@@ -3024,11 +3026,11 @@ msgstr "la contrasenya és"
 msgid "vCard User Search"
 msgstr "vCard recerca d'usuari"
 
-#: src/mod_muc_room.erl:5540
+#: src/mod_muc_room.erl:5542
 msgid "~s invites you to the room ~s"
 msgstr "~s et convida a la sala ~s"
 
-#: src/mod_mam.erl:1748
+#: src/mod_mam.erl:1747
 msgid "~ts's MAM Archive"
 msgstr "Arxiu MAM de ~ts"
 
@@ -3040,42 +3042,32 @@ msgstr "~ts's cua de missatges offline"
 msgid "Join {{ site_name }} with {{ app_name }}"
 msgstr "Uneix-te a {{ site_name }} amb {{ app_name }}"
 
-#: priv/mod_invites/invite_invalid.html:8
+#: priv/mod_invites/invite_invalid.html:9
 msgid "Sad person holding empty box"
 msgstr "Persona trista agafant una caixa buida"
 
-#: priv/mod_invites/apps.json:84
+#: priv/mod_invites/apps.json:105
 msgid "Siskin IM Logo"
 msgstr "Logo de Siskin IM"
 
-#: priv/mod_invites/apps.html:25
-msgid ""
-"Showing apps for <span class='platform-name'>your current platform</span> "
-"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
-"a>"
-msgstr ""
-"Mostrant apps només per a <span class='platform-name'>la teua plataforma "
-"actual</span>. Tambè pots <a href='#' id='show-all-clients-button'>vore "
-"totes les apps.</a>"
-
-#: priv/mod_invites/apps.json:140
+#: priv/mod_invites/apps.json:161
 msgid "Download Gajim"
 msgstr "Descarregar Gajim"
 
-#: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
+#: priv/mod_invites/client.html:68 priv/mod_invites/client.html:66
+#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
 msgid "Previous"
 msgstr "Anterior"
 
-#: priv/mod_invites/invite_invalid.html:6
+#: priv/mod_invites/invite_invalid.html:7
 msgid "Sorry, it looks like this invite code has expired!"
 msgstr "Perdona, però pareix que esta invitació ja ha expirat!"
 
-#: priv/mod_invites/apps.json:7
+#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:7
 msgid "Google Play Store Logo"
 msgstr "Logo de la Google Play Store"
 
-#: priv/mod_invites/client.html:50
+#: priv/mod_invites/client.html:53
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
@@ -3083,17 +3075,22 @@ msgstr ""
 "Després d'instal·lar correctament {{ app_name }}, torna ací i "
 "<strong>continua amb el Pas 2</strong>."
 
-#: priv/mod_invites/register.html:29
+#: priv/mod_invites/register.html:28
 msgid "Username"
 msgstr "Nom d'usuari"
 
-#: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:32
 msgid "Download and install {{ app_name }} below:"
 msgstr "Descarrega e instal·la {{ app_name }} ací baix:"
 
-#: priv/mod_invites/apps.json:154
+#: priv/mod_invites/apps.json:175
 msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr "Un client de xat molt complet d'escriptori per a Windows i Linux."
+
+#: priv/mod_invites/register_success.html:3
+#, fuzzy
+msgid "Registration Success"
+msgstr "Error al fer el registre"
 
 #: priv/mod_invites/roster.html:8
 msgid ""
@@ -3105,19 +3102,24 @@ msgstr ""
 "xarrar en la xarxa XMPP. Si ja tens un client XMPP instal·lat, ja pots "
 "polsar el boto de baix!"
 
-#: priv/mod_invites/register.html:19
+#: priv/mod_invites/register.html:18
 msgid "Open the app"
 msgstr "Obrir l'app"
 
-#: priv/mod_invites/register_success.html:26
+#: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
 msgstr "Has creat un compte en <strong>{{ site_name }}</strong>."
 
-#: priv/mod_invites/register.html:4
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
 msgid "Registration Error"
 msgstr "Error al fer el Registre"
 
-#: priv/mod_invites/apps.json:167
+#: priv/mod_invites/invite_invalid.html:2
+#, fuzzy
+msgid "Invite Expired"
+msgstr "La invitació ha expirat"
+
+#: priv/mod_invites/apps.json:188
 msgid "Renga Logo"
 msgstr "Logo de Renga"
 
@@ -3134,7 +3136,7 @@ msgstr ""
 msgid "Registration error"
 msgstr "Error al fer el registre"
 
-#: priv/mod_invites/register_success.html:69
+#: priv/mod_invites/register_success.html:51
 msgid "Step 2: Connect {{ app_name }} to your new account"
 msgstr "Pas 2: Connecta {{ app_name }} al teu nou compte"
 
@@ -3146,16 +3148,16 @@ msgstr ""
 "Has rebut una invitació per a xarrar a <strong>{{ site_name }}</strong>, que "
 "és part de la xarxa XMPP de missatgeria segura i descentralitzada."
 
-#: priv/mod_invites/register_success.html:74
+#: priv/mod_invites/register_success.html:56
 msgid "As a final reminder, your account details are shown below:"
 msgstr "Com a recordatori final, el detalls del teu compte es mostren ací:"
 
-#: priv/mod_invites/client.html:12
+#: priv/mod_invites/client.html:14
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
 msgstr "Ja pots començar a xarrar usant {{ app_name }}. Comencem!"
 
-#: priv/mod_invites/client.html:54
+#: priv/mod_invites/client.html:57
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
@@ -3167,7 +3169,7 @@ msgstr ""
 msgid "Get started"
 msgstr "Comencem"
 
-#: priv/mod_invites/register_success.html:24
+#: priv/mod_invites/register_success.html:6
 msgid "Congratulations!"
 msgstr "Enhorabona!"
 
@@ -3175,11 +3177,11 @@ msgstr "Enhorabona!"
 msgid "Scan with mobile device"
 msgstr "Escanejar amb el mòbil"
 
-#: priv/mod_invites/register_success.html:46
+#: priv/mod_invites/register_success.html:28
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr "Ara pots configurar {{ app_name }} i connectar al teu nou compte."
 
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with <strong>{{ inviter }}</"
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
@@ -3189,11 +3191,11 @@ msgstr ""
 "altra gent a <strong>{{ site_name }}</strong> i a altres serveis de la xarxa "
 "XMPP."
 
-#: priv/mod_invites/register_success.html:13
+#: priv/mod_invites/register_success.html:73
 msgid "Hide"
 msgstr "Amagar"
 
-#: priv/mod_invites/client.html:60
+#: priv/mod_invites/client.html:63
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
@@ -3209,7 +3211,7 @@ msgstr "Afegir {{ inviter }} a la teua llista de contactes"
 msgid "To get started, you need to install an app for your platform:"
 msgstr "Per a començar, tens que instal·lar alguna app:"
 
-#: priv/mod_invites/apps.json:91
+#: priv/mod_invites/apps.json:112
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
@@ -3217,11 +3219,11 @@ msgstr ""
 "Un client XMPP lleuger i potent per a iPhone e iPad. Proporciona una forma "
 "senzilla de xarrar i compartir moments amb les teues amistats."
 
-#: priv/mod_invites/register_success.html:48
+#: priv/mod_invites/register_success.html:30
 msgid "Step 1: Download and install {{ app_name }}"
 msgstr "Pas 1: Descarrega e instal·la {{ app_name }}"
 
-#: priv/mod_invites/apps.json:111
+#: priv/mod_invites/apps.json:132
 msgid ""
 "Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
 "\\' button under the empty account list and then enter your credentials."
@@ -3230,14 +3232,14 @@ msgstr ""
 "botó \\'+\\' baix la llista de comptes buida i ja podràs introduir les teues "
 "credencials."
 
-#: priv/mod_invites/base.html:28
+#: priv/mod_invites/base.html:26
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
 "Usa un escanejador de <em>codis QR</em> al te mòbil per a escanejar aquest "
 "codi:"
 
-#: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
+#: priv/mod_invites/base_min.html:17
 msgid "Invite to {{ site_name }}"
 msgstr "Invitació a {{ site_name }}"
 
@@ -3245,11 +3247,23 @@ msgstr "Invitació a {{ site_name }}"
 msgid "Other software"
 msgstr "Altres programes"
 
-#: priv/mod_invites/register.html:25
+#: priv/mod_invites/register.html:24
 msgid "Create an account"
 msgstr "Crear un compte"
 
-#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
+#: priv/mod_invites/invite.html:15
+#, fuzzy
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>register an account "
+"manually</a>."
+msgstr ""
+"Pots connectar-te a {{ site_name }} usant qualsevol programa compatible amb "
+"XMPP. Si el teu programa preferit no està en esta llista, pots <a "
+"href=\"{{ registration_url }}\">registrarte el teu compte manualment</a>."
+
+#: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
 msgid "Apple Store Logo"
 msgstr "Logo de la Apple Store"
@@ -3258,19 +3272,19 @@ msgstr "Logo de la Apple Store"
 msgid "Add Contact"
 msgstr "Afegir Contacte"
 
-#: priv/mod_invites/apps.json:127
+#: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
 msgstr "Logo de Dino"
 
-#: priv/mod_invites/register_success.html:78
+#: priv/mod_invites/register_success.html:60
 msgid "Chat address (JID)"
 msgstr "Direcció de xarrar (JID)"
 
-#: priv/mod_invites/apps.json:104
+#: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
 msgstr "Logo de Beagle IM"
 
-#: priv/mod_invites/base.html:33
+#: priv/mod_invites/base.html:31
 msgid "Close"
 msgstr "Tancar"
 
@@ -3282,11 +3296,11 @@ msgstr ""
 "Conversations es un client Jabber/XMPP per a mòbils Android 6.0+ que ha "
 "sigut optimitzat per a proporcionar una experiència mòbil unica."
 
-#: priv/mod_invites/register.html:17
+#: priv/mod_invites/register.html:16
 msgid "{{ app_name }} already installed?"
 msgstr "Ja està instal·lat {{ app_name }}?"
 
-#: priv/mod_invites/register_success.html:35
+#: priv/mod_invites/register_success.html:17
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
@@ -3294,11 +3308,16 @@ msgstr ""
 "<strong>No tens instal·lat cap programa compatible?</strong> També pots "
 "connectarte al teu compte amb el nostre xat web en linia!"
 
-#: priv/mod_invites/register.html:20
+#: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
 msgstr "Aquest botó funciona només si ja tens la app instal·lada!"
 
-#: priv/mod_invites/apps.json:133
+#: priv/mod_invites/register.html:3
+#, fuzzy
+msgid "Registration Form"
+msgstr "Error al fer el Registre"
+
+#: priv/mod_invites/apps.json:154
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
@@ -3306,6 +3325,12 @@ msgstr ""
 "Un client de xat modern i de software lliure per a l'escriptori. Està "
 "enfocat en proporcionar una experiència Jabber/XMPP neta i comfiable, mentre "
 "mantenes la teva privacitat en ment."
+
+#: priv/mod_invites/apps.json:91
+msgid ""
+"A lean Jabber/XMPP client for Android. It aims at usability, low overhead "
+"and security, and works on low-end Android devices starting with Android 4.0."
+msgstr ""
 
 #: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
@@ -3327,7 +3352,7 @@ msgstr ""
 "Un client de xat modern i de software lliure per a Mac. Es simple d'usar i "
 "te una interfície d'usuari neta."
 
-#: priv/mod_invites/register_success.html:71
+#: priv/mod_invites/register_success.html:53
 msgid "Launch {{ app_name }} and sign in using your account credentials."
 msgstr "Inicia {{ app_name }} i entra al compte usant les teves credencials."
 
@@ -3347,11 +3372,11 @@ msgstr "Logo de la F-Droid Store"
 msgid "Send this invite to your device"
 msgstr "Envia esta invitació al teu dispositiu"
 
-#: priv/mod_invites/client.html:52
+#: priv/mod_invites/client.html:55
 msgid "Step 2: Activate your account"
 msgstr "Pas 2: Activa el teu compte"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
@@ -3365,27 +3390,26 @@ msgstr ""
 msgid "{{ inviter }} has invited you to connect!"
 msgstr "{{ inviter }} t'ha invitat a connectar-te!"
 
-#: priv/mod_invites/apps.json:120
+#: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
 msgstr "Descarrega Dino per a Linux"
 
-#: priv/mod_invites/client.html:57
+#: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
 msgstr "Accepta la invitació usant {{ app_name }}"
 
-#: priv/mod_invites/apps.json:113
+#: priv/mod_invites/apps.json:134
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
 msgstr ""
 "Beagle IM de Tigase, Inc. es un client XMPP lleuger i poderós per a macOS."
 
-#: priv/mod_invites/register_success.html:90
-#: priv/mod_invites/register_success.html:17
+#: priv/mod_invites/register_success.html:73
 msgid "Show"
 msgstr "Mostrar"
 
-#: priv/mod_invites/register.html:55
+#: priv/mod_invites/register.html:54
 msgid "Enter a secure password that you do not use anywhere else."
 msgstr ""
 "Introdueix una contrasenya segura que no estiguis usant en cap altre lloc."
@@ -3402,9 +3426,14 @@ msgstr ""
 "<strong>Truquet:</strong> Pots obrir esta invitació al teu mòbil escanejant "
 "el codi amb la camera de fotos."
 
-#: priv/mod_invites/apps.json:161
+#: priv/mod_invites/apps.json:182
 msgid "Download Renga for Haiku"
 msgstr "Descarrega Renga per a Haiku"
+
+#: priv/mod_invites/base_min.html:6
+#, fuzzy
+msgid "Invite"
+msgstr "Invitar Usuari"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3420,11 +3449,11 @@ msgstr ""
 msgid "Monal Logo"
 msgstr "Logo de Monal"
 
-#: priv/mod_invites/invite_invalid.html:4
+#: priv/mod_invites/invite_invalid.html:5
 msgid "Invite expired"
 msgstr "La invitació ha expirat"
 
-#: priv/mod_invites/register.html:62
+#: priv/mod_invites/register.html:61
 msgid "Submit"
 msgstr "Enviar"
 
@@ -3432,7 +3461,7 @@ msgstr "Enviar"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: priv/mod_invites/register.html:43
+#: priv/mod_invites/register.html:42
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
@@ -3443,15 +3472,15 @@ msgstr ""
 msgid "Scan invite code"
 msgstr "Escaneja el codi d'invitació"
 
-#: priv/mod_invites/apps.json:173
+#: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "Client XMPP per a Haiku"
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
+#: priv/mod_invites/client.html:64 priv/mod_invites/register.html:64
 msgid "Page navigation"
 msgstr "Navegació de pàgina"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
@@ -3460,11 +3489,11 @@ msgstr ""
 "segura i descentralitzada. Per a començar a xarrar, primer tindries que "
 "crear-te un compte."
 
-#: priv/mod_invites/register_success.html:38
+#: priv/mod_invites/register_success.html:20
 msgid "Log in via web"
 msgstr "Entrar usant la web"
 
-#: priv/mod_invites/register_success.html:99
+#: priv/mod_invites/register_success.html:82
 msgid ""
 "Your password is stored encrypted on the server and will not be accessible "
 "after you close this page. Keep it safe and never share it with anyone."
@@ -3473,7 +3502,7 @@ msgstr ""
 "una vegada que tanques esta pàgina. Mantin la contrasenya segura i no la "
 "compartis amb ningú mes."
 
-#: priv/mod_invites/register_success.html:28
+#: priv/mod_invites/register_success.html:10
 msgid ""
 "To start chatting, you need to enter your new account credentials into your "
 "chosen XMPP software."
@@ -3481,11 +3510,11 @@ msgstr ""
 "Per a començar a xarrar, tens que proporcionar les credencials del teu no "
 "compte al programa XMPP escollit."
 
-#: priv/mod_invites/apps.json:146
+#: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
 msgstr "Logo de Gajim"
 
-#: priv/mod_invites/register.html:53
+#: priv/mod_invites/register.html:52
 msgid "Please provide a password! Minimum length: {{ password_min_length }}"
 msgstr ""
 "Per favor proporciona una contrasenya ! Llargària minima: "
@@ -3495,11 +3524,11 @@ msgstr ""
 msgid "Conversations Logo"
 msgstr "Logo de Conversations"
 
-#: priv/mod_invites/client.html:31
+#: priv/mod_invites/client.html:34
 msgid "Step 1: Install {{ app_name }}"
 msgstr "Pas 1: Instal·la {{ app_name }}"
 
-#: priv/mod_invites/apps.json:124
+#: priv/mod_invites/apps.json:145
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
@@ -3507,11 +3536,26 @@ msgstr ""
 "Polsa el botó per a obrir la pàgina web de Dino on podràs descarregar el "
 "programa per a instalarlo al teu ordinador."
 
-#: priv/mod_invites/register.html:40
+#: priv/mod_invites/register.html:39
 msgid "Please provide a valid username!"
 msgstr "Per favor proporciona un nom vàlid per al teu compte!"
 
-#: priv/mod_invites/register.html:16
+#: priv/mod_invites/roster.html:15
+msgid "Hint"
+msgstr ""
+
+#: priv/mod_invites/apps.html:25
+#, fuzzy
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button' "
+"tabindex=\"{{ tabidx }}\">view all apps.</a>"
+msgstr ""
+"Mostrant apps només per a <span class='platform-name'>la teua plataforma "
+"actual</span>. Tambè pots <a href='#' id='show-all-clients-button'>vore "
+"totes les apps.</a>"
+
+#: priv/mod_invites/register.html:15
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
@@ -3519,7 +3563,7 @@ msgstr ""
 "Si ja tens instal·lat {{ app_name }}, et recomanem que continues la creació "
 "del teu compte usant eixa app, polsa el boto:"
 
-#: priv/mod_invites/roster.html:13
+#: priv/mod_invites/roster.html:15
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
@@ -3527,11 +3571,11 @@ msgstr ""
 "Si encara no tens un client XMPP instal·lat, mira esta llista de clients "
 "disponibles per a la teva plataforma."
 
-#: priv/mod_invites/apps.json:98
+#: priv/mod_invites/apps.json:119
 msgid "Download from Mac App Store"
 msgstr "Descarrega de la Tenda d'Apps de Mac"
 
-#: priv/mod_invites/base.html:26
+#: priv/mod_invites/base.html:24
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
@@ -3539,17 +3583,7 @@ msgstr ""
 "Pots transferir esta invitació al teu mòbil si escanejes el codi amb la "
 "càmera de fotos."
 
-#: priv/mod_invites/invite.html:15
-msgid ""
-"You can connect to {{ site_name }} using any XMPP-compatible software. If "
-"your preferred software is not listed above, you may still <a "
-"href=\"{{ registration_url }}\">register an account manually</a>."
-msgstr ""
-"Pots connectar-te a {{ site_name }} usant qualsevol programa compatible amb "
-"XMPP. Si el teu programa preferit no està en esta llista, pots <a "
-"href=\"{{ registration_url }}\">registrarte el teu compte manualment</a>."
-
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."

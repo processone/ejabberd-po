@@ -49,7 +49,7 @@ msgstr "Popis uzlu"
 msgid "A friendly name for the node"
 msgstr "Přívětivé jméno pro uzel"
 
-#: src/mod_muc_room.erl:2439
+#: src/mod_muc_room.erl:2440
 msgid "A password is required to enter this room"
 msgstr "Pro vstup do místnosti musíte zadat heslo"
 
@@ -66,11 +66,11 @@ msgstr "Přijmout"
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
+#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:346 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:723
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "Přístup byl zamítnut nastavením služby"
@@ -94,7 +94,7 @@ msgstr "Akce aplikovaná na uživatele"
 msgid "Add User"
 msgstr "Přidat uživatele"
 
-#: src/ejabberd_web_admin.erl:479
+#: src/ejabberd_web_admin.erl:480
 msgid "Administration"
 msgstr "Administrace"
 
@@ -102,7 +102,7 @@ msgstr "Administrace"
 msgid "Administration of "
 msgstr "Administrace "
 
-#: src/mod_muc_room.erl:3135
+#: src/mod_muc_room.erl:3136
 msgid "Administrator privileges required"
 msgstr "Potřebujete práva administrátora"
 
@@ -110,7 +110,7 @@ msgstr "Potřebujete práva administrátora"
 msgid "All Users"
 msgstr "Všichni uživatelé"
 
-#: src/ejabberd_web_admin.erl:997
+#: src/ejabberd_web_admin.erl:998
 msgid "All activity"
 msgstr "Všechny aktivity"
 
@@ -246,8 +246,8 @@ msgstr ". dubna"
 msgid "Arguments"
 msgstr "Oznámení"
 
-#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4699
-#: src/mod_muc_room.erl:5128
+#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4701
+#: src/mod_muc_room.erl:5130
 msgid "Assign a hat to a user"
 msgstr ""
 
@@ -291,7 +291,7 @@ msgstr "Zálohovat"
 msgid "Backup Management"
 msgstr "Správa zálohování"
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1172
 msgid "Backup of ~p"
 msgstr "Záloha ~p"
 
@@ -299,7 +299,7 @@ msgstr "Záloha ~p"
 msgid "Backup to File at "
 msgstr "Záloha do souboru na "
 
-#: src/ejabberd_web_admin.erl:1031
+#: src/ejabberd_web_admin.erl:1032
 msgid "Bad format"
 msgstr "Nesprávný formát"
 
@@ -347,7 +347,7 @@ msgstr "Změnit heslo uživatele"
 msgid "Changing password is not allowed"
 msgstr "Změna hesla není povolena"
 
-#: src/mod_muc_room.erl:3429
+#: src/mod_muc_room.erl:3431
 msgid "Changing role/affiliation is not allowed"
 msgstr "Změna role/příslušnosti není povolena"
 
@@ -423,7 +423,7 @@ msgstr ""
 msgid "Clustering"
 msgstr ""
 
-#: src/mod_muc_room.erl:4542 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4544 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "Příkazy"
@@ -438,7 +438,7 @@ msgstr "Místnost neexistuje"
 msgid "Configuration"
 msgstr "Konfigurace"
 
-#: src/mod_muc_room.erl:3877
+#: src/mod_muc_room.erl:3879
 msgid "Configuration of room ~s"
 msgstr "Konfigurace místnosti ~s"
 
@@ -456,12 +456,13 @@ msgstr ""
 msgid "Country"
 msgstr "Země"
 
-#: src/mod_invites.erl:501 src/mod_invites.erl:699
+#: src/mod_invites.erl:500 src/mod_invites.erl:698
+#: priv/mod_invites/client.html:2 priv/mod_invites/invite.html:2
 msgid "Create Account"
 msgstr ""
 
-#: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
-#: src/mod_muc_room.erl:5097
+#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4689
+#: src/mod_muc_room.erl:5099
 msgid "Create a Hat"
 msgstr ""
 
@@ -478,9 +479,9 @@ msgid "Database Tables Configuration at "
 msgstr "Konfigurace databázových tabulek "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
+#: src/mod_mam.erl:1284 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
 #: src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965 src/mod_pubsub.erl:4184
-#: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
+#: src/mod_carboncopy.erl:94 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
@@ -526,8 +527,8 @@ msgstr "Doručovat upozornění na události"
 msgid "Deliver payloads with event notifications"
 msgstr "Doručovat náklad s upozorněním na událost"
 
-#: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4691
-#: src/mod_muc_room.erl:5114
+#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4693
+#: src/mod_muc_room.erl:5116
 msgid "Destroy a Hat"
 msgstr ""
 
@@ -570,7 +571,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Upravit vlastnosti"
 
-#: src/mod_muc_room.erl:5473
+#: src/mod_muc_room.erl:5475
 msgid "Either approve or decline the voice request."
 msgstr "Povolit nebo odmítnout voice žádost."
 
@@ -640,15 +641,15 @@ msgstr "Erlang XMPP Server"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "Vyloučit Jabber ID z procesu CAPTCHA ověřování"
 
-#: src/ejabberd_web_admin.erl:1207
+#: src/ejabberd_web_admin.erl:1209
 msgid "Export all tables as SQL queries to a file:"
 msgstr "Zálohovat všechny tabulky jako SQL dotazy do souboru:"
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1202
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr "Exportovat všechny uživatele do souboru ve formátu PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1202
+#: src/ejabberd_web_admin.erl:1204
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr ""
 "Exportovat uživatele na hostiteli do souboru ve formátu PIEFXIS (XEP-0227):"
@@ -669,7 +670,7 @@ msgstr ""
 msgid "Failed to activate bytestream"
 msgstr "Chyba při aktivaci bytestreamu"
 
-#: src/mod_muc_room.erl:1314
+#: src/mod_muc_room.erl:1313
 msgid "Failed to extract JID from your voice request approval"
 msgstr "Došlo k chybě při získávání Jabber ID z vaší žádosti o voice práva"
 
@@ -681,7 +682,7 @@ msgstr "Chyba při mapování namespace pro externí komponentu"
 msgid "Failed to parse HTTP response"
 msgstr "Chyba parsování HTTP odpovědi"
 
-#: src/mod_muc_room.erl:4025
+#: src/mod_muc_room.erl:4027
 msgid "Failed to process option '~s'"
 msgstr "Chyba při zpracování možnosti '~s'"
 
@@ -819,34 +820,34 @@ msgstr ""
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
-#: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5101
-#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5182
+#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5103
+#: src/mod_muc_room.erl:5120 src/mod_muc_room.erl:5184
 msgid "Hat URI"
 msgstr ""
 
-#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5109
-#: src/mod_muc_room.erl:5186
+#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5111
+#: src/mod_muc_room.erl:5188
 #, fuzzy
 msgid "Hat hue"
 msgstr "Název místnosti"
 
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5105
-#: src/mod_muc_room.erl:5184
+#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5107
+#: src/mod_muc_room.erl:5186
 #, fuzzy
 msgid "Hat title"
 msgstr "Název místnosti"
 
-#: src/mod_muc_room.erl:5242
+#: src/mod_muc_room.erl:5244
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Byl překročen limit"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1065
+#: src/mod_invites.erl:1147
 msgid "Host unknown"
 msgstr "Neznámý hostitel"
 
-#: src/mod_invites.erl:1067
+#: src/mod_invites.erl:1149
 msgid "Hostname invalid"
 msgstr ""
 
@@ -883,15 +884,15 @@ msgstr "Importovat uživatele z jabberd14 spool souborů"
 msgid "Import Users from Dir at "
 msgstr "Importovat uživatele z adresáře na "
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1219
 msgid "Import user data from jabberd14 spool file:"
 msgstr "Importovat uživatele z jabberd14 spool souborů:"
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1200
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "Importovat uživatele ze souboru ve formátu PIEFXIS (XEP-0227):"
 
-#: src/ejabberd_web_admin.erl:1219
+#: src/ejabberd_web_admin.erl:1221
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "Importovat uživatele z jabberd14 spool souborů:"
 
@@ -903,23 +904,23 @@ msgstr "Nesprávná část s doménou atributu 'from'"
 msgid "Improper message type"
 msgstr "Nesprávný typ zprávy"
 
-#: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
+#: src/mod_muc_room.erl:4746 src/mod_register.erl:192
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:273
 msgid "Incorrect CAPTCHA submit"
 msgstr "Nesprávné odeslání CAPTCHA"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3752 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:257
+#: src/mod_invites_register.erl:269
 msgid "Incorrect data form"
 msgstr "Nesprávný datový formulář"
 
-#: src/mod_muc_room.erl:2489 src/mod_register_web.erl:594
+#: src/mod_muc_room.erl:2490 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "Nesprávné heslo"
 
-#: src/mod_muc_room.erl:5065 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5067 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "Nesprávná hodnota atributu 'action'"
 
@@ -933,11 +934,11 @@ msgstr "Nesprávná hodnota atributu 'action' v datovém formuláři"
 msgid "Incorrect value of 'path' in data form"
 msgstr "Nesprávná hodnota atributu 'path' v datovém formuláři"
 
-#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:306 src/ext_mod.erl:1306
 msgid "Install"
 msgstr ""
 
-#: src/ext_mod.erl:1381
+#: src/ext_mod.erl:1383
 msgid "Installed Modules:"
 msgstr "Instalované moduly:"
 
@@ -958,21 +959,21 @@ msgstr "Nesprávný atribut 'from' v přeposlané zprávě"
 msgid "Invalid 'previd' value"
 msgstr "Neplatná role: ~s"
 
-#: src/mod_muc_room.erl:4594
+#: src/mod_muc_room.erl:4596
 #, fuzzy
 msgid "Invalid node name"
 msgstr "Neplatná role: ~s"
 
-#: src/mod_muc_room.erl:5518
+#: src/mod_muc_room.erl:5520
 msgid "Invitations are not allowed in this conference"
 msgstr "Pozvánky nejsou povoleny v této místnosti"
 
-#: src/mod_invites.erl:497 src/mod_invites.erl:701
+#: src/mod_invites.erl:496 src/mod_invites.erl:700
 #, fuzzy
 msgid "Invite User"
 msgstr "Připojení uživatelé"
 
-#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
+#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1494
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -997,8 +998,8 @@ msgstr "Pravidla služby nepovolují vytvořit místnost"
 msgid "JID normalization failed"
 msgstr ""
 
-#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
-#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5134 src/mod_muc_room.erl:5152
+#: src/mod_muc_room.erl:5182 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -1034,7 +1035,7 @@ msgstr ". června"
 msgid "Just created"
 msgstr "Právě vytvořen"
 
-#: src/ejabberd_web_admin.erl:950
+#: src/ejabberd_web_admin.erl:951
 msgid "Last Activity"
 msgstr "Poslední aktivita"
 
@@ -1046,11 +1047,11 @@ msgstr "Poslední přihlášení"
 msgid "Last message"
 msgstr "Poslední zpráva"
 
-#: src/ejabberd_web_admin.erl:994
+#: src/ejabberd_web_admin.erl:995
 msgid "Last month"
 msgstr "Poslední měsíc"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:996
 msgid "Last year"
 msgstr "Poslední rok"
 
@@ -1059,19 +1060,19 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
 
-#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4695
-#: src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4697
+#: src/mod_muc_room.erl:5086
 #, fuzzy
 msgid "List of Hats"
 msgstr "Seznam hatů"
 
-#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4707
-#: src/mod_muc_room.erl:5177
+#: src/mod_muc_room.erl:4565 src/mod_muc_room.erl:4709
+#: src/mod_muc_room.erl:5179
 #, fuzzy
 msgid "List users with hats"
 msgstr "Procházet uživatele s haty"
 
-#: src/ejabberd_web_admin.erl:166
+#: src/ejabberd_web_admin.erl:167
 msgid "Logged Out"
 msgstr "Odhlášen"
 
@@ -1160,7 +1161,7 @@ msgstr "Maximální počet účastníků"
 msgid "Maximum file size"
 msgstr "Maximální velikost souboru"
 
-#: src/mod_invites.erl:1069
+#: src/mod_invites.erl:1151
 #, fuzzy
 msgid "Maximum number of invites reached"
 msgstr "Dosažen maximální počet pozvánek"
@@ -1179,7 +1180,7 @@ msgstr ". května"
 msgid "Members are allowed to invite others"
 msgstr "Členové mohou zvát ostatní"
 
-#: src/mod_muc_room.erl:2376
+#: src/mod_muc_room.erl:2377
 msgid "Membership is required to enter this room"
 msgstr "Pro vstup do místnosti musíte být členem"
 
@@ -1237,8 +1238,8 @@ msgstr "Minimální interval mezi žádostmi o voice práva (v sekundách)"
 msgid "Moderator"
 msgstr "Moderátor"
 
-#: src/mod_muc_room.erl:3143 src/mod_muc_room.erl:4798
-#: src/mod_muc_room.erl:4854 src/mod_muc_room.erl:4912
+#: src/mod_muc_room.erl:3144 src/mod_muc_room.erl:4800
+#: src/mod_muc_room.erl:4856 src/mod_muc_room.erl:4914
 msgid "Moderator privileges required"
 msgstr "Potřebujete práva moderátora"
 
@@ -1293,11 +1294,11 @@ msgstr "Výchozí jazyk pro diskuze v místnosti"
 msgid "Natural-Language Room Name"
 msgstr "Název místnosti v přirozeném jazyce"
 
-#: src/mod_muc_room.erl:3356
+#: src/mod_muc_room.erl:3358
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "Nebyl nalezen atribut 'jid' ani 'nick'"
 
-#: src/mod_muc_room.erl:3125 src/mod_muc_room.erl:3361
+#: src/mod_muc_room.erl:3126 src/mod_muc_room.erl:3363
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "Nebyl nalezen atribut 'role' ani 'affiliation'"
 
@@ -1323,21 +1324,21 @@ msgstr "Přezdívka"
 msgid "Nickname Registration at "
 msgstr "Registrace přezdívky na "
 
-#: src/mod_muc_room.erl:1444 src/mod_muc_room.erl:2397
-#: src/mod_muc_room.erl:4821
+#: src/mod_muc_room.erl:1443 src/mod_muc_room.erl:2398
+#: src/mod_muc_room.erl:4823
 #, fuzzy
 msgid "Nickname can't be empty"
 msgstr "Pole přezdívky nesmí být prázdné"
 
-#: src/mod_muc_room.erl:3373
+#: src/mod_muc_room.erl:3375
 msgid "Nickname ~s does not exist in the room"
 msgstr "Přezdívka ~s v místnosti neexistuje"
 
-#: src/mod_muc_room.erl:3773
+#: src/mod_muc_room.erl:3775
 msgid "No 'affiliation' attribute found"
 msgstr "Chybějící atribut 'affiliation'"
 
-#: src/mod_muc_room.erl:3107
+#: src/mod_muc_room.erl:3108
 msgid "No 'item' element found"
 msgstr "Element 'item' nebyl nalezen"
 
@@ -1355,7 +1356,7 @@ msgstr "Chybějící atribut 'password' v tomto dotazu"
 msgid "No 'path' found in data form"
 msgstr "Chybějící atribut 'path' v datovém formuláři"
 
-#: src/mod_muc_room.erl:5514
+#: src/mod_muc_room.erl:5516
 msgid "No 'to' attribute found in the invitation"
 msgstr "Chybějící atribut 'to' v pozvánce"
 
@@ -1386,7 +1387,7 @@ msgstr "Nebyl nalezen žádný dostupný zdroj"
 msgid "No body provided for announce message"
 msgstr "Zpráva neobsahuje text"
 
-#: src/mod_muc_room.erl:1338 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1337 src/gen_iq_handler.erl:89
 #, fuzzy
 msgid "No child elements found"
 msgstr "Žádné podřízené elementy nebyly nalezeny"
@@ -1411,7 +1412,7 @@ msgstr "Nebyla žádná informace o poslední aktivitě"
 msgid "No items found in this query"
 msgstr "Žádné položky nebyly nalezeny v tomto dotazu"
 
-#: src/mod_muc_room.erl:3895
+#: src/mod_muc_room.erl:3897
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "Bez limitu"
@@ -1484,16 +1485,16 @@ msgid "Node index not found"
 msgstr "Index uzlu nebyl nalezen"
 
 #: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
-#: src/mod_muc_room.erl:4544 src/mod_muc_room.erl:4578
-#: src/mod_muc_room.erl:4709 src/mod_muc_room.erl:4727
-#: src/mod_muc_room.erl:4731 src/mod_muc.erl:755 src/mod_muc.erl:1056
-#: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
+#: src/mod_muc_room.erl:4546 src/mod_muc_room.erl:4580
+#: src/mod_muc_room.erl:4711 src/mod_muc_room.erl:4729
+#: src/mod_muc_room.erl:4733 src/mod_muc.erl:755 src/mod_muc.erl:1056
+#: src/ejabberd_web_admin.erl:641 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "Uzel nenalezen"
 
-#: src/ejabberd_web_admin.erl:1147 src/ejabberd_web_admin.erl:1153
+#: src/ejabberd_web_admin.erl:1149 src/ejabberd_web_admin.erl:1155
 msgid "Node ~p"
 msgstr "Uzel ~p"
 
@@ -1501,7 +1502,7 @@ msgstr "Uzel ~p"
 msgid "Nodeprep has failed"
 msgstr "Nodeprep chyboval"
 
-#: src/ejabberd_web_admin.erl:1539 src/ejabberd_web_admin.erl:1562
+#: src/ejabberd_web_admin.erl:1541 src/ejabberd_web_admin.erl:1564
 msgid "Nodes"
 msgstr "Uzly"
 
@@ -1509,7 +1510,7 @@ msgstr "Uzly"
 msgid "None"
 msgstr "Nic"
 
-#: src/ejabberd_web_admin.erl:622
+#: src/ejabberd_web_admin.erl:623
 msgid "Not Found"
 msgstr "Nenalezeno"
 
@@ -1613,12 +1614,12 @@ msgstr "Současné heslo:"
 msgid "Online"
 msgstr "Online"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:599
-#: src/ejabberd_web_admin.erl:1536
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:600
+#: src/ejabberd_web_admin.erl:1538
 msgid "Online Users"
 msgstr "Připojení uživatelé"
 
-#: src/mod_carboncopy.erl:97
+#: src/mod_carboncopy.erl:98
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr "Pouze značky <enable/> nebo <disable/>jsou povoleny"
 
@@ -1652,16 +1653,16 @@ msgstr "Jen moderátoři a účastníci mají povoleno měnit téma této místn
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Jen moderátoři mají povoleno měnit téma místnosti"
 
-#: src/mod_muc_room.erl:5429
+#: src/mod_muc_room.erl:5431
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "Pouze moderátoři smí mazat zprávy"
 
-#: src/mod_muc_room.erl:1321
+#: src/mod_muc_room.erl:1320
 msgid "Only moderators can approve voice requests"
 msgstr "Pouze moderátoři mohou schválit žádosti o voice práva"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5585
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Pouze členové mají povolené zasílat zprávy do místnosti"
 
@@ -1702,7 +1703,7 @@ msgstr "Název organizace"
 msgid "Organization Unit"
 msgstr "Oddělení"
 
-#: src/ext_mod.erl:1385
+#: src/ext_mod.erl:1387
 msgid "Other Modules Available:"
 msgstr "Ostatní dostupné moduly:"
 
@@ -1713,8 +1714,8 @@ msgstr "Odchozí s2s spojení"
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
 #: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
-#: src/mod_muc_room.erl:3720 src/mod_muc_room.erl:3765
-#: src/mod_muc_room.erl:4774 src/mod_mix.erl:678
+#: src/mod_muc_room.erl:3722 src/mod_muc_room.erl:3767
+#: src/mod_muc_room.erl:4776 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "Jsou vyžadována práva vlastníka"
 
@@ -1737,7 +1738,8 @@ msgstr "ID účastníka"
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
-#: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
+#: priv/mod_invites/register.html:46 priv/mod_invites/register_success.html:70
+#: priv/mod_invites/register_success.html:67
 msgid "Password"
 msgstr "Heslo"
 
@@ -1766,7 +1768,7 @@ msgstr "Cesta k souboru"
 msgid "Payload semantic type information"
 msgstr ""
 
-#: src/ejabberd_web_admin.erl:981
+#: src/ejabberd_web_admin.erl:982
 msgid "Period: "
 msgstr "Čas: "
 
@@ -1788,7 +1790,7 @@ msgstr "Ping"
 msgid "Ping query is incorrect"
 msgstr "Ping dotaz je nesprávný"
 
-#: src/ejabberd_web_admin.erl:1172
+#: src/ejabberd_web_admin.erl:1174
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1937,8 +1939,8 @@ msgstr "Vzdálená kopie"
 msgid "Remove User"
 msgstr "Odstranit uživatele"
 
-#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4703
-#: src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:4564 src/mod_muc_room.erl:4705
+#: src/mod_muc_room.erl:5148
 #, fuzzy
 msgid "Remove a hat from a user"
 msgstr "Odstranit hat uživatele"
@@ -1980,18 +1982,18 @@ msgstr "Obnovit"
 msgid "Restore Backup from File at "
 msgstr "Obnovit zálohu ze souboru na "
 
-#: src/ejabberd_web_admin.erl:1185
+#: src/ejabberd_web_admin.erl:1187
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
 "Obnovit binární zálohu při následujícím restartu ejabberd (vyžaduje méně "
 "paměti):"
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1185
 msgid "Restore binary backup immediately:"
 msgstr "Okamžitě obnovit binární zálohu:"
 
-#: src/ejabberd_web_admin.erl:1193
+#: src/ejabberd_web_admin.erl:1195
 msgid "Restore plain text backup immediately:"
 msgstr "Okamžitě obnovit zálohu z textového souboru:"
 
@@ -2132,7 +2134,7 @@ msgstr ""
 msgid "Shared Roster Groups"
 msgstr "Skupiny pro sdílený seznam kontaktů"
 
-#: src/ejabberd_web_admin.erl:1003
+#: src/ejabberd_web_admin.erl:1004
 msgid "Show Integral Table"
 msgstr "Zobrazit kompletní tabulku"
 
@@ -2141,7 +2143,7 @@ msgstr "Zobrazit kompletní tabulku"
 msgid "Show Occupants Join/Leave"
 msgstr "Zobrazit připojení/odpojení uživatelů"
 
-#: src/ejabberd_web_admin.erl:1000
+#: src/ejabberd_web_admin.erl:1001
 msgid "Show Ordinary Table"
 msgstr "Zobrazit běžnou tabulku"
 
@@ -2160,7 +2162,7 @@ msgstr ""
 "Někteří klienti umí uložit vaše heslo na disk počítače. Tuto funkci "
 "používejte, pouze pokud věříte zabezpečení svého počítače."
 
-#: src/ext_mod.erl:1374
+#: src/ext_mod.erl:1376
 msgid "Sources Specs:"
 msgstr ""
 
@@ -2184,7 +2186,7 @@ msgstr "Specifikovat model pro publikování"
 msgid "Stanza ID"
 msgstr "Stanza ID"
 
-#: src/mod_muc_room.erl:5462
+#: src/mod_muc_room.erl:5464
 #, fuzzy
 msgid "Stanza id is not valid"
 msgstr "Stanza ID je neplatné"
@@ -2198,11 +2200,11 @@ msgstr ""
 msgid "Stopped Nodes"
 msgstr "Zastavené uzly"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1183
 msgid "Store binary backup:"
 msgstr "Uložit binární zálohu:"
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1193
 msgid "Store plain text backup:"
 msgstr "Uložit zálohu do textového souboru:"
 
@@ -2221,7 +2223,7 @@ msgstr "Stream management není povolen"
 msgid "Subject"
 msgstr "Předmět"
 
-#: src/ejabberd_web_admin.erl:1030 src/ext_mod.erl:1124
+#: src/ejabberd_web_admin.erl:1031 src/ext_mod.erl:1125
 msgid "Submitted"
 msgstr "Odeslané"
 
@@ -2247,7 +2249,7 @@ msgstr ""
 "Požadavky na odběr musí být schváleny a pouze odběratelé mohou dostávat "
 "položky"
 
-#: src/mod_muc_room.erl:4785
+#: src/mod_muc_room.erl:4787
 msgid "Subscriptions are not allowed"
 msgstr "Předplatné není povoleno"
 
@@ -2275,13 +2277,13 @@ msgstr "Text spojený s videem"
 msgid "Text associated with speech"
 msgstr "Text spojený s hlasem"
 
-#: src/mod_muc_room.erl:1435 src/mod_muc_room.erl:2386
-#: src/mod_muc_room.erl:4811
+#: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2387
+#: src/mod_muc_room.erl:4813
 msgid "That nickname is already in use by another occupant"
 msgstr "Přezdívka je již používána jiným členem"
 
-#: src/mod_muc_room.erl:1447 src/mod_muc_room.erl:2400
-#: src/mod_muc_room.erl:4825 src/mod_muc.erl:1174
+#: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2401
+#: src/mod_muc_room.erl:4827 src/mod_muc.erl:1174
 msgid "That nickname is registered by another person"
 msgstr "Přezdívka je zaregistrována jinou osobou"
 
@@ -2289,9 +2291,9 @@ msgstr "Přezdívka je zaregistrována jinou osobou"
 msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA souhlasí."
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4749 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:264
+#: src/mod_invites_register.erl:276
 msgid "The CAPTCHA verification has failed"
 msgstr "Ověření CAPTCHA se nezdařilo"
 
@@ -2489,7 +2491,7 @@ msgstr "Dotaz je povolen pouze pro místní uživatele"
 msgid "The query must not contain <item/> elements"
 msgstr "Dotaz nesmí obsahovat elementy <item/>"
 
-#: src/mod_muc_room.erl:5136 src/mod_muc_room.erl:5154
+#: src/mod_muc_room.erl:5138 src/mod_muc_room.erl:5156
 msgid "The role"
 msgstr "Role"
 
@@ -2522,7 +2524,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "Identifikátor odběru připojený k žádosti o odběr"
 
-#: src/mod_invites_register.erl:209
+#: src/mod_invites_register.erl:221
 #, fuzzy
 msgid "The token provided is either invalid or expired."
 msgstr "Zadaný token je buď neplatný, nebo jeho platnost vypršela."
@@ -2604,7 +2606,7 @@ msgstr ""
 "Příliš mnoho (~p) chybných pokusů o přihlášení z této IP adresy (~s). Adresa "
 "bude zablokována do ~s UTC"
 
-#: src/mod_muc_room.erl:3112 src/mod_muc_room.erl:3779
+#: src/mod_muc_room.erl:3113 src/mod_muc_room.erl:3781
 msgid "Too many <item/> elements"
 msgstr "Příliš mnoho elementů <item/>"
 
@@ -2612,7 +2614,7 @@ msgstr "Příliš mnoho elementů <item/>"
 msgid "Too many <list/> elements"
 msgstr "Přilíš mnoho elementů <list/>"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
+#: src/mod_muc_room.erl:2471 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Přiliš mnoho CAPTCHA žádostí"
@@ -2621,7 +2623,7 @@ msgstr "Přiliš mnoho CAPTCHA žádostí"
 msgid "Too many active bytestreams"
 msgstr "Příliš mnoho aktivních bytestreamů"
 
-#: src/mod_muc_room.erl:1340 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:90
 #, fuzzy
 msgid "Too many child elements"
 msgstr "Příliš mnoho elementů <item/>"
@@ -2635,7 +2637,7 @@ msgstr "Bylo zadáno příliš mnoho polí příjemce"
 msgid "Too many unacked stanzas"
 msgstr "Příliš mnoho nepotvrzených stanz"
 
-#: src/mod_muc_room.erl:2345
+#: src/mod_muc_room.erl:2346
 msgid "Too many users in this conference"
 msgstr "Přiliš mnoho uživatelů v této místnosti"
 
@@ -2651,7 +2653,7 @@ msgstr "Úterý"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
+#: src/mod_muc_room.erl:2480 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Nebylo možné vygenerovat CAPTCHA"
@@ -2660,7 +2662,7 @@ msgstr "Nebylo možné vygenerovat CAPTCHA"
 msgid "Unable to register route on existing local domain"
 msgstr "Není možné zaregistrovat routu na existující místní doménu"
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:234
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:235
 msgid "Unauthorized"
 msgstr "Nemáte oprávnění"
 
@@ -2674,7 +2676,7 @@ msgstr "Neočekávaná akce"
 msgid "Unexpected error condition: ~p"
 msgstr "Neočekávaný chybový stav: ~p"
 
-#: src/ext_mod.erl:1287
+#: src/ext_mod.erl:1288
 #, fuzzy
 msgid "Uninstall"
 msgstr "Odinstalovat"
@@ -2698,7 +2700,7 @@ msgstr "Nepodporovaný <index/> element"
 msgid "Unsupported version"
 msgstr "Nepodporovaná verze"
 
-#: src/ext_mod.erl:1379
+#: src/ext_mod.erl:1381
 #, fuzzy
 msgid "Update Specs"
 msgstr "Aktualizovat ~p"
@@ -2711,7 +2713,7 @@ msgstr "Aktualizovat zprávu dne (neodesílat)"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "Aktualizovat zprávu dne pro všechny hostitele (neodesílat)"
 
-#: src/ext_mod.erl:1369
+#: src/ext_mod.erl:1371
 msgid "Update specs to get modules source, then install desired ones."
 msgstr ""
 
@@ -2720,7 +2722,7 @@ msgstr ""
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr "Aktualizace vCard není podporována backendem pro ukládání vCard"
 
-#: src/ext_mod.erl:1290
+#: src/ext_mod.erl:1291
 #, fuzzy
 msgid "Upgrade"
 msgstr "Povýšit"
@@ -2743,7 +2745,7 @@ msgstr "Jabber ID uživatele"
 msgid "User Management"
 msgstr "Správa uživatelů"
 
-#: src/mod_register.erl:408 src/mod_invites.erl:1073
+#: src/mod_register.erl:408 src/mod_invites.erl:1155
 msgid "User already exists"
 msgstr "Uživatel již existuje"
 
@@ -2763,17 +2765,17 @@ msgstr "Sezení uživatele nebylo nalezeno"
 msgid "User session terminated"
 msgstr "Sezení uživatele bylo ukončeno"
 
-#: src/ejabberd_web_admin.erl:1026
+#: src/ejabberd_web_admin.erl:1027
 #, fuzzy
 msgid "User ~ts"
 msgstr "Uživatel ~ts"
 
-#: src/mod_invites.erl:1063
+#: src/mod_invites.erl:1145
 #, fuzzy
 msgid "Username invalid"
 msgstr "Neplatné uživatelské jméno"
 
-#: src/mod_invites.erl:1071
+#: src/mod_invites.erl:1153
 #, fuzzy
 msgid "Username is reserved"
 msgstr "Uživatelské jméno je rezervováno"
@@ -2783,12 +2785,12 @@ msgstr "Uživatelské jméno je rezervováno"
 msgid "Username:"
 msgstr "Uživatelské jméno:"
 
-#: src/ejabberd_web_admin.erl:571 src/ejabberd_web_admin.erl:579
-#: src/ejabberd_web_admin.erl:585 src/ejabberd_web_admin.erl:1535
+#: src/ejabberd_web_admin.erl:572 src/ejabberd_web_admin.erl:580
+#: src/ejabberd_web_admin.erl:586 src/ejabberd_web_admin.erl:1537
 msgid "Users"
 msgstr "Uživatelé"
 
-#: src/ejabberd_web_admin.erl:608
+#: src/ejabberd_web_admin.erl:609
 msgid "Users Last Activity"
 msgstr "Poslední aktivita uživatele"
 
@@ -2796,14 +2798,14 @@ msgstr "Poslední aktivita uživatele"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Je zakázáno registrovat účty v tak rychlém sledu"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4737 src/mod_muc_room.erl:4916
-#: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4739 src/mod_muc_room.erl:4918
+#: src/mod_carboncopy.erl:101 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "Hodnota 'get' atrubutu 'type' není povolena"
 
 #: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4521
-#: src/mod_muc_room.erl:4657 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4523
+#: src/mod_muc_room.erl:4659 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
 #: src/mod_muc.erl:682 src/mod_muc.erl:720 src/mod_muc.erl:762
 #: src/mod_muc.erl:782 src/mod_muc.erl:792 src/mod_disco.erl:101
@@ -2834,7 +2836,7 @@ msgstr "Hodnota '~s' by měla být celé číslo"
 msgid "View joined MIX channels"
 msgstr "Zobrazit připojené MIX kanály"
 
-#: src/ejabberd_web_admin.erl:556 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:557 src/ejabberd_web_admin.erl:1563
 msgid "Virtual Hosts"
 msgstr "Virtuální hostitelé"
 
@@ -2842,7 +2844,7 @@ msgstr "Virtuální hostitelé"
 msgid "Visitor"
 msgstr "Návštěvník"
 
-#: src/mod_muc_room.erl:1428
+#: src/mod_muc_room.erl:1427
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "Návštěvníkům této místnosti je zakázáno měnit přezdívku"
 
@@ -2851,7 +2853,7 @@ msgid "Visitors are not allowed to send messages to all occupants"
 msgstr ""
 "Návštevníci nemají povoleno zasílat zprávy všem účastníkům v této místnosti"
 
-#: src/mod_muc_room.erl:5471
+#: src/mod_muc_room.erl:5473
 msgid "Voice request"
 msgstr "Žádost o voice práva"
 
@@ -2961,7 +2963,7 @@ msgstr "Chybné xmlns"
 msgid "XMPP Account Registration"
 msgstr "Registrace účtu XMPP"
 
-#: src/ejabberd_web_admin.erl:558
+#: src/ejabberd_web_admin.erl:559
 msgid "XMPP Domains"
 msgstr "XMPP domény"
 
@@ -3005,11 +3007,11 @@ msgstr "Nejste připojeni ke kanálu"
 msgid "You can later change your password using an XMPP client."
 msgstr "Později můžete své heslo změnit pomocí klienta XMPP."
 
-#: src/mod_muc_room.erl:2373 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2374 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "Byl jste vyloučen z této místnosti"
 
-#: src/mod_muc_room.erl:2354
+#: src/mod_muc_room.erl:2355
 msgid "You have joined too many conferences"
 msgstr "Vstoupili jste do příliš velkého množství místností"
 
@@ -3083,7 +3085,7 @@ msgstr "ejabberd Publish-Subscribe modul"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "ejabberd SOCKS5 Bytestreams modul"
 
-#: src/ejabberd_web_admin.erl:318
+#: src/ejabberd_web_admin.erl:319
 msgid "ejabberd Web Admin"
 msgstr "Webová administrace ejabberd"
 
@@ -3123,11 +3125,11 @@ msgstr "vstoupil(a) do místnosti"
 msgid "leaves the room"
 msgstr "opustil(a) místnost"
 
-#: src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:4973
 msgid "private, "
 msgstr "soukromá, "
 
-#: src/mod_muc_room.erl:5547
+#: src/mod_muc_room.erl:5549
 msgid "the password is"
 msgstr "heslo je"
 
@@ -3135,12 +3137,12 @@ msgstr "heslo je"
 msgid "vCard User Search"
 msgstr "Hledání uživatelů ve vizitkách"
 
-#: src/mod_muc_room.erl:5540
+#: src/mod_muc_room.erl:5542
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s vás zve do místnosti ~s"
 
-#: src/mod_mam.erl:1748
+#: src/mod_mam.erl:1747
 #, fuzzy
 msgid "~ts's MAM Archive"
 msgstr "~ts's archiv MAM"
@@ -3154,62 +3156,56 @@ msgstr "Fronta offline zpráv uživatele ~s"
 msgid "Join {{ site_name }} with {{ app_name }}"
 msgstr ""
 
-#: priv/mod_invites/invite_invalid.html:8
+#: priv/mod_invites/invite_invalid.html:9
 msgid "Sad person holding empty box"
 msgstr "Smutný člověk držící prázdnou krabici"
 
-#: priv/mod_invites/apps.json:84
+#: priv/mod_invites/apps.json:105
 msgid "Siskin IM Logo"
 msgstr ""
 
-#: priv/mod_invites/apps.html:25
-#, fuzzy
-msgid ""
-"Showing apps for <span class='platform-name'>your current platform</span> "
-"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
-"a>"
-msgstr ""
-"Zobrazují se pouze aplikace pro <span class='platform-name'>vaši současnou "
-"platformu</span> . Zde můžete <a href='#' id='show-all-clients-button'>"
-"zobrazit všechny aplikace.</a>"
-
-#: priv/mod_invites/apps.json:140
+#: priv/mod_invites/apps.json:161
 msgid "Download Gajim"
 msgstr "Stahnout Gajim"
 
-#: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
+#: priv/mod_invites/client.html:68 priv/mod_invites/client.html:66
+#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
 msgid "Previous"
 msgstr "Předchozí"
 
-#: priv/mod_invites/invite_invalid.html:6
+#: priv/mod_invites/invite_invalid.html:7
 msgid "Sorry, it looks like this invite code has expired!"
 msgstr "Je nám líto, ale zdá se, že platnost pozvánky vypršela!"
 
-#: priv/mod_invites/apps.json:7
+#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:7
 msgid "Google Play Store Logo"
 msgstr ""
 
-#: priv/mod_invites/client.html:50
+#: priv/mod_invites/client.html:53
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
-"Po úspěšné instalaci {{ app_name }} se vraťte na tuto stránku a <strong>"
-"pokračujte krokem 2</strong>."
+"Po úspěšné instalaci {{ app_name }} se vraťte na tuto stránku a "
+"<strong>pokračujte krokem 2</strong>."
 
-#: priv/mod_invites/register.html:29
+#: priv/mod_invites/register.html:28
 #, fuzzy
 msgid "Username"
 msgstr "Uživatelské jméno:"
 
-#: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:32
 msgid "Download and install {{ app_name }} below:"
 msgstr "Stáhněte a nainstalujte {{ app_name }}:"
 
-#: priv/mod_invites/apps.json:154
+#: priv/mod_invites/apps.json:175
 msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr "Plně funkční desktopový chatovací klient pro Windows a Linux."
+
+#: priv/mod_invites/register_success.html:3
+#, fuzzy
+msgid "Registration Success"
+msgstr "Chyba při registraci"
 
 #: priv/mod_invites/roster.html:8
 #, fuzzy
@@ -3221,22 +3217,27 @@ msgstr ""
 "Toto je pozvánka od <strong>{{ inviter }}</strong> k připojení a chatování "
 "na síti XMPP. Pokud už máte nainstalovaného XMPP klienta, stikněte tlačítko!"
 
-#: priv/mod_invites/register.html:19
+#: priv/mod_invites/register.html:18
 #, fuzzy
 msgid "Open the app"
 msgstr "Otevřít aplikaci"
 
-#: priv/mod_invites/register_success.html:26
+#: priv/mod_invites/register_success.html:8
 #, fuzzy
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
 msgstr "Vytvořili jste účet na <strong>{{ site_name }}</strong>."
 
-#: priv/mod_invites/register.html:4
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
 #, fuzzy
 msgid "Registration Error"
 msgstr "Chyba při registraci"
 
-#: priv/mod_invites/apps.json:167
+#: priv/mod_invites/invite_invalid.html:2
+#, fuzzy
+msgid "Invite Expired"
+msgstr "Platnost pozvánky vypršela"
+
+#: priv/mod_invites/apps.json:188
 msgid "Renga Logo"
 msgstr ""
 
@@ -3246,16 +3247,16 @@ msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "{{ site_name }}, part of the XMPP secure and decentralized messaging network."
 msgstr ""
-"Byli jste pozváni do chatu s <strong>{{ inviter }}</strong> na serveru {{ "
-"site_name }}, který je součástí bezpečné a decentralizované chatovací sítě "
-"XMPP."
+"Byli jste pozváni do chatu s <strong>{{ inviter }}</strong> na serveru "
+"{{ site_name }}, který je součástí bezpečné a decentralizované chatovací "
+"sítě XMPP."
 
 #: priv/mod_invites/register_error.html:4
 #, fuzzy
 msgid "Registration error"
 msgstr "Chyba při registraci"
 
-#: priv/mod_invites/register_success.html:69
+#: priv/mod_invites/register_success.html:51
 msgid "Step 2: Connect {{ app_name }} to your new account"
 msgstr "Step 2: Připojte se pomocí {{ app_name }} k Vašemu novému účtu"
 
@@ -3268,18 +3269,18 @@ msgstr ""
 "Byli jste pozváni do chatu na serveru <strong>{{ site_name }}</strong>, "
 "který je součástí bezpečné a decentralizované chatovací sítě XMPP."
 
-#: priv/mod_invites/register_success.html:74
+#: priv/mod_invites/register_success.html:56
 msgid "As a final reminder, your account details are shown below:"
 msgstr "Pro připomenutí, níže jsou uvedeny údaje o vašem účtu:"
 
-#: priv/mod_invites/client.html:12
+#: priv/mod_invites/client.html:14
 #, fuzzy
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
 msgstr ""
 "Můžete rovnou začít chatovat pomocí aplikace {{ app_name }}. Tak jdeme na to!"
 
-#: priv/mod_invites/client.html:54
+#: priv/mod_invites/client.html:57
 #, fuzzy
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
@@ -3293,7 +3294,7 @@ msgstr ""
 msgid "Get started"
 msgstr "Začít"
 
-#: priv/mod_invites/register_success.html:24
+#: priv/mod_invites/register_success.html:6
 #, fuzzy
 msgid "Congratulations!"
 msgstr "Gratulujeme!"
@@ -3302,14 +3303,14 @@ msgstr "Gratulujeme!"
 msgid "Scan with mobile device"
 msgstr "Skenovat pomocí mobilního zařízení"
 
-#: priv/mod_invites/register_success.html:46
+#: priv/mod_invites/register_success.html:28
 #, fuzzy
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr ""
 "Můžete si nainstalovat aplikaci {{ app_name }} a připojit ji ke svému novému "
 "účtu."
 
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 #, fuzzy
 msgid ""
 "Creating an account will allow to communicate with <strong>{{ inviter }}</"
@@ -3320,11 +3321,11 @@ msgstr ""
 "dalšími lidmi na serveru <strong>{{ site_name }}</strong> nebo jiných "
 "serverech v síti XMPP."
 
-#: priv/mod_invites/register_success.html:13
+#: priv/mod_invites/register_success.html:73
 msgid "Hide"
 msgstr "Skrýt"
 
-#: priv/mod_invites/client.html:60
+#: priv/mod_invites/client.html:63
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
@@ -3342,7 +3343,7 @@ msgstr "Přidat {{ inviter }} do seznamu kontaktů"
 msgid "To get started, you need to install an app for your platform:"
 msgstr "Začněte nainstalováním aplikace pro Vaši platformu:"
 
-#: priv/mod_invites/apps.json:91
+#: priv/mod_invites/apps.json:112
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
@@ -3350,11 +3351,11 @@ msgstr ""
 "Lehký a výkonný XMPP klient pro iPhone a iPad. Nabízí snadný způsob, jak "
 "komunikovat a sdílet okamžiky s přáteli."
 
-#: priv/mod_invites/register_success.html:48
+#: priv/mod_invites/register_success.html:30
 msgid "Step 1: Download and install {{ app_name }}"
 msgstr "Krok 1: Stáhněte si a nainstalujte {{ app_name }}"
 
-#: priv/mod_invites/apps.json:111
+#: priv/mod_invites/apps.json:132
 #, fuzzy
 msgid ""
 "Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
@@ -3364,14 +3365,14 @@ msgstr ""
 "Klikněte na tlačítko \\'+\\' pod prázdným seznamem účtů a poté zadejte své "
 "přihlašovací údaje."
 
-#: priv/mod_invites/base.html:28
+#: priv/mod_invites/base.html:26
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
 "Naskenujte kód níže pomocí skeneru <em>QR kódů</em> na Vašem mobilním "
 "zařízení:"
 
-#: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
+#: priv/mod_invites/base_min.html:17
 #, fuzzy
 msgid "Invite to {{ site_name }}"
 msgstr "Pozvat na {{ site_name }}"
@@ -3381,12 +3382,24 @@ msgstr "Pozvat na {{ site_name }}"
 msgid "Other software"
 msgstr "Další software"
 
-#: priv/mod_invites/register.html:25
+#: priv/mod_invites/register.html:24
 #, fuzzy
 msgid "Create an account"
 msgstr "Zrušte registraci účtu XMPP"
 
-#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
+#: priv/mod_invites/invite.html:15
+#, fuzzy
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>register an account "
+"manually</a>."
+msgstr ""
+"K serveru {{ site_name }} se můžete připojit pomocí jakéhokoli softwaru "
+"kompatibilního s XMPP. Pokud Vaše oblíbená aplikace není na seznamu, můžete "
+"si také účet <a href=\"{{ registration_url }}\">registrovat ručně</a>."
+
+#: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
 msgid "Apple Store Logo"
 msgstr ""
@@ -3395,19 +3408,19 @@ msgstr ""
 msgid "Add Contact"
 msgstr "Přidat kontakt"
 
-#: priv/mod_invites/apps.json:127
+#: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
 msgstr ""
 
-#: priv/mod_invites/register_success.html:78
+#: priv/mod_invites/register_success.html:60
 msgid "Chat address (JID)"
 msgstr ""
 
-#: priv/mod_invites/apps.json:104
+#: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
 msgstr ""
 
-#: priv/mod_invites/base.html:33
+#: priv/mod_invites/base.html:31
 msgid "Close"
 msgstr "Zavřít"
 
@@ -3420,12 +3433,12 @@ msgstr ""
 "Conversations je klient Jabber/XMPP pro přístroje s Androidem 6.0+, který "
 "byl optimalizován k poskytnutí jedinečného mobilního zážitku."
 
-#: priv/mod_invites/register.html:17
+#: priv/mod_invites/register.html:16
 #, fuzzy
 msgid "{{ app_name }} already installed?"
 msgstr "Je již {{ app_name }} nainstalován?"
 
-#: priv/mod_invites/register_success.html:35
+#: priv/mod_invites/register_success.html:17
 #, fuzzy
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
@@ -3434,13 +3447,18 @@ msgstr ""
 "<strong>Nemáte momentálně nainstalovaný vhodný software?</strong> Můžete se "
 "také přihlásit ke svému účtu prostřednictvím našeho online webového chatu!"
 
-#: priv/mod_invites/register.html:20
+#: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
 msgstr ""
 "Toto tlačítko funguje pouze v případě, že máte nainstalovanou vhodnou "
 "aplikaci!"
 
-#: priv/mod_invites/apps.json:133
+#: priv/mod_invites/register.html:3
+#, fuzzy
+msgid "Registration Form"
+msgstr "Chyba při registraci"
+
+#: priv/mod_invites/apps.json:154
 #, fuzzy
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
@@ -3449,6 +3467,12 @@ msgstr ""
 "Moderní open-source chatovací klient pro desktop. Zaměřuje se na poskytování "
 "čistého a spolehlivého dojmu z používání Jabberu/XMPP s ohledem na vaše "
 "soukromí."
+
+#: priv/mod_invites/apps.json:91
+msgid ""
+"A lean Jabber/XMPP client for Android. It aims at usability, low overhead "
+"and security, and works on low-end Android devices starting with Android 4.0."
+msgstr ""
 
 #: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
@@ -3470,7 +3494,7 @@ msgstr ""
 "Moderní chatovací klient s otevřeným zdrojovým kódem pro Mac. Snadno se "
 "používá a má čisté uživatelské rozhraní."
 
-#: priv/mod_invites/register_success.html:71
+#: priv/mod_invites/register_success.html:53
 msgid "Launch {{ app_name }} and sign in using your account credentials."
 msgstr ""
 "Spusťte {{ app_name }} a přihlaste se pomocí Vašich přihlašovacích údajů."
@@ -3492,11 +3516,11 @@ msgstr ""
 msgid "Send this invite to your device"
 msgstr "Zaslat tuto pozvánku na Vaše zařízení"
 
-#: priv/mod_invites/client.html:52
+#: priv/mod_invites/client.html:55
 msgid "Step 2: Activate your account"
 msgstr "Krok 2: Aktivujte svůj účet"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
@@ -3511,27 +3535,26 @@ msgstr ""
 msgid "{{ inviter }} has invited you to connect!"
 msgstr "{{ inviter }} Vás pozval k připojení!"
 
-#: priv/mod_invites/apps.json:120
+#: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
 msgstr "Stáhnout Dino pro Linux"
 
-#: priv/mod_invites/client.html:57
+#: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
 msgstr "Přijmout pozvánku pomocí {{ app_name }}"
 
-#: priv/mod_invites/apps.json:113
+#: priv/mod_invites/apps.json:134
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
 msgstr "Beagle IM od Tigase, Inc. je lehký a výkonný klient pro macOS."
 
-#: priv/mod_invites/register_success.html:90
-#: priv/mod_invites/register_success.html:17
+#: priv/mod_invites/register_success.html:73
 #, fuzzy
 msgid "Show"
 msgstr "Ukázat"
 
-#: priv/mod_invites/register.html:55
+#: priv/mod_invites/register.html:54
 msgid "Enter a secure password that you do not use anywhere else."
 msgstr "Zadejte bezpečné heslo, které nikde jinde nepoužíváte."
 
@@ -3548,9 +3571,14 @@ msgstr ""
 "<strong>Tip:</strong> Tuto pozvánku můžete otevřít na svém mobilním zařízení "
 "naskenováním kódu fotoaparátem."
 
-#: priv/mod_invites/apps.json:161
+#: priv/mod_invites/apps.json:182
 msgid "Download Renga for Haiku"
 msgstr "Stáhnout Renga pro Haiku"
+
+#: priv/mod_invites/base_min.html:6
+#, fuzzy
+msgid "Invite"
+msgstr "Připojení uživatelé"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3566,11 +3594,11 @@ msgstr ""
 msgid "Monal Logo"
 msgstr ""
 
-#: priv/mod_invites/invite_invalid.html:4
+#: priv/mod_invites/invite_invalid.html:5
 msgid "Invite expired"
 msgstr "Platnost pozvánky vypršela"
 
-#: priv/mod_invites/register.html:62
+#: priv/mod_invites/register.html:61
 msgid "Submit"
 msgstr "Odeslat"
 
@@ -3578,7 +3606,7 @@ msgstr "Odeslat"
 msgid "Select"
 msgstr "Vybrat"
 
-#: priv/mod_invites/register.html:43
+#: priv/mod_invites/register.html:42
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
@@ -3588,16 +3616,16 @@ msgstr ""
 msgid "Scan invite code"
 msgstr "Naskenovat kód pozvánky"
 
-#: priv/mod_invites/apps.json:173
+#: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "XMPP klient pro Haiku"
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
+#: priv/mod_invites/client.html:64 priv/mod_invites/register.html:64
 #, fuzzy
 msgid "Page navigation"
 msgstr "Navigace na stránce"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 #, fuzzy
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
@@ -3607,12 +3635,12 @@ msgstr ""
 "decentralizované sítě pro zasílání zpráv. Abyste mohli začít chatovat, "
 "nejprve se registrujte."
 
-#: priv/mod_invites/register_success.html:38
+#: priv/mod_invites/register_success.html:20
 #, fuzzy
 msgid "Log in via web"
 msgstr "Přihlásit se pomocí webu"
 
-#: priv/mod_invites/register_success.html:99
+#: priv/mod_invites/register_success.html:82
 msgid ""
 "Your password is stored encrypted on the server and will not be accessible "
 "after you close this page. Keep it safe and never share it with anyone."
@@ -3620,7 +3648,7 @@ msgstr ""
 "Vaše heslo je zašifrováno a uloženo na serveru a až zavřete tuto stránku, "
 "nebude již dostupné. Uložte si ho do bezpečí a nikdy ho s nikým nesdílejte."
 
-#: priv/mod_invites/register_success.html:28
+#: priv/mod_invites/register_success.html:10
 #, fuzzy
 msgid ""
 "To start chatting, you need to enter your new account credentials into your "
@@ -3629,11 +3657,11 @@ msgstr ""
 "Abyste mohli začít chatovat, zadejte své přihlašovací údaje do zvoleného "
 "XMPP klienta."
 
-#: priv/mod_invites/apps.json:146
+#: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
 msgstr ""
 
-#: priv/mod_invites/register.html:53
+#: priv/mod_invites/register.html:52
 msgid "Please provide a password! Minimum length: {{ password_min_length }}"
 msgstr "Prosím vyplňte heslo! Minimální délka hesla: {{ password_min_length }}"
 
@@ -3641,11 +3669,11 @@ msgstr "Prosím vyplňte heslo! Minimální délka hesla: {{ password_min_length
 msgid "Conversations Logo"
 msgstr ""
 
-#: priv/mod_invites/client.html:31
+#: priv/mod_invites/client.html:34
 msgid "Step 1: Install {{ app_name }}"
 msgstr "Krok 1: Instalace {{ app_name }}"
 
-#: priv/mod_invites/apps.json:124
+#: priv/mod_invites/apps.json:145
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
@@ -3653,11 +3681,26 @@ msgstr ""
 "Kliknutím na tlačítko se otevře webová stránka, odkud si můžete stáhnout "
 "aplikaci Dino a nainstalovat ji na svůj počítač."
 
-#: priv/mod_invites/register.html:40
+#: priv/mod_invites/register.html:39
 msgid "Please provide a valid username!"
 msgstr "Prosím, zadejte platné uživatelské jméno!"
 
-#: priv/mod_invites/register.html:16
+#: priv/mod_invites/roster.html:15
+msgid "Hint"
+msgstr ""
+
+#: priv/mod_invites/apps.html:25
+#, fuzzy
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button' "
+"tabindex=\"{{ tabidx }}\">view all apps.</a>"
+msgstr ""
+"Zobrazují se pouze aplikace pro <span class='platform-name'>vaši současnou "
+"platformu</span> . Zde můžete <a href='#' id='show-all-clients-"
+"button'>zobrazit všechny aplikace.</a>"
+
+#: priv/mod_invites/register.html:15
 #, fuzzy
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
@@ -3666,7 +3709,7 @@ msgstr ""
 "Pokud máte aplikaci {{ app_name }} již nainstalovanou, doporučujeme "
 "pokračovat ve vytvoření účtu přímo v aplikaci kliknutím na tlačítko níže:"
 
-#: priv/mod_invites/roster.html:13
+#: priv/mod_invites/roster.html:15
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
@@ -3674,12 +3717,12 @@ msgstr ""
 "Pokud ještě nemáte nainstalovaného klienta XMPP, zde je seznam vhodných "
 "klientů pro vaši platformu."
 
-#: priv/mod_invites/apps.json:98
+#: priv/mod_invites/apps.json:119
 #, fuzzy
 msgid "Download from Mac App Store"
 msgstr "Stáhnout z App Storu"
 
-#: priv/mod_invites/base.html:26
+#: priv/mod_invites/base.html:24
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
@@ -3687,24 +3730,13 @@ msgstr ""
 "Tuto pozvánku můžete přenést do svého mobilního zařízení naskenováním kódu "
 "pomocí fotoaparátu."
 
-#: priv/mod_invites/invite.html:15
-#, fuzzy
-msgid ""
-"You can connect to {{ site_name }} using any XMPP-compatible software. If "
-"your preferred software is not listed above, you may still <a "
-"href=\"{{ registration_url }}\">register an account manually</a>."
-msgstr ""
-"K serveru {{ site_name }} se můžete připojit pomocí jakéhokoli softwaru "
-"kompatibilního s XMPP. Pokud Vaše oblíbená aplikace není na seznamu, můžete "
-"si také účet <a href=\"{{ registration_url }}\">registrovat ručně</a>."
-
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
 msgstr ""
-"Vytvořením účtu budete moci komunikovat s ostatními lidmi na serveru <strong>"
-"{{ site_name }}</strong> i na ostatních serverech v rámci sítě XMPP."
+"Vytvořením účtu budete moci komunikovat s ostatními lidmi na serveru "
+"<strong>{{ site_name }}</strong> i na ostatních serverech v rámci sítě XMPP."
 
 #, fuzzy
 #~ msgid "List of users with hats"

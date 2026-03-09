@@ -45,7 +45,7 @@ msgstr "节点的描述"
 msgid "A friendly name for the node"
 msgstr "节点的友好名称"
 
-#: src/mod_muc_room.erl:2439
+#: src/mod_muc_room.erl:2440
 msgid "A password is required to enter this room"
 msgstr "需要密码才能进入此房间"
 
@@ -62,11 +62,11 @@ msgstr "接受"
 #: src/mod_announce.erl:890 src/mod_configure.erl:188 src/mod_configure.erl:329
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
-#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
+#: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:346 src/mod_muc.erl:224
 #: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
 #: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
-#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:724
+#: src/mod_proxy65_service.erl:246 src/mod_invites.erl:723
 #: src/ejabberd_c2s.erl:550 src/ejabberd_c2s.erl:834 src/mod_stun_disco.erl:506
 msgid "Access denied by service policy"
 msgstr "服务策略拒绝访问"
@@ -88,7 +88,7 @@ msgstr "对用户的操作"
 msgid "Add User"
 msgstr "添加用户"
 
-#: src/ejabberd_web_admin.erl:479
+#: src/ejabberd_web_admin.erl:480
 msgid "Administration"
 msgstr "管理"
 
@@ -96,7 +96,7 @@ msgstr "管理"
 msgid "Administration of "
 msgstr "管理 "
 
-#: src/mod_muc_room.erl:3135
+#: src/mod_muc_room.erl:3136
 msgid "Administrator privileges required"
 msgstr "需要管理员权限"
 
@@ -104,7 +104,7 @@ msgstr "需要管理员权限"
 msgid "All Users"
 msgstr "所有用户"
 
-#: src/ejabberd_web_admin.erl:997
+#: src/ejabberd_web_admin.erl:998
 msgid "All activity"
 msgstr "所有活动"
 
@@ -239,8 +239,8 @@ msgstr "四月"
 msgid "Arguments"
 msgstr "参数"
 
-#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4699
-#: src/mod_muc_room.erl:5128
+#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4701
+#: src/mod_muc_room.erl:5130
 msgid "Assign a hat to a user"
 msgstr "为用户分配头衔"
 
@@ -284,7 +284,7 @@ msgstr "备份"
 msgid "Backup Management"
 msgstr "备份管理"
 
-#: src/ejabberd_web_admin.erl:1170
+#: src/ejabberd_web_admin.erl:1172
 msgid "Backup of ~p"
 msgstr "~p 的备份"
 
@@ -292,7 +292,7 @@ msgstr "~p 的备份"
 msgid "Backup to File at "
 msgstr "备份文件位于 "
 
-#: src/ejabberd_web_admin.erl:1031
+#: src/ejabberd_web_admin.erl:1032
 msgid "Bad format"
 msgstr "格式错误"
 
@@ -340,7 +340,7 @@ msgstr "更改用户密码"
 msgid "Changing password is not allowed"
 msgstr "不允许更改密码"
 
-#: src/mod_muc_room.erl:3429
+#: src/mod_muc_room.erl:3431
 msgid "Changing role/affiliation is not allowed"
 msgstr "不允许更改角色/从属关系"
 
@@ -414,7 +414,7 @@ msgstr "客户端确认的节数多于服务器发送的节数"
 msgid "Clustering"
 msgstr "集群"
 
-#: src/mod_muc_room.erl:4542 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
+#: src/mod_muc_room.erl:4544 src/mod_adhoc.erl:78 src/mod_adhoc.erl:105
 #: src/mod_adhoc.erl:121 src/mod_adhoc.erl:137
 msgid "Commands"
 msgstr "命令"
@@ -429,7 +429,7 @@ msgstr "会议室不存在"
 msgid "Configuration"
 msgstr "配置"
 
-#: src/mod_muc_room.erl:3877
+#: src/mod_muc_room.erl:3879
 msgid "Configuration of room ~s"
 msgstr "房间 ~s 的配置"
 
@@ -447,12 +447,13 @@ msgstr "联系人"
 msgid "Country"
 msgstr "国家/地区"
 
-#: src/mod_invites.erl:501 src/mod_invites.erl:699
+#: src/mod_invites.erl:500 src/mod_invites.erl:698
+#: priv/mod_invites/client.html:2 priv/mod_invites/invite.html:2
 msgid "Create Account"
 msgstr "创建账号"
 
-#: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4687
-#: src/mod_muc_room.erl:5097
+#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4689
+#: src/mod_muc_room.erl:5099
 msgid "Create a Hat"
 msgstr "创建头衔"
 
@@ -469,9 +470,9 @@ msgid "Database Tables Configuration at "
 msgstr "数据库表配置在 "
 
 #: src/mod_mam.erl:862 src/mod_mam.erl:880 src/mod_mam.erl:910
-#: src/mod_mam.erl:1285 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
+#: src/mod_mam.erl:1284 src/mod_pubsub.erl:3813 src/mod_pubsub.erl:3857
 #: src/mod_pubsub.erl:3879 src/mod_pubsub.erl:3965 src/mod_pubsub.erl:4184
-#: src/mod_carboncopy.erl:93 src/mod_private.erl:195 src/mod_private.erl:202
+#: src/mod_carboncopy.erl:94 src/mod_private.erl:195 src/mod_private.erl:202
 #: src/mod_offline.erl:344 src/mod_offline.erl:735 src/mod_privacy.erl:165
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
@@ -517,8 +518,8 @@ msgstr "传递事件通知"
 msgid "Deliver payloads with event notifications"
 msgstr "用事件通知传递有效负载"
 
-#: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4691
-#: src/mod_muc_room.erl:5114
+#: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4693
+#: src/mod_muc_room.erl:5116
 msgid "Destroy a Hat"
 msgstr "删除头衔"
 
@@ -558,7 +559,7 @@ msgstr "动态指定项目发布者的 replyto"
 msgid "Edit Properties"
 msgstr "编辑属性"
 
-#: src/mod_muc_room.erl:5473
+#: src/mod_muc_room.erl:5475
 msgid "Either approve or decline the voice request."
 msgstr "批准或拒绝发言权请求。"
 
@@ -627,15 +628,15 @@ msgstr "Erlang XMPP 服务器"
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
 msgstr "从验证码挑战中排除的 Jabber ID"
 
-#: src/ejabberd_web_admin.erl:1207
+#: src/ejabberd_web_admin.erl:1209
 msgid "Export all tables as SQL queries to a file:"
 msgstr "将所有表以 SQL 查询导出到文件："
 
-#: src/ejabberd_web_admin.erl:1200
+#: src/ejabberd_web_admin.erl:1202
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr "将服务器中所有用户的数据导出到 PIEFXIS 文件（XEP-0227）："
 
-#: src/ejabberd_web_admin.erl:1202
+#: src/ejabberd_web_admin.erl:1204
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr "将主机中用户的数据导出到 PIEFXIS 文件（XEP-0227）："
 
@@ -655,7 +656,7 @@ msgstr "常见问题条目"
 msgid "Failed to activate bytestream"
 msgstr "无法激活字节流"
 
-#: src/mod_muc_room.erl:1314
+#: src/mod_muc_room.erl:1313
 msgid "Failed to extract JID from your voice request approval"
 msgstr "无法从您的发言权请求批准中提取 JID"
 
@@ -667,7 +668,7 @@ msgstr "无法将委托命名空间映射到外部组件"
 msgid "Failed to parse HTTP response"
 msgstr "无法解析 HTTP 响应"
 
-#: src/mod_muc_room.erl:4025
+#: src/mod_muc_room.erl:4027
 msgid "Failed to process option '~s'"
 msgstr "无法处理选项“~s”"
 
@@ -792,31 +793,31 @@ msgstr "根据房间中可用头衔列表计算的散列"
 msgid "Hash of the vCard-temp avatar of this room"
 msgstr "此房间的 vCard-temp 头像的散列"
 
-#: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5101
-#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5182
+#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5103
+#: src/mod_muc_room.erl:5120 src/mod_muc_room.erl:5184
 msgid "Hat URI"
 msgstr "头衔 URI"
 
-#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5109
-#: src/mod_muc_room.erl:5186
+#: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5111
+#: src/mod_muc_room.erl:5188
 msgid "Hat hue"
 msgstr "头衔色调"
 
-#: src/mod_muc_room.erl:5089 src/mod_muc_room.erl:5105
-#: src/mod_muc_room.erl:5184
+#: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5107
+#: src/mod_muc_room.erl:5186
 msgid "Hat title"
 msgstr "头衔标题"
 
-#: src/mod_muc_room.erl:5242
+#: src/mod_muc_room.erl:5244
 msgid "Hats limit exceeded"
 msgstr "已超过头衔限制"
 
 #: src/mod_s2s_dialback.erl:333 src/mod_register_web.erl:596
-#: src/mod_invites.erl:1065
+#: src/mod_invites.erl:1147
 msgid "Host unknown"
 msgstr "主机未知"
 
-#: src/mod_invites.erl:1067
+#: src/mod_invites.erl:1149
 msgid "Hostname invalid"
 msgstr "主机名无效"
 
@@ -852,15 +853,15 @@ msgstr "从 jabberd14 Spool 文件导入用户"
 msgid "Import Users from Dir at "
 msgstr "从目录导入用户，目录位于 "
 
-#: src/ejabberd_web_admin.erl:1217
+#: src/ejabberd_web_admin.erl:1219
 msgid "Import user data from jabberd14 spool file:"
 msgstr "从 jabberd14 Spool 文件导入用户数据："
 
-#: src/ejabberd_web_admin.erl:1198
+#: src/ejabberd_web_admin.erl:1200
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
 msgstr "从 PIEFXIS 文件（XEP-0227）导入用户数据："
 
-#: src/ejabberd_web_admin.erl:1219
+#: src/ejabberd_web_admin.erl:1221
 msgid "Import users data from jabberd14 spool directory:"
 msgstr "从 jabberd14 spool 目录导入用户数据："
 
@@ -872,23 +873,23 @@ msgstr "“from”属性域名部分不正确"
 msgid "Improper message type"
 msgstr "消息类型不正确"
 
-#: src/mod_muc_room.erl:4744 src/mod_register.erl:192
-#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:261
+#: src/mod_muc_room.erl:4746 src/mod_register.erl:192
+#: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:273
 msgid "Incorrect CAPTCHA submit"
 msgstr "提交的验证码不正确"
 
-#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3750 src/mod_muc.erl:1200
+#: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3752 src/mod_muc.erl:1200
 #: src/mod_register.erl:188 src/mod_vcard.erl:277
-#: src/mod_invites_register.erl:257
+#: src/mod_invites_register.erl:269
 msgid "Incorrect data form"
 msgstr "数据表单不正确"
 
-#: src/mod_muc_room.erl:2489 src/mod_register_web.erl:594
+#: src/mod_muc_room.erl:2490 src/mod_register_web.erl:594
 #: src/mod_register.erl:143
 msgid "Incorrect password"
 msgstr "密码不正确"
 
-#: src/mod_muc_room.erl:5065 src/mod_adhoc.erl:233
+#: src/mod_muc_room.erl:5067 src/mod_adhoc.erl:233
 msgid "Incorrect value of 'action' attribute"
 msgstr "“action”属性的值不正确"
 
@@ -902,11 +903,11 @@ msgstr "数据表单中“action”的值不正确"
 msgid "Incorrect value of 'path' in data form"
 msgstr "数据表单中“path”的值不正确"
 
-#: src/mod_invites_http.erl:285 src/ext_mod.erl:1305
+#: src/mod_invites_http.erl:306 src/ext_mod.erl:1306
 msgid "Install"
 msgstr "安装"
 
-#: src/ext_mod.erl:1381
+#: src/ext_mod.erl:1383
 msgid "Installed Modules:"
 msgstr "已安装的模块："
 
@@ -926,19 +927,19 @@ msgstr "转发消息中的“from”属性无效"
 msgid "Invalid 'previd' value"
 msgstr "“previd”值无效"
 
-#: src/mod_muc_room.erl:4594
+#: src/mod_muc_room.erl:4596
 msgid "Invalid node name"
 msgstr "节点名称无效"
 
-#: src/mod_muc_room.erl:5518
+#: src/mod_muc_room.erl:5520
 msgid "Invitations are not allowed in this conference"
 msgstr "此会议不允许邀请"
 
-#: src/mod_invites.erl:497 src/mod_invites.erl:701
+#: src/mod_invites.erl:496 src/mod_invites.erl:700
 msgid "Invite User"
 msgstr "邀请用户"
 
-#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1495
+#: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1494
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
@@ -961,8 +962,8 @@ msgstr "服务策略拒绝 JID 规范化"
 msgid "JID normalization failed"
 msgstr "JID 规范化失败"
 
-#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
-#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5134 src/mod_muc_room.erl:5152
+#: src/mod_muc_room.erl:5182 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -997,7 +998,7 @@ msgstr "六月"
 msgid "Just created"
 msgstr "刚刚创建"
 
-#: src/ejabberd_web_admin.erl:950
+#: src/ejabberd_web_admin.erl:951
 msgid "Last Activity"
 msgstr "上次活动"
 
@@ -1009,11 +1010,11 @@ msgstr "上次登录"
 msgid "Last message"
 msgstr "最后一条消息"
 
-#: src/ejabberd_web_admin.erl:994
+#: src/ejabberd_web_admin.erl:995
 msgid "Last month"
 msgstr "上个月"
 
-#: src/ejabberd_web_admin.erl:995
+#: src/ejabberd_web_admin.erl:996
 msgid "Last year"
 msgstr "去年"
 
@@ -1022,17 +1023,17 @@ msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr "文本的 SHA-256 散列的最低有效位应等于十六进制标签"
 
-#: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4695
-#: src/mod_muc_room.erl:5084
+#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4697
+#: src/mod_muc_room.erl:5086
 msgid "List of Hats"
 msgstr "头衔列表"
 
-#: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4707
-#: src/mod_muc_room.erl:5177
+#: src/mod_muc_room.erl:4565 src/mod_muc_room.erl:4709
+#: src/mod_muc_room.erl:5179
 msgid "List users with hats"
 msgstr "列出有头衔的用户"
 
-#: src/ejabberd_web_admin.erl:166
+#: src/ejabberd_web_admin.erl:167
 msgid "Logged Out"
 msgstr "已登出"
 
@@ -1115,7 +1116,7 @@ msgstr "最大使用者数"
 msgid "Maximum file size"
 msgstr "最大文件大小"
 
-#: src/mod_invites.erl:1069
+#: src/mod_invites.erl:1151
 msgid "Maximum number of invites reached"
 msgstr "已达到最大邀请数"
 
@@ -1131,7 +1132,7 @@ msgstr "五月"
 msgid "Members are allowed to invite others"
 msgstr "允许成员邀请他人"
 
-#: src/mod_muc_room.erl:2376
+#: src/mod_muc_room.erl:2377
 msgid "Membership is required to enter this room"
 msgstr "进入此房间需要成员资格"
 
@@ -1184,8 +1185,8 @@ msgstr "发言权请求的最短间隔时间（秒）"
 msgid "Moderator"
 msgstr "主持人"
 
-#: src/mod_muc_room.erl:3143 src/mod_muc_room.erl:4798
-#: src/mod_muc_room.erl:4854 src/mod_muc_room.erl:4912
+#: src/mod_muc_room.erl:3144 src/mod_muc_room.erl:4800
+#: src/mod_muc_room.erl:4856 src/mod_muc_room.erl:4914
 msgid "Moderator privileges required"
 msgstr "需要主持人权限"
 
@@ -1235,11 +1236,11 @@ msgstr "房间讨论的自然语言"
 msgid "Natural-Language Room Name"
 msgstr "自然语言房间名称"
 
-#: src/mod_muc_room.erl:3356
+#: src/mod_muc_room.erl:3358
 msgid "Neither 'jid' nor 'nick' attribute found"
 msgstr "未找到“jid”和“nick”属性"
 
-#: src/mod_muc_room.erl:3125 src/mod_muc_room.erl:3361
+#: src/mod_muc_room.erl:3126 src/mod_muc_room.erl:3363
 msgid "Neither 'role' nor 'affiliation' attribute found"
 msgstr "未找到“role”或“affiliation”属性"
 
@@ -1265,20 +1266,20 @@ msgstr "昵称"
 msgid "Nickname Registration at "
 msgstr "昵称注册于 "
 
-#: src/mod_muc_room.erl:1444 src/mod_muc_room.erl:2397
-#: src/mod_muc_room.erl:4821
+#: src/mod_muc_room.erl:1443 src/mod_muc_room.erl:2398
+#: src/mod_muc_room.erl:4823
 msgid "Nickname can't be empty"
 msgstr "昵称不能为空"
 
-#: src/mod_muc_room.erl:3373
+#: src/mod_muc_room.erl:3375
 msgid "Nickname ~s does not exist in the room"
 msgstr "昵称 ~s 在房间中不存在"
 
-#: src/mod_muc_room.erl:3773
+#: src/mod_muc_room.erl:3775
 msgid "No 'affiliation' attribute found"
 msgstr "未找到“affiliation”属性"
 
-#: src/mod_muc_room.erl:3107
+#: src/mod_muc_room.erl:3108
 msgid "No 'item' element found"
 msgstr "未找到“item”元素"
 
@@ -1296,7 +1297,7 @@ msgstr "在此查询中未找到“password”"
 msgid "No 'path' found in data form"
 msgstr "在数据表单中未找到“path”"
 
-#: src/mod_muc_room.erl:5514
+#: src/mod_muc_room.erl:5516
 msgid "No 'to' attribute found in the invitation"
 msgstr "邀请中未找到“to”属性"
 
@@ -1324,7 +1325,7 @@ msgstr "未找到可用资源"
 msgid "No body provided for announce message"
 msgstr "未提供公告消息正文"
 
-#: src/mod_muc_room.erl:1338 src/gen_iq_handler.erl:89
+#: src/mod_muc_room.erl:1337 src/gen_iq_handler.erl:89
 msgid "No child elements found"
 msgstr "未找到子元素"
 
@@ -1348,7 +1349,7 @@ msgstr "未找到有关上次活动的信息"
 msgid "No items found in this query"
 msgstr "在此查询中未找到任何项目"
 
-#: src/mod_muc_room.erl:3895
+#: src/mod_muc_room.erl:3897
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
 msgid "No limit"
 msgstr "无限制"
@@ -1419,16 +1420,16 @@ msgid "Node index not found"
 msgstr "未找到节点索引"
 
 #: src/mod_matrix_gw.erl:950 src/mod_matrix_gw.erl:964
-#: src/mod_muc_room.erl:4544 src/mod_muc_room.erl:4578
-#: src/mod_muc_room.erl:4709 src/mod_muc_room.erl:4727
-#: src/mod_muc_room.erl:4731 src/mod_muc.erl:755 src/mod_muc.erl:1056
-#: src/ejabberd_web_admin.erl:640 src/nodetree_tree_sql.erl:132
+#: src/mod_muc_room.erl:4546 src/mod_muc_room.erl:4580
+#: src/mod_muc_room.erl:4711 src/mod_muc_room.erl:4729
+#: src/mod_muc_room.erl:4733 src/mod_muc.erl:755 src/mod_muc.erl:1056
+#: src/ejabberd_web_admin.erl:641 src/nodetree_tree_sql.erl:132
 #: src/nodetree_tree_sql.erl:146 src/nodetree_tree.erl:77
 #: src/nodetree_tree.erl:83
 msgid "Node not found"
 msgstr "未找到节点"
 
-#: src/ejabberd_web_admin.erl:1147 src/ejabberd_web_admin.erl:1153
+#: src/ejabberd_web_admin.erl:1149 src/ejabberd_web_admin.erl:1155
 msgid "Node ~p"
 msgstr "节点 ~p"
 
@@ -1436,7 +1437,7 @@ msgstr "节点 ~p"
 msgid "Nodeprep has failed"
 msgstr "Nodeprep 已失败"
 
-#: src/ejabberd_web_admin.erl:1539 src/ejabberd_web_admin.erl:1562
+#: src/ejabberd_web_admin.erl:1541 src/ejabberd_web_admin.erl:1564
 msgid "Nodes"
 msgstr "节点"
 
@@ -1444,7 +1445,7 @@ msgstr "节点"
 msgid "None"
 msgstr "无"
 
-#: src/ejabberd_web_admin.erl:622
+#: src/ejabberd_web_admin.erl:623
 msgid "Not Found"
 msgstr "未找到"
 
@@ -1539,12 +1540,12 @@ msgstr "旧密码："
 msgid "Online"
 msgstr "在线"
 
-#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:599
-#: src/ejabberd_web_admin.erl:1536
+#: src/mod_configure.erl:545 src/ejabberd_web_admin.erl:600
+#: src/ejabberd_web_admin.erl:1538
 msgid "Online Users"
 msgstr "在线用户"
 
-#: src/mod_carboncopy.erl:97
+#: src/mod_carboncopy.erl:98
 msgid "Only <enable/> or <disable/> tags are allowed"
 msgstr "仅允许 <enable/> 或 <disable/> 标签"
 
@@ -1577,15 +1578,15 @@ msgstr "只允许主持人和参与者更改此房间的主题"
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "只允许主持人更改此房间的主题"
 
-#: src/mod_muc_room.erl:5429
+#: src/mod_muc_room.erl:5431
 msgid "Only moderators are allowed to retract messages"
 msgstr "只允许主持人撤回消息"
 
-#: src/mod_muc_room.erl:1321
+#: src/mod_muc_room.erl:1320
 msgid "Only moderators can approve voice requests"
 msgstr "只有主持人可以批准发言权请求"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5585
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "只允许使用者向会议发送消息"
 
@@ -1626,7 +1627,7 @@ msgstr "组织名称"
 msgid "Organization Unit"
 msgstr "组织单位"
 
-#: src/ext_mod.erl:1385
+#: src/ext_mod.erl:1387
 msgid "Other Modules Available:"
 msgstr "其他可用模块："
 
@@ -1637,8 +1638,8 @@ msgstr "传出 s2s 连接"
 #: src/mod_pubsub.erl:1360 src/mod_pubsub.erl:1455 src/mod_pubsub.erl:1629
 #: src/mod_pubsub.erl:2238 src/mod_pubsub.erl:2316 src/mod_pubsub.erl:2526
 #: src/mod_pubsub.erl:2620 src/mod_pubsub.erl:3333 src/mod_pubsub.erl:3500
-#: src/mod_muc_room.erl:3720 src/mod_muc_room.erl:3765
-#: src/mod_muc_room.erl:4774 src/mod_mix.erl:678
+#: src/mod_muc_room.erl:3722 src/mod_muc_room.erl:3767
+#: src/mod_muc_room.erl:4776 src/mod_mix.erl:678
 msgid "Owner privileges required"
 msgstr "需要所有者权限"
 
@@ -1659,7 +1660,8 @@ msgstr "参与者 ID"
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
 #: src/mod_muc_log.erl:852 src/mod_register.erl:234
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
-#: priv/mod_invites/register.html:47 priv/mod_invites/register_success.html:85
+#: priv/mod_invites/register.html:46 priv/mod_invites/register_success.html:70
+#: priv/mod_invites/register_success.html:67
 msgid "Password"
 msgstr "密码"
 
@@ -1688,7 +1690,7 @@ msgstr "文件路径"
 msgid "Payload semantic type information"
 msgstr "有效负载语义类型信息"
 
-#: src/ejabberd_web_admin.erl:981
+#: src/ejabberd_web_admin.erl:982
 msgid "Period: "
 msgstr "时段： "
 
@@ -1709,7 +1711,7 @@ msgstr "Ping"
 msgid "Ping query is incorrect"
 msgstr "Ping 查询不正确"
 
-#: src/ejabberd_web_admin.erl:1172
+#: src/ejabberd_web_admin.erl:1174
 msgid ""
 "Please note that these options will only backup the builtin Mnesia database. "
 "If you are using the ODBC module, you also need to backup your SQL database "
@@ -1843,8 +1845,8 @@ msgstr "远程副本"
 msgid "Remove User"
 msgstr "移除用户"
 
-#: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4703
-#: src/mod_muc_room.erl:5146
+#: src/mod_muc_room.erl:4564 src/mod_muc_room.erl:4705
+#: src/mod_muc_room.erl:5148
 msgid "Remove a hat from a user"
 msgstr "移除用户头衔"
 
@@ -1883,16 +1885,16 @@ msgstr "恢复"
 msgid "Restore Backup from File at "
 msgstr "从文件恢复备份，文件位于 "
 
-#: src/ejabberd_web_admin.erl:1185
+#: src/ejabberd_web_admin.erl:1187
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr "在下次 ejabberd 重启后恢复二进制备份（所需内存较少）："
 
-#: src/ejabberd_web_admin.erl:1183
+#: src/ejabberd_web_admin.erl:1185
 msgid "Restore binary backup immediately:"
 msgstr "立即恢复二进制备份："
 
-#: src/ejabberd_web_admin.erl:1193
+#: src/ejabberd_web_admin.erl:1195
 msgid "Restore plain text backup immediately:"
 msgstr "立即恢复纯文本备份："
 
@@ -2027,7 +2029,7 @@ msgstr "在所有主机上设置每日消息并发送给在线用户"
 msgid "Shared Roster Groups"
 msgstr "共享名册组"
 
-#: src/ejabberd_web_admin.erl:1003
+#: src/ejabberd_web_admin.erl:1004
 msgid "Show Integral Table"
 msgstr "显示完整表"
 
@@ -2035,7 +2037,7 @@ msgstr "显示完整表"
 msgid "Show Occupants Join/Leave"
 msgstr "显示使用者加入/离开"
 
-#: src/ejabberd_web_admin.erl:1000
+#: src/ejabberd_web_admin.erl:1001
 msgid "Show Ordinary Table"
 msgstr "显示普通表"
 
@@ -2053,7 +2055,7 @@ msgstr ""
 "部分 XMPP 客户端可以将您的密码存储在计算机中，但出于安全考虑，您应该仅在个人"
 "计算机中存储密码。"
 
-#: src/ext_mod.erl:1374
+#: src/ext_mod.erl:1376
 msgid "Sources Specs:"
 msgstr "源规格："
 
@@ -2076,7 +2078,7 @@ msgstr "指定发布者模型"
 msgid "Stanza ID"
 msgstr "节 ID"
 
-#: src/mod_muc_room.erl:5462
+#: src/mod_muc_room.erl:5464
 msgid "Stanza id is not valid"
 msgstr "节 ID 无效"
 
@@ -2089,11 +2091,11 @@ msgstr "静态指定节点所有者的 replyto"
 msgid "Stopped Nodes"
 msgstr "已停止的节点"
 
-#: src/ejabberd_web_admin.erl:1181
+#: src/ejabberd_web_admin.erl:1183
 msgid "Store binary backup:"
 msgstr "存储二进制备份："
 
-#: src/ejabberd_web_admin.erl:1191
+#: src/ejabberd_web_admin.erl:1193
 msgid "Store plain text backup:"
 msgstr "存储纯文本备份："
 
@@ -2110,7 +2112,7 @@ msgstr "未启用流管理"
 msgid "Subject"
 msgstr "主题"
 
-#: src/ejabberd_web_admin.erl:1030 src/ext_mod.erl:1124
+#: src/ejabberd_web_admin.erl:1031 src/ext_mod.erl:1125
 msgid "Submitted"
 msgstr "已提交"
 
@@ -2132,7 +2134,7 @@ msgid ""
 "items"
 msgstr "订阅请求必须得到批准，只有订阅者才能检索项目"
 
-#: src/mod_muc_room.erl:4785
+#: src/mod_muc_room.erl:4787
 msgid "Subscriptions are not allowed"
 msgstr "不允许订阅"
 
@@ -2156,13 +2158,13 @@ msgstr "与视频相关的文本"
 msgid "Text associated with speech"
 msgstr "与语音相关的文本"
 
-#: src/mod_muc_room.erl:1435 src/mod_muc_room.erl:2386
-#: src/mod_muc_room.erl:4811
+#: src/mod_muc_room.erl:1434 src/mod_muc_room.erl:2387
+#: src/mod_muc_room.erl:4813
 msgid "That nickname is already in use by another occupant"
 msgstr "该昵称已被其他使用者使用"
 
-#: src/mod_muc_room.erl:1447 src/mod_muc_room.erl:2400
-#: src/mod_muc_room.erl:4825 src/mod_muc.erl:1174
+#: src/mod_muc_room.erl:1446 src/mod_muc_room.erl:2401
+#: src/mod_muc_room.erl:4827 src/mod_muc.erl:1174
 msgid "That nickname is registered by another person"
 msgstr "该昵称已被其他用户注册"
 
@@ -2170,9 +2172,9 @@ msgstr "该昵称已被其他用户注册"
 msgid "The CAPTCHA is valid."
 msgstr "验证码有效。"
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4747 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4749 src/mod_register.erl:195
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
-#: src/mod_invites_register.erl:264
+#: src/mod_invites_register.erl:276
 msgid "The CAPTCHA verification has failed"
 msgstr "验证码验证失败"
 
@@ -2357,7 +2359,7 @@ msgstr "仅允许来自本地用户的查询"
 msgid "The query must not contain <item/> elements"
 msgstr "查询不能包含 <item/> 元素"
 
-#: src/mod_muc_room.erl:5136 src/mod_muc_room.erl:5154
+#: src/mod_muc_room.erl:5138 src/mod_muc_room.erl:5156
 msgid "The role"
 msgstr "角色"
 
@@ -2387,7 +2389,7 @@ msgstr ""
 msgid "The subscription identifier associated with the subscription request"
 msgstr "与订阅请求关联的订阅标识符"
 
-#: src/mod_invites_register.erl:209
+#: src/mod_invites_register.erl:221
 msgid "The token provided is either invalid or expired."
 msgstr "提供的令牌无效或已过期。"
 
@@ -2460,7 +2462,7 @@ msgstr ""
 "有太多（~p）失败的身份验证来自此 IP 地址（~s），将在 UTC 时间 ~s 解除对该地址"
 "的屏蔽"
 
-#: src/mod_muc_room.erl:3112 src/mod_muc_room.erl:3779
+#: src/mod_muc_room.erl:3113 src/mod_muc_room.erl:3781
 msgid "Too many <item/> elements"
 msgstr "<item/> 元素太多"
 
@@ -2468,7 +2470,7 @@ msgstr "<item/> 元素太多"
 msgid "Too many <list/> elements"
 msgstr "<list/> 元素太多"
 
-#: src/mod_muc_room.erl:2470 src/mod_register.erl:251
+#: src/mod_muc_room.erl:2471 src/mod_register.erl:251
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "验证码请求太多"
@@ -2477,7 +2479,7 @@ msgstr "验证码请求太多"
 msgid "Too many active bytestreams"
 msgstr "活动字节流太多"
 
-#: src/mod_muc_room.erl:1340 src/gen_iq_handler.erl:90
+#: src/mod_muc_room.erl:1339 src/gen_iq_handler.erl:90
 msgid "Too many child elements"
 msgstr "子元素太多"
 
@@ -2489,7 +2491,7 @@ msgstr "指定的接收者字段太多"
 msgid "Too many unacked stanzas"
 msgstr "未确认的节太多"
 
-#: src/mod_muc_room.erl:2345
+#: src/mod_muc_room.erl:2346
 msgid "Too many users in this conference"
 msgstr "此会议中的用户太多"
 
@@ -2505,7 +2507,7 @@ msgstr "周二"
 msgid "URL for Archived Discussion Logs"
 msgstr "已归档的讨论日志 URL"
 
-#: src/mod_muc_room.erl:2479 src/mod_register.erl:255
+#: src/mod_muc_room.erl:2480 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "无法生成验证码"
@@ -2514,7 +2516,7 @@ msgstr "无法生成验证码"
 msgid "Unable to register route on existing local domain"
 msgstr "无法在现有本地域上注册路由"
 
-#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:234
+#: src/mod_stream_mgmt.erl:173 src/ejabberd_web_admin.erl:235
 msgid "Unauthorized"
 msgstr "未经授权"
 
@@ -2527,7 +2529,7 @@ msgstr "意外操作"
 msgid "Unexpected error condition: ~p"
 msgstr "意外错误条件：~p"
 
-#: src/ext_mod.erl:1287
+#: src/ext_mod.erl:1288
 msgid "Uninstall"
 msgstr "卸载"
 
@@ -2548,7 +2550,7 @@ msgstr "不支持的 <index/> 元素"
 msgid "Unsupported version"
 msgstr "不支持的版本"
 
-#: src/ext_mod.erl:1379
+#: src/ext_mod.erl:1381
 msgid "Update Specs"
 msgstr "更新规格"
 
@@ -2560,7 +2562,7 @@ msgstr "更新每日消息（不发送）"
 msgid "Update message of the day on all hosts (don't send)"
 msgstr "更新所有主机上的每日消息（不发送）"
 
-#: src/ext_mod.erl:1369
+#: src/ext_mod.erl:1371
 msgid "Update specs to get modules source, then install desired ones."
 msgstr "更新规格以获取模块源，然后安装所需的模块。"
 
@@ -2568,7 +2570,7 @@ msgstr "更新规格以获取模块源，然后安装所需的模块。"
 msgid "Updating the vCard is not supported by the vCard storage backend"
 msgstr "vCard 存储后端不支持更新 vCard"
 
-#: src/ext_mod.erl:1290
+#: src/ext_mod.erl:1291
 msgid "Upgrade"
 msgstr "升级"
 
@@ -2590,7 +2592,7 @@ msgstr "用户 JID"
 msgid "User Management"
 msgstr "用户管理"
 
-#: src/mod_register.erl:408 src/mod_invites.erl:1073
+#: src/mod_register.erl:408 src/mod_invites.erl:1155
 msgid "User already exists"
 msgstr "用户已存在"
 
@@ -2610,15 +2612,15 @@ msgstr "未找到用户会话"
 msgid "User session terminated"
 msgstr "用户会话已终止"
 
-#: src/ejabberd_web_admin.erl:1026
+#: src/ejabberd_web_admin.erl:1027
 msgid "User ~ts"
 msgstr "用户 ~ts"
 
-#: src/mod_invites.erl:1063
+#: src/mod_invites.erl:1145
 msgid "Username invalid"
 msgstr "用户名无效"
 
-#: src/mod_invites.erl:1071
+#: src/mod_invites.erl:1153
 msgid "Username is reserved"
 msgstr "用户名已被保留"
 
@@ -2627,12 +2629,12 @@ msgstr "用户名已被保留"
 msgid "Username:"
 msgstr "用户名："
 
-#: src/ejabberd_web_admin.erl:571 src/ejabberd_web_admin.erl:579
-#: src/ejabberd_web_admin.erl:585 src/ejabberd_web_admin.erl:1535
+#: src/ejabberd_web_admin.erl:572 src/ejabberd_web_admin.erl:580
+#: src/ejabberd_web_admin.erl:586 src/ejabberd_web_admin.erl:1537
 msgid "Users"
 msgstr "用户"
 
-#: src/ejabberd_web_admin.erl:608
+#: src/ejabberd_web_admin.erl:609
 msgid "Users Last Activity"
 msgstr "用户上次活动"
 
@@ -2640,14 +2642,14 @@ msgstr "用户上次活动"
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "不允许用户太频繁地注册账号"
 
-#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4737 src/mod_muc_room.erl:4916
-#: src/mod_carboncopy.erl:100 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
+#: src/mod_pubsub.erl:904 src/mod_muc_room.erl:4739 src/mod_muc_room.erl:4918
+#: src/mod_carboncopy.erl:101 src/mod_push.erl:286 src/ejabberd_captcha.erl:228
 msgid "Value 'get' of 'type' attribute is not allowed"
 msgstr "不允许“type”属性的“get”值"
 
 #: src/mod_matrix_gw.erl:938 src/mod_matrix_gw.erl:957 src/mod_pubsub.erl:828
-#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4521
-#: src/mod_muc_room.erl:4657 src/mod_mix.erl:157 src/mod_mix.erl:205
+#: src/mod_pubsub.erl:847 src/mod_pubsub.erl:886 src/mod_muc_room.erl:4523
+#: src/mod_muc_room.erl:4659 src/mod_mix.erl:157 src/mod_mix.erl:205
 #: src/mod_last.erl:91 src/mod_last.erl:109 src/mod_jidprep.erl:114
 #: src/mod_muc.erl:682 src/mod_muc.erl:720 src/mod_muc.erl:762
 #: src/mod_muc.erl:782 src/mod_muc.erl:792 src/mod_disco.erl:101
@@ -2677,7 +2679,7 @@ msgstr "“~s”的值应为整数"
 msgid "View joined MIX channels"
 msgstr "查看已加入的 MIX 频道"
 
-#: src/ejabberd_web_admin.erl:556 src/ejabberd_web_admin.erl:1561
+#: src/ejabberd_web_admin.erl:557 src/ejabberd_web_admin.erl:1563
 msgid "Virtual Hosts"
 msgstr "虚拟主机"
 
@@ -2685,7 +2687,7 @@ msgstr "虚拟主机"
 msgid "Visitor"
 msgstr "参观者"
 
-#: src/mod_muc_room.erl:1428
+#: src/mod_muc_room.erl:1427
 msgid "Visitors are not allowed to change their nicknames in this room"
 msgstr "不允许参观者在此房间中更改其昵称"
 
@@ -2693,7 +2695,7 @@ msgstr "不允许参观者在此房间中更改其昵称"
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "不允许参观者向所有使用者发送消息"
 
-#: src/mod_muc_room.erl:5471
+#: src/mod_muc_room.erl:5473
 msgid "Voice request"
 msgstr "发言权请求"
 
@@ -2788,7 +2790,7 @@ msgstr "错误的 xmlns"
 msgid "XMPP Account Registration"
 msgstr "XMPP 账号注册"
 
-#: src/ejabberd_web_admin.erl:558
+#: src/ejabberd_web_admin.erl:559
 msgid "XMPP Domains"
 msgstr "XMPP 域"
 
@@ -2829,11 +2831,11 @@ msgstr "您未加入频道"
 msgid "You can later change your password using an XMPP client."
 msgstr "您之后可以使用 XMPP 客户端更改密码。"
 
-#: src/mod_muc_room.erl:2373 src/mod_muc_rtbl.erl:191
+#: src/mod_muc_room.erl:2374 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
 msgstr "禁止您进入此房间"
 
-#: src/mod_muc_room.erl:2354
+#: src/mod_muc_room.erl:2355
 msgid "You have joined too many conferences"
 msgstr "您已加入太多会议"
 
@@ -2905,7 +2907,7 @@ msgstr "ejabberd 发布–订阅模块"
 msgid "ejabberd SOCKS5 Bytestreams module"
 msgstr "ejabberd SOCKS5 字节流模块"
 
-#: src/ejabberd_web_admin.erl:318
+#: src/ejabberd_web_admin.erl:319
 msgid "ejabberd Web Admin"
 msgstr "ejabberd Web 管理"
 
@@ -2945,11 +2947,11 @@ msgstr "加入房间"
 msgid "leaves the room"
 msgstr "离开房间"
 
-#: src/mod_muc_room.erl:4971
+#: src/mod_muc_room.erl:4973
 msgid "private, "
 msgstr "私人， "
 
-#: src/mod_muc_room.erl:5547
+#: src/mod_muc_room.erl:5549
 msgid "the password is"
 msgstr "密码是"
 
@@ -2957,11 +2959,11 @@ msgstr "密码是"
 msgid "vCard User Search"
 msgstr "vCard 用户搜索"
 
-#: src/mod_muc_room.erl:5540
+#: src/mod_muc_room.erl:5542
 msgid "~s invites you to the room ~s"
 msgstr "~s 邀请您加入房间 ~s"
 
-#: src/mod_mam.erl:1748
+#: src/mod_mam.erl:1747
 msgid "~ts's MAM Archive"
 msgstr "~ts 的 MAM 归档"
 
@@ -2973,58 +2975,54 @@ msgstr "~ts 的离线消息队列"
 msgid "Join {{ site_name }} with {{ app_name }}"
 msgstr "加入 {{ site_name }} 使用 {{ app_name }}"
 
-#: priv/mod_invites/invite_invalid.html:8
+#: priv/mod_invites/invite_invalid.html:9
 msgid "Sad person holding empty box"
 msgstr "悲伤的人手持空盒"
 
-#: priv/mod_invites/apps.json:84
+#: priv/mod_invites/apps.json:105
 msgid "Siskin IM Logo"
 msgstr "Siskin IM 徽标"
 
-#: priv/mod_invites/apps.html:25
-msgid ""
-"Showing apps for <span class='platform-name'>your current platform</span> "
-"only. You may also <a href='#' id='show-all-clients-button'>view all apps.</"
-"a>"
-msgstr ""
-"仅显示适用于<span class='platform-name'>您当前平台</span>的应用。您也可以<a "
-"href='#' id='show-all-clients-button'>查看所有应用。</a>"
-
-#: priv/mod_invites/apps.json:140
+#: priv/mod_invites/apps.json:161
 msgid "Download Gajim"
 msgstr "下载 Gajim"
 
-#: priv/mod_invites/client.html:65 priv/mod_invites/client.html:63
-#: priv/mod_invites/register.html:69 priv/mod_invites/register.html:67
+#: priv/mod_invites/client.html:68 priv/mod_invites/client.html:66
+#: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
 msgid "Previous"
 msgstr "上一页"
 
-#: priv/mod_invites/invite_invalid.html:6
+#: priv/mod_invites/invite_invalid.html:7
 msgid "Sorry, it looks like this invite code has expired!"
 msgstr "抱歉，此邀请码似乎已过期！"
 
-#: priv/mod_invites/apps.json:7
+#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:7
 msgid "Google Play Store Logo"
 msgstr "Google Play 商店徽标"
 
-#: priv/mod_invites/client.html:50
+#: priv/mod_invites/client.html:53
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
 "成功安装 {{ app_name }} 后，请返回此页面并<strong>继续执行步骤 2</strong>。"
 
-#: priv/mod_invites/register.html:29
+#: priv/mod_invites/register.html:28
 msgid "Username"
 msgstr "用户名"
 
-#: priv/mod_invites/client.html:33 priv/mod_invites/register_success.html:50
+#: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:32
 msgid "Download and install {{ app_name }} below:"
 msgstr "请下载并安装下方 {{ app_name }}："
 
-#: priv/mod_invites/apps.json:154
+#: priv/mod_invites/apps.json:175
 msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr "功能齐全的 Windows 和 Linux 桌面聊天客户端。"
+
+#: priv/mod_invites/register_success.html:3
+#, fuzzy
+msgid "Registration Success"
+msgstr "注册错误"
 
 #: priv/mod_invites/roster.html:8
 msgid ""
@@ -3035,19 +3033,24 @@ msgstr ""
 "这是来自 <strong>{{ inviter }}</strong> 的邀请，用于连接至 XMPP 网络进行聊"
 "天。如果您已安装 XMPP 客户端，请直接点击下方按钮！"
 
-#: priv/mod_invites/register.html:19
+#: priv/mod_invites/register.html:18
 msgid "Open the app"
 msgstr "打开应用"
 
-#: priv/mod_invites/register_success.html:26
+#: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
 msgstr "您已在 <strong>{{ site_name }}</strong> 创建账号。"
 
-#: priv/mod_invites/register.html:4
+#: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
 msgid "Registration Error"
 msgstr "注册错误"
 
-#: priv/mod_invites/apps.json:167
+#: priv/mod_invites/invite_invalid.html:2
+#, fuzzy
+msgid "Invite Expired"
+msgstr "邀请已过期"
+
+#: priv/mod_invites/apps.json:188
 msgid "Renga Logo"
 msgstr "Renga 徽标"
 
@@ -3063,7 +3066,7 @@ msgstr ""
 msgid "Registration error"
 msgstr "注册错误"
 
-#: priv/mod_invites/register_success.html:69
+#: priv/mod_invites/register_success.html:51
 msgid "Step 2: Connect {{ app_name }} to your new account"
 msgstr "步骤 2：将 {{ app_name }} 连接至您的新账号"
 
@@ -3075,16 +3078,16 @@ msgstr ""
 "您已受邀在 <strong>{{ site_name }}</strong> 上聊天，该服务属于安全去中心化的 "
 "XMPP 即时通讯网络。"
 
-#: priv/mod_invites/register_success.html:74
+#: priv/mod_invites/register_success.html:56
 msgid "As a final reminder, your account details are shown below:"
 msgstr "最终提醒，您的账号详情如下所示："
 
-#: priv/mod_invites/client.html:12
+#: priv/mod_invites/client.html:14
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
 msgstr "您现在可以使用 {{ app_name }} 开始聊天。开始吧！"
 
-#: priv/mod_invites/client.html:54
+#: priv/mod_invites/client.html:57
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
@@ -3095,7 +3098,7 @@ msgstr ""
 msgid "Get started"
 msgstr "开始"
 
-#: priv/mod_invites/register_success.html:24
+#: priv/mod_invites/register_success.html:6
 msgid "Congratulations!"
 msgstr "恭喜！"
 
@@ -3103,11 +3106,11 @@ msgstr "恭喜！"
 msgid "Scan with mobile device"
 msgstr "使用移动设备扫描"
 
-#: priv/mod_invites/register_success.html:46
+#: priv/mod_invites/register_success.html:28
 msgid "You can now set up {{ app_name }} and connect it to your new account."
 msgstr "您现在可以设置 {{ app_name }} 并将其连接至您的新账号。"
 
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with <strong>{{ inviter }}</"
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
@@ -3116,11 +3119,11 @@ msgstr ""
 "创建账号后，您即可与 <strong>{{ inviter }}</strong>、<strong>{{ site_name }}"
 "</strong> 上的其他用户以及 XMPP 网络中的其他服务进行通信。"
 
-#: priv/mod_invites/register_success.html:13
+#: priv/mod_invites/register_success.html:73
 msgid "Hide"
 msgstr "隐藏"
 
-#: priv/mod_invites/client.html:60
+#: priv/mod_invites/client.html:63
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
@@ -3134,7 +3137,7 @@ msgstr "将 {{ inviter }} 添加到您的联系人列表"
 msgid "To get started, you need to install an app for your platform:"
 msgstr "开始前，请为您的设备平台安装应用："
 
-#: priv/mod_invites/apps.json:91
+#: priv/mod_invites/apps.json:112
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
@@ -3142,11 +3145,11 @@ msgstr ""
 "适用于 iPhone 和 iPad 的轻量高效 XMPP 客户端，让您轻松与好友畅聊并分享生活瞬"
 "间。"
 
-#: priv/mod_invites/register_success.html:48
+#: priv/mod_invites/register_success.html:30
 msgid "Step 1: Download and install {{ app_name }}"
 msgstr "步骤 1：下载并安装 {{ app_name }}"
 
-#: priv/mod_invites/apps.json:111
+#: priv/mod_invites/apps.json:132
 msgid ""
 "Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
 "\\' button under the empty account list and then enter your credentials."
@@ -3154,12 +3157,12 @@ msgstr ""
 "启动 Beagle IM，然后选择“是”添加新账号。点击空白账号列表下方的“+”按钮，然后输"
 "入您的凭据。"
 
-#: priv/mod_invites/base.html:28
+#: priv/mod_invites/base.html:26
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr "使用移动设备上的<em>二维码</em>扫描器扫描下方二维码："
 
-#: priv/mod_invites/base_min.html:43 priv/mod_invites/base_min.html:6
+#: priv/mod_invites/base_min.html:17
 msgid "Invite to {{ site_name }}"
 msgstr "邀请加入 {{ site_name }}"
 
@@ -3167,11 +3170,22 @@ msgstr "邀请加入 {{ site_name }}"
 msgid "Other software"
 msgstr "其他软件"
 
-#: priv/mod_invites/register.html:25
+#: priv/mod_invites/register.html:24
 msgid "Create an account"
 msgstr "创建账号"
 
-#: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:56
+#: priv/mod_invites/invite.html:15
+#, fuzzy
+msgid ""
+"You can connect to {{ site_name }} using any XMPP-compatible software. If "
+"your preferred software is not listed above, you may still <a "
+"href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>register an account "
+"manually</a>."
+msgstr ""
+"您可以使用任意 XMPP 兼容软件连接至 {{ site_name }}。如果您常用的软件未在上方"
+"列出，您仍然可以<a href=\"{{ registration_url }}\">手动注册账号</a>。"
+
+#: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
 msgid "Apple Store Logo"
 msgstr "Apple Store 徽标"
@@ -3180,19 +3194,19 @@ msgstr "Apple Store 徽标"
 msgid "Add Contact"
 msgstr "添加联系人"
 
-#: priv/mod_invites/apps.json:127
+#: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
 msgstr "Dino 徽标"
 
-#: priv/mod_invites/register_success.html:78
+#: priv/mod_invites/register_success.html:60
 msgid "Chat address (JID)"
 msgstr "聊天地址（JID）"
 
-#: priv/mod_invites/apps.json:104
+#: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
 msgstr "Beagle IM 徽标"
 
-#: priv/mod_invites/base.html:33
+#: priv/mod_invites/base.html:31
 msgid "Close"
 msgstr "关闭"
 
@@ -3204,28 +3218,39 @@ msgstr ""
 "Conversations 是专为 Android 6.0 及更高版本智能手机优化的 Jabber/XMPP 客户"
 "端，提供独特的移动端体验。"
 
-#: priv/mod_invites/register.html:17
+#: priv/mod_invites/register.html:16
 msgid "{{ app_name }} already installed?"
 msgstr "已安装 {{ app_name }}？"
 
-#: priv/mod_invites/register_success.html:35
+#: priv/mod_invites/register_success.html:17
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
 msgstr ""
 "<strong>暂未安装适用软件？</strong>您也可以通过我们的在线网页聊天登录账号！"
 
-#: priv/mod_invites/register.html:20
+#: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
 msgstr "此按钮仅在已安装应用时生效！"
 
-#: priv/mod_invites/apps.json:133
+#: priv/mod_invites/register.html:3
+#, fuzzy
+msgid "Registration Form"
+msgstr "注册错误"
+
+#: priv/mod_invites/apps.json:154
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
 msgstr ""
 "适用于桌面的现代开源聊天客户端，专注于提供简洁可靠的 Jabber/XMPP 体验，同时注"
 "重您的隐私。"
+
+#: priv/mod_invites/apps.json:91
+msgid ""
+"A lean Jabber/XMPP client for Android. It aims at usability, low overhead "
+"and security, and works on low-end Android devices starting with Android 4.0."
+msgstr ""
 
 #: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
@@ -3243,7 +3268,7 @@ msgid ""
 "user interface."
 msgstr "适用于 Mac 的现代开源聊天客户端，易于使用，界面简洁。"
 
-#: priv/mod_invites/register_success.html:71
+#: priv/mod_invites/register_success.html:53
 msgid "Launch {{ app_name }} and sign in using your account credentials."
 msgstr "启动 {{ app_name }} 并使用您的账号凭据登录。"
 
@@ -3263,11 +3288,11 @@ msgstr "F-Droid Store 徽标"
 msgid "Send this invite to your device"
 msgstr "将此邀请发送至您的设备"
 
-#: priv/mod_invites/client.html:52
+#: priv/mod_invites/client.html:55
 msgid "Step 2: Activate your account"
 msgstr "步骤 2：启用您的账号"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
@@ -3280,27 +3305,26 @@ msgstr ""
 msgid "{{ inviter }} has invited you to connect!"
 msgstr "{{ inviter }} 邀请您建立联系！"
 
-#: priv/mod_invites/apps.json:120
+#: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
 msgstr "下载适用于 Linux 的 Dino"
 
-#: priv/mod_invites/client.html:57
+#: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
 msgstr "使用 {{ app_name }} 接受邀请"
 
-#: priv/mod_invites/apps.json:113
+#: priv/mod_invites/apps.json:134
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
 msgstr ""
 "Beagle IM 由 Tigase, Inc. 开发，是适用于 macOS 的轻量高效 XMPP 客户端。"
 
-#: priv/mod_invites/register_success.html:90
-#: priv/mod_invites/register_success.html:17
+#: priv/mod_invites/register_success.html:73
 msgid "Show"
 msgstr "显示"
 
-#: priv/mod_invites/register.html:55
+#: priv/mod_invites/register.html:54
 msgid "Enter a secure password that you do not use anywhere else."
 msgstr "请输入一个您在其他任何地方都未使用的安全密码。"
 
@@ -3315,9 +3339,14 @@ msgid ""
 msgstr ""
 "<strong>提示：</strong>您可以使用手机相机扫描二维码，在移动设备上打开此邀请。"
 
-#: priv/mod_invites/apps.json:161
+#: priv/mod_invites/apps.json:182
 msgid "Download Renga for Haiku"
 msgstr "下载适用于 Haiku 的 Renga"
+
+#: priv/mod_invites/base_min.html:6
+#, fuzzy
+msgid "Invite"
+msgstr "邀请用户"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3332,11 +3361,11 @@ msgstr ""
 msgid "Monal Logo"
 msgstr "Monal 徽标"
 
-#: priv/mod_invites/invite_invalid.html:4
+#: priv/mod_invites/invite_invalid.html:5
 msgid "Invite expired"
 msgstr "邀请已过期"
 
-#: priv/mod_invites/register.html:62
+#: priv/mod_invites/register.html:61
 msgid "Submit"
 msgstr "提交"
 
@@ -3344,7 +3373,7 @@ msgstr "提交"
 msgid "Select"
 msgstr "选择"
 
-#: priv/mod_invites/register.html:43
+#: priv/mod_invites/register.html:42
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr "选择一个用户名，这将成为您新聊天地址的第一部分。"
@@ -3353,15 +3382,15 @@ msgstr "选择一个用户名，这将成为您新聊天地址的第一部分。
 msgid "Scan invite code"
 msgstr "扫描邀请码"
 
-#: priv/mod_invites/apps.json:173
+#: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "适用于 Haiku 的 XMPP 客户端"
 
-#: priv/mod_invites/client.html:61 priv/mod_invites/register.html:65
+#: priv/mod_invites/client.html:64 priv/mod_invites/register.html:64
 msgid "Page navigation"
 msgstr "页面导航"
 
-#: priv/mod_invites/register.html:10
+#: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
@@ -3369,11 +3398,11 @@ msgstr ""
 "<strong>{{ site_name }}</strong> 属于安全去中心化的 XMPP 即时通讯网络。要开始"
 "聊天，您需要先注册账号。"
 
-#: priv/mod_invites/register_success.html:38
+#: priv/mod_invites/register_success.html:20
 msgid "Log in via web"
 msgstr "通过网页登录"
 
-#: priv/mod_invites/register_success.html:99
+#: priv/mod_invites/register_success.html:82
 msgid ""
 "Your password is stored encrypted on the server and will not be accessible "
 "after you close this page. Keep it safe and never share it with anyone."
@@ -3381,17 +3410,17 @@ msgstr ""
 "您的密码已加密存储在服务器上，关闭此页面后将无法访问。请妥善保管您的密码，切"
 "勿与任何人分享。"
 
-#: priv/mod_invites/register_success.html:28
+#: priv/mod_invites/register_success.html:10
 msgid ""
 "To start chatting, you need to enter your new account credentials into your "
 "chosen XMPP software."
 msgstr "要开始聊天，您需要在您选择的 XMPP 软件中输入您的新账号凭据。"
 
-#: priv/mod_invites/apps.json:146
+#: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
 msgstr "Gajim 徽标"
 
-#: priv/mod_invites/register.html:53
+#: priv/mod_invites/register.html:52
 msgid "Please provide a password! Minimum length: {{ password_min_length }}"
 msgstr "请提供密码！最小长度：{{ password_min_length }}"
 
@@ -3399,21 +3428,35 @@ msgstr "请提供密码！最小长度：{{ password_min_length }}"
 msgid "Conversations Logo"
 msgstr "Conversations 徽标"
 
-#: priv/mod_invites/client.html:31
+#: priv/mod_invites/client.html:34
 msgid "Step 1: Install {{ app_name }}"
 msgstr "步骤 1：安装 {{ app_name }}"
 
-#: priv/mod_invites/apps.json:124
+#: priv/mod_invites/apps.json:145
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
 msgstr "点击按钮打开 Dino 网站，您可在电脑上下载并安装该应用。"
 
-#: priv/mod_invites/register.html:40
+#: priv/mod_invites/register.html:39
 msgid "Please provide a valid username!"
 msgstr "请提供有效的用户名！"
 
-#: priv/mod_invites/register.html:16
+#: priv/mod_invites/roster.html:15
+msgid "Hint"
+msgstr ""
+
+#: priv/mod_invites/apps.html:25
+#, fuzzy
+msgid ""
+"Showing apps for <span class='platform-name'>your current platform</span> "
+"only. You may also <a href='#' id='show-all-clients-button' "
+"tabindex=\"{{ tabidx }}\">view all apps.</a>"
+msgstr ""
+"仅显示适用于<span class='platform-name'>您当前平台</span>的应用。您也可以<a "
+"href='#' id='show-all-clients-button'>查看所有应用。</a>"
+
+#: priv/mod_invites/register.html:15
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
@@ -3421,32 +3464,23 @@ msgstr ""
 "如果您已安装 {{ app_name }}，我们推荐您点击下方按钮，使用该应用继续完成账号创"
 "建流程："
 
-#: priv/mod_invites/roster.html:13
+#: priv/mod_invites/roster.html:15
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
 msgstr "如果您尚未安装 XMPP 客户端，以下是适用于您平台的推荐客户端列表。"
 
-#: priv/mod_invites/apps.json:98
+#: priv/mod_invites/apps.json:119
 msgid "Download from Mac App Store"
 msgstr "从 Mac App Store 下载"
 
-#: priv/mod_invites/base.html:26
+#: priv/mod_invites/base.html:24
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
 msgstr "您可以使用相机扫描二维码，将此邀请转移至您的移动设备。"
 
-#: priv/mod_invites/invite.html:15
-msgid ""
-"You can connect to {{ site_name }} using any XMPP-compatible software. If "
-"your preferred software is not listed above, you may still <a "
-"href=\"{{ registration_url }}\">register an account manually</a>."
-msgstr ""
-"您可以使用任意 XMPP 兼容软件连接至 {{ site_name }}。如果您常用的软件未在上方"
-"列出，您仍然可以<a href=\"{{ registration_url }}\">手动注册账号</a>。"
-
-#: priv/mod_invites/register.html:12
+#: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
