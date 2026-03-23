@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-06 12:53+0000\n"
+"PO-Revision-Date: 2026-03-19 07:09+0000\n"
 "Last-Translator: Stefan Strigler <stefan@strigler.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ejabberd/ejabberd-"
 "po/de/>\n"
@@ -3094,9 +3094,8 @@ msgid "A fully-featured desktop chat client for Windows and Linux."
 msgstr "Ein funktionsreicher Desktop-Client für Windows und Linux."
 
 #: priv/mod_invites/register_success.html:3
-#, fuzzy
 msgid "Registration Success"
-msgstr "Fehler beim registrieren"
+msgstr "Registrierung erfolgreich"
 
 #: priv/mod_invites/roster.html:8
 msgid ""
@@ -3121,7 +3120,6 @@ msgid "Registration Error"
 msgstr "Fehler beim Registrieren"
 
 #: priv/mod_invites/invite_invalid.html:2
-#, fuzzy
 msgid "Invite Expired"
 msgstr "Die Einladung ist abgelaufen"
 
@@ -3264,7 +3262,6 @@ msgid "Create an account"
 msgstr "Konto anlegen"
 
 #: priv/mod_invites/invite.html:15
-#, fuzzy
 msgid ""
 "You can connect to {{ site_name }} using any XMPP-compatible software. If "
 "your preferred software is not listed above, you may still <a "
@@ -3273,8 +3270,8 @@ msgid ""
 msgstr ""
 "Du kannst dich mit {{ site_name }} über jede XMPP-kompatible Software "
 "verbinden. Sollte deine gewünschte Software hier oben nicht aufgeführt sein, "
-"so kannst du zumindest <a href=\"{{ registration_url }}\">einen Account "
-"manuell anlegen</a>."
+"so kannst du zumindest <a href=\"{{ registration_url }}\" tabindex='{{ "
+"tabidx }}'>einen Account manuell anlegen</a>."
 
 #: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
@@ -3327,9 +3324,8 @@ msgstr ""
 "Dieser Button funktioniert nur, wenn du die App bereits installiert hast!"
 
 #: priv/mod_invites/register.html:3
-#, fuzzy
 msgid "Registration Form"
-msgstr "Fehler beim Registrieren"
+msgstr "Registrierungsformular"
 
 #: priv/mod_invites/apps.json:154
 msgid ""
@@ -3447,9 +3443,8 @@ msgid "Download Renga for Haiku"
 msgstr "Renga für Haiku herunterladen"
 
 #: priv/mod_invites/base_min.html:6
-#, fuzzy
 msgid "Invite"
-msgstr "Person einladen"
+msgstr "Einladung"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3557,18 +3552,17 @@ msgstr "Bitte gib einen gültigen Benutzernamen ein!"
 
 #: priv/mod_invites/roster.html:15
 msgid "Hint"
-msgstr ""
+msgstr "Hinweis"
 
 #: priv/mod_invites/apps.html:25
-#, fuzzy
 msgid ""
 "Showing apps for <span class='platform-name'>your current platform</span> "
 "only. You may also <a href='#' id='show-all-clients-button' "
 "tabindex=\"{{ tabidx }}\">view all apps.</a>"
 msgstr ""
-"Wir zeigen dir nur Apps für <span class=\"platform-name\">deine aktuelle "
-"Platform</span> an. Du kannst dir gerne auch <a href=\"#\" id=\"show-all-"
-"clients-button\">sämtliche Apps anzeigen lassen</a>."
+"Wir zeigen dir nur Apps für <span class='platform-name'>deine aktuelle "
+"Platform</span> an. Du kannst dir gerne auch <a href='#' id='show-all-"
+"clients-button' tabindex=\"{{ tabidx }}\">sämtliche Apps anzeigen lassen</a>."
 
 #: priv/mod_invites/register.html:15
 msgid ""
