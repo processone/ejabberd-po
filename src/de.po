@@ -65,8 +65,8 @@ msgstr "Akzeptieren"
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
-#: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
+#: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:123
+#: src/mod_register.erl:292 src/mod_register.erl:403 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
 #: src/mod_proxy65_service.erl:246 src/mod_invites.erl:880
 #: src/ejabberd_c2s.erl:552 src/ejabberd_c2s.erl:836 src/mod_stun_disco.erl:506
@@ -247,7 +247,7 @@ msgid "Arguments"
 msgstr "Argumente"
 
 #: src/mod_muc_room.erl:4557 src/mod_muc_room.erl:4695
-#: src/mod_muc_room.erl:5124
+#: src/mod_muc_room.erl:5128
 msgid "Assign a hat to a user"
 msgstr "Hut zu einem Benutzer hinzufügen"
 
@@ -343,7 +343,7 @@ msgstr "Passwort ändern"
 msgid "Change User Password"
 msgstr "Benutzerpasswort ändern"
 
-#: src/mod_register.erl:313
+#: src/mod_register.erl:318
 msgid "Changing password is not allowed"
 msgstr "Ändern des Passwortes ist nicht erlaubt"
 
@@ -395,7 +395,7 @@ msgstr "Chatraum ist beendet"
 msgid "Chatrooms"
 msgstr "Chaträume"
 
-#: src/mod_register.erl:216
+#: src/mod_register.erl:221
 msgid "Choose a username and password to register with this server"
 msgstr ""
 "Wählen Sie zum Registrieren auf diesem Server einen Benutzernamen und ein "
@@ -486,7 +486,7 @@ msgstr "Datenbanktabellen-Konfiguration bei "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
+#: src/node_flat_sql.erl:804 src/mod_register.erl:415 src/mod_roster.erl:454
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -528,7 +528,7 @@ msgid "Deliver payloads with event notifications"
 msgstr "Nutzdaten mit Ereignisbenachrichtigungen zustellen"
 
 #: src/mod_muc_room.erl:4555 src/mod_muc_room.erl:4687
-#: src/mod_muc_room.erl:5110
+#: src/mod_muc_room.erl:5114
 msgid "Destroy a Hat"
 msgstr "Einen Hut zerstören"
 
@@ -570,7 +570,7 @@ msgstr "Dynamisch ein 'replyto' des Item-Veröffentlichers angeben"
 msgid "Edit Properties"
 msgstr "Eigenschaften ändern"
 
-#: src/mod_muc_room.erl:5469
+#: src/mod_muc_room.erl:5473
 msgid "Either approve or decline the voice request."
 msgstr "Sprachrecht-Anforderung entweder genehmigen oder ablehnen."
 
@@ -811,21 +811,21 @@ msgid "Hash of the vCard-temp avatar of this room"
 msgstr "Hash des vCard-temp Avatars dieses Raums"
 
 #: src/mod_muc_room.erl:5083 src/mod_muc_room.erl:5097
-#: src/mod_muc_room.erl:5114 src/mod_muc_room.erl:5178
+#: src/mod_muc_room.erl:5182
 msgid "Hat URI"
 msgstr "Hüte Funktions-URI"
 
 #: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5105
-#: src/mod_muc_room.erl:5182
+#: src/mod_muc_room.erl:5186
 msgid "Hat hue"
 msgstr "Hutfarbe"
 
 #: src/mod_muc_room.erl:5085 src/mod_muc_room.erl:5101
-#: src/mod_muc_room.erl:5180
+#: src/mod_muc_room.erl:5184
 msgid "Hat title"
 msgstr "Huttitle"
 
-#: src/mod_muc_room.erl:5238
+#: src/mod_muc_room.erl:5242
 msgid "Hats limit exceeded"
 msgstr "Hütelimit wurde überschritten"
 
@@ -890,19 +890,19 @@ msgstr "Falscher Domänenteil des 'from'-Attributs"
 msgid "Improper message type"
 msgstr "Unzulässiger Nachrichtentyp"
 
-#: src/mod_muc_room.erl:4740 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4740 src/mod_register.erl:197
 #: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:307
 msgid "Incorrect CAPTCHA submit"
 msgstr "Falsche CAPTCHA-Eingabe"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3743 src/mod_muc.erl:1200
-#: src/mod_register.erl:188 src/mod_vcard.erl:277
+#: src/mod_register.erl:193 src/mod_vcard.erl:277
 #: src/mod_invites_register.erl:303
 msgid "Incorrect data form"
 msgstr "Falsches Datenformular"
 
 #: src/mod_muc_room.erl:2481 src/mod_register_web.erl:594
-#: src/mod_register.erl:143
+#: src/mod_register.erl:148
 msgid "Incorrect password"
 msgstr "Falsches Passwort"
 
@@ -948,7 +948,7 @@ msgstr "Ungültiger 'previd'-Wert"
 msgid "Invalid node name"
 msgstr "Ungültiger Knotenname"
 
-#: src/mod_muc_room.erl:5514
+#: src/mod_muc_room.erl:5518
 msgid "Invitations are not allowed in this conference"
 msgstr "Einladungen sind in dieser Konferenz nicht erlaubt"
 
@@ -986,8 +986,8 @@ msgstr "JID-Normalisierung aufgrund der Dienstrichtlinien verweigert"
 msgid "JID normalization failed"
 msgstr "JID-Normalisierung fehlgeschlagen"
 
-#: src/mod_muc_room.erl:5128 src/mod_muc_room.erl:5146
-#: src/mod_muc_room.erl:5176 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -1055,7 +1055,7 @@ msgid "List of Hats"
 msgstr "Liste aller Hüte"
 
 #: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4703
-#: src/mod_muc_room.erl:5173
+#: src/mod_muc_room.erl:5177
 msgid "List users with hats"
 msgstr "Benutzer mit Funktionen auflisten"
 
@@ -1107,7 +1107,7 @@ msgstr "Raum persistent machen"
 msgid "Make room public searchable"
 msgstr "Raum öffentlich suchbar machen"
 
-#: src/mod_register.erl:396
+#: src/mod_register.erl:401
 msgid "Malformed username"
 msgstr "Ungültiger Benutzername"
 
@@ -1315,7 +1315,7 @@ msgstr "Kein 'item'-Element gefunden"
 msgid "No 'password' found in data form"
 msgstr "Kein 'password' im Datenformular gefunden"
 
-#: src/mod_register.erl:148
+#: src/mod_register.erl:153
 msgid "No 'password' found in this query"
 msgstr "Kein 'password' in dieser Anfrage gefunden"
 
@@ -1325,7 +1325,7 @@ msgstr "Kein 'password' in dieser Anfrage gefunden"
 msgid "No 'path' found in data form"
 msgstr "Kein 'path' im Datenformular gefunden"
 
-#: src/mod_muc_room.erl:5510
+#: src/mod_muc_room.erl:5514
 msgid "No 'to' attribute found in the invitation"
 msgstr "Kein 'to'-Attribut in der Einladung gefunden"
 
@@ -1477,7 +1477,7 @@ msgstr "Keine"
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
-#: src/mod_register.erl:406
+#: src/mod_register.erl:411
 msgid "Not allowed"
 msgstr "Nicht erlaubt"
 
@@ -1609,7 +1609,7 @@ msgstr "Nur Moderatoren und Teilnehmer dürfen das Thema in diesem Raum ändern"
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Nur Moderatoren dürfen das Thema in diesem Raum ändern"
 
-#: src/mod_muc_room.erl:5425
+#: src/mod_muc_room.erl:5429
 msgid "Only moderators are allowed to retract messages"
 msgstr "Nur Moderatoren dürfen Nachrichten zurückziehen"
 
@@ -1617,7 +1617,7 @@ msgstr "Nur Moderatoren dürfen Nachrichten zurückziehen"
 msgid "Only moderators can approve voice requests"
 msgstr "Nur Moderatoren können Sprachrecht-Anforderungen genehmigen"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5579
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Nur Teilnehmer dürfen Nachrichten an die Konferenz senden"
 
@@ -1690,7 +1690,7 @@ msgstr "Teilnehmer-ID"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:234
+#: src/mod_muc_log.erl:852 src/mod_register.erl:239
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/index.html:66 priv/mod_invites/register.html:46
 #: priv/mod_invites/register_success.html:70
@@ -1888,7 +1888,7 @@ msgid "Remove User"
 msgstr "Benutzer löschen"
 
 #: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4699
-#: src/mod_muc_room.erl:5142
+#: src/mod_muc_room.erl:5146
 msgid "Remove a hat from a user"
 msgstr "Eine Funktion bei einem Benutzer entfernen"
 
@@ -2124,7 +2124,7 @@ msgstr "Geben Sie das Veröffentlichermodell an"
 msgid "Stanza ID"
 msgstr "Stanza-ID"
 
-#: src/mod_muc_room.erl:5458
+#: src/mod_muc_room.erl:5462
 msgid "Stanza id is not valid"
 msgstr "Stanza-ID ist ungültig"
 
@@ -2220,7 +2220,7 @@ msgstr "Dieser Spitzname wurde von jemand anderem registriert"
 msgid "The CAPTCHA is valid."
 msgstr "Das CAPTCHA ist gültig."
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4743 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4743 src/mod_register.erl:200
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
 #: src/mod_invites_register.erl:310
 msgid "The CAPTCHA verification has failed"
@@ -2385,11 +2385,11 @@ msgstr "Die Anzahl der Abonnenten des Knotens"
 msgid "The number of unread or undelivered messages"
 msgstr "Die Anzahl der ungelesenen oder nicht zugestellten Nachrichten"
 
-#: src/mod_register.erl:404
+#: src/mod_register.erl:409
 msgid "The password contains unacceptable characters"
 msgstr "Das Passwort enthält ungültige Zeichen"
 
-#: src/mod_register.erl:402
+#: src/mod_register.erl:407
 msgid "The password is too weak"
 msgstr "Das Passwort ist zu schwach"
 
@@ -2410,7 +2410,7 @@ msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
 "Die Präsenzzustände für welche eine Entität Benachrichtigungen erhalten will"
 
-#: src/mod_register.erl:160 src/mod_vcard.erl:241
+#: src/mod_register.erl:165 src/mod_vcard.erl:241
 msgid "The query is only allowed from local users"
 msgstr "Die Anfrage ist nur von lokalen Benutzern erlaubt"
 
@@ -2418,7 +2418,8 @@ msgstr "Die Anfrage ist nur von lokalen Benutzern erlaubt"
 msgid "The query must not contain <item/> elements"
 msgstr "Die Anfrage darf keine <item/>-Elemente enthalten"
 
-#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5136
+#: src/mod_muc_room.erl:5154
 msgid "The role"
 msgstr "Die Rolle"
 
@@ -2507,7 +2508,7 @@ msgstr "Zeitverzögerung"
 msgid "Timed out waiting for stream resumption"
 msgstr "Zeitüberschreitung beim Warten auf Streamfortsetzung"
 
-#: src/mod_register.erl:221
+#: src/mod_register.erl:226
 msgid "To register, visit ~s"
 msgstr "Um sich zu registrieren, besuchen Sie ~s"
 
@@ -2535,7 +2536,7 @@ msgstr "Zu viele <item/>-Elemente"
 msgid "Too many <list/> elements"
 msgstr "Zu viele <list/>-Elemente"
 
-#: src/mod_muc_room.erl:2462 src/mod_register.erl:251
+#: src/mod_muc_room.erl:2462 src/mod_register.erl:256
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "Zu viele CAPTCHA-Anforderungen"
@@ -2572,7 +2573,7 @@ msgstr "Dienstag"
 msgid "URL for Archived Discussion Logs"
 msgstr "URL für archivierte Diskussionsprotokolle"
 
-#: src/mod_muc_room.erl:2471 src/mod_register.erl:255
+#: src/mod_muc_room.erl:2471 src/mod_register.erl:260
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Konnte kein CAPTCHA erstellen"
@@ -2590,7 +2591,7 @@ msgstr "Nicht autorisiert"
 msgid "Unexpected action"
 msgstr "Unerwartete Aktion"
 
-#: src/mod_register.erl:412
+#: src/mod_register.erl:417
 msgid "Unexpected error condition: ~p"
 msgstr "Unerwarteter Fehlerzustand: ~p"
 
@@ -2643,7 +2644,7 @@ msgid "Upgrade"
 msgstr "Upgrade"
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:235
 msgid "User"
 msgstr "Benutzer"
 
@@ -2660,7 +2661,7 @@ msgstr "Benutzer-JID"
 msgid "User Management"
 msgstr "Benutzerverwaltung"
 
-#: src/mod_register.erl:408 src/mod_invites.erl:1329
+#: src/mod_register.erl:413 src/mod_invites.erl:1329
 msgid "User already exists"
 msgstr "Benutzer existiert bereits"
 
@@ -2718,7 +2719,7 @@ msgstr "Benutzer"
 msgid "Users Last Activity"
 msgstr "Letzte Benutzeraktivität"
 
-#: src/mod_register.erl:400
+#: src/mod_register.erl:405
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Benutzer dürfen Konten nicht so schnell registrieren"
 
@@ -2775,7 +2776,7 @@ msgstr "Besucher dürfen in diesem Raum ihren Spitznamen nicht ändern"
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Besucher dürfen nicht an alle Teilnehmer Nachrichten versenden"
 
-#: src/mod_muc_room.erl:5467
+#: src/mod_muc_room.erl:5471
 msgid "Voice request"
 msgstr "Sprachrecht-Anforderung"
 
@@ -2933,7 +2934,7 @@ msgstr "Sie sind zu vielen Konferenzen beigetreten"
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Sie müssen das Feld \"Spitzname\" im Formular ausfüllen"
 
-#: src/mod_register.erl:227
+#: src/mod_register.erl:232
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr ""
 "Sie benötigen einen Client der x:data und CAPTCHA unterstützt, um sich zu "
@@ -3048,7 +3049,7 @@ msgstr "verlässt den Raum"
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:5543
+#: src/mod_muc_room.erl:5547
 msgid "the password is"
 msgstr "das Passwort lautet"
 
@@ -3056,7 +3057,7 @@ msgstr "das Passwort lautet"
 msgid "vCard User Search"
 msgstr "vCard-Benutzer-Suche"
 
-#: src/mod_muc_room.erl:5536
+#: src/mod_muc_room.erl:5540
 msgid "~s invites you to the room ~s"
 msgstr "~s lädt Sie in den Raum ~s ein"
 

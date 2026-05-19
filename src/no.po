@@ -68,8 +68,8 @@ msgstr "Godta"
 #: src/mod_configure.erl:456 src/mod_configure.erl:791
 #: src/mod_configure.erl:1719 src/mod_s2s_dialback.erl:331
 #: src/mod_legacy_auth.erl:146 src/ejabberd_s2s.erl:345 src/mod_muc.erl:224
-#: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:118
-#: src/mod_register.erl:287 src/mod_register.erl:398 src/mod_roster.erl:168
+#: src/mod_muc.erl:713 src/ejabberd_service.erl:232 src/mod_register.erl:123
+#: src/mod_register.erl:292 src/mod_register.erl:403 src/mod_roster.erl:168
 #: src/mod_multicast.erl:304 src/mod_proxy65_service.erl:197
 #: src/mod_proxy65_service.erl:246 src/mod_invites.erl:880
 #: src/ejabberd_c2s.erl:552 src/ejabberd_c2s.erl:836 src/mod_stun_disco.erl:506
@@ -255,7 +255,7 @@ msgid "Arguments"
 msgstr "Kunngjøringer"
 
 #: src/mod_muc_room.erl:4557 src/mod_muc_room.erl:4695
-#: src/mod_muc_room.erl:5124
+#: src/mod_muc_room.erl:5128
 msgid "Assign a hat to a user"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr "Endre passord"
 msgid "Change User Password"
 msgstr "Endre brukerpassord"
 
-#: src/mod_register.erl:313
+#: src/mod_register.erl:318
 #, fuzzy
 msgid "Changing password is not allowed"
 msgstr "Ikke godtatte tegn:"
@@ -411,7 +411,7 @@ msgstr "Samtalerom stoppet"
 msgid "Chatrooms"
 msgstr "Samtalerom"
 
-#: src/mod_register.erl:216
+#: src/mod_register.erl:221
 msgid "Choose a username and password to register with this server"
 msgstr "Velg et brukernavn og passord for å registrere deg på denne tjeneren"
 
@@ -502,7 +502,7 @@ msgstr "Database-tabelloppsett på "
 #: src/mod_privacy.erl:183 src/mod_privacy.erl:277 src/mod_privacy.erl:293
 #: src/mod_privacy.erl:326 src/mod_privacy.erl:343 src/mod_mix.erl:653
 #: src/mod_last.erl:185 src/mod_muc.erl:804 src/mod_muc.erl:1177
-#: src/node_flat_sql.erl:804 src/mod_register.erl:410 src/mod_roster.erl:453
+#: src/node_flat_sql.erl:804 src/mod_register.erl:415 src/mod_roster.erl:454
 #: src/nodetree_tree_sql.erl:100 src/nodetree_tree_sql.erl:130
 #: src/nodetree_tree_sql.erl:144 src/nodetree_tree_sql.erl:314
 #: src/mod_blocking.erl:261 src/mod_vcard.erl:248
@@ -546,7 +546,7 @@ msgid "Deliver payloads with event notifications"
 msgstr "Send innhold sammen med hendelsesmerknader"
 
 #: src/mod_muc_room.erl:4555 src/mod_muc_room.erl:4687
-#: src/mod_muc_room.erl:5110
+#: src/mod_muc_room.erl:5114
 msgid "Destroy a Hat"
 msgstr ""
 
@@ -591,7 +591,7 @@ msgstr ""
 msgid "Edit Properties"
 msgstr "Rediger egenskaper"
 
-#: src/mod_muc_room.erl:5469
+#: src/mod_muc_room.erl:5473
 msgid "Either approve or decline the voice request."
 msgstr "Enten godkjenn eller forby lydforespørselen."
 
@@ -847,23 +847,23 @@ msgid "Hash of the vCard-temp avatar of this room"
 msgstr ""
 
 #: src/mod_muc_room.erl:5083 src/mod_muc_room.erl:5097
-#: src/mod_muc_room.erl:5114 src/mod_muc_room.erl:5178
+#: src/mod_muc_room.erl:5182
 msgid "Hat URI"
 msgstr ""
 
 #: src/mod_muc_room.erl:5087 src/mod_muc_room.erl:5105
-#: src/mod_muc_room.erl:5182
+#: src/mod_muc_room.erl:5186
 #, fuzzy
 msgid "Hat hue"
 msgstr "Rom-tittel"
 
 #: src/mod_muc_room.erl:5085 src/mod_muc_room.erl:5101
-#: src/mod_muc_room.erl:5180
+#: src/mod_muc_room.erl:5184
 #, fuzzy
 msgid "Hat title"
 msgstr "Rom-tittel"
 
-#: src/mod_muc_room.erl:5238
+#: src/mod_muc_room.erl:5242
 #, fuzzy
 msgid "Hats limit exceeded"
 msgstr "Grense for tillatt trafikkmengde overskredet"
@@ -933,21 +933,21 @@ msgstr ""
 msgid "Improper message type"
 msgstr "Feilaktig meldingstype"
 
-#: src/mod_muc_room.erl:4740 src/mod_register.erl:192
+#: src/mod_muc_room.erl:4740 src/mod_register.erl:197
 #: src/ejabberd_captcha.erl:221 src/mod_invites_register.erl:307
 #, fuzzy
 msgid "Incorrect CAPTCHA submit"
 msgstr "Feilaktig CAPTCHA-innsendelse"
 
 #: src/mod_pubsub.erl:1252 src/mod_muc_room.erl:3743 src/mod_muc.erl:1200
-#: src/mod_register.erl:188 src/mod_vcard.erl:277
+#: src/mod_register.erl:193 src/mod_vcard.erl:277
 #: src/mod_invites_register.erl:303
 #, fuzzy
 msgid "Incorrect data form"
 msgstr "Feil passord"
 
 #: src/mod_muc_room.erl:2481 src/mod_register_web.erl:594
-#: src/mod_register.erl:143
+#: src/mod_register.erl:148
 msgid "Incorrect password"
 msgstr "Feil passord"
 
@@ -996,7 +996,7 @@ msgstr "Ugyldig rolle: ~s"
 msgid "Invalid node name"
 msgstr "Ugyldig rolle: ~s"
 
-#: src/mod_muc_room.erl:5514
+#: src/mod_muc_room.erl:5518
 #, fuzzy
 msgid "Invitations are not allowed in this conference"
 msgstr "Lyd forespørsler er blokkert i denne konferansen"
@@ -1037,8 +1037,8 @@ msgstr "Oppretting av rom nektes av en tjenste regel"
 msgid "JID normalization failed"
 msgstr "JID-normalisering mislyktes"
 
-#: src/mod_muc_room.erl:5128 src/mod_muc_room.erl:5146
-#: src/mod_muc_room.erl:5176 src/mod_configure.erl:1071
+#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5180 src/mod_configure.erl:1071
 #: src/mod_configure.erl:1088 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1106 src/mod_configure.erl:1116
 #: src/mod_configure.erl:1126 src/mod_configure.erl:1140
@@ -1110,7 +1110,7 @@ msgid "List of Hats"
 msgstr "Lyttende Porter"
 
 #: src/mod_muc_room.erl:4559 src/mod_muc_room.erl:4703
-#: src/mod_muc_room.erl:5173
+#: src/mod_muc_room.erl:5177
 msgid "List users with hats"
 msgstr ""
 
@@ -1164,7 +1164,7 @@ msgstr "Gjør rommet vedvarende"
 msgid "Make room public searchable"
 msgstr "Gjør rommet offentlig søkbart"
 
-#: src/mod_register.erl:396
+#: src/mod_register.erl:401
 #, fuzzy
 msgid "Malformed username"
 msgstr "IRC brukernavn"
@@ -1383,7 +1383,7 @@ msgstr "Noden finnes ikke"
 msgid "No 'password' found in data form"
 msgstr ""
 
-#: src/mod_register.erl:148
+#: src/mod_register.erl:153
 msgid "No 'password' found in this query"
 msgstr ""
 
@@ -1393,7 +1393,7 @@ msgstr ""
 msgid "No 'path' found in data form"
 msgstr ""
 
-#: src/mod_muc_room.erl:5510
+#: src/mod_muc_room.erl:5514
 msgid "No 'to' attribute found in the invitation"
 msgstr ""
 
@@ -1554,7 +1554,7 @@ msgstr "Ingen"
 msgid "Not Found"
 msgstr "Finnes ikke"
 
-#: src/mod_register.erl:406
+#: src/mod_register.erl:411
 #, fuzzy
 msgid "Not allowed"
 msgstr "Finnes Ikke"
@@ -1697,7 +1697,7 @@ msgstr "Bare redaktører og deltakere kan endre dette rommets emne"
 msgid "Only moderators are allowed to change the subject in this room"
 msgstr "Bare ordstyrer tillates å endre emnet i dette rommet"
 
-#: src/mod_muc_room.erl:5425
+#: src/mod_muc_room.erl:5429
 #, fuzzy
 msgid "Only moderators are allowed to retract messages"
 msgstr "Bare tjenesteadministratorer tillates å sende tjenestemeldinger"
@@ -1707,7 +1707,7 @@ msgstr "Bare tjenesteadministratorer tillates å sende tjenestemeldinger"
 msgid "Only moderators can approve voice requests"
 msgstr "Bare ordstyrer kan godkjenne lydforespørsler"
 
-#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5579
+#: src/mod_muc_room.erl:661 src/mod_muc_room.erl:1144 src/mod_muc_room.erl:5583
 msgid "Only occupants are allowed to send messages to the conference"
 msgstr "Bare deltakere får sende normale meldinger til konferansen"
 
@@ -1781,7 +1781,7 @@ msgstr "Deltager"
 
 #: src/ejabberd_oauth.erl:545 src/mod_configure.erl:1075
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1762
-#: src/mod_muc_log.erl:852 src/mod_register.erl:234
+#: src/mod_muc_log.erl:852 src/mod_register.erl:239
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:2227
 #: priv/mod_invites/index.html:66 priv/mod_invites/register.html:46
 #: priv/mod_invites/register_success.html:70
@@ -1991,7 +1991,7 @@ msgid "Remove User"
 msgstr "Fjern bruker"
 
 #: src/mod_muc_room.erl:4558 src/mod_muc_room.erl:4699
-#: src/mod_muc_room.erl:5142
+#: src/mod_muc_room.erl:5146
 msgid "Remove a hat from a user"
 msgstr ""
 
@@ -2234,7 +2234,7 @@ msgstr "Angi publiseringsmodell"
 msgid "Stanza ID"
 msgstr ""
 
-#: src/mod_muc_room.erl:5458
+#: src/mod_muc_room.erl:5462
 #, fuzzy
 msgid "Stanza id is not valid"
 msgstr "Brukernavnet er ikke gyldig"
@@ -2329,7 +2329,7 @@ msgstr "Det kallenavnet er registrert av en annen person"
 msgid "The CAPTCHA is valid."
 msgstr "CAPTCHA-en er gyldig."
 
-#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4743 src/mod_register.erl:195
+#: src/mod_muc_room.erl:953 src/mod_muc_room.erl:4743 src/mod_register.erl:200
 #: src/mod_block_strangers.erl:157 src/ejabberd_captcha.erl:224
 #: src/mod_invites_register.erl:310
 msgid "The CAPTCHA verification has failed"
@@ -2488,11 +2488,11 @@ msgstr "Tillat denne Jabber ID å abonnere på denne pubsub "
 msgid "The number of unread or undelivered messages"
 msgstr "Antallet uleste eller uleverte meldinger"
 
-#: src/mod_register.erl:404
+#: src/mod_register.erl:409
 msgid "The password contains unacceptable characters"
 msgstr "Passordet inneholder ulovlige tegn"
 
-#: src/mod_register.erl:402
+#: src/mod_register.erl:407
 msgid "The password is too weak"
 msgstr "Passordet er for svakt"
 
@@ -2515,7 +2515,7 @@ msgstr "Passordet er for svakt"
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr "Tilstedeværelsestilstandene en eksistens ønsker å motta merknader for"
 
-#: src/mod_register.erl:160 src/mod_vcard.erl:241
+#: src/mod_register.erl:165 src/mod_vcard.erl:241
 msgid "The query is only allowed from local users"
 msgstr "Spørringen tillates kun fra lokale brukere"
 
@@ -2523,7 +2523,8 @@ msgstr "Spørringen tillates kun fra lokale brukere"
 msgid "The query must not contain <item/> elements"
 msgstr "Spørringen kan ikke inneholde <item/>-elementer"
 
-#: src/mod_muc_room.erl:5132 src/mod_muc_room.erl:5150
+#: src/mod_muc_room.erl:5118 src/mod_muc_room.erl:5136
+#: src/mod_muc_room.erl:5154
 msgid "The role"
 msgstr ""
 
@@ -2612,7 +2613,7 @@ msgstr "Tidsforsinkelse"
 msgid "Timed out waiting for stream resumption"
 msgstr ""
 
-#: src/mod_register.erl:221
+#: src/mod_register.erl:226
 msgid "To register, visit ~s"
 msgstr "Besøk ~s for registrering"
 
@@ -2639,7 +2640,7 @@ msgstr "For mange <item/>-elementer"
 msgid "Too many <list/> elements"
 msgstr "For mange <list/>-elementer"
 
-#: src/mod_muc_room.erl:2462 src/mod_register.erl:251
+#: src/mod_muc_room.erl:2462 src/mod_register.erl:256
 #: src/mod_block_strangers.erl:134
 msgid "Too many CAPTCHA requests"
 msgstr "For mange CAPTCHA-forespørsler"
@@ -2677,7 +2678,7 @@ msgstr "tirsdag"
 msgid "URL for Archived Discussion Logs"
 msgstr ""
 
-#: src/mod_muc_room.erl:2471 src/mod_register.erl:255
+#: src/mod_muc_room.erl:2471 src/mod_register.erl:260
 #: src/mod_block_strangers.erl:138
 msgid "Unable to generate a CAPTCHA"
 msgstr "Kunne ikke generere CAPTCHA"
@@ -2695,7 +2696,7 @@ msgstr "Uautorisert"
 msgid "Unexpected action"
 msgstr ""
 
-#: src/mod_register.erl:412
+#: src/mod_register.erl:417
 msgid "Unexpected error condition: ~p"
 msgstr ""
 
@@ -2747,7 +2748,7 @@ msgid "Upgrade"
 msgstr ""
 
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_sql.erl:227
-#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:230
+#: src/mod_vcard_mnesia.erl:99 src/mod_register.erl:235
 msgid "User"
 msgstr "Bruker"
 
@@ -2766,7 +2767,7 @@ msgstr "Bruker-JID"
 msgid "User Management"
 msgstr "Brukerhåndtering"
 
-#: src/mod_register.erl:408 src/mod_invites.erl:1329
+#: src/mod_register.erl:413 src/mod_invites.erl:1329
 msgid "User already exists"
 msgstr "Brukeren finnes allerede"
 
@@ -2830,7 +2831,7 @@ msgstr "Brukere"
 msgid "Users Last Activity"
 msgstr "Brukers siste aktivitet"
 
-#: src/mod_register.erl:400
+#: src/mod_register.erl:405
 msgid "Users are not allowed to register accounts so quickly"
 msgstr "Brukere har ikke lov til registrere kontoer så fort"
 
@@ -2888,7 +2889,7 @@ msgstr "Besøkende får ikke lov å endre kallenavn i dette rommet"
 msgid "Visitors are not allowed to send messages to all occupants"
 msgstr "Besøkende får ikke sende meldinger til alle deltakere"
 
-#: src/mod_muc_room.erl:5467
+#: src/mod_muc_room.erl:5471
 msgid "Voice request"
 msgstr "Stemmeforespørsel"
 
@@ -3050,7 +3051,7 @@ msgstr "Du har tilknyttet deg for mange konferanser"
 msgid "You must fill in field \"Nickname\" in the form"
 msgstr "Du må fylle inn feltet «Kallenavn» i skjemaet"
 
-#: src/mod_register.erl:227
+#: src/mod_register.erl:232
 msgid "You need a client that supports x:data and CAPTCHA to register"
 msgstr "Du trenger en klient som støtter x:data og CAPTCHA for registrering"
 
@@ -3169,7 +3170,7 @@ msgstr "forlater rommet"
 msgid "private, "
 msgstr "privat, "
 
-#: src/mod_muc_room.erl:5543
+#: src/mod_muc_room.erl:5547
 msgid "the password is"
 msgstr "passordet er"
 
@@ -3177,7 +3178,7 @@ msgstr "passordet er"
 msgid "vCard User Search"
 msgstr "vCard-brukersøk"
 
-#: src/mod_muc_room.erl:5536
+#: src/mod_muc_room.erl:5540
 #, fuzzy
 msgid "~s invites you to the room ~s"
 msgstr "~s inviterer deg til rommet ~s"
