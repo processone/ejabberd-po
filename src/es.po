@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-09 18:12+0000\n"
+"PO-Revision-Date: 2026-05-14 14:11+0000\n"
 "Last-Translator: badlop <badlop@gmx.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/es/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "X-Language: Spanish (castellano)\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -959,9 +959,8 @@ msgstr "Invitar Usuario"
 
 #: src/mod_invites.erl:356 src/mod_invites.erl:363 src/mod_invites.erl:381
 #: src/mod_invites.erl:387
-#, fuzzy
 msgid "Invites"
-msgstr "Invitar"
+msgstr "Invitaciones"
 
 #: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1487
 msgid ""
@@ -1714,9 +1713,8 @@ msgid "Password Verification:"
 msgstr "Verificación de la contraseña:"
 
 #: src/mod_invites_http.erl:190
-#, fuzzy
 msgid "Password invalid"
-msgstr "Contraseña ~b"
+msgstr "La contraseña no es válida"
 
 #: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
@@ -2020,9 +2018,8 @@ msgid "Search from the date"
 msgstr "Buscar desde la fecha"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:391
-#, fuzzy
 msgid "Search the text (obsolete)"
-msgstr "Buscar el texto"
+msgstr "Buscar el texto (obsoleto)"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
@@ -2672,9 +2669,8 @@ msgid "User already exists"
 msgstr "El usuario ya existe"
 
 #: src/mod_invites_http.erl:183
-#, fuzzy
 msgid "User is not allowed to create invites"
-msgstr "No tienes permitido crear nodos"
+msgstr "El usuario no tiene permitido crear invitaciones"
 
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
@@ -2699,14 +2695,12 @@ msgid "User ~ts"
 msgstr "Usuario ~ts"
 
 #: src/mod_invites_http.erl:667
-#, fuzzy
 msgid "Username contains invalid characters"
-msgstr "La contraseña contiene caracteres inaceptables"
+msgstr "La contraseña contiene caracteres no válidos"
 
 #: src/mod_invites_http.erl:665
-#, fuzzy
 msgid "Username exists already"
-msgstr "El nombre de usuario está reservado"
+msgstr "El nombre de usuario ya existe"
 
 #: src/mod_invites.erl:1319
 msgid "Username invalid"
@@ -3148,6 +3142,8 @@ msgid ""
 "If checked once an account is created using this invite, it will "
 "automatically be added to your contact list."
 msgstr ""
+"Si está activado, cuando se cree una cuenta usando esta invitación, se "
+"añadirá automáticamente a tu lista de contactos."
 
 #: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
@@ -3175,13 +3171,12 @@ msgstr ""
 "decentralizada."
 
 #: priv/mod_invites/index.html:77
-#, fuzzy
 msgid "Invite Options"
-msgstr "Opciones"
+msgstr "Opciones de Invitación"
 
 #: priv/mod_invites/reset_success.html:3
 msgid "Password Change Success"
-msgstr ""
+msgstr "Contraseña cambiada con éxito"
 
 #: priv/mod_invites/register_error.html:4
 msgid "Registration error"
@@ -3228,7 +3223,7 @@ msgstr "¡Enhorabuena!"
 
 #: priv/mod_invites/index.html:18 priv/mod_invites/index.html:17
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copiar al portapapeles"
 
 #: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
@@ -3291,9 +3286,8 @@ msgstr ""
 "credenciales."
 
 #: priv/mod_invites/reset_error.html:4
-#, fuzzy
 msgid "Password reset error"
-msgstr "Error en el procesado"
+msgstr "Error al restablecer la contraseña"
 
 #: priv/mod_invites/base.html:26
 msgid ""
@@ -3341,6 +3335,9 @@ msgid ""
 "change your password, maybe because you forgot your old one, you've come to "
 "the right place!"
 msgstr ""
+"Oye, <strong class=\"text-alert\">{{ username }}</strong>, si quieres "
+"cambiar tu contraseña, quizá porque olvidaste tu antigua contraseña, ¡has "
+"llegado al lugar indicado!"
 
 #: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
@@ -3353,7 +3350,7 @@ msgstr "Dirección de charla (JID)"
 
 #: priv/mod_invites/index.html:16
 msgid "Copied!"
-msgstr ""
+msgstr "¡Copiado!"
 
 #: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
@@ -3384,9 +3381,8 @@ msgstr ""
 "También puedes entrar en tu cuenta ¡usando el chat web en linea!"
 
 #: priv/mod_invites/reset_token.html:31
-#, fuzzy
 msgid "New Password"
-msgstr "Nueva contraseña:"
+msgstr "Nueva contraseña"
 
 #: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
@@ -3403,6 +3399,10 @@ msgid ""
 "have the <strong>necessary rights</strong> to do so, otherwise this command "
 "will fail."
 msgstr ""
+"Este formulario te permite crear una invitación para enviar a alguien, y así "
+"podrá crearse una cuenta nueva en este servicio. Ten en cuenta que necesitas "
+"tener los <strong>permisos necesarios</strong> para hacer esto, en caso "
+"contrario este comando fallará."
 
 #: priv/mod_invites/apps.json:154
 msgid ""
@@ -3415,7 +3415,7 @@ msgstr ""
 
 #: priv/mod_invites/reset_token.html:10
 msgid "If this is not you, please disregard!"
-msgstr ""
+msgstr "Si no eres esta persona, ¡por favor disculpa!"
 
 #: priv/mod_invites/apps.json:91
 msgid ""
@@ -3464,22 +3464,19 @@ msgstr "Logo de la F-Droid Store"
 
 #: priv/mod_invites/index.html:14
 msgid "Your Invite-Link:"
-msgstr ""
+msgstr "Tu Enlace-Invitación:"
 
 #: priv/mod_invites/reset_token.html:15 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Reset Password"
-msgstr "Nueva contraseña:"
+msgstr "Restablecer Contraseña"
 
 #: priv/mod_invites/reset_token.html:4
-#, fuzzy
 msgid "Reset Password on {{ site_name }}"
-msgstr "Registrar en {{ site_name }}"
+msgstr "Restablecer contraseña en {{ site_name }}"
 
 #: priv/mod_invites/index.html:4
-#, fuzzy
 msgid "Welcome to {{ site_name }}"
-msgstr "Invitación a {{ site_name }}"
+msgstr "Te damos la bienvenida a {{ site_name }}"
 
 #: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
@@ -3500,18 +3497,16 @@ msgstr ""
 "<strong>{{ app_name }}</strong>, primero créate una cuenta."
 
 #: priv/mod_invites/index.html:71
-#, fuzzy
 msgid "Please provide a password!"
-msgstr "¡Por favor proporciona un nombre de usuario válido!"
+msgstr "¡Por favor proporciona una contraseña!"
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
 msgstr "¡{{ inviter }} te ha invitado a conectarte!"
 
 #: priv/mod_invites/index.html:3
-#, fuzzy
 msgid "Startpage"
-msgstr "Iniciar"
+msgstr "Página de inicio"
 
 #: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
@@ -3519,7 +3514,7 @@ msgstr "Descarga Dino para Linux"
 
 #: priv/mod_invites/index.html:80
 msgid "Suggested Name"
-msgstr ""
+msgstr "Nombre Sugerido"
 
 #: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
@@ -3541,6 +3536,7 @@ msgstr "Mostrar"
 msgid ""
 "You can suggest a username for the account to be created with this invite."
 msgstr ""
+"Puedes sugerir un nombre para la cuenta que se creará con esta invitación."
 
 #: priv/mod_invites/register.html:54 priv/mod_invites/reset_token.html:39
 msgid "Enter a secure password that you do not use anywhere else."
@@ -3604,35 +3600,32 @@ msgstr ""
 #: priv/mod_invites/index.html:62
 msgid "Enter the username you use to log into this service."
 msgstr ""
+"Indica el nombre de la cuenta que usas para conectarte en este servicio."
 
 #: priv/mod_invites/base.html:20
 msgid "Scan invite code"
 msgstr "Escanear el código de invitación"
 
 #: priv/mod_invites/reset_success.html:8
-#, fuzzy
 msgid "You have changed your password on <strong>{{ site_name }}</strong>."
-msgstr "Has registrado tu cuenta en <strong>{{ site_name }}</strong>."
+msgstr "Has cambiado tu contraseña en <strong>{{ site_name }}</strong>."
 
 #: priv/mod_invites/index.html:4 priv/mod_invites/index.html:3
 #: priv/mod_invites/reset_token.html:4 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Form Error"
-msgstr "Error"
+msgstr "Error en el formulario"
 
 #: priv/mod_invites/reset_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem changing your account password."
-msgstr "Lo siento, ha habido un problema durante el registro de tu cuenta."
+msgstr "Lo siento, ha habido un problema cambiando la contraseña de tu cuenta."
 
 #: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "Cliente XMPP para Haiku"
 
 #: priv/mod_invites/index.html:97
-#, fuzzy
 msgid "Add to contact list"
-msgstr "Añade {{ inviter }} a tu lista de contactos"
+msgstr "Añade a la lista de contactos"
 
 #: priv/mod_invites/client.html:64 priv/mod_invites/index.html:37
 #: priv/mod_invites/register.html:64
@@ -3641,7 +3634,7 @@ msgstr "Navegación de Página"
 
 #: priv/mod_invites/index.html:73
 msgid "Enter the corresponding password."
-msgstr ""
+msgstr "Indica la contraseña correspondiente."
 
 #: priv/mod_invites/register.html:9
 msgid ""
@@ -3674,18 +3667,16 @@ msgstr ""
 "programa XMPP que has elegido."
 
 #: priv/mod_invites/index.html:30
-#, fuzzy
 msgid ""
 "You can transfer this invite to a mobile device by scanning the QR code "
 "below with its camera."
 msgstr ""
-"Puedes transferir esta invitación a tu móvil si escaneas el código con la "
-"cámara de fotos."
+"Puedes transferir esta invitación a tu móvil si escaneas este código QR con "
+"la cámara de fotos."
 
 #: priv/mod_invites/index.html:16
-#, fuzzy
 msgid "Failed to copy data"
-msgstr "Falló la comprensión de chanserv"
+msgstr "Falló la copia de datos"
 
 #: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
@@ -3760,13 +3751,12 @@ msgstr ""
 "cámara de fotos."
 
 #: priv/mod_invites/reset_success.html:10
-#, fuzzy
 msgid ""
 "To continue chatting, you need to enter your new account credentials into "
 "your chosen XMPP software."
 msgstr ""
-"Para comenzar a charlar, introduce las credenciales de tu nueva cuenta en el "
-"programa XMPP que has elegido."
+"Para continuar charlando, introduce las credenciales de tu nueva cuenta en "
+"el programa XMPP que has elegido."
 
 #: priv/mod_invites/register.html:11
 msgid ""

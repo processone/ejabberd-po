@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-03-12 01:09+0000\n"
+"PO-Revision-Date: 2026-05-14 14:11+0000\n"
 "Last-Translator: Sketch6580 <sketch6580@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/ejabberd/ejabberd-po/zh_Hans/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "X-Language: Chinese (中文)\n"
 "X-Additional-Translator: Mike Wang\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -270,7 +270,7 @@ msgstr "八月"
 
 #: src/mod_pubsub.erl:1923
 msgid "Automatic node creation is not enabled"
-msgstr "未启用自动节点创建"
+msgstr "自动节点创建未启用"
 
 #: src/mod_invites_http.erl:51
 msgid "BAD REQUEST"
@@ -390,7 +390,7 @@ msgstr "聊天室"
 
 #: src/mod_register.erl:216
 msgid "Choose a username and password to register with this server"
-msgstr "请选择要在此服务器中注册的用户名和密码"
+msgstr "选择用户名和密码以在此服务器上注册"
 
 #: src/mod_configure.erl:906
 msgid "Choose storage type of tables"
@@ -597,28 +597,28 @@ msgstr "结束用户会话"
 
 #: src/mod_muc.erl:1129
 msgid "Enter nickname you want to register"
-msgstr "请输入要注册的昵称"
+msgstr "输入您要注册的昵称"
 
 #: src/mod_configure.erl:935 src/mod_configure.erl:947
 msgid "Enter path to backup file"
-msgstr "请输入备份文件路径"
+msgstr "输入备份文件的路径"
 
 #: src/mod_configure.erl:981
 msgid "Enter path to jabberd14 spool dir"
-msgstr "请输入 jabberd14 spool 目录路径"
+msgstr "输入 jabberd14 spool 目录的路径"
 
 #: src/mod_configure.erl:970
 msgid "Enter path to jabberd14 spool file"
-msgstr "请输入 jabberd14 spool 文件路径"
+msgstr "输入 jabberd14 spool 文件的路径"
 
 #: src/mod_configure.erl:959
 msgid "Enter path to text file"
-msgstr "请输入文本文件路径"
+msgstr "输入文本文件的路径"
 
 #: src/ejabberd_captcha.erl:73
 #: _build/translations/lib/xmpp/src/captcha_form.erl:837
 msgid "Enter the text you see"
-msgstr "请输入您看到的文本"
+msgstr "输入您看到的文本"
 
 #: src/mod_vcard.erl:223
 msgid "Erlang XMPP Server"
@@ -933,7 +933,7 @@ msgstr "节点名称无效"
 
 #: src/mod_muc_room.erl:5514
 msgid "Invitations are not allowed in this conference"
-msgstr "此会议不允许邀请"
+msgstr "此会议中不允许邀请"
 
 #: src/mod_invites.erl:653 src/mod_invites.erl:857
 msgid "Invite User"
@@ -941,7 +941,6 @@ msgstr "邀请用户"
 
 #: src/mod_invites.erl:356 src/mod_invites.erl:363 src/mod_invites.erl:381
 #: src/mod_invites.erl:387
-#, fuzzy
 msgid "Invites"
 msgstr "邀请"
 
@@ -950,7 +949,8 @@ msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
-"不允许向此房间发送错误消息。参与者（~s）发送了错误消息（~s），被踢出了房间"
+"不允许向此房间发送错误消息。该参与者（~s）已发送错误消息（~s），并已被踢出房"
+"间"
 
 #: src/mod_muc_room.erl:618
 msgid "It is not allowed to send private messages of type \"groupchat\""
@@ -1140,7 +1140,7 @@ msgstr "允许成员邀请他人"
 
 #: src/mod_muc_room.erl:2368
 msgid "Membership is required to enter this room"
-msgstr "进入此房间需要成员资格"
+msgstr "需要成员资格才能进入此房间"
 
 #: src/mod_register_web.erl:283
 msgid ""
@@ -1295,7 +1295,7 @@ msgstr "在数据表单中未找到“password”"
 
 #: src/mod_register.erl:148
 msgid "No 'password' found in this query"
-msgstr "在此查询中未找到“password”"
+msgstr "此查询中未找到“password”"
 
 #: src/mod_configure.erl:1322 src/mod_configure.erl:1355
 #: src/mod_configure.erl:1388 src/mod_configure.erl:1420
@@ -1353,7 +1353,7 @@ msgstr "未找到有关上次活动的信息"
 
 #: src/mod_blocking.erl:88
 msgid "No items found in this query"
-msgstr "在此查询中未找到任何项目"
+msgstr "此查询中未找到项目"
 
 #: src/mod_muc_room.erl:3888
 #: _build/translations/lib/xmpp/src/muc_roomconfig.erl:1997
@@ -1386,7 +1386,7 @@ msgstr "未找到具有此名称的隐私列表"
 
 #: src/mod_private.erl:186
 msgid "No private data found in this query"
-msgstr "在此查询中未找到专用数据"
+msgstr "此查询中未找到专用数据"
 
 #: src/mod_configure.erl:894 src/mod_configure.erl:1284
 #: src/mod_configure.erl:1317 src/mod_configure.erl:1350
@@ -1578,11 +1578,11 @@ msgstr "只有成员才能查询此房间的归档"
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
-msgstr "只允许主持人和参与者更改此房间的主题"
+msgstr "此房间中只允许主持人和参与者更改主题"
 
 #: src/mod_muc_room.erl:1130
 msgid "Only moderators are allowed to change the subject in this room"
-msgstr "只允许主持人更改此房间的主题"
+msgstr "此房间中只允许主持人更改主题"
 
 #: src/mod_muc_room.erl:5425
 msgid "Only moderators are allowed to retract messages"
@@ -1683,9 +1683,8 @@ msgid "Password Verification:"
 msgstr "密码验证："
 
 #: src/mod_invites_http.erl:190
-#, fuzzy
 msgid "Password invalid"
-msgstr "~b的密码"
+msgstr "密码无效"
 
 #: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
@@ -1693,12 +1692,12 @@ msgstr "密码："
 
 #: src/mod_configure.erl:983
 msgid "Path to Dir"
-msgstr "目录路径"
+msgstr "目录的路径"
 
 #: src/mod_configure.erl:937 src/mod_configure.erl:949
 #: src/mod_configure.erl:961 src/mod_configure.erl:972
 msgid "Path to File"
-msgstr "文件路径"
+msgstr "文件的路径"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:861
 msgid "Payload semantic type information"
@@ -1797,7 +1796,7 @@ msgstr "未找到推送记录"
 
 #: src/mod_muc_room.erl:709
 msgid "Queries to the conference members are not allowed in this room"
-msgstr "此房间不允许向会议成员查询"
+msgstr "此房间中不允许向会议成员查询"
 
 #: src/mod_private.erl:210 src/mod_offline.erl:323 src/mod_privacy.erl:125
 #: src/mod_disco.erl:269 src/mod_disco.erl:326 src/mod_roster.erl:137
@@ -1986,9 +1985,8 @@ msgid "Search from the date"
 msgstr "从日期搜索"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:391
-#, fuzzy
 msgid "Search the text (obsolete)"
-msgstr "搜索文本"
+msgstr "搜索文本（已废弃）"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
@@ -2120,7 +2118,7 @@ msgstr "流管理已启用"
 
 #: src/mod_stream_mgmt.erl:383
 msgid "Stream management is not enabled"
-msgstr "未启用流管理"
+msgstr "流管理未启用"
 
 #: src/mod_announce.erl:569 src/mod_configure.erl:1021
 #: src/mod_configure.erl:1061
@@ -2238,11 +2236,11 @@ msgstr ""
 
 #: src/mod_register_web.erl:592
 msgid "The account already exists"
-msgstr "此账号已存在"
+msgstr "该账号已存在"
 
 #: src/mod_register_web.erl:600
 msgid "The account was not unregistered"
-msgstr "此账号未注销"
+msgstr "该账号未注销"
 
 #: _build/translations/lib/xmpp/src/push_summary.erl:432
 msgid "The body text of the last received message"
@@ -2459,7 +2457,7 @@ msgstr "等待流恢复超时"
 
 #: src/mod_register.erl:221
 msgid "To register, visit ~s"
-msgstr "要注册，请访问 ~s"
+msgstr "如需注册，请访问 ~s"
 
 #: src/mod_configure.erl:742
 msgid "To ~ts"
@@ -2520,7 +2518,7 @@ msgstr "周二"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1098
 msgid "URL for Archived Discussion Logs"
-msgstr "已归档的讨论日志 URL"
+msgstr "已归档讨论日志的 URL"
 
 #: src/mod_muc_room.erl:2471 src/mod_register.erl:255
 #: src/mod_block_strangers.erl:138
@@ -2612,9 +2610,8 @@ msgid "User already exists"
 msgstr "用户已存在"
 
 #: src/mod_invites_http.erl:183
-#, fuzzy
 msgid "User is not allowed to create invites"
-msgstr "不允许您创建节点"
+msgstr "不允许用户创建邀请"
 
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
@@ -2637,14 +2634,12 @@ msgid "User ~ts"
 msgstr "用户 ~ts"
 
 #: src/mod_invites_http.erl:667
-#, fuzzy
 msgid "Username contains invalid characters"
-msgstr "密码包含不可接受的字符"
+msgstr "用户名包含无效字符"
 
 #: src/mod_invites_http.erl:665
-#, fuzzy
 msgid "Username exists already"
-msgstr "用户名已被保留"
+msgstr "用户名已存在"
 
 #: src/mod_invites.erl:1319
 msgid "Username invalid"
@@ -2652,7 +2647,7 @@ msgstr "用户名无效"
 
 #: src/mod_invites_http.erl:669 src/mod_invites.erl:1327
 msgid "Username is reserved"
-msgstr "用户名已被保留"
+msgstr "用户名已保留"
 
 #: src/mod_register_web.erl:251 src/mod_register_web.erl:390
 #: src/mod_register_web.erl:501
@@ -2719,7 +2714,7 @@ msgstr "参观者"
 
 #: src/mod_muc_room.erl:1420
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr "不允许参观者在此房间中更改其昵称"
+msgstr "此房间中不允许参观者更改其昵称"
 
 #: src/mod_muc_room.erl:1137
 msgid "Visitors are not allowed to send messages to all occupants"
@@ -2847,7 +2842,7 @@ msgstr "关联发布–订阅节点的 XMPP URI"
 
 #: src/mod_muc_room.erl:999
 msgid "You are being removed from the room because of a system shutdown"
-msgstr "由于系统关闭，您将被移出房间"
+msgstr "您因系统关闭正在被移出房间"
 
 #: src/mod_muc_room.erl:655 src/mod_muc_room.erl:666
 msgid "You are not allowed to send private messages"
@@ -2863,7 +2858,7 @@ msgstr "您之后可以使用 XMPP 客户端更改密码。"
 
 #: src/mod_muc_room.erl:2365 src/mod_muc_rtbl.erl:191
 msgid "You have been banned from this room"
-msgstr "禁止您进入此房间"
+msgstr "您已被禁止进入此房间"
 
 #: src/mod_muc_room.erl:2346
 msgid "You have joined too many conferences"
@@ -2899,7 +2894,7 @@ msgstr "您的 XMPP 账号注销成功。"
 
 #: src/ejabberd_c2s.erl:848 src/ejabberd_c2s.erl:1002
 msgid "Your active privacy list has denied the routing of this stanza."
-msgstr "您的活动隐私列表已拒绝路由此节。"
+msgstr "您的活动隐私列表已拒绝此节的路由。"
 
 #: src/mod_offline.erl:731
 msgid ""
@@ -2910,8 +2905,7 @@ msgstr "您的联系人离线消息队列已满。消息已被丢弃。"
 msgid ""
 "Your subscription request and/or messages to ~s have been blocked. To "
 "unblock your subscription request, visit ~s"
-msgstr ""
-"您发给 ~s 的订阅请求和/或消息已被屏蔽。若要解除屏蔽您的订阅请求，请访问 ~s"
+msgstr "您发送给 ~s 的订阅请求和/或消息已被屏蔽。如需解除屏蔽您的订阅请求，请访问 ~s"
 
 #: src/mod_disco.erl:403
 msgid "ejabberd"
@@ -2955,15 +2949,15 @@ msgstr "已被踢出"
 
 #: src/mod_muc_log.erl:423
 msgid "has been kicked because of a system shutdown"
-msgstr "因系统关闭被踢出"
+msgstr "因系统关闭已被踢出"
 
 #: src/mod_muc_log.erl:413
 msgid "has been kicked because of an affiliation change"
-msgstr "因从属关系更改被踢出"
+msgstr "因从属关系更改已被踢出"
 
 #: src/mod_muc_log.erl:418
 msgid "has been kicked because the room has been changed to members-only"
-msgstr "被踢出，因为房间已更改为仅成员"
+msgstr "已被踢出，因为房间已更改为仅成员"
 
 #: src/mod_muc_log.erl:428
 msgid "is now known as"
@@ -3035,8 +3029,7 @@ msgstr "Google Play 商店徽标"
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
-msgstr ""
-"成功安装 {{ app_name }} 后，请返回此页面并<strong>继续执行步骤 2</strong>。"
+msgstr "成功安装 {{ app_name }} 后，返回此页面并 <strong>继续执行步骤 2</strong>。"
 
 #: priv/mod_invites/index.html:49 priv/mod_invites/register.html:28
 #: priv/mod_invites/reset_token.html:19
@@ -3045,7 +3038,7 @@ msgstr "用户名"
 
 #: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:32
 msgid "Download and install {{ app_name }} below:"
-msgstr "请下载并安装下方 {{ app_name }}："
+msgstr "下载并安装下方 {{ app_name }}："
 
 #: priv/mod_invites/apps.json:175
 msgid "A fully-featured desktop chat client for Windows and Linux."
@@ -3061,8 +3054,8 @@ msgid ""
 "the XMPP network. If you already have an XMPP client installed just press "
 "the button below!"
 msgstr ""
-"这是来自 <strong>{{ inviter }}</strong> 的邀请，用于连接至 XMPP 网络进行聊"
-"天。如果您已安装 XMPP 客户端，请直接点击下方按钮！"
+"这是来自 <strong>{{ inviter }}</strong> 的邀请，邀请您在 XMPP 网络上建立连接"
+"并聊天。如果您已安装 XMPP 客户端，只需点击下方按钮即可！"
 
 #: priv/mod_invites/register.html:18
 msgid "Open the app"
@@ -3073,10 +3066,12 @@ msgid ""
 "If checked once an account is created using this invite, it will "
 "automatically be added to your contact list."
 msgstr ""
+"如果勾选此选项，一旦有人使用此邀请创建账号，该账号将自动添加到您的联系人列表"
+"中。"
 
 #: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
-msgstr "您已在 <strong>{{ site_name }}</strong> 创建账号。"
+msgstr "您已在 <strong>{{ site_name }}</strong> 上创建账号。"
 
 #: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
 msgid "Registration Error"
@@ -3099,13 +3094,12 @@ msgstr ""
 "于安全去中心化的 XMPP 即时通讯网络。"
 
 #: priv/mod_invites/index.html:77
-#, fuzzy
 msgid "Invite Options"
-msgstr "选项"
+msgstr "邀请选项"
 
 #: priv/mod_invites/reset_success.html:3
 msgid "Password Change Success"
-msgstr ""
+msgstr "密码更改成功"
 
 #: priv/mod_invites/register_error.html:4
 msgid "Registration error"
@@ -3113,7 +3107,7 @@ msgstr "注册错误"
 
 #: priv/mod_invites/register_success.html:51
 msgid "Step 2: Connect {{ app_name }} to your new account"
-msgstr "步骤 2：将 {{ app_name }} 连接至您的新账号"
+msgstr "步骤 2：将 {{ app_name }} 连接到您的新账号"
 
 #: priv/mod_invites/invite.html:7
 msgid ""
@@ -3138,7 +3132,8 @@ msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
 msgstr ""
-"安装完成？太棒了！<strong>点击下方按钮</strong>接受邀请并继续账号设置："
+"安装完成？太棒了！<strong>点击下方按钮</strong> 接受您的邀请并继续您的账号设"
+"置："
 
 #: priv/mod_invites/invite.html:9
 msgid "Get started"
@@ -3151,7 +3146,7 @@ msgstr "恭喜！"
 
 #: priv/mod_invites/index.html:18 priv/mod_invites/index.html:17
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "复制到剪贴板"
 
 #: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
@@ -3159,7 +3154,7 @@ msgstr "使用移动设备扫描"
 
 #: priv/mod_invites/register_success.html:28
 msgid "You can now set up {{ app_name }} and connect it to your new account."
-msgstr "您现在可以设置 {{ app_name }} 并将其连接至您的新账号。"
+msgstr "您现在可以设置 {{ app_name }} 并将其连接到您的新账号。"
 
 #: priv/mod_invites/register.html:11
 msgid ""
@@ -3187,7 +3182,7 @@ msgstr "将 {{ inviter }} 添加到您的联系人列表"
 
 #: priv/mod_invites/invite.html:10
 msgid "To get started, you need to install an app for your platform:"
-msgstr "开始前，请为您的设备平台安装应用："
+msgstr "要开始使用，您需要为您的平台安装应用："
 
 #: priv/mod_invites/apps.json:112
 msgid ""
@@ -3210,14 +3205,13 @@ msgstr ""
 "入您的凭据。"
 
 #: priv/mod_invites/reset_error.html:4
-#, fuzzy
 msgid "Password reset error"
-msgstr "解析错误"
+msgstr "密码重置错误"
 
 #: priv/mod_invites/base.html:26
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
-msgstr "使用移动设备上的<em>二维码</em>扫描器扫描下方二维码："
+msgstr "使用移动设备上的 <em>二维码</em> 扫描器扫描下方二维码："
 
 #: priv/mod_invites/base_min.html:17
 msgid "Invite to {{ site_name }}"
@@ -3238,9 +3232,9 @@ msgid ""
 "href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>register an account "
 "manually</a>."
 msgstr ""
-"您可以使用任何兼容 XMPP 的软件连接至 {{ site_name }}。如果您首选的软件未在上"
-"方列出，您仍然可以<a href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>"
-"手动注册账号</a>。"
+"您可以使用任何兼容 XMPP 的软件连接到 {{ site_name }}。如果您首选的软件未在上"
+"方列出，您仍然可以 <a href=\"{{ registration_url }}\" tabindex='{{ tabidx }}"
+"'>手动注册账号</a>。"
 
 #: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
@@ -3257,6 +3251,8 @@ msgid ""
 "change your password, maybe because you forgot your old one, you've come to "
 "the right place!"
 msgstr ""
+"您好，<strong class=\"text-alert\">{{ username }}</strong>，如果您想更改密码"
+"，也许是因为您忘记了旧密码，那么您来对地方了！"
 
 #: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
@@ -3269,7 +3265,7 @@ msgstr "聊天地址（JID）"
 
 #: priv/mod_invites/index.html:16
 msgid "Copied!"
-msgstr ""
+msgstr "已复制！"
 
 #: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
@@ -3289,19 +3285,17 @@ msgstr ""
 
 #: priv/mod_invites/register.html:16
 msgid "{{ app_name }} already installed?"
-msgstr "已安装 {{ app_name }}？"
+msgstr "{{ app_name }} 已安装？"
 
 #: priv/mod_invites/register_success.html:17
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
-msgstr ""
-"<strong>暂未安装适用软件？</strong>您也可以通过我们的在线网页聊天登录账号！"
+msgstr "<strong>暂未安装适用软件？</strong> 您也可以通过我们的在线网页聊天登录账号！"
 
 #: priv/mod_invites/reset_token.html:31
-#, fuzzy
 msgid "New Password"
-msgstr "新密码："
+msgstr "新密码"
 
 #: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
@@ -3318,6 +3312,9 @@ msgid ""
 "have the <strong>necessary rights</strong> to do so, otherwise this command "
 "will fail."
 msgstr ""
+"此表单允许您创建一个邀请，您可以将其发送给他人，以便他们在此服务上创建新账号"
+"。请注意，您需要拥有 <strong>必要的权限</strong> 才能执行此操作，否则此命令将"
+"失败。"
 
 #: priv/mod_invites/apps.json:154
 msgid ""
@@ -3329,7 +3326,7 @@ msgstr ""
 
 #: priv/mod_invites/reset_token.html:10
 msgid "If this is not you, please disregard!"
-msgstr ""
+msgstr "如果这不是您本人操作，请忽略！"
 
 #: priv/mod_invites/apps.json:91
 msgid ""
@@ -3341,7 +3338,7 @@ msgstr ""
 
 #: priv/mod_invites/register.html:4
 msgid "Register on {{ site_name }}"
-msgstr "在 {{ site_name }} 注册"
+msgstr "在 {{ site_name }} 上注册"
 
 #: priv/mod_invites/apps.json:49
 msgid ""
@@ -3373,26 +3370,23 @@ msgstr "F-Droid Store 徽标"
 
 #: priv/mod_invites/index.html:14
 msgid "Your Invite-Link:"
-msgstr ""
+msgstr "您的邀请链接："
 
 #: priv/mod_invites/reset_token.html:15 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Reset Password"
-msgstr "新密码："
+msgstr "重置密码"
 
 #: priv/mod_invites/reset_token.html:4
-#, fuzzy
 msgid "Reset Password on {{ site_name }}"
-msgstr "在 {{ site_name }} 注册"
+msgstr "在 {{ site_name }} 上重置密码"
 
 #: priv/mod_invites/index.html:4
-#, fuzzy
 msgid "Welcome to {{ site_name }}"
-msgstr "邀请加入 {{ site_name }}"
+msgstr "欢迎加入 {{ site_name }}"
 
 #: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
-msgstr "将此邀请发送至您的设备"
+msgstr "将此邀请发送到您的设备"
 
 #: priv/mod_invites/client.html:55
 msgid "Step 2: Activate your account"
@@ -3408,18 +3402,16 @@ msgstr ""
 "使用 <strong>{{ app_name }}</strong> 聊天，您需要先注册账号。"
 
 #: priv/mod_invites/index.html:71
-#, fuzzy
 msgid "Please provide a password!"
-msgstr "请提供有效的用户名！"
+msgstr "请提供密码！"
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
-msgstr "{{ inviter }} 邀请您建立联系！"
+msgstr "{{ inviter }} 邀请您建立连接！"
 
 #: priv/mod_invites/index.html:3
-#, fuzzy
 msgid "Startpage"
-msgstr "开始"
+msgstr "首页"
 
 #: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
@@ -3427,7 +3419,7 @@ msgstr "下载适用于 Linux 的 Dino"
 
 #: priv/mod_invites/index.html:80
 msgid "Suggested Name"
-msgstr ""
+msgstr "建议名称"
 
 #: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
@@ -3448,22 +3440,21 @@ msgstr "显示"
 #: priv/mod_invites/index.html:90
 msgid ""
 "You can suggest a username for the account to be created with this invite."
-msgstr ""
+msgstr "您可以为使用此邀请创建的账号建议一个用户名。"
 
 #: priv/mod_invites/register.html:54 priv/mod_invites/reset_token.html:39
 msgid "Enter a secure password that you do not use anywhere else."
-msgstr "请输入一个您在其他任何地方都未使用的安全密码。"
+msgstr "输入一个您未在其他任何地方使用过的安全密码。"
 
 #: priv/mod_invites/register_error.html:6
 msgid "Sorry, there was a problem registering your account."
-msgstr "抱歉，您的账号注册出现问题。"
+msgstr "抱歉，注册您的账号时出现问题。"
 
 #: priv/mod_invites/base.html:7
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
-msgstr ""
-"<strong>提示：</strong>您可以使用手机相机扫描二维码，在移动设备上打开此邀请。"
+msgstr "<strong>提示：</strong> 您可以在移动设备上使用摄像头扫描二维码，打开此邀请。"
 
 #: priv/mod_invites/apps.json:182
 msgid "Download Renga for Haiku"
@@ -3506,36 +3497,32 @@ msgstr "选择一个用户名，这将成为您新聊天地址的第一部分。
 
 #: priv/mod_invites/index.html:62
 msgid "Enter the username you use to log into this service."
-msgstr ""
+msgstr "输入您用于登录此服务的用户名。"
 
 #: priv/mod_invites/base.html:20
 msgid "Scan invite code"
 msgstr "扫描邀请码"
 
 #: priv/mod_invites/reset_success.html:8
-#, fuzzy
 msgid "You have changed your password on <strong>{{ site_name }}</strong>."
-msgstr "您已在 <strong>{{ site_name }}</strong> 创建账号。"
+msgstr "您已在 <strong>{{ site_name }}</strong> 上更改密码。"
 
 #: priv/mod_invites/index.html:4 priv/mod_invites/index.html:3
 #: priv/mod_invites/reset_token.html:4 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Form Error"
-msgstr "错误"
+msgstr "表单错误"
 
 #: priv/mod_invites/reset_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem changing your account password."
-msgstr "抱歉，您的账号注册出现问题。"
+msgstr "抱歉，更改您的账号密码时出现问题。"
 
 #: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "适用于 Haiku 的 XMPP 客户端"
 
 #: priv/mod_invites/index.html:97
-#, fuzzy
 msgid "Add to contact list"
-msgstr "将 {{ inviter }} 添加到您的联系人列表"
+msgstr "添加到联系人列表"
 
 #: priv/mod_invites/client.html:64 priv/mod_invites/index.html:37
 #: priv/mod_invites/register.html:64
@@ -3544,7 +3531,7 @@ msgstr "页面导航"
 
 #: priv/mod_invites/index.html:73
 msgid "Enter the corresponding password."
-msgstr ""
+msgstr "输入相应的密码。"
 
 #: priv/mod_invites/register.html:9
 msgid ""
@@ -3574,16 +3561,14 @@ msgid ""
 msgstr "要开始聊天，您需要在您选择的 XMPP 软件中输入您的新账号凭据。"
 
 #: priv/mod_invites/index.html:30
-#, fuzzy
 msgid ""
 "You can transfer this invite to a mobile device by scanning the QR code "
 "below with its camera."
-msgstr "您可以使用相机扫描二维码，将此邀请转移至您的移动设备。"
+msgstr "您可以使用摄像头扫描下方二维码，将此邀请转移到移动设备。"
 
 #: priv/mod_invites/index.html:16
-#, fuzzy
 msgid "Failed to copy data"
-msgstr "chanserv机器人解析失败"
+msgstr "无法复制数据"
 
 #: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
@@ -3621,8 +3606,8 @@ msgid ""
 "only. You may also <a href='#' id='show-all-clients-button' "
 "tabindex=\"{{ tabidx }}\">view all apps.</a>"
 msgstr ""
-"仅显示适用于<span class='platform-name'>您当前平台</span>的应用。您也可以<a "
-"href='#' id='show-all-clients-button' tabindex=\"{{ tabidx }}\">查看所有应"
+"仅显示适用于 <span class='platform-name'>您当前平台</span> 的应用。您也可以 "
+"<a href='#' id='show-all-clients-button' tabindex=\"{{ tabidx }}\">查看所有应"
 "用。</a>"
 
 #: priv/mod_invites/register.html:15
@@ -3647,14 +3632,13 @@ msgstr "从 Mac App Store 下载"
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
-msgstr "您可以使用相机扫描二维码，将此邀请转移至您的移动设备。"
+msgstr "您可以使用摄像头扫描二维码，将此邀请转移到您的移动设备。"
 
 #: priv/mod_invites/reset_success.html:10
-#, fuzzy
 msgid ""
 "To continue chatting, you need to enter your new account credentials into "
 "your chosen XMPP software."
-msgstr "要开始聊天，您需要在您选择的 XMPP 软件中输入您的新账号凭据。"
+msgstr "要继续聊天，您需要在您选择的 XMPP 软件中输入您的新账号凭据。"
 
 #: priv/mod_invites/register.html:11
 msgid ""
