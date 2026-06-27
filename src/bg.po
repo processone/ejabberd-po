@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 15.11.127\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2026-03-23 14:10+0000\n"
+"PO-Revision-Date: 2026-06-29 06:01+0000\n"
 "Last-Translator: \"Mr. EddX\" <mreddx@chatrix.one>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/ejabberd/"
 "ejabberd-po/bg/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Language: Bulgarian\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -953,7 +953,6 @@ msgstr "Покани потребител"
 
 #: src/mod_invites.erl:356 src/mod_invites.erl:363 src/mod_invites.erl:381
 #: src/mod_invites.erl:387
-#, fuzzy
 msgid "Invites"
 msgstr "Покани"
 
@@ -1231,7 +1230,7 @@ msgstr "Понеделник"
 #: src/mod_muc_admin.erl:797 src/mod_muc_admin.erl:800
 #: src/mod_muc_admin.erl:806 src/mod_muc_admin.erl:814
 msgid "Multi-User Chat"
-msgstr "Групов чат (MUC)"
+msgstr "Групов чат"
 
 #: src/mod_multicast.erl:1017
 msgid "Multicast"
@@ -1707,9 +1706,8 @@ msgid "Password Verification:"
 msgstr "Проверка на паролата:"
 
 #: src/mod_invites_http.erl:190
-#, fuzzy
 msgid "Password invalid"
-msgstr "Парола"
+msgstr "Невалидна парола"
 
 #: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
@@ -2016,9 +2014,8 @@ msgid "Search from the date"
 msgstr "Търси от дата"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:391
-#, fuzzy
 msgid "Search the text (obsolete)"
-msgstr "Търси текста"
+msgstr "Търси текста (излязло от употреба)"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
@@ -2126,7 +2123,7 @@ msgstr "ID на строфа"
 
 #: src/mod_muc_room.erl:5462
 msgid "Stanza id is not valid"
-msgstr "Невалидно ID на строфата"
+msgstr "Невалиден идентификатор на строфата"
 
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
@@ -2662,9 +2659,8 @@ msgid "User already exists"
 msgstr "Потребителят вече съществува"
 
 #: src/mod_invites_http.erl:183
-#, fuzzy
 msgid "User is not allowed to create invites"
-msgstr "Нямате право да създавате нодове"
+msgstr "Потребил няма право да създава покани"
 
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
@@ -2688,14 +2684,12 @@ msgid "User ~ts"
 msgstr "Потребител ~ts"
 
 #: src/mod_invites_http.erl:667
-#, fuzzy
 msgid "Username contains invalid characters"
-msgstr "Паролата съдържа недопустими символи"
+msgstr "Потребителското име съдържа недопустими символи"
 
 #: src/mod_invites_http.erl:665
-#, fuzzy
 msgid "Username exists already"
-msgstr "Потребителското име е резервирано"
+msgstr "Потребител с това име вече съществува"
 
 #: src/mod_invites.erl:1319
 msgid "Username invalid"
@@ -3142,6 +3136,8 @@ msgid ""
 "If checked once an account is created using this invite, it will "
 "automatically be added to your contact list."
 msgstr ""
+"Ако бъде отметнато след създаване на акаунт с тази покана, той автоматично "
+"ще бъде добавен към списъка Ви с контакти."
 
 #: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
@@ -3168,13 +3164,12 @@ msgstr ""
 "част от защитената и децентрализирана мрежа за съобщения XMPP."
 
 #: priv/mod_invites/index.html:77
-#, fuzzy
 msgid "Invite Options"
-msgstr "Изтекла покана"
+msgstr "Опции за покана"
 
 #: priv/mod_invites/reset_success.html:3
 msgid "Password Change Success"
-msgstr ""
+msgstr "Паролата е успешно променена"
 
 #: priv/mod_invites/register_error.html:4
 msgid "Registration error"
@@ -3222,7 +3217,7 @@ msgstr "Поздравления!"
 
 #: priv/mod_invites/index.html:18 priv/mod_invites/index.html:17
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Копирай в клипборда"
 
 #: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
@@ -3287,7 +3282,7 @@ msgstr ""
 
 #: priv/mod_invites/reset_error.html:4
 msgid "Password reset error"
-msgstr ""
+msgstr "Грешка при промяна на паролата"
 
 #: priv/mod_invites/base.html:26
 msgid ""
@@ -3335,6 +3330,9 @@ msgid ""
 "change your password, maybe because you forgot your old one, you've come to "
 "the right place!"
 msgstr ""
+"Здравей, <strong class=\"text-alert\">{{ username }}</strong>, ако желаеш да "
+"промениш паролата си, може би защото си забравил старата, значи си на "
+"правилното място!"
 
 #: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
@@ -3347,7 +3345,7 @@ msgstr "Чат адрес (JID)"
 
 #: priv/mod_invites/index.html:16
 msgid "Copied!"
-msgstr ""
+msgstr "Копирано!"
 
 #: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
@@ -3378,9 +3376,8 @@ msgstr ""
 "да влезете в профила си чрез нашия онлайн уеб чат!"
 
 #: priv/mod_invites/reset_token.html:31
-#, fuzzy
 msgid "New Password"
-msgstr "Нова парола:"
+msgstr "Нова парола"
 
 #: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
@@ -3397,6 +3394,10 @@ msgid ""
 "have the <strong>necessary rights</strong> to do so, otherwise this command "
 "will fail."
 msgstr ""
+"Тази форма Ви позволява да създадете покана, която можете да изпратите на "
+"някого, за да може той да създаде нов акаунт на този сървър. Имайте предвид, "
+"че трябва да имате <strong>необходимите права</strong>, за да го направите, "
+"в противен случай тази команда ще бъде неуспешна."
 
 #: priv/mod_invites/apps.json:154
 msgid ""
@@ -3409,7 +3410,7 @@ msgstr ""
 
 #: priv/mod_invites/reset_token.html:10
 msgid "If this is not you, please disregard!"
-msgstr ""
+msgstr "Ако това не сте Вие, моля, игнорирайте!"
 
 #: priv/mod_invites/apps.json:91
 msgid ""
@@ -3459,22 +3460,19 @@ msgstr "F-Droid Store лого"
 
 #: priv/mod_invites/index.html:14
 msgid "Your Invite-Link:"
-msgstr ""
+msgstr "Вашата покана, под формата на линк:"
 
 #: priv/mod_invites/reset_token.html:15 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Reset Password"
-msgstr "Нова парола:"
+msgstr "Нулиране на парола"
 
 #: priv/mod_invites/reset_token.html:4
-#, fuzzy
 msgid "Reset Password on {{ site_name }}"
-msgstr "Регистрирайте се на {{ site_name }}"
+msgstr "Нулиране на парола в {{ site_name }}"
 
 #: priv/mod_invites/index.html:4
-#, fuzzy
 msgid "Welcome to {{ site_name }}"
-msgstr "Покани в {{ site_name }}"
+msgstr "Добре дошли в {{ site_name }}"
 
 #: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
@@ -3495,9 +3493,8 @@ msgstr ""
 "<strong>{{ app_name }}</strong>, първо трябва да регистрирате профил."
 
 #: priv/mod_invites/index.html:71
-#, fuzzy
 msgid "Please provide a password!"
-msgstr "Моля, въведете валидно потребителско име!"
+msgstr "Моля, въведете парола!"
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
@@ -3505,7 +3502,7 @@ msgstr "{{ inviter }} ви покани да се свържете!"
 
 #: priv/mod_invites/index.html:3
 msgid "Startpage"
-msgstr ""
+msgstr "Начална страница"
 
 #: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
@@ -3513,7 +3510,7 @@ msgstr "Свалете Dino за Linux"
 
 #: priv/mod_invites/index.html:80
 msgid "Suggested Name"
-msgstr ""
+msgstr "Предложено име"
 
 #: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
@@ -3534,6 +3531,8 @@ msgstr "Покажи"
 msgid ""
 "You can suggest a username for the account to be created with this invite."
 msgstr ""
+"Можете да предложите потребителско име за акаунта, който ще бъде създаден с "
+"тази покана."
 
 #: priv/mod_invites/register.html:54 priv/mod_invites/reset_token.html:39
 msgid "Enter a secure password that you do not use anywhere else."
@@ -3557,7 +3556,7 @@ msgstr "Свалете Renga за Haiku"
 
 #: priv/mod_invites/base_min.html:6
 msgid "Invite"
-msgstr "Покани"
+msgstr "Поканете"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3565,9 +3564,9 @@ msgid ""
 "<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
 "messaging network."
 msgstr ""
-"Поканени сте да чатите с <strong>{{ inviter }}</strong>на "
-"<strong>{{ site_name }}</strong>, част от защитената и децентрализирана "
-"мрежа за съобщения XMPP."
+"Поканени сте да чатите с <strong>{{ inviter }}</strong> в <strong>{{ "
+"site_name }}</strong>, част от XMPP децентрализираната и сигурна мрежа за "
+"незабавни съобщения."
 
 #: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
 msgid "Monal Logo"
@@ -3594,36 +3593,32 @@ msgstr ""
 
 #: priv/mod_invites/index.html:62
 msgid "Enter the username you use to log into this service."
-msgstr ""
+msgstr "Въведете потребителското име, което използвате за вход на този сървър."
 
 #: priv/mod_invites/base.html:20
 msgid "Scan invite code"
 msgstr "Сканирайте код за покана"
 
 #: priv/mod_invites/reset_success.html:8
-#, fuzzy
 msgid "You have changed your password on <strong>{{ site_name }}</strong>."
-msgstr "Създадохте профил в <strong>{{ site_name }}</strong>."
+msgstr "Променихте Вашата парола в <strong>{{ site_name }}</strong>."
 
 #: priv/mod_invites/index.html:4 priv/mod_invites/index.html:3
 #: priv/mod_invites/reset_token.html:4 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Form Error"
-msgstr "Грешка"
+msgstr "Грешка във формата"
 
 #: priv/mod_invites/reset_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem changing your account password."
-msgstr "За съжаление, възникна проблем с регистрацията на вашия профил."
+msgstr "За съжаление, възникна проблем при промяна на паролата."
 
 #: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
 msgstr "XMPP клиент за Haiku"
 
 #: priv/mod_invites/index.html:97
-#, fuzzy
 msgid "Add to contact list"
-msgstr "Добавете {{ inviter }} към вашия списък с контакти"
+msgstr "Добавете към списъка с контакти"
 
 #: priv/mod_invites/client.html:64 priv/mod_invites/index.html:37
 #: priv/mod_invites/register.html:64
@@ -3632,7 +3627,7 @@ msgstr "Навигация по страниците"
 
 #: priv/mod_invites/index.html:73
 msgid "Enter the corresponding password."
-msgstr ""
+msgstr "Въведете съответната парола."
 
 #: priv/mod_invites/register.html:9
 msgid ""
@@ -3666,17 +3661,16 @@ msgstr ""
 "избрания от вас XMPP софтуер."
 
 #: priv/mod_invites/index.html:30
-#, fuzzy
 msgid ""
 "You can transfer this invite to a mobile device by scanning the QR code "
 "below with its camera."
 msgstr ""
-"Можете да прехвърлите тази покана на мобилното си устройство, като сканирате "
-"код с камерата на вашето устройство."
+"Можете да прехвърлите тази покана на мобилно устройство, сканирайки QR кода "
+"по-долу с камерата."
 
 #: priv/mod_invites/index.html:16
 msgid "Failed to copy data"
-msgstr ""
+msgstr "Неуспешно копиране на данните"
 
 #: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
@@ -3750,12 +3744,11 @@ msgstr ""
 "код с камерата на вашето устройство."
 
 #: priv/mod_invites/reset_success.html:10
-#, fuzzy
 msgid ""
 "To continue chatting, you need to enter your new account credentials into "
 "your chosen XMPP software."
 msgstr ""
-"За да започнете чат, трябва да въведете новите си идентификационни данни в "
+"За да продължите чата, трябва да въведете новите си идентификационни данни в "
 "избрания от вас XMPP софтуер."
 
 #: priv/mod_invites/register.html:11
