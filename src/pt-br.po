@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.1.0-alpha\n"
 "Report-Msgid-Bugs-To: badlop@process-one.net\n"
-"PO-Revision-Date: 2025-04-01 10:04+0000\n"
-"Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
+"PO-Revision-Date: 2026-09-10 21:51+0000\n"
+"Last-Translator: Daltux <134404797+daltux@users.noreply.github.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ejabberd/ejabberd-po/pt_BR/>\n"
 "Language: pt-br\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 2026.9.1\n"
 "X-Language: Portuguese (Brazil)\n"
 "X-Additional-Translator: Victor Hugo dos Santos\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -95,6 +95,11 @@ msgid ""
 "defined here. This is similar to the toplevel _`append_host_config`_ option, "
 "but in this case it's applied to this module options."
 msgstr ""
+"Adicionar algumas opções epsecíficas a um certo host de upload definido "
+"anteriormente na opção 'hosts' do mod_http_upload. No momento, apenas 'name' "
+"e 'vcard' podem ser definidas aqui. Isto é similar à opção "
+"_`append_host_config`_ do nível superior, mas neste caso se aplica às opções "
+"deste módulo."
 
 #: src/ejabberd_web_admin.erl:477
 msgid "Administration"
@@ -254,9 +259,8 @@ msgstr "Argumentos"
 
 #: src/mod_muc_room.erl:4563 src/mod_muc_room.erl:4701
 #: src/mod_muc_room.erl:5134
-#, fuzzy
 msgid "Assign a hat to a user"
-msgstr "Adiciona um chapéu num usuário"
+msgstr "Atribui um chapéu a um usuário"
 
 #: src/mod_mix_pam.erl:362
 msgid "Attribute 'channel' is required for this request"
@@ -288,7 +292,7 @@ msgstr "Criação automatizada de nós está desabilitada"
 
 #: src/mod_invites_http.erl:51
 msgid "BAD REQUEST"
-msgstr ""
+msgstr "REQUISIÇÃO INADEQUADA"
 
 #: src/mod_configure.erl:118 src/mod_configure.erl:658
 msgid "Backup"
@@ -455,7 +459,7 @@ msgstr ""
 
 #: src/mod_configure.erl:1577
 msgid "Contacts"
-msgstr ""
+msgstr "Contatos"
 
 #: src/mod_vcard_sql.erl:234 src/mod_vcard_sql.erl:248
 #: src/mod_vcard_ldap.erl:339 src/mod_vcard_ldap.erl:352
@@ -466,12 +470,12 @@ msgstr "País"
 #: src/mod_invites.erl:657 src/mod_invites.erl:861
 #: priv/mod_invites/client.html:2 priv/mod_invites/invite.html:2
 msgid "Create Account"
-msgstr ""
+msgstr "Criar conta"
 
 #: src/mod_muc_room.erl:4560 src/mod_muc_room.erl:4689
 #: src/mod_muc_room.erl:5099
 msgid "Create a Hat"
-msgstr ""
+msgstr "Criar um chapéu"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1142
 msgid "Current Discussion Topic"
@@ -537,13 +541,12 @@ msgstr "Enviar payloads junto com as notificações de eventos"
 #: src/mod_muc_room.erl:4561 src/mod_muc_room.erl:4693
 #: src/mod_muc_room.erl:5120
 msgid "Destroy a Hat"
-msgstr ""
+msgstr "Destruir um chapéu"
 
 #: src/mod_configure.erl:140 src/mod_configure.erl:559
 #: src/mod_configure.erl:1093
-#, fuzzy
 msgid "Disable User"
-msgstr "Deletar Usuário"
+msgstr "Desativar usuário"
 
 #: src/mod_configure.erl:882
 msgid "Disc only copy"
@@ -736,19 +739,16 @@ msgid "Full Name"
 msgstr "Nome completo"
 
 #: src/mod_configure.erl:174 src/mod_configure.erl:589
-#, fuzzy
 msgid "Get List of Active Users"
-msgstr "Obter a lista de usuários online"
+msgstr "Obter lista de usuários ativos"
 
 #: src/mod_configure.erl:169 src/mod_configure.erl:585
-#, fuzzy
 msgid "Get List of Disabled Users"
-msgstr "Obter a lista de usuários registrados"
+msgstr "Obter lista de usuários desativados"
 
 #: src/mod_configure.erl:176 src/mod_configure.erl:591
-#, fuzzy
 msgid "Get List of Idle Users"
-msgstr "Obter a lista de usuários online"
+msgstr "Obter lista de usuários inativos"
 
 #: src/mod_configure.erl:172 src/mod_configure.erl:587
 msgid "Get List of Online Users"
@@ -759,19 +759,16 @@ msgid "Get List of Registered Users"
 msgstr "Obter a lista de usuários registrados"
 
 #: src/mod_configure.erl:162 src/mod_configure.erl:579
-#, fuzzy
 msgid "Get Number of Active Users"
-msgstr "Obter Número de Usuários Online"
+msgstr "Obter número de usuários ativos"
 
 #: src/mod_configure.erl:157 src/mod_configure.erl:575
-#, fuzzy
 msgid "Get Number of Disabled Users"
-msgstr "Obter Número de Usuários Registrados"
+msgstr "Obter número de usuários desabilitados"
 
 #: src/mod_configure.erl:164 src/mod_configure.erl:581
-#, fuzzy
 msgid "Get Number of Idle Users"
-msgstr "Obter Número de Usuários Online"
+msgstr "Obter número de usuários inativos"
 
 #: src/mod_configure.erl:160 src/mod_configure.erl:577
 msgid "Get Number of Online Users"
@@ -792,9 +789,8 @@ msgstr "Obter a Data do Último Login"
 
 #: src/mod_configure.erl:148 src/mod_configure.erl:567
 #: src/mod_configure.erl:1136
-#, fuzzy
 msgid "Get User Roster"
-msgstr "Obter Senha do Usuário"
+msgstr "Obter lista de contatos do usuário"
 
 #: src/mod_configure.erl:152 src/mod_configure.erl:571
 #: src/mod_configure.erl:1155
@@ -816,7 +812,7 @@ msgstr "Upload de arquivo HTTP"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1242
 msgid "Hash computed from the list of hats available in a room"
-msgstr ""
+msgstr "Hash calculado a partir da lista de chapéus disponíveis em uma sala"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1225
 msgid "Hash of the vCard-temp avatar of this room"
@@ -829,13 +825,11 @@ msgstr "URI do chapéu"
 
 #: src/mod_muc_room.erl:5093 src/mod_muc_room.erl:5111
 #: src/mod_muc_room.erl:5192
-#, fuzzy
 msgid "Hat hue"
-msgstr "Título do chapéu"
+msgstr "Coloração do chapéu"
 
 #: src/mod_muc_room.erl:5091 src/mod_muc_room.erl:5107
 #: src/mod_muc_room.erl:5190
-#, fuzzy
 msgid "Hat title"
 msgstr "Título do chapéu"
 
@@ -850,7 +844,7 @@ msgstr "Máquina desconhecida"
 
 #: src/mod_invites.erl:1329
 msgid "Hostname invalid"
-msgstr ""
+msgstr "Nome do host inválido"
 
 #: src/mod_configure.erl:1636
 msgid "IP addresses"
@@ -967,15 +961,13 @@ msgid "Invitations are not allowed in this conference"
 msgstr "Os convites não são permitidos nesta conferência"
 
 #: src/mod_invites.erl:653 src/mod_invites.erl:863
-#, fuzzy
 msgid "Invite User"
-msgstr "Usuários conectados"
+msgstr "Convidar usuário"
 
 #: src/mod_invites.erl:356 src/mod_invites.erl:363 src/mod_invites.erl:381
 #: src/mod_invites.erl:387
-#, fuzzy
 msgid "Invites"
-msgstr "Usuários conectados"
+msgstr "Convites"
 
 #: src/mod_muc_room.erl:441 src/mod_muc_room.erl:604 src/mod_muc_room.erl:1487
 msgid ""
@@ -1066,9 +1058,8 @@ msgstr ""
 
 #: src/mod_muc_room.erl:4562 src/mod_muc_room.erl:4697
 #: src/mod_muc_room.erl:5086
-#, fuzzy
 msgid "List of Hats"
-msgstr "Portas abertas"
+msgstr "Lista de chapéus"
 
 #: src/mod_muc_room.erl:4565 src/mod_muc_room.erl:4709
 #: src/mod_muc_room.erl:5183
@@ -1161,9 +1152,8 @@ msgid "Maximum file size"
 msgstr "Tamanho máximo do arquivo"
 
 #: src/mod_invites.erl:1331 src/mod_invites_http.erl:663
-#, fuzzy
 msgid "Maximum number of invites reached"
-msgstr "Quantidade máxima dos itens para manter"
+msgstr "Alcançado o número máximo de convites"
 
 #: _build/translations/lib/xmpp/src/pubsub_meta_data.erl:877
 msgid "Maximum number of items to persist"
@@ -1174,9 +1164,8 @@ msgid "May"
 msgstr "Maio"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:966
-#, fuzzy
 msgid "Members are allowed to invite others"
-msgstr "As pessoas estão autorizadas a convidar outras pessoas"
+msgstr "Membros têm permissão para convidar outros"
 
 #: src/mod_muc_room.erl:2374
 msgid "Membership is required to enter this room"
@@ -1267,7 +1256,7 @@ msgstr "Vários elementos <item/> não são permitidos pela RFC6121"
 
 #: src/mod_invites_http.erl:49
 msgid "NOT FOUND"
-msgstr ""
+msgstr "NÃO ENCONTRADO"
 
 #: src/mod_vcard_sql.erl:229 src/mod_vcard_sql.erl:243
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
@@ -1526,23 +1515,20 @@ msgid "Number of Offline Messages"
 msgstr "Quantidade das mensagens offline"
 
 #: src/mod_configure.erl:1201
-#, fuzzy
 msgid "Number of active users"
-msgstr "Número de usuários online"
+msgstr "Número de usuários ativos"
 
 #: _build/translations/lib/xmpp/src/captcha_form.erl:777
 msgid "Number of answers required"
 msgstr "Quantidade de respostas necessárias"
 
 #: src/mod_configure.erl:1179
-#, fuzzy
 msgid "Number of disabled users"
-msgstr "Número de usuários registrados"
+msgstr "Número de usuários desabilitados"
 
 #: src/mod_configure.erl:1212
-#, fuzzy
 msgid "Number of idle users"
-msgstr "Número de usuários online"
+msgstr "Número de usuários inativos"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1127
 msgid "Number of occupants"
@@ -1735,9 +1721,8 @@ msgid "Password Verification:"
 msgstr "Verificação da Senha:"
 
 #: src/mod_invites_http.erl:190
-#, fuzzy
 msgid "Password invalid"
-msgstr "Senha ~b"
+msgstr "Senha inválida"
 
 #: src/mod_register_web.erl:266 src/mod_register_web.erl:508
 msgid "Password:"
@@ -1868,9 +1853,8 @@ msgstr "Cópia em RAM"
 
 #: src/mod_configure.erl:142 src/mod_configure.erl:561
 #: src/mod_configure.erl:1102
-#, fuzzy
 msgid "Re-Enable User"
-msgstr "Ativa chapéus"
+msgstr "Reabilitar usuário"
 
 #: src/mod_announce.erl:564
 msgid "Really delete message of the day?"
@@ -2042,9 +2026,8 @@ msgid "Search from the date"
 msgstr "Pesquise a partir da data"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:391
-#, fuzzy
 msgid "Search the text (obsolete)"
-msgstr "Pesquise o texto"
+msgstr "Buscar o texto (obsoleto)"
 
 #: _build/translations/lib/xmpp/src/mam_query.erl:376
 msgid "Search until the date"
@@ -2152,7 +2135,7 @@ msgstr "ID da estrofe"
 
 #: src/mod_muc_room.erl:5468
 msgid "Stanza id is not valid"
-msgstr "A Stanza ID não é válido"
+msgstr "O identificador da estrofe não é válido"
 
 #: _build/translations/lib/xmpp/src/pubsub_publish_options.erl:1807
 #: _build/translations/lib/xmpp/src/pubsub_node_config.erl:1805
@@ -2344,19 +2327,16 @@ msgid "The list of JIDs that may associate leaf nodes with a collection"
 msgstr "A lista dos JIDs que podem associar as páginas dos nós em uma coleção"
 
 #: src/mod_configure.erl:1254
-#, fuzzy
 msgid "The list of all active users"
-msgstr "A lista de todos os usuários online"
+msgstr "A lista de todas as contas ativas"
 
 #: src/mod_configure.erl:1231
-#, fuzzy
 msgid "The list of all disabled users"
-msgstr "A lista de todos os usuários online"
+msgstr "A lista de todas as contas desabilitadas"
 
 #: src/mod_configure.erl:1266
-#, fuzzy
 msgid "The list of all idle users"
-msgstr "A lista de todos os usuários"
+msgstr "A lista de todas as contas inativas"
 
 #: src/mod_configure.erl:1242
 msgid "The list of all online users"
@@ -2447,7 +2427,7 @@ msgstr "A consulta não pode conter elementos <item/>"
 #: src/mod_muc_room.erl:5124 src/mod_muc_room.erl:5142
 #: src/mod_muc_room.erl:5160
 msgid "The role"
-msgstr ""
+msgstr "O papel"
 
 #: _build/translations/lib/xmpp/src/muc_roominfo.erl:1158
 msgid "The room subject can be modified by participants"
@@ -2480,7 +2460,7 @@ msgstr "O identificador da assinatura associado à solicitação da assinatura"
 
 #: src/mod_invites_register.erl:214
 msgid "The token provided is either invalid or expired."
-msgstr ""
+msgstr "O token fornecido é inválido ou expirou."
 
 #: src/mod_register_web.erl:139
 msgid "There was an error changing the password: "
@@ -2693,9 +2673,8 @@ msgid "User already exists"
 msgstr "Usuário já existe"
 
 #: src/mod_invites_http.erl:183
-#, fuzzy
 msgid "User is not allowed to create invites"
-msgstr "Você não tem autorização para criar nós"
+msgstr "Conta sem permissão para criar convites"
 
 #: src/mod_vcard.erl:407
 msgid "User not allowed to perform an IQ set on another user's vCard."
@@ -2720,24 +2699,20 @@ msgid "User ~ts"
 msgstr "Usuário ~s"
 
 #: src/mod_invites_http.erl:667
-#, fuzzy
 msgid "Username contains invalid characters"
-msgstr "A senha contém caracteres proibidos"
+msgstr "Nome da conta contém caracteres inválidos"
 
 #: src/mod_invites_http.erl:665
-#, fuzzy
 msgid "Username exists already"
-msgstr "O usuário foi removido"
+msgstr "O nome da conta já existe"
 
 #: src/mod_invites.erl:1325
-#, fuzzy
 msgid "Username invalid"
-msgstr "Usuário:"
+msgstr "Nome da conta inválido"
 
 #: src/mod_invites.erl:1333 src/mod_invites_http.erl:669
-#, fuzzy
 msgid "Username is reserved"
-msgstr "O usuário foi removido"
+msgstr "Nome da conta reservado"
 
 #: src/mod_register_web.erl:251 src/mod_register_web.erl:390
 #: src/mod_register_web.erl:501
@@ -3103,58 +3078,58 @@ msgstr "~s's Fila de Mensagens Offline"
 
 #: priv/mod_invites/client.html:3
 msgid "Join {{ site_name }} with {{ app_name }}"
-msgstr ""
+msgstr "Una-se a {{ site_name }} com {{ app_name }}"
 
 #: priv/mod_invites/invite_invalid.html:9
 msgid "Sad person holding empty box"
-msgstr ""
+msgstr "Pessoa triste segurando uma caixa vazia"
 
 #: priv/mod_invites/apps.json:105
 msgid "Siskin IM Logo"
-msgstr ""
+msgstr "Logotipo de Siskin IM"
 
 #: priv/mod_invites/apps.json:161
 msgid "Download Gajim"
-msgstr ""
+msgstr "Baixar Gajim"
 
 #: priv/mod_invites/client.html:68 priv/mod_invites/client.html:66
 #: priv/mod_invites/index.html:41 priv/mod_invites/index.html:39
 #: priv/mod_invites/register.html:68 priv/mod_invites/register.html:66
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: priv/mod_invites/invite_invalid.html:7
 msgid "Sorry, it looks like this invite code has expired!"
-msgstr ""
+msgstr "Parece que este código de convite expirou!"
 
 #: priv/mod_invites/apps.json:77 priv/mod_invites/apps.json:7
 msgid "Google Play Store Logo"
-msgstr ""
+msgstr "Logotipo de Google Play Store"
 
 #: priv/mod_invites/client.html:53
 msgid ""
 "After successfully installing {{ app_name }}, come back to this page and "
 "<strong>continue with Step 2</strong>."
 msgstr ""
+"Após instalar {{ app_name }}, volte a esta página e <strong>continue com a "
+"Etapa 2</strong>."
 
 #: priv/mod_invites/index.html:49 priv/mod_invites/register.html:28
 #: priv/mod_invites/reset_token.html:19
-#, fuzzy
 msgid "Username"
-msgstr "Usuário:"
+msgstr "Nome da conta"
 
 #: priv/mod_invites/client.html:36 priv/mod_invites/register_success.html:32
 msgid "Download and install {{ app_name }} below:"
-msgstr ""
+msgstr "Baixe e instale {{ app_name }} abaixo:"
 
 #: priv/mod_invites/apps.json:175
 msgid "A fully-featured desktop chat client for Windows and Linux."
-msgstr ""
+msgstr "Um cliente completo de bate-papo para GNU e Windows."
 
 #: priv/mod_invites/register_success.html:3
-#, fuzzy
 msgid "Registration Success"
-msgstr "Registro em mod_irc para "
+msgstr "Registro bem sucedido"
 
 #: priv/mod_invites/roster.html:8
 msgid ""
@@ -3162,103 +3137,108 @@ msgid ""
 "the XMPP network. If you already have an XMPP client installed just press "
 "the button below!"
 msgstr ""
+"Isto é um convite de <strong>{{ inviter }}</strong> para se conectar e "
+"conversar na rede XMPP. Se já tiver um cliente XMPP instalado, basta "
+"pressionar o botão abaixo!"
 
 #: priv/mod_invites/register.html:18
 msgid "Open the app"
-msgstr ""
+msgstr "Abrir o aplicativo"
 
 #: priv/mod_invites/index.html:99
 msgid ""
 "If checked once an account is created using this invite, it will "
 "automatically be added to your contact list."
 msgstr ""
+"Se marcado, quando uma conta for criada usando este convite, ela será "
+"automaticamente adicionada à sua lista de contatos."
 
 #: priv/mod_invites/register_success.html:8
 msgid "You have created an account on <strong>{{ site_name }}</strong>."
-msgstr ""
+msgstr "Conta criada em <strong>{{ site_name }}</strong>."
 
 #: priv/mod_invites/register.html:4 priv/mod_invites/register.html:3
-#, fuzzy
 msgid "Registration Error"
-msgstr "Registro em mod_irc para "
+msgstr "Erro ao registrar"
 
 #: priv/mod_invites/invite_invalid.html:2
-#, fuzzy
 msgid "Invite Expired"
-msgstr "Usuários conectados"
+msgstr "Convite expirado"
 
 #: priv/mod_invites/apps.json:188
 msgid "Renga Logo"
-msgstr ""
+msgstr "Logotipo de Renga"
 
 #: priv/mod_invites/client.html:7
 msgid ""
 "You have been invited to chat with <strong>{{ inviter }}</strong> on "
 "{{ site_name }}, part of the XMPP secure and decentralized messaging network."
 msgstr ""
+"Recebeu um convite para conversar com <strong>{{ inviter }}</strong> em {{ "
+"site_name }}, parte da rede descentralizada e segura de mensageria XMPP."
 
 #: priv/mod_invites/index.html:77
-#, fuzzy
 msgid "Invite Options"
-msgstr "Opções"
+msgstr "Opções de convite"
 
 #: priv/mod_invites/reset_success.html:3
 msgid "Password Change Success"
-msgstr ""
+msgstr "Senha alterada com sucesso"
 
 #: priv/mod_invites/register_error.html:4
-#, fuzzy
 msgid "Registration error"
-msgstr "Registro em mod_irc para "
+msgstr "Erro no registro"
 
 #: priv/mod_invites/register_success.html:51
 msgid "Step 2: Connect {{ app_name }} to your new account"
-msgstr ""
+msgstr "Etapa 2: conectar {{ app_name }} a sua nova conta"
 
 #: priv/mod_invites/invite.html:7
 msgid ""
 "You have been invited to chat on <strong>{{ site_name }}</strong>, part of "
 "the XMPP secure and decentralized messaging network."
 msgstr ""
+"Recebeu convite para conversar em <strong>{{ site_name }}</strong>, parte da "
+"rede descentralizada e segura de mensageria XMPP."
 
 #: priv/mod_invites/register_success.html:56
 #: priv/mod_invites/reset_success.html:13
 msgid "As a final reminder, your account details are shown below:"
-msgstr ""
+msgstr "Como último lembrete, detalhes da sua conta aparecem abaixo:"
 
 #: priv/mod_invites/client.html:14
 msgid ""
 "You can start chatting right away with {{ app_name }}. Let's get started!"
-msgstr ""
+msgstr "Já pode começar a conversar usando {{ app_name }}. Vamos iniciar!"
 
 #: priv/mod_invites/client.html:57
 msgid ""
 "Installed ok? Great! <strong>Click or tap the button below</strong> to "
 "accept your invite and continue with your account setup:"
 msgstr ""
+"Já instalou? Ótimo! <strong>Acione o botão abaixo</strong> para aceitar o "
+"convite e continuar a preparação da sua conta:"
 
 #: priv/mod_invites/invite.html:9
-#, fuzzy
 msgid "Get started"
-msgstr "Reiniciar"
+msgstr "Começar"
 
 #: priv/mod_invites/register_success.html:6
 #: priv/mod_invites/reset_success.html:6
-#, fuzzy
 msgid "Congratulations!"
-msgstr "Configuração"
+msgstr "Parabéns!"
 
 #: priv/mod_invites/index.html:18 priv/mod_invites/index.html:17
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copiar para área de transferência"
 
 #: priv/mod_invites/base.html:10
 msgid "Scan with mobile device"
-msgstr ""
+msgstr "Escanear com dispositivo móvel"
 
 #: priv/mod_invites/register_success.html:28
 msgid "You can now set up {{ app_name }} and connect it to your new account."
-msgstr ""
+msgstr "Agora, pode configurar {{ app_name }} e conectar à sua nova conta."
 
 #: priv/mod_invites/register.html:11
 msgid ""
@@ -3266,64 +3246,74 @@ msgid ""
 "strong> and other people on <strong>{{ site_name }}</strong> and other "
 "services on the XMPP network."
 msgstr ""
+"Criar uma conta vai permitir que se comunique com <strong>{{ inviter }}</"
+"strong> e outras pessoas em <strong>{{ site_name }}</strong> e outros "
+"serviços na rede XMPP."
 
 #: priv/mod_invites/register_success.html:73
 #: priv/mod_invites/reset_success.html:30
 msgid "Hide"
-msgstr ""
+msgstr "Ocultar"
 
 #: priv/mod_invites/client.html:63
 msgid ""
 "After clicking the button you will be taken to {{ app_name }} to finish "
 "setting up your new {{ site_name }} account."
 msgstr ""
+"Após acionar o botão, {{ app_name }} será carregado para finalizar a "
+"preparação da sua nova conta em {{ site_name }}."
 
 #: priv/mod_invites/roster.html:10
 msgid "Add {{ inviter }} to your contact list"
-msgstr ""
+msgstr "Adicionar {{ inviter }} à sua lista de contatos"
 
 #: priv/mod_invites/invite.html:10
 msgid "To get started, you need to install an app for your platform:"
-msgstr ""
+msgstr "Para iniciar, é preciso instalar um aplicativo para sua plataforma:"
 
 #: priv/mod_invites/apps.json:112
 msgid ""
 "A lightweight and powerful XMPP client for iPhone and iPad. It provides an "
 "easy way to talk and share moments with your friends."
 msgstr ""
+"Um cliente leve e completo para iPhone e iPad. Proporciona um jeito fácil de "
+"falar e compartilhar momentos com seus amigos."
 
 #: priv/mod_invites/register_success.html:30
 msgid "Step 1: Download and install {{ app_name }}"
-msgstr ""
+msgstr "Etapa 1: baixar e instalar {{ app_name }}"
 
 #: priv/mod_invites/apps.json:132
 msgid ""
 "Launch Beagle IM, and select \\'Yes\\' to add a new account. Click the \\'+"
 "\\' button under the empty account list and then enter your credentials."
 msgstr ""
+"Inicie Beagle IM e selecione \\'Sim\\' para adicionar uma nova conta. Acione "
+"o botão \\'+\\' embaixo da lista vazia de contas e então informe suas "
+"credenciais."
 
 #: priv/mod_invites/reset_error.html:4
-#, fuzzy
 msgid "Password reset error"
-msgstr "Erro de análise de dados"
+msgstr "Erro ao redefinir senha"
 
 #: priv/mod_invites/base.html:26
 msgid ""
 "Use a <em>QR code</em> scanner on your mobile device to scan the code below:"
 msgstr ""
+"Use um digitalizador de <em>código QR</em> no seu dispositivo móvel para "
+"capturar o código abaixo:"
 
 #: priv/mod_invites/base_min.html:17
 msgid "Invite to {{ site_name }}"
-msgstr ""
+msgstr "Convite para {{ site_name }}"
 
 #: priv/mod_invites/invite.html:14
 msgid "Other software"
-msgstr ""
+msgstr "Outros programas"
 
 #: priv/mod_invites/register.html:24
-#, fuzzy
 msgid "Create an account"
-msgstr "Excluir uma conta XMPP"
+msgstr "Criar uma conta"
 
 #: priv/mod_invites/invite.html:15
 msgid ""
@@ -3332,15 +3322,19 @@ msgid ""
 "href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>register an account "
 "manually</a>."
 msgstr ""
+"Pode se conectar a {{ site_name }} utilizando qualquer programa compatível "
+"com XMPP. Se seu programa predileto não estiver na lista acima, ainda é "
+"possível <a href=\"{{ registration_url }}\" tabindex='{{ tabidx }}'>"
+"registrar manualmente uma conta</a>."
 
 #: priv/mod_invites/apps.json:98 priv/mod_invites/apps.json:56
 #: priv/mod_invites/apps.json:35
 msgid "Apple Store Logo"
-msgstr ""
+msgstr "Logotipo de Apple Store"
 
 #: priv/mod_invites/roster.html:3
 msgid "Add Contact"
-msgstr ""
+msgstr "Adicionar contato"
 
 #: priv/mod_invites/reset_token.html:9
 msgid ""
@@ -3348,58 +3342,61 @@ msgid ""
 "change your password, maybe because you forgot your old one, you've come to "
 "the right place!"
 msgstr ""
+"Ei, <strong class=\"text-alert\">{{ username }}</strong>, se quiser alterar "
+"sua senha, talvez porque esqueceu a antiga, veio ao lugar certo!"
 
 #: priv/mod_invites/apps.json:148
 msgid "Dino Logo"
-msgstr ""
+msgstr "Logotipo de Dino"
 
 #: priv/mod_invites/register_success.html:60
 #: priv/mod_invites/reset_success.html:17
 msgid "Chat address (JID)"
-msgstr ""
+msgstr "Endereço de conversa (JID)"
 
 #: priv/mod_invites/index.html:16
 msgid "Copied!"
-msgstr ""
+msgstr "Copiado!"
 
 #: priv/mod_invites/apps.json:125
 msgid "Beagle IM Logo"
-msgstr ""
+msgstr "Logotipo de Beagle IM"
 
 #: priv/mod_invites/base.html:31
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: priv/mod_invites/apps.json:28
 msgid ""
 "Conversations is a Jabber/XMPP client for Android 6.0+ smartphones that has "
 "been optimized to provide a unique mobile experience."
 msgstr ""
+"Conversations é um cliente Jabber/XMPP para espertofones Android 6.0+ "
+"otimizado para proporcionar uma experiência móvel única."
 
 #: priv/mod_invites/register.html:16
-#, fuzzy
 msgid "{{ app_name }} already installed?"
-msgstr "A gestão do fluxo já está ativada"
+msgstr "{{ app_name }} já está instalado?"
 
 #: priv/mod_invites/register_success.html:17
 msgid ""
 "<strong>No suitable software installed right now?</strong> You can also log "
 "in to your account through our online web chat!"
 msgstr ""
+"<strong>Sem nenhum programa instalado no momento?</strong> Também pode "
+"entrar na sua conta com nosso bate-papo pelo navegador!"
 
 #: priv/mod_invites/reset_token.html:31
-#, fuzzy
 msgid "New Password"
-msgstr "Nova Senha:"
+msgstr "Nova senha"
 
 #: priv/mod_invites/register.html:19
 msgid "This button works only if you have the app installed already!"
-msgstr ""
+msgstr "Este botão funciona apenas se já tiver o aplicativo instalado!"
 
 #: priv/mod_invites/register.html:3
-#, fuzzy
 msgid "Registration Form"
-msgstr "Registro em mod_irc para "
+msgstr "Formulário de registro"
 
 #: priv/mod_invites/index.html:46
 msgid ""
@@ -3408,80 +3405,92 @@ msgid ""
 "have the <strong>necessary rights</strong> to do so, otherwise this command "
 "will fail."
 msgstr ""
+"Este formulário permite que crie um convite que pode enviar a outra pessoa "
+"que vai conseguir criar uma nova conta neste serviço. Saiba que é preciso "
+"ter <strong>permissões necessárias</strong> para fazer isso, senão este "
+"comando vai falhar."
 
 #: priv/mod_invites/apps.json:154
 msgid ""
 "A modern open-source chat client for the desktop. It focuses on providing a "
 "clean and reliable Jabber/XMPP experience while having your privacy in mind."
 msgstr ""
+"Um cliente moderno e livre para área de trabalho. Está focado em "
+"proporcionar uma experiência Jabber/XMPP limpa e confiável, sem esquecer sua "
+"privacidade."
 
 #: priv/mod_invites/reset_token.html:10
 msgid "If this is not you, please disregard!"
-msgstr ""
+msgstr "Se não é você, por favor, desconsidere!"
 
 #: priv/mod_invites/apps.json:91
 msgid ""
 "A lean Jabber/XMPP client for Android. It aims at usability, low overhead "
 "and security, and works on low-end Android devices starting with Android 4.0."
 msgstr ""
+"Um cliente Jabber/XMPP enxuto para Android. Tem como alvo usabilidade, baixo "
+"consumo e segurança, funcionando em dispositivos de entrada, a partir de "
+"Android 4.0."
 
 #: priv/mod_invites/register.html:4
-#, fuzzy
 msgid "Register on {{ site_name }}"
-msgstr "Usuários registrados"
+msgstr "Registrar-se em {{ site_name }}"
 
 #: priv/mod_invites/apps.json:49
 msgid ""
 "A modern open-source chat client for iPhone and iPad. It is easy to use and "
 "has a clean user interface."
 msgstr ""
+"Um cliente de bate-papo moderno e livre para iPhone e iPad. É fácil de usar "
+"e tem uma interface de utilização limpa."
 
 #: priv/mod_invites/apps.json:70
 msgid ""
 "A modern open-source chat client for Mac. It is easy to use and has a clean "
 "user interface."
 msgstr ""
+"Um cliente de bate-papo moderno e livre para Mac. É fácil de usar e tem uma "
+"interface de utilização limpa."
 
 #: priv/mod_invites/register_success.html:53
 msgid "Launch {{ app_name }} and sign in using your account credentials."
-msgstr ""
+msgstr "Executar {{ app_name }} e entrar na conta usando suas credenciais."
 
 #: priv/mod_invites/client.html:9
 msgid ""
 "You have been invited to chat on {{ site_name }}, part of the XMPP secure "
 "and decentralized messaging network."
 msgstr ""
+"Recebeu convite para conversar em {{ site_name }}, parte da rede "
+"descentralizada e segura de mensageria XMPP."
 
 #: priv/mod_invites/apps.json:13
 msgid "F-Droid Store Logo"
-msgstr ""
+msgstr "Logotipo de F-Droid Store"
 
 #: priv/mod_invites/index.html:14
 msgid "Your Invite-Link:"
-msgstr ""
+msgstr "Sua ligação de convite:"
 
 #: priv/mod_invites/reset_token.html:15 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Reset Password"
-msgstr "Nova Senha:"
+msgstr "Redefinir senha"
 
 #: priv/mod_invites/reset_token.html:4
-#, fuzzy
 msgid "Reset Password on {{ site_name }}"
-msgstr "Usuários registrados"
+msgstr "Redefinir senha em {{ site_name }}"
 
 #: priv/mod_invites/index.html:4
-#, fuzzy
 msgid "Welcome to {{ site_name }}"
-msgstr "Usuários registrados"
+msgstr "Boas-vindas a {{ site_name }}"
 
 #: priv/mod_invites/base.html:8
 msgid "Send this invite to your device"
-msgstr ""
+msgstr "Enviar este convite para seu dispositivo"
 
 #: priv/mod_invites/client.html:55
 msgid "Step 2: Activate your account"
-msgstr ""
+msgstr "Etapa 2: ativar sua conta"
 
 #: priv/mod_invites/register.html:9
 msgid ""
@@ -3489,71 +3498,74 @@ msgid ""
 "messaging network. To begin chatting using <strong>{{ app_name }}</strong> "
 "you need to first register an account."
 msgstr ""
+"<strong>{{ site_name }}</strong> é parte de XMPP, uma rede descentralizada e "
+"segura de mensageria. Para começar a conversar usando <strong>{{ app_name }}"
+"</strong>, é preciso criar uma conta primeiro."
 
 #: priv/mod_invites/index.html:71
 msgid "Please provide a password!"
-msgstr ""
+msgstr "Forneça uma senha!"
 
 #: priv/mod_invites/roster.html:4
 msgid "{{ inviter }} has invited you to connect!"
-msgstr ""
+msgstr "{{ inviter }} convidou-o(a) para que se conecte!"
 
 #: priv/mod_invites/index.html:3
-#, fuzzy
 msgid "Startpage"
-msgstr "Iniciar"
+msgstr "Página inicial"
 
 #: priv/mod_invites/apps.json:141
 msgid "Download Dino for Linux"
-msgstr ""
+msgstr "Baixar Dino para GNU/Linux"
 
 #: priv/mod_invites/index.html:80
 msgid "Suggested Name"
-msgstr ""
+msgstr "Nome sugerido"
 
 #: priv/mod_invites/client.html:60
 msgid "Accept invite using {{ app_name }}"
-msgstr ""
+msgstr "Aceitar o convite utilizando {{ app_name }}"
 
 #: priv/mod_invites/apps.json:134
 msgid ""
 "Beagle IM by Tigase, Inc. is a lightweight and powerful XMPP client for "
 "macOS."
 msgstr ""
+"Beagle IM por Tigase Inc. é um cliente XMPP rápido e poderoso para macOS."
 
 #: priv/mod_invites/register_success.html:73
 #: priv/mod_invites/reset_success.html:30
 msgid "Show"
-msgstr ""
+msgstr "Exibir"
 
 #: priv/mod_invites/index.html:90
 msgid ""
 "You can suggest a username for the account to be created with this invite."
-msgstr ""
+msgstr "Pode sugerir um nome para a conta a ser criada com este convite."
 
 #: priv/mod_invites/register.html:54 priv/mod_invites/reset_token.html:39
 msgid "Enter a secure password that you do not use anywhere else."
-msgstr ""
+msgstr "Informe uma senha segura que não utiliza em qualquer outro lugar."
 
 #: priv/mod_invites/register_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem registering your account."
-msgstr "Houve um erro ao criar esta conta: "
+msgstr "Ocorreu um problema ao criar esta conta."
 
 #: priv/mod_invites/base.html:7
 msgid ""
 "<strong>Tip:</strong> You can open this invite on your mobile device by "
 "scanning a barcode with your camera."
 msgstr ""
+"<strong>Dica:</strong> pode abrir este convite no dispositivo móvel "
+"capturando o código de barras com a câmera."
 
 #: priv/mod_invites/apps.json:182
 msgid "Download Renga for Haiku"
-msgstr ""
+msgstr "Baixar Renga para Haiku"
 
 #: priv/mod_invites/base_min.html:6
-#, fuzzy
 msgid "Invite"
-msgstr "Usuários conectados"
+msgstr "Convite"
 
 #: priv/mod_invites/invite.html:5
 msgid ""
@@ -3561,14 +3573,17 @@ msgid ""
 "<strong>{{ site_name }}</strong>, part of the XMPP secure and decentralized "
 "messaging network."
 msgstr ""
+"Recebeu um convite para conversar com <strong>{{ inviter }}</strong> em "
+"<strong>{{ site_name }}</strong>, parte da rede descentralizada e segura de "
+"mensageria XMPP."
 
 #: priv/mod_invites/apps.json:63 priv/mod_invites/apps.json:42
 msgid "Monal Logo"
-msgstr ""
+msgstr "Logotipo de Monal"
 
 #: priv/mod_invites/invite_invalid.html:5
 msgid "Invite expired"
-msgstr ""
+msgstr "Convite vencido"
 
 #: priv/mod_invites/index.html:105 priv/mod_invites/register.html:61
 #: priv/mod_invites/reset_token.html:45
@@ -3576,65 +3591,66 @@ msgid "Submit"
 msgstr "Enviar"
 
 #: priv/mod_invites/apps.html:16
-#, fuzzy
 msgid "Select"
-msgstr "Selecione tudo"
+msgstr "Selecionar"
 
 #: priv/mod_invites/register.html:42
 msgid ""
 "Choose a username, this will become the first part of your new chat address."
 msgstr ""
+"Escolha o nome da conta, que se tornará a primeira parte do seu novo "
+"endereço de conversa."
 
 #: priv/mod_invites/index.html:62
 msgid "Enter the username you use to log into this service."
-msgstr ""
+msgstr "Informe o nome da conta que usa para entrar neste serviço."
 
 #: priv/mod_invites/base.html:20
 msgid "Scan invite code"
-msgstr ""
+msgstr "Capturar código de convite"
 
 #: priv/mod_invites/reset_success.html:8
-#, fuzzy
 msgid "You have changed your password on <strong>{{ site_name }}</strong>."
-msgstr "Você pode alterar a sua senha mais tarde usando um cliente XMPP."
+msgstr "Alterou a senha em <strong>{{ site_name }}</strong>."
 
 #: priv/mod_invites/index.html:4 priv/mod_invites/index.html:3
 #: priv/mod_invites/reset_token.html:4 priv/mod_invites/reset_token.html:3
-#, fuzzy
 msgid "Form Error"
-msgstr "Erro"
+msgstr "Erro no formulário"
 
 #: priv/mod_invites/reset_error.html:6
-#, fuzzy
 msgid "Sorry, there was a problem changing your account password."
-msgstr "Houve um erro ao criar esta conta: "
+msgstr "Houve um problema para alterar a senha da sua conta."
 
 #: priv/mod_invites/apps.json:194
 msgid "XMPP client for Haiku"
-msgstr ""
+msgstr "Cliente XMPP para Haiku"
 
 #: priv/mod_invites/index.html:97
 msgid "Add to contact list"
-msgstr ""
+msgstr "Adicionar à lista de contatos"
 
 #: priv/mod_invites/client.html:64 priv/mod_invites/index.html:37
 #: priv/mod_invites/register.html:64
 msgid "Page navigation"
-msgstr ""
+msgstr "Navegação da página"
 
 #: priv/mod_invites/index.html:73
 msgid "Enter the corresponding password."
-msgstr ""
+msgstr "Informe a senha correspondente."
 
 #: priv/mod_invites/register.html:9
 msgid ""
 "<strong>{{ site_name }}</strong> is part of XMPP, a secure and decentralized "
 "messaging network. To begin chatting you need to first register an account."
 msgstr ""
+"<strong>{{ site_name }}</strong> é parte de XMPP, uma rede descentralizada e "
+"segura de mensageria. Para começar a conversar, precisa criar uma conta "
+"primeiro."
 
 #: priv/mod_invites/register_success.html:20
 msgid "Log in via web"
-msgstr ""
+msgstr "Entrar pela Web"
 
 #: priv/mod_invites/register_success.html:82
 #: priv/mod_invites/reset_success.html:39
@@ -3642,54 +3658,60 @@ msgid ""
 "Your password is stored encrypted on the server and will not be accessible "
 "after you close this page. Keep it safe and never share it with anyone."
 msgstr ""
+"Sua senha é armazenada cifrada no servidor e não será acessível após fechar "
+"esta página. Mantenha-a segura e nunca a compartilhe com ninguém."
 
 #: priv/mod_invites/register_success.html:10
 msgid ""
 "To start chatting, you need to enter your new account credentials into your "
 "chosen XMPP software."
 msgstr ""
+"Para começar a conversar, precisa informar as credenciais da sua nova conta "
+"no programa XMPP que escolheu."
 
 #: priv/mod_invites/index.html:30
 msgid ""
 "You can transfer this invite to a mobile device by scanning the QR code "
 "below with its camera."
 msgstr ""
+"Pode transferir este convite para um dispositivo móvel capturando o código "
+"QR abaixo com a câmera."
 
 #: priv/mod_invites/index.html:16
-#, fuzzy
 msgid "Failed to copy data"
-msgstr "Falha ao analisar chanserv"
+msgstr "Falha ao copiar dados"
 
 #: priv/mod_invites/apps.json:167
 msgid "Gajim Logo"
-msgstr ""
+msgstr "Logotipo de Gajim"
 
 #: priv/mod_invites/register.html:52 priv/mod_invites/reset_token.html:37
 msgid "Please provide a password! Minimum length: {{ password_min_length }}"
-msgstr ""
+msgstr "Forneça uma senha! Comprimento mínimo: {{ password_min_length }}"
 
 #: priv/mod_invites/apps.json:20
-#, fuzzy
 msgid "Conversations Logo"
-msgstr "Transações de log:"
+msgstr "Logotipo de Conversations"
 
 #: priv/mod_invites/client.html:34
 msgid "Step 1: Install {{ app_name }}"
-msgstr ""
+msgstr "Etapa 1: instalar {{ app_name }}"
 
 #: priv/mod_invites/apps.json:145
 msgid ""
 "Click the button to open the Dino website where you can download and install "
 "it on your PC."
 msgstr ""
+"Acione o botão para abrir a página do Dino, em que pode baixá-lo e instalá-"
+"lo no seu PC."
 
 #: priv/mod_invites/index.html:59 priv/mod_invites/register.html:39
 msgid "Please provide a valid username!"
-msgstr ""
+msgstr "Forneça um nome de ocnta válido!"
 
 #: priv/mod_invites/roster.html:15
 msgid "Hint"
-msgstr ""
+msgstr "Dica"
 
 #: priv/mod_invites/apps.html:25
 msgid ""
@@ -3697,40 +3719,53 @@ msgid ""
 "only. You may also <a href='#' id='show-all-clients-button' "
 "tabindex=\"{{ tabidx }}\">view all apps.</a>"
 msgstr ""
+"Mostrando aplicativos apenas para <span class='platform-name'>sua plataforma "
+"atual</span>. Pode ainda <a href='#' id='show-all-clients-button' tabindex=\""
+"{{ tabidx }}\">ver todos aplicativos.</a>"
 
 #: priv/mod_invites/register.html:15
 msgid ""
 "If you already have {{ app_name }} installed, we recommend that you continue "
 "the account creation process using the app by clicking on the button below:"
 msgstr ""
+"Se já tiver instalado {{ app_name }}, recomendamos que continue o processo "
+"de criação da conta utilizando o aplicativo, acionando o botão abaixo:"
 
 #: priv/mod_invites/roster.html:15
 msgid ""
 "If you don't have an XMPP client installed yet, here's a list of suitable "
 "clients for your platform."
 msgstr ""
+"Se não tiver instalado ainda um cliente XMPP, eis uma lista de clientes "
+"apropriados para sua plataforma."
 
 #: priv/mod_invites/apps.json:119
 msgid "Download from Mac App Store"
-msgstr ""
+msgstr "Baixar da Mac App Store"
 
 #: priv/mod_invites/base.html:24
 msgid ""
 "You can transfer this invite to your mobile device by scanning a code with "
 "your camera."
 msgstr ""
+"Pode transferir este convite para seu dispositivo móvel capturando o código "
+"com a câmera."
 
 #: priv/mod_invites/reset_success.html:10
 msgid ""
 "To continue chatting, you need to enter your new account credentials into "
 "your chosen XMPP software."
 msgstr ""
+"Para continuar conversando, precisa inserir as credenciais da sua nova conta "
+"no programa XMPP que escolheu."
 
 #: priv/mod_invites/register.html:11
 msgid ""
 "Creating an account will allow to communicate with other people on "
 "<strong>{{ site_name }}</strong> and other services on the XMPP network."
 msgstr ""
+"Criar uma conta permitirá que se comunique com outras pessoas em <strong>{{ "
+"site_name }}</strong> e outros serviços na rede XMPP."
 
 #~ msgid "List of users with hats"
 #~ msgstr "Lista dos usuários com chapéus"
